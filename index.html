@@ -124,7 +124,7 @@ footer{font-size:12px;color:var(--muted);padding-bottom:30px}
 /* Marcador CL — resultados en vivo desde la API pública de ESPN (no oficial).
    Para agregar o quitar torneos edita TORNEOS. El campo "tv" es el canal en Chile. */
 const TZ = "America/Santiago";
-const API = "https://site.api.espn.com/apis/site/v2/sports/soccer/";
+const API = "https://site.web.api.espn.com/apis/site/v2/sports/soccer/";
 const LIVE_MS = 30000;      // refresco cuando hay partidos en vivo hoy
 const IDLE_MS = 5 * 60000;  // refresco normal
 
@@ -200,8 +200,7 @@ function parseEvent(ev, t) {
 }
 
 async function fetchTorneo(t, key) {
-  // Se pide el día anterior y el día elegido (la API agrupa por hora del este de EE.UU.)
-  const urls = [`${API}${t.slug}/scoreboard?dates=${compact(shift(key,-1))}-${compact(key)}`, `${API}${t.slug}/scoreboard?dates=${compact(key)}`];
+  const urls = [`${API}${t.slug}/scoreboard?dates=${compact(key)}&lang=es&region=cl`];
   for (const u of urls) {
     try {
       const r = await fetch(u, {cache:"no-store"});
