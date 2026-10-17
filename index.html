@@ -67,7 +67,36 @@ main{padding-block:16px 40px;display:flex;flex-direction:column;gap:18px}
 .comp-h h2{margin:0;font:700 13px var(--body);letter-spacing:.06em;text-transform:uppercase}
 .comp-h small{color:var(--muted);font-size:12px}
 .match{display:grid;grid-template-columns:88px minmax(0,1fr) auto;gap:12px;align-items:center;padding:11px 14px;border-top:1px solid var(--line)}
-.match:first-of-type{border-top:0}
+.match{border-top:0}
+.mwrap{border-top:1px solid var(--line)}
+.comp-h + .mwrap{border-top:0}
+button.match{width:100%;font:inherit;color:inherit;text-align:left;background:transparent;border:0;cursor:pointer;position:relative;padding-right:34px}
+button.match:hover{background:var(--surface-2)}
+button.match:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.chev{position:absolute;right:14px;top:50%;width:8px;height:8px;border-right:2px solid var(--muted);border-bottom:2px solid var(--muted);transform:translateY(-70%) rotate(45deg);transition:transform .15s}
+.mwrap.open .chev{transform:translateY(-30%) rotate(-135deg)}
+.mwrap.open button.match{background:var(--surface-2)}
+.det{padding:4px 14px 14px calc(14px + 88px + 12px);background:var(--surface-2);display:flex;flex-direction:column;gap:10px}
+.goals{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px 18px}
+.goals h5{margin:0 0 4px;font:700 11px var(--body);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.goals ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:5px}
+.goals li{display:flex;align-items:baseline;gap:7px;font-size:13.5px;line-height:1.3;min-width:0}
+.goals li em{font-style:normal;color:var(--muted);font-size:12px}
+.gm{font-variant-numeric:tabular-nums;font-weight:700;min-width:38px;color:var(--fg)}
+.ball{flex:none;width:9px;height:9px;border-radius:50%;background:var(--fg);box-shadow:inset 0 0 0 2px var(--surface-2),0 0 0 1px var(--fg);align-self:flex-start;margin-top:5px}
+.card{flex:none;width:8px;height:11px;border-radius:2px;background:var(--live);align-self:flex-start;margin-top:4px}
+.dmsg{margin:0;font-size:13px;color:var(--muted)}
+.src{margin:0;font-size:11.5px;color:var(--muted);line-height:1.4}
+.src .ok{color:var(--soon);font-weight:700}
+.src .warn{color:var(--live);font-weight:700}
+.actions{display:flex;align-items:center;gap:12px}
+.refresh{display:inline-flex;align-items:center;gap:7px;border:1px solid var(--line);background:var(--bg);color:var(--fg);font:600 13px var(--body);padding:8px 13px;border-radius:999px;cursor:pointer;white-space:nowrap}
+.refresh:hover{border-color:var(--fg)}
+.refresh:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.refresh:disabled{cursor:progress;opacity:.75}
+.refresh.busy svg{animation:spin .8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.refresh.busy svg{animation:none}.chev{transition:none}}
 .when{font-variant-numeric:tabular-nums;font-family:var(--display);font-weight:600;font-size:17px;line-height:1.1}
 .when small{display:block;white-space:nowrap;font-family:var(--body);font-size:10px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
 .when.live{color:var(--live)} .when.live small{color:var(--live)}
@@ -103,6 +132,9 @@ html{color-scheme:light}body{margin:0}
 footer{font-size:12px;color:var(--muted);padding-bottom:30px}
 @media (max-width:520px){
   .match{grid-template-columns:78px minmax(0,1fr);row-gap:6px;column-gap:10px}
+  .det{padding-left:14px}
+  .top{align-items:center}
+  .upd{font-size:11.5px}
   .tv{grid-column:2;justify-self:start;text-align:left;max-width:none}
   .tv b{display:inline;margin-right:6px}
   h1{font-size:26px}
@@ -113,7 +145,10 @@ footer{font-size:12px;color:var(--muted);padding-bottom:30px}
   <div class="wrap">
     <div class="top">
       <h1>Marcador <span>CL</span></h1>
-      <div class="upd" id="upd">Conectando con los resultados…</div>
+      <div class="actions">
+        <div class="upd" id="upd">Conectando con los resultados…</div>
+        <button type="button" class="refresh" id="refresh" aria-label="Actualizar resultados ahora"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.34-5.66" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><path d="M20 4v5h-5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Actualizar</span></button>
+      </div>
     </div>
     <div class="tabs" id="tabs" role="toolbar" aria-label="Ligas"></div>
     <div class="days" id="days" role="toolbar" aria-label="Días"></div>
@@ -123,15 +158,17 @@ footer{font-size:12px;color:var(--muted);padding-bottom:30px}
 <main class="wrap" id="main">
   <div class="empty"><h3>Cargando partidos</h3>Los resultados de Chile, España, Inglaterra, Alemania y Argentina aparecerán aquí en unos segundos.</div>
 </main>
-<footer class="wrap" id="foot">Horarios en hora de Chile. Resultados: ESPN (fuente pública no oficial). Los canales son los que transmiten en Chile; confirma en la guía de tu cableoperador.</footer>
+<footer class="wrap" id="foot">Horarios en hora de Chile. Resultados: ESPN y FotMob, contrastados entre sí (fuentes públicas no oficiales). Toca un partido jugado para ver los goles. Los canales son los que transmiten en Chile; confirma en la guía de tu cableoperador.</footer>
 <script>
 /* Marcador CL — resultados en vivo.
-   Fuentes: API pública de ESPN (ligas europeas, Argentina y copas internacionales)
-   y FotMob (todo el fútbol chileno: Liga de Primera, Primera B, Copa de la Liga, Copa Chile).
+   Dos fuentes que se contrastan entre sí: la API pública de ESPN y FotMob.
+   - Ligas europeas, Argentina y copas internacionales: se muestran desde ESPN y se verifican con FotMob.
+   - Fútbol chileno: se muestra desde FotMob (cubre Primera B y Copa de la Liga) y se verifica con ESPN cuando existe.
+   Si las fuentes no coinciden, se muestra el dato más avanzado (el partido terminado o el minuto más reciente).
    Para agregar o quitar torneos edita TORNEOS. El campo "tv" es el canal en Chile. */
 const TZ = "America/Santiago";
 const ESPN = "https://site.web.api.espn.com/apis/site/v2/sports/soccer/";
-const FOTMOB = "https://www.fotmob.com/api/data/matches";
+const FOTMOB = "https://www.fotmob.com/api/data/";
 const LIVE_MS = 30000;      // refresco cuando hay partidos en vivo o por empezar hoy
 const IDLE_MS = 5 * 60000;  // refresco normal
 
@@ -147,7 +184,7 @@ const LIGAS = [
 /* nivel: 1 = primera división · 2 = copas internacionales · 3 = copas nacionales · 4 = segunda división */
 const NIVELES = {1:"Primera división", 2:"Copas internacionales", 3:"Copas nacionales", 4:"Segunda división"};
 const TORNEOS = [
-  // Chile (FotMob: un solo pedido trae todos los torneos chilenos)
+  // Chile (se muestran desde FotMob)
   {fm:273,   liga:"chile", nivel:1, nombre:"Liga de Primera", tv:"TNT Sports Premium · HBO Max"},
   {fm:11697, liga:"chile", nivel:3, nombre:"Copa de la Liga", tv:"TNT Sports Premium · HBO Max"},
   {fm:9091,  liga:"chile", nivel:3, nombre:"Copa Chile", tv:"TNT Sports (partidos seleccionados)"},
@@ -178,17 +215,24 @@ const TORNEOS = [
   {slug:"conmebol.libertadores", liga:"internacional", nivel:2, nombre:"Copa Libertadores", tv:"ESPN · Disney+ Premium (algunos por CHV)"},
   {slug:"conmebol.sudamericana", liga:"internacional", nivel:2, nombre:"Copa Sudamericana", tv:"ESPN · Disney+ Premium · DSports"}
 ];
-const ESPN_T = TORNEOS.filter(t => t.slug);
+// Torneos chilenos que ESPN también tiene: se consultan solo para verificar y traer goleadores
+const ESPN_VERIF = [
+  {slug:"chi.1", liga:"chile", nivel:1, nombre:"Liga de Primera", verif:true},
+  {slug:"chi.copa_chi", liga:"chile", nivel:3, nombre:"Copa Chile", verif:true}
+];
+const ESPN_T = TORNEOS.filter(t => t.slug).concat(ESPN_VERIF);
 const FM_T = Object.fromEntries(TORNEOS.filter(t => t.fm).map(t => [t.fm, t]));
 const COLOR = Object.fromEntries(LIGAS.map(l => [l.id, l.c]));
 const ORDER = ["chile","espana","inglaterra","alemania","argentina","internacional"];
 const TORDER = Object.fromEntries(TORNEOS.map((t, i) => [t.nombre, i]));
+const FUENTE = {espn:"ESPN", fm:"FotMob"};
 
-const state = {liga:"todos", dia:null, cache:{}, lastOk:null, errors:0};
+const state = {liga:"todos", dia:null, cache:{}, lastOk:null, errors:0, open:new Set(), det:{}};
 try { const s = localStorage.getItem("mcl-liga"); if (s && LIGAS.some(l => l.id === s)) state.liga = s; } catch (e) {}
 
 const dayKey = d => new Intl.DateTimeFormat("en-CA",{timeZone:TZ,year:"numeric",month:"2-digit",day:"2-digit"}).format(d);
 const fmtTime = d => new Intl.DateTimeFormat("es-CL",{timeZone:TZ,hour:"2-digit",minute:"2-digit",hour12:false}).format(d);
+const fmtTimeS = d => new Intl.DateTimeFormat("es-CL",{timeZone:TZ,hour:"2-digit",minute:"2-digit",second:"2-digit",hour12:false}).format(d);
 const fmtDW = k => new Intl.DateTimeFormat("es-CL",{weekday:"short"}).format(new Date(k+"T12:00:00")).replace(".","");
 const fmtLong = k => new Intl.DateTimeFormat("es-CL",{weekday:"long",day:"numeric",month:"long"}).format(new Date(k+"T12:00:00"));
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -196,8 +240,15 @@ const todayKey = () => dayKey(new Date());
 const shift = (k, n) => { const d = new Date(k+"T12:00:00"); d.setDate(d.getDate()+n); return d.toISOString().slice(0,10); };
 const compact = k => k.replace(/-/g,"");
 const num = v => (v === undefined || v === null || v === "") ? null : Number(v);
+const isLive = p => p.estado === "en_vivo" || p.estado === "entretiempo";
+const started = p => isLive(p) || p.estado === "final";
 
 /* ---------- ESPN ---------- */
+function espnMinute(d) {
+  const v = d.clock?.displayValue;
+  if (v) return v.replace(/['’\s]/g, "") + "'";
+  const s = Number(d.clock?.value); return Number.isFinite(s) ? Math.floor(s / 60) + 1 + "'" : "";
+}
 function parseEspn(ev, t) {
   const comp = ev.competitions?.[0] || {};
   const cs = comp.competitors || [];
@@ -206,19 +257,29 @@ function parseEspn(ev, t) {
   const st = ev.status?.type || {};
   const name = st.name || "";
   let estado = "programado";
-  if (st.state === "in") estado = /HALF/.test(name) ? "entretiempo" : "en_vivo";
+  if (st.state === "in") estado = /HALFTIME|HALF_TIME/.test(name) ? "entretiempo" : "en_vivo";
   else if (st.state === "post") estado = /POSTPON|CANCEL|ABANDON|SUSPEND/.test(name) ? "postergado" : "final";
   else if (/POSTPON|CANCEL|SUSPEND/.test(name)) estado = "postergado";
   else if (/TBD/.test(name)) estado = "por_programar";
   const scored = estado === "en_vivo" || estado === "entretiempo" || estado === "final";
   const tname = c => c.team?.shortDisplayName?.trim() || c.team?.displayName || "Por definir";
+  const homeId = home.team?.id || home.id;
+  const det = (comp.details || []).filter(d => !d.shootout);
+  const who = d => d.athletesInvolved?.[0]?.displayName || d.athletesInvolved?.[0]?.shortName || "Jugador sin identificar";
+  const goles = det.filter(d => d.scoringPlay || /goal/i.test(d.type?.text || "")).map(d => ({
+    min: espnMinute(d), nombre: who(d), local: String(d.team?.id) === String(homeId), pen: !!d.penaltyKick, ec: !!d.ownGoal
+  }));
+  const rojas = det.filter(d => d.redCard).map(d => ({min: espnMinute(d), nombre: who(d), local: String(d.team?.id) === String(homeId)}));
   return {
+    src:"espn", key:"e" + ev.id, id:ev.id, verif:!!t.verif,
     liga:t.liga, nivel:t.nivel, torneo:t.nombre, tv:t.tv,
     _d:new Date(ev.date), local:tname(home), visita:tname(away),
+    altL:home.team?.displayName, altV:away.team?.displayName,
     logoL:home.team?.logo, logoV:away.team?.logo,
     gl:scored ? num(home.score) : null, gv:scored ? num(away.score) : null,
     pl:home.shootoutScore, pv:away.shootoutScore,
-    estado, minuto:(ev.status?.displayClock || "").replace("'", ""), detalle:st.shortDetail || ""
+    estado, minuto:(ev.status?.displayClock || "").replace("'", ""), detalle:st.shortDetail || "",
+    goles: scored ? goles : null, rojas
   };
 }
 async function fetchEspn(t, key) {
@@ -228,9 +289,9 @@ async function fetchEspn(t, key) {
   return (j.events || []).map(e => parseEspn(e, t)).filter(p => dayKey(p._d) === key);
 }
 
-/* ---------- FotMob (fútbol chileno) ---------- */
+/* ---------- FotMob ---------- */
 const fmLogo = id => id ? `https://images.fotmob.com/image_resources/logo/teamlogo/${id}_small.png` : null;
-function parseFotmob(m, t) {
+function parseFotmob(m, t, mostrar) {
   const s = m.status || {};
   const short = s.reason?.short || "";
   let estado = "programado", minuto = "";
@@ -242,47 +303,148 @@ function parseFotmob(m, t) {
   }
   const scored = estado === "en_vivo" || estado === "entretiempo" || estado === "final";
   return {
+    src:"fm", key:"f" + m.id, id:m.id, mostrar,
     liga:t.liga, nivel:t.nivel, torneo:t.nombre, tv:t.tv,
     _d:new Date(s.utcTime), local:m.home?.name || "Por definir", visita:m.away?.name || "Por definir",
+    altL:m.home?.longName, altV:m.away?.longName,
     logoL:fmLogo(m.home?.id), logoV:fmLogo(m.away?.id),
     gl:scored ? num(m.home?.score) : null, gv:scored ? num(m.away?.score) : null,
-    pl:null, pv:null, estado, minuto, detalle:/AET|Pen|ET/i.test(short) ? short : ""
+    pl:null, pv:null, estado, minuto, detalle:/AET|Pen|ET/i.test(short) ? short : "",
+    goles:null, rojas:null
   };
 }
 async function fetchFotmob(key) {
-  const r = await fetch(`${FOTMOB}?date=${compact(key)}&timezone=${encodeURIComponent(TZ)}&ccode3=CHL`, {cache:"no-store"});
+  const r = await fetch(`${FOTMOB}matches?date=${compact(key)}&timezone=${encodeURIComponent(TZ)}&ccode3=CHL`, {cache:"no-store"});
   if (!r.ok) throw new Error("fotmob");
   const j = await r.json();
   const out = [];
   for (const l of j.leagues || []) {
-    if (l.ccode !== "CHI") continue;
-    const t = FM_T[l.primaryId] || {liga:"chile", nivel:3, nombre:l.name, tv:"Por confirmar"};
-    for (const m of l.matches || []) { const p = parseFotmob(m, t); if (!isNaN(p._d) && dayKey(p._d) === key) out.push(p); }
+    const chile = l.ccode === "CHI";
+    const t = FM_T[l.primaryId] || (chile ? {liga:"chile", nivel:3, nombre:l.name, tv:"Por confirmar"} : {liga:null, nivel:0, nombre:l.name, tv:""});
+    for (const m of l.matches || []) {
+      const p = parseFotmob(m, t, chile);
+      if (!isNaN(p._d) && dayKey(p._d) === key) out.push(p);
+    }
   }
   return out;
 }
-
-/* ---------- carga ---------- */
-async function loadDay(key) {
-  const jobs = [fetchFotmob(key), ...ESPN_T.map(t => fetchEspn(t, key))];
-  const results = await Promise.allSettled(jobs);
-  const list = []; let fails = 0;
-  results.forEach(r => r.status === "fulfilled" ? list.push(...r.value) : fails++);
-  if (fails === jobs.length) { state.errors++; renderUpd(); if (!state.cache[key]) render(); return; }
-  state.errors = 0;
-  state.cache[key] = {at:Date.now(), list:list.sort((a,b) => a._d - b._d)};
-  if (key === state.dia || key === todayKey()) state.lastOk = new Date();
-  render(); renderUpd();
+// Detalle de un partido en FotMob (goles y tarjetas rojas), solo cuando ESPN no lo tiene
+async function fetchFotmobDet(id) {
+  let j = null;
+  for (const u of [`${FOTMOB}matchDetails?matchId=${id}`, `https://www.fotmob.com/api/matchDetails?matchId=${id}`]) {
+    try { const r = await fetch(u, {cache:"no-store"}); if (r.ok) { j = await r.json(); break; } } catch (e) {}
+  }
+  if (!j) throw new Error("det");
+  const fmtMin = e => {
+    let t = String(e.timeStr ?? e.time ?? "").replace(/['’]/g, "");
+    if (e.overloadTime && !t.includes("+")) t += "+" + e.overloadTime;
+    return t ? t + "'" : "";
+  };
+  const evs = j.content?.matchFacts?.events?.events;
+  if (Array.isArray(evs)) {
+    return {
+      goles: evs.filter(e => e.type === "Goal").map(e => ({
+        min: fmtMin(e), nombre: e.player?.name || e.nameStr || e.fullName || "Jugador sin identificar", local: !!e.isHome,
+        pen: /pen/i.test(e.goalDescription || "") || !!e.isPenalty, ec: !!e.ownGoal
+      })),
+      rojas: evs.filter(e => e.type === "Card" && /red/i.test(e.card || "")).map(e => ({min: fmtMin(e), nombre: e.player?.name || e.nameStr || "", local: !!e.isHome}))
+    };
+  }
+  const h = j.header?.events;
+  if (h && (h.homeTeamGoals || h.awayTeamGoals)) {
+    const flat = (o, local) => Object.values(o || {}).flat().map(e => ({min: fmtMin(e), nombre: e.fullName || e.nameStr || e.player?.name || "", local, pen: !!e.isPenalty || /pen/i.test(e.goalDescription || ""), ec: !!e.ownGoal}));
+    const goles = flat(h.homeTeamGoals, true).concat(flat(h.awayTeamGoals, false)).sort((a,b) => parseInt(a.min) - parseInt(b.min));
+    return {goles, rojas:[]};
+  }
+  throw new Error("formato");
 }
 
-const isLive = p => p.estado === "en_vivo" || p.estado === "entretiempo";
+/* ---------- emparejar las dos fuentes ---------- */
+const STOP = new Set(["fc","cf","cd","club","de","del","la","las","los","el","the","ud","sc","ac","afc","ca","cs","sd","rc","us","ss","as","fk","sk","sv","vfb","vfl","tsg","bsc","deportes","football","futbol","united","city"]);
+const toks = s => String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9 ]/g, " ").split(/\s+/).filter(w => w.length >= 3 && !STOP.has(w));
+function same(a, b) {
+  const A = toks(a), B = toks(b);
+  return A.some(x => B.some(y => x === y || (x.length >= 3 && y.startsWith(x)) || (y.length >= 3 && x.startsWith(y))));
+}
+const sameTeam = (p, side, q, side2) => same(p[side], q[side2]) || same(p[side === "local" ? "altL" : "altV"], q[side2 === "local" ? "altL" : "altV"]) || same(p[side], q[side2 === "local" ? "altL" : "altV"]) || same(p[side === "local" ? "altL" : "altV"], q[side2]);
+function findTwin(p, pool) {
+  let best = null, bestScore = 0;
+  for (const q of pool) {
+    if (Math.abs(q._d - p._d) > 20 * 60000) continue;
+    const n = (sameTeam(p,"local",q,"local") ? 1 : 0) + (sameTeam(p,"visita",q,"visita") ? 1 : 0);
+    const s = (sameTeam(p,"local",q,"visita") ? 1 : 0) + (sameTeam(p,"visita",q,"local") ? 1 : 0);
+    if (n > bestScore && n >= s) { best = {q, swap:false}; bestScore = n; }
+    if (s > bestScore && s > n) { best = {q, swap:true}; bestScore = s; }
+  }
+  return best;
+}
+const RANK = {programado:0, por_programar:0, postergado:0, en_vivo:2, entretiempo:2, final:3};
+const minNum = p => {
+  if (p.estado === "entretiempo") return 45.5;
+  const m = String(p.minuto || "").match(/(\d+)(?:\+(\d+))?/);
+  return m ? Number(m[1]) + (m[2] ? Number(m[2]) / 100 : 0) : 0;
+};
+function pickBest(a, b) {
+  if (RANK[a.estado] !== RANK[b.estado]) return RANK[a.estado] > RANK[b.estado] ? a : b;
+  if (isLive(a) && isLive(b)) {
+    if (minNum(a) !== minNum(b)) return minNum(a) > minNum(b) ? a : b;
+    return ((b.gl ?? 0) + (b.gv ?? 0)) > ((a.gl ?? 0) + (a.gv ?? 0)) ? b : a;
+  }
+  return a;
+}
+const flipEv = l => l && l.map(g => ({...g, local: !g.local}));
+function merge(p, tw) {
+  const yo = {src:p.src, gl:p.gl, gv:p.gv, estado:p.estado, minuto:p.minuto};
+  if (!tw) return {...p, fmId: p.src === "fm" ? p.id : null, fuentes:[yo]};
+  const q = tw.q;
+  const o = tw.swap ? {...q, gl:q.gv, gv:q.gl, goles:flipEv(q.goles), rojas:flipEv(q.rojas)} : q;
+  const b = pickBest(p, o);
+  const goles = (p.goles && (p.goles.length || !((p.gl ?? 0) + (p.gv ?? 0)))) ? p.goles : (o.goles && o.goles.length ? o.goles : p.goles || o.goles);
+  return {
+    ...p, gl:b.gl, gv:b.gv, estado:b.estado, minuto:b.minuto, detalle:b.detalle || p.detalle,
+    goles, golesSrc: goles === p.goles ? p.src : o.src, rojas: (p.rojas && p.rojas.length) ? p.rojas : (o.rojas || p.rojas),
+    fmId: p.src === "fm" ? p.id : (o.src === "fm" ? o.id : null),
+    fuentes:[yo, {src:o.src, gl:o.gl, gv:o.gv, estado:o.estado, minuto:o.minuto}]
+  };
+}
+function build(raw) {
+  const prim = raw.espn.filter(p => !p.verif).concat(raw.fm.filter(p => p.mostrar));
+  return prim.map(p => merge(p, findTwin(p, p.src === "espn" ? raw.fm : raw.espn))).sort((a,b) => a._d - b._d);
+}
 
+/* ---------- carga ---------- */
+const inflight = {};
+let rq = 0;
+const queueRender = () => { if (!rq) rq = requestAnimationFrame(() => { rq = 0; render(); }); };
+function loadDay(key) {
+  if (inflight[key]) return inflight[key];
+  const run = (async () => {
+    const first = !state.cache[key];
+    const raw = {espn:[], fm:[]};
+    const partial = () => { if (first) { state.cache[key] = {at:Date.now(), list:build(raw), partial:true}; queueRender(); } };
+    const jobs = [fetchFotmob(key).then(r => { raw.fm = r; partial(); })]
+      .concat(ESPN_T.map(t => fetchEspn(t, key).then(r => { raw.espn.push(...r); partial(); })));
+    const res = await Promise.allSettled(jobs);
+    if (res.every(r => r.status === "rejected")) { state.errors++; renderUpd(); render(); return; }
+    state.errors = 0;
+    state.cache[key] = {at:Date.now(), list:build(raw)};
+    // Los partidos abiertos en vivo vuelven a pedir su detalle a FotMob
+    for (const p of state.cache[key].list) if (state.open.has(p.key) && isLive(p) && p.fmId) delete state.det[p.fmId];
+    if (key === state.dia || key === todayKey()) state.lastOk = new Date();
+    render(); renderUpd();
+  })();
+  inflight[key] = run;
+  run.finally(() => { delete inflight[key]; });
+  return run;
+}
+
+/* ---------- vista ---------- */
 function renderUpd() {
   const el = document.getElementById("upd");
-  if (state.errors && !state.lastOk) { el.innerHTML = `<span class="stale">No se pudo conectar con la fuente de resultados.</span><br>Reintentando…`; return; }
+  if (state.errors && !state.lastOk) { el.innerHTML = `<span class="stale">No se pudo conectar con las fuentes.</span><br>Reintentando…`; return; }
   if (!state.lastOk) { el.textContent = "Conectando…"; return; }
   const live = (state.cache[todayKey()]?.list || []).some(isLive);
-  el.innerHTML = `Actualizado <b>${fmtTime(state.lastOk)}</b>${state.errors ? ' <span class="stale">· sin conexión</span>' : ""}<br>${live ? '<span class="dot" style="display:inline-block;margin-right:4px"></span>En vivo · cada 30 s' : "Se actualiza cada 5 min"}`;
+  el.innerHTML = `Actualizado <b>${fmtTimeS(state.lastOk)}</b>${state.errors ? ' <span class="stale">· sin conexión</span>' : ""}<br>${live ? '<span class="dot" style="display:inline-block;margin-right:4px"></span>En vivo · cada 30 s' : "Automático cada 5 min"}`;
 }
 
 function render() {
@@ -314,11 +476,14 @@ function render() {
   if (live.length) html += `<div class="live-strip"><span class="dot"></span>${live.length} partido${live.length > 1 ? "s" : ""} en vivo</div>`;
   html += `<div class="day-title">${state.dia === hoy ? "Hoy, " : ""}${fmtLong(state.dia)}</div>`;
   if (!entry) {
-    html += `<div class="empty"><h3>Cargando partidos</h3>Consultando ${TORNEOS.length} torneos…</div>`;
+    html += state.errors
+      ? `<div class="empty"><h3>Sin conexión</h3>No se pudieron cargar los resultados. Revisa tu internet y presiona Actualizar.</div>`
+      : `<div class="empty"><h3>Cargando partidos</h3>Consultando ${TORNEOS.length} torneos en dos fuentes…</div>`;
   } else if (!filtered.length) {
-    html += `<div class="empty"><h3>Sin partidos este día</h3>Elige otro día en la barra superior o cambia de liga.</div>`;
+    html += entry.partial
+      ? `<div class="empty"><h3>Cargando partidos</h3>Consultando ${TORNEOS.length} torneos en dos fuentes…</div>`
+      : `<div class="empty"><h3>Sin partidos este día</h3>Elige otro día en la barra superior o cambia de liga.</div>`;
   } else {
-    // Agrupa por nivel (primera división, copas internacionales, copas nacionales, segunda división) y luego por torneo
     for (const nivel of [1,2,3,4]) {
       const items = filtered.filter(p => p.nivel === nivel);
       if (!items.length) continue;
@@ -346,16 +511,85 @@ function matchHTML(p) {
   const sc = (v, pen) => has ? `<span class="sc">${v}${pen != null ? `<small class="pen">(${pen})</small>` : ""}</span>` : `<span class="sc none">–</span>`;
   const logo = u => u ? `<img class="lg" src="${esc(u)}" alt="" loading="lazy" width="18" height="18" onerror="this.style.visibility='hidden'">` : `<span class="lg"></span>`;
   const tv = (p.tv && p.tv !== "Por confirmar") ? `<div class="tv"><b>Dónde verlo</b><span>${esc(p.tv)}</span></div>` : `<div class="tv"><b>Dónde verlo</b>Por confirmar</div>`;
-  return `<div class="match"><div class="when ${cls}">${top}${sub}</div><div class="teams">
+  const body = `<div class="when ${cls}">${top}${sub}</div><div class="teams">
     <div class="team ${wl(p.gl,p.gv)}"><span class="nm">${logo(p.logoL)}<span class="tn">${esc(p.local)}</span></span>${sc(p.gl,p.pl)}</div>
-    <div class="team ${wl(p.gv,p.gl)}"><span class="nm">${logo(p.logoV)}<span class="tn">${esc(p.visita)}</span></span>${sc(p.gv,p.pv)}</div></div>${tv}</div>`;
+    <div class="team ${wl(p.gv,p.gl)}"><span class="nm">${logo(p.logoV)}<span class="tn">${esc(p.visita)}</span></span>${sc(p.gv,p.pv)}</div></div>${tv}`;
+  if (!started(p)) return `<div class="mwrap"><div class="match">${body}</div></div>`;
+  const open = state.open.has(p.key);
+  const n = (p.gl ?? 0) + (p.gv ?? 0);
+  return `<div class="mwrap${open ? " open" : ""}"><button type="button" class="match clk" data-key="${esc(p.key)}" aria-expanded="${open}" aria-label="${esc(p.local)} ${p.gl ?? ""} ${esc(p.visita)} ${p.gv ?? ""}. ${open ? "Ocultar" : "Ver"} ${n ? "goles" : "detalle"}">${body}<span class="chev" aria-hidden="true"></span></button>${open ? `<div class="det">${detHTML(p)}</div>` : ""}</div>`;
 }
 
+function detData(p) {
+  const total = (p.gl ?? 0) + (p.gv ?? 0);
+  const espnOk = p.goles && (p.goles.length >= total || (p.goles.length && !p.fmId));
+  if (espnOk || (total === 0 && p.goles)) return {status:"ok", goles:p.goles, rojas:p.rojas || [], src:p.golesSrc || p.src};
+  if (p.fmId) {
+    const d = state.det[p.fmId];
+    if (!d) {
+      state.det[p.fmId] = {status:"loading"};
+      fetchFotmobDet(p.fmId).then(r => { state.det[p.fmId] = {status:"ok", ...r, src:"fm"}; }).catch(() => { state.det[p.fmId] = {status:"err"}; }).finally(queueRender);
+      return {status:"loading"};
+    }
+    if (d.status === "err" && p.goles && p.goles.length) return {status:"ok", goles:p.goles, rojas:p.rojas || [], src:p.golesSrc || p.src};
+    return d;
+  }
+  return p.goles ? {status:"ok", goles:p.goles, rojas:p.rojas || [], src:p.golesSrc || p.src} : {status:"err"};
+}
+
+function detHTML(p) {
+  const d = detData(p);
+  const total = (p.gl ?? 0) + (p.gv ?? 0);
+  let body;
+  if (d.status === "loading") body = `<p class="dmsg">Buscando los goles…</p>`;
+  else if (d.status === "err") body = `<p class="dmsg">${total ? "El detalle de goles no está disponible para este partido." : "Sin goles por ahora."}</p>`;
+  else if (!d.goles.length && !d.rojas.length) body = `<p class="dmsg">${total ? "Las fuentes aún no publican quién marcó." : "Sin goles por ahora."}</p>`;
+  else {
+    const col = local => {
+      const g = d.goles.filter(x => x.local === local).map(x => `<li><span class="gm">${esc(x.min)}</span><span class="ball" aria-hidden="true"></span><span>${esc(x.nombre)}${x.pen ? ' <em>(penal)</em>' : ""}${x.ec ? ' <em>(en contra)</em>' : ""}</span></li>`);
+      const r = (d.rojas || []).filter(x => x.local === local).map(x => `<li class="rc"><span class="gm">${esc(x.min)}</span><span class="card" aria-label="Tarjeta roja"></span><span>${esc(x.nombre)} <em>(expulsado)</em></span></li>`);
+      const items = g.concat(r);
+      return items.length ? `<ul>${items.join("")}</ul>` : `<p class="dmsg">—</p>`;
+    };
+    body = `<div class="goals"><div><h5>${esc(p.local)}</h5>${col(true)}</div><div><h5>${esc(p.visita)}</h5>${col(false)}</div></div>`;
+    if (d.goles.length && d.goles.length < total) body += `<p class="dmsg">Faltan goles por confirmar en la fuente.</p>`;
+  }
+  return body + srcHTML(p, d);
+}
+
+function srcHTML(p, d) {
+  const s = f => {
+    if (!started(f)) return `${FUENTE[f.src]}: sin comenzar`;
+    return `${FUENTE[f.src]}: ${f.gl ?? "–"}–${f.gv ?? "–"}${isLive(f) ? (f.estado === "entretiempo" ? " (ET)" : f.minuto ? ` (${esc(f.minuto)}')` : "") : ""}`;
+  };
+  const fs = p.fuentes || [];
+  let estado = "";
+  if (fs.length === 2) {
+    const ok = fs[0].gl === fs[1].gl && fs[0].gv === fs[1].gv && RANK[fs[0].estado] === RANK[fs[1].estado];
+    estado = ok ? `<span class="ok">Coinciden</span>` : `<span class="warn">No coinciden: se muestra el más actualizado</span>`;
+  } else estado = `<span>Solo una fuente disponible</span>`;
+  const gsrc = d && d.status === "ok" && d.src ? ` · Goles: ${FUENTE[d.src]}` : "";
+  return `<p class="src">${fs.map(s).join(" · ")} · ${estado}${gsrc}</p>`;
+}
+
+/* ---------- interacción ---------- */
 document.addEventListener("click", e => {
+  const m = e.target.closest("[data-key]");
+  if (m) { const k = m.dataset.key; state.open.has(k) ? state.open.delete(k) : state.open.add(k); render(); return; }
   const t = e.target.closest("[data-liga]");
   if (t) { state.liga = t.dataset.liga; try { localStorage.setItem("mcl-liga", state.liga); } catch (_) {} render(); return; }
   const d = e.target.closest("[data-dia]");
   if (d) { state.dia = d.dataset.dia; render(); if (!state.cache[state.dia] || Date.now() - state.cache[state.dia].at > IDLE_MS) loadDay(state.dia); }
+});
+
+const btn = document.getElementById("refresh");
+btn.addEventListener("click", async () => {
+  if (btn.disabled) return;
+  btn.disabled = true; btn.classList.add("busy"); btn.querySelector("span").textContent = "Actualizando";
+  for (const p of state.cache[state.dia]?.list || []) if (state.open.has(p.key) && p.fmId) delete state.det[p.fmId];
+  await loadDay(state.dia);
+  btn.disabled = false; btn.classList.remove("busy"); btn.querySelector("span").textContent = "Actualizar";
+  schedule();
 });
 
 let timer;

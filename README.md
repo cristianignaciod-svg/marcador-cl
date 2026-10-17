@@ -7,11 +7,14 @@ Resultados en vivo de fútbol, con el canal donde se ve cada partido en Chile.
 ## Cómo funciona
 
 - Es una sola página (`index.html`), sin servidor ni base de datos.
-- El navegador consulta la API pública de ESPN y actualiza los resultados:
+- El navegador consulta dos fuentes, ESPN y FotMob, y las contrasta. Si no coinciden, muestra el dato más actualizado.
+- El botón **Actualizar** fuerza una consulta inmediata. Además, la página se actualiza sola:
   - cada **30 segundos** cuando hay un partido en vivo o por empezar;
   - cada **5 minutos** el resto del tiempo.
 - Si la pestaña queda en segundo plano, deja de consultar. Al volver a ella se actualiza de inmediato.
 - Las horas se muestran en hora de Chile (`America/Santiago`).
+
+- Al tocar un partido en vivo o terminado se despliegan los goles (minuto, autor, penales y autogoles), las expulsiones y qué marcador informa cada fuente.
 
 ## Publicarla con GitHub Pages
 
