@@ -1,0 +1,27 @@
+{
+  "nota": "Canal exacto en Chile para partidos puntuales. Tiene prioridad sobre el canal general del torneo. fecha = día en hora de Chile.",
+  "actualizado": "2026-10-17",
+  "partidos": [
+    {"fecha": "2026-10-17", "local": "Espanyol", "visita": "Atlético Madrid", "tv": "DSports · DGO · Prime Video · Paramount+"},
+    {"fecha": "2026-10-17", "local": "Villarreal", "visita": "Elche", "tv": "ESPN 2 · Disney+ Premium"},
+    {"fecha": "2026-10-17", "local": "Real Betis", "visita": "Barcelona", "tv": "DSports · DGO · Prime Video · Paramount+"},
+    {"fecha": "2026-10-17", "local": "Valencia", "visita": "Athletic Club", "tv": "ESPN 3 · Disney+ Premium"},
+    {"fecha": "2026-10-18", "local": "Real Madrid", "visita": "Sevilla", "tv": "ESPN · Disney+ Premium"},
+
+    {"fecha": "2026-10-17", "local": "Everton", "visita": "Chelsea", "tv": "ESPN · Disney+ Premium"},
+    {"fecha": "2026-10-17", "local": "Manchester City", "visita": "Ipswich", "tv": "ESPN · Disney+ Premium"},
+    {"fecha": "2026-10-17", "local": "Fulham", "visita": "Hull", "tv": "Disney+ Premium"},
+    {"fecha": "2026-10-17", "local": "Brentford", "visita": "Liverpool", "tv": "Disney+ Premium"},
+    {"fecha": "2026-10-17", "local": "Newcastle", "visita": "Aston Villa", "tv": "ESPN · Disney+ Premium"},
+
+    {"fecha": "2026-10-17", "local": "Schalke", "visita": "Mainz", "tv": "ESPN Premium · Disney+ Premium"},
+    {"fecha": "2026-10-17", "local": "Hamburg", "visita": "Stuttgart", "tv": "Disney+ Premium"},
+    {"fecha": "2026-10-17", "local": "Werder Bremen", "visita": "Paderborn", "tv": "Disney+ Premium"},
+    {"fecha": "2026-10-17", "local": "Union Berlin", "visita": "Dortmund", "tv": "Disney+ Premium"},
+    {"fecha": "2026-10-17", "local": "Elversberg", "visita": "Augsburg", "tv": "Disney+ Premium"},
+    {"fecha": "2026-10-17", "local": "Bayern", "visita": "Leipzig", "tv": "ESPN Premium · Disney+ Premium"},
+
+    {"fecha": "2026-10-17", "local": "Magallanes", "visita": "San Luis", "tv": "TNT Sports Premium · HBO Max"},
+    {"fecha": "2026-10-17", "local": "Cobreloa", "visita": "Recoleta", "tv": "TNT Sports Premium · HBO Max"}
+  ]
+}

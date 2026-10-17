@@ -31,6 +31,8 @@ Edita la lista `TORNEOS` al comienzo del `<script>` en `index.html`. Cada torneo
 - `nombre`: cómo se muestra en la página.
 - `tv`: el canal en Chile.
 
+Para un partido puntual, agrega una línea en `canales.json` con la fecha (hora de Chile), el local, la visita y el canal. Esa línea tiene prioridad sobre el canal del torneo; sirve, por ejemplo, para LaLiga, que se reparte entre DSports y ESPN según el partido.
+
 Los canales no vienen de la API. Revísalos al inicio de cada temporada, porque los derechos de transmisión cambian.
 
 ## Limitaciones

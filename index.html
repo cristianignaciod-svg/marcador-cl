@@ -190,7 +190,7 @@ const TORNEOS = [
   {fm:9091,  liga:"chile", nivel:3, nombre:"Copa Chile", tv:"TNT Sports (partidos seleccionados)"},
   {fm:9126,  liga:"chile", nivel:4, nombre:"Primera B (Liga de Ascenso)", tv:"TNT Sports · HBO Max"},
   // España
-  {slug:"esp.1", liga:"espana", nivel:1, nombre:"LaLiga EA Sports", tv:"ESPN · Disney+ Premium · DSports"},
+  {slug:"esp.1", liga:"espana", nivel:1, nombre:"LaLiga EA Sports", tv:"DSports o ESPN (varía según el partido)"},
   {slug:"esp.copa_del_rey", liga:"espana", nivel:3, nombre:"Copa del Rey", tv:"Por confirmar"},
   {slug:"esp.super_cup", liga:"espana", nivel:3, nombre:"Supercopa de España", tv:"Por confirmar"},
   {slug:"esp.2", liga:"espana", nivel:4, nombre:"LaLiga Hypermotion", tv:"Por confirmar"},
@@ -226,6 +226,17 @@ const COLOR = Object.fromEntries(LIGAS.map(l => [l.id, l.c]));
 const ORDER = ["chile","espana","inglaterra","alemania","argentina","internacional"];
 const TORDER = Object.fromEntries(TORNEOS.map((t, i) => [t.nombre, i]));
 const FUENTE = {espn:"ESPN", fm:"FotMob"};
+
+/* Canal exacto por partido (canales.json en este mismo sitio). Tiene prioridad sobre el canal del torneo. */
+let CANALES = [];
+function tvFor(p) {
+  const k = dayKey(p._d);
+  const c = CANALES.find(c => c.fecha === k &&
+    (same(p.local, c.local) || same(p.altL, c.local)) && (same(p.visita, c.visita) || same(p.altV, c.visita)));
+  return c ? c.tv : p.tv;
+}
+fetch("canales.json", {cache:"no-store"}).then(r => r.ok ? r.json() : null)
+  .then(j => { CANALES = Array.isArray(j) ? j : (j?.partidos || []); queueRender(); }).catch(() => {});
 
 const state = {liga:"todos", dia:null, cache:{}, lastOk:null, errors:0, open:new Set(), det:{}};
 try { const s = localStorage.getItem("mcl-liga"); if (s && LIGAS.some(l => l.id === s)) state.liga = s; } catch (e) {}
@@ -510,7 +521,8 @@ function matchHTML(p) {
   const wl = (a,b) => !fin || !has ? "" : a > b ? "win" : a < b ? "lose" : "";
   const sc = (v, pen) => has ? `<span class="sc">${v}${pen != null ? `<small class="pen">(${pen})</small>` : ""}</span>` : `<span class="sc none">–</span>`;
   const logo = u => u ? `<img class="lg" src="${esc(u)}" alt="" loading="lazy" width="18" height="18" onerror="this.style.visibility='hidden'">` : `<span class="lg"></span>`;
-  const tv = (p.tv && p.tv !== "Por confirmar") ? `<div class="tv"><b>Dónde verlo</b><span>${esc(p.tv)}</span></div>` : `<div class="tv"><b>Dónde verlo</b>Por confirmar</div>`;
+  const canal = tvFor(p);
+  const tv = (canal && canal !== "Por confirmar") ? `<div class="tv"><b>Dónde verlo</b><span>${esc(canal)}</span></div>` : `<div class="tv"><b>Dónde verlo</b>Por confirmar</div>`;
   const body = `<div class="when ${cls}">${top}${sub}</div><div class="teams">
     <div class="team ${wl(p.gl,p.gv)}"><span class="nm">${logo(p.logoL)}<span class="tn">${esc(p.local)}</span></span>${sc(p.gl,p.pl)}</div>
     <div class="team ${wl(p.gv,p.gl)}"><span class="nm">${logo(p.logoV)}<span class="tn">${esc(p.visita)}</span></span>${sc(p.gv,p.pv)}</div></div>${tv}`;
