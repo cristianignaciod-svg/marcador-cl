@@ -14,7 +14,7 @@ Resultados en vivo de fútbol, con el canal donde se ve cada partido en Chile.
 - Si la pestaña queda en segundo plano, deja de consultar. Al volver a ella se actualiza de inmediato.
 - Las horas se muestran en hora de Chile (`America/Santiago`).
 
-- Al tocar un partido en vivo o terminado se despliegan los goles (minuto, autor, penales y autogoles), las expulsiones y qué marcador informa cada fuente.
+- Al tocar un partido en vivo o terminado se despliegan los goles (minuto, autor, penales y autogoles), y las expulsiones. Los partidos sin goles no se despliegan.
 
 ## Publicarla con GitHub Pages
 

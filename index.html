@@ -158,7 +158,7 @@ footer{font-size:12px;color:var(--muted);padding-bottom:30px}
 <main class="wrap" id="main">
   <div class="empty"><h3>Cargando partidos</h3>Los resultados de Chile, España, Inglaterra, Alemania y Argentina aparecerán aquí en unos segundos.</div>
 </main>
-<footer class="wrap" id="foot">Horarios en hora de Chile. Resultados: ESPN y FotMob, contrastados entre sí (fuentes públicas no oficiales). Toca un partido jugado para ver los goles. Los canales son los que transmiten en Chile; confirma en la guía de tu cableoperador.</footer>
+<footer class="wrap" id="foot">Horarios en hora de Chile. Resultados: ESPN y FotMob, contrastados entre sí (fuentes públicas no oficiales). Toca un partido con goles para ver quién marcó. Los canales son los que transmiten en Chile; confirma en la guía de tu cableoperador.</footer>
 <script>
 /* Marcador CL — resultados en vivo.
    Dos fuentes que se contrastan entre sí: la API pública de ESPN y FotMob.
@@ -514,7 +514,7 @@ function matchHTML(p) {
   const body = `<div class="when ${cls}">${top}${sub}</div><div class="teams">
     <div class="team ${wl(p.gl,p.gv)}"><span class="nm">${logo(p.logoL)}<span class="tn">${esc(p.local)}</span></span>${sc(p.gl,p.pl)}</div>
     <div class="team ${wl(p.gv,p.gl)}"><span class="nm">${logo(p.logoV)}<span class="tn">${esc(p.visita)}</span></span>${sc(p.gv,p.pv)}</div></div>${tv}`;
-  if (!started(p)) return `<div class="mwrap"><div class="match">${body}</div></div>`;
+  if (!started(p) || !((p.gl ?? 0) + (p.gv ?? 0))) return `<div class="mwrap"><div class="match">${body}</div></div>`;
   const open = state.open.has(p.key);
   const n = (p.gl ?? 0) + (p.gv ?? 0);
   return `<div class="mwrap${open ? " open" : ""}"><button type="button" class="match clk" data-key="${esc(p.key)}" aria-expanded="${open}" aria-label="${esc(p.local)} ${p.gl ?? ""} ${esc(p.visita)} ${p.gv ?? ""}. ${open ? "Ocultar" : "Ver"} ${n ? "goles" : "detalle"}">${body}<span class="chev" aria-hidden="true"></span></button>${open ? `<div class="det">${detHTML(p)}</div>` : ""}</div>`;
@@ -554,7 +554,7 @@ function detHTML(p) {
     body = `<div class="goals"><div><h5>${esc(p.local)}</h5>${col(true)}</div><div><h5>${esc(p.visita)}</h5>${col(false)}</div></div>`;
     if (d.goles.length && d.goles.length < total) body += `<p class="dmsg">Faltan goles por confirmar en la fuente.</p>`;
   }
-  return body + srcHTML(p, d);
+  return body;
 }
 
 function srcHTML(p, d) {
