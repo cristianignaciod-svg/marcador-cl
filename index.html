@@ -282,7 +282,7 @@ function parseEspn(ev, t) {
   }));
   const rojas = det.filter(d => d.redCard).map(d => ({min: espnMinute(d), nombre: who(d), local: String(d.team?.id) === String(homeId)}));
   return {
-    src:"espn", key:"e" + ev.id, id:ev.id, verif:!!t.verif,
+    src:"espn", key:"e" + ev.id, id:ev.id, verif:!!t.verif, slug:t.slug, homeId,
     liga:t.liga, nivel:t.nivel, torneo:t.nombre, tv:t.tv,
     _d:new Date(ev.date), local:tname(home), visita:tname(away),
     altL:home.team?.displayName, altV:away.team?.displayName,
@@ -298,6 +298,22 @@ async function fetchEspn(t, key) {
   if (!r.ok) throw new Error(t.slug);
   const j = await r.json();
   return (j.events || []).map(e => parseEspn(e, t)).filter(p => dayKey(p._d) === key);
+}
+
+// Resumen del partido en ESPN: suele publicar el autor del gol antes que el marcador general
+async function fetchEspnSummary(slug, id, homeId) {
+  const r = await fetch(`${ESPN}${slug}/summary?event=${id}&lang=es&region=cl`, {cache:"no-store"});
+  if (!r.ok) throw new Error("summary");
+  const j = await r.json();
+  const hid = homeId || j.header?.competitions?.[0]?.competitors?.find(c => c.homeAway === "home")?.id;
+  const ke = (j.keyEvents || []).filter(e => !e.shootout);
+  const tipo = e => (e.type?.text || e.type?.type || "");
+  const nm = e => e.participants?.[0]?.athlete?.displayName || e.athletesInvolved?.[0]?.displayName || "Jugador sin identificar";
+  const esGol = e => e.scoringPlay === true || (/goal|gol/i.test(tipo(e)) && !/kick|attempt|disallow|anulad|saque|tiro/i.test(tipo(e)));
+  return {
+    goles: ke.filter(esGol).map(e => ({min: espnMinute(e), nombre: nm(e), local: String(e.team?.id) === String(hid), pen: /penal/i.test(tipo(e)), ec: /own|propia|contra/i.test(tipo(e))})),
+    rojas: ke.filter(e => /red card|roja/i.test(tipo(e))).map(e => ({min: espnMinute(e), nombre: nm(e), local: String(e.team?.id) === String(hid)}))
+  };
 }
 
 /* ---------- FotMob ---------- */
@@ -406,7 +422,8 @@ function pickBest(a, b) {
 const flipEv = l => l && l.map(g => ({...g, local: !g.local}));
 function merge(p, tw) {
   const yo = {src:p.src, gl:p.gl, gv:p.gv, estado:p.estado, minuto:p.minuto};
-  if (!tw) return {...p, fmId: p.src === "fm" ? p.id : null, fuentes:[yo]};
+  if (!tw) return {...p, fmId: p.src === "fm" ? p.id : null, fmSwap:false,
+    espnId: p.src === "espn" ? p.id : null, espnSlug: p.slug, espnHome: p.homeId, espnSwap:false, fuentes:[yo]};
   const q = tw.q;
   const o = tw.swap ? {...q, gl:q.gv, gv:q.gl, goles:flipEv(q.goles), rojas:flipEv(q.rojas)} : q;
   const b = pickBest(p, o);
@@ -414,7 +431,9 @@ function merge(p, tw) {
   return {
     ...p, gl:b.gl, gv:b.gv, estado:b.estado, minuto:b.minuto, detalle:b.detalle || p.detalle,
     goles, golesSrc: goles === p.goles ? p.src : o.src, rojas: (p.rojas && p.rojas.length) ? p.rojas : (o.rojas || p.rojas),
-    fmId: p.src === "fm" ? p.id : (o.src === "fm" ? o.id : null),
+    fmId: p.src === "fm" ? p.id : (o.src === "fm" ? o.id : null), fmSwap: p.src !== "fm" && tw.swap,
+    espnId: p.src === "espn" ? p.id : (o.src === "espn" ? o.id : null), espnSlug: p.src === "espn" ? p.slug : o.slug,
+    espnHome: p.src === "espn" ? p.homeId : o.homeId, espnSwap: p.src !== "espn" && tw.swap,
     fuentes:[yo, {src:o.src, gl:o.gl, gv:o.gv, estado:o.estado, minuto:o.minuto}]
   };
 }
@@ -439,8 +458,6 @@ function loadDay(key) {
     if (res.every(r => r.status === "rejected")) { state.errors++; renderUpd(); render(); return; }
     state.errors = 0;
     state.cache[key] = {at:Date.now(), list:build(raw)};
-    // Los partidos abiertos en vivo vuelven a pedir su detalle a FotMob
-    for (const p of state.cache[key].list) if (state.open.has(p.key) && isLive(p) && p.fmId) delete state.det[p.fmId];
     if (key === state.dia || key === todayKey()) state.lastOk = new Date();
     render(); renderUpd();
   })();
@@ -532,30 +549,55 @@ function matchHTML(p) {
   return `<div class="mwrap${open ? " open" : ""}"><button type="button" class="match clk" data-key="${esc(p.key)}" aria-expanded="${open}" aria-label="${esc(p.local)} ${p.gl ?? ""} ${esc(p.visita)} ${p.gv ?? ""}. ${open ? "Ocultar" : "Ver"} ${n ? "goles" : "detalle"}">${body}<span class="chev" aria-hidden="true"></span></button>${open ? `<div class="det">${detHTML(p)}</div>` : ""}</div>`;
 }
 
+// Pide un detalle (y lo vuelve a pedir cada 25 s mientras el partido está en vivo)
+function getDet(k, fetcher, live, swap) {
+  const d = state.det[k];
+  const stale = d && d.status !== "loading" && (live || d.status === "err") && Date.now() - d.at > 25000;
+  if (!d || stale) {
+    state.det[k] = {status:"loading", prev: d && d.status === "ok" ? d : null};
+    fetcher().then(r => { state.det[k] = {status:"ok", at:Date.now(), goles: swap ? flipEv(r.goles) : r.goles, rojas: swap ? flipEv(r.rojas) : r.rojas}; })
+      .catch(() => { state.det[k] = {status:"err", at:Date.now()}; }).finally(queueRender);
+  }
+  const cur = state.det[k];
+  return cur.status === "loading" && cur.prev ? cur.prev : cur;
+}
+
+// Junta los goleadores de todas las fuentes y se queda con la lista más completa
 function detData(p) {
   const total = (p.gl ?? 0) + (p.gv ?? 0);
-  const espnOk = p.goles && (p.goles.length >= total || (p.goles.length && !p.fmId));
-  if (espnOk || (total === 0 && p.goles)) return {status:"ok", goles:p.goles, rojas:p.rojas || [], src:p.golesSrc || p.src};
-  if (p.fmId) {
-    const d = state.det[p.fmId];
-    if (!d) {
-      state.det[p.fmId] = {status:"loading"};
-      fetchFotmobDet(p.fmId).then(r => { state.det[p.fmId] = {status:"ok", ...r, src:"fm"}; }).catch(() => { state.det[p.fmId] = {status:"err"}; }).finally(queueRender);
-      return {status:"loading"};
+  if (!total) return {status:"ok", goles:[], rojas:[]};
+  const live = isLive(p);
+  const cands = [];
+  let pending = false;
+  if (p.goles && p.goles.length) cands.push({goles:p.goles, rojas:p.rojas || []});
+  if (!cands.length || cands[0].goles.length < total) {
+    if (p.espnId) {
+      const d = getDet("s" + p.espnId, () => fetchEspnSummary(p.espnSlug, p.espnId, p.espnHome), live, p.espnSwap);
+      if (d.status === "ok") cands.push(d); else if (d.status === "loading") pending = true;
     }
-    if (d.status === "err" && p.goles && p.goles.length) return {status:"ok", goles:p.goles, rojas:p.rojas || [], src:p.golesSrc || p.src};
-    return d;
+    if (p.fmId) {
+      const d = getDet("f" + p.fmId, () => fetchFotmobDet(p.fmId), live, p.fmSwap);
+      if (d.status === "ok") cands.push(d); else if (d.status === "loading") pending = true;
+    }
   }
-  return p.goles ? {status:"ok", goles:p.goles, rojas:p.rojas || [], src:p.golesSrc || p.src} : {status:"err"};
+  cands.sort((a, b) => b.goles.length - a.goles.length);
+  const best = cands[0];
+  if (best && best.goles.length) {
+    const rojas = cands.map(c => c.rojas || []).sort((a, b) => b.length - a.length)[0];
+    return {status:"ok", goles:best.goles, rojas, incompleto: best.goles.length < total};
+  }
+  return {status: pending ? "loading" : "wait"};
 }
 
 function detHTML(p) {
   const d = detData(p);
   const total = (p.gl ?? 0) + (p.gv ?? 0);
   let body;
-  if (d.status === "loading") body = `<p class="dmsg">Buscando los goles…</p>`;
-  else if (d.status === "err") body = `<p class="dmsg">${total ? "El detalle de goles no está disponible para este partido." : "Sin goles por ahora."}</p>`;
-  else if (!d.goles.length && !d.rojas.length) body = `<p class="dmsg">${total ? "Las fuentes aún no publican quién marcó." : "Sin goles por ahora."}</p>`;
+  const espera = isLive(p)
+    ? "Gol confirmado. El autor aparecerá aquí apenas lo publiquen las fuentes (suele tardar uno o dos minutos)."
+    : "Las fuentes no publicaron quién marcó en este partido.";
+  if (d.status === "loading") body = `<p class="dmsg">Buscando quién marcó…</p>`;
+  else if (d.status === "wait" || (!d.goles.length && !d.rojas.length)) body = `<p class="dmsg">${total ? espera : "Sin goles por ahora."}</p>`;
   else {
     const col = local => {
       const g = d.goles.filter(x => x.local === local).map(x => `<li><span class="gm">${esc(x.min)}</span><span class="ball" aria-hidden="true"></span><span>${esc(x.nombre)}${x.pen ? ' <em>(penal)</em>' : ""}${x.ec ? ' <em>(en contra)</em>' : ""}</span></li>`);
@@ -564,7 +606,7 @@ function detHTML(p) {
       return items.length ? `<ul>${items.join("")}</ul>` : `<p class="dmsg">—</p>`;
     };
     body = `<div class="goals"><div><h5>${esc(p.local)}</h5>${col(true)}</div><div><h5>${esc(p.visita)}</h5>${col(false)}</div></div>`;
-    if (d.goles.length && d.goles.length < total) body += `<p class="dmsg">Faltan goles por confirmar en la fuente.</p>`;
+    if (d.incompleto) body += `<p class="dmsg">${isLive(p) ? "Hay un gol cuyo autor aún no se publica; aparecerá en uno o dos minutos." : "Falta el autor de algún gol en las fuentes."}</p>`;
   }
   return body;
 }
@@ -598,7 +640,7 @@ const btn = document.getElementById("refresh");
 btn.addEventListener("click", async () => {
   if (btn.disabled) return;
   btn.disabled = true; btn.classList.add("busy"); btn.querySelector("span").textContent = "Actualizando";
-  for (const p of state.cache[state.dia]?.list || []) if (state.open.has(p.key) && p.fmId) delete state.det[p.fmId];
+  for (const p of state.cache[state.dia]?.list || []) if (state.open.has(p.key)) { delete state.det["s" + p.espnId]; delete state.det["f" + p.fmId]; }
   await loadDay(state.dia);
   btn.disabled = false; btn.classList.remove("busy"); btn.querySelector("span").textContent = "Actualizar";
   schedule();
