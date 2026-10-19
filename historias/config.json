@@ -1,5 +1,5 @@
 {
- "publicar_historias": false,
- "publicar_resumenes": false,
- "_nota": "Cambia a true para activar la publicación automática en Instagram de cada tipo."
+ "publicar_historias": true,
+ "publicar_resumenes": true,
+ "_nota": "Historias: se publican solas. Resúmenes: solo cuando el ítem de cola.json tiene \"aprobado\": true."
 }

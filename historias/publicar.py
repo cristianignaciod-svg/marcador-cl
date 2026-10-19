@@ -137,7 +137,7 @@ def publicar(item):
     if item["tipo"] == "historia":
         c = api("POST", f"{USER}/media", image_url=url_jpg(archivos[0]), media_type="STORIES")["id"]
     else:
-        caption = texto_resumen(item)
+        caption = item.get("texto") or texto_resumen(item)
         item["texto"] = caption
         if len(archivos) == 1:
             c = api("POST", f"{USER}/media", image_url=url_jpg(archivos[0]), caption=caption)["id"]
@@ -186,7 +186,14 @@ def main():
         if item.get("enviado") or not activar.get(item["tipo"], False):
             continue
         creado = dt.datetime.fromisoformat(item["creado"])
-        if ahora - creado > MAX_EDAD:
+        if item["tipo"] == "resumen":
+            # los resúmenes solo salen con aprobación del usuario ("aprobado": true en cola.json)
+            if ahora - creado > dt.timedelta(hours=48):
+                item["enviado"] = "vencido"
+                continue
+            if item.get("aprobado") is not True:
+                continue
+        elif ahora - creado > MAX_EDAD:
             item["enviado"] = "vencido"
             continue
         try:
