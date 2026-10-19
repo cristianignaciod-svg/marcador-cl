@@ -2,7 +2,7 @@
 
 Resultados en vivo de fútbol, con el canal donde se ve cada partido en Chile.
 
-**Ligas incluidas:** Chile, España, Inglaterra, Alemania y Argentina, con sus copas y segundas divisiones.
+**Ligas incluidas:** Chile, España, Inglaterra, Alemania, Francia, Argentina y Brasil, con sus copas y segundas divisiones, más Champions, Europa League, Libertadores y Sudamericana.
 
 ## Cómo funciona
 

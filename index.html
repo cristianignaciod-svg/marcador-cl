@@ -15,7 +15,7 @@
   --bg:#f3f5f2; --surface:#ffffff; --surface-2:#e9ede7; --line:#d6ddd3;
   --fg:#16201a; --muted:#5c6b61; --accent:#c8871a; --accent-ink:#ffffff;
   --live:#d1342f; --final:#2f3a33; --soon:#3d6b52;
-  --cl:#d52b1e; --es:#e8a400; --en:#5b3fa6; --ar:#3a9ad9; --de:#3c4a42; --in:#12857a;
+  --cl:#d52b1e; --es:#e8a400; --en:#5b3fa6; --ar:#3a9ad9; --de:#3c4a42; --in:#12857a; --fr:#2f62c9; --br:#1d8f45;
   --display:"Saira Condensed","Arial Narrow",system-ui,sans-serif;
   --body:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;
 }
@@ -23,12 +23,12 @@
   --bg:#0f1512; --surface:#18201b; --surface-2:#212b25; --line:#2c3830;
   --fg:#e8eee9; --muted:#93a399; --accent:#e9a63b; --accent-ink:#1a1306;
   --live:#ff5a4f; --final:#c9d3cc; --soon:#7fc29c;
-  --cl:#ff5747; --es:#ffc53d; --en:#a58cf0; --ar:#6cbcf0; --de:#d8dfda; --in:#4fc7b8; color-scheme:dark}}
+  --cl:#ff5747; --es:#ffc53d; --en:#a58cf0; --ar:#6cbcf0; --de:#d8dfda; --in:#4fc7b8; --fr:#86a8ff; --br:#5fd38a; color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#0f1512; --surface:#18201b; --surface-2:#212b25; --line:#2c3830;
   --fg:#e8eee9; --muted:#93a399; --accent:#e9a63b; --accent-ink:#1a1306;
   --live:#ff5a4f; --final:#c9d3cc; --soon:#7fc29c;
-  --cl:#ff5747; --es:#ffc53d; --en:#a58cf0; --ar:#6cbcf0; --de:#d8dfda; --in:#4fc7b8; color-scheme:dark}
+  --cl:#ff5747; --es:#ffc53d; --en:#a58cf0; --ar:#6cbcf0; --de:#d8dfda; --in:#4fc7b8; --fr:#86a8ff; --br:#5fd38a; color-scheme:dark}
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.45}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--surface)}
@@ -178,7 +178,9 @@ const LIGAS = [
   {id:"espana", nombre:"España", c:"var(--es)"},
   {id:"inglaterra", nombre:"Inglaterra", c:"var(--en)"},
   {id:"alemania", nombre:"Alemania", c:"var(--de)"},
+  {id:"francia", nombre:"Francia", c:"var(--fr)"},
   {id:"argentina", nombre:"Argentina", c:"var(--ar)"},
+  {id:"brasil", nombre:"Brasil", c:"var(--br)"},
   {id:"internacional", nombre:"Internacional", c:"var(--in)"}
 ];
 /* nivel: 1 = primera división · 2 = copas internacionales · 3 = copas nacionales · 4 = segunda división */
@@ -205,10 +207,20 @@ const TORNEOS = [
   {slug:"ger.dfb_pokal", liga:"alemania", nivel:3, nombre:"DFB-Pokal", tv:"Por confirmar"},
   {slug:"ger.super_cup", liga:"alemania", nivel:3, nombre:"Supercopa de Alemania", tv:"Por confirmar"},
   {slug:"ger.2", liga:"alemania", nivel:4, nombre:"2. Bundesliga", tv:"Por confirmar"},
+  // Francia
+  {slug:"fra.1", liga:"francia", nivel:1, nombre:"Ligue 1", tv:"Disney+ Premium"},
+  {slug:"fra.coupe_de_france", liga:"francia", nivel:3, nombre:"Copa de Francia", tv:"Por confirmar"},
+  {slug:"fra.super_cup", liga:"francia", nivel:3, nombre:"Supercopa de Francia", tv:"Por confirmar"},
+  {slug:"fra.2", liga:"francia", nivel:4, nombre:"Ligue 2", tv:"Por confirmar"},
   // Argentina
   {slug:"arg.1", liga:"argentina", nivel:1, nombre:"Liga Profesional", tv:"ESPN · Disney+ Premium · Fanatiz"},
   {slug:"arg.copa", liga:"argentina", nivel:3, nombre:"Copa Argentina", tv:"Por confirmar"},
   {slug:"arg.2", liga:"argentina", nivel:4, nombre:"Primera Nacional", tv:"Por confirmar"},
+  // Brasil
+  {slug:"bra.1", liga:"brasil", nivel:1, nombre:"Brasileirão Serie A", tv:"Kick (2 partidos por fecha) · resto por confirmar"},
+  {slug:"bra.copa_do_brazil", liga:"brasil", nivel:3, nombre:"Copa do Brasil", tv:"Por confirmar"},
+  {slug:"bra.copa_do_nordeste", liga:"brasil", nivel:3, nombre:"Copa do Nordeste", tv:"Por confirmar"},
+  {slug:"bra.2", liga:"brasil", nivel:4, nombre:"Brasileirão Serie B", tv:"Por confirmar"},
   // Copas internacionales
   {slug:"uefa.champions", liga:"internacional", nivel:2, nombre:"Champions League", tv:"ESPN · Disney+ Premium"},
   {slug:"uefa.europa", liga:"internacional", nivel:2, nombre:"Europa League", tv:"ESPN · Disney+ Premium"},
@@ -223,7 +235,7 @@ const ESPN_VERIF = [
 const ESPN_T = TORNEOS.filter(t => t.slug).concat(ESPN_VERIF);
 const FM_T = Object.fromEntries(TORNEOS.filter(t => t.fm).map(t => [t.fm, t]));
 const COLOR = Object.fromEntries(LIGAS.map(l => [l.id, l.c]));
-const ORDER = ["chile","espana","inglaterra","alemania","argentina","internacional"];
+const ORDER = ["chile","espana","inglaterra","alemania","francia","argentina","brasil","internacional"];
 const TORDER = Object.fromEntries(TORNEOS.map((t, i) => [t.nombre, i]));
 const FUENTE = {espn:"ESPN", fm:"FotMob"};
 
