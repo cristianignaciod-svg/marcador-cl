@@ -35,6 +35,10 @@ CORTOS = {  # nombres cortos en español
     "Atlético Madrid": "Atlético", "Atlético de Madrid": "Atlético", "Athletic Club": "Athletic",
     "Universidad de Chile": "U. de Chile", "Universidad Católica": "U. Católica",
     "Paris Saint-Germain": "PSG", "Bayern Munich": "Bayern", "Bayern Múnich": "Bayern",
+    "Newcastle United": "Newcastle", "AFC Bournemouth": "Bournemouth", "Leeds United": "Leeds",
+    "Ipswich Town": "Ipswich", "Coventry City": "Coventry", "West Ham United": "West Ham",
+    "Celta Vigo": "Celta", "Deportivo La Coruña": "Deportivo", "Sevilla FC": "Sevilla",
+    "Racing Santander": "Racing", "Rayo Vallecano": "Rayo", "Real Betis": "Betis",
 }
 TERMINADO = {"STATUS_FULL_TIME", "STATUS_FINAL", "STATUS_FINAL_AET", "STATUS_FINAL_PEN",
              "STATUS_END_OF_EXTRATIME", "STATUS_FINAL_AGT"}
@@ -98,18 +102,20 @@ def detalle(liga, ev):
     goles, tarjetas, anulados = [], [], []
     for d in comp.get("details", []):
         quien = (d.get("athletesInvolved") or [{}])[0].get("displayName", "")
-        minuto = (d.get("clock") or {}).get("displayValue", "")
+        minuto = re.sub(r"'\+", "+", (d.get("clock") or {}).get("displayValue", ""))
         tid = (d.get("team") or {}).get("id")
         if d.get("scoringPlay"):
             goles.append({"min": minuto, "jugador": quien, "lado": lado(tid),
                           "penal": bool(d.get("penaltyKick")), "autogol": bool(d.get("ownGoal"))})
         elif d.get("redCard"):
-            tarjetas.append({"min": minuto, "jugador": quien, "lado": lado(tid), "tipo": "roja"})
+            txt = ((d.get("type") or {}).get("text", "")).lower()
+            doble = bool(re.search(r"segunda|second|doble|yellow.?red", txt))
+            tarjetas.append({"min": minuto, "jugador": quien, "lado": lado(tid), "tipo": "doble" if doble else "roja"})
         elif d.get("yellowCard"):
             tarjetas.append({"min": minuto, "jugador": quien, "lado": lado(tid), "tipo": "amarilla"})
-    # segunda amarilla: roja de alguien que ya tenía amarilla
+    # segunda amarilla (solo si ESPN la marca así): no repetir esa amarilla
     for t in tarjetas:
-        if t["tipo"] == "roja":
+        if t["tipo"] == "doble":
             prev = [x for x in tarjetas if x["tipo"] == "amarilla" and x["jugador"] == t["jugador"]]
             if prev:
                 t["tipo"] = "doble"

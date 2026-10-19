@@ -5,7 +5,7 @@
   "fase": "",
   "fecha": "2026-10-19",
   "local": "Getafe",
-  "visita": "Rayo Vallecano",
+  "visita": "Rayo",
   "gl": 1,
   "gv": 1,
   "goles": [
@@ -32,13 +32,19 @@
     "tipo": "amarilla"
    },
    {
+    "min": "16'",
+    "jugador": "Djené",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
     "min": "28'",
     "jugador": "Djené",
     "lado": "local",
-    "tipo": "doble"
+    "tipo": "roja"
    },
    {
-    "min": "45'+1'",
+    "min": "45+1'",
     "jugador": "Iván Balliu",
     "lado": "visita",
     "tipo": "amarilla"
@@ -74,7 +80,7 @@
     "tipo": "amarilla"
    },
    {
-    "min": "90'+3'",
+    "min": "90+3'",
     "jugador": "Sergio Camello",
     "lado": "visita",
     "tipo": "amarilla"
@@ -92,7 +98,7 @@
   "partidos": [
    {
     "dia": "Vie 16",
-    "local": "Deportivo La Coruña",
+    "local": "Deportivo",
     "visita": "Levante",
     "gl": 1,
     "gv": 1
@@ -113,7 +119,7 @@
    },
    {
     "dia": "Sáb 17",
-    "local": "Real Betis",
+    "local": "Betis",
     "visita": "Barcelona",
     "gl": 2,
     "gv": 5
@@ -128,13 +134,13 @@
    {
     "dia": "Dom 18",
     "local": "Osasuna",
-    "visita": "Racing Santander",
+    "visita": "Racing",
     "gl": 2,
     "gv": 0
    },
    {
     "dia": "Dom 18",
-    "local": "Celta Vigo",
+    "local": "Celta",
     "visita": "Alavés",
     "gl": 2,
     "gv": 1
@@ -149,14 +155,14 @@
    {
     "dia": "Dom 18",
     "local": "Real Madrid",
-    "visita": "Sevilla FC",
+    "visita": "Sevilla",
     "gl": 4,
     "gv": 1
    },
    {
     "dia": "Lun 19",
     "local": "Getafe",
-    "visita": "Rayo Vallecano",
+    "visita": "Rayo",
     "gl": 1,
     "gv": 1
    }
@@ -168,7 +174,7 @@
   "fase": "",
   "fecha": "2026-10-19",
   "local": "Tottenham",
-  "visita": "Coventry City",
+  "visita": "Coventry",
   "gl": 3,
   "gv": 1,
   "goles": [
@@ -194,7 +200,7 @@
     "autogol": false
    },
    {
-    "min": "90'+6'",
+    "min": "90+6'",
     "jugador": "Ben Davies",
     "lado": "local",
     "penal": false,
@@ -261,20 +267,20 @@
    {
     "dia": "Sáb 17",
     "local": "Man. City",
-    "visita": "Ipswich Town",
+    "visita": "Ipswich",
     "gl": 3,
     "gv": 2
    },
    {
     "dia": "Sáb 17",
-    "local": "Newcastle United",
+    "local": "Newcastle",
     "visita": "Aston Villa",
     "gl": 0,
     "gv": 1
    },
    {
     "dia": "Dom 18",
-    "local": "AFC Bournemouth",
+    "local": "Bournemouth",
     "visita": "Sunderland",
     "gl": 2,
     "gv": 0
@@ -288,7 +294,7 @@
    },
    {
     "dia": "Dom 18",
-    "local": "Leeds United",
+    "local": "Leeds",
     "visita": "Man. United",
     "gl": 1,
     "gv": 1
@@ -303,7 +309,7 @@
    {
     "dia": "Lun 19",
     "local": "Tottenham",
-    "visita": "Coventry City",
+    "visita": "Coventry",
     "gl": 3,
     "gv": 1
    }
