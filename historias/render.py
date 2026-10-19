@@ -262,6 +262,8 @@ def render(pg, contenido, out, w, h):
     pg.goto("file://" + tmp, wait_until="load")
     pg.evaluate("document.fonts.ready.then(() => window.fit && window.fit())")
     pg.screenshot(path=out)
+    # Instagram solo acepta JPG: se guarda también una copia .jpg
+    pg.screenshot(path=out[:-4] + ".jpg", type="jpeg", quality=92)
     print(os.path.relpath(out, os.path.dirname(BASE)))
 
 

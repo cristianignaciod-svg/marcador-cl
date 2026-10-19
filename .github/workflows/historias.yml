@@ -45,3 +45,18 @@ jobs:
           git commit -m "Historias $(TZ=America/Santiago date +'%Y-%m-%d %H:%M')"
           git pull --rebase -q origin main
           git push
+
+      - name: Publicar en Instagram
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          PUBLICAR_HISTORIAS: ${{ vars.PUBLICAR_HISTORIAS }}
+          PUBLICAR_RESUMENES: ${{ vars.PUBLICAR_RESUMENES }}
+        run: |
+          export SHA=$(git rev-parse HEAD)
+          python3 historias/publicar.py
+          git add historias/cola.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Instagram: publicaciones $(TZ=America/Santiago date +'%H:%M')"
+          git pull --rebase -q origin main
+          git push
