@@ -8,7 +8,7 @@
   ],
   "titulo": "Getafe 1–1 Rayo Vallecano",
   "liga": "esp.1",
-  "enviado": false
+  "enviado": true
  },
  {
   "tipo": "resumen",
@@ -93,7 +93,7 @@
     "gv": 1
    }
   ],
-  "enviado": false
+  "enviado": true
  },
  {
   "tipo": "historia",
@@ -104,7 +104,7 @@
   ],
   "titulo": "Tottenham 3–1 Coventry City",
   "liga": "eng.1",
-  "enviado": false
+  "enviado": true
  },
  {
   "tipo": "resumen",
@@ -189,6 +189,6 @@
     "gv": 1
    }
   ],
-  "enviado": false
+  "enviado": true
  }
 ]
