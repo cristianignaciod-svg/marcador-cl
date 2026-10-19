@@ -55,7 +55,7 @@ jobs:
         run: |
           export SHA=$(git rev-parse HEAD)
           python3 historias/publicar.py
-          git add historias/cola.json
+          git add historias/cola.json historias/estado_instagram.json
           git diff --cached --quiet && exit 0
           git commit -m "Instagram: publicaciones $(TZ=America/Santiago date +'%H:%M')"
           git pull --rebase -q origin main

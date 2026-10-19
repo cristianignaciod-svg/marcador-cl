@@ -1,0 +1,5 @@
+{
+ "publicar_historias": false,
+ "publicar_resumenes": false,
+ "_nota": "Cambia a true para activar la publicación automática en Instagram de cada tipo."
+}

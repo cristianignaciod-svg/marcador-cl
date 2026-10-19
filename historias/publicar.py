@@ -152,12 +152,32 @@ def publicar(item):
     return api("POST", f"{USER}/media_publish", creation_id=c)["id"]
 
 
+def verificar():
+    """Comprueba la conexión (sin publicar) y deja el resultado en estado_instagram.json."""
+    est = {"revisado": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")}
+    try:
+        me = api("GET", "me", fields="user_id,username,account_type")
+        est.update(ok=True, usuario=me.get("username"), tipo=me.get("account_type"),
+                   id_coincide=str(me.get("user_id")) == USER or str(me.get("id")) == USER)
+        lim = api("GET", f"{USER}/content_publishing_limit", fields="quota_usage,config")
+        est["cupo"] = lim.get("data", [{}])[0]
+    except Exception as ex:
+        est.update(ok=False, error=str(ex)[:300])
+    json.dump(est, open(os.path.join(BASE, "estado_instagram.json"), "w"), ensure_ascii=False, indent=1)
+    print("Conexión Instagram:", est)
+
+
 def main():
     if not TOKEN or not USER:
         print("Sin IG_TOKEN / IG_USER_ID: no se publica nada.")
         return
-    activar = {"historia": os.environ.get("PUBLICAR_HISTORIAS", "si") != "no",
-               "resumen": os.environ.get("PUBLICAR_RESUMENES", "si") != "no"}
+    verificar()
+    try:
+        conf = json.load(open(os.path.join(BASE, "config.json")))
+    except Exception:
+        conf = {}
+    activar = {"historia": bool(conf.get("publicar_historias")) and os.environ.get("PUBLICAR_HISTORIAS") != "no",
+               "resumen": bool(conf.get("publicar_resumenes")) and os.environ.get("PUBLICAR_RESUMENES") != "no"}
     p = os.path.join(BASE, "cola.json")
     cola = json.load(open(p))
     ahora = dt.datetime.now(dt.timezone.utc)
