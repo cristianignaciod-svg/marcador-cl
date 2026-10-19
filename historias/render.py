@@ -8,7 +8,11 @@ partidos.json es una lista de objetos:
    "local": "Tottenham Hotspur", "visita": "Coventry City",
    "gl": 1, "gv": 0,
    "goles": [{"min": "14'", "jugador": "James Maddison", "lado": "local",
-              "penal": false, "autogol": false}]}
+              "penal": false, "autogol": false}],
+   "anulados": [{"min": "25'", "jugador": "X", "lado": "local", "motivo": "fuera de juego"}],
+   "tarjetas": [{"min": "40'", "jugador": "Y", "lado": "visita", "tipo": "amarilla"}]}
+  tipo de tarjeta: "amarilla", "roja" (roja directa) o "doble" (segunda amarilla).
+  "anulados" y "tarjetas" son opcionales; si vienen vacíos, la sección no aparece.
 Las imágenes quedan en historias/img/<fecha>/<id>.png
 """
 import base64, difflib, html, json, os, re, sys, unicodedata
@@ -112,24 +116,53 @@ def html_partido(p):
         return (f'<div style="width:250px;height:250px;border-radius:50%;background:#e8eee9;'
                 f'display:flex;align-items:center;justify-content:center">{inner}</div>')
 
+    # Detalle: goles, anulados por VAR, rojas y amarillas. Todo en em para poder achicarlo
+    # automáticamente (ver script al final) si no cabe sobre la franja ámbar.
+    ICON = {
+        "amarilla": '<span style="display:inline-block;width:.55em;height:.75em;border-radius:.08em;background:#f2c230;flex:none;transform:translateY(.08em)"></span>',
+        "roja": '<span style="display:inline-block;width:.55em;height:.75em;border-radius:.08em;background:#ff4b3e;flex:none;transform:translateY(.08em)"></span>',
+        "doble": '<span style="display:inline-flex;flex:none;transform:translateY(.08em)"><span style="width:.55em;height:.75em;border-radius:.08em;background:#f2c230"></span><span style="width:.55em;height:.75em;border-radius:.08em;background:#ff4b3e;margin-left:-.25em;box-shadow:-.06em 0 0 #0f1512"></span></span>',
+    }
+
+    def linea(minuto, texto, icono="", tachado=False):
+        t = f'<span style="text-decoration:line-through;text-decoration-thickness:.07em;color:#93a399">{texto}</span>' if tachado else f"<span>{texto}</span>"
+        return (f'<div style="display:flex;gap:.45em;align-items:baseline">'
+                f'<span style="font-family:Saira;font-weight:700;font-size:1.06em;color:#e9a63b;min-width:2.9em">{e(minuto)}</span>'
+                f'{icono}{t}</div>')
+
+    def seccion(titulo, items, fn):
+        if not items:
+            return ""
+        col = lambda lado: "".join(fn(x) for x in items if x.get("lado") == lado)
+        return (f'<div style="margin-top:1.1em">'
+                f'<div style="font-weight:700;font-size:.8em;letter-spacing:.12em;text-transform:uppercase;color:#93a399;margin-bottom:.6em">{titulo}</div>'
+                f'<div style="display:grid;grid-template-columns:1fr 1fr;column-gap:1.25em;line-height:1.25">'
+                f'<div style="display:flex;flex-direction:column;gap:.4em">{col("local")}</div>'
+                f'<div style="display:flex;flex-direction:column;gap:.4em">{col("visita")}</div></div></div>')
+
     def gol(g):
         extra = " (p)" if g.get("penal") else (" (ag)" if g.get("autogol") else "")
-        return (f'<div style="display:flex;gap:16px;align-items:baseline">'
-                f'<span style="font:700 34px Saira;color:#e9a63b;min-width:100px">{e(g["min"])}</span>'
-                f'<span>{e(g["jugador"])}{extra}</span></div>')
+        return linea(g["min"], e(g["jugador"]) + extra)
 
-    gl_list = "".join(gol(g) for g in p.get("goles", []) if g["lado"] == "local")
-    gv_list = "".join(gol(g) for g in p.get("goles", []) if g["lado"] == "visita")
+    def anulado(g):
+        motivo = f' <span style="color:#93a399;font-size:.8em">({e(g["motivo"])})</span>' if g.get("motivo") else ""
+        h = linea(g["min"], e(g["jugador"]), tachado=True)
+        return h[:-len("</div>")] + motivo + "</div>"
+
+    def tarjeta(t):
+        return linea(t["min"], e(t["jugador"]), ICON.get(t.get("tipo", "amarilla"), ICON["amarilla"]))
+
+    tarjetas = p.get("tarjetas", [])
+    rojas = [t for t in tarjetas if t.get("tipo") in ("roja", "doble")]
+    amarillas = [t for t in tarjetas if t.get("tipo", "amarilla") == "amarilla"]
+    cuerpo = (seccion("Goles", p.get("goles", []), gol)
+              + seccion("Anulados por VAR", p.get("anulados", []), anulado)
+              + seccion("Expulsados", rojas, tarjeta)
+              + seccion("Amarillas", amarillas, tarjeta))
     goles = ""
-    if p.get("goles"):
+    if cuerpo:
         goles = f'''
-  <div style="margin-top:70px;border-top:2px solid #2c3830;padding-top:44px">
-    <div style="font:700 26px Figtree;letter-spacing:.12em;text-transform:uppercase;color:#93a399;margin-bottom:26px">Goles</div>
-    <div style="display:grid;grid-template-columns:1fr 1fr;column-gap:40px;font:600 32px/1.3 Figtree">
-      <div style="display:flex;flex-direction:column;gap:16px">{gl_list}</div>
-      <div style="display:flex;flex-direction:column;gap:16px">{gv_list}</div>
-    </div>
-  </div>'''
+  <div id="det" style="margin-top:60px;border-top:2px solid #2c3830;padding-top:.2em;font:600 32px Figtree">{cuerpo}</div>'''
     fase = f' · {e(p["fase"])}' if p.get("fase") else ""
     tam = 46 if max(len(p["local"]), len(p["visita"])) > 14 else 54
     return f'''<!doctype html><html><head><meta charset="utf-8"><style>
@@ -164,7 +197,11 @@ html,body{{margin:0;background:#0f1512}}
   </div>
 
   <div style="position:absolute;left:0;right:0;bottom:250px;height:80px;background:#e9a63b;color:#0f1512;font:700 36px/80px Saira;letter-spacing:.06em;text-transform:uppercase;white-space:nowrap;overflow:hidden;padding-left:40px">Resultados · Goles y goleadores · Fútbol · Resultados · Goles y goleadores · Fútbol · Resultados ·</div>
-</div></body></html>'''
+</div>
+<script>
+window.fit=function(){{var d=document.getElementById("det");if(!d)return;var fs=32;d.style.fontSize=fs+"px";
+while(d.getBoundingClientRect().bottom>1555&&fs>18){{fs-=1;d.style.fontSize=fs+"px";}}}};
+</script></body></html>'''
 
 
 def html_resumen(r, filas, pagina, total):
@@ -223,7 +260,7 @@ def render(pg, contenido, out, w, h):
     open(tmp, "w").write(contenido)
     pg.set_viewport_size({"width": w, "height": h})
     pg.goto("file://" + tmp, wait_until="load")
-    pg.evaluate("document.fonts.ready")
+    pg.evaluate("document.fonts.ready.then(() => window.fit && window.fit())")
     pg.screenshot(path=out)
     print(os.path.relpath(out, os.path.dirname(BASE)))
 
