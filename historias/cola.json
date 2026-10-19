@@ -1,1 +1,194 @@
-[]
+[
+ {
+  "tipo": "historia",
+  "clave": "esp.1:401882842",
+  "creado": "2026-10-19T18:23:05-03:00",
+  "archivos": [
+   "historias/img/2026-10-19/esp1-getafe-rayo-vallecano.png"
+  ],
+  "titulo": "Getafe 1–1 Rayo Vallecano",
+  "liga": "esp.1",
+  "enviado": false
+ },
+ {
+  "tipo": "resumen",
+  "clave": "esp.1:2026-10-16",
+  "creado": "2026-10-19T18:23:05-03:00",
+  "archivos": [
+   "historias/img/2026-10-19/esp1-20261016-1.png"
+  ],
+  "titulo": "esp.1 16 al 19 de octubre",
+  "liga": "esp.1",
+  "fase": "",
+  "rango": "16 al 19 de octubre",
+  "partidos": [
+   {
+    "dia": "Vie 16",
+    "local": "Deportivo La Coruña",
+    "visita": "Levante",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 17",
+    "local": "Espanyol",
+    "visita": "Atlético",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 17",
+    "local": "Villarreal",
+    "visita": "Elche",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "dia": "Sáb 17",
+    "local": "Real Betis",
+    "visita": "Barcelona",
+    "gl": 2,
+    "gv": 5
+   },
+   {
+    "dia": "Sáb 17",
+    "local": "Valencia",
+    "visita": "Athletic",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "dia": "Dom 18",
+    "local": "Osasuna",
+    "visita": "Racing Santander",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "dia": "Dom 18",
+    "local": "Celta Vigo",
+    "visita": "Alavés",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "dia": "Dom 18",
+    "local": "Málaga",
+    "visita": "Real Sociedad",
+    "gl": 2,
+    "gv": 5
+   },
+   {
+    "dia": "Dom 18",
+    "local": "Real Madrid",
+    "visita": "Sevilla FC",
+    "gl": 4,
+    "gv": 1
+   },
+   {
+    "dia": "Lun 19",
+    "local": "Getafe",
+    "visita": "Rayo Vallecano",
+    "gl": 1,
+    "gv": 1
+   }
+  ],
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "eng.1:401879257",
+  "creado": "2026-10-19T18:23:05-03:00",
+  "archivos": [
+   "historias/img/2026-10-19/eng1-tottenham-coventry-city.png"
+  ],
+  "titulo": "Tottenham 3–1 Coventry City",
+  "liga": "eng.1",
+  "enviado": false
+ },
+ {
+  "tipo": "resumen",
+  "clave": "eng.1:2026-10-17",
+  "creado": "2026-10-19T18:23:05-03:00",
+  "archivos": [
+   "historias/img/2026-10-19/eng1-20261017-1.png"
+  ],
+  "titulo": "eng.1 17 al 19 de octubre",
+  "liga": "eng.1",
+  "fase": "",
+  "rango": "17 al 19 de octubre",
+  "partidos": [
+   {
+    "dia": "Sáb 17",
+    "local": "Everton",
+    "visita": "Chelsea",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "dia": "Sáb 17",
+    "local": "Brentford",
+    "visita": "Liverpool",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "dia": "Sáb 17",
+    "local": "Fulham",
+    "visita": "Hull City",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "dia": "Sáb 17",
+    "local": "Man. City",
+    "visita": "Ipswich Town",
+    "gl": 3,
+    "gv": 2
+   },
+   {
+    "dia": "Sáb 17",
+    "local": "Newcastle United",
+    "visita": "Aston Villa",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "dia": "Dom 18",
+    "local": "AFC Bournemouth",
+    "visita": "Sunderland",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "dia": "Dom 18",
+    "local": "Brighton",
+    "visita": "Crystal Palace",
+    "gl": 5,
+    "gv": 0
+   },
+   {
+    "dia": "Dom 18",
+    "local": "Leeds United",
+    "visita": "Man. United",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "dia": "Dom 18",
+    "local": "Nottingham F.",
+    "visita": "Arsenal",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "dia": "Lun 19",
+    "local": "Tottenham",
+    "visita": "Coventry City",
+    "gl": 3,
+    "gv": 1
+   }
+  ],
+  "enviado": false
+ }
+]

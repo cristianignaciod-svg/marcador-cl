@@ -1,1 +1,312 @@
-[]
+[
+ {
+  "id": "esp1-getafe-rayo-vallecano",
+  "liga": "esp.1",
+  "fase": "",
+  "fecha": "2026-10-19",
+  "local": "Getafe",
+  "visita": "Rayo Vallecano",
+  "gl": 1,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "11'",
+    "jugador": "Álvaro García",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "56'",
+    "jugador": "Martín Satriano",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "1'",
+    "jugador": "Kiko Femenía",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "28'",
+    "jugador": "Djené",
+    "lado": "local",
+    "tipo": "doble"
+   },
+   {
+    "min": "45'+1'",
+    "jugador": "Iván Balliu",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "51'",
+    "jugador": "Francho Serrano",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "69'",
+    "jugador": "Pathé Ciss",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "79'",
+    "jugador": "Dani Carvajal",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "84'",
+    "jugador": "Enes Ünal",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "87'",
+    "jugador": "Nemanja Gudelj",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90'+3'",
+    "jugador": "Sergio Camello",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ },
+ {
+  "tipo": "resumen",
+  "id": "esp1-20261016",
+  "liga": "esp.1",
+  "fase": "",
+  "fecha": "2026-10-19",
+  "rango": "16 al 19 de octubre",
+  "partidos": [
+   {
+    "dia": "Vie 16",
+    "local": "Deportivo La Coruña",
+    "visita": "Levante",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 17",
+    "local": "Espanyol",
+    "visita": "Atlético",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 17",
+    "local": "Villarreal",
+    "visita": "Elche",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "dia": "Sáb 17",
+    "local": "Real Betis",
+    "visita": "Barcelona",
+    "gl": 2,
+    "gv": 5
+   },
+   {
+    "dia": "Sáb 17",
+    "local": "Valencia",
+    "visita": "Athletic",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "dia": "Dom 18",
+    "local": "Osasuna",
+    "visita": "Racing Santander",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "dia": "Dom 18",
+    "local": "Celta Vigo",
+    "visita": "Alavés",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "dia": "Dom 18",
+    "local": "Málaga",
+    "visita": "Real Sociedad",
+    "gl": 2,
+    "gv": 5
+   },
+   {
+    "dia": "Dom 18",
+    "local": "Real Madrid",
+    "visita": "Sevilla FC",
+    "gl": 4,
+    "gv": 1
+   },
+   {
+    "dia": "Lun 19",
+    "local": "Getafe",
+    "visita": "Rayo Vallecano",
+    "gl": 1,
+    "gv": 1
+   }
+  ]
+ },
+ {
+  "id": "eng1-tottenham-coventry-city",
+  "liga": "eng.1",
+  "fase": "",
+  "fecha": "2026-10-19",
+  "local": "Tottenham",
+  "visita": "Coventry City",
+  "gl": 3,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "14'",
+    "jugador": "James Maddison",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "49'",
+    "jugador": "Jack Rudoni",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "58'",
+    "jugador": "Omar Marmoush",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "90'+6'",
+    "jugador": "Ben Davies",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "20'",
+    "jugador": "Caleb Yirenkyi",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "22'",
+    "jugador": "Dominic Solanke",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "45'",
+    "jugador": "Jay Da Silva",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "64'",
+    "jugador": "Jack Rudoni",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ },
+ {
+  "tipo": "resumen",
+  "id": "eng1-20261017",
+  "liga": "eng.1",
+  "fase": "",
+  "fecha": "2026-10-19",
+  "rango": "17 al 19 de octubre",
+  "partidos": [
+   {
+    "dia": "Sáb 17",
+    "local": "Everton",
+    "visita": "Chelsea",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "dia": "Sáb 17",
+    "local": "Brentford",
+    "visita": "Liverpool",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "dia": "Sáb 17",
+    "local": "Fulham",
+    "visita": "Hull City",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "dia": "Sáb 17",
+    "local": "Man. City",
+    "visita": "Ipswich Town",
+    "gl": 3,
+    "gv": 2
+   },
+   {
+    "dia": "Sáb 17",
+    "local": "Newcastle United",
+    "visita": "Aston Villa",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "dia": "Dom 18",
+    "local": "AFC Bournemouth",
+    "visita": "Sunderland",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "dia": "Dom 18",
+    "local": "Brighton",
+    "visita": "Crystal Palace",
+    "gl": 5,
+    "gv": 0
+   },
+   {
+    "dia": "Dom 18",
+    "local": "Leeds United",
+    "visita": "Man. United",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "dia": "Dom 18",
+    "local": "Nottingham F.",
+    "visita": "Arsenal",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "dia": "Lun 19",
+    "local": "Tottenham",
+    "visita": "Coventry City",
+    "gl": 3,
+    "gv": 1
+   }
+  ]
+ }
+]
