@@ -109,11 +109,11 @@ def html_partido(p):
     def chip(nombre):
         uri = escudo(p["liga"], nombre)
         if uri:
-            inner = f'<img src="{uri}" style="width:184px;height:184px;object-fit:contain">'
+            inner = f'<img src="{uri}" style="width:200px;height:200px;object-fit:contain">'
         else:
             ini = "".join(w[0] for w in norm(nombre).split()[:2]).upper() or "?"
-            inner = f'<span style="font:800 110px Saira;color:#0f1512">{e(ini)}</span>'
-        return (f'<div style="width:250px;height:250px;border-radius:50%;background:#e8eee9;'
+            inner = f'<span style="font:800 130px Saira;color:#0f1512">{e(ini)}</span>'
+        return (f'<div style="width:272px;height:272px;border-radius:50%;background:#e8eee9;'
                 f'display:flex;align-items:center;justify-content:center">{inner}</div>')
 
     # Detalle: goles, anulados por VAR, rojas y amarillas. Todo en em para poder achicarlo
@@ -127,8 +127,8 @@ def html_partido(p):
     def linea(minuto, texto, icono="", tachado=False):
         t = f'<span style="text-decoration:line-through;text-decoration-thickness:.07em;color:#93a399">{texto}</span>' if tachado else f"<span>{texto}</span>"
         return (f'<div style="display:flex;gap:.45em;align-items:baseline">'
-                f'<span style="font-family:Saira;font-weight:700;font-size:1.06em;color:#e9a63b;min-width:2.9em">{e(minuto)}</span>'
-                f'{icono}{t}</div>')
+                f'<span style="font-family:Saira;font-weight:700;font-size:1.06em;color:#e9a63b;min-width:2.5em">{e(minuto)}</span>'
+                f'{icono}<span style="white-space:nowrap">{t}</span></div>')
 
     def seccion(titulo, items, fn):
         if not items:
@@ -162,9 +162,9 @@ def html_partido(p):
     goles = ""
     if cuerpo:
         goles = f'''
-  <div id="det" style="margin-top:60px;border-top:2px solid #2c3830;padding-top:.2em;font:600 32px Figtree">{cuerpo}</div>'''
+  <div id="det" style="margin-top:64px;border-top:2px solid #2c3830;padding-top:.2em;font:600 36px Figtree">{cuerpo}</div>'''
     fase = f' · {e(p["fase"])}' if p.get("fase") else ""
-    tam = 46 if max(len(p["local"]), len(p["visita"])) > 14 else 54
+    tam = 52 if max(len(p["local"]), len(p["visita"])) > 14 else 62
     return f'''<!doctype html><html><head><meta charset="utf-8"><style>
 @font-face{{font-family:Saira;src:url("{font("SairaCondensed-ExtraBold.ttf")}");font-weight:800}}
 @font-face{{font-family:Saira;src:url("{font("SairaCondensed-Bold.ttf")}");font-weight:700}}
@@ -173,22 +173,22 @@ html,body{{margin:0;background:#0f1512}}
 </style></head><body>
 <div style="width:1080px;height:1920px;position:relative;overflow:hidden;background:#0f1512;color:#e8eee9;font-family:Figtree">
   <div style="position:absolute;left:70px;top:70px;right:70px;bottom:70px;border:4px solid #1d2722"></div>
-  <div style="position:absolute;left:290px;top:-250px;width:500px;height:500px;border:4px solid #1d2722;border-radius:50%"></div>
-  <div style="position:absolute;left:290px;bottom:-250px;width:500px;height:500px;border:4px solid #1d2722;border-radius:50%"></div>
+  <div style="position:absolute;left:290px;top:-340px;width:500px;height:500px;border:4px solid #1d2722;border-radius:50%"></div>
+  <div style="position:absolute;left:290px;bottom:-340px;width:500px;height:500px;border:4px solid #1d2722;border-radius:50%"></div>
 
-  <div style="position:absolute;left:110px;right:110px;top:270px">
+  <div style="position:absolute;left:90px;right:90px;top:185px">
     <div style="display:flex;justify-content:space-between;align-items:center">
-      <div style="font:800 76px/1 Saira;text-transform:uppercase;position:relative">Marcador <span style="color:#e9a63b">CL</span>
+      <div style="font:800 84px/1 Saira;text-transform:uppercase;position:relative">Marcador <span style="color:#e9a63b">CL</span>
         <span style="position:absolute;right:-22px;top:6px;width:14px;height:14px;border-radius:50%;background:#ff5a4f"></span></div>
       <div style="font:700 30px Saira;letter-spacing:.08em;text-transform:uppercase;color:#0f1512;background:#e9a63b;padding:8px 22px;border-radius:6px">Final</div>
     </div>
-    <div style="margin-top:56px;font:800 84px/0.95 Saira;text-transform:uppercase">{e(liga)}</div>
-    <div style="margin-top:14px;font:600 30px Figtree;color:#93a399">{e(fecha_txt(p["fecha"]))}{fase}</div>
+    <div style="margin-top:52px;font:800 100px/0.95 Saira;text-transform:uppercase">{e(liga)}</div>
+    <div style="margin-top:16px;font:600 34px Figtree;color:#93a399">{e(fecha_txt(p["fecha"]))}{fase}</div>
 
-    <div style="margin-top:90px;display:grid;grid-template-columns:1fr auto 1fr;align-items:start">
+    <div style="margin-top:80px;display:grid;grid-template-columns:1fr auto 1fr;align-items:start">
       <div style="display:flex;flex-direction:column;align-items:center;gap:28px">{chip(p["local"])}
         <div style="font:700 {tam}px/1.05 Saira;text-transform:uppercase;text-align:center;color:{cl}">{e(corto(p["local"]))}</div></div>
-      <div style="font:800 190px/270px Saira;font-variant-numeric:tabular-nums;white-space:nowrap;padding:0 18px">
+      <div style="font:800 206px/272px Saira;font-variant-numeric:tabular-nums;white-space:nowrap;padding:0 22px">
         <span style="color:{cl}">{gl}</span><span style="color:#4a5a50">–</span><span style="color:{cv}">{gv}</span></div>
       <div style="display:flex;flex-direction:column;align-items:center;gap:28px">{chip(p["visita"])}
         <div style="font:700 {tam}px/1.05 Saira;text-transform:uppercase;text-align:center;color:{cv}">{e(corto(p["visita"]))}</div></div>
@@ -196,11 +196,11 @@ html,body{{margin:0;background:#0f1512}}
     {goles}
   </div>
 
-  <div style="position:absolute;left:0;right:0;bottom:250px;height:80px;background:#e9a63b;color:#0f1512;font:700 36px/80px Saira;letter-spacing:.06em;text-transform:uppercase;white-space:nowrap;overflow:hidden;padding-left:40px">Resultados · Goles y goleadores · Fútbol · Resultados · Goles y goleadores · Fútbol · Resultados ·</div>
+  <div style="position:absolute;left:0;right:0;bottom:150px;height:84px;background:#e9a63b;color:#0f1512;font:700 38px/84px Saira;letter-spacing:.06em;text-transform:uppercase;white-space:nowrap;overflow:hidden;padding-left:40px">Resultados · Goles y goleadores · Fútbol · Resultados · Goles y goleadores · Fútbol · Resultados ·</div>
 </div>
 <script>
-window.fit=function(){{var d=document.getElementById("det");if(!d)return;var fs=32;d.style.fontSize=fs+"px";
-while(d.getBoundingClientRect().bottom>1555&&fs>18){{fs-=1;d.style.fontSize=fs+"px";}}}};
+window.fit=function(){{var d=document.getElementById("det");if(!d)return;var fs=38;d.style.fontSize=fs+"px";
+while(d.getBoundingClientRect().bottom>1650&&fs>20){{fs-=1;d.style.fontSize=fs+"px";}}}};
 </script></body></html>'''
 
 
