@@ -1,0 +1,5 @@
+# Solo publicar en Netlify cuando cambia la página web.
+# Los cambios automáticos de historias/ (imágenes, colas, estado) y del workflow no generan deploy.
+[build]
+  publish = "."
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- index.html canales.json README.md"

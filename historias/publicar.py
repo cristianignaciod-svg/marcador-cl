@@ -154,7 +154,7 @@ def publicar(item):
 
 def verificar():
     """Comprueba la conexión (sin publicar) y deja el resultado en estado_instagram.json."""
-    est = {"revisado": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")}
+    est = {}
     try:
         me = api("GET", "me", fields="user_id,username,account_type")
         est.update(ok=True, usuario=me.get("username"), tipo=me.get("account_type"),
