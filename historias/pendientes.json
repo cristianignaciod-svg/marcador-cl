@@ -1,1 +1,135 @@
-[]
+[
+ {
+  "id": "uefachampions-fenerbahce-slavia-prague",
+  "liga": "uefa.champions",
+  "fase": "",
+  "fecha": "2026-10-20",
+  "local": "Fenerbahçe",
+  "visita": "Slavia Prague",
+  "gl": 2,
+  "gv": 2,
+  "goles": [
+   {
+    "min": "4'",
+    "jugador": "Oguz Aydin",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "11'",
+    "jugador": "Mason Greenwood",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "15'",
+    "jugador": "Lukás Provod",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "90'",
+    "jugador": "Pavel Kacor",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "31'",
+    "jugador": "N'Golo Kanté",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "49'",
+    "jugador": "Milan Skriniar",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "59'",
+    "jugador": "",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "60'",
+    "jugador": "Wiktor Nowak",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "88'",
+    "jugador": "Ismail Yüksek",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ },
+ {
+  "id": "uefachampions-sabah-fk-borussia-dortmund",
+  "liga": "uefa.champions",
+  "fase": "",
+  "fecha": "2026-10-20",
+  "local": "Sabah FK",
+  "visita": "Borussia Dortmund",
+  "gl": 1,
+  "gv": 2,
+  "goles": [
+   {
+    "min": "10'",
+    "jugador": "Serhou Guirassy",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "39'",
+    "jugador": "Aden Mccarthy",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "53'",
+    "jugador": "Serhou Guirassy",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "22'",
+    "jugador": "Steve Solvet",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "49'",
+    "jugador": "Ivan Lepinjica",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "57'",
+    "jugador": "Aden Mccarthy",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "89'",
+    "jugador": "Akim Zedadka",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ }
+]

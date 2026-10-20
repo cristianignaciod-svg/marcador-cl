@@ -307,5 +307,27 @@
   "enviado": true,
   "ig_id": "18080687831787479",
   "publicado": "2026-10-20T12:25:04+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915403",
+  "creado": "2026-10-20T16:28:18-03:00",
+  "archivos": [
+   "historias/img/2026-10-20/uefachampions-fenerbahce-slavia-prague.png"
+  ],
+  "titulo": "Fenerbahçe 2–2 Slavia Prague",
+  "liga": "uefa.champions",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915404",
+  "creado": "2026-10-20T16:28:18-03:00",
+  "archivos": [
+   "historias/img/2026-10-20/uefachampions-sabah-fk-borussia-dortmund.png"
+  ],
+  "titulo": "Sabah FK 1–2 Borussia Dortmund",
+  "liga": "uefa.champions",
+  "enviado": false
  }
 ]
