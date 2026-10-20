@@ -1,1 +1,79 @@
-[]
+[
+ {
+  "tipo": "agenda",
+  "id": "agenda-2026-10-20",
+  "fecha": "2026-10-20",
+  "grupos": [
+   {
+    "liga": "conmebol.sudamericana",
+    "partidos": [
+     {
+      "hora": "21:30",
+      "local": "Vasco da Gama",
+      "visita": "Boca Juniors",
+      "tv": "ESPN · Disney+ Premium"
+     }
+    ]
+   },
+   {
+    "liga": "uefa.champions",
+    "partidos": [
+     {
+      "hora": "13:45",
+      "local": "Fenerbahçe",
+      "visita": "Slavia Prague",
+      "tv": "ESPN · Disney+ Premium"
+     },
+     {
+      "hora": "13:45",
+      "local": "Sabah FK",
+      "visita": "Borussia Dortmund",
+      "tv": "ESPN Premium · Disney+ Premium"
+     },
+     {
+      "hora": "16:00",
+      "local": "AS Roma",
+      "visita": "Slovan Bratislava",
+      "tv": "ESPN 3 · Disney+ Premium"
+     },
+     {
+      "hora": "16:00",
+      "local": "FC Porto",
+      "visita": "PSV Eindhoven",
+      "tv": "ESPN 6 · Disney+ Premium"
+     },
+     {
+      "hora": "16:00",
+      "local": "Liverpool",
+      "visita": "Villarreal",
+      "tv": "ESPN 2 · Disney+ Premium"
+     },
+     {
+      "hora": "16:00",
+      "local": "Man. City",
+      "visita": "AEK Athens",
+      "tv": "ESPN · Disney+ Premium"
+     },
+     {
+      "hora": "16:00",
+      "local": "Napoli",
+      "visita": "Bodo/Glimt",
+      "tv": "ESPN · Disney+ Premium"
+     },
+     {
+      "hora": "16:00",
+      "local": "PSG",
+      "visita": "Barcelona",
+      "tv": "ESPN 5 · Disney+ Premium"
+     },
+     {
+      "hora": "16:00",
+      "local": "VfB Stuttgart",
+      "visita": "Atlético",
+      "tv": "ESPN 7 · Disney+ Premium"
+     }
+    ]
+   }
+  ]
+ }
+]
