@@ -190,5 +190,17 @@
    }
   ],
   "enviado": true
+ },
+ {
+  "tipo": "historia",
+  "clave": "chi.pb:fm1000007333",
+  "creado": "2026-10-19T21:01:59-03:00",
+  "archivos": [
+   "historias/img/2026-10-19/chipb-union-espanola-deportes-copiapo.png"
+  ],
+  "titulo": "Unión Española 1–0 Deportes Copiapó",
+  "liga": "chi.pb",
+  "sin_goleadores": true,
+  "enviado": false
  }
 ]
