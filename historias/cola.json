@@ -333,5 +333,160 @@
   "enviado": "error",
   "error": "400 {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"ACyEiEDonMFvjdQO7Rll6dc\"}}",
   "intentos": 3
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915402",
+  "creado": "2026-10-20T18:22:20-03:00",
+  "archivos": [
+   "historias/img/2026-10-20/uefachampions-as-roma-slovan-bratislava.png"
+  ],
+  "titulo": "AS Roma 4–0 Slovan Bratislava",
+  "liga": "uefa.champions",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915398",
+  "creado": "2026-10-20T18:22:20-03:00",
+  "archivos": [
+   "historias/img/2026-10-20/uefachampions-fc-porto-psv-eindhoven.png"
+  ],
+  "titulo": "FC Porto 0–1 PSV Eindhoven",
+  "liga": "uefa.champions",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915397",
+  "creado": "2026-10-20T18:22:20-03:00",
+  "archivos": [
+   "historias/img/2026-10-20/uefachampions-liverpool-villarreal.png"
+  ],
+  "titulo": "Liverpool 4–3 Villarreal",
+  "liga": "uefa.champions",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915401",
+  "creado": "2026-10-20T18:22:20-03:00",
+  "archivos": [
+   "historias/img/2026-10-20/uefachampions-man-city-aek-athens.png"
+  ],
+  "titulo": "Man. City 5–1 AEK Athens",
+  "liga": "uefa.champions",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915400",
+  "creado": "2026-10-20T18:22:20-03:00",
+  "archivos": [
+   "historias/img/2026-10-20/uefachampions-napoli-bodo-glimt.png"
+  ],
+  "titulo": "Napoli 4–3 Bodo/Glimt",
+  "liga": "uefa.champions",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915399",
+  "creado": "2026-10-20T18:22:20-03:00",
+  "archivos": [
+   "historias/img/2026-10-20/uefachampions-psg-barcelona.png"
+  ],
+  "titulo": "PSG 4–2 Barcelona",
+  "liga": "uefa.champions",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915392",
+  "creado": "2026-10-20T18:22:20-03:00",
+  "archivos": [
+   "historias/img/2026-10-20/uefachampions-vfb-stuttgart-atletico.png"
+  ],
+  "titulo": "VfB Stuttgart 1–1 Atlético",
+  "liga": "uefa.champions",
+  "enviado": false
+ },
+ {
+  "tipo": "resumen",
+  "clave": "uefa.champions:2026-10-20",
+  "creado": "2026-10-20T18:22:20-03:00",
+  "archivos": [
+   "historias/img/2026-10-20/uefachampions-20261020-1.png"
+  ],
+  "titulo": "uefa.champions 20 de octubre",
+  "liga": "uefa.champions",
+  "fase": "",
+  "rango": "20 de octubre",
+  "partidos": [
+   {
+    "dia": "Mar 20",
+    "local": "Fenerbahçe",
+    "visita": "Slavia Prague",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "dia": "Mar 20",
+    "local": "Sabah FK",
+    "visita": "Borussia Dortmund",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "dia": "Mar 20",
+    "local": "AS Roma",
+    "visita": "Slovan Bratislava",
+    "gl": 4,
+    "gv": 0
+   },
+   {
+    "dia": "Mar 20",
+    "local": "FC Porto",
+    "visita": "PSV Eindhoven",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "dia": "Mar 20",
+    "local": "Liverpool",
+    "visita": "Villarreal",
+    "gl": 4,
+    "gv": 3
+   },
+   {
+    "dia": "Mar 20",
+    "local": "Man. City",
+    "visita": "AEK Athens",
+    "gl": 5,
+    "gv": 1
+   },
+   {
+    "dia": "Mar 20",
+    "local": "Napoli",
+    "visita": "Bodo/Glimt",
+    "gl": 4,
+    "gv": 3
+   },
+   {
+    "dia": "Mar 20",
+    "local": "PSG",
+    "visita": "Barcelona",
+    "gl": 4,
+    "gv": 2
+   },
+   {
+    "dia": "Mar 20",
+    "local": "VfB Stuttgart",
+    "visita": "Atlético",
+    "gl": 1,
+    "gv": 1
+   }
+  ],
+  "enviado": false
  }
 ]
