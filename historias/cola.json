@@ -204,5 +204,16 @@
   "enviado": true,
   "ig_id": "18651894559013174",
   "publicado": "2026-10-20T00:02:38+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "chi.pb:fm1000007333:v2",
+  "creado": "2026-10-19T21:12:57-03:00",
+  "archivos": [
+   "historias/img/2026-10-19/chipb-union-espanola-deportes-copiapo-v2.png"
+  ],
+  "titulo": "Unión Española 1–0 Deportes Copiapó (corregida)",
+  "liga": "chi.pb",
+  "enviado": false
  }
 ]
