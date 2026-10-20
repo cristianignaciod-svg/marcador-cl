@@ -12,6 +12,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: historias
@@ -20,7 +21,7 @@ concurrency:
 jobs:
   historias:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
 
@@ -67,3 +68,14 @@ jobs:
           git commit -m "Instagram: publicaciones $(TZ=America/Santiago date +'%H:%M')"
           git pull --rebase -q origin main
           git push
+
+      # GitHub no está ejecutando el horario (cron) de forma confiable: cada pasada deja
+      # programada la siguiente ~10 minutos después. Si la cadena se corta, la tarea horaria
+      # de Claude la vuelve a lanzar.
+      - name: Programar siguiente pasada
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          sleep 540
+          gh api -X POST repos/${{ github.repository }}/actions/workflows/historias.yml/dispatches -f ref=main
