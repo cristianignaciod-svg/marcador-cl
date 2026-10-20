@@ -321,11 +321,13 @@ def main():
                          "archivos": [f"historias/img/{p['fecha']}/{p['id']}.png"],
                          "titulo": f"{p['local']} {p['gl']}–{p['gv']} {p['visita']}", "liga": liga, "enviado": False})
 
-        # B) resumen: agrupar en fechas (bloques de días seguidos, cortando con 2+ días sin partidos)
+        # B) resumen: agrupar en fechas (bloques de días seguidos, cortando con 2+ días sin partidos).
+        #    Champions y Europa League: un resumen por cada día de la jornada.
+        por_dia = liga in ("uefa.champions", "uefa.europa")
         bloques, actual, ult = [], [], None
         for ev in lista:
             d = hora_cl(ev["date"]).date()
-            if ult and (d - ult).days >= 2:
+            if ult and ((d - ult).days >= 2 or (por_dia and d != ult)):
                 bloques.append(actual)
                 actual = []
             actual.append(ev)
