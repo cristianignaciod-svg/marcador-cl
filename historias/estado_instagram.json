@@ -1,4 +1,13 @@
 {
- "ok": false,
- "error": "400 {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AUKVGLsErcvfEld-VAI1wWf\"}}"
+ "ok": true,
+ "usuario": "marcador_cl",
+ "tipo": "BUSINESS",
+ "id_coincide": true,
+ "cupo": {
+  "quota_usage": 5,
+  "config": {
+   "quota_total": 100,
+   "quota_duration": 86400
+  }
+ }
 }
