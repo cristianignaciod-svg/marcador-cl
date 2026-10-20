@@ -1,511 +1,511 @@
 [
-  {
-    "tipo": "historia",
-    "clave": "esp.1:401882842",
-    "creado": "2026-10-19T18:23:05-03:00",
-    "archivos": [
-      "historias/img/2026-10-19/esp1-getafe-rayo-vallecano.png"
-    ],
-    "titulo": "Getafe 1–1 Rayo Vallecano",
-    "liga": "esp.1",
-    "enviado": true
-  },
-  {
-    "tipo": "resumen",
-    "clave": "esp.1:2026-10-16",
-    "creado": "2026-10-19T18:23:05-03:00",
-    "archivos": [
-      "historias/img/2026-10-19/esp1-20261016-1.png"
-    ],
-    "titulo": "esp.1 16 al 19 de octubre",
-    "liga": "esp.1",
-    "fase": "",
-    "rango": "16 al 19 de octubre",
-    "partidos": [
-      {
-        "dia": "Vie 16",
-        "local": "Deportivo La Coruña",
-        "visita": "Levante",
-        "gl": 1,
-        "gv": 1
-      },
-      {
-        "dia": "Sáb 17",
-        "local": "Espanyol",
-        "visita": "Atlético",
-        "gl": 0,
-        "gv": 1
-      },
-      {
-        "dia": "Sáb 17",
-        "local": "Villarreal",
-        "visita": "Elche",
-        "gl": 0,
-        "gv": 0
-      },
-      {
-        "dia": "Sáb 17",
-        "local": "Real Betis",
-        "visita": "Barcelona",
-        "gl": 2,
-        "gv": 5
-      },
-      {
-        "dia": "Sáb 17",
-        "local": "Valencia",
-        "visita": "Athletic",
-        "gl": 0,
-        "gv": 0
-      },
-      {
-        "dia": "Dom 18",
-        "local": "Osasuna",
-        "visita": "Racing Santander",
-        "gl": 2,
-        "gv": 0
-      },
-      {
-        "dia": "Dom 18",
-        "local": "Celta Vigo",
-        "visita": "Alavés",
-        "gl": 2,
-        "gv": 1
-      },
-      {
-        "dia": "Dom 18",
-        "local": "Málaga",
-        "visita": "Real Sociedad",
-        "gl": 2,
-        "gv": 5
-      },
-      {
-        "dia": "Dom 18",
-        "local": "Real Madrid",
-        "visita": "Sevilla FC",
-        "gl": 4,
-        "gv": 1
-      },
-      {
-        "dia": "Lun 19",
-        "local": "Getafe",
-        "visita": "Rayo Vallecano",
-        "gl": 1,
-        "gv": 1
-      }
-    ],
-    "enviado": true
-  },
-  {
-    "tipo": "historia",
-    "clave": "eng.1:401879257",
-    "creado": "2026-10-19T18:23:05-03:00",
-    "archivos": [
-      "historias/img/2026-10-19/eng1-tottenham-coventry-city.png"
-    ],
-    "titulo": "Tottenham 3–1 Coventry City",
-    "liga": "eng.1",
-    "enviado": true
-  },
-  {
-    "tipo": "resumen",
-    "clave": "eng.1:2026-10-17",
-    "creado": "2026-10-19T18:23:05-03:00",
-    "archivos": [
-      "historias/img/2026-10-19/eng1-20261017-1.png"
-    ],
-    "titulo": "eng.1 17 al 19 de octubre",
-    "liga": "eng.1",
-    "fase": "",
-    "rango": "17 al 19 de octubre",
-    "partidos": [
-      {
-        "dia": "Sáb 17",
-        "local": "Everton",
-        "visita": "Chelsea",
-        "gl": 0,
-        "gv": 2
-      },
-      {
-        "dia": "Sáb 17",
-        "local": "Brentford",
-        "visita": "Liverpool",
-        "gl": 1,
-        "gv": 2
-      },
-      {
-        "dia": "Sáb 17",
-        "local": "Fulham",
-        "visita": "Hull City",
-        "gl": 1,
-        "gv": 0
-      },
-      {
-        "dia": "Sáb 17",
-        "local": "Man. City",
-        "visita": "Ipswich Town",
-        "gl": 3,
-        "gv": 2
-      },
-      {
-        "dia": "Sáb 17",
-        "local": "Newcastle United",
-        "visita": "Aston Villa",
-        "gl": 0,
-        "gv": 1
-      },
-      {
-        "dia": "Dom 18",
-        "local": "AFC Bournemouth",
-        "visita": "Sunderland",
-        "gl": 2,
-        "gv": 0
-      },
-      {
-        "dia": "Dom 18",
-        "local": "Brighton",
-        "visita": "Crystal Palace",
-        "gl": 5,
-        "gv": 0
-      },
-      {
-        "dia": "Dom 18",
-        "local": "Leeds United",
-        "visita": "Man. United",
-        "gl": 1,
-        "gv": 1
-      },
-      {
-        "dia": "Dom 18",
-        "local": "Nottingham F.",
-        "visita": "Arsenal",
-        "gl": 0,
-        "gv": 1
-      },
-      {
-        "dia": "Lun 19",
-        "local": "Tottenham",
-        "visita": "Coventry City",
-        "gl": 3,
-        "gv": 1
-      }
-    ],
-    "enviado": true
-  },
-  {
-    "tipo": "historia",
-    "clave": "chi.pb:fm1000007333",
-    "creado": "2026-10-19T21:01:59-03:00",
-    "archivos": [
-      "historias/img/2026-10-19/chipb-union-espanola-deportes-copiapo.png"
-    ],
-    "titulo": "Unión Española 1–0 Deportes Copiapó",
-    "liga": "chi.pb",
-    "sin_goleadores": true,
-    "enviado": true,
-    "ig_id": "18651894559013174",
-    "publicado": "2026-10-20T00:02:38+00:00"
-  },
-  {
-    "tipo": "historia",
-    "clave": "chi.pb:fm1000007333:v2",
-    "creado": "2026-10-19T21:12:57-03:00",
-    "archivos": [
-      "historias/img/2026-10-19/chipb-union-espanola-deportes-copiapo-v2.png"
-    ],
-    "titulo": "Unión Española 1–0 Deportes Copiapó (corregida)",
-    "liga": "chi.pb",
-    "enviado": true,
-    "ig_id": "18346653253252841",
-    "publicado": "2026-10-20T00:13:15+00:00"
-  },
-  {
-    "tipo": "resumen",
-    "clave": "chi.pb:fecha-28",
-    "creado": "2026-10-19T21:34:42-03:00",
-    "archivos": [
-      "historias/img/2026-10-19/chipb-fecha-28-1.png"
-    ],
-    "titulo": "Primera B Fecha 28",
-    "liga": "chi.pb",
-    "fase": "Fecha 28",
-    "rango": "16 al 19 de octubre",
-    "partidos": [
-      {
-        "dia": "Vie 16",
-        "local": "S. Wanderers",
-        "visita": "Rangers",
-        "gl": 4,
-        "gv": 1
-      },
-      {
-        "dia": "Sáb 17",
-        "local": "Magallanes",
-        "visita": "San Luis",
-        "gl": 0,
-        "gv": 1
-      },
-      {
-        "dia": "Sáb 17",
-        "local": "Cobreloa",
-        "visita": "Recoleta",
-        "gl": 6,
-        "gv": 1
-      },
-      {
-        "dia": "Dom 18",
-        "local": "Curicó Unido",
-        "visita": "Iquique",
-        "gl": 2,
-        "gv": 2
-      },
-      {
-        "dia": "Dom 18",
-        "local": "U. San Felipe",
-        "visita": "Temuco",
-        "gl": 2,
-        "gv": 2
-      },
-      {
-        "dia": "Dom 18",
-        "local": "San Marcos",
-        "visita": "Puerto Montt",
-        "gl": 0,
-        "gv": 0
-      },
-      {
-        "dia": "Dom 18",
-        "local": "Santa Cruz",
-        "visita": "Antofagasta",
-        "gl": 0,
-        "gv": 0
-      },
-      {
-        "dia": "Lun 19",
-        "local": "U. Española",
-        "visita": "Copiapó",
-        "gl": 1,
-        "gv": 0
-      }
-    ],
-    "texto": "¡Cobreloa no tuvo piedad! 🔥 Le hizo seis a Recoleta (6-1) en la fecha 28 de la Primera B.\nSantiago Wanderers también se lució con un 4-1 sobre Rangers, y en el cierre del lunes Unión Española le ganó 1-0 a Copiapó.\n¿Quién fue la figura de la fecha para ustedes? 👇\n\n#MarcadorCL #Futbol #PrimeraB #FutbolChileno #AscensoChile",
-    "avisado": true,
-    "enviado": true,
-    "aprobado": true,
-    "ig_id": "18125942671880805",
-    "publicado": "2026-10-20T00:42:38+00:00"
-  },
-  {
-    "tipo": "historia",
-    "clave": "agenda:2026-10-20",
-    "creado": "2026-10-20T09:24:39-03:00",
-    "archivos": [
-      "historias/img/2026-10-20/agenda-2026-10-20-1.png",
-      "historias/img/2026-10-20/agenda-2026-10-20-2.png"
-    ],
-    "titulo": "Hoy se juega (10 partidos)",
-    "liga": "agenda",
-    "enviado": true,
-    "ig_id": "18080687831787479",
-    "publicado": "2026-10-20T12:25:04+00:00"
-  },
-  {
-    "tipo": "historia",
-    "clave": "uefa.champions:401915403",
-    "creado": "2026-10-20T16:28:18-03:00",
-    "archivos": [
-      "historias/img/2026-10-20/uefachampions-fenerbahce-slavia-prague.png"
-    ],
-    "titulo": "Fenerbahçe 2–2 Slavia Prague",
-    "liga": "uefa.champions",
-    "enviado": "error",
-    "error": "400 {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"A9uIIcb5c0mil7NKu2ezT4J\"}}",
-    "intentos": 3
-  },
-  {
-    "tipo": "historia",
-    "clave": "uefa.champions:401915404",
-    "creado": "2026-10-20T16:28:18-03:00",
-    "archivos": [
-      "historias/img/2026-10-20/uefachampions-sabah-fk-borussia-dortmund.png"
-    ],
-    "titulo": "Sabah FK 1–2 Borussia Dortmund",
-    "liga": "uefa.champions",
-    "enviado": "error",
-    "error": "400 {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"ACyEiEDonMFvjdQO7Rll6dc\"}}",
-    "intentos": 3
-  },
-  {
-    "tipo": "historia",
-    "clave": "uefa.champions:401915402",
-    "creado": "2026-10-20T18:22:20-03:00",
-    "archivos": [
-      "historias/img/2026-10-20/uefachampions-as-roma-slovan-bratislava.png"
-    ],
-    "titulo": "AS Roma 4–0 Slovan Bratislava",
-    "liga": "uefa.champions",
-    "enviado": true,
-    "ig_id": "18639103699007668",
-    "publicado": "2026-10-20T21:22:51+00:00"
-  },
-  {
-    "tipo": "historia",
-    "clave": "uefa.champions:401915398",
-    "creado": "2026-10-20T18:22:20-03:00",
-    "archivos": [
-      "historias/img/2026-10-20/uefachampions-fc-porto-psv-eindhoven.png"
-    ],
-    "titulo": "FC Porto 0–1 PSV Eindhoven",
-    "liga": "uefa.champions",
-    "enviado": true,
-    "ig_id": "17934939780409038",
-    "publicado": "2026-10-20T21:22:51+00:00"
-  },
-  {
-    "tipo": "historia",
-    "clave": "uefa.champions:401915397",
-    "creado": "2026-10-20T18:22:20-03:00",
-    "archivos": [
-      "historias/img/2026-10-20/uefachampions-liverpool-villarreal.png"
-    ],
-    "titulo": "Liverpool 4–3 Villarreal",
-    "liga": "uefa.champions",
-    "enviado": true,
-    "ig_id": "18120108973982107",
-    "publicado": "2026-10-20T21:22:51+00:00"
-  },
-  {
-    "tipo": "historia",
-    "clave": "uefa.champions:401915401",
-    "creado": "2026-10-20T18:22:20-03:00",
-    "archivos": [
-      "historias/img/2026-10-20/uefachampions-man-city-aek-athens.png"
-    ],
-    "titulo": "Man. City 5–1 AEK Athens",
-    "liga": "uefa.champions",
-    "enviado": true,
-    "error": "400 {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,127,896,145,759,825 cannot be found.\",\"fbtrace_id\":\"AlncjFHdbb82QN728E2ucWU\"}}",
-    "intentos": 1,
-    "ig_id": "18102417161455482",
-    "publicado": "2026-10-20T21:34:20+00:00"
-  },
-  {
-    "tipo": "historia",
-    "clave": "uefa.champions:401915400",
-    "creado": "2026-10-20T18:22:20-03:00",
-    "archivos": [
-      "historias/img/2026-10-20/uefachampions-napoli-bodo-glimt.png"
-    ],
-    "titulo": "Napoli 4–3 Bodo/Glimt",
-    "liga": "uefa.champions",
-    "enviado": true,
-    "ig_id": "18130954150687963",
-    "publicado": "2026-10-20T21:22:51+00:00"
-  },
-  {
-    "tipo": "historia",
-    "clave": "uefa.champions:401915399",
-    "creado": "2026-10-20T18:22:20-03:00",
-    "archivos": [
-      "historias/img/2026-10-20/uefachampions-psg-barcelona.png"
-    ],
-    "titulo": "PSG 4–2 Barcelona",
-    "liga": "uefa.champions",
-    "enviado": true,
-    "ig_id": "18092460527220682",
-    "publicado": "2026-10-20T21:22:51+00:00"
-  },
-  {
-    "tipo": "historia",
-    "clave": "uefa.champions:401915392",
-    "creado": "2026-10-20T18:22:20-03:00",
-    "archivos": [
-      "historias/img/2026-10-20/uefachampions-vfb-stuttgart-atletico.png"
-    ],
-    "titulo": "VfB Stuttgart 1–1 Atlético",
-    "liga": "uefa.champions",
-    "enviado": true,
-    "ig_id": "17880818829545844",
-    "publicado": "2026-10-20T21:22:51+00:00"
-  },
-  {
-    "tipo": "resumen",
-    "clave": "uefa.champions:2026-10-20",
-    "creado": "2026-10-20T18:22:20-03:00",
-    "archivos": [
-      "historias/img/2026-10-20/uefachampions-20261020-1.png"
-    ],
-    "titulo": "uefa.champions 20 de octubre",
-    "liga": "uefa.champions",
-    "fase": "",
-    "rango": "20 de octubre",
-    "partidos": [
-      {
-        "dia": "Mar 20",
-        "local": "Fenerbahçe",
-        "visita": "Slavia Prague",
-        "gl": 2,
-        "gv": 2
-      },
-      {
-        "dia": "Mar 20",
-        "local": "Sabah FK",
-        "visita": "Borussia Dortmund",
-        "gl": 1,
-        "gv": 2
-      },
-      {
-        "dia": "Mar 20",
-        "local": "AS Roma",
-        "visita": "Slovan Bratislava",
-        "gl": 4,
-        "gv": 0
-      },
-      {
-        "dia": "Mar 20",
-        "local": "FC Porto",
-        "visita": "PSV Eindhoven",
-        "gl": 0,
-        "gv": 1
-      },
-      {
-        "dia": "Mar 20",
-        "local": "Liverpool",
-        "visita": "Villarreal",
-        "gl": 4,
-        "gv": 3
-      },
-      {
-        "dia": "Mar 20",
-        "local": "Man. City",
-        "visita": "AEK Athens",
-        "gl": 5,
-        "gv": 1
-      },
-      {
-        "dia": "Mar 20",
-        "local": "Napoli",
-        "visita": "Bodo/Glimt",
-        "gl": 4,
-        "gv": 3
-      },
-      {
-        "dia": "Mar 20",
-        "local": "PSG",
-        "visita": "Barcelona",
-        "gl": 4,
-        "gv": 2
-      },
-      {
-        "dia": "Mar 20",
-        "local": "VfB Stuttgart",
-        "visita": "Atlético",
-        "gl": 1,
-        "gv": 1
-      }
-    ],
-    "enviado": false,
-    "texto": "¡Noche de goles en la Champions! ⚽🔥\nEl PSG le metió 4-2 al Barcelona en el partidazo de la jornada, y el Liverpool sufrió hasta el final para ganarle 4-3 al Villarreal.\nEl Man. City goleó 5-1 al AEK Athens y el Napoli también se la jugó con un 4-3 ante el Bodo/Glimt.\nLa sorpresa: el PSV le ganó 1-0 al Porto en Portugal.\n¿Cuál fue el mejor partido de la noche? 👇\n\n#MarcadorCL #Futbol #ChampionsLeague #UCL #FutbolEuropeo",
-    "avisado": true,
-    "aprobado": true
-  }
+ {
+  "tipo": "historia",
+  "clave": "esp.1:401882842",
+  "creado": "2026-10-19T18:23:05-03:00",
+  "archivos": [
+   "historias/img/2026-10-19/esp1-getafe-rayo-vallecano.png"
+  ],
+  "titulo": "Getafe 1–1 Rayo Vallecano",
+  "liga": "esp.1",
+  "enviado": true
+ },
+ {
+  "tipo": "resumen",
+  "clave": "esp.1:2026-10-16",
+  "creado": "2026-10-19T18:23:05-03:00",
+  "archivos": [
+   "historias/img/2026-10-19/esp1-20261016-1.png"
+  ],
+  "titulo": "esp.1 16 al 19 de octubre",
+  "liga": "esp.1",
+  "fase": "",
+  "rango": "16 al 19 de octubre",
+  "partidos": [
+   {
+    "dia": "Vie 16",
+    "local": "Deportivo La Coruña",
+    "visita": "Levante",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 17",
+    "local": "Espanyol",
+    "visita": "Atlético",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 17",
+    "local": "Villarreal",
+    "visita": "Elche",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "dia": "Sáb 17",
+    "local": "Real Betis",
+    "visita": "Barcelona",
+    "gl": 2,
+    "gv": 5
+   },
+   {
+    "dia": "Sáb 17",
+    "local": "Valencia",
+    "visita": "Athletic",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "dia": "Dom 18",
+    "local": "Osasuna",
+    "visita": "Racing Santander",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "dia": "Dom 18",
+    "local": "Celta Vigo",
+    "visita": "Alavés",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "dia": "Dom 18",
+    "local": "Málaga",
+    "visita": "Real Sociedad",
+    "gl": 2,
+    "gv": 5
+   },
+   {
+    "dia": "Dom 18",
+    "local": "Real Madrid",
+    "visita": "Sevilla FC",
+    "gl": 4,
+    "gv": 1
+   },
+   {
+    "dia": "Lun 19",
+    "local": "Getafe",
+    "visita": "Rayo Vallecano",
+    "gl": 1,
+    "gv": 1
+   }
+  ],
+  "enviado": true
+ },
+ {
+  "tipo": "historia",
+  "clave": "eng.1:401879257",
+  "creado": "2026-10-19T18:23:05-03:00",
+  "archivos": [
+   "historias/img/2026-10-19/eng1-tottenham-coventry-city.png"
+  ],
+  "titulo": "Tottenham 3–1 Coventry City",
+  "liga": "eng.1",
+  "enviado": true
+ },
+ {
+  "tipo": "resumen",
+  "clave": "eng.1:2026-10-17",
+  "creado": "2026-10-19T18:23:05-03:00",
+  "archivos": [
+   "historias/img/2026-10-19/eng1-20261017-1.png"
+  ],
+  "titulo": "eng.1 17 al 19 de octubre",
+  "liga": "eng.1",
+  "fase": "",
+  "rango": "17 al 19 de octubre",
+  "partidos": [
+   {
+    "dia": "Sáb 17",
+    "local": "Everton",
+    "visita": "Chelsea",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "dia": "Sáb 17",
+    "local": "Brentford",
+    "visita": "Liverpool",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "dia": "Sáb 17",
+    "local": "Fulham",
+    "visita": "Hull City",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "dia": "Sáb 17",
+    "local": "Man. City",
+    "visita": "Ipswich Town",
+    "gl": 3,
+    "gv": 2
+   },
+   {
+    "dia": "Sáb 17",
+    "local": "Newcastle United",
+    "visita": "Aston Villa",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "dia": "Dom 18",
+    "local": "AFC Bournemouth",
+    "visita": "Sunderland",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "dia": "Dom 18",
+    "local": "Brighton",
+    "visita": "Crystal Palace",
+    "gl": 5,
+    "gv": 0
+   },
+   {
+    "dia": "Dom 18",
+    "local": "Leeds United",
+    "visita": "Man. United",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "dia": "Dom 18",
+    "local": "Nottingham F.",
+    "visita": "Arsenal",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "dia": "Lun 19",
+    "local": "Tottenham",
+    "visita": "Coventry City",
+    "gl": 3,
+    "gv": 1
+   }
+  ],
+  "enviado": true
+ },
+ {
+  "tipo": "historia",
+  "clave": "chi.pb:fm1000007333",
+  "creado": "2026-10-19T21:01:59-03:00",
+  "archivos": [
+   "historias/img/2026-10-19/chipb-union-espanola-deportes-copiapo.png"
+  ],
+  "titulo": "Unión Española 1–0 Deportes Copiapó",
+  "liga": "chi.pb",
+  "sin_goleadores": true,
+  "enviado": true,
+  "ig_id": "18651894559013174",
+  "publicado": "2026-10-20T00:02:38+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "chi.pb:fm1000007333:v2",
+  "creado": "2026-10-19T21:12:57-03:00",
+  "archivos": [
+   "historias/img/2026-10-19/chipb-union-espanola-deportes-copiapo-v2.png"
+  ],
+  "titulo": "Unión Española 1–0 Deportes Copiapó (corregida)",
+  "liga": "chi.pb",
+  "enviado": true,
+  "ig_id": "18346653253252841",
+  "publicado": "2026-10-20T00:13:15+00:00"
+ },
+ {
+  "tipo": "resumen",
+  "clave": "chi.pb:fecha-28",
+  "creado": "2026-10-19T21:34:42-03:00",
+  "archivos": [
+   "historias/img/2026-10-19/chipb-fecha-28-1.png"
+  ],
+  "titulo": "Primera B Fecha 28",
+  "liga": "chi.pb",
+  "fase": "Fecha 28",
+  "rango": "16 al 19 de octubre",
+  "partidos": [
+   {
+    "dia": "Vie 16",
+    "local": "S. Wanderers",
+    "visita": "Rangers",
+    "gl": 4,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 17",
+    "local": "Magallanes",
+    "visita": "San Luis",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 17",
+    "local": "Cobreloa",
+    "visita": "Recoleta",
+    "gl": 6,
+    "gv": 1
+   },
+   {
+    "dia": "Dom 18",
+    "local": "Curicó Unido",
+    "visita": "Iquique",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "dia": "Dom 18",
+    "local": "U. San Felipe",
+    "visita": "Temuco",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "dia": "Dom 18",
+    "local": "San Marcos",
+    "visita": "Puerto Montt",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "dia": "Dom 18",
+    "local": "Santa Cruz",
+    "visita": "Antofagasta",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "dia": "Lun 19",
+    "local": "U. Española",
+    "visita": "Copiapó",
+    "gl": 1,
+    "gv": 0
+   }
+  ],
+  "texto": "¡Cobreloa no tuvo piedad! 🔥 Le hizo seis a Recoleta (6-1) en la fecha 28 de la Primera B.\nSantiago Wanderers también se lució con un 4-1 sobre Rangers, y en el cierre del lunes Unión Española le ganó 1-0 a Copiapó.\n¿Quién fue la figura de la fecha para ustedes? 👇\n\n#MarcadorCL #Futbol #PrimeraB #FutbolChileno #AscensoChile",
+  "avisado": true,
+  "enviado": true,
+  "aprobado": true,
+  "ig_id": "18125942671880805",
+  "publicado": "2026-10-20T00:42:38+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "agenda:2026-10-20",
+  "creado": "2026-10-20T09:24:39-03:00",
+  "archivos": [
+   "historias/img/2026-10-20/agenda-2026-10-20-1.png",
+   "historias/img/2026-10-20/agenda-2026-10-20-2.png"
+  ],
+  "titulo": "Hoy se juega (10 partidos)",
+  "liga": "agenda",
+  "enviado": true,
+  "ig_id": "18080687831787479",
+  "publicado": "2026-10-20T12:25:04+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915403",
+  "creado": "2026-10-20T16:28:18-03:00",
+  "archivos": [
+   "historias/img/2026-10-20/uefachampions-fenerbahce-slavia-prague.png"
+  ],
+  "titulo": "Fenerbahçe 2–2 Slavia Prague",
+  "liga": "uefa.champions",
+  "enviado": "error",
+  "error": "400 {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"A9uIIcb5c0mil7NKu2ezT4J\"}}",
+  "intentos": 3
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915404",
+  "creado": "2026-10-20T16:28:18-03:00",
+  "archivos": [
+   "historias/img/2026-10-20/uefachampions-sabah-fk-borussia-dortmund.png"
+  ],
+  "titulo": "Sabah FK 1–2 Borussia Dortmund",
+  "liga": "uefa.champions",
+  "enviado": "error",
+  "error": "400 {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"ACyEiEDonMFvjdQO7Rll6dc\"}}",
+  "intentos": 3
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915402",
+  "creado": "2026-10-20T18:22:20-03:00",
+  "archivos": [
+   "historias/img/2026-10-20/uefachampions-as-roma-slovan-bratislava.png"
+  ],
+  "titulo": "AS Roma 4–0 Slovan Bratislava",
+  "liga": "uefa.champions",
+  "enviado": true,
+  "ig_id": "18639103699007668",
+  "publicado": "2026-10-20T21:22:51+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915398",
+  "creado": "2026-10-20T18:22:20-03:00",
+  "archivos": [
+   "historias/img/2026-10-20/uefachampions-fc-porto-psv-eindhoven.png"
+  ],
+  "titulo": "FC Porto 0–1 PSV Eindhoven",
+  "liga": "uefa.champions",
+  "enviado": true,
+  "ig_id": "17934939780409038",
+  "publicado": "2026-10-20T21:22:51+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915397",
+  "creado": "2026-10-20T18:22:20-03:00",
+  "archivos": [
+   "historias/img/2026-10-20/uefachampions-liverpool-villarreal.png"
+  ],
+  "titulo": "Liverpool 4–3 Villarreal",
+  "liga": "uefa.champions",
+  "enviado": true,
+  "ig_id": "18120108973982107",
+  "publicado": "2026-10-20T21:22:51+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915401",
+  "creado": "2026-10-20T18:22:20-03:00",
+  "archivos": [
+   "historias/img/2026-10-20/uefachampions-man-city-aek-athens.png"
+  ],
+  "titulo": "Man. City 5–1 AEK Athens",
+  "liga": "uefa.champions",
+  "enviado": true,
+  "error": "400 {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,127,896,145,759,825 cannot be found.\",\"fbtrace_id\":\"AlncjFHdbb82QN728E2ucWU\"}}",
+  "intentos": 1,
+  "ig_id": "18102417161455482",
+  "publicado": "2026-10-20T21:34:20+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915400",
+  "creado": "2026-10-20T18:22:20-03:00",
+  "archivos": [
+   "historias/img/2026-10-20/uefachampions-napoli-bodo-glimt.png"
+  ],
+  "titulo": "Napoli 4–3 Bodo/Glimt",
+  "liga": "uefa.champions",
+  "enviado": true,
+  "ig_id": "18130954150687963",
+  "publicado": "2026-10-20T21:22:51+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915399",
+  "creado": "2026-10-20T18:22:20-03:00",
+  "archivos": [
+   "historias/img/2026-10-20/uefachampions-psg-barcelona.png"
+  ],
+  "titulo": "PSG 4–2 Barcelona",
+  "liga": "uefa.champions",
+  "enviado": true,
+  "ig_id": "18092460527220682",
+  "publicado": "2026-10-20T21:22:51+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915392",
+  "creado": "2026-10-20T18:22:20-03:00",
+  "archivos": [
+   "historias/img/2026-10-20/uefachampions-vfb-stuttgart-atletico.png"
+  ],
+  "titulo": "VfB Stuttgart 1–1 Atlético",
+  "liga": "uefa.champions",
+  "enviado": true,
+  "ig_id": "17880818829545844",
+  "publicado": "2026-10-20T21:22:51+00:00"
+ },
+ {
+  "tipo": "resumen",
+  "clave": "uefa.champions:2026-10-20",
+  "creado": "2026-10-20T18:22:20-03:00",
+  "archivos": [
+   "historias/img/2026-10-20/uefachampions-20261020-1.png"
+  ],
+  "titulo": "uefa.champions 20 de octubre",
+  "liga": "uefa.champions",
+  "fase": "",
+  "rango": "20 de octubre",
+  "partidos": [
+   {
+    "dia": "Mar 20",
+    "local": "Fenerbahçe",
+    "visita": "Slavia Prague",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "dia": "Mar 20",
+    "local": "Sabah FK",
+    "visita": "Borussia Dortmund",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "dia": "Mar 20",
+    "local": "AS Roma",
+    "visita": "Slovan Bratislava",
+    "gl": 4,
+    "gv": 0
+   },
+   {
+    "dia": "Mar 20",
+    "local": "FC Porto",
+    "visita": "PSV Eindhoven",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "dia": "Mar 20",
+    "local": "Liverpool",
+    "visita": "Villarreal",
+    "gl": 4,
+    "gv": 3
+   },
+   {
+    "dia": "Mar 20",
+    "local": "Man. City",
+    "visita": "AEK Athens",
+    "gl": 5,
+    "gv": 1
+   },
+   {
+    "dia": "Mar 20",
+    "local": "Napoli",
+    "visita": "Bodo/Glimt",
+    "gl": 4,
+    "gv": 3
+   },
+   {
+    "dia": "Mar 20",
+    "local": "PSG",
+    "visita": "Barcelona",
+    "gl": 4,
+    "gv": 2
+   },
+   {
+    "dia": "Mar 20",
+    "local": "VfB Stuttgart",
+    "visita": "Atlético",
+    "gl": 1,
+    "gv": 1
+   }
+  ],
+  "enviado": false,
+  "texto": "¡Noche de goles en la Champions! ⚽🔥\nEl PSG le metió 4-2 al Barcelona en el partidazo de la jornada, y el Liverpool sufrió hasta el final para ganarle 4-3 al Villarreal.\nEl Man. City goleó 5-1 al AEK Athens y el Napoli también se la jugó con un 4-3 ante el Bodo/Glimt.\nLa sorpresa: el PSV le ganó 1-0 al Porto en Portugal.\n¿Cuál fue el mejor partido de la noche? 👇\n\n#MarcadorCL #Futbol #ChampionsLeague #UCL #FutbolEuropeo",
+  "avisado": true,
+  "aprobado": true
+ }
 ]
