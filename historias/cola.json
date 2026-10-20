@@ -217,5 +217,78 @@
   "enviado": true,
   "ig_id": "18346653253252841",
   "publicado": "2026-10-20T00:13:15+00:00"
+ },
+ {
+  "tipo": "resumen",
+  "clave": "chi.pb:fecha-28",
+  "creado": "2026-10-19T21:34:42-03:00",
+  "archivos": [
+   "historias/img/2026-10-19/chipb-fecha-28-1.png"
+  ],
+  "titulo": "Primera B Fecha 28",
+  "liga": "chi.pb",
+  "fase": "Fecha 28",
+  "rango": "16 al 19 de octubre",
+  "partidos": [
+   {
+    "dia": "Vie 16",
+    "local": "S. Wanderers",
+    "visita": "Rangers",
+    "gl": 4,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 17",
+    "local": "Magallanes",
+    "visita": "San Luis",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 17",
+    "local": "Cobreloa",
+    "visita": "Recoleta",
+    "gl": 6,
+    "gv": 1
+   },
+   {
+    "dia": "Dom 18",
+    "local": "Curicó Unido",
+    "visita": "Iquique",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "dia": "Dom 18",
+    "local": "U. San Felipe",
+    "visita": "Temuco",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "dia": "Dom 18",
+    "local": "San Marcos",
+    "visita": "Puerto Montt",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "dia": "Dom 18",
+    "local": "Santa Cruz",
+    "visita": "Antofagasta",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "dia": "Lun 19",
+    "local": "U. Española",
+    "visita": "Copiapó",
+    "gl": 1,
+    "gv": 0
+   }
+  ],
+  "texto": "¡Cobreloa no tuvo piedad! 🔥 Le hizo seis a Recoleta (6-1) en la fecha 28 de la Primera B.\nSantiago Wanderers también se lució con un 4-1 sobre Rangers, y en el cierre del lunes Unión Española le ganó 1-0 a Copiapó.\n¿Quién fue la figura de la fecha para ustedes? 👇\n\n#MarcadorCL #Futbol #PrimeraB #FutbolChileno #AscensoChile #Cobreloa #Recoleta #Wanderers #RangersDeTalca #Magallanes #SanLuis #CuricoUnido #DeportesIquique #UnionSanFelipe #DeportesTemuco #SanMarcos #PuertoMontt #SantaCruz #Antofagasta #UnionEspanola #Copiapo",
+  "avisado": true,
+  "enviado": false
  }
 ]
