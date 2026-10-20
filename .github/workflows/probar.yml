@@ -8,22 +8,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: |
-          python3 - <<'PY'
-          import json, urllib.request
-          H={"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36","Accept":"application/json","Referer":"https://www.sofascore.com/"}
-          def get(u):
-              try:
-                  with urllib.request.urlopen(urllib.request.Request(u,headers=H),timeout=25) as r: return json.load(r)
-              except Exception as e: return {"error":str(e)}
-          out={}
-          d=get("https://api.sofascore.com/api/v1/sport/football/scheduled-events/2026-10-19")
-          out["lista_error"]=d.get("error")
-          ev=[e for e in d.get("events",[]) if "Uni" in e.get("homeTeam",{}).get("name","") and "Copiap" in e.get("awayTeam",{}).get("name","")]
-          out["encontrado"]=[{"id":e["id"],"torneo":e["tournament"]["name"]} for e in ev]
-          if ev:
-              inc=get(f"https://api.sofascore.com/api/v1/event/{ev[0]['id']}/incidents")
-              out["incidentes"]=[{k:i.get(k) for k in ("incidentType","incidentClass","time","addedTime","isHome","player","text")} for i in inc.get("incidents",[])][:40] if "incidents" in inc else inc
-          json.dump(out,open("historias/debug/sofascore.json","w"),ensure_ascii=False,indent=1,default=str)
-          PY
-          git config user.name marcador-cl-bot; git config user.email actions@users.noreply.github.com
-          git add historias/debug; git commit -m "Prueba Sofascore"; git push
+          python3 historias/debug_sofascore.py
+          git config user.name marcador-cl-bot
+          git config user.email actions@users.noreply.github.com
+          git add historias/debug
+          git commit -m "Prueba Sofascore"
+          git push
