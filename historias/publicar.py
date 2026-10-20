@@ -135,7 +135,13 @@ def texto_resumen(item):
 def publicar(item):
     archivos = item["archivos"]
     if item["tipo"] == "historia":
-        c = api("POST", f"{USER}/media", image_url=url_jpg(archivos[0]), media_type="STORIES")["id"]
+        ultimo = None
+        for a in archivos:  # una o varias historias seguidas (ej. agenda de 2 páginas)
+            c = api("POST", f"{USER}/media", image_url=url_jpg(a), media_type="STORIES")["id"]
+            esperar(c)
+            ultimo = api("POST", f"{USER}/media_publish", creation_id=c)["id"]
+            time.sleep(3)
+        return ultimo
     else:
         caption = item.get("texto") or texto_resumen(item)
         item["texto"] = caption

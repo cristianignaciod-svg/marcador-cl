@@ -267,6 +267,92 @@ def primera_b(dias):
     return out
 
 
+TV_DEFECTO = {"chi.1": "TNT Sports Premium · HBO Max", "chi.pb": "TNT Sports · HBO Max",
+              "esp.1": "DSports o ESPN", "eng.1": "ESPN · Disney+ Premium",
+              "uefa.champions": "ESPN · Disney+ Premium", "uefa.europa": "ESPN · Disney+ Premium",
+              "conmebol.libertadores": "ESPN · Disney+ Premium", "conmebol.sudamericana": "ESPN · Disney+ Premium · DSports"}
+ORDEN_AGENDA = ["chi.1", "chi.pb", "conmebol.libertadores", "conmebol.sudamericana",
+                "uefa.champions", "uefa.europa", "esp.1", "eng.1"]
+
+
+def _parecido(a, b):
+    a, b = slug(a), slug(b)
+    return bool(a and b) and (a in b or b in a or a.split("-")[0] == b.split("-")[0])
+
+
+def agenda_del_dia(ahora, publicados, pendientes, cola):
+    """Historia de la mañana 'Hoy se juega' con hora de Chile y canal.
+    Sale entre 09:20 y 12:00; espera hasta las 10:15 a que exista canales_hoy.json de hoy."""
+    hoy = ahora.date()
+    clave = f"agenda:{hoy.isoformat()}"
+    if clave in publicados or not (dt.time(9, 20) <= ahora.time() <= dt.time(12, 0)):
+        return
+    canales = cargar("canales_hoy.json", {})
+    if canales.get("fecha") != hoy.isoformat() and ahora.time() < dt.time(10, 15):
+        return
+    tv_hoy = canales.get("partidos", []) if canales.get("fecha") == hoy.isoformat() else []
+
+    def canal(liga, loc, vis):
+        for c in tv_hoy:
+            if _parecido(c.get("local", ""), loc) and _parecido(c.get("visita", ""), vis):
+                return c.get("tv") or TV_DEFECTO.get(liga, "")
+        return TV_DEFECTO.get(liga, "")
+
+    grupos = {}
+    for liga in LIGAS:
+        vistos = set()
+        for k in (0, 1):
+            for ev in scoreboard(liga, hoy + dt.timedelta(days=k)).get("events", []):
+                h = hora_cl(ev["date"])
+                if h.date() != hoy or ev["id"] in vistos:
+                    continue
+                if ev["status"]["type"].get("name") in NO_SE_JUEGA:
+                    continue
+                vistos.add(ev["id"])
+                c = ev["competitions"][0]
+                lo = nombre(next(x for x in c["competitors"] if x["homeAway"] == "home")["team"])
+                vi = nombre(next(x for x in c["competitors"] if x["homeAway"] == "away")["team"])
+                grupos.setdefault(liga, []).append({"h": h, "hora": f"{h:%H:%M}", "local": lo, "visita": vi,
+                                                    "tv": canal(liga, lo, vi)})
+    try:
+        data = get(f"https://www.fotmob.com/api/data/matches?date={hoy:%Y%m%d}&timezone=America/Santiago&ccode3=CHL")
+        for lg in data.get("leagues", []):
+            if lg.get("primaryId") != 9126:
+                continue
+            for m in lg.get("matches", []):
+                st = m.get("status", {})
+                if st.get("cancelled"):
+                    continue
+                h = hora_cl(st.get("utcTime") or m.get("time"))
+                if h.date() != hoy:
+                    continue
+                lo, vi = m["home"]["name"], m["away"]["name"]
+                grupos.setdefault("chi.pb", []).append({"h": h, "hora": f"{h:%H:%M}", "local": lo, "visita": vi,
+                                                        "tv": canal("chi.pb", lo, vi)})
+    except Exception as ex:
+        print("FotMob agenda falla", ex, file=sys.stderr)
+    if not grupos:
+        publicados.add(clave)
+        return
+    gr = []
+    for liga in ORDEN_AGENDA:
+        if liga in grupos:
+            ps = sorted(grupos[liga], key=lambda m: m["h"])
+            for m in ps:
+                del m["h"]
+            gr.append({"liga": liga, "partidos": ps})
+    aid = f"agenda-{hoy.isoformat()}"
+    pendientes.append({"tipo": "agenda", "id": aid, "fecha": hoy.isoformat(), "grupos": gr})
+    publicados.add(clave)
+    sys.path.insert(0, BASE)
+    from render import paginas_agenda
+    n = len(paginas_agenda(gr))
+    total = sum(len(g["partidos"]) for g in gr)
+    cola.append({"tipo": "historia", "clave": clave, "creado": ahora.isoformat(timespec="seconds"),
+                 "archivos": [f"historias/img/{hoy.isoformat()}/{aid}-{i + 1}.png" for i in range(n)],
+                 "titulo": f"Hoy se juega ({total} partidos)", "liga": "agenda", "enviado": False})
+
+
 def main():
     if os.environ.get("DEBUG_FM_ID"):
         mid = os.environ["DEBUG_FM_ID"]
@@ -404,6 +490,7 @@ def main():
                      "sin_goleadores": not goles and p["gl"] + p["gv"] > 0, "enviado": False})
 
     primera_b_resumen(hoy, ahora, resumenes, pendientes, cola)
+    agenda_del_dia(ahora, publicados, pendientes, cola)
 
     cola = cola[-300:]
     guardar("pendientes.json", pendientes)

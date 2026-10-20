@@ -256,6 +256,85 @@ html,body{{margin:0;background:#0f1512}}
 </div></body></html>'''
 
 
+def paginas_agenda(grupos, alto=1130):
+    """Reparte los grupos en páginas según el alto estimado (px). Si todos los partidos de una
+    liga van por el mismo canal, el canal va una vez en el encabezado y las filas son más bajas."""
+    paginas, actual, uso = [], [], 0
+    for g in grupos:
+        tvs = {m.get("tv", "") for m in g["partidos"]}
+        comun = tvs.pop() if len(tvs) == 1 else None
+        h_fila = 96 if comun is not None else 128
+        h_cab = 84 if comun else 64
+        i = 0
+        while i < len(g["partidos"]):
+            libre = alto - uso - h_cab
+            n = libre // h_fila
+            if n < 1:
+                paginas.append(actual)
+                actual, uso = [], 0
+                continue
+            trozo = g["partidos"][i:i + n]
+            actual.append({"liga": g["liga"], "partidos": trozo, "tv": comun})
+            uso += h_cab + len(trozo) * h_fila
+            i += len(trozo)
+    if actual:
+        paginas.append(actual)
+    return paginas
+
+
+def html_agenda(a, grupos, pagina, total):
+    """Historia 1080x1920: partidos de hoy con hora de Chile y canal."""
+    e = html.escape
+
+    def chip(liga, n):
+        uri = escudo(liga, n)
+        img = f'<img src="{uri}" style="width:44px;height:44px;object-fit:contain">' if uri else ""
+        return (f'<div style="flex:none;width:60px;height:60px;border-radius:50%;background:#e8eee9;'
+                f'display:flex;align-items:center;justify-content:center">{img}</div>')
+    cuerpo = ""
+    for g in grupos:
+        nombre = LIGAS.get(g["liga"], (g["liga"], []))[0]
+        tvc = (f'<div style="font:500 26px Figtree;color:#93a399;margin-top:2px">Por {e(g["tv"])}</div>'
+               if g.get("tv") else "")
+        cuerpo += (f'<div style="margin-top:28px;font:700 34px Saira;letter-spacing:.06em;text-transform:uppercase;'
+                   f'color:#e9a63b">{e(nombre)}</div>{tvc}')
+        for m in g["partidos"]:
+            tv = (f'<div style="font:500 24px Figtree;color:#93a399;margin-top:4px;white-space:nowrap;overflow:hidden;'
+                  f'text-overflow:ellipsis">Por {e(m["tv"])}</div>') if m.get("tv") and not g.get("tv") else ""
+            cuerpo += f'''<div style="display:grid;grid-template-columns:120px 1fr;align-items:center;column-gap:18px;padding:16px 0;border-bottom:1px solid #1f2924">
+  <div style="font:800 46px/1 Saira;font-variant-numeric:tabular-nums">{e(m["hora"])}</div>
+  <div style="min-width:0">
+    <div style="display:flex;align-items:center;gap:14px;font:600 32px/1.1 Figtree;white-space:nowrap">
+      {chip(g["liga"], m["local"])}<span style="overflow:hidden;text-overflow:ellipsis">{e(m["local"])}</span>
+      <span style="color:#4a5a50;font:700 28px Saira">VS</span>
+      {chip(g["liga"], m["visita"])}<span style="overflow:hidden;text-overflow:ellipsis">{e(m["visita"])}</span>
+    </div>{tv}
+  </div>
+</div>'''
+    pie = f"{pagina}/{total}" if total > 1 else ""
+    return f'''<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{{font-family:Saira;src:url("{font("SairaCondensed-ExtraBold.ttf")}");font-weight:800}}
+@font-face{{font-family:Saira;src:url("{font("SairaCondensed-Bold.ttf")}");font-weight:700}}
+@font-face{{font-family:Figtree;src:url("{font("Figtree.ttf")}");font-weight:300 900}}
+html,body{{margin:0;background:#0f1512}}
+</style></head><body>
+<div style="width:1080px;height:1920px;position:relative;overflow:hidden;background:#0f1512;color:#e8eee9;font-family:Figtree">
+  <div style="position:absolute;left:70px;top:70px;right:70px;bottom:70px;border:4px solid #1d2722"></div>
+  <div style="position:absolute;left:290px;top:-340px;width:500px;height:500px;border:4px solid #1d2722;border-radius:50%"></div>
+  <div style="position:absolute;left:90px;right:90px;top:185px">
+    <div style="display:flex;justify-content:space-between;align-items:center">
+      <div style="font:800 84px/1 Saira;text-transform:uppercase;position:relative">Marcador <span style="color:#e9a63b">CL</span>
+        <span style="position:absolute;right:-22px;top:6px;width:14px;height:14px;border-radius:50%;background:#ff5a4f"></span></div>
+      <div style="font:700 30px Saira;color:#93a399">{e(pie)}</div>
+    </div>
+    <div style="margin-top:44px;font:800 104px/0.95 Saira;text-transform:uppercase">Hoy se juega</div>
+    <div style="margin-top:14px;font:600 34px Figtree;color:#93a399">{e(fecha_txt(a["fecha"]))} · hora de Chile</div>
+    <div id="det" style="margin-top:16px;border-top:2px solid #2c3830">{cuerpo}</div>
+  </div>
+  <div style="position:absolute;left:0;right:0;bottom:150px;height:84px;background:#e9a63b;color:#0f1512;font:700 38px/84px Saira;letter-spacing:.06em;text-transform:uppercase;white-space:nowrap;overflow:hidden;padding-left:40px">Partidos de hoy · Dónde verlos · Fútbol · Partidos de hoy · Dónde verlos ·</div>
+</div></body></html>'''
+
+
 def render(pg, contenido, out, w, h):
     tmp = os.path.join(BASE, ".tmp.html")
     open(tmp, "w").write(contenido)
@@ -282,6 +361,12 @@ def main():
         for p in items:
             d = os.path.join(BASE, "img", p["fecha"])
             os.makedirs(d, exist_ok=True)
+            if p.get("tipo") == "agenda":
+                pags = paginas_agenda(p["grupos"])
+                for i, gr in enumerate(pags):
+                    render(pg, html_agenda(p, gr, i + 1, len(pags)),
+                           os.path.join(d, f'{p["id"]}-{i + 1}.png'), 1080, 1920)
+                continue
             if p.get("tipo") == "resumen":
                 ps = p["partidos"]
                 n = (len(ps) + 9) // 10
