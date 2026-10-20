@@ -172,6 +172,76 @@ def fotmob_detalle(mid):
     return goles, tarjetas, anulados, data
 
 
+def primera_b_resumen(hoy, ahora, resumenes, pendientes, cola):
+    """Resumen de fecha de la Primera B (FotMob): bloque de días seguidos con todos los partidos terminados."""
+    partidos = []
+    for k in range(-5, 4):
+        d = hoy + dt.timedelta(days=k)
+        try:
+            data = get(f"https://www.fotmob.com/api/data/matches?date={d:%Y%m%d}&timezone=America/Santiago&ccode3=CHL")
+        except Exception as ex:
+            print("FotMob falla", d, ex, file=sys.stderr)
+            return
+        for lg in data.get("leagues", []):
+            if lg.get("primaryId") != 9126:
+                continue
+            for m in lg.get("matches", []):
+                st = m.get("status", {})
+                partidos.append({"id": m["id"], "inicio": hora_cl(st.get("utcTime") or m.get("time")),
+                                 "local": m["home"]["name"], "visita": m["away"]["name"],
+                                 "gl": m["home"].get("score"), "gv": m["away"].get("score"),
+                                 "fin": bool(st.get("finished")), "canc": bool(st.get("cancelled"))})
+    partidos.sort(key=lambda m: m["inicio"])
+    bloques, actual, ult = [], [], None
+    for m in partidos:
+        d = m["inicio"].date()
+        if ult and (d - ult).days >= 2:
+            bloques.append(actual)
+            actual = []
+        actual.append(m)
+        ult = d
+    if actual:
+        bloques.append(actual)
+    for b in bloques:
+        jugados = [m for m in b if m["fin"] and not m["canc"]]
+        if len(jugados) < 2 or not all(m["fin"] or m["canc"] for m in b):
+            continue
+        ini, fin = b[0]["inicio"].date(), max(m["inicio"].date() for m in jugados)
+        if (hoy - fin).days > 1:
+            continue
+        clave = f"chi.pb:{ini.isoformat()}"
+        if clave in resumenes:
+            continue
+        fase = ""
+        try:
+            raw = get(f"https://www.fotmob.com/api/data/matchDetails?matchId={jugados[-1]['id']}")
+            rnd = (raw.get("general") or {}).get("matchRound")
+            fase = f"Fecha {rnd}" if rnd else ""
+        except Exception:
+            pass
+        if fase and f"chi.pb:{fase.lower().replace(' ', '-')}" in resumenes:
+            resumenes.add(clave)
+            continue
+        filas = []
+        for m in b:
+            f = {"dia": f"{DIAS[m['inicio'].weekday()]} {m['inicio'].day}", "local": m["local"], "visita": m["visita"]}
+            if m["canc"] or not m["fin"]:
+                f["estado"] = "Susp."
+            else:
+                f["gl"], f["gv"] = int(m["gl"]), int(m["gv"])
+            filas.append(f)
+        rango = (f"{ini.day} al {fin.day} de {MESES[fin.month - 1]}" if ini.month == fin.month
+                 else f"{ini.day} de {MESES[ini.month - 1]} al {fin.day} de {MESES[fin.month - 1]}")
+        rid = f"chipb-{ini:%Y%m%d}"
+        pendientes.append({"tipo": "resumen", "id": rid, "liga": "chi.pb", "fase": fase, "fecha": fin.isoformat(),
+                           "rango": rango, "partidos": filas})
+        resumenes.add(clave)
+        cola.append({"tipo": "resumen", "clave": clave, "creado": ahora.isoformat(timespec="seconds"),
+                     "archivos": [f"historias/img/{fin.isoformat()}/{rid}-1.png"],
+                     "titulo": f"Primera B {fase or rango}", "liga": "chi.pb", "fase": fase, "rango": rango,
+                     "partidos": filas, "enviado": False})
+
+
 def primera_b(dias):
     """Primera B desde FotMob (solo marcador). Devuelve lista de partidos terminados."""
     out = []
@@ -330,6 +400,8 @@ def main():
                      "archivos": [f"historias/img/{p['fecha']}/{p['id']}.png"],
                      "titulo": f"{p['local']} {p['gl']}–{p['gv']} {p['visita']}", "liga": "chi.pb",
                      "sin_goleadores": not goles and p["gl"] + p["gv"] > 0, "enviado": False})
+
+    primera_b_resumen(hoy, ahora, resumenes, pendientes, cola)
 
     cola = cola[-300:]
     guardar("pendientes.json", pendientes)
