@@ -3,7 +3,12 @@ name: Historias Marcador CL
 on:
   schedule:
     - cron: "*/15 * * * *"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      debug_fm:
+        description: "ID de partido FotMob para probar el detalle (opcional)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -20,6 +25,8 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Buscar partidos terminados
+        env:
+          DEBUG_FM_ID: ${{ github.event.inputs.debug_fm }}
         run: python3 historias/buscar.py
 
       - name: Revisar si hay imágenes por generar

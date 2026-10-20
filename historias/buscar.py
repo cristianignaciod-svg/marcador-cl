@@ -138,6 +138,40 @@ def detalle(liga, ev):
     return goles, tarjetas, [a for a in anulados if a["jugador"]]
 
 
+def fotmob_detalle(mid):
+    """Goles, tarjetas y anulados por VAR desde FotMob (matchDetails)."""
+    data = get(f"https://www.fotmob.com/api/data/matchDetails?matchId={mid}")
+    evs = (((data.get("content") or {}).get("matchFacts") or {}).get("events") or {}).get("events") or []
+    goles, tarjetas, anulados = [], [], []
+    for e in evs:
+        t = e.get("type")
+        lado = "local" if e.get("isHome") else "visita"
+        quien = (e.get("player") or {}).get("name") or e.get("nameStr") or e.get("fullName") or ""
+        base = e.get("time")
+        extra = e.get("overloadTime")
+        minuto = f"{base}+{extra}'" if extra else f"{base}'"
+        if e.get("isPenaltyShootoutEvent"):
+            continue
+        txt = json.dumps(e, ensure_ascii=False).lower()
+        if t == "Goal":
+            if re.search(r"cancel|disallow|anulad", txt):
+                anulados.append({"min": minuto, "jugador": quien, "lado": lado, "motivo": ""})
+                continue
+            desc = str(e.get("goalDescription") or "").lower()
+            goles.append({"min": minuto, "jugador": quien, "lado": lado,
+                          "penal": "penal" in desc or "penalty" in desc, "autogol": bool(e.get("ownGoal"))})
+        elif t == "Card":
+            c = str(e.get("card") or "").lower()
+            tipo = "doble" if "yellowred" in c else ("roja" if "red" in c else "amarilla")
+            tarjetas.append({"min": minuto, "jugador": quien, "lado": lado, "tipo": tipo})
+        elif t == "VAR" and re.search(r"goal.?cancel|disallow|anulad|no.?goal", txt):
+            anulados.append({"min": minuto, "jugador": quien, "lado": lado, "motivo": ""})
+    for t in [x for x in tarjetas if x["tipo"] == "doble"]:
+        for x in [y for y in tarjetas if y["tipo"] == "amarilla" and y["jugador"] == t["jugador"]]:
+            tarjetas.remove(x)
+    return goles, tarjetas, anulados, data
+
+
 def primera_b(dias):
     """Primera B desde FotMob (solo marcador). Devuelve lista de partidos terminados."""
     out = []
@@ -164,6 +198,14 @@ def primera_b(dias):
 
 
 def main():
+    if os.environ.get("DEBUG_FM_ID"):
+        mid = os.environ["DEBUG_FM_ID"]
+        g, t, a, raw = fotmob_detalle(mid)
+        os.makedirs(os.path.join(BASE, "debug"), exist_ok=True)
+        evs = (((raw.get("content") or {}).get("matchFacts") or {}).get("events") or {}).get("events") or []
+        guardar(f"debug/fotmob_{mid}.json", {"goles": g, "tarjetas": t, "anulados": a, "eventos_crudos": evs[:40]})
+        print("Detalle FotMob guardado", len(g), len(t), len(a))
+        return
     ahora = dt.datetime.now(CL)
     hoy = ahora.date()
     publicados = set(cargar("publicados.json", []))
@@ -270,15 +312,24 @@ def main():
         clave = f"chi.pb:{m['id']}"
         if clave in publicados or ahora - m["inicio"] > dt.timedelta(hours=8):
             continue
+        goles, tarjetas, anulados = [], [], []
+        try:
+            goles, tarjetas, anulados, _ = fotmob_detalle(m["id"][2:])
+        except Exception as ex:
+            print("FotMob detalle falla", m["id"], ex, file=sys.stderr)
+        # si hubo goles pero el detalle aún no llega, esperar (hasta ~3 h desde el inicio)
+        if m["gl"] + m["gv"] > 0 and len(goles) < m["gl"] + m["gv"] and ahora - m["inicio"] < dt.timedelta(hours=3):
+            print("Detalle incompleto, se reintenta:", m["local"], m["visita"], file=sys.stderr)
+            continue
         p = {"id": f"chipb-{slug(m['local'])}-{slug(m['visita'])}", "liga": "chi.pb", "fase": "",
              "fecha": m["inicio"].date().isoformat(), "local": m["local"], "visita": m["visita"],
-             "gl": m["gl"], "gv": m["gv"], "goles": []}
+             "gl": m["gl"], "gv": m["gv"], "goles": goles, "tarjetas": tarjetas, "anulados": anulados}
         pendientes.append(p)
         publicados.add(clave)
         cola.append({"tipo": "historia", "clave": clave, "creado": ahora.isoformat(timespec="seconds"),
                      "archivos": [f"historias/img/{p['fecha']}/{p['id']}.png"],
                      "titulo": f"{p['local']} {p['gl']}–{p['gv']} {p['visita']}", "liga": "chi.pb",
-                     "sin_goleadores": True, "enviado": False})
+                     "sin_goleadores": not goles and p["gl"] + p["gv"] > 0, "enviado": False})
 
     cola = cola[-300:]
     guardar("pendientes.json", pendientes)
