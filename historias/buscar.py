@@ -46,6 +46,9 @@ NO_SE_JUEGA = {"STATUS_POSTPONED": "Post.", "STATUS_CANCELED": "Canc.", "STATUS_
                "STATUS_ABANDONED": "Susp.", "STATUS_DELAYED": "Post."}
 
 
+DIAG = {"errores": [], "eventos": {}}
+
+
 def get(url):
     req = urllib.request.Request(url, headers=UA)
     with urllib.request.urlopen(req, timeout=25) as r:
@@ -83,6 +86,7 @@ def scoreboard(liga, dia):
         return get(f"{ESPN}{liga}/scoreboard?dates={dia:%Y%m%d}&lang=es&region=cl")
     except Exception as ex:
         print("ESPN falla", liga, dia, ex, file=sys.stderr)
+        DIAG["errores"].append(f"ESPN {liga} {dia}: {str(ex)[:120]}")
         return {}
 
 
@@ -380,6 +384,8 @@ def main():
         if not eventos:
             continue
         lista = sorted(eventos.values(), key=lambda e: e["date"])
+        DIAG["eventos"][liga] = [f'{e["id"]} {e["status"]["type"].get("name")} {e["date"]}' for e in lista
+                                 if abs((hora_cl(e["date"]).date() - hoy).days) <= 1]
 
         # A) historias: terminados de hoy o ayer (hora Chile)
         for ev in lista:
@@ -492,6 +498,10 @@ def main():
     primera_b_resumen(hoy, ahora, resumenes, pendientes, cola)
     agenda_del_dia(ahora, publicados, pendientes, cola)
 
+    try:
+        guardar("diag.json", DIAG)
+    except Exception:
+        pass
     cola = cola[-300:]
     guardar("pendientes.json", pendientes)
     guardar("cola.json", cola)
