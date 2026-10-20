@@ -41,7 +41,8 @@ ALIAS = {
     "bayern munich": "bayern-munchen", "bayern munchen": "bayern-munchen",
     "atletico madrid": "atletico-madrid", "athletic bilbao": "athletic-club",
     "u de chile": "universidad-de-chile", "universidad de chile": "universidad-de-chile",
-    "u catolica": "universidad-catolica", "universidad catolica": "universidad-catolica",
+    "u catolica": "universidad-catolica",
+    "brujas": "club-brugge", "sporting lisboa": "sporting-cp", "sporting": "sporting-cp", "universidad catolica": "universidad-catolica",
 }
 
 
