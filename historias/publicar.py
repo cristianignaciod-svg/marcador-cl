@@ -127,7 +127,7 @@ def texto_resumen(item):
     tags = ["#MarcadorCL", "#Futbol"] + LIGA_TAGS.get(liga, [])
     for e in equipos:
         t = tag(e)
-        if t not in tags and len(tags) < 30:
+        if t not in tags and len(tags) < 5:
             tags.append(t)
     return "\n".join(lineas) + "\n\n" + " ".join(tags)
 
