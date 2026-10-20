@@ -317,7 +317,9 @@
   ],
   "titulo": "Fenerbahçe 2–2 Slavia Prague",
   "liga": "uefa.champions",
-  "enviado": false
+  "enviado": false,
+  "error": "400 {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"A5lk63mfgBe_ElFkjuksbPs\"}}",
+  "intentos": 1
  },
  {
   "tipo": "historia",
@@ -328,6 +330,8 @@
   ],
   "titulo": "Sabah FK 1–2 Borussia Dortmund",
   "liga": "uefa.champions",
-  "enviado": false
+  "enviado": false,
+  "error": "400 {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AEcJ0MOHkO1ydcuIMQ0nq0-\"}}",
+  "intentos": 1
  }
 ]
