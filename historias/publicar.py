@@ -177,7 +177,7 @@ def main():
     if not TOKEN or not USER:
         print("Sin IG_TOKEN / IG_USER_ID: no se publica nada.")
         return
-    if os.environ.get("SOLO_VERIFICAR"):
+    if os.environ.get("SOLO_VERIFICAR") or os.path.exists(os.path.join(BASE, "verificar_ahora")):
         verificar()
         return
     p0 = os.path.join(BASE, "cola.json")
