@@ -9,6 +9,10 @@ on:
         description: "ID de partido FotMob para probar el detalle (opcional)"
         required: false
         default: ""
+      verificar:
+        description: "Solo verificar la conexión con Instagram (si/no)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -60,6 +64,7 @@ jobs:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           PUBLICAR_HISTORIAS: ${{ vars.PUBLICAR_HISTORIAS }}
           PUBLICAR_RESUMENES: ${{ vars.PUBLICAR_RESUMENES }}
+          SOLO_VERIFICAR: ${{ github.event.inputs.verificar }}
         run: |
           export SHA=$(git rev-parse HEAD)
           python3 historias/publicar.py

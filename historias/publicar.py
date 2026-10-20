@@ -177,6 +177,9 @@ def main():
     if not TOKEN or not USER:
         print("Sin IG_TOKEN / IG_USER_ID: no se publica nada.")
         return
+    if os.environ.get("SOLO_VERIFICAR"):
+        verificar()
+        return
     p0 = os.path.join(BASE, "cola.json")
     if not any(not x.get("enviado") for x in json.load(open(p0))):
         print("Nada pendiente: no se consulta la API.")
