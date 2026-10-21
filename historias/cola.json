@@ -509,5 +509,16 @@
   "aprobado": true,
   "ig_id": "18082848143706240",
   "publicado": "2026-10-20T22:12:11+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "conmebol.sudamericana:401913957",
+  "creado": "2026-10-20T23:53:03-03:00",
+  "archivos": [
+   "historias/img/2026-10-20/conmebolsudamericana-vasco-da-gama-boca-juniors.png"
+  ],
+  "titulo": "Vasco da Gama 1–3 Boca Juniors",
+  "liga": "conmebol.sudamericana",
+  "enviado": false
  }
 ]
