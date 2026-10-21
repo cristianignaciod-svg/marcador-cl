@@ -624,7 +624,9 @@
   ],
   "titulo": "Aston Villa 3–1 Viking FK",
   "liga": "uefa.champions",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17958059475253991",
+  "publicado": "2026-10-21T21:41:13+00:00"
  },
  {
   "tipo": "historia",
@@ -635,7 +637,9 @@
   ],
   "titulo": "Internazionale 1–0 Shakhtar Donetsk",
   "liga": "uefa.champions",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17908689933569366",
+  "publicado": "2026-10-21T21:41:13+00:00"
  },
  {
   "tipo": "historia",
@@ -646,7 +650,9 @@
   ],
   "titulo": "Real Madrid 4–1 RB Leipzig",
   "liga": "uefa.champions",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17998865076010827",
+  "publicado": "2026-10-21T21:41:13+00:00"
  },
  {
   "tipo": "historia",
@@ -657,7 +663,9 @@
   ],
   "titulo": "Sporting CP 2–3 LASK Linz",
   "liga": "uefa.champions",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18088996088691779",
+  "publicado": "2026-10-21T21:41:13+00:00"
  },
  {
   "tipo": "resumen",
