@@ -536,5 +536,27 @@
   "enviado": true,
   "ig_id": "18123527519304049",
   "publicado": "2026-10-21T12:25:12+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915395",
+  "creado": "2026-10-21T16:07:16-03:00",
+  "archivos": [
+   "historias/img/2026-10-21/uefachampions-como-man-united.png"
+  ],
+  "titulo": "Como 4–1 Man. United",
+  "liga": "uefa.champions",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915396",
+  "creado": "2026-10-21T16:07:16-03:00",
+  "archivos": [
+   "historias/img/2026-10-21/uefachampions-lille-galatasaray.png"
+  ],
+  "titulo": "Lille 2–4 Galatasaray",
+  "liga": "uefa.champions",
+  "enviado": false
  }
 ]
