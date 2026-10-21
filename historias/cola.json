@@ -614,5 +614,127 @@
   "enviado": true,
   "ig_id": "18136492942642904",
   "publicado": "2026-10-21T21:20:57+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915394",
+  "creado": "2026-10-21T18:40:30-03:00",
+  "archivos": [
+   "historias/img/2026-10-21/uefachampions-aston-villa-viking-fk.png"
+  ],
+  "titulo": "Aston Villa 3–1 Viking FK",
+  "liga": "uefa.champions",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915390",
+  "creado": "2026-10-21T18:40:30-03:00",
+  "archivos": [
+   "historias/img/2026-10-21/uefachampions-internazionale-shakhtar-donetsk.png"
+  ],
+  "titulo": "Internazionale 1–0 Shakhtar Donetsk",
+  "liga": "uefa.champions",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915313",
+  "creado": "2026-10-21T18:40:30-03:00",
+  "archivos": [
+   "historias/img/2026-10-21/uefachampions-real-madrid-rb-leipzig.png"
+  ],
+  "titulo": "Real Madrid 4–1 RB Leipzig",
+  "liga": "uefa.champions",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915391",
+  "creado": "2026-10-21T18:40:30-03:00",
+  "archivos": [
+   "historias/img/2026-10-21/uefachampions-sporting-cp-lask-linz.png"
+  ],
+  "titulo": "Sporting CP 2–3 LASK Linz",
+  "liga": "uefa.champions",
+  "enviado": false
+ },
+ {
+  "tipo": "resumen",
+  "clave": "uefa.champions:2026-10-21",
+  "creado": "2026-10-21T18:40:30-03:00",
+  "archivos": [
+   "historias/img/2026-10-21/uefachampions-20261021-1.png"
+  ],
+  "titulo": "uefa.champions 21 de octubre",
+  "liga": "uefa.champions",
+  "fase": "",
+  "rango": "21 de octubre",
+  "partidos": [
+   {
+    "dia": "Mié 21",
+    "local": "Como",
+    "visita": "Man. United",
+    "gl": 4,
+    "gv": 1
+   },
+   {
+    "dia": "Mié 21",
+    "local": "Lille",
+    "visita": "Galatasaray",
+    "gl": 2,
+    "gv": 4
+   },
+   {
+    "dia": "Mié 21",
+    "local": "Aston Villa",
+    "visita": "Viking FK",
+    "gl": 3,
+    "gv": 1
+   },
+   {
+    "dia": "Mié 21",
+    "local": "Bayern",
+    "visita": "Arsenal",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "dia": "Mié 21",
+    "local": "Club Brujas",
+    "visita": "Lens",
+    "gl": 3,
+    "gv": 0
+   },
+   {
+    "dia": "Mié 21",
+    "local": "Internazionale",
+    "visita": "Shakhtar Donetsk",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "dia": "Mié 21",
+    "local": "Betis",
+    "visita": "Feyenoord Rotterdam",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "dia": "Mié 21",
+    "local": "Real Madrid",
+    "visita": "RB Leipzig",
+    "gl": 4,
+    "gv": 1
+   },
+   {
+    "dia": "Mié 21",
+    "local": "Sporting CP",
+    "visita": "LASK Linz",
+    "gl": 2,
+    "gv": 3
+   }
+  ],
+  "enviado": false
  }
 ]

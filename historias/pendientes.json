@@ -1,1 +1,329 @@
-[]
+[
+ {
+  "id": "uefachampions-aston-villa-viking-fk",
+  "liga": "uefa.champions",
+  "fase": "",
+  "fecha": "2026-10-21",
+  "local": "Aston Villa",
+  "visita": "Viking FK",
+  "gl": 3,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "23'",
+    "jugador": "Ross Barkley",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "37'",
+    "jugador": "Emiliano Buendía",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "62'",
+    "jugador": "Henrik Heggheim",
+    "lado": "local",
+    "penal": false,
+    "autogol": true
+   },
+   {
+    "min": "84'",
+    "jugador": "Peter Christiansen",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [],
+  "anulados": []
+ },
+ {
+  "id": "uefachampions-internazionale-shakhtar-donetsk",
+  "liga": "uefa.champions",
+  "fase": "",
+  "fecha": "2026-10-21",
+  "local": "Internazionale",
+  "visita": "Shakhtar Donetsk",
+  "gl": 1,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "77'",
+    "jugador": "Carlos Augusto",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "36'",
+    "jugador": "Oleh Ocheretko",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "54'",
+    "jugador": "Marcus Thuram",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "66'",
+    "jugador": "Alessandro Bastoni",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "68'",
+    "jugador": "Marlon Gomes",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "68'",
+    "jugador": "Alessandro Bastoni",
+    "lado": "local",
+    "tipo": "roja"
+   },
+   {
+    "min": "72'",
+    "jugador": "Petar Sucic",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ },
+ {
+  "id": "uefachampions-real-madrid-rb-leipzig",
+  "liga": "uefa.champions",
+  "fase": "",
+  "fecha": "2026-10-21",
+  "local": "Real Madrid",
+  "visita": "RB Leipzig",
+  "gl": 4,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "43'",
+    "jugador": "Bernardo Silva",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "52'",
+    "jugador": "Arda Güler",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "83'",
+    "jugador": "Kylian Mbappé",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "85'",
+    "jugador": "Tidiam Gomis",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "87'",
+    "jugador": "Yan Diomande",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "68'",
+    "jugador": "Álvaro Carreras",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "70'",
+    "jugador": "Rocco Reitz",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ },
+ {
+  "id": "uefachampions-sporting-cp-lask-linz",
+  "liga": "uefa.champions",
+  "fase": "",
+  "fecha": "2026-10-21",
+  "local": "Sporting CP",
+  "visita": "LASK Linz",
+  "gl": 2,
+  "gv": 3,
+  "goles": [
+   {
+    "min": "5'",
+    "jugador": "Luis Suárez",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "15'",
+    "jugador": "Christoph Lang",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "63'",
+    "jugador": "Sasa Kalajdzic",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "68'",
+    "jugador": "Krystof Danek",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "89'",
+    "jugador": "Luis Suárez",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "33'",
+    "jugador": "Christoph Lang",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "45'",
+    "jugador": "Sascha Horvath",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "64'",
+    "jugador": "Issa Doumbia",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "65'",
+    "jugador": "João Simões",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "72'",
+    "jugador": "Sasa Kalajdzic",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "89'",
+    "jugador": "Tobias Schützenauer",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+1'",
+    "jugador": "Krystof Danek",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ },
+ {
+  "tipo": "resumen",
+  "id": "uefachampions-20261021",
+  "liga": "uefa.champions",
+  "fase": "",
+  "fecha": "2026-10-21",
+  "rango": "21 de octubre",
+  "partidos": [
+   {
+    "dia": "Mié 21",
+    "local": "Como",
+    "visita": "Man. United",
+    "gl": 4,
+    "gv": 1
+   },
+   {
+    "dia": "Mié 21",
+    "local": "Lille",
+    "visita": "Galatasaray",
+    "gl": 2,
+    "gv": 4
+   },
+   {
+    "dia": "Mié 21",
+    "local": "Aston Villa",
+    "visita": "Viking FK",
+    "gl": 3,
+    "gv": 1
+   },
+   {
+    "dia": "Mié 21",
+    "local": "Bayern",
+    "visita": "Arsenal",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "dia": "Mié 21",
+    "local": "Club Brujas",
+    "visita": "Lens",
+    "gl": 3,
+    "gv": 0
+   },
+   {
+    "dia": "Mié 21",
+    "local": "Internazionale",
+    "visita": "Shakhtar Donetsk",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "dia": "Mié 21",
+    "local": "Betis",
+    "visita": "Feyenoord Rotterdam",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "dia": "Mié 21",
+    "local": "Real Madrid",
+    "visita": "RB Leipzig",
+    "gl": 4,
+    "gv": 1
+   },
+   {
+    "dia": "Mié 21",
+    "local": "Sporting CP",
+    "visita": "LASK Linz",
+    "gl": 2,
+    "gv": 3
+   }
+  ]
+ }
+]
