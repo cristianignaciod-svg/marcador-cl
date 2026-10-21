@@ -533,6 +533,8 @@
   ],
   "titulo": "Hoy se juega (12 partidos)",
   "liga": "agenda",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18123527519304049",
+  "publicado": "2026-10-21T12:25:12+00:00"
  }
 ]
