@@ -1,12 +1,10 @@
-{"fecha": "2026-10-20", "fuentes": ["https://www.fotmob.com/es/tv-guide/cl", "https://www.tvn.cl/deportes/futbol-internacional/psg-vs-barcelona-en-vivo-a-que-hora-y-donde-ver-champions", "https://tecache.cl/futbol/boca-juniors-vs-vasco-da-gama-donde-ver-en-vivo-y-online-el-partido-por-copa-sudamericana"], "partidos": [
-{"local": "Fenerbahçe", "visita": "Slavia Praga", "tv": "ESPN · Disney+ Premium"},
-{"local": "Sabah", "visita": "Dortmund", "tv": "ESPN Premium · Disney+ Premium"},
-{"local": "PSG", "visita": "Barcelona", "tv": "ESPN 5 · Disney+ Premium"},
-{"local": "Liverpool", "visita": "Villarreal", "tv": "ESPN 2 · Disney+ Premium"},
-{"local": "Man. City", "visita": "AEK Atenas", "tv": "ESPN · Disney+ Premium"},
-{"local": "Stuttgart", "visita": "Atlético de Madrid", "tv": "ESPN 7 · Disney+ Premium"},
-{"local": "Napoli", "visita": "Bodø/Glimt", "tv": "ESPN 4 · Disney+ Premium"},
-{"local": "Roma", "visita": "Slovan Bratislava", "tv": "ESPN 3 · Disney+ Premium"},
-{"local": "Porto", "visita": "PSV", "tv": "ESPN 6 · Disney+ Premium"},
-{"local": "Vasco da Gama", "visita": "Boca Juniors", "tv": "ESPN · Disney+ Premium"}
+{"fecha": "2026-10-21", "fuentes": ["https://bolavip.com/champions-league/donde-ver-en-vivo-como-1907-vs-manchester-united-por-la-jornada-3-de-la-champions-league-tv-y-streaming-online", "https://bolavip.com/champions-league/donde-ver-en-vivo-lille-vs-galatasaray-por-la-jornada-3-de-la-champions-league-tv-y-streaming-online", "https://bolavip.com/champions-league/donde-ver-en-vivo-bayern-vs-arsenal-por-la-jornada-3-de-la-champions-league-tv-y-streaming-online", "https://bolavip.com/champions-league/donde-ver-en-vivo-real-madrid-vs-rb-leipzig-por-la-jornada-3-de-la-champions-league-tv-y-streaming-online", "https://bolavip.com/champions-league/donde-ver-en-vivo-inter-vs-shakhtar-donetsk-por-la-jornada-3-de-la-champions-league-tv-y-streaming-online", "https://bolavip.com/champions-league/donde-ver-en-vivo-aston-villa-vs-viking-por-la-jornada-3-de-la-champions-league-tv-y-streaming-online", "https://bolavip.com/champions-league/donde-ver-en-vivo-brujas-vs-lens-por-la-jornada-3-de-la-champions-league-tv-y-streaming-online", "https://www.prensafutbol.cl/palmeiras-fluminense-hora-ver-libertadores/"], "partidos": [
+{"local": "Como", "visita": "Man. United", "tv": "Disney+ Premium"},
+{"local": "Lille", "visita": "Galatasaray", "tv": "ESPN · Disney+ Premium"},
+{"local": "Bayern Munich", "visita": "Arsenal", "tv": "ESPN · Disney+ Premium"},
+{"local": "Real Madrid", "visita": "RB Leipzig", "tv": "ESPN 5 · Disney+ Premium"},
+{"local": "Inter", "visita": "Shakhtar", "tv": "ESPN 2 · Disney+ Premium"},
+{"local": "Aston Villa", "visita": "Viking", "tv": "ESPN 3 · Disney+ Premium"},
+{"local": "Club Brugge", "visita": "Lens", "tv": "ESPN 7 · Disney+ Premium"},
+{"local": "Palmeiras", "visita": "Fluminense", "tv": "ESPN · Disney+ Premium"}
 ]}
