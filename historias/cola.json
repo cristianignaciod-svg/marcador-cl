@@ -546,7 +546,9 @@
   ],
   "titulo": "Como 4–1 Man. United",
   "liga": "uefa.champions",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18124836964924288",
+  "publicado": "2026-10-21T19:07:47+00:00"
  },
  {
   "tipo": "historia",
@@ -557,6 +559,8 @@
   ],
   "titulo": "Lille 2–4 Galatasaray",
   "liga": "uefa.champions",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18127563298850348",
+  "publicado": "2026-10-21T19:07:47+00:00"
  }
 ]
