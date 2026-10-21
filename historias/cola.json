@@ -562,5 +562,16 @@
   "enviado": true,
   "ig_id": "18127563298850348",
   "publicado": "2026-10-21T19:07:47+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "esp.1:401882870",
+  "creado": "2026-10-21T17:13:26-03:00",
+  "archivos": [
+   "historias/img/2026-10-21/esp1-levante-athletic.png"
+  ],
+  "titulo": "Levante 3–1 Athletic",
+  "liga": "esp.1",
+  "enviado": false
  }
 ]
