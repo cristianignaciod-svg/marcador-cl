@@ -585,7 +585,9 @@
   ],
   "titulo": "Bayern 2–2 Arsenal",
   "liga": "uefa.champions",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17994024276057428",
+  "publicado": "2026-10-21T21:20:57+00:00"
  },
  {
   "tipo": "historia",
@@ -596,7 +598,9 @@
   ],
   "titulo": "Club Brujas 3–0 Lens",
   "liga": "uefa.champions",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18414259339095746",
+  "publicado": "2026-10-21T21:20:57+00:00"
  },
  {
   "tipo": "historia",
@@ -607,6 +611,8 @@
   ],
   "titulo": "Betis 1–0 Feyenoord Rotterdam",
   "liga": "uefa.champions",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18136492942642904",
+  "publicado": "2026-10-21T21:20:57+00:00"
  }
 ]
