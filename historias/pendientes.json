@@ -1,1 +1,101 @@
-[]
+[
+ {
+  "tipo": "agenda",
+  "id": "agenda-2026-10-21",
+  "fecha": "2026-10-21",
+  "grupos": [
+   {
+    "liga": "conmebol.libertadores",
+    "partidos": [
+     {
+      "hora": "21:30",
+      "local": "Palmeiras",
+      "visita": "Fluminense",
+      "tv": "ESPN · Disney+ Premium"
+     }
+    ]
+   },
+   {
+    "liga": "conmebol.sudamericana",
+    "partidos": [
+     {
+      "hora": "19:00",
+      "local": "Montevideo City Torque",
+      "visita": "Atlético-MG",
+      "tv": "ESPN · Disney+ Premium · DSports"
+     }
+    ]
+   },
+   {
+    "liga": "uefa.champions",
+    "partidos": [
+     {
+      "hora": "13:45",
+      "local": "Como",
+      "visita": "Man. United",
+      "tv": "Disney+ Premium"
+     },
+     {
+      "hora": "13:45",
+      "local": "Lille",
+      "visita": "Galatasaray",
+      "tv": "ESPN · Disney+ Premium"
+     },
+     {
+      "hora": "16:00",
+      "local": "Aston Villa",
+      "visita": "Viking FK",
+      "tv": "ESPN 3 · Disney+ Premium"
+     },
+     {
+      "hora": "16:00",
+      "local": "Bayern",
+      "visita": "Arsenal",
+      "tv": "ESPN · Disney+ Premium"
+     },
+     {
+      "hora": "16:00",
+      "local": "Club Brujas",
+      "visita": "Lens",
+      "tv": "ESPN 7 · Disney+ Premium"
+     },
+     {
+      "hora": "16:00",
+      "local": "Internazionale",
+      "visita": "Shakhtar Donetsk",
+      "tv": "ESPN 2 · Disney+ Premium"
+     },
+     {
+      "hora": "16:00",
+      "local": "Betis",
+      "visita": "Feyenoord Rotterdam",
+      "tv": "ESPN · Disney+ Premium"
+     },
+     {
+      "hora": "16:00",
+      "local": "Real Madrid",
+      "visita": "RB Leipzig",
+      "tv": "ESPN 5 · Disney+ Premium"
+     },
+     {
+      "hora": "16:00",
+      "local": "Sporting CP",
+      "visita": "LASK Linz",
+      "tv": "ESPN · Disney+ Premium"
+     }
+    ]
+   },
+   {
+    "liga": "esp.1",
+    "partidos": [
+     {
+      "hora": "15:00",
+      "local": "Levante",
+      "visita": "Athletic",
+      "tv": "DSports o ESPN"
+     }
+    ]
+   }
+  ]
+ }
+]

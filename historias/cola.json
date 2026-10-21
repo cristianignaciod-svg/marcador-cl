@@ -522,5 +522,17 @@
   "enviado": true,
   "ig_id": "18119326276995011",
   "publicado": "2026-10-21T02:53:32+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "agenda:2026-10-21",
+  "creado": "2026-10-21T09:24:36-03:00",
+  "archivos": [
+   "historias/img/2026-10-21/agenda-2026-10-21-1.png",
+   "historias/img/2026-10-21/agenda-2026-10-21-2.png"
+  ],
+  "titulo": "Hoy se juega (12 partidos)",
+  "liga": "agenda",
+  "enviado": false
  }
 ]
