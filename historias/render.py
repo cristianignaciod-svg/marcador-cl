@@ -234,7 +234,7 @@ def html_resumen(r, filas, pagina, total):
 </div>'''
     tam = 120 if len(liga) <= 15 else 96
     pie = f"{pagina}/{total} · Desliza para ver más" if total > 1 and pagina < total else "Resultados · Goles y goleadores"
-    fase = f'<div style="font:700 44px/1 Saira;text-transform:uppercase;color:#e9a63b;white-space:nowrap">{e(r.get("fase",""))}</div>' if r.get("fase") else ""
+    fase = f'<div style="margin-top:18px;font:700 40px/1.1 Saira;text-transform:uppercase;color:#e9a63b">{e(r.get("fase",""))}</div>' if r.get("fase") else ""
     return f'''<!doctype html><html><head><meta charset="utf-8"><style>
 @font-face{{font-family:Saira;src:url("{font("SairaCondensed-ExtraBold.ttf")}");font-weight:800}}
 @font-face{{font-family:Saira;src:url("{font("SairaCondensed-Bold.ttf")}");font-weight:700}}
@@ -248,7 +248,7 @@ html,body{{margin:0;background:#0f1512}}
       <div style="font-weight:700;color:#e8eee9;letter-spacing:.08em;text-transform:uppercase;font-size:20px">Resultados</div>
       <div>{e(r.get("rango",""))}</div></div>
   </div>
-  <div style="padding-top:44px;display:flex;align-items:baseline;justify-content:space-between;gap:24px">
+  <div style="padding-top:44px;display:flex;flex-direction:column">
     <div style="font:800 {tam}px/0.9 Saira;text-transform:uppercase">{e(liga)}</div>{fase}
   </div>
   <div style="margin-top:28px;display:flex;flex-direction:column">{rows}</div>
