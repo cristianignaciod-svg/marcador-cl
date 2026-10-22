@@ -1,84 +1,53 @@
 [
  {
-  "id": "uefaeuropa-ferencvaros-torreense",
+  "id": "uefaeuropa-ararat-armenia-az-alkmaar",
   "liga": "uefa.europa",
   "fase": "",
   "fecha": "2026-10-22",
-  "local": "Ferencvaros",
-  "visita": "Torreense",
-  "gl": 4,
-  "gv": 1,
+  "local": "Ararat-Armenia",
+  "visita": "AZ Alkmaar",
+  "gl": 0,
+  "gv": 4,
   "goles": [
    {
-    "min": "20'",
-    "jugador": "Bamidele Isa Yusuf",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "23'",
-    "jugador": "Manuel Pozo",
+    "min": "21'",
+    "jugador": "Valdemar Byskov",
     "lado": "visita",
     "penal": false,
     "autogol": false
    },
    {
-    "min": "58'",
-    "jugador": "Mariano Gómez",
-    "lado": "local",
+    "min": "27'",
+    "jugador": "Weslley Patati",
+    "lado": "visita",
     "penal": false,
     "autogol": false
    },
    {
-    "min": "80'",
-    "jugador": "Mohamed Diadié",
-    "lado": "local",
+    "min": "76'",
+    "jugador": "Weslley Patati",
+    "lado": "visita",
     "penal": false,
-    "autogol": true
+    "autogol": false
    },
    {
-    "min": "89'",
-    "jugador": "Krisztián Lisztes",
-    "lado": "local",
+    "min": "79'",
+    "jugador": "Mexx Meerdink",
+    "lado": "visita",
     "penal": false,
     "autogol": false
    }
   ],
   "tarjetas": [
    {
-    "min": "9'",
-    "jugador": "Kristoffer Zachariassen",
+    "min": "23'",
+    "jugador": "Bruno Wilson",
     "lado": "local",
     "tipo": "amarilla"
    },
    {
-    "min": "17'",
-    "jugador": "Alejandro Alfaro",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "19'",
-    "jugador": "Jonathan Mutombo",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "68'",
-    "jugador": "Bamidele Isa Yusuf",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "76'",
-    "jugador": "Marius Dumitru Corbu",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "90+1'",
-    "jugador": "Olivér Nagy",
+    "min": "44'",
+    "jugador": "Armen Ambartsumyan",
     "lado": "local",
     "tipo": "amarilla"
    }
@@ -86,25 +55,207 @@
   "anulados": []
  },
  {
-  "id": "uefaeuropa-lech-poznan-sunderland",
+  "id": "uefaeuropa-dinamo-zagreb-nec-nijmegen",
   "liga": "uefa.europa",
   "fase": "",
   "fecha": "2026-10-22",
-  "local": "Lech Poznan",
-  "visita": "Sunderland",
-  "gl": 1,
-  "gv": 1,
+  "local": "Dinamo Zagreb",
+  "visita": "NEC Nijmegen",
+  "gl": 2,
+  "gv": 4,
   "goles": [
    {
-    "min": "2'",
-    "jugador": "Tymur Tutierov",
+    "min": "25'",
+    "jugador": "Clement Bischoff",
     "lado": "visita",
     "penal": false,
     "autogol": false
    },
    {
-    "min": "70'",
-    "jugador": "Leo Bengtsson",
+    "min": "33'",
+    "jugador": "Dion Drena Beljo",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "37'",
+    "jugador": "Dion Drena Beljo",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "45'",
+    "jugador": "Bryan Linssen",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "54'",
+    "jugador": "Bryan Linssen",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "80'",
+    "jugador": "Tjaronn Chery",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "23'",
+    "jugador": "Dion Drena Beljo",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "44'",
+    "jugador": "Noé Lebreton",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+2'",
+    "jugador": "Clement Bischoff",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ },
+ {
+  "id": "uefaeuropa-juventus-stade-rennais",
+  "liga": "uefa.europa",
+  "fase": "",
+  "fecha": "2026-10-22",
+  "local": "Juventus",
+  "visita": "Stade Rennais",
+  "gl": 2,
+  "gv": 2,
+  "goles": [
+   {
+    "min": "5'",
+    "jugador": "Zeki Çelik",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "15'",
+    "jugador": "Mousa Al-Tamari",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "43'",
+    "jugador": "Boulaye Dia",
+    "lado": "visita",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "67'",
+    "jugador": "Nick Woltemade",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "19'",
+    "jugador": "Federico Gatti",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "82'",
+    "jugador": "Abdelhamid Aït Boudlal",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ },
+ {
+  "id": "uefaeuropa-ofi-crete-bayer-leverkusen",
+  "liga": "uefa.europa",
+  "fase": "",
+  "fecha": "2026-10-22",
+  "local": "OFI Crete",
+  "visita": "Bayer Leverkusen",
+  "gl": 0,
+  "gv": 2,
+  "goles": [
+   {
+    "min": "35'",
+    "jugador": "Jonas Hofmann",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "37'",
+    "jugador": "Jonas Hofmann",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "15'",
+    "jugador": "",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "25'",
+    "jugador": "Aleix García",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "79'",
+    "jugador": "Jarell Quansah",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "86'",
+    "jugador": "Ezequiel Fernández",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "87'",
+    "jugador": "Borja González",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ },
+ {
+  "id": "uefaeuropa-sk-sturm-graz-marseille",
+  "liga": "uefa.europa",
+  "fase": "",
+  "fecha": "2026-10-22",
+  "local": "SK Sturm Graz",
+  "visita": "Marseille",
+  "gl": 1,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "13'",
+    "jugador": "Oumar Diakité",
     "lado": "local",
     "penal": false,
     "autogol": false
@@ -112,9 +263,112 @@
   ],
   "tarjetas": [
    {
-    "min": "41'",
-    "jugador": "Kevin Danso",
+    "min": "24'",
+    "jugador": "Angel Gomes",
     "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "32'",
+    "jugador": "Oumar Diakité",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "63'",
+    "jugador": "Luca Weinhandl",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "80'",
+    "jugador": "Amine Gouiri",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "84'",
+    "jugador": "Arjan Malic",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+1'",
+    "jugador": "Bamo Meïté",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ },
+ {
+  "id": "uefaeuropa-union-st-gilloise-hapoel-be-er",
+  "liga": "uefa.europa",
+  "fase": "",
+  "fecha": "2026-10-22",
+  "local": "Union St.-Gilloise",
+  "visita": "Hapoel Be'er",
+  "gl": 4,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "45+1'",
+    "jugador": "Raul Florucz",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "60'",
+    "jugador": "Guilherme Smith",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "77'",
+    "jugador": "Dylan Aquino",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "81'",
+    "jugador": "Guilherme Smith",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "20'",
+    "jugador": "Nohim Chibani",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "25'",
+    "jugador": "Niv Yehoshua",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "45+6'",
+    "jugador": "Zahi Ahmed",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "58'",
+    "jugador": "Miguel Vítor",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "72'",
+    "jugador": "Kamiel Van De Perre",
+    "lado": "local",
     "tipo": "amarilla"
    }
   ],

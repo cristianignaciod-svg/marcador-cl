@@ -865,5 +865,71 @@
   "enviado": true,
   "ig_id": "18088971692507942",
   "publicado": "2026-10-22T19:14:07+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915548",
+  "creado": "2026-10-22T16:23:53-03:00",
+  "archivos": [
+   "historias/img/2026-10-22/uefaeuropa-ararat-armenia-az-alkmaar.png"
+  ],
+  "titulo": "Ararat-Armenia 0–4 AZ Alkmaar",
+  "liga": "uefa.europa",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915556",
+  "creado": "2026-10-22T16:23:53-03:00",
+  "archivos": [
+   "historias/img/2026-10-22/uefaeuropa-dinamo-zagreb-nec-nijmegen.png"
+  ],
+  "titulo": "Dinamo Zagreb 2–4 NEC Nijmegen",
+  "liga": "uefa.europa",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915547",
+  "creado": "2026-10-22T16:23:53-03:00",
+  "archivos": [
+   "historias/img/2026-10-22/uefaeuropa-juventus-stade-rennais.png"
+  ],
+  "titulo": "Juventus 2–2 Stade Rennais",
+  "liga": "uefa.europa",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915559",
+  "creado": "2026-10-22T16:23:53-03:00",
+  "archivos": [
+   "historias/img/2026-10-22/uefaeuropa-ofi-crete-bayer-leverkusen.png"
+  ],
+  "titulo": "OFI Crete 0–2 Bayer Leverkusen",
+  "liga": "uefa.europa",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915557",
+  "creado": "2026-10-22T16:23:53-03:00",
+  "archivos": [
+   "historias/img/2026-10-22/uefaeuropa-sk-sturm-graz-marseille.png"
+  ],
+  "titulo": "SK Sturm Graz 1–0 Marseille",
+  "liga": "uefa.europa",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915545",
+  "creado": "2026-10-22T16:23:53-03:00",
+  "archivos": [
+   "historias/img/2026-10-22/uefaeuropa-union-st-gilloise-hapoel-be-er.png"
+  ],
+  "titulo": "Union St.-Gilloise 4–0 Hapoel Be'er",
+  "liga": "uefa.europa",
+  "enviado": false
  }
 ]
