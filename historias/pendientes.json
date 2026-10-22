@@ -1,1 +1,123 @@
-[]
+[
+ {
+  "id": "uefaeuropa-ferencvaros-torreense",
+  "liga": "uefa.europa",
+  "fase": "",
+  "fecha": "2026-10-22",
+  "local": "Ferencvaros",
+  "visita": "Torreense",
+  "gl": 4,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "20'",
+    "jugador": "Bamidele Isa Yusuf",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "23'",
+    "jugador": "Manuel Pozo",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "58'",
+    "jugador": "Mariano Gómez",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "80'",
+    "jugador": "Mohamed Diadié",
+    "lado": "local",
+    "penal": false,
+    "autogol": true
+   },
+   {
+    "min": "89'",
+    "jugador": "Krisztián Lisztes",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "9'",
+    "jugador": "Kristoffer Zachariassen",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "17'",
+    "jugador": "Alejandro Alfaro",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "19'",
+    "jugador": "Jonathan Mutombo",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "68'",
+    "jugador": "Bamidele Isa Yusuf",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "76'",
+    "jugador": "Marius Dumitru Corbu",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+1'",
+    "jugador": "Olivér Nagy",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ },
+ {
+  "id": "uefaeuropa-lech-poznan-sunderland",
+  "liga": "uefa.europa",
+  "fase": "",
+  "fecha": "2026-10-22",
+  "local": "Lech Poznan",
+  "visita": "Sunderland",
+  "gl": 1,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "2'",
+    "jugador": "Tymur Tutierov",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "70'",
+    "jugador": "Leo Bengtsson",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "41'",
+    "jugador": "Kevin Danso",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ }
+]

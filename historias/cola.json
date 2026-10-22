@@ -839,5 +839,27 @@
   "enviado": true,
   "ig_id": "18142105699719040",
   "publicado": "2026-10-22T12:28:34+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915558",
+  "creado": "2026-10-22T16:13:31-03:00",
+  "archivos": [
+   "historias/img/2026-10-22/uefaeuropa-ferencvaros-torreense.png"
+  ],
+  "titulo": "Ferencvaros 4–1 Torreense",
+  "liga": "uefa.europa",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915546",
+  "creado": "2026-10-22T16:13:31-03:00",
+  "archivos": [
+   "historias/img/2026-10-22/uefaeuropa-lech-poznan-sunderland.png"
+  ],
+  "titulo": "Lech Poznan 1–1 Sunderland",
+  "liga": "uefa.europa",
+  "enviado": false
  }
 ]
