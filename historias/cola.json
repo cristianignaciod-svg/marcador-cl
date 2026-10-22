@@ -811,5 +811,16 @@
   "enviado": true,
   "ig_id": "18012867011987456",
   "publicado": "2026-10-22T03:02:40+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "conmebol.libertadores:401912520:v2",
+  "creado": "2026-10-22T00:23:31-03:00",
+  "archivos": [
+   "historias/img/2026-10-21/conmebollibertadores-palmeiras-fluminense-v2.png"
+  ],
+  "titulo": "Palmeiras 0–1 Fluminense (pen. 5–3, corregida)",
+  "liga": "conmebol.libertadores",
+  "enviado": false
  }
 ]
