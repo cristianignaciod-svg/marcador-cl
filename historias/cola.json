@@ -849,7 +849,9 @@
   ],
   "titulo": "Ferencvaros 4–1 Torreense",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17987361993110142",
+  "publicado": "2026-10-22T19:14:07+00:00"
  },
  {
   "tipo": "historia",
@@ -860,6 +862,8 @@
   ],
   "titulo": "Lech Poznan 1–1 Sunderland",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18088971692507942",
+  "publicado": "2026-10-22T19:14:07+00:00"
  }
 ]
