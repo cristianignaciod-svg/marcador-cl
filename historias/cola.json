@@ -968,7 +968,9 @@
   ],
   "titulo": "Bournemouth 3–0 AC Milan",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17882742174691375",
+  "publicado": "2026-10-22T21:11:12+00:00"
  },
  {
   "tipo": "historia",
@@ -979,7 +981,9 @@
   ],
   "titulo": "Besiktas 2–2 Crystal Palace",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18138014839642497",
+  "publicado": "2026-10-22T21:11:12+00:00"
  },
  {
   "tipo": "historia",
@@ -990,7 +994,9 @@
   ],
   "titulo": "Celtic 1–2 Celta",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18159834718516139",
+  "publicado": "2026-10-22T21:11:12+00:00"
  },
  {
   "tipo": "historia",
@@ -1001,7 +1007,9 @@
   ],
   "titulo": "Jagiellonia Bialystok 0–3 Anderlecht",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18098693423451506",
+  "publicado": "2026-10-22T21:11:12+00:00"
  },
  {
   "tipo": "historia",
@@ -1012,7 +1020,9 @@
   ],
   "titulo": "NK Celje 2–2 RB Salzburg",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18150688564553389",
+  "publicado": "2026-10-22T21:11:12+00:00"
  },
  {
   "tipo": "historia",
@@ -1023,7 +1033,9 @@
   ],
   "titulo": "Olympiacos 1–0 Sparta Prague",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18110608271579136",
+  "publicado": "2026-10-22T21:11:12+00:00"
  },
  {
   "tipo": "historia",
@@ -1034,7 +1046,9 @@
   ],
   "titulo": "Omonia Nicosia 1–4 Benfica",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18171165904476362",
+  "publicado": "2026-10-22T21:11:12+00:00"
  },
  {
   "tipo": "historia",
@@ -1045,7 +1059,9 @@
   ],
   "titulo": "TSG Hoffenheim 3–0 Lyon",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18356470933168809",
+  "publicado": "2026-10-22T21:11:12+00:00"
  },
  {
   "tipo": "historia",
@@ -1056,7 +1072,9 @@
   ],
   "titulo": "Viktoria Plzen 1–2 Levski Sofia",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18107384140966132",
+  "publicado": "2026-10-22T21:11:12+00:00"
  },
  {
   "tipo": "resumen",
