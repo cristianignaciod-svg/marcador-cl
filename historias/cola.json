@@ -793,6 +793,8 @@
   "enviado": false,
   "texto": "¡Ya tenemos final de la Sudamericana! 🏆\nBoca lo dio vuelta en Brasil: le ganó 3-1 a Vasco da Gama y avanzó 3-2 en el global.\nMontevideo City Torque le pegó 2-0 a Atlético-MG, pero no le alcanzó: el Galo también está en la final.\n¿Quién se queda con la copa, Boca o Atlético-MG? 👇\n\n#MarcadorCL #Futbol #Sudamericana #CopaSudamericana #FutbolSudamericano",
   "avisado": true,
-  "aprobado": true
+  "aprobado": true,
+  "error": "400 {\"error\":{\"message\":\"Media ID is not available\",\"type\":\"OAuthException\",\"code\":9007,\"error_subcode\":2207027,\"is_transient\":false,\"error_user_title\":\"Cannot Publish\",\"error_user_msg\":\"The media is not ready for publishing, please wait for a moment\",\"fbtrace_id\":\"Avd6B8UK9BEri2cT782y6Aq\"}}",
+  "intentos": 1
  }
 ]
