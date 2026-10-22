@@ -749,5 +749,45 @@
   "aprobado": true,
   "ig_id": "18454998994130136",
   "publicado": "2026-10-21T22:10:21+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "conmebol.sudamericana:401913956",
+  "creado": "2026-10-21T21:31:32-03:00",
+  "archivos": [
+   "historias/img/2026-10-21/conmebolsudamericana-montevideo-city-torque-atletico-mg.png"
+  ],
+  "titulo": "Montevideo City Torque 2–0 Atlético-MG",
+  "liga": "conmebol.sudamericana",
+  "enviado": false
+ },
+ {
+  "tipo": "resumen",
+  "clave": "conmebol.sudamericana:2026-10-20",
+  "creado": "2026-10-21T21:31:32-03:00",
+  "archivos": [
+   "historias/img/2026-10-21/conmebolsudamericana-20261020-1.png"
+  ],
+  "titulo": "conmebol.sudamericana Juego de Vuelta - Boca Juniors Gana 3-2 en el global",
+  "liga": "conmebol.sudamericana",
+  "fase": "Juego de Vuelta - Boca Juniors Gana 3-2 en el global",
+  "rango": "20 al 21 de octubre",
+  "partidos": [
+   {
+    "dia": "Mar 20",
+    "local": "Vasco da Gama",
+    "visita": "Boca Juniors",
+    "gl": 1,
+    "gv": 3
+   },
+   {
+    "dia": "Mié 21",
+    "local": "Montevideo City Torque",
+    "visita": "Atlético-MG",
+    "gl": 2,
+    "gv": 0
+   }
+  ],
+  "enviado": false
  }
 ]

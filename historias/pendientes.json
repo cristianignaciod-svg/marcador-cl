@@ -1,1 +1,85 @@
-[]
+[
+ {
+  "id": "conmebolsudamericana-montevideo-city-torque-atletico-mg",
+  "liga": "conmebol.sudamericana",
+  "fase": "Juego de Vuelta - Atlético-MG Gana 3-2 en el global",
+  "fecha": "2026-10-21",
+  "local": "Montevideo City Torque",
+  "visita": "Atlético-MG",
+  "gl": 2,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "89'",
+    "jugador": "Kevin Silva",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "90+3'",
+    "jugador": "Gary Kagelmacher",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "40'",
+    "jugador": "Vitão",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "53'",
+    "jugador": "Pablo Siles",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "58'",
+    "jugador": "Alan Franco",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "75'",
+    "jugador": "Alan Franco",
+    "lado": "visita",
+    "tipo": "roja"
+   },
+   {
+    "min": "82'",
+    "jugador": "Natanael",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ },
+ {
+  "tipo": "resumen",
+  "id": "conmebolsudamericana-20261020",
+  "liga": "conmebol.sudamericana",
+  "fase": "Juego de Vuelta - Boca Juniors Gana 3-2 en el global",
+  "fecha": "2026-10-21",
+  "rango": "20 al 21 de octubre",
+  "partidos": [
+   {
+    "dia": "Mar 20",
+    "local": "Vasco da Gama",
+    "visita": "Boca Juniors",
+    "gl": 1,
+    "gv": 3
+   },
+   {
+    "dia": "Mié 21",
+    "local": "Montevideo City Torque",
+    "visita": "Atlético-MG",
+    "gl": 2,
+    "gv": 0
+   }
+  ]
+ }
+]
