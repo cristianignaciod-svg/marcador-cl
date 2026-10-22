@@ -875,7 +875,9 @@
   ],
   "titulo": "Ararat-Armenia 0–4 AZ Alkmaar",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": false,
+  "error": "400 {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,128,444,830,759,825 cannot be found.\",\"fbtrace_id\":\"A2_Gy35P8heKaoA3Qs2behe\"}}",
+  "intentos": 1
  },
  {
   "tipo": "historia",
@@ -886,7 +888,9 @@
   ],
   "titulo": "Dinamo Zagreb 2–4 NEC Nijmegen",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17913639144492906",
+  "publicado": "2026-10-22T19:24:26+00:00"
  },
  {
   "tipo": "historia",
@@ -897,7 +901,9 @@
   ],
   "titulo": "Juventus 2–2 Stade Rennais",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18132401104773069",
+  "publicado": "2026-10-22T19:24:26+00:00"
  },
  {
   "tipo": "historia",
@@ -908,7 +914,9 @@
   ],
   "titulo": "OFI Crete 0–2 Bayer Leverkusen",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18636452668010156",
+  "publicado": "2026-10-22T19:24:26+00:00"
  },
  {
   "tipo": "historia",
@@ -919,7 +927,9 @@
   ],
   "titulo": "SK Sturm Graz 1–0 Marseille",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17905566390657136",
+  "publicado": "2026-10-22T19:24:26+00:00"
  },
  {
   "tipo": "historia",
@@ -930,6 +940,8 @@
   ],
   "titulo": "Union St.-Gilloise 4–0 Hapoel Be'er",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17873532192602299",
+  "publicado": "2026-10-22T19:24:26+00:00"
  }
 ]
