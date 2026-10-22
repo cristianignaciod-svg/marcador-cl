@@ -958,5 +958,246 @@
   "enviado": true,
   "ig_id": "17930830308414173",
   "publicado": "2026-10-22T21:00:53+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915552",
+  "creado": "2026-10-22T18:10:25-03:00",
+  "archivos": [
+   "historias/img/2026-10-22/uefaeuropa-bournemouth-ac-milan.png"
+  ],
+  "titulo": "Bournemouth 3–0 AC Milan",
+  "liga": "uefa.europa",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915553",
+  "creado": "2026-10-22T18:10:25-03:00",
+  "archivos": [
+   "historias/img/2026-10-22/uefaeuropa-besiktas-crystal-palace.png"
+  ],
+  "titulo": "Besiktas 2–2 Crystal Palace",
+  "liga": "uefa.europa",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915555",
+  "creado": "2026-10-22T18:10:25-03:00",
+  "archivos": [
+   "historias/img/2026-10-22/uefaeuropa-celtic-celta.png"
+  ],
+  "titulo": "Celtic 1–2 Celta",
+  "liga": "uefa.europa",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915542",
+  "creado": "2026-10-22T18:10:25-03:00",
+  "archivos": [
+   "historias/img/2026-10-22/uefaeuropa-jagiellonia-bialystok-anderlecht.png"
+  ],
+  "titulo": "Jagiellonia Bialystok 0–3 Anderlecht",
+  "liga": "uefa.europa",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915541",
+  "creado": "2026-10-22T18:10:25-03:00",
+  "archivos": [
+   "historias/img/2026-10-22/uefaeuropa-nk-celje-rb-salzburg.png"
+  ],
+  "titulo": "NK Celje 2–2 RB Salzburg",
+  "liga": "uefa.europa",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915554",
+  "creado": "2026-10-22T18:10:25-03:00",
+  "archivos": [
+   "historias/img/2026-10-22/uefaeuropa-olympiacos-sparta-prague.png"
+  ],
+  "titulo": "Olympiacos 1–0 Sparta Prague",
+  "liga": "uefa.europa",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915544",
+  "creado": "2026-10-22T18:10:25-03:00",
+  "archivos": [
+   "historias/img/2026-10-22/uefaeuropa-omonia-nicosia-benfica.png"
+  ],
+  "titulo": "Omonia Nicosia 1–4 Benfica",
+  "liga": "uefa.europa",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915543",
+  "creado": "2026-10-22T18:10:25-03:00",
+  "archivos": [
+   "historias/img/2026-10-22/uefaeuropa-tsg-hoffenheim-lyon.png"
+  ],
+  "titulo": "TSG Hoffenheim 3–0 Lyon",
+  "liga": "uefa.europa",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915539",
+  "creado": "2026-10-22T18:10:25-03:00",
+  "archivos": [
+   "historias/img/2026-10-22/uefaeuropa-viktoria-plzen-levski-sofia.png"
+  ],
+  "titulo": "Viktoria Plzen 1–2 Levski Sofia",
+  "liga": "uefa.europa",
+  "enviado": false
+ },
+ {
+  "tipo": "resumen",
+  "clave": "uefa.europa:2026-10-22",
+  "creado": "2026-10-22T18:10:25-03:00",
+  "archivos": [
+   "historias/img/2026-10-22/uefaeuropa-20261022-1.png",
+   "historias/img/2026-10-22/uefaeuropa-20261022-2.png"
+  ],
+  "titulo": "uefa.europa 22 de octubre",
+  "liga": "uefa.europa",
+  "fase": "",
+  "rango": "22 de octubre",
+  "partidos": [
+   {
+    "dia": "Jue 22",
+    "local": "Ararat-Armenia",
+    "visita": "AZ Alkmaar",
+    "gl": 0,
+    "gv": 4
+   },
+   {
+    "dia": "Jue 22",
+    "local": "Dinamo Zagreb",
+    "visita": "NEC Nijmegen",
+    "gl": 2,
+    "gv": 4
+   },
+   {
+    "dia": "Jue 22",
+    "local": "Ferencvaros",
+    "visita": "Torreense",
+    "gl": 4,
+    "gv": 1
+   },
+   {
+    "dia": "Jue 22",
+    "local": "Juventus",
+    "visita": "Stade Rennais",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "dia": "Jue 22",
+    "local": "Lech Poznan",
+    "visita": "Sunderland",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "dia": "Jue 22",
+    "local": "OFI Crete",
+    "visita": "Bayer Leverkusen",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "dia": "Jue 22",
+    "local": "SK Sturm Graz",
+    "visita": "Marseille",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "dia": "Jue 22",
+    "local": "Union St.-Gilloise",
+    "visita": "Hapoel Be'er",
+    "gl": 4,
+    "gv": 0
+   },
+   {
+    "dia": "Jue 22",
+    "local": "Bournemouth",
+    "visita": "AC Milan",
+    "gl": 3,
+    "gv": 0
+   },
+   {
+    "dia": "Jue 22",
+    "local": "Besiktas",
+    "visita": "Crystal Palace",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "dia": "Jue 22",
+    "local": "Celtic",
+    "visita": "Celta",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "dia": "Jue 22",
+    "local": "Jagiellonia Bialystok",
+    "visita": "Anderlecht",
+    "gl": 0,
+    "gv": 3
+   },
+   {
+    "dia": "Jue 22",
+    "local": "Lillestrom",
+    "visita": "Real Sociedad",
+    "gl": 0,
+    "gv": 6
+   },
+   {
+    "dia": "Jue 22",
+    "local": "NK Celje",
+    "visita": "RB Salzburg",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "dia": "Jue 22",
+    "local": "Olympiacos",
+    "visita": "Sparta Prague",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "dia": "Jue 22",
+    "local": "Omonia Nicosia",
+    "visita": "Benfica",
+    "gl": 1,
+    "gv": 4
+   },
+   {
+    "dia": "Jue 22",
+    "local": "TSG Hoffenheim",
+    "visita": "Lyon",
+    "gl": 3,
+    "gv": 0
+   },
+   {
+    "dia": "Jue 22",
+    "local": "Viktoria Plzen",
+    "visita": "Levski Sofia",
+    "gl": 1,
+    "gv": 2
+   }
+  ],
+  "enviado": false
  }
 ]

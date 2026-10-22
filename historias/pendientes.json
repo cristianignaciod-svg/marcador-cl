@@ -1,52 +1,170 @@
 [
  {
-  "id": "uefaeuropa-lillestrom-real-sociedad",
+  "id": "uefaeuropa-bournemouth-ac-milan",
   "liga": "uefa.europa",
   "fase": "",
   "fecha": "2026-10-22",
-  "local": "Lillestrom",
-  "visita": "Real Sociedad",
-  "gl": 0,
-  "gv": 6,
+  "local": "Bournemouth",
+  "visita": "AC Milan",
+  "gl": 3,
+  "gv": 0,
   "goles": [
    {
-    "min": "25'",
-    "jugador": "Sergio Gómez",
-    "lado": "visita",
+    "min": "8'",
+    "jugador": "Justin Kluivert",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "32'",
+    "jugador": "Marcus Tavernier",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "84'",
+    "jugador": "Amine Adli",
+    "lado": "local",
     "penal": false,
     "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "16'",
+    "jugador": "Bafodé Diakité",
+    "lado": "local",
+    "tipo": "amarilla"
    },
    {
     "min": "27'",
-    "jugador": "Sergio Gómez",
+    "jugador": "Mike Maignan",
+    "lado": "visita",
+    "tipo": "roja"
+   },
+   {
+    "min": "29'",
+    "jugador": "Tyler Adams",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "35'",
+    "jugador": "Pervis Estupiñán",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "63'",
+    "jugador": "Fikayo Tomori",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "81'",
+    "jugador": "Koni De Winter",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ },
+ {
+  "id": "uefaeuropa-besiktas-crystal-palace",
+  "liga": "uefa.europa",
+  "fase": "",
+  "fecha": "2026-10-22",
+  "local": "Besiktas",
+  "visita": "Crystal Palace",
+  "gl": 2,
+  "gv": 2,
+  "goles": [
+   {
+    "min": "45+2'",
+    "jugador": "Wilfred Ndidi",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "51'",
+    "jugador": "Yéremy Pino",
     "lado": "visita",
     "penal": false,
     "autogol": false
    },
    {
-    "min": "33'",
-    "jugador": "Luka Sucic",
+    "min": "55'",
+    "jugador": "Jean-Philippe Mateta",
     "lado": "visita",
     "penal": false,
     "autogol": false
    },
    {
-    "min": "64'",
-    "jugador": "Orri Óskarsson",
+    "min": "73'",
+    "jugador": "Junior Olaitan",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "15'",
+    "jugador": "Wilfred Ndidi",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "45+1'",
+    "jugador": "Yéremy Pino",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "66'",
+    "jugador": "Umit Akdag",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "77'",
+    "jugador": "Umit Akdag",
+    "lado": "local",
+    "tipo": "roja"
+   }
+  ],
+  "anulados": []
+ },
+ {
+  "id": "uefaeuropa-celtic-celta",
+  "liga": "uefa.europa",
+  "fase": "",
+  "fecha": "2026-10-22",
+  "local": "Celtic",
+  "visita": "Celta",
+  "gl": 1,
+  "gv": 2,
+  "goles": [
+   {
+    "min": "47'",
+    "jugador": "Mika Baur",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "68'",
+    "jugador": "Javi Rodríguez",
     "lado": "visita",
     "penal": false,
     "autogol": false
    },
    {
-    "min": "72'",
-    "jugador": "Luka Sucic",
-    "lado": "visita",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "80'",
-    "jugador": "Arsen Zakharyan",
+    "min": "71'",
+    "jugador": "Javi Rodríguez",
     "lado": "visita",
     "penal": false,
     "autogol": false
@@ -54,24 +172,563 @@
   ],
   "tarjetas": [
    {
-    "min": "30'",
-    "jugador": "Mamadou Sarr",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "52'",
-    "jugador": "Ruben Gabrielsen",
+    "min": "23'",
+    "jugador": "Camilo Durán",
     "lado": "local",
     "tipo": "amarilla"
    },
    {
-    "min": "56'",
-    "jugador": "Jon Gorrotxategi",
+    "min": "67'",
+    "jugador": "",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "85'",
+    "jugador": "Liam Scales",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "89'",
+    "jugador": "Oliver Sørensen",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+2'",
+    "jugador": "Colby Donovan",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ },
+ {
+  "id": "uefaeuropa-jagiellonia-bialystok-anderlecht",
+  "liga": "uefa.europa",
+  "fase": "",
+  "fecha": "2026-10-22",
+  "local": "Jagiellonia Bialystok",
+  "visita": "Anderlecht",
+  "gl": 0,
+  "gv": 3,
+  "goles": [
+   {
+    "min": "21'",
+    "jugador": "Mihajlo Cvetkovic",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "72'",
+    "jugador": "Marten Winkler",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "80'",
+    "jugador": "Jayden Onia-Seke",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "45+2'",
+    "jugador": "Rodrigo Conceição",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "46'",
+    "jugador": "Thelo Aasgaard",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "53'",
+    "jugador": "Bernardo Vital",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "67'",
+    "jugador": "Eryk Kozlowski",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "71'",
+    "jugador": "Enric Llansana",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "81'",
+    "jugador": "Jayden Onia-Seke",
     "lado": "visita",
     "tipo": "amarilla"
    }
   ],
   "anulados": []
+ },
+ {
+  "id": "uefaeuropa-nk-celje-rb-salzburg",
+  "liga": "uefa.europa",
+  "fase": "",
+  "fecha": "2026-10-22",
+  "local": "NK Celje",
+  "visita": "RB Salzburg",
+  "gl": 2,
+  "gv": 2,
+  "goles": [
+   {
+    "min": "9'",
+    "jugador": "Sota Kitano",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "46'",
+    "jugador": "Jesper Lindstrom",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "50'",
+    "jugador": "Blaz Kramer",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "90'",
+    "jugador": "Armandas Kucys",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "32'",
+    "jugador": "Artemijus Tutyskinas",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "35'",
+    "jugador": "Damir Redzic",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "43'",
+    "jugador": "Pijus Sirvys",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+2'",
+    "jugador": "Bartosz Mazurek",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ },
+ {
+  "id": "uefaeuropa-olympiacos-sparta-prague",
+  "liga": "uefa.europa",
+  "fase": "",
+  "fecha": "2026-10-22",
+  "local": "Olympiacos",
+  "visita": "Sparta Prague",
+  "gl": 1,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "78'",
+    "jugador": "Armando González",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "29'",
+    "jugador": "Jaroslav Zelený",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "38'",
+    "jugador": "Roman Macek",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "77'",
+    "jugador": "Ebrima Singhateh",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "80'",
+    "jugador": "Martin Suchomel",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "83'",
+    "jugador": "Jota Silva",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+2'",
+    "jugador": "Gelson Martins",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ },
+ {
+  "id": "uefaeuropa-omonia-nicosia-benfica",
+  "liga": "uefa.europa",
+  "fase": "",
+  "fecha": "2026-10-22",
+  "local": "Omonia Nicosia",
+  "visita": "Benfica",
+  "gl": 1,
+  "gv": 4,
+  "goles": [
+   {
+    "min": "14'",
+    "jugador": "Loïc Négo",
+    "lado": "visita",
+    "penal": false,
+    "autogol": true
+   },
+   {
+    "min": "42'",
+    "jugador": "Andronikos Kakoulis",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "49'",
+    "jugador": "Vangelis Pavlidis",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "76'",
+    "jugador": "Fredrik Aursnes",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "85'",
+    "jugador": "Gianluca Prestianni",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "62'",
+    "jugador": "Tomás Araújo",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "83'",
+    "jugador": "João Palhinha",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "88'",
+    "jugador": "Souffian El Karouani",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90'",
+    "jugador": "Gianluca Prestianni",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+3'",
+    "jugador": "Loïs Diony",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ },
+ {
+  "id": "uefaeuropa-tsg-hoffenheim-lyon",
+  "liga": "uefa.europa",
+  "fase": "",
+  "fecha": "2026-10-22",
+  "local": "TSG Hoffenheim",
+  "visita": "Lyon",
+  "gl": 3,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "45+4'",
+    "jugador": "Andrej Kramaric",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "49'",
+    "jugador": "Adam Daghim",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "83'",
+    "jugador": "Adam Hlozek",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "9'",
+    "jugador": "Mats Rots",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "72'",
+    "jugador": "Wouter Burger",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "81'",
+    "jugador": "Ozan Kabak",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "81'",
+    "jugador": "",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+3'",
+    "jugador": "Moussa Niakhaté",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ },
+ {
+  "id": "uefaeuropa-viktoria-plzen-levski-sofia",
+  "liga": "uefa.europa",
+  "fase": "",
+  "fecha": "2026-10-22",
+  "local": "Viktoria Plzen",
+  "visita": "Levski Sofia",
+  "gl": 1,
+  "gv": 2,
+  "goles": [
+   {
+    "min": "44'",
+    "jugador": "Everton Bala",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "62'",
+    "jugador": "Christophe Kabongo",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "65'",
+    "jugador": "Reinaldo",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "20'",
+    "jugador": "Mazire Soula",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "87'",
+    "jugador": "Stefan Pirgic",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ },
+ {
+  "tipo": "resumen",
+  "id": "uefaeuropa-20261022",
+  "liga": "uefa.europa",
+  "fase": "",
+  "fecha": "2026-10-22",
+  "rango": "22 de octubre",
+  "partidos": [
+   {
+    "dia": "Jue 22",
+    "local": "Ararat-Armenia",
+    "visita": "AZ Alkmaar",
+    "gl": 0,
+    "gv": 4
+   },
+   {
+    "dia": "Jue 22",
+    "local": "Dinamo Zagreb",
+    "visita": "NEC Nijmegen",
+    "gl": 2,
+    "gv": 4
+   },
+   {
+    "dia": "Jue 22",
+    "local": "Ferencvaros",
+    "visita": "Torreense",
+    "gl": 4,
+    "gv": 1
+   },
+   {
+    "dia": "Jue 22",
+    "local": "Juventus",
+    "visita": "Stade Rennais",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "dia": "Jue 22",
+    "local": "Lech Poznan",
+    "visita": "Sunderland",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "dia": "Jue 22",
+    "local": "OFI Crete",
+    "visita": "Bayer Leverkusen",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "dia": "Jue 22",
+    "local": "SK Sturm Graz",
+    "visita": "Marseille",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "dia": "Jue 22",
+    "local": "Union St.-Gilloise",
+    "visita": "Hapoel Be'er",
+    "gl": 4,
+    "gv": 0
+   },
+   {
+    "dia": "Jue 22",
+    "local": "Bournemouth",
+    "visita": "AC Milan",
+    "gl": 3,
+    "gv": 0
+   },
+   {
+    "dia": "Jue 22",
+    "local": "Besiktas",
+    "visita": "Crystal Palace",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "dia": "Jue 22",
+    "local": "Celtic",
+    "visita": "Celta",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "dia": "Jue 22",
+    "local": "Jagiellonia Bialystok",
+    "visita": "Anderlecht",
+    "gl": 0,
+    "gv": 3
+   },
+   {
+    "dia": "Jue 22",
+    "local": "Lillestrom",
+    "visita": "Real Sociedad",
+    "gl": 0,
+    "gv": 6
+   },
+   {
+    "dia": "Jue 22",
+    "local": "NK Celje",
+    "visita": "RB Salzburg",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "dia": "Jue 22",
+    "local": "Olympiacos",
+    "visita": "Sparta Prague",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "dia": "Jue 22",
+    "local": "Omonia Nicosia",
+    "visita": "Benfica",
+    "gl": 1,
+    "gv": 4
+   },
+   {
+    "dia": "Jue 22",
+    "local": "TSG Hoffenheim",
+    "visita": "Lyon",
+    "gl": 3,
+    "gv": 0
+   },
+   {
+    "dia": "Jue 22",
+    "local": "Viktoria Plzen",
+    "visita": "Levski Sofia",
+    "gl": 1,
+    "gv": 2
+   }
+  ]
  }
 ]
