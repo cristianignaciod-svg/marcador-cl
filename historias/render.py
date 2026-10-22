@@ -106,6 +106,23 @@ def html_partido(p):
     mut = "#93a399"
     cl = mut if gl < gv else "#e8eee9"
     cv = mut if gv < gl else "#e8eee9"
+    # series de eliminación: el color sigue a quien clasifica (penales o global)
+    if p.get("clasifica"):
+        cl = "#e8eee9" if p["clasifica"] == p["local"] else mut
+        cv = "#e8eee9" if p["clasifica"] == p["visita"] else mut
+    partes = []
+    if p.get("penales"):
+        partes.append(f'Penales {p["penales"][0]}–{p["penales"][1]}')
+    if p.get("global"):
+        partes.append(f'Global {p["global"][0]}–{p["global"][1]}')
+    serie_html = ""
+    if partes or p.get("clasifica"):
+        linea2 = (f'<div style="margin-top:10px;font:700 34px Saira;letter-spacing:.06em;text-transform:uppercase;color:#e8eee9">'
+                  f'Clasifica {html.escape(p["clasifica"])}</div>') if p.get("clasifica") else ""
+        serie_html = (f'<div style="margin-top:34px;text-align:center">'
+                      f'<div style="display:inline-block;font:700 40px Saira;letter-spacing:.04em;color:#0f1512;background:#e9a63b;'
+                      f'border-radius:8px;padding:6px 22px">{html.escape(" · ".join(partes))}</div>{linea2}</div>') if partes else (
+                      f'<div style="margin-top:34px;text-align:center">{linea2}</div>')
 
     def chip(nombre):
         uri = escudo(p["liga"], nombre)
@@ -194,6 +211,7 @@ html,body{{margin:0;background:#0f1512}}
       <div style="display:flex;flex-direction:column;align-items:center;gap:28px">{chip(p["visita"])}
         <div style="font:700 {tam}px/1.05 Saira;text-transform:uppercase;text-align:center;color:{cv}">{e(corto(p["visita"]))}</div></div>
     </div>
+    {serie_html}
     {goles}
   </div>
 
@@ -226,6 +244,12 @@ def html_resumen(r, filas, pagina, total):
             cl, cv = (mut if gl < gv else fg), (mut if gv < gl else fg)
             sc = (f'<div style="font:800 38px/1 Saira;background:#18201b;border:2px solid #2c3830;border-radius:8px;'
                   f'padding:6px 14px;font-variant-numeric:tabular-nums;white-space:nowrap">{gl}–{gv}</div>')
+            if f.get("pen"):
+                sc = (f'<div style="display:flex;flex-direction:column;align-items:center;gap:4px">{sc}'
+                      f'<div style="font:700 15px Figtree;letter-spacing:.06em;color:#e9a63b;white-space:nowrap">'
+                      f'PEN. {f["pen"][0]}–{f["pen"][1]}</div></div>')
+                pl, pv = f["pen"]
+                cl, cv = (fg if pl > pv else mut), (fg if pv > pl else mut)
         rows += f'''<div style="display:grid;grid-template-columns:84px minmax(0,1fr) 150px minmax(0,1fr);align-items:center;min-height:{alto}px;border-bottom:1px solid #1f2924;column-gap:14px">
   <div style="font:700 16px Figtree;letter-spacing:.08em;text-transform:uppercase;color:#93a399">{e(f.get("dia",""))}</div>
   <div style="display:flex;align-items:center;justify-content:flex-end;gap:14px;min-width:0"><div style="text-align:right;font:600 27px/1.1 Figtree;color:{cl}">{e(f["local"])}</div>{chip(f["local"])}</div>

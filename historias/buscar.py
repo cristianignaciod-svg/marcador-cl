@@ -94,9 +94,36 @@ def fase_de(data, ev):
     comp = ev["competitions"][0]
     for n in comp.get("notes", []) + ev.get("notes", []):
         if n.get("headline"):
-            return n["headline"]
+            # "Juego de Vuelta - Empatados en el global - ..." -> "Vuelta" (el resto va aparte)
+            h = n["headline"].split(" - ")[0].strip()
+            h = re.sub(r"(?i)^juego de ", "", h)
+            return h[:40]
     w = (data.get("week") or ev.get("week") or {}).get("number")
     return f"Fecha {w}" if w else ""
+
+
+def serie(ev, loc, vis):
+    """Penales de definición, marcador global y quién clasifica (solo si aplica)."""
+    out = {}
+    def num(c, k):
+        v = c.get(k)
+        try:
+            return int(float(v))
+        except (TypeError, ValueError):
+            return None
+    pl, pv = num(loc, "shootoutScore"), num(vis, "shootoutScore")
+    al, av = num(loc, "aggregateScore"), num(vis, "aggregateScore")
+    nl, nv = nombre(loc["team"]), nombre(vis["team"])
+    if pl is not None and pv is not None and (pl or pv):
+        out["penales"] = [pl, pv]
+        out["clasifica"] = nl if pl > pv else nv
+    if al is not None and av is not None:
+        out["global"] = [al, av]
+        if "clasifica" not in out and al != av:
+            notas = " ".join(n.get("headline", "") for n in ev["competitions"][0].get("notes", [])).lower()
+            if "vuelta" in notas or "2nd leg" in notas or "second leg" in notas:
+                out["clasifica"] = nl if al > av else nv
+    return out
 
 
 def detalle(liga, ev):
@@ -108,6 +135,8 @@ def detalle(liga, ev):
         quien = (d.get("athletesInvolved") or [{}])[0].get("displayName", "")
         minuto = re.sub(r"'\+", "+", (d.get("clock") or {}).get("displayValue", ""))
         tid = (d.get("team") or {}).get("id")
+        if d.get("shootout"):
+            continue  # tanda de penales: va aparte, no como goles del partido
         if d.get("scoringPlay"):
             goles.append({"min": minuto, "jugador": quien, "lado": lado(tid),
                           "penal": bool(d.get("penaltyKick")), "autogol": bool(d.get("ownGoal"))})
@@ -405,7 +434,7 @@ def main():
             p = {"id": f"{liga.replace('.', '')}-{slug(nombre(loc['team']))}-{slug(nombre(vis['team']))}",
                  "liga": liga, "fase": fase_de(datas[ev["id"]], ev), "fecha": inicio.date().isoformat(),
                  "local": nombre(loc["team"]), "visita": nombre(vis["team"]),
-                 "gl": int(loc.get("score", 0)), "gv": int(vis.get("score", 0)),
+                 "gl": int(loc.get("score", 0)), "gv": int(vis.get("score", 0)), **serie(ev, loc, vis),
                  "goles": goles, "tarjetas": tarjetas, "anulados": anulados}
             pendientes.append(p)
             publicados.add(clave)
@@ -453,6 +482,9 @@ def main():
                     f["estado"] = NO_SE_JUEGA[s]
                 else:
                     f["gl"], f["gv"] = int(lo.get("score", 0)), int(vi.get("score", 0))
+                    sr = serie(e, lo, vi)
+                    if sr.get("penales"):
+                        f["pen"] = sr["penales"]
                 filas.append(f)
             fase = fase_de(datas[b[0]["id"]], b[0])
             rango = (f"{ini.day} al {fin.day} de {MESES[fin.month - 1]}" if ini.month == fin.month
