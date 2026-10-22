@@ -1,1 +1,77 @@
-[]
+[
+ {
+  "id": "uefaeuropa-lillestrom-real-sociedad",
+  "liga": "uefa.europa",
+  "fase": "",
+  "fecha": "2026-10-22",
+  "local": "Lillestrom",
+  "visita": "Real Sociedad",
+  "gl": 0,
+  "gv": 6,
+  "goles": [
+   {
+    "min": "25'",
+    "jugador": "Sergio Gómez",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "27'",
+    "jugador": "Sergio Gómez",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "33'",
+    "jugador": "Luka Sucic",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "64'",
+    "jugador": "Orri Óskarsson",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "72'",
+    "jugador": "Luka Sucic",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "80'",
+    "jugador": "Arsen Zakharyan",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "30'",
+    "jugador": "Mamadou Sarr",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "52'",
+    "jugador": "Ruben Gabrielsen",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "56'",
+    "jugador": "Jon Gorrotxategi",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ }
+]
