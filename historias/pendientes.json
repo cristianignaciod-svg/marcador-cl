@@ -1,1 +1,98 @@
-[]
+[
+ {
+  "id": "conmebollibertadores-palmeiras-fluminense",
+  "liga": "conmebol.libertadores",
+  "fase": "Juego de Vuelta - Empatados en el global - PAL Gana 5-3 en tiros de penal",
+  "fecha": "2026-10-21",
+  "local": "Palmeiras",
+  "visita": "Fluminense",
+  "gl": 0,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "82'",
+    "jugador": "Hércules",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "91'",
+    "jugador": "Maurício",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "92'",
+    "jugador": "Thiago Silva",
+    "lado": "visita",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "93'",
+    "jugador": "Gustavo Gómez",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "94'",
+    "jugador": "Hércules",
+    "lado": "visita",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "95'",
+    "jugador": "Ramón Sosa",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "96'",
+    "jugador": "Guilherme Arana",
+    "lado": "visita",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "96'",
+    "jugador": "Joaquín Piquerez",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "98'",
+    "jugador": "Marlon Freitas",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "49'",
+    "jugador": "Alexander Barboza",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "56'",
+    "jugador": "Hércules",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "76'",
+    "jugador": "Jhon Arias",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ }
+]
