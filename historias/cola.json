@@ -1292,5 +1292,27 @@
   "enviado": true,
   "ig_id": "18477672247118760",
   "publicado": "2026-10-23T12:26:04+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "esp.1:401882836",
+  "creado": "2026-10-23T18:12:59-03:00",
+  "archivos": [
+   "historias/img/2026-10-23/esp1-alaves-malaga.png"
+  ],
+  "titulo": "Alavés 1–1 Málaga",
+  "liga": "esp.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "eng.1:401879253",
+  "creado": "2026-10-23T18:12:59-03:00",
+  "archivos": [
+   "historias/img/2026-10-23/eng1-ipswich-nottingham-f.png"
+  ],
+  "titulo": "Ipswich 1–1 Nottingham F.",
+  "liga": "eng.1",
+  "enviado": false
  }
 ]
