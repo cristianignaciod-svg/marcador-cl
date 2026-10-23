@@ -1302,7 +1302,9 @@
   ],
   "titulo": "Alavés 1–1 Málaga",
   "liga": "esp.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17923479921220215",
+  "publicado": "2026-10-23T21:13:37+00:00"
  },
  {
   "tipo": "historia",
@@ -1313,6 +1315,8 @@
   ],
   "titulo": "Ipswich 1–1 Nottingham F.",
   "liga": "eng.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18021435365730680",
+  "publicado": "2026-10-23T21:13:37+00:00"
  }
 ]
