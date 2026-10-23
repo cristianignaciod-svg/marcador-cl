@@ -1,1 +1,93 @@
-[]
+[
+ {
+  "id": "conmebollibertadores-flamengo-estudiantes-de-la-plata",
+  "liga": "conmebol.libertadores",
+  "fase": "Vuelta",
+  "fecha": "2026-10-22",
+  "local": "Flamengo",
+  "visita": "Estudiantes de La Plata",
+  "gl": 0,
+  "gv": 0,
+  "penales": [
+   2,
+   3
+  ],
+  "clasifica": "Estudiantes de La Plata",
+  "global": [
+   0,
+   0
+  ],
+  "goles": [],
+  "tarjetas": [
+   {
+    "min": "35'",
+    "jugador": "Baltasar Rodríguez",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "49'",
+    "jugador": "Leandro González Pírez",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "50'",
+    "jugador": "Baltasar Rodríguez",
+    "lado": "visita",
+    "tipo": "roja"
+   },
+   {
+    "min": "54'",
+    "jugador": "Santiago Núñez",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "64'",
+    "jugador": "Ezequiel Piovi",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "65'",
+    "jugador": "",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ },
+ {
+  "tipo": "resumen",
+  "id": "conmebollibertadores-20261021",
+  "liga": "conmebol.libertadores",
+  "fase": "Vuelta",
+  "fecha": "2026-10-22",
+  "rango": "21 al 22 de octubre",
+  "partidos": [
+   {
+    "dia": "Mié 21",
+    "local": "Palmeiras",
+    "visita": "Fluminense",
+    "gl": 0,
+    "gv": 1,
+    "pen": [
+     5,
+     3
+    ]
+   },
+   {
+    "dia": "Jue 22",
+    "local": "Flamengo",
+    "visita": "Estudiantes de La Plata",
+    "gl": 0,
+    "gv": 0,
+    "pen": [
+     2,
+     3
+    ]
+   }
+  ]
+ }
+]

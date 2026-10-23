@@ -1222,5 +1222,53 @@
   "aprobado": true,
   "ig_id": "18096644036446826",
   "publicado": "2026-10-22T22:29:14+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "conmebol.libertadores:401912521",
+  "creado": "2026-10-23T00:20:18-03:00",
+  "archivos": [
+   "historias/img/2026-10-22/conmebollibertadores-flamengo-estudiantes-de-la-plata.png"
+  ],
+  "titulo": "Flamengo 0–0 Estudiantes de La Plata",
+  "liga": "conmebol.libertadores",
+  "enviado": false
+ },
+ {
+  "tipo": "resumen",
+  "clave": "conmebol.libertadores:2026-10-21",
+  "creado": "2026-10-23T00:20:18-03:00",
+  "archivos": [
+   "historias/img/2026-10-22/conmebollibertadores-20261021-1.png"
+  ],
+  "titulo": "conmebol.libertadores Vuelta",
+  "liga": "conmebol.libertadores",
+  "fase": "Vuelta",
+  "rango": "21 al 22 de octubre",
+  "partidos": [
+   {
+    "dia": "Mié 21",
+    "local": "Palmeiras",
+    "visita": "Fluminense",
+    "gl": 0,
+    "gv": 1,
+    "pen": [
+     5,
+     3
+    ]
+   },
+   {
+    "dia": "Jue 22",
+    "local": "Flamengo",
+    "visita": "Estudiantes de La Plata",
+    "gl": 0,
+    "gv": 0,
+    "pen": [
+     2,
+     3
+    ]
+   }
+  ],
+  "enviado": false
  }
 ]
