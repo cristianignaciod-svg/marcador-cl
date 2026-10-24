@@ -1461,7 +1461,9 @@
   ],
   "titulo": "Cagliari 0–2 Bolonia",
   "liga": "ita.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18135320305675679",
+  "publicado": "2026-10-24T15:19:23+00:00"
  },
  {
   "tipo": "historia",
@@ -1472,6 +1474,8 @@
   ],
   "titulo": "Como 2–0 Sassuolo",
   "liga": "ita.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18167238115489424",
+  "publicado": "2026-10-24T15:19:23+00:00"
  }
 ]
