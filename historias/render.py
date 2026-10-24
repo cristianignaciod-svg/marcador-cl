@@ -28,6 +28,10 @@ LIGAS = {
     "uefa.europa": ("Europa League", ["europa-league"]),
     "conmebol.libertadores": ("Copa Libertadores", ["libertadores"]),
     "conmebol.sudamericana": ("Copa Sudamericana", ["sudamericana"]),
+    "ger.1": ("Bundesliga", ["bundesliga"]),
+    "ita.1": ("Serie A", ["serie-a"]),
+    "fra.1": ("Ligue 1", ["ligue-1"]),
+    "arg.1": ("Liga Profesional", ["liga-argentina"]),
 }
 TODAS = sorted(os.listdir(os.path.join(BASE, "escudos")))
 
@@ -43,6 +47,7 @@ ALIAS = {
     "u de chile": "universidad-de-chile", "universidad de chile": "universidad-de-chile",
     "u catolica": "universidad-catolica",
     "stade rennais": "rennes", "stade rennais fc": "rennes",
+    "leverkusen": "bayer-leverkusen", "inter": "inter-milan", "marsella": "marseille",
     "brujas": "club-brugge", "sporting lisboa": "sporting-cp", "sporting": "sporting-cp", "universidad catolica": "universidad-catolica",
 }
 
@@ -53,27 +58,42 @@ def norm(s):
     return " ".join(w for w in s.split() if w not in STOP)
 
 
+def _clave_alias(s):
+    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()
+    return " ".join(re.sub(r"[^a-z0-9 ]+", " ", s).split())
+
+
 def escudo(liga, nombre):
-    """Busca el escudo del equipo; devuelve data URI o None."""
-    carpetas = LIGAS.get(liga, ("", []))[1]
-    orden = carpetas + [c for c in TODAS if c not in carpetas]
+    """Busca el escudo del equipo; devuelve data URI o None.
+    Primero en la carpeta de la propia liga; fuera de ella exige una coincidencia casi exacta,
+    para no poner el escudo de otro club (mejor iniciales que un escudo equivocado)."""
+    carpetas = [c for c in LIGAS.get(liga, ("", []))[1] if c in TODAS]
     clave = norm(nombre)
-    alias = ALIAS.get(nombre.lower()) or ALIAS.get(clave)
-    mejor, puntaje = None, 0.0
-    for i, c in enumerate(orden):
-        d = os.path.join(BASE, "escudos", c)
-        for f in os.listdir(d):
-            slug = f[:-4]
-            if alias and slug == alias:
-                return datauri(os.path.join(d, f))
-            n = norm(slug.replace("-", " "))
-            r = difflib.SequenceMatcher(None, clave, n).ratio()
-            if clave and (clave in n or n in clave):
-                r = max(r, 0.9)
-            r -= 0.05 * (i >= len(carpetas))  # preferir la carpeta de la liga
-            if r > puntaje:
-                mejor, puntaje = os.path.join(d, f), r
-    return datauri(mejor) if mejor and puntaje >= 0.72 else None
+    alias = ALIAS.get(_clave_alias(nombre)) or ALIAS.get(clave)
+
+    def buscar(lista, propia):
+        mejor, puntaje = None, 0.0
+        for c in lista:
+            d = os.path.join(BASE, "escudos", c)
+            for f in os.listdir(d):
+                slug = f[:-4]
+                if alias and slug == alias:
+                    return os.path.join(d, f), 2.0
+                n = norm(slug.replace("-", " "))
+                r = difflib.SequenceMatcher(None, clave, n).ratio()
+                if clave and n and (clave in n or n in clave):
+                    corto_, largo_ = sorted((len(clave), len(n)))
+                    if propia or corto_ / largo_ >= 0.7:
+                        r = max(r, 0.9)
+                if r > puntaje:
+                    mejor, puntaje = os.path.join(d, f), r
+        return mejor, puntaje
+
+    m, r = buscar(carpetas, True)
+    if m and r >= 0.75:
+        return datauri(m)
+    m, r = buscar([c for c in TODAS if c not in carpetas], False)
+    return datauri(m) if m and r >= 0.85 else None
 
 
 def datauri(p):

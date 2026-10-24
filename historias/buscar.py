@@ -22,8 +22,11 @@ from zoneinfo import ZoneInfo
 BASE = os.path.dirname(os.path.abspath(__file__))
 CL = ZoneInfo("America/Santiago")
 ESPN = "https://site.web.api.espn.com/apis/site/v2/sports/soccer/"
-LIGAS = ["chi.1", "esp.1", "eng.1", "uefa.champions", "uefa.europa",
-         "conmebol.libertadores", "conmebol.sudamericana"]
+LIGAS_PRINCIPALES = ["chi.1", "esp.1", "eng.1", "uefa.champions", "uefa.europa",
+                     "conmebol.libertadores", "conmebol.sudamericana"]
+# Solo historias por partido (sin resumen de fecha ni agenda de la mañana)
+SOLO_HISTORIAS = ["ger.1", "ita.1", "fra.1", "arg.1"]
+LIGAS = LIGAS_PRINCIPALES + SOLO_HISTORIAS
 UA = {"User-Agent": "Mozilla/5.0 (MarcadorCL)", "Accept": "application/json"}
 DIAS = ["Lun", "Mar", "Mié", "Jue", "Vie", "Sáb", "Dom"]
 MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto",
@@ -39,6 +42,8 @@ CORTOS = {  # nombres cortos en español
     "Ipswich Town": "Ipswich", "Coventry City": "Coventry", "West Ham United": "West Ham",
     "Celta Vigo": "Celta", "Deportivo La Coruña": "Deportivo", "Sevilla FC": "Sevilla",
     "Racing Santander": "Racing", "Rayo Vallecano": "Rayo", "Real Betis": "Betis",
+    "Borussia Mönchengladbach": "M'gladbach", "Bayer Leverkusen": "Leverkusen", "Eintracht Frankfurt": "Eintracht",
+    "Internazionale": "Inter", "AC Milan": "Milan", "Olympique de Marseille": "Marsella", "Olympique Lyonnais": "Lyon",
 }
 TERMINADO = {"STATUS_FULL_TIME", "STATUS_FINAL", "STATUS_FINAL_AET", "STATUS_FINAL_PEN",
              "STATUS_END_OF_EXTRATIME", "STATUS_FINAL_AGT"}
@@ -332,7 +337,7 @@ def agenda_del_dia(ahora, publicados, pendientes, cola):
         return TV_DEFECTO.get(liga, "")
 
     grupos = {}
-    for liga in LIGAS:
+    for liga in LIGAS_PRINCIPALES:
         vistos = set()
         for k in (0, 1):
             for ev in scoreboard(liga, hoy + dt.timedelta(days=k)).get("events", []):
@@ -405,7 +410,7 @@ def main():
     for liga in LIGAS:
         # ventana para detectar fechas completas: 5 días atrás a 3 adelante
         eventos, datas = {}, {}
-        for k in range(-5, 4):
+        for k in ((-1, 0) if liga in SOLO_HISTORIAS else range(-5, 4)):
             data = scoreboard(liga, hoy + dt.timedelta(days=k))
             for ev in data.get("events", []):
                 eventos[ev["id"]] = ev
@@ -442,6 +447,8 @@ def main():
                          "archivos": [f"historias/img/{p['fecha']}/{p['id']}.png"],
                          "titulo": f"{p['local']} {p['gl']}–{p['gv']} {p['visita']}", "liga": liga, "enviado": False})
 
+        if liga in SOLO_HISTORIAS:
+            continue
         # B) resumen: agrupar en fechas (bloques de días seguidos, cortando con 2+ días sin partidos).
         #    Champions y Europa League: un resumen por cada día de la jornada.
         por_dia = liga in ("uefa.champions", "uefa.europa")
