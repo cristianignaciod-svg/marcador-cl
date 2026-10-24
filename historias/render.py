@@ -66,7 +66,8 @@ ALIAS = {
     "velez": "velez-sarsfield", "velez sarsfield": "velez-sarsfield", "atletico tucuman": "atletico-tucuman",
     "argentinos": "argentinos-juniors", "defensa": "defensa-y-justicia",
     "stuttgart": "vfb-stuttgart", "san lorenzo": "san-lorenzo-de-almagro",
-    "leverkusen": "bayer-leverkusen", "inter": "inter-milan", "marsella": "marseille",
+    "leverkusen": "bayer-leverkusen", "inter": "inter-milan", "marsella": "marseille", "olympique de marsella": "marseille",
+    "niza": "nice", "ogc niza": "nice", "ogc nice": "nice",
     "brujas": "club-brugge", "sporting lisboa": "sporting-cp", "sporting": "sporting-cp", "universidad catolica": "universidad-catolica",
 }
 
