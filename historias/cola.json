@@ -1750,7 +1750,9 @@
   "titulo": "Puerto Montt 3–1 Unión San Felipe",
   "liga": "chi.pb",
   "sin_goleadores": false,
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18066050987512084",
+  "publicado": "2026-10-24T22:43:24+00:00"
  },
  {
   "tipo": "historia",
@@ -1762,7 +1764,9 @@
   "titulo": "San Luis 1–1 Deportes Recoleta",
   "liga": "chi.pb",
   "sin_goleadores": false,
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18120307502069000",
+  "publicado": "2026-10-24T22:43:24+00:00"
  },
  {
   "tipo": "historia",
@@ -1774,6 +1778,8 @@
   "titulo": "Deportes Copiapó 1–1 Deportes Santa Cruz",
   "liga": "chi.pb",
   "sin_goleadores": false,
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18111767585177739",
+  "publicado": "2026-10-24T22:43:24+00:00"
  }
 ]
