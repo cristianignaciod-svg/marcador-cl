@@ -1,1 +1,87 @@
-[]
+[
+ {
+  "id": "chi1-la-serena-deportes-concepcion",
+  "liga": "chi.1",
+  "fase": "",
+  "fecha": "2026-10-24",
+  "local": "La Serena",
+  "visita": "Deportes Concepcion",
+  "gl": 3,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "14'",
+    "jugador": "Matías Marín",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "21'",
+    "jugador": "Jorge Henríquez",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "37'",
+    "jugador": "Matías Marín",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "84'",
+    "jugador": "Jeisson Vargas",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "5'",
+    "jugador": "Yonatan Rodríguez",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "20'",
+    "jugador": "Francis Mac Allister",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "39'",
+    "jugador": "Ariel Cáceres",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "41'",
+    "jugador": "Yonatan Rodríguez",
+    "lado": "visita",
+    "tipo": "roja"
+   },
+   {
+    "min": "42'",
+    "jugador": "Matías Marín",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "45+2'",
+    "jugador": "Fausto Grillo",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "57'",
+    "jugador": "Diego Rubio",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ }
+]
