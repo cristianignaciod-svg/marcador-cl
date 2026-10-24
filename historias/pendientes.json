@@ -1,1 +1,203 @@
-[]
+[
+ {
+  "id": "esp1-valencia-villarreal",
+  "liga": "esp.1",
+  "fase": "",
+  "fecha": "2026-10-24",
+  "local": "Valencia",
+  "visita": "Villarreal",
+  "gl": 1,
+  "gv": 2,
+  "goles": [
+   {
+    "min": "38'",
+    "jugador": "Pepelu",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "69'",
+    "jugador": "Alex Freeman",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "90+6'",
+    "jugador": "Georges Mikautadze",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "34'",
+    "jugador": "Dani Raba",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "37'",
+    "jugador": "Renato Veiga",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "43'",
+    "jugador": "Ayoze Pérez",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "59'",
+    "jugador": "Tajon Buchanan",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "60'",
+    "jugador": "Pablo Maffeo",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "62'",
+    "jugador": "Guido Rodríguez",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "79'",
+    "jugador": "Pape Gueye",
+    "lado": "visita",
+    "tipo": "roja"
+   },
+   {
+    "min": "89'",
+    "jugador": "Harvey Elliott",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "89'",
+    "jugador": "Harvey Elliott",
+    "lado": "local",
+    "tipo": "roja"
+   }
+  ],
+  "anulados": []
+ },
+ {
+  "id": "eng1-chelsea-tottenham",
+  "liga": "eng.1",
+  "fase": "",
+  "fecha": "2026-10-24",
+  "local": "Chelsea",
+  "visita": "Tottenham",
+  "gl": 0,
+  "gv": 2,
+  "goles": [
+   {
+    "min": "77'",
+    "jugador": "Mike Penders",
+    "lado": "visita",
+    "penal": false,
+    "autogol": true
+   },
+   {
+    "min": "87'",
+    "jugador": "Mathys Tel",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "67'",
+    "jugador": "Conor Gallagher",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "71'",
+    "jugador": "Micky van de Ven",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "71'",
+    "jugador": "Cole Palmer",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "72'",
+    "jugador": "Mateus Fernandes",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "72'",
+    "jugador": "Mateus Fernandes",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "79'",
+    "jugador": "Pedro Neto",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "80'",
+    "jugador": "Cole Palmer",
+    "lado": "local",
+    "tipo": "roja"
+   },
+   {
+    "min": "90+1'",
+    "jugador": "Morgan Rogers",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ },
+ {
+  "id": "ger1-borussia-dortmund-eintracht",
+  "liga": "ger.1",
+  "fase": "",
+  "fecha": "2026-10-24",
+  "local": "Borussia Dortmund",
+  "visita": "Eintracht",
+  "gl": 1,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "80'",
+    "jugador": "Maximilian Beier",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "58'",
+    "jugador": "Nnamdi Collins",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "63'",
+    "jugador": "Farès Chaïbi",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ }
+]

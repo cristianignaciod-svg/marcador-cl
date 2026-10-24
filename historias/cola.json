@@ -1607,5 +1607,38 @@
   "enviado": true,
   "ig_id": "18165706690491504",
   "publicado": "2026-10-24T18:42:16+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "esp.1:401882827",
+  "creado": "2026-10-24T16:01:06-03:00",
+  "archivos": [
+   "historias/img/2026-10-24/esp1-valencia-villarreal.png"
+  ],
+  "titulo": "Valencia 1–2 Villarreal",
+  "liga": "esp.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "eng.1:401878767",
+  "creado": "2026-10-24T16:01:06-03:00",
+  "archivos": [
+   "historias/img/2026-10-24/eng1-chelsea-tottenham.png"
+  ],
+  "titulo": "Chelsea 0–2 Tottenham",
+  "liga": "eng.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "ger.1:401884763",
+  "creado": "2026-10-24T16:01:06-03:00",
+  "archivos": [
+   "historias/img/2026-10-24/ger1-borussia-dortmund-eintracht.png"
+  ],
+  "titulo": "Borussia Dortmund 1–0 Eintracht",
+  "liga": "ger.1",
+  "enviado": false
  }
 ]
