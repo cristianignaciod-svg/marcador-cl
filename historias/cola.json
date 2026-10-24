@@ -1438,5 +1438,16 @@
   "enviado": true,
   "ig_id": "18056731892583973",
   "publicado": "2026-10-24T14:03:11+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "esp.1:401882830",
+  "creado": "2026-10-24T11:22:09-03:00",
+  "archivos": [
+   "historias/img/2026-10-24/esp1-rayo-elche.png"
+  ],
+  "titulo": "Rayo 0–3 Elche",
+  "liga": "esp.1",
+  "enviado": false
  }
 ]
