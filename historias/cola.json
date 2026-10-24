@@ -1739,5 +1739,41 @@
   "enviado": true,
   "ig_id": "17976837471146948",
   "publicado": "2026-10-24T22:33:03+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "chi.pb:fm1000007342",
+  "creado": "2026-10-24T19:42:47-03:00",
+  "archivos": [
+   "historias/img/2026-10-24/chipb-puerto-montt-union-san-felipe.png"
+  ],
+  "titulo": "Puerto Montt 3–1 Unión San Felipe",
+  "liga": "chi.pb",
+  "sin_goleadores": false,
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "chi.pb:fm1000007343",
+  "creado": "2026-10-24T19:42:47-03:00",
+  "archivos": [
+   "historias/img/2026-10-24/chipb-san-luis-deportes-recoleta.png"
+  ],
+  "titulo": "San Luis 1–1 Deportes Recoleta",
+  "liga": "chi.pb",
+  "sin_goleadores": false,
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "chi.pb:fm1000007345",
+  "creado": "2026-10-24T19:42:47-03:00",
+  "archivos": [
+   "historias/img/2026-10-24/chipb-deportes-copiapo-deportes-santa-cruz.png"
+  ],
+  "titulo": "Deportes Copiapó 1–1 Deportes Santa Cruz",
+  "liga": "chi.pb",
+  "sin_goleadores": false,
+  "enviado": false
  }
 ]

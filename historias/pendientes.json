@@ -1,18 +1,39 @@
 [
  {
-  "id": "chipb-rangers-cobreloa",
+  "id": "chipb-puerto-montt-union-san-felipe",
   "liga": "chi.pb",
   "fase": "",
   "fecha": "2026-10-24",
-  "local": "Rangers",
-  "visita": "Cobreloa",
-  "gl": 0,
+  "local": "Puerto Montt",
+  "visita": "Unión San Felipe",
+  "gl": 3,
   "gv": 1,
   "goles": [
    {
-    "min": "90+3'",
-    "jugador": "Gustavo Gotti",
+    "min": "17'",
+    "jugador": "Luciano Vásquez",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "42'",
+    "jugador": "Maximiliano Riveros",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "47'",
+    "jugador": "Cristian Suárez",
     "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "90+7'",
+    "jugador": "Cristóbal Vargas",
+    "lado": "local",
     "penal": false,
     "autogol": false
    }
@@ -21,33 +42,54 @@
   "anulados": []
  },
  {
-  "id": "chipb-union-espanola-santiago-wanderers",
+  "id": "chipb-san-luis-deportes-recoleta",
   "liga": "chi.pb",
   "fase": "",
   "fecha": "2026-10-24",
-  "local": "Unión Española",
-  "visita": "Santiago Wanderers",
+  "local": "San Luis",
+  "visita": "Deportes Recoleta",
   "gl": 1,
-  "gv": 2,
+  "gv": 1,
   "goles": [
    {
-    "min": "4'",
-    "jugador": "Ignacio Flores",
+    "min": "41'",
+    "jugador": "Germán Estigarribia",
     "lado": "visita",
     "penal": false,
     "autogol": false
    },
    {
-    "min": "45+1'",
-    "jugador": "Franco Ratotti",
+    "min": "90+4'",
+    "jugador": "Guillermo Madrigal",
     "lado": "local",
     "penal": false,
     "autogol": false
+   }
+  ],
+  "tarjetas": [],
+  "anulados": []
+ },
+ {
+  "id": "chipb-deportes-copiapo-deportes-santa-cruz",
+  "liga": "chi.pb",
+  "fase": "",
+  "fecha": "2026-10-24",
+  "local": "Deportes Copiapó",
+  "visita": "Deportes Santa Cruz",
+  "gl": 1,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "33'",
+    "jugador": "Gino Alucema",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
    },
    {
-    "min": "90+5'",
-    "jugador": "Dylan Portilla",
-    "lado": "visita",
+    "min": "69'",
+    "jugador": "Francisco Espoz",
+    "lado": "local",
     "penal": false,
     "autogol": false
    }
