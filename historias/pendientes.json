@@ -1,1 +1,469 @@
-[]
+[
+ {
+  "id": "esp1-racing-espanyol",
+  "liga": "esp.1",
+  "fase": "",
+  "fecha": "2026-10-24",
+  "local": "Racing",
+  "visita": "Espanyol",
+  "gl": 2,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "62'",
+    "jugador": "Edu Expósito",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "69'",
+    "jugador": "Jeanuël Belocian",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "84'",
+    "jugador": "Yassir Zabiri",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "8'",
+    "jugador": "Iñigo Vicente",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "17'",
+    "jugador": "Pol Lozano",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "43'",
+    "jugador": "",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "67'",
+    "jugador": "Pablo Ramon",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "70'",
+    "jugador": "Urko Gonzalez",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "89'",
+    "jugador": "Javier Puado",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90'",
+    "jugador": "Edu Expósito",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+7'",
+    "jugador": "Jorge Salinas",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ },
+ {
+  "id": "eng1-arsenal-everton",
+  "liga": "eng.1",
+  "fase": "",
+  "fecha": "2026-10-24",
+  "local": "Arsenal",
+  "visita": "Everton",
+  "gl": 2,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "7'",
+    "jugador": "Ezri Konsa",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "68'",
+    "jugador": "Gabriel Magalhães",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "45+2'",
+    "jugador": "Vitaliy Mykolenko",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "58'",
+    "jugador": "Myles Lewis-Skelly",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "64'",
+    "jugador": "",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "66'",
+    "jugador": "James Garner",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "79'",
+    "jugador": "James Tarkowski",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "79'",
+    "jugador": "",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ },
+ {
+  "id": "eng1-coventry-fulham",
+  "liga": "eng.1",
+  "fase": "",
+  "fecha": "2026-10-24",
+  "local": "Coventry",
+  "visita": "Fulham",
+  "gl": 0,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "80'",
+    "jugador": "Oscar Bobb",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "36'",
+    "jugador": "Shea Charles",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "82'",
+    "jugador": "Antonee Robinson",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ },
+ {
+  "id": "ger1-f-c-augsburgo-1-fc-union-berlin",
+  "liga": "ger.1",
+  "fase": "",
+  "fecha": "2026-10-24",
+  "local": "F. C. Augsburgo",
+  "visita": "1. FC Union Berlin",
+  "gl": 1,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "71'",
+    "jugador": "Han-Noah Massengo",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "74'",
+    "jugador": "Janik Haberer",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "19'",
+    "jugador": "Felix Uduokhai",
+    "lado": "visita",
+    "tipo": "roja"
+   },
+   {
+    "min": "31'",
+    "jugador": "Janik Haberer",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "36'",
+    "jugador": "Leopold Querfeld",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "63'",
+    "jugador": "Juma Bah",
+    "lado": "local",
+    "tipo": "roja"
+   },
+   {
+    "min": "77'",
+    "jugador": "Mekhi Anthony Gray",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ },
+ {
+  "id": "ger1-fc-cologne-schalke-04",
+  "liga": "ger.1",
+  "fase": "",
+  "fecha": "2026-10-24",
+  "local": "FC Cologne",
+  "visita": "Schalke 04",
+  "gl": 0,
+  "gv": 0,
+  "goles": [],
+  "tarjetas": [
+   {
+    "min": "45+2'",
+    "jugador": "Tom Krauss",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "71'",
+    "jugador": "Junior Dina Ebimbe",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "81'",
+    "jugador": "Luka Lochoshvili",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "83'",
+    "jugador": "Vitalie Becker",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "89'",
+    "jugador": "Hasan Kurucay",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ },
+ {
+  "id": "ger1-mainz-werder-bremen",
+  "liga": "ger.1",
+  "fase": "",
+  "fecha": "2026-10-24",
+  "local": "Mainz",
+  "visita": "Werder Bremen",
+  "gl": 2,
+  "gv": 3,
+  "goles": [
+   {
+    "min": "7'",
+    "jugador": "Niclas Füllkrug",
+    "lado": "visita",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "25'",
+    "jugador": "Niclas Füllkrug",
+    "lado": "visita",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "33'",
+    "jugador": "Anthony Caci",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "61'",
+    "jugador": "Ludovit Reis",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "63'",
+    "jugador": "Lee Jae-Sung",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "38'",
+    "jugador": "Ludovit Reis",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "69'",
+    "jugador": "Phillipp Mwene",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "88'",
+    "jugador": "Benedict Hollerbach",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "89'",
+    "jugador": "Marco Grüll",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+4'",
+    "jugador": "Alexander Schwolow",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ },
+ {
+  "id": "ger1-rb-leipzig-sv-elversberg",
+  "liga": "ger.1",
+  "fase": "",
+  "fecha": "2026-10-24",
+  "local": "RB Leipzig",
+  "visita": "SV Elversberg",
+  "gl": 4,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "48'",
+    "jugador": "Tidiam Gomis",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "66'",
+    "jugador": "Rômulo",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "84'",
+    "jugador": "Christoph Baumgartner",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "90+4'",
+    "jugador": "Rômulo",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "59'",
+    "jugador": "Rocco Reitz",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "74'",
+    "jugador": "Lasse Günther",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ },
+ {
+  "id": "ger1-sc-paderborn-07-hamburg-sv",
+  "liga": "ger.1",
+  "fase": "",
+  "fecha": "2026-10-24",
+  "local": "SC Paderborn 07",
+  "visita": "Hamburg SV",
+  "gl": 1,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "88'",
+    "jugador": "Rayan Philippe",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "53'",
+    "jugador": "Shafiq Nandja",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "58'",
+    "jugador": "Jano Horst",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "87'",
+    "jugador": "Albert Sambi Lokonga",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "89'",
+    "jugador": "",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ }
+]

@@ -1477,5 +1477,93 @@
   "enviado": true,
   "ig_id": "18167238115489424",
   "publicado": "2026-10-24T15:19:23+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "esp.1:401882831",
+  "creado": "2026-10-24T13:16:11-03:00",
+  "archivos": [
+   "historias/img/2026-10-24/esp1-racing-espanyol.png"
+  ],
+  "titulo": "Racing 2–1 Espanyol",
+  "liga": "esp.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "eng.1:401878768",
+  "creado": "2026-10-24T13:16:11-03:00",
+  "archivos": [
+   "historias/img/2026-10-24/eng1-arsenal-everton.png"
+  ],
+  "titulo": "Arsenal 2–0 Everton",
+  "liga": "eng.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "eng.1:401879255",
+  "creado": "2026-10-24T13:16:11-03:00",
+  "archivos": [
+   "historias/img/2026-10-24/eng1-coventry-fulham.png"
+  ],
+  "titulo": "Coventry 0–1 Fulham",
+  "liga": "eng.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "ger.1:401884758",
+  "creado": "2026-10-24T13:16:11-03:00",
+  "archivos": [
+   "historias/img/2026-10-24/ger1-f-c-augsburgo-1-fc-union-berlin.png"
+  ],
+  "titulo": "F. C. Augsburgo 1–1 1. FC Union Berlin",
+  "liga": "ger.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "ger.1:401884756",
+  "creado": "2026-10-24T13:16:11-03:00",
+  "archivos": [
+   "historias/img/2026-10-24/ger1-fc-cologne-schalke-04.png"
+  ],
+  "titulo": "FC Cologne 0–0 Schalke 04",
+  "liga": "ger.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "ger.1:401884757",
+  "creado": "2026-10-24T13:16:11-03:00",
+  "archivos": [
+   "historias/img/2026-10-24/ger1-mainz-werder-bremen.png"
+  ],
+  "titulo": "Mainz 2–3 Werder Bremen",
+  "liga": "ger.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "ger.1:401884762",
+  "creado": "2026-10-24T13:16:11-03:00",
+  "archivos": [
+   "historias/img/2026-10-24/ger1-rb-leipzig-sv-elversberg.png"
+  ],
+  "titulo": "RB Leipzig 4–0 SV Elversberg",
+  "liga": "ger.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "ger.1:401884755",
+  "creado": "2026-10-24T13:16:11-03:00",
+  "archivos": [
+   "historias/img/2026-10-24/ger1-sc-paderborn-07-hamburg-sv.png"
+  ],
+  "titulo": "SC Paderborn 07 1–0 Hamburg SV",
+  "liga": "ger.1",
+  "enviado": false
  }
 ]
