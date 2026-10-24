@@ -1345,5 +1345,60 @@
   "enviado": true,
   "ig_id": "18131292563506816",
   "publicado": "2026-10-24T01:08:40+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "ita.1:401874957",
+  "creado": "2026-10-23T23:42:40-03:00",
+  "archivos": [
+   "historias/img/2026-10-23/ita1-torino-monza.png"
+  ],
+  "titulo": "Torino 3–2 Monza",
+  "liga": "ita.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "fra.1:401876428",
+  "creado": "2026-10-23T23:42:40-03:00",
+  "archivos": [
+   "historias/img/2026-10-23/fra1-brest-nice.png"
+  ],
+  "titulo": "Brest 1–2 Nice",
+  "liga": "fra.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "arg.1:401841638",
+  "creado": "2026-10-23T23:42:40-03:00",
+  "archivos": [
+   "historias/img/2026-10-23/arg1-gimnasia-la-plata-sarmiento-junin.png"
+  ],
+  "titulo": "Gimnasia La Plata 2–0 Sarmiento (Junín)",
+  "liga": "arg.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "arg.1:401841637",
+  "creado": "2026-10-23T23:42:40-03:00",
+  "archivos": [
+   "historias/img/2026-10-23/arg1-gimnasia-mendoza-platense.png"
+  ],
+  "titulo": "Gimnasia (Mendoza) 1–2 Platense",
+  "liga": "arg.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "arg.1:401841643",
+  "creado": "2026-10-23T23:42:40-03:00",
+  "archivos": [
+   "historias/img/2026-10-23/arg1-tigre-atletico-tucuman.png"
+  ],
+  "titulo": "Tigre 0–1 Atlético Tucumán",
+  "liga": "arg.1",
+  "enviado": false
  }
 ]
