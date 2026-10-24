@@ -1318,5 +1318,28 @@
   "enviado": true,
   "ig_id": "18021435365730680",
   "publicado": "2026-10-23T21:13:37+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "chi.1:401850668",
+  "creado": "2026-10-23T22:07:57-03:00",
+  "archivos": [
+   "historias/img/2026-10-23/chi1-audax-italiano-huachipato.png"
+  ],
+  "titulo": "Audax Italiano 1–1 Huachipato",
+  "liga": "chi.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "chi.pb:fm1000007344",
+  "creado": "2026-10-23T22:07:57-03:00",
+  "archivos": [
+   "historias/img/2026-10-23/chipb-deportes-iquique-magallanes.png"
+  ],
+  "titulo": "Deportes Iquique 4–1 Magallanes",
+  "liga": "chi.pb",
+  "sin_goleadores": false,
+  "enviado": false
  }
 ]
