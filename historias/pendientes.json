@@ -1,62 +1,58 @@
 [
  {
-  "id": "arg1-talleres-cordoba-defensa-y-justicia",
-  "liga": "arg.1",
+  "id": "chipb-rangers-cobreloa",
+  "liga": "chi.pb",
   "fase": "",
   "fecha": "2026-10-24",
-  "local": "Talleres (Córdoba)",
-  "visita": "Defensa y Justicia",
+  "local": "Rangers",
+  "visita": "Cobreloa",
+  "gl": 0,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "90+3'",
+    "jugador": "Gustavo Gotti",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [],
+  "anulados": []
+ },
+ {
+  "id": "chipb-union-espanola-santiago-wanderers",
+  "liga": "chi.pb",
+  "fase": "",
+  "fecha": "2026-10-24",
+  "local": "Unión Española",
+  "visita": "Santiago Wanderers",
   "gl": 1,
   "gv": 2,
   "goles": [
    {
-    "min": "32'",
-    "jugador": "Agustín Álvarez Martínez",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "47'",
-    "jugador": "Leandro Miguel Fernandez",
+    "min": "4'",
+    "jugador": "Ignacio Flores",
     "lado": "visita",
     "penal": false,
     "autogol": false
    },
    {
-    "min": "88'",
-    "jugador": "Juan Gutiérrez",
+    "min": "45+1'",
+    "jugador": "Franco Ratotti",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "90+5'",
+    "jugador": "Dylan Portilla",
     "lado": "visita",
     "penal": false,
     "autogol": false
    }
   ],
-  "tarjetas": [
-   {
-    "min": "42'",
-    "jugador": "Román Riquelme",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "60'",
-    "jugador": "Damián Fernández",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "74'",
-    "jugador": "Lautaro Ortiz",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "90+1'",
-    "jugador": "Alexandro Maidana",
-    "lado": "local",
-    "tipo": "amarilla"
-   }
-  ],
+  "tarjetas": [],
   "anulados": []
  }
 ]

@@ -1711,5 +1711,29 @@
   "enviado": true,
   "ig_id": "18094492607480462",
   "publicado": "2026-10-24T22:22:50+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "chi.pb:fm1000007340",
+  "creado": "2026-10-24T19:32:21-03:00",
+  "archivos": [
+   "historias/img/2026-10-24/chipb-rangers-cobreloa.png"
+  ],
+  "titulo": "Rangers 0–1 Cobreloa",
+  "liga": "chi.pb",
+  "sin_goleadores": false,
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "chi.pb:fm1000007341",
+  "creado": "2026-10-24T19:32:21-03:00",
+  "archivos": [
+   "historias/img/2026-10-24/chipb-union-espanola-santiago-wanderers.png"
+  ],
+  "titulo": "Unión Española 1–2 Santiago Wanderers",
+  "liga": "chi.pb",
+  "sin_goleadores": false,
+  "enviado": false
  }
 ]
