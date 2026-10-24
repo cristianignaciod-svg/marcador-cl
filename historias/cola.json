@@ -1487,7 +1487,9 @@
   ],
   "titulo": "Racing 2–1 Espanyol",
   "liga": "esp.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18012073544987043",
+  "publicado": "2026-10-24T16:16:56+00:00"
  },
  {
   "tipo": "historia",
@@ -1498,7 +1500,9 @@
   ],
   "titulo": "Arsenal 2–0 Everton",
   "liga": "eng.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17889790929686123",
+  "publicado": "2026-10-24T16:16:56+00:00"
  },
  {
   "tipo": "historia",
@@ -1509,7 +1513,9 @@
   ],
   "titulo": "Coventry 0–1 Fulham",
   "liga": "eng.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18124952000297690",
+  "publicado": "2026-10-24T16:16:56+00:00"
  },
  {
   "tipo": "historia",
@@ -1520,7 +1526,9 @@
   ],
   "titulo": "F. C. Augsburgo 1–1 1. FC Union Berlin",
   "liga": "ger.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18095414240465236",
+  "publicado": "2026-10-24T16:16:56+00:00"
  },
  {
   "tipo": "historia",
@@ -1531,7 +1539,9 @@
   ],
   "titulo": "FC Cologne 0–0 Schalke 04",
   "liga": "ger.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18146504233526905",
+  "publicado": "2026-10-24T16:16:56+00:00"
  },
  {
   "tipo": "historia",
@@ -1542,7 +1552,9 @@
   ],
   "titulo": "Mainz 2–3 Werder Bremen",
   "liga": "ger.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18183545320423419",
+  "publicado": "2026-10-24T16:16:56+00:00"
  },
  {
   "tipo": "historia",
@@ -1553,7 +1565,9 @@
   ],
   "titulo": "RB Leipzig 4–0 SV Elversberg",
   "liga": "ger.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18035782427668653",
+  "publicado": "2026-10-24T16:16:56+00:00"
  },
  {
   "tipo": "historia",
@@ -1564,6 +1578,8 @@
   ],
   "titulo": "SC Paderborn 07 1–0 Hamburg SV",
   "liga": "ger.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18107455496194332",
+  "publicado": "2026-10-24T16:16:56+00:00"
  }
 ]
