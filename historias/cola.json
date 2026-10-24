@@ -1659,5 +1659,16 @@
   "enviado": true,
   "ig_id": "18124508905933507",
   "publicado": "2026-10-24T20:08:19+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "ita.1:401874955",
+  "creado": "2026-10-24T17:55:38-03:00",
+  "archivos": [
+   "historias/img/2026-10-24/ita1-lazio-parma.png"
+  ],
+  "titulo": "Lazio 2–1 Parma",
+  "liga": "ita.1",
+  "enviado": false
  }
 ]
