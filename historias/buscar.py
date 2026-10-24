@@ -131,6 +131,39 @@ def serie(ev, loc, vis):
     return out
 
 
+def validar(p):
+    """Revisa una historia antes de publicarla. Devuelve (problemas, historia_limpia).
+    - goles por equipo deben coincidir con el marcador (sin contar la tanda de penales)
+    - sin nombres vacíos, sin tarjetas repetidas, una doble amarilla no repite la amarilla
+    - nadie con dos rojas; penales/global con sentido"""
+    prob = []
+    q = dict(p)
+    for lado, total in (("local", p["gl"]), ("visita", p["gv"])):
+        n = sum(1 for g in p.get("goles", []) if g["lado"] == lado)
+        if p.get("goles") is not None and n != total and not (n == 0 and total == 0):
+            prob.append(f"goles {lado}: {n} en la lista vs {total} en el marcador")
+    if any(not g.get("jugador") for g in p.get("goles", [])):
+        prob.append("gol sin nombre")
+    vistos = set()
+    tarj = []
+    for t in p.get("tarjetas", []):
+        k = (t["jugador"], t["tipo"])
+        if not t.get("jugador") or k in vistos:
+            prob.append(f"tarjeta repetida o sin nombre: {t}")
+            continue
+        vistos.add(k)
+        tarj.append(t)
+    expulsados = {t["jugador"] for t in tarj if t["tipo"] in ("roja", "doble")}
+    tarj = [t for t in tarj if not (t["tipo"] == "amarilla" and t["jugador"] in
+                                     {x["jugador"] for x in tarj if x["tipo"] == "doble"})]
+    if len(expulsados) != len([t for t in tarj if t["tipo"] in ("roja", "doble")]):
+        prob.append("jugador con dos expulsiones")
+    q["tarjetas"] = tarj
+    if p.get("penales") and p["gl"] != p["gv"] and not p.get("global"):
+        prob.append("penales con partido no empatado y sin global")
+    return prob, q
+
+
 def detalle(liga, ev):
     comp = ev["competitions"][0]
     lados = {c["team"]["id"]: c["homeAway"] for c in comp["competitors"]}
@@ -432,6 +465,27 @@ def agenda_del_dia(ahora, publicados, pendientes, cola):
                  "titulo": f"Hoy se juega ({total} partidos)", "liga": "agenda", "enviado": False})
 
 
+def revisar_antes(p, clave, ahora, espera, max_espera=45):
+    """Si la historia tiene inconsistencias, espera hasta max_espera minutos a que la fuente se complete.
+    Pasado ese plazo publica solo lo verificado: si los goles no cuadran, sin lista de goles."""
+    prob, q = validar(p)
+    # tarjetas repetidas o sin nombre ya quedan limpias en q: solo los goles justifican esperar
+    graves = [x for x in prob if x.startswith("goles") or x.startswith("gol sin") or "dos expulsiones" in x]
+    if prob:
+        DIAG.setdefault("validacion", {})[clave] = prob
+    if not graves:
+        espera.pop(clave, None)
+        return q
+    prob = graves
+    desde = dt.datetime.fromisoformat(espera.setdefault(clave, ahora.isoformat(timespec="seconds")))
+    if ahora - desde < dt.timedelta(minutes=max_espera):
+        return None
+    espera.pop(clave, None)
+    if any(x.startswith("goles") or x.startswith("gol sin") for x in prob):
+        q["goles"], q["anulados"] = [], []
+    return q
+
+
 def main():
     if os.environ.get("DEBUG_FM_ID"):
         mid = os.environ["DEBUG_FM_ID"]
@@ -447,6 +501,7 @@ def main():
     resumenes = set(cargar("resumenes.json", []))
     cola = cargar("cola.json", [])
     pendientes = []
+    espera = cargar("espera.json", {})
 
     for liga in LIGAS:
         # ventana para detectar fechas completas: 5 días atrás a 3 adelante
@@ -482,6 +537,9 @@ def main():
                  "local": nombre(loc["team"]), "visita": nombre(vis["team"]),
                  "gl": int(loc.get("score", 0)), "gv": int(vis.get("score", 0)), **serie(ev, loc, vis),
                  "goles": goles, "tarjetas": tarjetas, "anulados": anulados}
+            p = revisar_antes(p, clave, ahora, espera)
+            if p is None:
+                continue  # datos aún incompletos: se reintenta en la próxima pasada
             pendientes.append(p)
             publicados.add(clave)
             cola.append({"tipo": "historia", "clave": clave, "creado": ahora.isoformat(timespec="seconds"),
@@ -568,6 +626,9 @@ def main():
         p = {"id": f"chipb-{slug(m['local'])}-{slug(m['visita'])}", "liga": "chi.pb", "fase": "",
              "fecha": m["inicio"].date().isoformat(), "local": m["local"], "visita": m["visita"],
              "gl": m["gl"], "gv": m["gv"], "goles": goles, "tarjetas": tarjetas, "anulados": anulados}
+        p = revisar_antes(p, clave, ahora, espera)
+        if p is None:
+            continue
         pendientes.append(p)
         publicados.add(clave)
         cola.append({"tipo": "historia", "clave": clave, "creado": ahora.isoformat(timespec="seconds"),
@@ -578,6 +639,7 @@ def main():
     primera_b_resumen(hoy, ahora, resumenes, pendientes, cola)
     agenda_del_dia(ahora, publicados, pendientes, cola)
 
+    guardar("espera.json", espera)
     try:
         guardar("diag.json", DIAG)
     except Exception:
