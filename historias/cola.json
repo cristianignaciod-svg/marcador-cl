@@ -1328,7 +1328,9 @@
   ],
   "titulo": "Audax Italiano 1–1 Huachipato",
   "liga": "chi.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17988380315996346",
+  "publicado": "2026-10-24T01:08:40+00:00"
  },
  {
   "tipo": "historia",
@@ -1340,6 +1342,8 @@
   "titulo": "Deportes Iquique 4–1 Magallanes",
   "liga": "chi.pb",
   "sin_goleadores": false,
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18131292563506816",
+  "publicado": "2026-10-24T01:08:40+00:00"
  }
 ]
