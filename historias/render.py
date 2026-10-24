@@ -47,6 +47,7 @@ ALIAS = {
     "u de chile": "universidad-de-chile", "universidad de chile": "universidad-de-chile",
     "u catolica": "universidad-catolica",
     "stade rennais": "rennes", "stade rennais fc": "rennes",
+    "stuttgart": "vfb-stuttgart", "san lorenzo": "san-lorenzo-de-almagro",
     "leverkusen": "bayer-leverkusen", "inter": "inter-milan", "marsella": "marseille",
     "brujas": "club-brugge", "sporting lisboa": "sporting-cp", "sporting": "sporting-cp", "universidad catolica": "universidad-catolica",
 }
