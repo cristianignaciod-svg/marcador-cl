@@ -171,8 +171,30 @@ def detalle(liga, ev):
                         "falta" if re.search(r"falta|foul", txt) else ""))
                 anulados.append({"min": (k.get("clock") or {}).get("displayValue", ""), "jugador": part,
                                  "lado": lado((k.get("team") or {}).get("id")), "motivo": motivo})
+        # tarjetas sin nombre en el marcador: buscar el nombre en los eventos clave del resumen
+        sin_nombre = [t for t in tarjetas if not t["jugador"]]
+        if sin_nombre:
+            claves = []
+            for k in s.get("keyEvents", []):
+                txt = ((k.get("type") or {}).get("text", "") + " " + (k.get("text") or ""))
+                if not re.search(r"(?i)amarilla|roja|yellow|red card|tarjeta", txt):
+                    continue
+                mn = re.sub(r"'\+", "+", (k.get("clock") or {}).get("displayValue", ""))
+                part = (k.get("participants") or [{}])[0].get("athlete", {}).get("displayName", "")
+                if not part:
+                    m = re.search(r"(?:para|a|to|booked:?)\s+([A-ZÁÉÍÓÚÑ][^()]{2,40}?)\s*\(", k.get("text") or "")
+                    part = m.group(1).strip() if m else ""
+                tecnico = bool(re.search(r"(?i)entrenador|t[eé]cnico|manager|coach|asistente|banco", txt))
+                claves.append((mn, lado((k.get("team") or {}).get("id")), part, tecnico))
+            for t in sin_nombre:
+                for mn, ld, part, tecnico in claves:
+                    if mn == t["min"] and ld == t["lado"] and (part or tecnico):
+                        t["jugador"] = part or "Cuerpo técnico"
+                        break
     except Exception as ex:
         print("summary falla", ev["id"], ex, file=sys.stderr)
+    # si aun así no hay nombre (suele ser alguien del banco), no se muestra la tarjeta
+    tarjetas = [t for t in tarjetas if t["jugador"]]
     return goles, tarjetas, [a for a in anulados if a["jugador"]]
 
 

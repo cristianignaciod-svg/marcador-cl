@@ -66,7 +66,8 @@ ALIAS = {
     "velez": "velez-sarsfield", "velez sarsfield": "velez-sarsfield", "atletico tucuman": "atletico-tucuman",
     "argentinos": "argentinos-juniors", "defensa": "defensa-y-justicia",
     "stuttgart": "vfb-stuttgart", "san lorenzo": "san-lorenzo-de-almagro",
-    "leverkusen": "bayer-leverkusen", "inter": "inter-milan", "marsella": "marseille", "olympique de marsella": "marseille",
+    "leverkusen": "bayer-leverkusen", "inter": "inter-milan", "bolonia": "bologna", "napoles": "napoli", "f c augsburgo": "augsburgo",
+    "marsella": "marseille", "olympique de marsella": "marseille",
     "niza": "nice", "ogc niza": "nice", "ogc nice": "nice",
     "brujas": "club-brugge", "sporting lisboa": "sporting-cp", "sporting": "sporting-cp", "universidad catolica": "universidad-catolica",
 }
@@ -187,7 +188,7 @@ def html_partido(p):
         t = f'<span style="text-decoration:line-through;text-decoration-thickness:.07em;color:#93a399">{texto}</span>' if tachado else f"<span>{texto}</span>"
         return (f'<div style="display:flex;gap:.45em;align-items:baseline">'
                 f'<span style="font-family:Saira;font-weight:700;font-size:1.06em;color:#e9a63b;min-width:2.5em">{e(minuto)}</span>'
-                f'{icono}<span style="white-space:nowrap">{t}</span></div>')
+                f'{icono}<span class="nm" style="white-space:nowrap">{t}</span></div>')
 
     def seccion(titulo, items, fn):
         if not items:
@@ -260,7 +261,8 @@ html,body{{margin:0;background:#0f1512}}
 </div>
 <script>
 window.fit=function(){{var d=document.getElementById("det");if(!d)return;var fs=38;d.style.fontSize=fs+"px";
-while(d.getBoundingClientRect().bottom>1650&&fs>20){{fs-=1;d.style.fontSize=fs+"px";}}}};
+function over(){{var r=false;d.querySelectorAll(".nm").forEach(function(e){{if(e.getBoundingClientRect().right>995)r=true;}});return r;}}
+while((d.getBoundingClientRect().bottom>1650||over())&&fs>20){{fs-=1;d.style.fontSize=fs+"px";}}}};
 </script></body></html>'''
 
 
