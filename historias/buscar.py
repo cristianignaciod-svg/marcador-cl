@@ -148,10 +148,16 @@ def detalle(liga, ev):
         elif d.get("redCard"):
             txt = ((d.get("type") or {}).get("text", "")).lower()
             doble = bool(re.search(r"segunda|second|doble|yellow.?red", txt))
-            tarjetas.append({"min": minuto, "jugador": quien, "lado": lado(tid), "tipo": "doble" if doble else "roja"})
+            tarjetas.append({"min": minuto, "jugador": quien, "lado": lado(tid), "tipo": "doble" if doble else "roja",
+                             "directa": bool(re.search(r"directa|straight", txt))})
         elif d.get("yellowCard"):
             tarjetas.append({"min": minuto, "jugador": quien, "lado": lado(tid), "tipo": "amarilla"})
-    # segunda amarilla (solo si ESPN la marca así): no repetir esa amarilla
+    # roja de alguien que ya tenía amarilla = segunda amarilla (lo normal), salvo que ESPN diga "directa"
+    for t in tarjetas:
+        if t["tipo"] == "roja" and t["jugador"] and not t.get("directa"):
+            if any(x["tipo"] == "amarilla" and x["jugador"] == t["jugador"] for x in tarjetas):
+                t["tipo"] = "doble"
+    # segunda amarilla: no repetir esa amarilla
     for t in tarjetas:
         if t["tipo"] == "doble":
             prev = [x for x in tarjetas if x["tipo"] == "amarilla" and x["jugador"] == t["jugador"]]
@@ -186,15 +192,28 @@ def detalle(liga, ev):
                     part = m.group(1).strip() if m else ""
                 tecnico = bool(re.search(r"(?i)entrenador|t[eé]cnico|manager|coach|asistente|banco", txt))
                 claves.append((mn, lado((k.get("team") or {}).get("id")), part, tecnico))
+            usados = {(x["min"], x["lado"], x["jugador"]) for x in tarjetas if x["jugador"]}
             for t in sin_nombre:
                 for mn, ld, part, tecnico in claves:
-                    if mn == t["min"] and ld == t["lado"] and (part or tecnico):
+                    if mn != t["min"] or ld != t["lado"]:
+                        continue
+                    if part and (mn, ld, part) in usados:
+                        continue  # ese nombre ya tiene su tarjeta: no repetirlo
+                    if part or tecnico:
                         t["jugador"] = part or "Cuerpo técnico"
+                        usados.add((mn, ld, t["jugador"]))
                         break
     except Exception as ex:
         print("summary falla", ev["id"], ex, file=sys.stderr)
     # si aun así no hay nombre (suele ser alguien del banco), no se muestra la tarjeta
     tarjetas = [t for t in tarjetas if t["jugador"]]
+    vistos, unicas = set(), []
+    for t in tarjetas:
+        k = (t["min"], t["jugador"], t["lado"], t["tipo"])
+        if k not in vistos:
+            vistos.add(k)
+            unicas.append({x: t[x] for x in ("min", "jugador", "lado", "tipo")})
+    tarjetas = unicas
     return goles, tarjetas, [a for a in anulados if a["jugador"]]
 
 
