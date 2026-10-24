@@ -242,16 +242,16 @@ html,body{{margin:0;background:#0f1512}}
         <span style="position:absolute;right:-22px;top:6px;width:14px;height:14px;border-radius:50%;background:#ff5a4f"></span></div>
       <div style="font:700 30px Saira;letter-spacing:.08em;text-transform:uppercase;color:#0f1512;background:#e9a63b;padding:8px 22px;border-radius:6px">Final</div>
     </div>
-    <div style="margin-top:52px;font:800 100px/0.95 Saira;text-transform:uppercase">{e(liga)}</div>
+    <div class="ajusta" style="margin-top:52px;font:800 100px/0.95 Saira;text-transform:uppercase;white-space:nowrap">{e(liga)}</div>
     <div style="margin-top:16px;font:600 34px Figtree;color:#93a399">{e(fecha_txt(p["fecha"]))}{fase}</div>
 
-    <div style="margin-top:80px;display:grid;grid-template-columns:1fr auto 1fr;align-items:start">
-      <div style="display:flex;flex-direction:column;align-items:center;gap:28px">{chip(p["local"])}
-        <div style="font:700 {tam}px/1.05 Saira;text-transform:uppercase;text-align:center;color:{cl}">{e(corto(p["local"]))}</div></div>
+    <div style="margin-top:80px;display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:start">
+      <div style="display:flex;flex-direction:column;align-items:center;gap:28px;min-width:0">{chip(p["local"])}
+        <div class="ajusta" style="width:100%;font:700 {tam}px/1.05 Saira;text-transform:uppercase;text-align:center;color:{cl}">{e(corto(p["local"]))}</div></div>
       <div style="font:800 206px/272px Saira;font-variant-numeric:tabular-nums;white-space:nowrap;padding:0 22px">
         <span style="color:{cl}">{gl}</span><span style="color:#4a5a50">–</span><span style="color:{cv}">{gv}</span></div>
-      <div style="display:flex;flex-direction:column;align-items:center;gap:28px">{chip(p["visita"])}
-        <div style="font:700 {tam}px/1.05 Saira;text-transform:uppercase;text-align:center;color:{cv}">{e(corto(p["visita"]))}</div></div>
+      <div style="display:flex;flex-direction:column;align-items:center;gap:28px;min-width:0">{chip(p["visita"])}
+        <div class="ajusta" style="width:100%;font:700 {tam}px/1.05 Saira;text-transform:uppercase;text-align:center;color:{cv}">{e(corto(p["visita"]))}</div></div>
     </div>
     {serie_html}
     {goles}
@@ -295,9 +295,9 @@ def html_resumen(r, filas, pagina, total):
                 cl, cv = (fg if pl > pv else mut), (fg if pv > pl else mut)
         rows += f'''<div style="display:grid;grid-template-columns:84px minmax(0,1fr) 150px minmax(0,1fr);align-items:center;min-height:{alto}px;border-bottom:1px solid #1f2924;column-gap:14px">
   <div style="font:700 16px Figtree;letter-spacing:.08em;text-transform:uppercase;color:#93a399">{e(f.get("dia",""))}</div>
-  <div style="display:flex;align-items:center;justify-content:flex-end;gap:14px;min-width:0"><div style="text-align:right;font:600 27px/1.1 Figtree;color:{cl}">{e(f["local"])}</div>{chip(f["local"])}</div>
+  <div style="display:flex;align-items:center;justify-content:flex-end;gap:14px;min-width:0"><div class="ajusta" style="min-width:0;text-align:right;font:600 27px/1.1 Figtree;color:{cl}">{e(f["local"])}</div>{chip(f["local"])}</div>
   <div style="display:flex;justify-content:center">{sc}</div>
-  <div style="display:flex;align-items:center;gap:14px;min-width:0">{chip(f["visita"])}<div style="font:600 27px/1.1 Figtree;color:{cv}">{e(f["visita"])}</div></div>
+  <div style="display:flex;align-items:center;gap:14px;min-width:0">{chip(f["visita"])}<div class="ajusta" style="min-width:0;font:600 27px/1.1 Figtree;color:{cv}">{e(f["visita"])}</div></div>
 </div>'''
     tam = 120 if len(liga) <= 15 else 96
     pie = f"{pagina}/{total} · Desliza para ver más" if total > 1 and pagina < total else "Resultados · Goles y goleadores"
@@ -316,7 +316,7 @@ html,body{{margin:0;background:#0f1512}}
       <div>{e(r.get("rango",""))}</div></div>
   </div>
   <div style="padding-top:44px;display:flex;flex-direction:column">
-    <div style="font:800 {tam}px/0.9 Saira;text-transform:uppercase">{e(liga)}</div>{fase}
+    <div class="ajusta" style="min-width:0;font:800 {tam}px/0.9 Saira;text-transform:uppercase;white-space:nowrap">{e(liga)}</div>{fase}
   </div>
   <div style="margin-top:28px;display:flex;flex-direction:column">{rows}</div>
   <div style="margin-top:auto;padding-top:28px;border-top:2px solid #2c3830;font:400 22px/1.35 Figtree;color:#93a399">{e(pie)}</div>
@@ -371,10 +371,10 @@ def html_agenda(a, grupos, pagina, total):
             cuerpo += f'''<div style="display:grid;grid-template-columns:120px 1fr;align-items:center;column-gap:18px;padding:16px 0;border-bottom:1px solid #1f2924">
   <div style="font:800 46px/1 Saira;font-variant-numeric:tabular-nums">{e(m["hora"])}</div>
   <div style="min-width:0">
-    <div style="display:flex;align-items:center;gap:14px;font:600 32px/1.1 Figtree;white-space:nowrap">
-      {chip(g["liga"], m["local"])}<span style="overflow:hidden;text-overflow:ellipsis">{e(m["local"])}</span>
+    <div class="ajusta" style="display:flex;align-items:center;gap:14px;font:600 32px/1.1 Figtree;white-space:nowrap;overflow:hidden">
+      {chip(g["liga"], m["local"])}<span>{e(m["local"])}</span>
       <span style="color:#4a5a50;font:700 28px Saira">VS</span>
-      {chip(g["liga"], m["visita"])}<span style="overflow:hidden;text-overflow:ellipsis">{e(m["visita"])}</span>
+      {chip(g["liga"], m["visita"])}<span>{e(m["visita"])}</span>
     </div>{tv}
   </div>
 </div>'''
@@ -402,12 +402,22 @@ html,body{{margin:0;background:#0f1512}}
 </div></body></html>'''
 
 
+# Márgenes: todo elemento con class="ajusta" achica su letra hasta caber en su espacio (nada se sale ni se corta).
+AJUSTE = """<script>
+window.ajustar=function(){document.querySelectorAll('.ajusta').forEach(function(e){
+  var fs=parseFloat(getComputedStyle(e).fontSize), min=fs*0.55;
+  while((e.scrollWidth>e.clientWidth+1)&&fs>min){fs-=1;e.style.fontSize=fs+'px';}
+});};
+</script>"""
+
+
 def render(pg, contenido, out, w, h):
+    contenido = contenido.replace("</body>", AJUSTE + "</body>", 1)
     tmp = os.path.join(BASE, ".tmp.html")
     open(tmp, "w").write(contenido)
     pg.set_viewport_size({"width": w, "height": h})
     pg.goto("file://" + tmp, wait_until="load")
-    pg.evaluate("document.fonts.ready.then(() => window.fit && window.fit())")
+    pg.evaluate("document.fonts.ready.then(() => { window.ajustar && window.ajustar(); window.fit && window.fit(); })")
     pg.screenshot(path=out)
     # Instagram solo acepta JPG: se guarda también una copia .jpg
     pg.screenshot(path=out[:-4] + ".jpg", type="jpeg", quality=92)
