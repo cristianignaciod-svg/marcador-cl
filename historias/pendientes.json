@@ -1,1 +1,86 @@
-[]
+[
+ {
+  "id": "eng1-aston-villa-man-city",
+  "liga": "eng.1",
+  "fase": "",
+  "fecha": "2026-10-24",
+  "local": "Aston Villa",
+  "visita": "Man. City",
+  "gl": 2,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "6'",
+    "jugador": "Nicolas Jackson",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "52'",
+    "jugador": "Erling Haaland",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "60'",
+    "jugador": "Nicolas Jackson",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "32'",
+    "jugador": "Marc Guéhi",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "38'",
+    "jugador": "Rayan Cherki",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "54'",
+    "jugador": "Johan Manzambi",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "55'",
+    "jugador": "Matty Cash",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "74'",
+    "jugador": "Elliot Anderson",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "76'",
+    "jugador": "Ryan McAidoo",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "83'",
+    "jugador": "Brian Madjo",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+5'",
+    "jugador": "Emiliano Buendía",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ }
+]

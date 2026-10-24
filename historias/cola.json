@@ -1425,5 +1425,16 @@
   "enviado": true,
   "ig_id": "18131578321693382",
   "publicado": "2026-10-24T12:27:06+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "eng.1:401879256",
+  "creado": "2026-10-24T11:02:01-03:00",
+  "archivos": [
+   "historias/img/2026-10-24/eng1-aston-villa-man-city.png"
+  ],
+  "titulo": "Aston Villa 2–1 Man. City",
+  "liga": "eng.1",
+  "enviado": false
  }
 ]
