@@ -1682,7 +1682,9 @@
   ],
   "titulo": "Atlético 1–0 Deportivo",
   "liga": "esp.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18386445877239114",
+  "publicado": "2026-10-24T21:16:16+00:00"
  },
  {
   "tipo": "historia",
@@ -1693,6 +1695,8 @@
   ],
   "titulo": "Lens 2–1 Paris FC",
   "liga": "fra.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17914246575286563",
+  "publicado": "2026-10-24T21:16:16+00:00"
  }
 ]
