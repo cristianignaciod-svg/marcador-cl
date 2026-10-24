@@ -1451,5 +1451,27 @@
   "enviado": true,
   "ig_id": "18350648866282985",
   "publicado": "2026-10-24T14:22:44+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "ita.1:401874958",
+  "creado": "2026-10-24T12:18:53-03:00",
+  "archivos": [
+   "historias/img/2026-10-24/ita1-cagliari-bolonia.png"
+  ],
+  "titulo": "Cagliari 0–2 Bolonia",
+  "liga": "ita.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "ita.1:401874961",
+  "creado": "2026-10-24T12:18:53-03:00",
+  "archivos": [
+   "historias/img/2026-10-24/ita1-como-sassuolo.png"
+  ],
+  "titulo": "Como 2–0 Sassuolo",
+  "liga": "ita.1",
+  "enviado": false
  }
 ]
