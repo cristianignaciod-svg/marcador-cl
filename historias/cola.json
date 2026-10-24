@@ -1594,5 +1594,16 @@
   "enviado": true,
   "ig_id": "18073738475725682",
   "publicado": "2026-10-24T17:44:44+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "ita.1:401874948",
+  "creado": "2026-10-24T15:41:27-03:00",
+  "archivos": [
+   "historias/img/2026-10-24/ita1-napoli-as-roma.png"
+  ],
+  "titulo": "Napoli 3–3 AS Roma",
+  "liga": "ita.1",
+  "enviado": false
  }
 ]

@@ -1,1 +1,89 @@
-[]
+[
+ {
+  "id": "ita1-napoli-as-roma",
+  "liga": "ita.1",
+  "fase": "",
+  "fecha": "2026-10-24",
+  "local": "Napoli",
+  "visita": "AS Roma",
+  "gl": 3,
+  "gv": 3,
+  "goles": [
+   {
+    "min": "28'",
+    "jugador": "Frank Anguissa",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "48'",
+    "jugador": "Scott McTominay",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "69'",
+    "jugador": "Matìas Soulè",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "74'",
+    "jugador": "Leonardo Balerdi",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "83'",
+    "jugador": "Scott McTominay",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "89'",
+    "jugador": "Leonardo Balerdi",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "4'",
+    "jugador": "Rafa Marín",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "30'",
+    "jugador": "Bryan Cristante",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "45'",
+    "jugador": "Devyne Rensch",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "61'",
+    "jugador": "Leonardo Balerdi",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "86'",
+    "jugador": "Marten de Roon",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ }
+]
