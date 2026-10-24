@@ -1672,5 +1672,27 @@
   "enviado": true,
   "ig_id": "18013761968991889",
   "publicado": "2026-10-24T20:56:32+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "esp.1:401882834",
+  "creado": "2026-10-24T18:15:32-03:00",
+  "archivos": [
+   "historias/img/2026-10-24/esp1-atletico-deportivo.png"
+  ],
+  "titulo": "Atlético 1–0 Deportivo",
+  "liga": "esp.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "fra.1:401876427",
+  "creado": "2026-10-24T18:15:32-03:00",
+  "archivos": [
+   "historias/img/2026-10-24/fra1-lens-paris-fc.png"
+  ],
+  "titulo": "Lens 2–1 Paris FC",
+  "liga": "fra.1",
+  "enviado": false
  }
 ]
