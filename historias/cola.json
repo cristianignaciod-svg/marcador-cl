@@ -1698,5 +1698,16 @@
   "enviado": true,
   "ig_id": "17914246575286563",
   "publicado": "2026-10-24T21:16:16+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "arg.1:401841631",
+  "creado": "2026-10-24T19:22:16-03:00",
+  "archivos": [
+   "historias/img/2026-10-24/arg1-talleres-cordoba-defensa-y-justicia.png"
+  ],
+  "titulo": "Talleres (Córdoba) 1–2 Defensa y Justicia",
+  "liga": "arg.1",
+  "enviado": false
  }
 ]

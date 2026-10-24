@@ -1,1 +1,62 @@
-[]
+[
+ {
+  "id": "arg1-talleres-cordoba-defensa-y-justicia",
+  "liga": "arg.1",
+  "fase": "",
+  "fecha": "2026-10-24",
+  "local": "Talleres (Córdoba)",
+  "visita": "Defensa y Justicia",
+  "gl": 1,
+  "gv": 2,
+  "goles": [
+   {
+    "min": "32'",
+    "jugador": "Agustín Álvarez Martínez",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "47'",
+    "jugador": "Leandro Miguel Fernandez",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "88'",
+    "jugador": "Juan Gutiérrez",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "42'",
+    "jugador": "Román Riquelme",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "60'",
+    "jugador": "Damián Fernández",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "74'",
+    "jugador": "Lautaro Ortiz",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+1'",
+    "jugador": "Alexandro Maidana",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ }
+]
