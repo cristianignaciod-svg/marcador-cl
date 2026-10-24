@@ -1617,7 +1617,9 @@
   ],
   "titulo": "Valencia 1–2 Villarreal",
   "liga": "esp.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17902862667601007",
+  "publicado": "2026-10-24T19:01:35+00:00"
  },
  {
   "tipo": "historia",
@@ -1628,7 +1630,9 @@
   ],
   "titulo": "Chelsea 0–2 Tottenham",
   "liga": "eng.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18126647002849416",
+  "publicado": "2026-10-24T19:01:35+00:00"
  },
  {
   "tipo": "historia",
@@ -1639,6 +1643,8 @@
   ],
   "titulo": "Borussia Dortmund 1–0 Eintracht",
   "liga": "ger.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18106715756363444",
+  "publicado": "2026-10-24T19:01:35+00:00"
  }
 ]
