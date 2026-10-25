@@ -1,25 +1,83 @@
 [
  {
-  "id": "fra1-angers-lorient",
-  "liga": "fra.1",
+  "id": "chi1-nublense-coquimbo-unido",
+  "liga": "chi.1",
   "fase": "",
   "fecha": "2026-10-25",
-  "local": "Angers",
-  "visita": "Lorient",
-  "gl": 0,
-  "gv": 0,
-  "goles": [],
+  "local": "Ñublense",
+  "visita": "Coquimbo Unido",
+  "gl": 2,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "13'",
+    "jugador": "Luis Riveros",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "38'",
+    "jugador": "Matías Plaza",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "81'",
+    "jugador": "Diego Sanhueza",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
   "tarjetas": [
    {
-    "min": "33'",
-    "jugador": "Yassin Belkhdim",
+    "min": "44'",
+    "jugador": "Juan Cornejo",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "45+2'",
+    "jugador": "Cristian Zavala",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "47'",
+    "jugador": "Manuel Fernández",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "51'",
+    "jugador": "Diego Sanhueza",
     "lado": "local",
     "tipo": "amarilla"
    },
    {
-    "min": "85'",
-    "jugador": "Nathaniel Adjei",
-    "lado": "visita",
+    "min": "70'",
+    "jugador": "Giovanni Campusano",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "89'",
+    "jugador": "Manuel Rivera",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+1'",
+    "jugador": "Hernán Muñoz",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+9'",
+    "jugador": "Fernando Ovelar",
+    "lado": "local",
     "tipo": "amarilla"
    }
   ],
@@ -27,66 +85,200 @@
   "verificado": "ESPN+FotMob"
  },
  {
-  "id": "fra1-toulouse-troyes",
+  "id": "fra1-aj-auxerre-le-mans",
   "liga": "fra.1",
   "fase": "",
   "fecha": "2026-10-25",
-  "local": "Toulouse",
-  "visita": "Troyes",
-  "gl": 0,
-  "gv": 0,
-  "goles": [],
+  "local": "AJ Auxerre",
+  "visita": "Le Mans",
+  "gl": 1,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "48'",
+    "jugador": "Lucas Buades",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "56'",
+    "jugador": "Cameron Archer",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
   "tarjetas": [
    {
-    "min": "25'",
-    "jugador": "Rafik Messali",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "25'",
-    "jugador": "Aron Donnum",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "36'",
-    "jugador": "Michel Diaz",
+    "min": "21'",
+    "jugador": "Alexandre Lauray",
     "lado": "visita",
     "tipo": "amarilla"
    },
    {
-    "min": "39'",
-    "jugador": "Cristian Cásseres Jr.",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "40'",
-    "jugador": "Timothé Nkada",
+    "min": "26'",
+    "jugador": "Lucas Buades",
     "lado": "visita",
     "tipo": "amarilla"
    },
    {
-    "min": "83'",
-    "jugador": "Niko Sigur",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "89'",
-    "jugador": "Alexis Vossah",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "90+3'",
-    "jugador": "Mark McKenzie",
+    "min": "69'",
+    "jugador": "Kévin Danois",
     "lado": "local",
     "tipo": "amarilla"
    }
   ],
   "anulados": [],
   "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "fra1-marseille-le-havre-ac",
+  "liga": "fra.1",
+  "fase": "",
+  "fecha": "2026-10-25",
+  "local": "Marseille",
+  "visita": "Le Havre AC",
+  "gl": 4,
+  "gv": 3,
+  "goles": [
+   {
+    "min": "5'",
+    "jugador": "CJ Egan-Riley",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "33'",
+    "jugador": "Timothy Weah",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "50'",
+    "jugador": "Igor Paixão",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "55'",
+    "jugador": "Himad Abdelli",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "77'",
+    "jugador": "Josh Maja",
+    "lado": "visita",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "86'",
+    "jugador": "Mouhamed N'Diaye",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "89'",
+    "jugador": "Josh Maja",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "83'",
+    "jugador": "Simon Ebonog",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+10'",
+    "jugador": "Ayumu Seko",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+11'",
+    "jugador": "Mouhamed N'Diaye",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+12'",
+    "jugador": "Neal Maupay",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "fra1-stade-rennais-strasbourg",
+  "liga": "fra.1",
+  "fase": "",
+  "fecha": "2026-10-25",
+  "local": "Stade Rennais",
+  "visita": "Strasbourg",
+  "gl": 3,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "34'",
+    "jugador": "Boulaye Dia",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "41'",
+    "jugador": "Sebastian Szymanski",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "61'",
+    "jugador": "Sebastian Szymanski",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "33'",
+    "jugador": "Gessime Yassine",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "56'",
+    "jugador": "Boulaye Dia",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "65'",
+    "jugador": "Giovanni Reyna",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "87'",
+    "jugador": "Pape Diop",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
  }
 ]

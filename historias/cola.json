@@ -2003,5 +2003,49 @@
   "enviado": true,
   "ig_id": "18138846358712559",
   "publicado": "2026-10-25T18:56:46+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "chi.1:401850675",
+  "creado": "2026-10-25T16:06:43-03:00",
+  "archivos": [
+   "historias/img/2026-10-25/chi1-nublense-coquimbo-unido.png"
+  ],
+  "titulo": "Ñublense 2–1 Coquimbo Unido",
+  "liga": "chi.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "fra.1:401876429",
+  "creado": "2026-10-25T16:06:43-03:00",
+  "archivos": [
+   "historias/img/2026-10-25/fra1-aj-auxerre-le-mans.png"
+  ],
+  "titulo": "AJ Auxerre 1–1 Le Mans",
+  "liga": "fra.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "fra.1:401876426",
+  "creado": "2026-10-25T16:06:43-03:00",
+  "archivos": [
+   "historias/img/2026-10-25/fra1-marseille-le-havre-ac.png"
+  ],
+  "titulo": "Marseille 4–3 Le Havre AC",
+  "liga": "fra.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "fra.1:401876424",
+  "creado": "2026-10-25T16:06:43-03:00",
+  "archivos": [
+   "historias/img/2026-10-25/fra1-stade-rennais-strasbourg.png"
+  ],
+  "titulo": "Stade Rennais 3–0 Strasbourg",
+  "liga": "fra.1",
+  "enviado": false
  }
 ]
