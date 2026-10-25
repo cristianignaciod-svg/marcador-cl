@@ -1,208 +1,72 @@
 [
  {
-  "id": "ita1-atalanta-frosinone",
-  "liga": "ita.1",
+  "id": "ger1-tsg-hoffenheim-leverkusen",
+  "liga": "ger.1",
   "fase": "",
   "fecha": "2026-10-25",
-  "local": "Atalanta",
-  "visita": "Frosinone",
-  "gl": 4,
-  "gv": 4,
+  "local": "TSG Hoffenheim",
+  "visita": "Leverkusen",
+  "gl": 3,
+  "gv": 0,
   "goles": [
    {
-    "min": "1'",
-    "jugador": "Romano Schmid",
-    "lado": "visita",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "14'",
-    "jugador": "Nikola Krstovic",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "17'",
-    "jugador": "Romano Schmid",
-    "lado": "visita",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "33'",
-    "jugador": "Éderson",
+    "min": "79'",
+    "jugador": "Andrej Kramaric",
     "lado": "local",
     "penal": true,
     "autogol": false
    },
    {
-    "min": "45'",
-    "jugador": "Nikola Krstovic",
+    "min": "89'",
+    "jugador": "Alexander Prass",
     "lado": "local",
     "penal": false,
     "autogol": false
    },
    {
-    "min": "48'",
-    "jugador": "Giacomo Calo",
+    "min": "90+5'",
+    "jugador": "Max Moerstedt",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "40'",
+    "jugador": "Ezequiel Fernández",
     "lado": "visita",
-    "penal": false,
-    "autogol": false
+    "tipo": "amarilla"
    },
    {
-    "min": "50'",
-    "jugador": "Eljif Elmas",
+    "min": "58'",
+    "jugador": "Patrik Schick",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "67'",
+    "jugador": "Leon Avdullahu",
     "lado": "local",
-    "penal": false,
-    "autogol": false
+    "tipo": "amarilla"
+   },
+   {
+    "min": "75'",
+    "jugador": "Facundo Medina",
+    "lado": "visita",
+    "tipo": "amarilla"
    },
    {
     "min": "82'",
-    "jugador": "Aleksa Terzic",
-    "lado": "visita",
-    "penal": false,
-    "autogol": false
-   }
-  ],
-  "tarjetas": [
-   {
-    "min": "7'",
-    "jugador": "Gabriele Bracaglia",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "28'",
-    "jugador": "Giorgi Kvernadze",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "69'",
-    "jugador": "Éderson",
+    "jugador": "Adam Daghim",
     "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "85'",
-    "jugador": "Aleksa Terzic",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "90+2'",
-    "jugador": "Antonio Raimondo",
-    "lado": "visita",
-    "tipo": "amarilla"
-   }
-  ],
-  "anulados": [],
-  "verificado": "ESPN+FotMob"
- },
- {
-  "id": "ita1-genova-venezia",
-  "liga": "ita.1",
-  "fase": "",
-  "fecha": "2026-10-25",
-  "local": "Génova",
-  "visita": "Venezia",
-  "gl": 1,
-  "gv": 0,
-  "goles": [
-   {
-    "min": "25'",
-    "jugador": "Mikael Ellertsson",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   }
-  ],
-  "tarjetas": [
-   {
-    "min": "55'",
-    "jugador": "Sebastian Otoa",
-    "lado": "local",
-    "tipo": "amarilla"
-   }
-  ],
-  "anulados": [],
-  "verificado": "ESPN+FotMob"
- },
- {
-  "id": "fra1-as-monaco-lille",
-  "liga": "fra.1",
-  "fase": "",
-  "fecha": "2026-10-25",
-  "local": "AS Mónaco",
-  "visita": "Lille",
-  "gl": 1,
-  "gv": 1,
-  "goles": [
-   {
-    "min": "24'",
-    "jugador": "Ethan Mbappé",
-    "lado": "visita",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "74'",
-    "jugador": "Edan Diop",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   }
-  ],
-  "tarjetas": [
-   {
-    "min": "32'",
-    "jugador": "Mamadou Coulibaly",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "34'",
-    "jugador": "Hákon Haraldsson",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "56'",
-    "jugador": "Mathys Detourbet",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "66'",
-    "jugador": "Tanguy Nianzou",
-    "lado": "visita",
-    "tipo": "roja"
-   },
-   {
-    "min": "66'",
-    "jugador": "Romain Perraud",
-    "lado": "visita",
     "tipo": "amarilla"
    },
    {
     "min": "90+1'",
-    "jugador": "Vanderson",
+    "jugador": "Alexander Prass",
     "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "90+2'",
-    "jugador": "Maxima Goffi",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "90+4'",
-    "jugador": "Berke Özer",
-    "lado": "visita",
-    "tipo": "amarilla"
+    "tipo": "doble"
    }
   ],
   "anulados": [],

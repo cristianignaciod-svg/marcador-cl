@@ -1951,5 +1951,16 @@
   "enviado": true,
   "ig_id": "18489638803107974",
   "publicado": "2026-10-25T16:32:48+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "ger.1:401884760",
+  "creado": "2026-10-25T13:42:55-03:00",
+  "archivos": [
+   "historias/img/2026-10-25/ger1-tsg-hoffenheim-leverkusen.png"
+  ],
+  "titulo": "TSG Hoffenheim 3–0 Leverkusen",
+  "liga": "ger.1",
+  "enviado": false
  }
 ]
