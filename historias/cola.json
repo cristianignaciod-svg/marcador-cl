@@ -2154,10 +2154,12 @@
     "gv": 0
    }
   ],
-  "enviado": false,
+  "enviado": true,
   "texto": "¡Fecha de batacazos en la Premier! 😱 Bournemouth fue a Old Trafford y le metió un 0-3 al Man. United.\nTottenham también ganó el derbi de visita: Chelsea 0-2 Spurs. Y Aston Villa le dio vuelta a la tarde al Man. City con un 2-1.\nArsenal y Liverpool cumplieron en casa con sendos 2-0.\n¿Cuál fue la sorpresa más grande de la fecha? 👇\n\n#MarcadorCL #Futbol #PremierLeague #EPL #FutbolInglés",
   "avisado": true,
-  "aprobado": true
+  "aprobado": true,
+  "ig_id": "18110900510351305",
+  "publicado": "2026-10-25T20:08:35+00:00"
  },
  {
   "tipo": "historia",
@@ -2220,7 +2222,9 @@
   ],
   "titulo": "Unión La Calera 3–1 U. Católica",
   "liga": "chi.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17915499621513876",
+  "publicado": "2026-10-25T20:08:35+00:00"
  },
  {
   "tipo": "historia",
@@ -2232,6 +2236,8 @@
   "titulo": "Deportes Temuco 1–2 San Marcos",
   "liga": "chi.pb",
   "sin_goleadores": false,
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18639442000029703",
+  "publicado": "2026-10-25T20:08:35+00:00"
  }
 ]
