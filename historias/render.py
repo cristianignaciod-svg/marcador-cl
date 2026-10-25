@@ -65,6 +65,8 @@ ALIAS = {
     "central cordoba santiago del estero": "central-cordoba", "central cordoba sde": "central-cordoba",
     "velez": "velez-sarsfield", "velez sarsfield": "velez-sarsfield", "atletico tucuman": "atletico-tucuman",
     "argentinos": "argentinos-juniors", "defensa": "defensa-y-justicia",
+    "atletico mg": "atletico-mineiro", "atletico mineiro": "atletico-mineiro",
+    "deportivo": "deportivo-la-coruna", "deportivo la coruna": "deportivo-la-coruna",
     "stuttgart": "vfb-stuttgart", "san lorenzo": "san-lorenzo-de-almagro",
     "leverkusen": "bayer-leverkusen", "inter": "inter-milan", "bolonia": "bologna", "napoles": "napoli", "f c augsburgo": "augsburgo",
     "marsella": "marseille", "olympique de marsella": "marseille",
@@ -76,7 +78,8 @@ ALIAS = {
 def norm(s):
     s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()
     s = re.sub(r"[^a-z0-9 ]+", " ", s)
-    return " ".join(w for w in s.split() if w not in STOP)
+    limpio = " ".join(w for w in s.split() if w not in STOP)
+    return limpio or " ".join(s.split())  # ej. "Deportivo": no quedar vacío
 
 
 def _clave_alias(s):
