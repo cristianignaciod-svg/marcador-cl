@@ -1,248 +1,38 @@
 [
  {
-  "id": "esp1-barcelona-real-madrid",
-  "liga": "esp.1",
+  "id": "chi1-palestino-colo-colo",
+  "liga": "chi.1",
   "fase": "",
   "fecha": "2026-10-25",
-  "local": "Barcelona",
-  "visita": "Real Madrid",
+  "local": "Palestino",
+  "visita": "Colo Colo",
   "gl": 1,
-  "gv": 2,
-  "goles": [
-   {
-    "min": "41'",
-    "jugador": "Kylian Mbappé",
-    "lado": "visita",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "61'",
-    "jugador": "Raphinha",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "87'",
-    "jugador": "Kylian Mbappé",
-    "lado": "visita",
-    "penal": false,
-    "autogol": false
-   }
-  ],
-  "tarjetas": [
-   {
-    "min": "46'",
-    "jugador": "Aurélien Tchouaméni",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "84'",
-    "jugador": "Anthony Gordon",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "90+2'",
-    "jugador": "Marc Cucurella",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "90+4'",
-    "jugador": "Kylian Mbappé",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "90+6'",
-    "jugador": "Karim Adeyemi",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "90+6'",
-    "jugador": "Alejandro Balde",
-    "lado": "local",
-    "tipo": "amarilla"
-   }
-  ],
-  "anulados": [],
-  "verificado": "ESPN+FotMob"
- },
- {
-  "id": "arg1-independiente-boca-juniors",
-  "liga": "arg.1",
-  "fase": "",
-  "fecha": "2026-10-25",
-  "local": "Independiente",
-  "visita": "Boca Juniors",
-  "gl": 0,
   "gv": 1,
   "goles": [
    {
-    "min": "88'",
-    "jugador": "Facundo Herrera",
+    "min": "8'",
+    "jugador": "Marcelo Correa",
     "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "82'",
+    "jugador": "Enzo Roco",
+    "lado": "local",
     "penal": false,
     "autogol": false
    }
   ],
   "tarjetas": [
    {
-    "min": "20'",
-    "jugador": "Lautaro Di Lollo",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "45+1'",
-    "jugador": "Iván Marcone",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "53'",
-    "jugador": "Chimy Ávila",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "64'",
-    "jugador": "Mateo Pérez",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "67'",
-    "jugador": "Milton Delgado",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "77'",
-    "jugador": "Facundo Herrera",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
     "min": "90+2'",
-    "jugador": "Malcom Braida",
-    "lado": "visita",
-    "tipo": "amarilla"
+    "jugador": "Dilan Zúñiga",
+    "lado": "local",
+    "tipo": "roja"
    }
   ],
   "anulados": [],
   "verificado": "ESPN+FotMob"
- },
- {
-  "id": "chipb-antofagasta-curico-unido",
-  "liga": "chi.pb",
-  "fase": "",
-  "fecha": "2026-10-25",
-  "local": "Antofagasta",
-  "visita": "Curicó Unido",
-  "gl": 4,
-  "gv": 0,
-  "goles": [
-   {
-    "min": "26'",
-    "jugador": "Jose Monreal",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "34'",
-    "jugador": "Mathias Suárez",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "67'",
-    "jugador": "Brayan Hurtado",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "90+5'",
-    "jugador": "Brayan Hurtado",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   }
-  ],
-  "tarjetas": [],
-  "anulados": []
- },
- {
-  "tipo": "resumen",
-  "id": "chipb-20261023",
-  "liga": "chi.pb",
-  "fase": "Fecha 29",
-  "fecha": "2026-10-25",
-  "rango": "23 al 25 de octubre",
-  "partidos": [
-   {
-    "dia": "Vie 23",
-    "local": "Deportes Iquique",
-    "visita": "Magallanes",
-    "gl": 4,
-    "gv": 1
-   },
-   {
-    "dia": "Sáb 24",
-    "local": "Rangers",
-    "visita": "Cobreloa",
-    "gl": 0,
-    "gv": 1
-   },
-   {
-    "dia": "Sáb 24",
-    "local": "Unión Española",
-    "visita": "Santiago Wanderers",
-    "gl": 1,
-    "gv": 2
-   },
-   {
-    "dia": "Sáb 24",
-    "local": "Puerto Montt",
-    "visita": "Unión San Felipe",
-    "gl": 3,
-    "gv": 1
-   },
-   {
-    "dia": "Sáb 24",
-    "local": "San Luis",
-    "visita": "Deportes Recoleta",
-    "gl": 1,
-    "gv": 1
-   },
-   {
-    "dia": "Sáb 24",
-    "local": "Deportes Copiapó",
-    "visita": "Deportes Santa Cruz",
-    "gl": 1,
-    "gv": 1
-   },
-   {
-    "dia": "Dom 25",
-    "local": "Deportes Temuco",
-    "visita": "San Marcos",
-    "gl": 1,
-    "gv": 2
-   },
-   {
-    "dia": "Dom 25",
-    "local": "Antofagasta",
-    "visita": "Curicó Unido",
-    "gl": 4,
-    "gv": 0
-   }
-  ]
  }
 ]
