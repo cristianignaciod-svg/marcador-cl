@@ -2055,5 +2055,112 @@
   "enviado": true,
   "ig_id": "18018291860958709",
   "publicado": "2026-10-25T19:07:37+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "eng.1:401878764",
+  "creado": "2026-10-25T16:17:58-03:00",
+  "archivos": [
+   "historias/img/2026-10-25/eng1-sunderland-leeds.png"
+  ],
+  "titulo": "Sunderland 0–0 Leeds",
+  "liga": "eng.1",
+  "enviado": false
+ },
+ {
+  "tipo": "resumen",
+  "clave": "eng.1:2026-10-23",
+  "creado": "2026-10-25T16:17:58-03:00",
+  "archivos": [
+   "historias/img/2026-10-25/eng1-20261023-1.png"
+  ],
+  "titulo": "eng.1 23 al 25 de octubre",
+  "liga": "eng.1",
+  "fase": "",
+  "rango": "23 al 25 de octubre",
+  "partidos": [
+   {
+    "dia": "Vie 23",
+    "local": "Ipswich",
+    "visita": "Nottingham F.",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 24",
+    "local": "Aston Villa",
+    "visita": "Man. City",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 24",
+    "local": "Arsenal",
+    "visita": "Everton",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "dia": "Sáb 24",
+    "local": "Coventry",
+    "visita": "Fulham",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 24",
+    "local": "Chelsea",
+    "visita": "Tottenham",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "dia": "Dom 25",
+    "local": "Crystal Palace",
+    "visita": "Newcastle",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "dia": "Dom 25",
+    "local": "Hull City",
+    "visita": "Brentford",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "dia": "Dom 25",
+    "local": "Liverpool",
+    "visita": "Brighton",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "dia": "Dom 25",
+    "local": "Man. United",
+    "visita": "Bournemouth",
+    "gl": 0,
+    "gv": 3
+   },
+   {
+    "dia": "Dom 25",
+    "local": "Sunderland",
+    "visita": "Leeds",
+    "gl": 0,
+    "gv": 0
+   }
+  ],
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "ger.1:401884759",
+  "creado": "2026-10-25T16:17:58-03:00",
+  "archivos": [
+   "historias/img/2026-10-25/ger1-sc-freiburg-bayern.png"
+  ],
+  "titulo": "SC Freiburg 1–3 Bayern",
+  "liga": "ger.1",
+  "enviado": false
  }
 ]

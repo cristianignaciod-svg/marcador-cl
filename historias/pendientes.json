@@ -1,83 +1,31 @@
 [
  {
-  "id": "chi1-nublense-coquimbo-unido",
-  "liga": "chi.1",
+  "id": "eng1-sunderland-leeds",
+  "liga": "eng.1",
   "fase": "",
   "fecha": "2026-10-25",
-  "local": "Ñublense",
-  "visita": "Coquimbo Unido",
-  "gl": 2,
-  "gv": 1,
-  "goles": [
-   {
-    "min": "13'",
-    "jugador": "Luis Riveros",
-    "lado": "visita",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "38'",
-    "jugador": "Matías Plaza",
-    "lado": "local",
-    "penal": true,
-    "autogol": false
-   },
-   {
-    "min": "81'",
-    "jugador": "Diego Sanhueza",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   }
-  ],
+  "local": "Sunderland",
+  "visita": "Leeds",
+  "gl": 0,
+  "gv": 0,
+  "goles": [],
   "tarjetas": [
    {
-    "min": "44'",
-    "jugador": "Juan Cornejo",
+    "min": "29'",
+    "jugador": "Ethan Ampadu",
     "lado": "visita",
     "tipo": "amarilla"
    },
    {
-    "min": "45+2'",
-    "jugador": "Cristian Zavala",
+    "min": "39'",
+    "jugador": "Reinildo Mandava",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "67'",
+    "jugador": "Jayden Bogle",
     "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "47'",
-    "jugador": "Manuel Fernández",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "51'",
-    "jugador": "Diego Sanhueza",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "70'",
-    "jugador": "Giovanni Campusano",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "89'",
-    "jugador": "Manuel Rivera",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "90+1'",
-    "jugador": "Hernán Muñoz",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "90+9'",
-    "jugador": "Fernando Ovelar",
-    "lado": "local",
     "tipo": "amarilla"
    }
   ],
@@ -85,200 +33,151 @@
   "verificado": "ESPN+FotMob"
  },
  {
-  "id": "fra1-aj-auxerre-le-mans",
-  "liga": "fra.1",
+  "tipo": "resumen",
+  "id": "eng1-20261023",
+  "liga": "eng.1",
   "fase": "",
   "fecha": "2026-10-25",
-  "local": "AJ Auxerre",
-  "visita": "Le Mans",
+  "rango": "23 al 25 de octubre",
+  "partidos": [
+   {
+    "dia": "Vie 23",
+    "local": "Ipswich",
+    "visita": "Nottingham F.",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 24",
+    "local": "Aston Villa",
+    "visita": "Man. City",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 24",
+    "local": "Arsenal",
+    "visita": "Everton",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "dia": "Sáb 24",
+    "local": "Coventry",
+    "visita": "Fulham",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 24",
+    "local": "Chelsea",
+    "visita": "Tottenham",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "dia": "Dom 25",
+    "local": "Crystal Palace",
+    "visita": "Newcastle",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "dia": "Dom 25",
+    "local": "Hull City",
+    "visita": "Brentford",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "dia": "Dom 25",
+    "local": "Liverpool",
+    "visita": "Brighton",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "dia": "Dom 25",
+    "local": "Man. United",
+    "visita": "Bournemouth",
+    "gl": 0,
+    "gv": 3
+   },
+   {
+    "dia": "Dom 25",
+    "local": "Sunderland",
+    "visita": "Leeds",
+    "gl": 0,
+    "gv": 0
+   }
+  ]
+ },
+ {
+  "id": "ger1-sc-freiburg-bayern",
+  "liga": "ger.1",
+  "fase": "",
+  "fecha": "2026-10-25",
+  "local": "SC Freiburg",
+  "visita": "Bayern",
   "gl": 1,
-  "gv": 1,
-  "goles": [
-   {
-    "min": "48'",
-    "jugador": "Lucas Buades",
-    "lado": "visita",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "56'",
-    "jugador": "Cameron Archer",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   }
-  ],
-  "tarjetas": [
-   {
-    "min": "21'",
-    "jugador": "Alexandre Lauray",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "26'",
-    "jugador": "Lucas Buades",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "69'",
-    "jugador": "Kévin Danois",
-    "lado": "local",
-    "tipo": "amarilla"
-   }
-  ],
-  "anulados": [],
-  "verificado": "ESPN+FotMob"
- },
- {
-  "id": "fra1-marseille-le-havre-ac",
-  "liga": "fra.1",
-  "fase": "",
-  "fecha": "2026-10-25",
-  "local": "Marseille",
-  "visita": "Le Havre AC",
-  "gl": 4,
   "gv": 3,
   "goles": [
    {
-    "min": "5'",
-    "jugador": "CJ Egan-Riley",
-    "lado": "local",
+    "min": "16'",
+    "jugador": "Dayot Upamecano",
+    "lado": "visita",
     "penal": false,
     "autogol": false
    },
    {
-    "min": "33'",
-    "jugador": "Timothy Weah",
-    "lado": "local",
+    "min": "42'",
+    "jugador": "Serge Gnabry",
+    "lado": "visita",
     "penal": false,
     "autogol": false
    },
    {
-    "min": "50'",
-    "jugador": "Igor Paixão",
+    "min": "82'",
+    "jugador": "Tom Bischof",
     "lado": "local",
     "penal": false,
+    "autogol": true
+   },
+   {
+    "min": "90+5'",
+    "jugador": "Michael Olise",
+    "lado": "visita",
+    "penal": false,
     "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "25'",
+    "jugador": "Lucas Höler",
+    "lado": "local",
+    "tipo": "amarilla"
    },
    {
     "min": "55'",
-    "jugador": "Himad Abdelli",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "77'",
-    "jugador": "Josh Maja",
-    "lado": "visita",
-    "penal": true,
-    "autogol": false
-   },
-   {
-    "min": "86'",
-    "jugador": "Mouhamed N'Diaye",
-    "lado": "visita",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "89'",
-    "jugador": "Josh Maja",
-    "lado": "visita",
-    "penal": false,
-    "autogol": false
-   }
-  ],
-  "tarjetas": [
-   {
-    "min": "83'",
-    "jugador": "Simon Ebonog",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "90+10'",
-    "jugador": "Ayumu Seko",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "90+11'",
-    "jugador": "Mouhamed N'Diaye",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "90+12'",
-    "jugador": "Neal Maupay",
-    "lado": "local",
-    "tipo": "amarilla"
-   }
-  ],
-  "anulados": [],
-  "verificado": "ESPN+FotMob"
- },
- {
-  "id": "fra1-stade-rennais-strasbourg",
-  "liga": "fra.1",
-  "fase": "",
-  "fecha": "2026-10-25",
-  "local": "Stade Rennais",
-  "visita": "Strasbourg",
-  "gl": 3,
-  "gv": 0,
-  "goles": [
-   {
-    "min": "34'",
-    "jugador": "Boulaye Dia",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "41'",
-    "jugador": "Sebastian Szymanski",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "61'",
-    "jugador": "Sebastian Szymanski",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   }
-  ],
-  "tarjetas": [
-   {
-    "min": "33'",
-    "jugador": "Gessime Yassine",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "56'",
-    "jugador": "Boulaye Dia",
+    "jugador": "Niklas Beste",
     "lado": "local",
     "tipo": "amarilla"
    },
    {
     "min": "65'",
-    "jugador": "Giovanni Reyna",
+    "jugador": "Jonathan Tah",
     "lado": "visita",
     "tipo": "amarilla"
    },
    {
-    "min": "87'",
-    "jugador": "Pape Diop",
-    "lado": "visita",
+    "min": "85'",
+    "jugador": "Maximilian Eggestein",
+    "lado": "local",
     "tipo": "amarilla"
    }
   ],
-  "anulados": []
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
  }
 ]
