@@ -2181,5 +2181,16 @@
   "enviado": true,
   "ig_id": "18412125838094790",
   "publicado": "2026-10-25T19:38:23+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "esp.1:401882829",
+  "creado": "2026-10-25T16:47:51-03:00",
+  "archivos": [
+   "historias/img/2026-10-25/esp1-real-sociedad-levante.png"
+  ],
+  "titulo": "Real Sociedad 2–1 Levante",
+  "liga": "esp.1",
+  "enviado": false
  }
 ]

@@ -1,35 +1,60 @@
 [
  {
-  "id": "ita1-lecce-juventus",
-  "liga": "ita.1",
+  "id": "esp1-real-sociedad-levante",
+  "liga": "esp.1",
   "fase": "",
   "fecha": "2026-10-25",
-  "local": "Lecce",
-  "visita": "Juventus",
-  "gl": 0,
-  "gv": 2,
+  "local": "Real Sociedad",
+  "visita": "Levante",
+  "gl": 2,
+  "gv": 1,
   "goles": [
    {
-    "min": "29'",
-    "jugador": "Weston McKennie",
+    "min": "6'",
+    "jugador": "Orri Óskarsson",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "22'",
+    "jugador": "Nacho Pérez",
     "lado": "visita",
     "penal": false,
     "autogol": false
    },
    {
-    "min": "41'",
-    "jugador": "Douglas Luiz",
-    "lado": "visita",
+    "min": "27'",
+    "jugador": "Beñat Turrientes",
+    "lado": "local",
     "penal": false,
     "autogol": false
    }
   ],
   "tarjetas": [
    {
-    "min": "90+4'",
-    "jugador": "Kialonda Gaspar",
+    "min": "64'",
+    "jugador": "Jon Martín",
     "lado": "local",
-    "tipo": "doble"
+    "tipo": "amarilla"
+   },
+   {
+    "min": "75'",
+    "jugador": "Manu Sánchez",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "81'",
+    "jugador": "Yanis Kasonga Musuayi",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "87'",
+    "jugador": "Víctor García",
+    "lado": "visita",
+    "tipo": "amarilla"
    }
   ],
   "anulados": [],
