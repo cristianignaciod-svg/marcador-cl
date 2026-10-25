@@ -1,1 +1,76 @@
-[]
+[
+ {
+  "id": "esp1-athletic-getafe",
+  "liga": "esp.1",
+  "fase": "",
+  "fecha": "2026-10-25",
+  "local": "Athletic",
+  "visita": "Getafe",
+  "gl": 4,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "17'",
+    "jugador": "Álex Berenguer",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "35'",
+    "jugador": "Iñaki Williams",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "70'",
+    "jugador": "Aitor Paredes",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "88'",
+    "jugador": "Yuri Berchiche",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "39'",
+    "jugador": "Ramón Terrats",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "43'",
+    "jugador": "Dani Carvajal",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "63'",
+    "jugador": "Johan Mojica",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "72'",
+    "jugador": "Beñat Gerenabarrena",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "86'",
+    "jugador": "Mario Martín",
+    "lado": "visita",
+    "tipo": "roja"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]

@@ -1847,5 +1847,16 @@
   "enviado": true,
   "ig_id": "18118811444002794",
   "publicado": "2026-10-25T14:27:13+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "esp.1:401882835",
+  "creado": "2026-10-25T12:04:50-03:00",
+  "archivos": [
+   "historias/img/2026-10-25/esp1-athletic-getafe.png"
+  ],
+  "titulo": "Athletic 4–0 Getafe",
+  "liga": "esp.1",
+  "enviado": false
  }
 ]
