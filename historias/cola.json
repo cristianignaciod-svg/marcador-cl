@@ -2262,7 +2262,9 @@
   ],
   "titulo": "Barcelona 1–2 Real Madrid",
   "liga": "esp.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18037069994890822",
+  "publicado": "2026-10-25T22:32:16+00:00"
  },
  {
   "tipo": "historia",
@@ -2273,7 +2275,9 @@
   ],
   "titulo": "Independiente 0–1 Boca Juniors",
   "liga": "arg.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18158843590503571",
+  "publicado": "2026-10-25T22:32:16+00:00"
  },
  {
   "tipo": "historia",
@@ -2285,7 +2289,9 @@
   "titulo": "Antofagasta 4–0 Curicó Unido",
   "liga": "chi.pb",
   "sin_goleadores": false,
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18156156175524409",
+  "publicado": "2026-10-25T22:32:16+00:00"
  },
  {
   "tipo": "resumen",
