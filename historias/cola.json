@@ -1781,5 +1781,16 @@
   "enviado": true,
   "ig_id": "18111767585177739",
   "publicado": "2026-10-24T22:43:24+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "arg.1:401841632",
+  "creado": "2026-10-24T21:46:54-03:00",
+  "archivos": [
+   "historias/img/2026-10-24/arg1-san-lorenzo-newell-s-old-boys.png"
+  ],
+  "titulo": "San Lorenzo 0–0 Newell's Old Boys",
+  "liga": "arg.1",
+  "enviado": false
  }
 ]
