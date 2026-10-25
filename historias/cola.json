@@ -2013,7 +2013,9 @@
   ],
   "titulo": "Ñublense 2–1 Coquimbo Unido",
   "liga": "chi.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18125605955296669",
+  "publicado": "2026-10-25T19:07:37+00:00"
  },
  {
   "tipo": "historia",
@@ -2024,7 +2026,9 @@
   ],
   "titulo": "AJ Auxerre 1–1 Le Mans",
   "liga": "fra.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18115269962328344",
+  "publicado": "2026-10-25T19:07:37+00:00"
  },
  {
   "tipo": "historia",
@@ -2035,7 +2039,9 @@
   ],
   "titulo": "Marseille 4–3 Le Havre AC",
   "liga": "fra.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18642556495007374",
+  "publicado": "2026-10-25T19:07:37+00:00"
  },
  {
   "tipo": "historia",
@@ -2046,6 +2052,8 @@
   ],
   "titulo": "Stade Rennais 3–0 Strasbourg",
   "liga": "fra.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18018291860958709",
+  "publicado": "2026-10-25T19:07:37+00:00"
  }
 ]
