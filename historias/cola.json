@@ -2252,5 +2252,110 @@
   "enviado": true,
   "ig_id": "18119830492959035",
   "publicado": "2026-10-25T22:03:02+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "esp.1:401882832",
+  "creado": "2026-10-25T19:31:34-03:00",
+  "archivos": [
+   "historias/img/2026-10-25/esp1-barcelona-real-madrid.png"
+  ],
+  "titulo": "Barcelona 1–2 Real Madrid",
+  "liga": "esp.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "arg.1:401841636",
+  "creado": "2026-10-25T19:31:34-03:00",
+  "archivos": [
+   "historias/img/2026-10-25/arg1-independiente-boca-juniors.png"
+  ],
+  "titulo": "Independiente 0–1 Boca Juniors",
+  "liga": "arg.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "chi.pb:fm1000007346",
+  "creado": "2026-10-25T19:31:34-03:00",
+  "archivos": [
+   "historias/img/2026-10-25/chipb-antofagasta-curico-unido.png"
+  ],
+  "titulo": "Antofagasta 4–0 Curicó Unido",
+  "liga": "chi.pb",
+  "sin_goleadores": false,
+  "enviado": false
+ },
+ {
+  "tipo": "resumen",
+  "clave": "chi.pb:2026-10-23",
+  "creado": "2026-10-25T19:31:34-03:00",
+  "archivos": [
+   "historias/img/2026-10-25/chipb-20261023-1.png"
+  ],
+  "titulo": "Primera B Fecha 29",
+  "liga": "chi.pb",
+  "fase": "Fecha 29",
+  "rango": "23 al 25 de octubre",
+  "partidos": [
+   {
+    "dia": "Vie 23",
+    "local": "Deportes Iquique",
+    "visita": "Magallanes",
+    "gl": 4,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 24",
+    "local": "Rangers",
+    "visita": "Cobreloa",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 24",
+    "local": "Unión Española",
+    "visita": "Santiago Wanderers",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "dia": "Sáb 24",
+    "local": "Puerto Montt",
+    "visita": "Unión San Felipe",
+    "gl": 3,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 24",
+    "local": "San Luis",
+    "visita": "Deportes Recoleta",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 24",
+    "local": "Deportes Copiapó",
+    "visita": "Deportes Santa Cruz",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "dia": "Dom 25",
+    "local": "Deportes Temuco",
+    "visita": "San Marcos",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "dia": "Dom 25",
+    "local": "Antofagasta",
+    "visita": "Curicó Unido",
+    "gl": 4,
+    "gv": 0
+   }
+  ],
+  "enviado": false
  }
 ]
