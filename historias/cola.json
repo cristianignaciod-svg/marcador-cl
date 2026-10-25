@@ -2065,9 +2065,11 @@
   ],
   "titulo": "Sunderland 0–0 Leeds",
   "liga": "eng.1",
-  "enviado": false,
+  "enviado": true,
   "error": "400 {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,129,316,831,759,825 cannot be found.\",\"fbtrace_id\":\"AGelXgOsh3n7tpYND4LEXOy\"}}",
-  "intentos": 1
+  "intentos": 1,
+  "ig_id": "18111272690228815",
+  "publicado": "2026-10-25T19:28:30+00:00"
  },
  {
   "tipo": "resumen",
