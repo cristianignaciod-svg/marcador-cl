@@ -1,1 +1,50 @@
-[]
+[
+ {
+  "id": "ita1-udinese-milan",
+  "liga": "ita.1",
+  "fase": "",
+  "fecha": "2026-10-25",
+  "local": "Udinese",
+  "visita": "Milan",
+  "gl": 0,
+  "gv": 2,
+  "goles": [
+   {
+    "min": "6'",
+    "jugador": "Christian Pulisic",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "65'",
+    "jugador": "Omari Hutchinson",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "39'",
+    "jugador": "Gonçalo Ramos",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "43'",
+    "jugador": "Jesper Karlström",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90'",
+    "jugador": "Luka Modric",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]

@@ -2239,5 +2239,16 @@
   "enviado": true,
   "ig_id": "18639442000029703",
   "publicado": "2026-10-25T20:08:35+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "ita.1:401874779",
+  "creado": "2026-10-25T19:02:27-03:00",
+  "archivos": [
+   "historias/img/2026-10-25/ita1-udinese-milan.png"
+  ],
+  "titulo": "Udinese 0–2 Milan",
+  "liga": "ita.1",
+  "enviado": false
  }
 ]
