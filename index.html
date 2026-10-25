@@ -248,7 +248,14 @@ function tvFor(p) {
   return c ? c.tv : p.tv;
 }
 fetch("canales.json", {cache:"no-store"}).then(r => r.ok ? r.json() : null)
-  .then(j => { CANALES = Array.isArray(j) ? j : (j?.partidos || []); queueRender(); }).catch(() => {});
+  .then(j => { CANALES = CANALES.concat(Array.isArray(j) ? j : (j?.partidos || [])); queueRender(); }).catch(() => {});
+/* Canales verificados del día (RedGol + segunda fuente), los actualiza cada mañana una tarea automática.
+   Se leen desde GitHub para no tener que volver a publicar el sitio cada día. Tienen prioridad. */
+fetch("https://raw.githubusercontent.com/cristianignaciod-svg/marcador-cl/main/historias/canales_hoy.json", {cache:"no-store"})
+  .then(r => r.ok ? r.json() : null)
+  .then(j => { if (!j?.fecha) return;
+    const hoy = (j.partidos || []).filter(c => c.tv).map(c => ({...c, fecha: j.fecha}));
+    CANALES = hoy.concat(CANALES); queueRender(); }).catch(() => {});
 
 const state = {liga:"todos", dia:null, cache:{}, lastOk:null, errors:0, open:new Set(), det:{}};
 try { const s = localStorage.getItem("mcl-liga"); if (s && LIGAS.some(l => l.id === s)) state.liga = s; } catch (e) {}
