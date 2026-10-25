@@ -1922,7 +1922,9 @@
   ],
   "titulo": "Atalanta 4–4 Frosinone",
   "liga": "ita.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17986856379092835",
+  "publicado": "2026-10-25T16:32:48+00:00"
  },
  {
   "tipo": "historia",
@@ -1933,7 +1935,9 @@
   ],
   "titulo": "Génova 1–0 Venezia",
   "liga": "ita.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18076308035754485",
+  "publicado": "2026-10-25T16:32:48+00:00"
  },
  {
   "tipo": "historia",
@@ -1944,6 +1948,8 @@
   ],
   "titulo": "AS Mónaco 1–1 Lille",
   "liga": "fra.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18489638803107974",
+  "publicado": "2026-10-25T16:32:48+00:00"
  }
 ]
