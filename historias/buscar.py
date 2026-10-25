@@ -465,9 +465,108 @@ def agenda_del_dia(ahora, publicados, pendientes, cola):
                  "titulo": f"Hoy se juega ({total} partidos)", "liga": "agenda", "enviado": False})
 
 
+_FM_CACHE = {}
+
+
+def fotmob_dia(fecha):
+    """Todos los partidos de FotMob de un día (hora de Chile)."""
+    if fecha not in _FM_CACHE:
+        try:
+            data = get(f"https://www.fotmob.com/api/data/matches?date={fecha:%Y%m%d}&timezone=America/Santiago&ccode3=CHL")
+            _FM_CACHE[fecha] = [m for lg in data.get("leagues", []) for m in lg.get("matches", [])]
+        except Exception as ex:
+            DIAG["errores"].append(f"FotMob {fecha}: {str(ex)[:100]}")
+            _FM_CACHE[fecha] = None
+    return _FM_CACHE[fecha]
+
+
+def _mismo_equipo(a, b):
+    import difflib
+    a, b = slug(a), slug(b)
+    if not a or not b:
+        return False
+    if a in b or b in a:
+        return True
+    return difflib.SequenceMatcher(None, a, b).ratio() >= 0.7
+
+
+def gemelo_fotmob(p):
+    """Busca el mismo partido en FotMob (por fecha y nombres). None si FotMob no responde."""
+    d0 = dt.date.fromisoformat(p["fecha"])
+    alguno = False
+    for d in (d0, d0 - dt.timedelta(days=1), d0 + dt.timedelta(days=1)):
+        lista = fotmob_dia(d)
+        if lista is None:
+            continue
+        alguno = True
+        for m in lista:
+            h, a = m.get("home", {}).get("name", ""), m.get("away", {}).get("name", "")
+            if _mismo_equipo(h, p["local"]) and _mismo_equipo(a, p["visita"]):
+                return m
+    return {} if alguno else None
+
+
+def cruzar_fuentes(p):
+    """Compara ESPN con FotMob. Devuelve (problemas_graves, avisos, historia)."""
+    graves, avisos, q = [], [], dict(p)
+    if p["liga"] == "chi.pb":
+        return graves, avisos, q  # la Primera B ya viene de FotMob (ESPN no la cubre)
+    m = gemelo_fotmob(p)
+    if m is None:
+        avisos.append("FotMob no respondió: sin segunda fuente")
+        return graves, avisos, q
+    if not m:
+        avisos.append("partido no encontrado en FotMob: sin segunda fuente")
+        return graves, avisos, q
+    st = m.get("status", {})
+    if not st.get("finished"):
+        graves.append("FotMob aún no lo da por terminado")
+        return graves, avisos, q
+    fl, fv = m["home"].get("score"), m["away"].get("score")
+    if fl is not None and fv is not None and (int(fl), int(fv)) != (p["gl"], p["gv"]):
+        graves.append(f"marcador distinto: ESPN {p['gl']}-{p['gv']} / FotMob {fl}-{fv}")
+        return graves, avisos, q
+    # goleadores: si ESPN no cuadra con el marcador y FotMob sí, usar los de FotMob
+    try:
+        fg, ft, fa, _ = fotmob_detalle(m["id"])
+    except Exception:
+        fg = None
+    if fg is not None:
+        cuenta = lambda gs, ld: sum(1 for g in gs if g["lado"] == ld)
+        espn_ok = cuenta(p.get("goles", []), "local") == p["gl"] and cuenta(p.get("goles", []), "visita") == p["gv"]
+        fm_ok = cuenta(fg, "local") == p["gl"] and cuenta(fg, "visita") == p["gv"]
+        if not espn_ok and fm_ok:
+            q["goles"] = fg
+            avisos.append("goleadores tomados de FotMob (ESPN incompleto)")
+        elif espn_ok and fm_ok and p["gl"] + p["gv"] > 0:
+            # mismos minutos: confirma; si los minutos no calzan, solo se anota
+            me = sorted(int(re.match(r"\d+", g["min"]).group()) for g in p["goles"] if re.match(r"\d+", g["min"]))
+            mf = sorted(int(re.match(r"\d+", g["min"]).group()) for g in fg if re.match(r"\d+", g["min"]))
+            if me and mf and any(abs(x - y) > 2 for x, y in zip(me, mf)):
+                avisos.append(f"minutos de gol distintos ESPN {me} / FotMob {mf}")
+    q["verificado"] = "ESPN+FotMob"
+    return graves, avisos, q
+
+
 def revisar_antes(p, clave, ahora, espera, max_espera=45):
     """Si la historia tiene inconsistencias, espera hasta max_espera minutos a que la fuente se complete.
     Pasado ese plazo publica solo lo verificado: si los goles no cuadran, sin lista de goles."""
+    if espera.get(clave) == "descartado":
+        return None
+    # 1) comparar con una segunda fuente (FotMob). Si el marcador no coincide, no se publica.
+    graves_x, avisos_x, p = cruzar_fuentes(p)
+    if avisos_x or graves_x:
+        DIAG.setdefault("cruce", {})[clave] = graves_x + avisos_x
+    if graves_x:
+        desde = dt.datetime.fromisoformat(espera.setdefault(clave, ahora.isoformat(timespec="seconds")))
+        if ahora - desde < dt.timedelta(minutes=90):
+            return None  # se reintenta en la próxima pasada
+        espera.pop(clave, None)
+        if any(x.startswith("marcador distinto") for x in graves_x):
+            DIAG.setdefault("no_publicados", []).append(f"{clave}: {graves_x[0]}")
+            espera[clave] = "descartado"
+            return None  # marcador en duda: mejor no publicar
+    # 2) revisión interna (goles vs marcador, tarjetas)
     prob, q = validar(p)
     try:  # aviso en diag.json si algún equipo quedó sin escudo (sale con iniciales)
         sys.path.insert(0, BASE)
