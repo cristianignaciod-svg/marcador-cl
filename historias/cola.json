@@ -1987,7 +1987,9 @@
   ],
   "titulo": "Angers 0–0 Lorient",
   "liga": "fra.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18023929871712483",
+  "publicado": "2026-10-25T18:56:46+00:00"
  },
  {
   "tipo": "historia",
@@ -1998,6 +2000,8 @@
   ],
   "titulo": "Toulouse 0–0 Troyes",
   "liga": "fra.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18138846358712559",
+  "publicado": "2026-10-25T18:56:46+00:00"
  }
 ]
