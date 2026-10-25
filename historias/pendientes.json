@@ -1,1 +1,92 @@
-[]
+[
+ {
+  "id": "fra1-angers-lorient",
+  "liga": "fra.1",
+  "fase": "",
+  "fecha": "2026-10-25",
+  "local": "Angers",
+  "visita": "Lorient",
+  "gl": 0,
+  "gv": 0,
+  "goles": [],
+  "tarjetas": [
+   {
+    "min": "33'",
+    "jugador": "Yassin Belkhdim",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "85'",
+    "jugador": "Nathaniel Adjei",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "fra1-toulouse-troyes",
+  "liga": "fra.1",
+  "fase": "",
+  "fecha": "2026-10-25",
+  "local": "Toulouse",
+  "visita": "Troyes",
+  "gl": 0,
+  "gv": 0,
+  "goles": [],
+  "tarjetas": [
+   {
+    "min": "25'",
+    "jugador": "Rafik Messali",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "25'",
+    "jugador": "Aron Donnum",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "36'",
+    "jugador": "Michel Diaz",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "39'",
+    "jugador": "Cristian Cásseres Jr.",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "40'",
+    "jugador": "Timothé Nkada",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "83'",
+    "jugador": "Niko Sigur",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "89'",
+    "jugador": "Alexis Vossah",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+3'",
+    "jugador": "Mark McKenzie",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]

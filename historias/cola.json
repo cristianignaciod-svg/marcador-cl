@@ -1977,5 +1977,27 @@
   "enviado": true,
   "ig_id": "17881232265548538",
   "publicado": "2026-10-25T17:40:33+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "fra.1:401876430",
+  "creado": "2026-10-25T15:56:05-03:00",
+  "archivos": [
+   "historias/img/2026-10-25/fra1-angers-lorient.png"
+  ],
+  "titulo": "Angers 0–0 Lorient",
+  "liga": "fra.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "fra.1:401876423",
+  "creado": "2026-10-25T15:56:05-03:00",
+  "archivos": [
+   "historias/img/2026-10-25/fra1-toulouse-troyes.png"
+  ],
+  "titulo": "Toulouse 0–0 Troyes",
+  "liga": "fra.1",
+  "enviado": false
  }
 ]
