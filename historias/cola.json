@@ -2065,7 +2065,9 @@
   ],
   "titulo": "Sunderland 0–0 Leeds",
   "liga": "eng.1",
-  "enviado": false
+  "enviado": false,
+  "error": "400 {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,129,316,831,759,825 cannot be found.\",\"fbtrace_id\":\"AGelXgOsh3n7tpYND4LEXOy\"}}",
+  "intentos": 1
  },
  {
   "tipo": "resumen",
@@ -2161,6 +2163,8 @@
   ],
   "titulo": "SC Freiburg 1–3 Bayern",
   "liga": "ger.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17894435859435938",
+  "publicado": "2026-10-25T19:18:34+00:00"
  }
 ]
