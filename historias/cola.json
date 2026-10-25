@@ -1870,7 +1870,9 @@
   ],
   "titulo": "Crystal Palace 0–2 Newcastle",
   "liga": "eng.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17986638330108748",
+  "publicado": "2026-10-25T16:02:43+00:00"
  },
  {
   "tipo": "historia",
@@ -1881,7 +1883,9 @@
   ],
   "titulo": "Hull City 1–1 Brentford",
   "liga": "eng.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17888453880487141",
+  "publicado": "2026-10-25T16:02:43+00:00"
  },
  {
   "tipo": "historia",
@@ -1892,7 +1896,9 @@
   ],
   "titulo": "Liverpool 2–0 Brighton",
   "liga": "eng.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18109571270181652",
+  "publicado": "2026-10-25T16:02:43+00:00"
  },
  {
   "tipo": "historia",
@@ -1903,6 +1909,8 @@
   ],
   "titulo": "Man. United 0–3 Bournemouth",
   "liga": "eng.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18131937994742924",
+  "publicado": "2026-10-25T16:02:43+00:00"
  }
 ]
