@@ -1,1 +1,56 @@
-[]
+[
+ {
+  "id": "ita1-inter-fiorentina",
+  "liga": "ita.1",
+  "fase": "",
+  "fecha": "2026-10-25",
+  "local": "Inter",
+  "visita": "Fiorentina",
+  "gl": 2,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "65'",
+    "jugador": "Álex Jiménez",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "90+1'",
+    "jugador": "Marcus Thuram",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "90+7'",
+    "jugador": "Piotr Zielinski",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "70'",
+    "jugador": "Viery",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+5'",
+    "jugador": "Víctor Valdepeñas",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+11'",
+    "jugador": "Dodô",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ }
+]

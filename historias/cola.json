@@ -1834,5 +1834,16 @@
   "enviado": true,
   "ig_id": "18051555140811735",
   "publicado": "2026-10-25T12:24:12+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "ita.1:401875036",
+  "creado": "2026-10-25T11:26:36-03:00",
+  "archivos": [
+   "historias/img/2026-10-25/ita1-inter-fiorentina.png"
+  ],
+  "titulo": "Inter 2–1 Fiorentina",
+  "liga": "ita.1",
+  "enviado": false
  }
 ]
