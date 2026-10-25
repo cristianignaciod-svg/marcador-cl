@@ -1860,5 +1860,49 @@
   "enviado": true,
   "ig_id": "17994184503103284",
   "publicado": "2026-10-25T15:05:28+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "eng.1:401879254",
+  "creado": "2026-10-25T13:01:53-03:00",
+  "archivos": [
+   "historias/img/2026-10-25/eng1-crystal-palace-newcastle.png"
+  ],
+  "titulo": "Crystal Palace 0–2 Newcastle",
+  "liga": "eng.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "eng.1:401878766",
+  "creado": "2026-10-25T13:01:53-03:00",
+  "archivos": [
+   "historias/img/2026-10-25/eng1-hull-city-brentford.png"
+  ],
+  "titulo": "Hull City 1–1 Brentford",
+  "liga": "eng.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "eng.1:401878765",
+  "creado": "2026-10-25T13:01:53-03:00",
+  "archivos": [
+   "historias/img/2026-10-25/eng1-liverpool-brighton.png"
+  ],
+  "titulo": "Liverpool 2–0 Brighton",
+  "liga": "eng.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "eng.1:401879252",
+  "creado": "2026-10-25T13:01:53-03:00",
+  "archivos": [
+   "historias/img/2026-10-25/eng1-man-united-bournemouth.png"
+  ],
+  "titulo": "Man. United 0–3 Bournemouth",
+  "liga": "eng.1",
+  "enviado": false
  }
 ]
