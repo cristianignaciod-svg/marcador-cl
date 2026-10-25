@@ -1912,5 +1912,38 @@
   "enviado": true,
   "ig_id": "18131937994742924",
   "publicado": "2026-10-25T16:02:43+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "ita.1:401874972",
+  "creado": "2026-10-25T13:32:06-03:00",
+  "archivos": [
+   "historias/img/2026-10-25/ita1-atalanta-frosinone.png"
+  ],
+  "titulo": "Atalanta 4–4 Frosinone",
+  "liga": "ita.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "ita.1:401874952",
+  "creado": "2026-10-25T13:32:06-03:00",
+  "archivos": [
+   "historias/img/2026-10-25/ita1-genova-venezia.png"
+  ],
+  "titulo": "Génova 1–0 Venezia",
+  "liga": "ita.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "fra.1:401876425",
+  "creado": "2026-10-25T13:32:06-03:00",
+  "archivos": [
+   "historias/img/2026-10-25/fra1-as-monaco-lille.png"
+  ],
+  "titulo": "AS Mónaco 1–1 Lille",
+  "liga": "fra.1",
+  "enviado": false
  }
 ]
