@@ -469,6 +469,14 @@ def revisar_antes(p, clave, ahora, espera, max_espera=45):
     """Si la historia tiene inconsistencias, espera hasta max_espera minutos a que la fuente se complete.
     Pasado ese plazo publica solo lo verificado: si los goles no cuadran, sin lista de goles."""
     prob, q = validar(p)
+    try:  # aviso en diag.json si algún equipo quedó sin escudo (sale con iniciales)
+        sys.path.insert(0, BASE)
+        from render import escudo
+        for n in (p["local"], p["visita"]):
+            if not escudo(p["liga"], n):
+                DIAG.setdefault("sin_escudo", []).append(f'{p["liga"]}: {n}')
+    except Exception:
+        pass
     # tarjetas repetidas o sin nombre ya quedan limpias en q: solo los goles justifican esperar
     graves = [x for x in prob if x.startswith("goles") or x.startswith("gol sin") or "dos expulsiones" in x]
     if prob:
