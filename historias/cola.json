@@ -2194,5 +2194,16 @@
   "enviado": true,
   "ig_id": "18127812695487271",
   "publicado": "2026-10-25T19:48:21+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "arg.1:401841629",
+  "creado": "2026-10-25T16:57:51-03:00",
+  "archivos": [
+   "historias/img/2026-10-25/arg1-aldosivi-belgrano-cordoba.png"
+  ],
+  "titulo": "Aldosivi 1–0 Belgrano (Córdoba)",
+  "liga": "arg.1",
+  "enviado": false
  }
 ]

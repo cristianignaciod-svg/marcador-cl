@@ -1,31 +1,17 @@
 [
  {
-  "id": "esp1-real-sociedad-levante",
-  "liga": "esp.1",
+  "id": "arg1-aldosivi-belgrano-cordoba",
+  "liga": "arg.1",
   "fase": "",
   "fecha": "2026-10-25",
-  "local": "Real Sociedad",
-  "visita": "Levante",
-  "gl": 2,
-  "gv": 1,
+  "local": "Aldosivi",
+  "visita": "Belgrano (Córdoba)",
+  "gl": 1,
+  "gv": 0,
   "goles": [
    {
-    "min": "6'",
-    "jugador": "Orri Óskarsson",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "22'",
-    "jugador": "Nacho Pérez",
-    "lado": "visita",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "27'",
-    "jugador": "Beñat Turrientes",
+    "min": "20'",
+    "jugador": "Andrés Vombergar",
     "lado": "local",
     "penal": false,
     "autogol": false
@@ -33,27 +19,9 @@
   ],
   "tarjetas": [
    {
-    "min": "64'",
-    "jugador": "Jon Martín",
+    "min": "30'",
+    "jugador": "Néstor Breitenbruch",
     "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "75'",
-    "jugador": "Manu Sánchez",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "81'",
-    "jugador": "Yanis Kasonga Musuayi",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "87'",
-    "jugador": "Víctor García",
-    "lado": "visita",
     "tipo": "amarilla"
    }
   ],
