@@ -1,1 +1,35 @@
-[]
+[
+ {
+  "id": "esp1-celta-betis",
+  "liga": "esp.1",
+  "fase": "",
+  "fecha": "2026-10-25",
+  "local": "Celta",
+  "visita": "Betis",
+  "gl": 0,
+  "gv": 0,
+  "goles": [],
+  "tarjetas": [
+   {
+    "min": "30'",
+    "jugador": "Ilaix Moriba",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "43'",
+    "jugador": "Diego Llorente",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "80'",
+    "jugador": "Sergio Carreira",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]
