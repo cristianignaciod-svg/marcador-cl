@@ -2210,5 +2210,28 @@
   "enviado": true,
   "ig_id": "18115527710329994",
   "publicado": "2026-10-25T19:58:25+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "chi.1:401850669",
+  "creado": "2026-10-25T17:07:57-03:00",
+  "archivos": [
+   "historias/img/2026-10-25/chi1-union-la-calera-u-catolica.png"
+  ],
+  "titulo": "Unión La Calera 3–1 U. Católica",
+  "liga": "chi.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "chi.pb:fm1000007339",
+  "creado": "2026-10-25T17:07:57-03:00",
+  "archivos": [
+   "historias/img/2026-10-25/chipb-deportes-temuco-san-marcos.png"
+  ],
+  "titulo": "Deportes Temuco 1–2 San Marcos",
+  "liga": "chi.pb",
+  "sin_goleadores": false,
+  "enviado": false
  }
 ]

@@ -1,17 +1,38 @@
 [
  {
-  "id": "arg1-aldosivi-belgrano-cordoba",
-  "liga": "arg.1",
+  "id": "chi1-union-la-calera-u-catolica",
+  "liga": "chi.1",
   "fase": "",
   "fecha": "2026-10-25",
-  "local": "Aldosivi",
-  "visita": "Belgrano (Córdoba)",
-  "gl": 1,
-  "gv": 0,
+  "local": "Unión La Calera",
+  "visita": "U. Católica",
+  "gl": 3,
+  "gv": 1,
   "goles": [
    {
-    "min": "20'",
-    "jugador": "Andrés Vombergar",
+    "min": "40'",
+    "jugador": "Fernando Zampedri",
+    "lado": "visita",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "45+3'",
+    "jugador": "Sebastián Sáez",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "58'",
+    "jugador": "Brian Nicolas Ferreyra",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "90+7'",
+    "jugador": "Bayron Oyarzo",
     "lado": "local",
     "penal": false,
     "autogol": false
@@ -19,13 +40,71 @@
   ],
   "tarjetas": [
    {
-    "min": "30'",
-    "jugador": "Néstor Breitenbruch",
+    "min": "44'",
+    "jugador": "Camilo Moya",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "84'",
+    "jugador": "Jimmy Martínez",
+    "lado": "visita",
+    "tipo": "roja"
+   },
+   {
+    "min": "90+3'",
+    "jugador": "Jhojan Valencia",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+3'",
+    "jugador": "Branco Ampuero",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+6'",
+    "jugador": "Bayron Oyarzo",
     "lado": "local",
     "tipo": "amarilla"
    }
   ],
-  "anulados": [],
-  "verificado": "ESPN+FotMob"
+  "anulados": []
+ },
+ {
+  "id": "chipb-deportes-temuco-san-marcos",
+  "liga": "chi.pb",
+  "fase": "",
+  "fecha": "2026-10-25",
+  "local": "Deportes Temuco",
+  "visita": "San Marcos",
+  "gl": 1,
+  "gv": 2,
+  "goles": [
+   {
+    "min": "21'",
+    "jugador": "Diego Sánchez",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "31'",
+    "jugador": "Nahuel Donadell",
+    "lado": "visita",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "40'",
+    "jugador": "Nahuel Donadell",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [],
+  "anulados": []
  }
 ]
