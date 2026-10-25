@@ -1807,5 +1807,16 @@
   "enviado": true,
   "ig_id": "18097126910133389",
   "publicado": "2026-10-25T01:16:21+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "arg.1:401841633",
+  "creado": "2026-10-24T23:59:26-03:00",
+  "archivos": [
+   "historias/img/2026-10-24/arg1-rosario-central-huracan.png"
+  ],
+  "titulo": "Rosario Central 2–0 Huracán",
+  "liga": "arg.1",
+  "enviado": false
  }
 ]

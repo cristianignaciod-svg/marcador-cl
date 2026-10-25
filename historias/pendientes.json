@@ -1,1 +1,49 @@
-[]
+[
+ {
+  "id": "arg1-rosario-central-huracan",
+  "liga": "arg.1",
+  "fase": "",
+  "fecha": "2026-10-24",
+  "local": "Rosario Central",
+  "visita": "Huracán",
+  "gl": 2,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "20'",
+    "jugador": "Emanuel Coronel",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "84'",
+    "jugador": "Ángel Di María",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "22'",
+    "jugador": "Jordy Caicedo",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "73'",
+    "jugador": "Franco Ibarra",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "75'",
+    "jugador": "Rodrigo Fernández",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ }
+]
