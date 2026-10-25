@@ -1,1 +1,38 @@
-[]
+[
+ {
+  "id": "ita1-lecce-juventus",
+  "liga": "ita.1",
+  "fase": "",
+  "fecha": "2026-10-25",
+  "local": "Lecce",
+  "visita": "Juventus",
+  "gl": 0,
+  "gv": 2,
+  "goles": [
+   {
+    "min": "29'",
+    "jugador": "Weston McKennie",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "41'",
+    "jugador": "Douglas Luiz",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "90+4'",
+    "jugador": "Kialonda Gaspar",
+    "lado": "local",
+    "tipo": "doble"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]

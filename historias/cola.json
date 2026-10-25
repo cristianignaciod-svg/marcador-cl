@@ -2168,5 +2168,16 @@
   "enviado": true,
   "ig_id": "17894435859435938",
   "publicado": "2026-10-25T19:18:34+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "ita.1:401874772",
+  "creado": "2026-10-25T16:37:53-03:00",
+  "archivos": [
+   "historias/img/2026-10-25/ita1-lecce-juventus.png"
+  ],
+  "titulo": "Lecce 0–2 Juventus",
+  "liga": "ita.1",
+  "enviado": false
  }
 ]
