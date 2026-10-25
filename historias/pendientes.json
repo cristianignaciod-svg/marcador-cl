@@ -1,1 +1,119 @@
-[]
+[
+ {
+  "tipo": "agenda",
+  "id": "agenda-2026-10-25",
+  "fecha": "2026-10-25",
+  "grupos": [
+   {
+    "liga": "chi.1",
+    "partidos": [
+     {
+      "hora": "12:30",
+      "local": "Ñublense",
+      "visita": "Coquimbo Unido",
+      "tv": "TNT Sports Premium · HBO Max"
+     },
+     {
+      "hora": "15:00",
+      "local": "Unión La Calera",
+      "visita": "U. Católica",
+      "tv": "TNT Sports Premium · HBO Max"
+     },
+     {
+      "hora": "17:30",
+      "local": "Palestino",
+      "visita": "Colo Colo",
+      "tv": "TNT Sports Premium · HBO Max"
+     },
+     {
+      "hora": "20:00",
+      "local": "Universidad de Concepción",
+      "visita": "Deportes Limache",
+      "tv": "TNT Sports Premium · HBO Max"
+     }
+    ]
+   },
+   {
+    "liga": "chi.pb",
+    "partidos": [
+     {
+      "hora": "15:00",
+      "local": "Deportes Temuco",
+      "visita": "San Marcos",
+      "tv": "TNT Sports · HBO Max"
+     },
+     {
+      "hora": "17:30",
+      "local": "Antofagasta",
+      "visita": "Curicó Unido",
+      "tv": "TNT Sports · HBO Max"
+     }
+    ]
+   },
+   {
+    "liga": "esp.1",
+    "partidos": [
+     {
+      "hora": "10:00",
+      "local": "Athletic",
+      "visita": "Getafe",
+      "tv": "DSports o ESPN"
+     },
+     {
+      "hora": "12:15",
+      "local": "Celta",
+      "visita": "Betis",
+      "tv": "DSports · DGO"
+     },
+     {
+      "hora": "14:30",
+      "local": "Real Sociedad",
+      "visita": "Levante",
+      "tv": "DSports · DGO"
+     },
+     {
+      "hora": "17:00",
+      "local": "Barcelona",
+      "visita": "Real Madrid",
+      "tv": "ESPN · DSports"
+     }
+    ]
+   },
+   {
+    "liga": "eng.1",
+    "partidos": [
+     {
+      "hora": "11:00",
+      "local": "Crystal Palace",
+      "visita": "Newcastle",
+      "tv": "ESPN · Disney+ Premium"
+     },
+     {
+      "hora": "11:00",
+      "local": "Hull City",
+      "visita": "Brentford",
+      "tv": "Disney+ Premium"
+     },
+     {
+      "hora": "11:00",
+      "local": "Liverpool",
+      "visita": "Brighton",
+      "tv": "Disney+ Premium"
+     },
+     {
+      "hora": "11:00",
+      "local": "Man. United",
+      "visita": "Bournemouth",
+      "tv": "ESPN · Disney+ Premium"
+     },
+     {
+      "hora": "13:30",
+      "local": "Sunderland",
+      "visita": "Leeds",
+      "tv": "ESPN · Disney+ Premium"
+     }
+    ]
+   }
+  ]
+ }
+]
