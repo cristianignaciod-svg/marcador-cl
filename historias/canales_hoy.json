@@ -1,1 +1,37 @@
-{"fecha": "2026-10-25", "fuentes": ["https://www.alairelibre.cl/futbol/campeonato-nacional/partidos-de-hoy-domingo-25-de-octubre-colo-colo-palestino-uc-la-calera/", "https://www.alairelibre.cl/futbol/primera-b/fecha-29-primera-b-horario-canal-donde-ver-liga-de-ascenso-2026/", "https://primerabchile.cl/donde-ver-fecha-29-primera-b-tnt-sports-hbo-max/", "https://bolavip.com/cl/internacional/donde-ver-en-vivo-real-sociedad-vs-levante-por-la-jornada-10-de-la-laliga-tv-y-streaming-online", "https://bolavip.com/laliga/donde-ver-en-vivo-celta-vs-betis-por-la-jornada-10-de-la-laliga-tv-y-streaming-online", "https://bolavip.com/premier-league/donde-ver-en-vivo-liverpool-vs-brighton-por-la-jornada-8-de-la-premier-league-tv-y-streaming-online", "https://bolavip.com/premier-league/donde-ver-en-vivo-hull-vs-brentford-por-la-jornada-8-de-la-premier-league-tv-y-streaming-online", "https://bolavip.com/premier-league/donde-ver-en-vivo-manchester-united-vs-bournemouth-por-la-jornada-8-de-la-premier-league-tv-y-streaming-online", "https://es.digitaltrends.com/deportes/barcelona-vs-real-madrid-en-vivo-hora-canal-streaming-clasico-laliga/"], "partidos": [{"local": "Celta", "visita": "Betis", "tv": "DSports · DGO"}, {"local": "Real Sociedad", "visita": "Levante", "tv": "DSports · DGO"}, {"local": "Barcelona", "visita": "Real Madrid", "tv": "ESPN · DSports"}, {"local": "Liverpool", "visita": "Brighton", "tv": "Disney+ Premium"}, {"local": "Hull City", "visita": "Brentford", "tv": "Disney+ Premium"}, {"local": "Man. United", "visita": "Bournemouth", "tv": "ESPN · Disney+ Premium"}, {"local": "Ñublense", "visita": "Coquimbo", "tv": "TNT Sports Premium · HBO Max"}, {"local": "U. La Calera", "visita": "U. Católica", "tv": "TNT Sports Premium · HBO Max"}, {"local": "Palestino", "visita": "Colo-Colo", "tv": "TNT Sports Premium · HBO Max"}, {"local": "U. de Concepción", "visita": "Deportes Limache", "tv": "TNT Sports Premium · HBO Max"}, {"local": "Deportes Temuco", "visita": "San Marcos", "tv": "TNT Sports · HBO Max"}, {"local": "Antofagasta", "visita": "Curicó Unido", "tv": "TNT Sports · HBO Max"}]}
+{
+ "fecha": "2026-10-26",
+ "fuentes": [
+  "https://www.t13.cl/noticia/deportes13/u-chile-vs-everton-vivo-hora-donde-partido-liga-primera-2026-25-10-2026",
+  "https://www.alairelibre.cl/futbol/campeonato-nacional/universidad-de-chile-vs-everton-horario-donde-ver-liga-de-primera-2026/",
+  "https://www.lamagiaazul.cl/ultimas-noticias/universidad-de-chile-vs-everton-esta-es-la-unica-manera-de-ver-el-partido-de-la-u/",
+  "https://www.futbolenvivochile.com/",
+  "https://www.livesoccertv.com/channels/starpluscl/"
+ ],
+ "partidos": [
+  {
+   "local": "U. de Chile",
+   "visita": "Everton",
+   "tv": "TNT Sports Premium · HBO Max",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Sevilla",
+   "visita": "Osasuna",
+   "tv": "Disney+ Premium",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "PSG",
+   "visita": "Lyon",
+   "tv": "Disney+ Premium",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Unión",
+   "visita": "Estudiantes",
+   "tv": "Disney+ Premium",
+   "verificado": "2_fuentes"
+  }
+ ],
+ "conflictos": []
+}
