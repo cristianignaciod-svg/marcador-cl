@@ -2459,5 +2459,101 @@
   "enviado": true,
   "ig_id": "18113927603173524",
   "publicado": "2026-10-26T22:06:07+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "esp.1:401882828",
+  "creado": "2026-10-26T19:34:25-03:00",
+  "archivos": [
+   "historias/img/2026-10-26/esp1-sevilla-osasuna.png"
+  ],
+  "titulo": "Sevilla 2–0 Osasuna",
+  "liga": "esp.1",
+  "enviado": false
+ },
+ {
+  "tipo": "resumen",
+  "clave": "esp.1:2026-10-23",
+  "creado": "2026-10-26T19:34:25-03:00",
+  "archivos": [
+   "historias/img/2026-10-26/esp1-20261023-1.png"
+  ],
+  "titulo": "esp.1 23 al 26 de octubre",
+  "liga": "esp.1",
+  "fase": "",
+  "rango": "23 al 26 de octubre",
+  "partidos": [
+   {
+    "dia": "Vie 23",
+    "local": "Alavés",
+    "visita": "Málaga",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 24",
+    "local": "Rayo",
+    "visita": "Elche",
+    "gl": 0,
+    "gv": 3
+   },
+   {
+    "dia": "Sáb 24",
+    "local": "Racing",
+    "visita": "Espanyol",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 24",
+    "local": "Valencia",
+    "visita": "Villarreal",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "dia": "Sáb 24",
+    "local": "Atlético",
+    "visita": "Deportivo",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "dia": "Dom 25",
+    "local": "Athletic",
+    "visita": "Getafe",
+    "gl": 4,
+    "gv": 0
+   },
+   {
+    "dia": "Dom 25",
+    "local": "Celta",
+    "visita": "Betis",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "dia": "Dom 25",
+    "local": "Real Sociedad",
+    "visita": "Levante",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "dia": "Dom 25",
+    "local": "Barcelona",
+    "visita": "Real Madrid",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "dia": "Lun 26",
+    "local": "Sevilla",
+    "visita": "Osasuna",
+    "gl": 2,
+    "gv": 0
+   }
+  ],
+  "enviado": false
  }
 ]

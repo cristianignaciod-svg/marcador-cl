@@ -1,1 +1,130 @@
-[]
+[
+ {
+  "id": "esp1-sevilla-osasuna",
+  "liga": "esp.1",
+  "fase": "",
+  "fecha": "2026-10-26",
+  "local": "Sevilla",
+  "visita": "Osasuna",
+  "gl": 2,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "24'",
+    "jugador": "Isaac Romero",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "82'",
+    "jugador": "Felix Correia",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "29'",
+    "jugador": "Alejandro Catena",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "55'",
+    "jugador": "Isaac Romero",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "68'",
+    "jugador": "Valentin Rosier",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "tipo": "resumen",
+  "id": "esp1-20261023",
+  "liga": "esp.1",
+  "fase": "",
+  "fecha": "2026-10-26",
+  "rango": "23 al 26 de octubre",
+  "partidos": [
+   {
+    "dia": "Vie 23",
+    "local": "Alavés",
+    "visita": "Málaga",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 24",
+    "local": "Rayo",
+    "visita": "Elche",
+    "gl": 0,
+    "gv": 3
+   },
+   {
+    "dia": "Sáb 24",
+    "local": "Racing",
+    "visita": "Espanyol",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 24",
+    "local": "Valencia",
+    "visita": "Villarreal",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "dia": "Sáb 24",
+    "local": "Atlético",
+    "visita": "Deportivo",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "dia": "Dom 25",
+    "local": "Athletic",
+    "visita": "Getafe",
+    "gl": 4,
+    "gv": 0
+   },
+   {
+    "dia": "Dom 25",
+    "local": "Celta",
+    "visita": "Betis",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "dia": "Dom 25",
+    "local": "Real Sociedad",
+    "visita": "Levante",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "dia": "Dom 25",
+    "local": "Barcelona",
+    "visita": "Real Madrid",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "dia": "Lun 26",
+    "local": "Sevilla",
+    "visita": "Osasuna",
+    "gl": 2,
+    "gv": 0
+   }
+  ]
+ }
+]
