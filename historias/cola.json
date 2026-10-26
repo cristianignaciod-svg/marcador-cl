@@ -2420,5 +2420,16 @@
   "enviado": true,
   "ig_id": "17904790455669786",
   "publicado": "2026-10-26T02:51:15+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "arg.1:401841640",
+  "creado": "2026-10-26T00:29:07-03:00",
+  "archivos": [
+   "historias/img/2026-10-25/arg1-barracas-central-estudiantes-de-rio-cuarto.png"
+  ],
+  "titulo": "Barracas Central 2–1 Estudiantes de Río Cuarto",
+  "liga": "arg.1",
+  "enviado": false
  }
 ]
