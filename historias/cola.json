@@ -2433,5 +2433,16 @@
   "enviado": true,
   "ig_id": "17920280874245708",
   "publicado": "2026-10-26T03:29:45+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "agenda:2026-10-26",
+  "creado": "2026-10-26T09:20:19-03:00",
+  "archivos": [
+   "historias/img/2026-10-26/agenda-2026-10-26-1.png"
+  ],
+  "titulo": "Hoy se juega (2 partidos)",
+  "liga": "agenda",
+  "enviado": false
  }
 ]
