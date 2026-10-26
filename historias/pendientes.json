@@ -1,1 +1,49 @@
-[]
+[
+ {
+  "id": "fra1-psg-lyon",
+  "liga": "fra.1",
+  "fase": "",
+  "fecha": "2026-10-26",
+  "local": "PSG",
+  "visita": "Lyon",
+  "gl": 2,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "72'",
+    "jugador": "Senny Mayulu",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "84'",
+    "jugador": "Mika Godts",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "31'",
+    "jugador": "Vitinha",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "51'",
+    "jugador": "Maghnes Akliouche",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "74'",
+    "jugador": "Ernest Nuamah",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ }
+]

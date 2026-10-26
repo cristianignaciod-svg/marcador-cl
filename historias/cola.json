@@ -2446,5 +2446,16 @@
   "enviado": true,
   "ig_id": "17991624989858462",
   "publicado": "2026-10-26T12:21:01+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "fra.1:401876422",
+  "creado": "2026-10-26T19:05:28-03:00",
+  "archivos": [
+   "historias/img/2026-10-26/fra1-psg-lyon.png"
+  ],
+  "titulo": "PSG 2–0 Lyon",
+  "liga": "fra.1",
+  "enviado": false
  }
 ]
