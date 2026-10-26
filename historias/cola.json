@@ -2394,5 +2394,16 @@
   "enviado": true,
   "ig_id": "18105678392242421",
   "publicado": "2026-10-26T00:28:20+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "chi.1:401850670",
+  "creado": "2026-10-25T22:05:53-03:00",
+  "archivos": [
+   "historias/img/2026-10-25/chi1-universidad-de-concepcion-deportes-limache.png"
+  ],
+  "titulo": "Universidad de Concepción 0–1 Deportes Limache",
+  "liga": "chi.1",
+  "enviado": false
  }
 ]
