@@ -1,1 +1,65 @@
-[]
+[
+ {
+  "id": "arg1-central-cordoba-santiago-del-estero-velez-sarsfield",
+  "liga": "arg.1",
+  "fase": "",
+  "fecha": "2026-10-25",
+  "local": "Central Córdoba (Santiago del Estero)",
+  "visita": "Vélez Sarsfield",
+  "gl": 0,
+  "gv": 5,
+  "goles": [
+   {
+    "min": "7'",
+    "jugador": "Matías Pellegrini",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "21'",
+    "jugador": "Ronaldo Martínez",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "58'",
+    "jugador": "Ronaldo Martínez",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "61'",
+    "jugador": "Lucas Robertone",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "83'",
+    "jugador": "Ronaldo Martínez",
+    "lado": "visita",
+    "penal": true,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "82'",
+    "jugador": "Alejandro Maciel",
+    "lado": "local",
+    "tipo": "roja"
+   },
+   {
+    "min": "87'",
+    "jugador": "Rodrigo Aliendro",
+    "lado": "visita",
+    "tipo": "roja"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]

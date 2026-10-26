@@ -2407,5 +2407,16 @@
   "enviado": true,
   "ig_id": "18044350805839192",
   "publicado": "2026-10-26T01:06:25+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "arg.1:401841639",
+  "creado": "2026-10-25T23:50:38-03:00",
+  "archivos": [
+   "historias/img/2026-10-25/arg1-central-cordoba-santiago-del-estero-velez-sarsfield.png"
+  ],
+  "titulo": "Central Córdoba (Santiago del Estero) 0–5 Vélez Sarsfield",
+  "liga": "arg.1",
+  "enviado": false
  }
 ]
