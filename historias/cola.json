@@ -2443,6 +2443,8 @@
   ],
   "titulo": "Hoy se juega (2 partidos)",
   "liga": "agenda",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17991624989858462",
+  "publicado": "2026-10-26T12:21:01+00:00"
  }
 ]
