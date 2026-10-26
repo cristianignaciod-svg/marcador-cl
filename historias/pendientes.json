@@ -1,1 +1,154 @@
-[]
+[
+ {
+  "id": "chi1-u-de-chile-everton-cd",
+  "liga": "chi.1",
+  "fase": "",
+  "fecha": "2026-10-26",
+  "local": "U. de Chile",
+  "visita": "Everton CD",
+  "gl": 4,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "30'",
+    "jugador": "Eduardo Vargas",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "45+4'",
+    "jugador": "Eduardo Vargas",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "57'",
+    "jugador": "Agustin Arce",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "80'",
+    "jugador": "Cristian Palacios",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "81'",
+    "jugador": "Eduardo Vargas",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "12'",
+    "jugador": "Joaquin Moya",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "55'",
+    "jugador": "Julián Alfaro",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "68'",
+    "jugador": "Nicolás Fernández",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "69'",
+    "jugador": "Braian Martínez",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "71'",
+    "jugador": "Alan Medina",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "86'",
+    "jugador": "Lucas Soto",
+    "lado": "visita",
+    "tipo": "roja"
+   }
+  ],
+  "anulados": []
+ },
+ {
+  "tipo": "resumen",
+  "id": "chi1-20261023",
+  "liga": "chi.1",
+  "fase": "",
+  "fecha": "2026-10-26",
+  "rango": "23 al 26 de octubre",
+  "partidos": [
+   {
+    "dia": "Vie 23",
+    "local": "Audax Italiano",
+    "visita": "Huachipato",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 24",
+    "local": "La Serena",
+    "visita": "Deportes Concepcion",
+    "gl": 3,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 24",
+    "local": "O'Higgins",
+    "visita": "Cobresal",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "dia": "Dom 25",
+    "local": "Ñublense",
+    "visita": "Coquimbo Unido",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "dia": "Dom 25",
+    "local": "Unión La Calera",
+    "visita": "U. Católica",
+    "gl": 3,
+    "gv": 1
+   },
+   {
+    "dia": "Dom 25",
+    "local": "Palestino",
+    "visita": "Colo Colo",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "dia": "Dom 25",
+    "local": "Universidad de Concepción",
+    "visita": "Deportes Limache",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "dia": "Lun 26",
+    "local": "U. de Chile",
+    "visita": "Everton CD",
+    "gl": 4,
+    "gv": 1
+   }
+  ]
+ }
+]
