@@ -1,1 +1,58 @@
-[]
+[
+ {
+  "id": "arg1-union-santa-fe-estudiantes-de-la-plata",
+  "liga": "arg.1",
+  "fase": "",
+  "fecha": "2026-10-26",
+  "local": "Unión (Santa Fe)",
+  "visita": "Estudiantes de La Plata",
+  "gl": 3,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "40'",
+    "jugador": "Lucas Santiago",
+    "lado": "visita",
+    "penal": false,
+    "autogol": true
+   },
+   {
+    "min": "51'",
+    "jugador": "Cristian Tarragona",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "64'",
+    "jugador": "Marcelo Estigarribia",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "90+6'",
+    "jugador": "Eric Ramírez",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "44'",
+    "jugador": "Ezequiel Piovi",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "75'",
+    "jugador": "Leandro González Pírez",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]

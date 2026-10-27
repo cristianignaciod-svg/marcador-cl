@@ -2651,5 +2651,16 @@
   "aprobado": true,
   "ig_id": "17974626669158162",
   "publicado": "2026-10-27T00:11:40+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "arg.1:401841630",
+  "creado": "2026-10-26T21:21:15-03:00",
+  "archivos": [
+   "historias/img/2026-10-26/arg1-union-santa-fe-estudiantes-de-la-plata.png"
+  ],
+  "titulo": "Unión (Santa Fe) 3–1 Estudiantes de La Plata",
+  "liga": "arg.1",
+  "enviado": false
  }
 ]
