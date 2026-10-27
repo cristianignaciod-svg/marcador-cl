@@ -2664,5 +2664,16 @@
   "enviado": true,
   "ig_id": "17974286858949005",
   "publicado": "2026-10-27T00:22:02+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "arg.1:401841635",
+  "creado": "2026-10-26T23:33:50-03:00",
+  "archivos": [
+   "historias/img/2026-10-26/arg1-instituto-cordoba-deportivo-riestra.png"
+  ],
+  "titulo": "Instituto (Córdoba) 1–0 Deportivo Riestra",
+  "liga": "arg.1",
+  "enviado": false
  }
 ]
