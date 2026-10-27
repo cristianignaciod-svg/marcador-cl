@@ -2713,6 +2713,8 @@
   ],
   "titulo": "Torino 1–3 Como",
   "liga": "ita.1",
-  "enviado": false
+  "enviado": false,
+  "error": "400 {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,129,943,339,759,825 cannot be found.\",\"fbtrace_id\":\"AScP-DZoR9zKZy4UQqevokv\"}}",
+  "intentos": 1
  }
 ]
