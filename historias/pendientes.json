@@ -1,1 +1,66 @@
-[]
+[
+ {
+  "id": "ita1-as-roma-cagliari",
+  "liga": "ita.1",
+  "fase": "",
+  "fecha": "2026-10-27",
+  "local": "AS Roma",
+  "visita": "Cagliari",
+  "gl": 4,
+  "gv": 2,
+  "goles": [
+   {
+    "min": "10'",
+    "jugador": "M'Bala Nzola",
+    "lado": "visita",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "15'",
+    "jugador": "Emanuele Lulli",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "21'",
+    "jugador": "Niccolò Pisilli",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "81'",
+    "jugador": "Daniel Maldini",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "85'",
+    "jugador": "Rodrigo Mora",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "87'",
+    "jugador": "Donyell Malen",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "90+4'",
+    "jugador": "Juan Rodríguez",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]
