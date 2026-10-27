@@ -4,7 +4,7 @@
  "tipo": "BUSINESS",
  "id_coincide": true,
  "cupo": {
-  "quota_usage": 9,
+  "quota_usage": 7,
   "config": {
    "quota_total": 100,
    "quota_duration": 86400
