@@ -1,37 +1,17 @@
 {
- "fecha": "2026-10-26",
+ "fecha": "2026-10-27",
  "fuentes": [
-  "https://www.t13.cl/noticia/deportes13/u-chile-vs-everton-vivo-hora-donde-partido-liga-primera-2026-25-10-2026",
-  "https://www.alairelibre.cl/futbol/campeonato-nacional/universidad-de-chile-vs-everton-horario-donde-ver-liga-de-primera-2026/",
-  "https://www.lamagiaazul.cl/ultimas-noticias/universidad-de-chile-vs-everton-esta-es-la-unica-manera-de-ver-el-partido-de-la-u/",
   "https://www.futbolenvivochile.com/",
-  "https://www.livesoccertv.com/channels/starpluscl/"
+  "https://www.livesoccertv.com/channels/starpluscl/",
+  "https://www.fotmob.com/es/tv-guide/cl/espn-2",
+  "https://tecache.cl/futbol/fleetwood-town-vs-arsenal-en-vivo-horario-y-donde-ver-el-partido-por-la-carabao-cup"
  ],
  "partidos": [
-  {
-   "local": "U. de Chile",
-   "visita": "Everton",
-   "tv": "TNT Sports Premium · HBO Max",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Sevilla",
-   "visita": "Osasuna",
-   "tv": "Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "PSG",
-   "visita": "Lyon",
-   "tv": "Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Unión",
-   "visita": "Estudiantes",
-   "tv": "Disney+ Premium",
-   "verificado": "2_fuentes"
-  }
+  {"local": "Fleetwood", "visita": "Arsenal", "tv": "ESPN 2 · Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "Bradford", "visita": "Peterborough", "tv": "Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "Sassuolo", "visita": "Lazio", "tv": "Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "Roma", "visita": "Cagliari", "tv": "Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "Torino", "visita": "Como", "tv": "Disney+ Premium", "verificado": "2_fuentes"}
  ],
  "conflictos": []
 }
