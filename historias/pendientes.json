@@ -1,62 +1,48 @@
 [
  {
-  "id": "ita1-as-roma-cagliari",
+  "id": "ita1-torino-como",
   "liga": "ita.1",
   "fase": "",
   "fecha": "2026-10-27",
-  "local": "AS Roma",
-  "visita": "Cagliari",
-  "gl": 4,
-  "gv": 2,
+  "local": "Torino",
+  "visita": "Como",
+  "gl": 1,
+  "gv": 3,
   "goles": [
    {
-    "min": "10'",
-    "jugador": "M'Bala Nzola",
-    "lado": "visita",
-    "penal": true,
-    "autogol": false
-   },
-   {
-    "min": "15'",
-    "jugador": "Emanuele Lulli",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "21'",
-    "jugador": "Niccolò Pisilli",
+    "min": "24'",
+    "jugador": "Ché Adams",
     "lado": "local",
     "penal": false,
     "autogol": false
    },
    {
     "min": "81'",
-    "jugador": "Daniel Maldini",
+    "jugador": "Jacobo Ramón",
     "lado": "visita",
     "penal": false,
     "autogol": false
    },
    {
-    "min": "85'",
-    "jugador": "Rodrigo Mora",
-    "lado": "local",
+    "min": "87'",
+    "jugador": "Nico Paz",
+    "lado": "visita",
     "penal": false,
     "autogol": false
    },
    {
-    "min": "87'",
-    "jugador": "Donyell Malen",
-    "lado": "local",
+    "min": "90+2'",
+    "jugador": "Martin Baturina",
+    "lado": "visita",
     "penal": false,
     "autogol": false
    }
   ],
   "tarjetas": [
    {
-    "min": "90+4'",
-    "jugador": "Juan Rodríguez",
-    "lado": "visita",
+    "min": "72'",
+    "jugador": "Rafik Belghali",
+    "lado": "local",
     "tipo": "amarilla"
    }
   ],
