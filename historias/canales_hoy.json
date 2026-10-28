@@ -1,17 +1,25 @@
 {
- "fecha": "2026-10-27",
+ "fecha": "2026-10-28",
  "fuentes": [
   "https://www.futbolenvivochile.com/",
-  "https://www.livesoccertv.com/channels/starpluscl/",
-  "https://www.fotmob.com/es/tv-guide/cl/espn-2",
-  "https://tecache.cl/futbol/fleetwood-town-vs-arsenal-en-vivo-horario-y-donde-ver-el-partido-por-la-carabao-cup"
+  "https://www.fotmob.com/es/tv-guide/cl",
+  "https://redgol.cl/internacional/no-va-en-tv-la-unica-opcion-para-ver-a-crystal-palace-de-osorio-vs-fulham-por-la-carabao-cup",
+  "https://redgol.cl/ucatolica/universidad-catolica-oficial-duelo-pendiente-audax-italiano-anfp-delegacion-presidencial",
+  "https://www.biobiochile.cl/noticias/servicios/toma-nota/2026/10/27/universidad-catolica-vs-audax-italiano-en-duelo-pendiente-a-que-hora-juegan-y-donde-verlo-en-vivo.shtml",
+  "https://www.tvn.cl/deportes/futbol-nacional/universidad-catolica-vs-audax-italiano-donde-ver-en-vivo-y-online-el-partido-pendiente",
+  "https://tecache.cl/futbol/liverpool-vs-chelsea-en-vivo-donde-ver-el-partido-de-la-carabao-cup"
  ],
  "partidos": [
-  {"local": "Fleetwood", "visita": "Arsenal", "tv": "ESPN 2 · Disney+ Premium", "verificado": "2_fuentes"},
-  {"local": "Bradford", "visita": "Peterborough", "tv": "Disney+ Premium", "verificado": "2_fuentes"},
-  {"local": "Sassuolo", "visita": "Lazio", "tv": "Disney+ Premium", "verificado": "2_fuentes"},
-  {"local": "Roma", "visita": "Cagliari", "tv": "Disney+ Premium", "verificado": "2_fuentes"},
-  {"local": "Torino", "visita": "Como", "tv": "Disney+ Premium", "verificado": "2_fuentes"}
+  {"local": "U. Católica", "visita": "Audax Italiano", "tv": "TNT Sports Premium · HBO Max", "verificado": "2_fuentes"},
+  {"local": "Liverpool", "visita": "Chelsea", "tv": "ESPN · Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "Man. City", "visita": "Brighton", "tv": "Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "Fulham", "visita": "Crystal Palace", "tv": "Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "Bournemouth", "visita": "Aston Villa", "tv": "Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "Sunderland", "visita": "Brentford", "tv": "Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "Milan", "visita": "Bologna", "tv": "ESPN 2 · Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "Venezia", "visita": "Inter", "tv": "ESPN · Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "Genoa", "visita": "Juventus", "tv": "ESPN 2 · Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "Monza", "visita": "Napoli", "tv": "Disney+ Premium", "verificado": "2_fuentes"}
  ],
  "conflictos": []
 }
