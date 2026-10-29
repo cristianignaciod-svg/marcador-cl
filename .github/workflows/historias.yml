@@ -40,9 +40,13 @@ jobs:
 
       - name: Instalar navegador
         if: steps.hay.outputs.n != '0'
+        # El runner ya trae Google Chrome: se usa ese (sin descargar nada del sistema).
+        # Si no estuviera, se intenta instalar Chromium de Playwright, con reintentos.
         run: |
-          pip install playwright==1.47.0
-          python3 -m playwright install --with-deps chromium
+          for i in 1 2 3; do pip install -q playwright==1.47.0 && break; sleep 20; done
+          if ! command -v google-chrome >/dev/null; then
+            for i in 1 2 3; do python3 -m playwright install --with-deps chromium && break; sleep 30; done
+          fi
 
       - name: Generar imágenes
         if: steps.hay.outputs.n != '0'

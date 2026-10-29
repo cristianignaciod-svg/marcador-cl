@@ -630,8 +630,8 @@ def main():
             if st.get("name") not in TERMINADO and not (st.get("completed") and st.get("state") == "post"):
                 continue
             inicio = hora_cl(ev["date"])
-            if ahora - inicio > dt.timedelta(hours=8):
-                continue  # solo partidos recientes (no publicar atrasados)
+            if ahora - inicio > dt.timedelta(hours=14):
+                continue  # solo partidos recientes (14 h: alcanza a recuperar una caída de unas horas)
             clave = f"{liga}:{ev['id']}"
             if clave in publicados:
                 continue
@@ -719,7 +719,7 @@ def main():
     pb = primera_b([hoy - dt.timedelta(days=1), hoy])
     for m in pb:
         clave = f"chi.pb:{m['id']}"
-        if clave in publicados or ahora - m["inicio"] > dt.timedelta(hours=8):
+        if clave in publicados or ahora - m["inicio"] > dt.timedelta(hours=14):
             continue
         goles, tarjetas, anulados = [], [], []
         try:

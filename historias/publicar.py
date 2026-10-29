@@ -25,7 +25,7 @@ TOKEN = os.environ.get("IG_TOKEN", "").strip()
 USER = os.environ.get("IG_USER_ID", "").strip()
 REPO = os.environ.get("GITHUB_REPOSITORY", "cristianignaciod-svg/marcador-cl")
 SHA = os.environ.get("SHA", "main")
-MAX_EDAD = dt.timedelta(hours=6)   # no publicar cosas atrasadas
+MAX_EDAD = dt.timedelta(hours=12)   # no publicar cosas atrasadas
 
 LIGA_NOMBRE = {"esp.1": "LaLiga", "eng.1": "la Premier League", "chi.1": "la Liga de Primera",
                "chi.pb": "la Primera B", "uefa.champions": "la Champions League",

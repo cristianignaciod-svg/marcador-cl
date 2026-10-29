@@ -436,7 +436,10 @@ def main():
     from playwright.sync_api import sync_playwright
     items = json.load(open(sys.argv[1]))
     with sync_playwright() as pw:
-        b = pw.chromium.launch()
+        try:
+            b = pw.chromium.launch(channel="chrome")  # Chrome ya instalado en el runner de GitHub
+        except Exception:
+            b = pw.chromium.launch()
         pg = b.new_page()
         for p in items:
             d = os.path.join(BASE, "img", p["fecha"])
