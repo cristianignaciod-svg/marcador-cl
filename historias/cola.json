@@ -2731,5 +2731,16 @@
   "enviado": true,
   "ig_id": "17874286077602167",
   "publicado": "2026-10-29T19:54:03+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "ita.1:401874969",
+  "creado": "2026-10-29T19:33:49-03:00",
+  "archivos": [
+   "historias/img/2026-10-29/ita1-fiorentina-atalanta.png"
+  ],
+  "titulo": "Fiorentina 2–2 Atalanta",
+  "liga": "ita.1",
+  "enviado": false
  }
 ]
