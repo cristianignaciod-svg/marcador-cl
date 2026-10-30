@@ -2808,7 +2808,9 @@
   ],
   "titulo": "Villarreal 0–1 Espanyol",
   "liga": "esp.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17989618242110066",
+  "publicado": "2026-10-30T22:21:22+00:00"
  },
  {
   "tipo": "historia",
@@ -2819,6 +2821,8 @@
   ],
   "titulo": "Lille 1–0 Lens",
   "liga": "fra.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18119337128090577",
+  "publicado": "2026-10-30T22:21:22+00:00"
  }
 ]
