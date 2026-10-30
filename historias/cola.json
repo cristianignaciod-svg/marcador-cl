@@ -2757,5 +2757,27 @@
   "enviado": true,
   "ig_id": "17991550634866872",
   "publicado": "2026-10-30T12:21:02+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "fra.1:401876421",
+  "creado": "2026-10-30T17:45:19-03:00",
+  "archivos": [
+   "historias/img/2026-10-30/fra1-le-havre-ac-psg.png"
+  ],
+  "titulo": "Le Havre AC 1–5 PSG",
+  "liga": "fra.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "fra.1:401876416",
+  "creado": "2026-10-30T17:45:19-03:00",
+  "archivos": [
+   "historias/img/2026-10-30/fra1-nice-stade-rennais.png"
+  ],
+  "titulo": "Nice 5–2 Stade Rennais",
+  "liga": "fra.1",
+  "enviado": false
  }
 ]

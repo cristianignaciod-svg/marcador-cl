@@ -1,1 +1,164 @@
-[]
+[
+ {
+  "id": "fra1-le-havre-ac-psg",
+  "liga": "fra.1",
+  "fase": "",
+  "fecha": "2026-10-30",
+  "local": "Le Havre AC",
+  "visita": "PSG",
+  "gl": 1,
+  "gv": 5,
+  "goles": [
+   {
+    "min": "18'",
+    "jugador": "Josh Maja",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "26'",
+    "jugador": "Mika Godts",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "28'",
+    "jugador": "Achraf Hakimi",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "55'",
+    "jugador": "Achraf Hakimi",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "62'",
+    "jugador": "Senny Mayulu",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "69'",
+    "jugador": "Achraf Hakimi",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [],
+  "anulados": []
+ },
+ {
+  "id": "fra1-nice-stade-rennais",
+  "liga": "fra.1",
+  "fase": "",
+  "fecha": "2026-10-30",
+  "local": "Nice",
+  "visita": "Stade Rennais",
+  "gl": 5,
+  "gv": 2,
+  "goles": [
+   {
+    "min": "12'",
+    "jugador": "Elye Wahi",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "15'",
+    "jugador": "Sebastian Szymanski",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "34'",
+    "jugador": "Elye Wahi",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "45+2'",
+    "jugador": "Jonathan Clauss",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "52'",
+    "jugador": "Mohamed Amoura",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "58'",
+    "jugador": "Boulaye Dia",
+    "lado": "visita",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "73'",
+    "jugador": "Elye Wahi",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "61'",
+    "jugador": "Anthony Rouault",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "62'",
+    "jugador": "Elye Wahi",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "84'",
+    "jugador": "Charlie Cresswell",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "84'",
+    "jugador": "Mohamed Abdelmoneim",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "84'",
+    "jugador": "Mahdi Camara",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "84'",
+    "jugador": "Youssouf Ndayishimiye",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "88'",
+    "jugador": "Mohamed Amoura",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ }
+]
