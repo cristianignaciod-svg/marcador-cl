@@ -2767,7 +2767,9 @@
   ],
   "titulo": "Le Havre AC 1–5 PSG",
   "liga": "fra.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18397151272161382",
+  "publicado": "2026-10-30T20:45:43+00:00"
  },
  {
   "tipo": "historia",
@@ -2778,6 +2780,8 @@
   ],
   "titulo": "Nice 5–2 Stade Rennais",
   "liga": "fra.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18169391650467056",
+  "publicado": "2026-10-30T20:45:43+00:00"
  }
 ]
