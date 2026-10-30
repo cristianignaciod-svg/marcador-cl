@@ -1,1 +1,77 @@
-[]
+[
+ {
+  "id": "ger1-sv-elversberg-mainz",
+  "liga": "ger.1",
+  "fase": "",
+  "fecha": "2026-10-30",
+  "local": "SV Elversberg",
+  "visita": "Mainz",
+  "gl": 4,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "7'",
+    "jugador": "Felix Keidel",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "26'",
+    "jugador": "Francis-Ikechukwu Onyeka",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "45+1'",
+    "jugador": "Maurice Krattenmacher",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "90'",
+    "jugador": "Cole Campbell",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "90+2'",
+    "jugador": "Benedict Hollerbach",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "4'",
+    "jugador": "Phillipp Mwene",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "33'",
+    "jugador": "Danny da Costa",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "75'",
+    "jugador": "Ransford-Yeboah Königsdörffer",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+5'",
+    "jugador": "Stefan Posch",
+    "lado": "visita",
+    "tipo": "doble"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]

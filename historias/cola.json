@@ -2783,5 +2783,16 @@
   "enviado": true,
   "ig_id": "18169391650467056",
   "publicado": "2026-10-30T20:45:43+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "ger.1:401884746",
+  "creado": "2026-10-30T19:01:41-03:00",
+  "archivos": [
+   "historias/img/2026-10-30/ger1-sv-elversberg-mainz.png"
+  ],
+  "titulo": "SV Elversberg 4–1 Mainz",
+  "liga": "ger.1",
+  "enviado": false
  }
 ]
