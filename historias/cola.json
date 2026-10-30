@@ -2798,5 +2798,27 @@
   "intentos": 1,
   "ig_id": "18118606163008461",
   "publicado": "2026-10-30T22:11:28+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "esp.1:401882817",
+  "creado": "2026-10-30T19:21:03-03:00",
+  "archivos": [
+   "historias/img/2026-10-30/esp1-villarreal-espanyol.png"
+  ],
+  "titulo": "Villarreal 0–1 Espanyol",
+  "liga": "esp.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "fra.1:401876420",
+  "creado": "2026-10-30T19:21:03-03:00",
+  "archivos": [
+   "historias/img/2026-10-30/fra1-lille-lens.png"
+  ],
+  "titulo": "Lille 1–0 Lens",
+  "liga": "fra.1",
+  "enviado": false
  }
 ]

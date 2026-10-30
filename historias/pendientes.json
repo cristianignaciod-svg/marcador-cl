@@ -1,1 +1,90 @@
-[]
+[
+ {
+  "id": "esp1-villarreal-espanyol",
+  "liga": "esp.1",
+  "fase": "",
+  "fecha": "2026-10-30",
+  "local": "Villarreal",
+  "visita": "Espanyol",
+  "gl": 0,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "60'",
+    "jugador": "Leandro Cabrera",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "21'",
+    "jugador": "Rafael Bauza",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "41'",
+    "jugador": "Roger Hinojo",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "53'",
+    "jugador": "Sergi Cardona",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "56'",
+    "jugador": "Santi Comesaña",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "75'",
+    "jugador": "Bryan Zaragoza",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+1'",
+    "jugador": "Carlos Macià",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "fra1-lille-lens",
+  "liga": "fra.1",
+  "fase": "",
+  "fecha": "2026-10-30",
+  "local": "Lille",
+  "visita": "Lens",
+  "gl": 1,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "86'",
+    "jugador": "Olivier Giroud",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "10'",
+    "jugador": "Saud Abdulhamid",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]
