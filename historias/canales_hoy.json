@@ -1,14 +1,28 @@
 {
- "fecha": "2026-10-29",
+ "fecha": "2026-10-30",
  "fuentes": [
-  "https://www.futbolenvivochile.com/",
-  "https://tecache.cl/futbol/everton-vs-newcastle-por-la-carabao-cup-2026-cuando-juegan-a-que-hora-y-donde-ver-en-vivo",
-  "https://www.fotmob.com/es/tv-guide/cl/espn-2",
-  "https://redgol.cl/noticias/completamente-gratis-confirman-la-senal-que-transmitira-el-brasileirao-en-chile-y-latam"
+  "https://redgol.cl/amp/campeonato-nacional/programacion-fecha-26-liga-de-primera-2026-agenda-de-partidos-horarios-y-donde-ver-el-futbol-chileno",
+  "https://redgol.cl/colocolo/va-por-tnt-confirman-el-canal-que-transmite-en-vivo-colo-colo-vs-u-de-concepcion-por-liga-de-primera",
+  "https://www.biobiochile.cl/noticias/servicios/toma-nota/2026/10/29/coquimbo-unido-vs-union-la-calera-por-el-torneo-local-a-que-hora-juegan-y-donde-verlo-en-vivo.shtml",
+  "https://www.fotmob.com/es/tv-guide/cl",
+  "https://elcomercio.pe/deporte-total/futbol-mundial/partidos-de-hoy-viernes-30-de-octubre-del-2026-horarios-canales-tv-y-donde-ver-futbol-en-vivo-online-gratis-sporting-cristal-vs-alianza-lima-noticia/",
+  "https://rpp.pe/futbol/futbol-mundial/partidos-del-viernes-30-de-octubre-horarios-y-canales-de-tv-para-ver-en-vivo-laliga-noticia-1715106"
  ],
  "partidos": [
-  {"local": "Everton", "visita": "Newcastle", "tv": "ESPN · Disney+ Premium", "verificado": "2_fuentes"},
-  {"local": "Fiorentina", "visita": "Atalanta", "tv": "ESPN 2 · Disney+ Premium", "verificado": "2_fuentes"}
+  {"local": "Colo-Colo", "visita": "U. de Concepción", "tv": "TNT Sports Premium · HBO Max", "verificado": "2_fuentes"},
+  {"local": "Coquimbo Unido", "visita": "U. La Calera", "tv": "TNT Sports Premium · HBO Max", "verificado": "2_fuentes"},
+  {"local": "Villarreal", "visita": "Espanyol", "tv": "DSports · DGO", "verificado": "2_fuentes"},
+  {"local": "Elversberg", "visita": "Mainz", "tv": "Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "Le Havre", "visita": "PSG", "tv": "ESPN · Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "Niza", "visita": "Rennes", "tv": "Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "Lille", "visita": "Lens", "tv": "Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "Corinthians", "visita": "Mirassol", "tv": "Fanatiz", "verificado": "2_fuentes"}
  ],
- "conflictos": []
+ "conflictos": [
+  {"local": "Lille", "visita": "Lens", "detalle": "Solo se publica Disney+ Premium: FotMob Chile dice ESPN, El Comercio y RPP dicen ESPN 2"},
+  {"local": "Estudiantes (RC)", "visita": "Gimnasia LP", "detalle": "FotMob Chile dice Fanatiz; El Comercio dice TNT Sports · Max; La República dice ESPN"},
+  {"local": "Huracán", "visita": "Tigre", "detalle": "FotMob Chile dice Fanatiz · TyC Sports Internacional; El Comercio dice ESPN Premium · Disney+; RPP dice Fanatiz · ESPN"},
+  {"local": "Racing", "visita": "Aldosivi", "detalle": "FotMob Chile dice Fanatiz · Disney+ Premium; RPP dice Fanatiz · TNT Sports; El Comercio dice ESPN Premium · Disney+"},
+  {"local": "Sarmiento", "visita": "Rosario Central", "detalle": "FotMob Chile dice Fanatiz · TyC Sports Internacional; El Comercio dice TNT Sports · Max; RPP dice Disney+"}
+ ]
 }
