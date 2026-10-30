@@ -2793,6 +2793,8 @@
   ],
   "titulo": "SV Elversberg 4–1 Mainz",
   "liga": "ger.1",
-  "enviado": false
+  "enviado": false,
+  "error": "400 {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,130,754,326,759,825 cannot be found.\",\"fbtrace_id\":\"A0nr4hmoyYyP9RTu824R21j\"}}",
+  "intentos": 1
  }
 ]
