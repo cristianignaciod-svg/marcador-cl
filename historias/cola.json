@@ -3191,7 +3191,9 @@
   ],
   "titulo": "Barcelona 6–1 Alavés",
   "liga": "esp.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18131605333701378",
+  "publicado": "2026-10-31T22:25:31+00:00"
  },
  {
   "tipo": "historia",
@@ -3202,7 +3204,9 @@
   ],
   "titulo": "Milan 3–1 Inter",
   "liga": "ita.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18004930641040415",
+  "publicado": "2026-10-31T22:25:31+00:00"
  },
  {
   "tipo": "historia",
@@ -3213,6 +3217,8 @@
   ],
   "titulo": "Troyes 2–0 Le Mans",
   "liga": "fra.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18050955659818793",
+  "publicado": "2026-10-31T22:25:31+00:00"
  }
 ]
