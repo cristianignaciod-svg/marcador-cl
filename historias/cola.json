@@ -2942,7 +2942,9 @@
   ],
   "titulo": "Levante 0–2 Atlético",
   "liga": "esp.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18116684612275175",
+  "publicado": "2026-10-31T15:02:53+00:00"
  },
  {
   "tipo": "historia",
@@ -2953,6 +2955,8 @@
   ],
   "titulo": "Chelsea 2–0 Man. United",
   "liga": "eng.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18104833574545609",
+  "publicado": "2026-10-31T15:02:53+00:00"
  }
 ]
