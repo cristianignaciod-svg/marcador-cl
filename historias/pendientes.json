@@ -1,1 +1,56 @@
-[]
+[
+ {
+  "id": "eng1-aston-villa-fulham",
+  "liga": "eng.1",
+  "fase": "",
+  "fecha": "2026-10-31",
+  "local": "Aston Villa",
+  "visita": "Fulham",
+  "gl": 1,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "39'",
+    "jugador": "Nicolas Jackson",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "64'",
+    "jugador": "Zion Suzuki",
+    "lado": "visita",
+    "penal": false,
+    "autogol": true
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "30'",
+    "jugador": "David Affengruber",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "45+4'",
+    "jugador": "Calvin Bassey",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "76'",
+    "jugador": "Matty Cash",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "77'",
+    "jugador": "Tom Cairney",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]
