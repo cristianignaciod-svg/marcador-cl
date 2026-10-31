@@ -1,1 +1,151 @@
-[]
+[
+ {
+  "id": "esp1-rayo-celta",
+  "liga": "esp.1",
+  "fase": "",
+  "fecha": "2026-10-31",
+  "local": "Rayo",
+  "visita": "Celta",
+  "gl": 3,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "36'",
+    "jugador": "Jorge de Frutos",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "55'",
+    "jugador": "Jorge de Frutos",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "73'",
+    "jugador": "Unai López",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "26'",
+    "jugador": "Unai López",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "72'",
+    "jugador": "Gnangoro Bouare Samake",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "82'",
+    "jugador": "Williot Swedberg",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "eng1-brentford-nottingham-f",
+  "liga": "eng.1",
+  "fase": "",
+  "fecha": "2026-10-31",
+  "local": "Brentford",
+  "visita": "Nottingham F.",
+  "gl": 2,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "30'",
+    "jugador": "Nikola Milenkovic",
+    "lado": "local",
+    "penal": false,
+    "autogol": true
+   },
+   {
+    "min": "76'",
+    "jugador": "Igor Thiago",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "36'",
+    "jugador": "Nikola Milenkovic",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "64'",
+    "jugador": "Daniel Muñoz",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "68'",
+    "jugador": "Michael Kayode",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "83'",
+    "jugador": "James McAtee",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "eng1-man-city-brighton",
+  "liga": "eng.1",
+  "fase": "",
+  "fecha": "2026-10-31",
+  "local": "Man. City",
+  "visita": "Brighton",
+  "gl": 0,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "11'",
+    "jugador": "Yasin Ayari",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "20'",
+    "jugador": "Chema Andrés",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "49'",
+    "jugador": "Maxim De Cuyper",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "81'",
+    "jugador": "Pascal Gross",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ }
+]

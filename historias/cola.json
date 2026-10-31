@@ -3036,5 +3036,38 @@
   "enviado": true,
   "ig_id": "18113537429169183",
   "publicado": "2026-10-31T16:58:23+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "esp.1:401882818",
+  "creado": "2026-10-31T14:27:06-03:00",
+  "archivos": [
+   "historias/img/2026-10-31/esp1-rayo-celta.png"
+  ],
+  "titulo": "Rayo 3–0 Celta",
+  "liga": "esp.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "eng.1:401879249",
+  "creado": "2026-10-31T14:27:06-03:00",
+  "archivos": [
+   "historias/img/2026-10-31/eng1-brentford-nottingham-f.png"
+  ],
+  "titulo": "Brentford 2–0 Nottingham F.",
+  "liga": "eng.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "eng.1:401879245",
+  "creado": "2026-10-31T14:27:06-03:00",
+  "archivos": [
+   "historias/img/2026-10-31/eng1-man-city-brighton.png"
+  ],
+  "titulo": "Man. City 0–1 Brighton",
+  "liga": "eng.1",
+  "enviado": false
  }
 ]
