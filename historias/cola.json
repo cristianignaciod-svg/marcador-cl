@@ -2824,5 +2824,27 @@
   "enviado": true,
   "ig_id": "18119337128090577",
   "publicado": "2026-10-30T22:21:22+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "chi.1:401850681",
+  "creado": "2026-10-30T21:15:07-03:00",
+  "archivos": [
+   "historias/img/2026-10-30/chi1-colo-colo-universidad-de-concepcion.png"
+  ],
+  "titulo": "Colo Colo 6–1 Universidad de Concepción",
+  "liga": "chi.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "chi.1:401850680",
+  "creado": "2026-10-30T21:15:07-03:00",
+  "archivos": [
+   "historias/img/2026-10-30/chi1-coquimbo-unido-union-la-calera.png"
+  ],
+  "titulo": "Coquimbo Unido 1–0 Unión La Calera",
+  "liga": "chi.1",
+  "enviado": false
  }
 ]

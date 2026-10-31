@@ -1,1 +1,138 @@
-[]
+[
+ {
+  "id": "chi1-colo-colo-universidad-de-concepcion",
+  "liga": "chi.1",
+  "fase": "",
+  "fecha": "2026-10-30",
+  "local": "Colo Colo",
+  "visita": "Universidad de Concepción",
+  "gl": 6,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "7'",
+    "jugador": "Álvaro Madrid",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "9'",
+    "jugador": "Marcelo Correa",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "20'",
+    "jugador": "Marcelo Correa",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "36'",
+    "jugador": "Marcelo Correa",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "45'",
+    "jugador": "Marcelo Correa",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "47'",
+    "jugador": "Jeison Fuentealba",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "52'",
+    "jugador": "Joaquín Sosa",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "24'",
+    "jugador": "Joaquín Sosa",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "34'",
+    "jugador": "Arturo Vidal",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "40'",
+    "jugador": "Antonio Díaz",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "57'",
+    "jugador": "Benjamín Sáez",
+    "lado": "visita",
+    "tipo": "roja"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "chi1-coquimbo-unido-union-la-calera",
+  "liga": "chi.1",
+  "fase": "",
+  "fecha": "2026-10-30",
+  "local": "Coquimbo Unido",
+  "visita": "Unión La Calera",
+  "gl": 1,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "63'",
+    "jugador": "Luis Riveros",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "1'",
+    "jugador": "Luis Riveros",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "22'",
+    "jugador": "Sebastián Cabrera",
+    "lado": "local",
+    "tipo": "roja"
+   },
+   {
+    "min": "27'",
+    "jugador": "Yerko Leiva",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "70'",
+    "jugador": "Brian Nicolas Ferreyra",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]
