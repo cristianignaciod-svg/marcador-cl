@@ -1,74 +1,45 @@
 [
  {
-  "id": "ita1-udinese-as-roma",
-  "liga": "ita.1",
+  "id": "eng1-tottenham-crystal-palace",
+  "liga": "eng.1",
   "fase": "",
   "fecha": "2026-10-31",
-  "local": "Udinese",
-  "visita": "AS Roma",
+  "local": "Tottenham",
+  "visita": "Crystal Palace",
   "gl": 2,
-  "gv": 5,
+  "gv": 0,
   "goles": [
    {
-    "min": "10'",
-    "jugador": "Bryan Cristante",
-    "lado": "visita",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "31'",
-    "jugador": "Rodrigo Mora",
-    "lado": "visita",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "33'",
-    "jugador": "Donyell Malen",
-    "lado": "visita",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "37'",
-    "jugador": "Evan Ndicka",
-    "lado": "visita",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "50'",
-    "jugador": "Nicolò Zaniolo",
+    "min": "25'",
+    "jugador": "Archie Gray",
     "lado": "local",
     "penal": false,
     "autogol": false
    },
    {
-    "min": "78'",
-    "jugador": "Matteo Palma",
+    "min": "73'",
+    "jugador": "Jan Paul van Hecke",
     "lado": "local",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "90+2'",
-    "jugador": "Daniele Ghilardi",
-    "lado": "visita",
     "penal": false,
     "autogol": false
    }
   ],
   "tarjetas": [
    {
-    "min": "23'",
-    "jugador": "Lennon Miller",
+    "min": "13'",
+    "jugador": "Jean-Philippe Mateta",
+    "lado": "visita",
+    "tipo": "roja"
+   },
+   {
+    "min": "15'",
+    "jugador": "Archie Gray",
     "lado": "local",
     "tipo": "amarilla"
    },
    {
-    "min": "60'",
-    "jugador": "Bryan Cristante",
+    "min": "53'",
+    "jugador": "Óscar Mingueza",
     "lado": "visita",
     "tipo": "amarilla"
    }
