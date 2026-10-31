@@ -3142,5 +3142,16 @@
   "enviado": true,
   "ig_id": "18135801928677479",
   "publicado": "2026-10-31T19:43:17+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "esp.1:401882825",
+  "creado": "2026-10-31T16:52:49-03:00",
+  "archivos": [
+   "historias/img/2026-10-31/esp1-betis-malaga.png"
+  ],
+  "titulo": "Betis 2–1 Málaga",
+  "liga": "esp.1",
+  "enviado": false
  }
 ]

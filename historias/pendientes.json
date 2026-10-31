@@ -1,46 +1,59 @@
 [
  {
-  "id": "eng1-tottenham-crystal-palace",
-  "liga": "eng.1",
+  "id": "esp1-betis-malaga",
+  "liga": "esp.1",
   "fase": "",
   "fecha": "2026-10-31",
-  "local": "Tottenham",
-  "visita": "Crystal Palace",
+  "local": "Betis",
+  "visita": "Málaga",
   "gl": 2,
-  "gv": 0,
+  "gv": 1,
   "goles": [
    {
-    "min": "25'",
-    "jugador": "Archie Gray",
+    "min": "38'",
+    "jugador": "Marc Bartra",
     "lado": "local",
     "penal": false,
     "autogol": false
    },
    {
-    "min": "73'",
-    "jugador": "Jan Paul van Hecke",
+    "min": "45+2'",
+    "jugador": "Pablo Fornals",
     "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "68'",
+    "jugador": "Adrián Niño",
+    "lado": "visita",
     "penal": false,
     "autogol": false
    }
   ],
   "tarjetas": [
    {
-    "min": "13'",
-    "jugador": "Jean-Philippe Mateta",
+    "min": "20'",
+    "jugador": "David Larrubia",
     "lado": "visita",
-    "tipo": "roja"
+    "tipo": "amarilla"
    },
    {
-    "min": "15'",
-    "jugador": "Archie Gray",
+    "min": "38'",
+    "jugador": "Rafa Garrido",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+1'",
+    "jugador": "Nelson Deossa",
     "lado": "local",
     "tipo": "amarilla"
    },
    {
-    "min": "53'",
-    "jugador": "Óscar Mingueza",
-    "lado": "visita",
+    "min": "90+2'",
+    "jugador": "Aitor Ruibal",
+    "lado": "local",
     "tipo": "amarilla"
    }
   ],
