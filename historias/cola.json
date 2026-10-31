@@ -3116,5 +3116,16 @@
   "enviado": true,
   "ig_id": "18035193230906856",
   "publicado": "2026-10-31T17:38:04+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "ita.1:401874990",
+  "creado": "2026-10-31T16:32:17-03:00",
+  "archivos": [
+   "historias/img/2026-10-31/ita1-udinese-as-roma.png"
+  ],
+  "titulo": "Udinese 2–5 AS Roma",
+  "liga": "ita.1",
+  "enviado": false
  }
 ]

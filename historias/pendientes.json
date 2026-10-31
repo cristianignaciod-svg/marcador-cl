@@ -1,1 +1,79 @@
-[]
+[
+ {
+  "id": "ita1-udinese-as-roma",
+  "liga": "ita.1",
+  "fase": "",
+  "fecha": "2026-10-31",
+  "local": "Udinese",
+  "visita": "AS Roma",
+  "gl": 2,
+  "gv": 5,
+  "goles": [
+   {
+    "min": "10'",
+    "jugador": "Bryan Cristante",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "31'",
+    "jugador": "Rodrigo Mora",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "33'",
+    "jugador": "Donyell Malen",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "37'",
+    "jugador": "Evan Ndicka",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "50'",
+    "jugador": "Nicolò Zaniolo",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "78'",
+    "jugador": "Matteo Palma",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "90+2'",
+    "jugador": "Daniele Ghilardi",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "23'",
+    "jugador": "Lennon Miller",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "60'",
+    "jugador": "Bryan Cristante",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]
