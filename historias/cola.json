@@ -2968,7 +2968,9 @@
   ],
   "titulo": "Borussia Monchengladbach 0–0 SC Paderborn 07",
   "liga": "ger.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17890912080653615",
+  "publicado": "2026-10-31T16:38:07+00:00"
  },
  {
   "tipo": "historia",
@@ -2979,7 +2981,9 @@
   ],
   "titulo": "F. C. Augsburgo 1–2 SC Freiburg",
   "liga": "ger.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18111189092229020",
+  "publicado": "2026-10-31T16:38:07+00:00"
  },
  {
   "tipo": "historia",
@@ -2990,7 +2994,9 @@
   ],
   "titulo": "Werder Bremen 2–0 TSG Hoffenheim",
   "liga": "ger.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18057635861802961",
+  "publicado": "2026-10-31T16:38:07+00:00"
  },
  {
   "tipo": "historia",
@@ -3001,6 +3007,8 @@
   ],
   "titulo": "Bolonia 2–1 Monza",
   "liga": "ita.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18153313063515758",
+  "publicado": "2026-10-31T16:38:07+00:00"
  }
 ]
