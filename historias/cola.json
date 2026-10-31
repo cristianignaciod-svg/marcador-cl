@@ -2863,5 +2863,16 @@
   "enviado": true,
   "ig_id": "18111251855213810",
   "publicado": "2026-10-31T00:25:47+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "arg.1:401841653",
+  "creado": "2026-10-30T21:35:25-03:00",
+  "archivos": [
+   "historias/img/2026-10-30/arg1-huracan-tigre.png"
+  ],
+  "titulo": "Huracán 0–2 Tigre",
+  "liga": "arg.1",
+  "enviado": false
  }
 ]
