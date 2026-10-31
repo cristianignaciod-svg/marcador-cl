@@ -1,1 +1,69 @@
-[]
+[
+ {
+  "id": "arg1-deportivo-riestra-talleres-cordoba",
+  "liga": "arg.1",
+  "fase": "",
+  "fecha": "2026-10-31",
+  "local": "Deportivo Riestra",
+  "visita": "Talleres (Córdoba)",
+  "gl": 0,
+  "gv": 3,
+  "goles": [
+   {
+    "min": "25'",
+    "jugador": "Valentín Fascendini",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "68'",
+    "jugador": "Mateo Caceres",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "73'",
+    "jugador": "Agustín Álvarez Martínez",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "36'",
+    "jugador": "Milton Céliz",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "63'",
+    "jugador": "Federico Fattori",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "71'",
+    "jugador": "Nicólas Watson",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "87'",
+    "jugador": "Miguel Graneros",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+1'",
+    "jugador": "Juan Sforza",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]

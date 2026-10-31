@@ -3168,5 +3168,16 @@
   "enviado": true,
   "ig_id": "18396340405200873",
   "publicado": "2026-10-31T20:02:47+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "arg.1:401841656",
+  "creado": "2026-10-31T18:56:12-03:00",
+  "archivos": [
+   "historias/img/2026-10-31/arg1-deportivo-riestra-talleres-cordoba.png"
+  ],
+  "titulo": "Deportivo Riestra 0–3 Talleres (Córdoba)",
+  "liga": "arg.1",
+  "enviado": false
  }
 ]
