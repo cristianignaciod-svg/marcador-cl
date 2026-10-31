@@ -3181,5 +3181,38 @@
   "enviado": true,
   "ig_id": "17916479298530918",
   "publicado": "2026-10-31T21:56:32+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "esp.1:401882822",
+  "creado": "2026-10-31T19:25:00-03:00",
+  "archivos": [
+   "historias/img/2026-10-31/esp1-barcelona-alaves.png"
+  ],
+  "titulo": "Barcelona 6–1 Alavés",
+  "liga": "esp.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "ita.1:401874795",
+  "creado": "2026-10-31T19:25:00-03:00",
+  "archivos": [
+   "historias/img/2026-10-31/ita1-milan-inter.png"
+  ],
+  "titulo": "Milan 3–1 Inter",
+  "liga": "ita.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "fra.1:401876413",
+  "creado": "2026-10-31T19:25:00-03:00",
+  "archivos": [
+   "historias/img/2026-10-31/fra1-troyes-le-mans.png"
+  ],
+  "titulo": "Troyes 2–0 Le Mans",
+  "liga": "fra.1",
+  "enviado": false
  }
 ]
