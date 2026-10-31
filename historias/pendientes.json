@@ -1,31 +1,38 @@
 [
  {
-  "id": "esp1-betis-malaga",
-  "liga": "esp.1",
+  "id": "ger1-bayern-borussia-dortmund",
+  "liga": "ger.1",
   "fase": "",
   "fecha": "2026-10-31",
-  "local": "Betis",
-  "visita": "Málaga",
+  "local": "Bayern",
+  "visita": "Borussia Dortmund",
   "gl": 2,
-  "gv": 1,
+  "gv": 2,
   "goles": [
    {
     "min": "38'",
-    "jugador": "Marc Bartra",
+    "jugador": "Konrad Laimer",
     "lado": "local",
     "penal": false,
     "autogol": false
    },
    {
-    "min": "45+2'",
-    "jugador": "Pablo Fornals",
+    "min": "60'",
+    "jugador": "Serhou Guirassy",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "66'",
+    "jugador": "Dayot Upamecano",
     "lado": "local",
     "penal": false,
     "autogol": false
    },
    {
-    "min": "68'",
-    "jugador": "Adrián Niño",
+    "min": "89'",
+    "jugador": "Fábio Silva",
     "lado": "visita",
     "penal": false,
     "autogol": false
@@ -33,26 +40,20 @@
   ],
   "tarjetas": [
    {
-    "min": "20'",
-    "jugador": "David Larrubia",
+    "min": "6'",
+    "jugador": "Jobe Bellingham",
     "lado": "visita",
     "tipo": "amarilla"
    },
    {
-    "min": "38'",
-    "jugador": "Rafa Garrido",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "90+1'",
-    "jugador": "Nelson Deossa",
+    "min": "53'",
+    "jugador": "Josip Stanisic",
     "lado": "local",
     "tipo": "amarilla"
    },
    {
-    "min": "90+2'",
-    "jugador": "Aitor Ruibal",
+    "min": "74'",
+    "jugador": "Konrad Laimer",
     "lado": "local",
     "tipo": "amarilla"
    }

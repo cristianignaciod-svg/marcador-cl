@@ -3155,5 +3155,16 @@
   "enviado": true,
   "ig_id": "18097052489452327",
   "publicado": "2026-10-31T19:53:00+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "ger.1:401884754",
+  "creado": "2026-10-31T17:02:27-03:00",
+  "archivos": [
+   "historias/img/2026-10-31/ger1-bayern-borussia-dortmund.png"
+  ],
+  "titulo": "Bayern 2–2 Borussia Dortmund",
+  "liga": "ger.1",
+  "enviado": false
  }
 ]
