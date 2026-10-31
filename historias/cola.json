@@ -2932,5 +2932,27 @@
   "enviado": true,
   "ig_id": "18127481470925946",
   "publicado": "2026-10-31T12:21:48+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "esp.1:401882820",
+  "creado": "2026-10-31T12:02:35-03:00",
+  "archivos": [
+   "historias/img/2026-10-31/esp1-levante-atletico.png"
+  ],
+  "titulo": "Levante 0–2 Atlético",
+  "liga": "esp.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "eng.1:401879248",
+  "creado": "2026-10-31T12:02:35-03:00",
+  "archivos": [
+   "historias/img/2026-10-31/eng1-chelsea-man-united.png"
+  ],
+  "titulo": "Chelsea 2–0 Man. United",
+  "liga": "eng.1",
+  "enviado": false
  }
 ]

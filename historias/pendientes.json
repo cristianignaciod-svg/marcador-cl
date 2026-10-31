@@ -1,1 +1,97 @@
-[]
+[
+ {
+  "id": "esp1-levante-atletico",
+  "liga": "esp.1",
+  "fase": "",
+  "fecha": "2026-10-31",
+  "local": "Levante",
+  "visita": "Atlético",
+  "gl": 0,
+  "gv": 2,
+  "goles": [
+   {
+    "min": "36'",
+    "jugador": "Alejandro Grimaldo",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "62'",
+    "jugador": "Giuliano Simeone",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "eng1-chelsea-man-united",
+  "liga": "eng.1",
+  "fase": "",
+  "fecha": "2026-10-31",
+  "local": "Chelsea",
+  "visita": "Man. United",
+  "gl": 2,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "50'",
+    "jugador": "Morgan Rogers",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "64'",
+    "jugador": "Cole Palmer",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "63'",
+    "jugador": "Lisandro Martínez",
+    "lado": "visita",
+    "tipo": "doble"
+   },
+   {
+    "min": "65'",
+    "jugador": "Harry Maguire",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "70'",
+    "jugador": "Kobbie Mainoo",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "81'",
+    "jugador": "Bryan Mbeumo",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "86'",
+    "jugador": "Joshua Zirkzee",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+3'",
+    "jugador": "Mike Penders",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]
