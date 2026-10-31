@@ -1,79 +1,24 @@
 [
  {
-  "id": "esp1-rayo-celta",
-  "liga": "esp.1",
-  "fase": "",
-  "fecha": "2026-10-31",
-  "local": "Rayo",
-  "visita": "Celta",
-  "gl": 3,
-  "gv": 0,
-  "goles": [
-   {
-    "min": "36'",
-    "jugador": "Jorge de Frutos",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "55'",
-    "jugador": "Jorge de Frutos",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "73'",
-    "jugador": "Unai López",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   }
-  ],
-  "tarjetas": [
-   {
-    "min": "26'",
-    "jugador": "Unai López",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "72'",
-    "jugador": "Gnangoro Bouare Samake",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "82'",
-    "jugador": "Williot Swedberg",
-    "lado": "visita",
-    "tipo": "amarilla"
-   }
-  ],
-  "anulados": [],
-  "verificado": "ESPN+FotMob"
- },
- {
-  "id": "eng1-brentford-nottingham-f",
+  "id": "eng1-bournemouth-leeds",
   "liga": "eng.1",
   "fase": "",
   "fecha": "2026-10-31",
-  "local": "Brentford",
-  "visita": "Nottingham F.",
+  "local": "Bournemouth",
+  "visita": "Leeds",
   "gl": 2,
   "gv": 0,
   "goles": [
    {
-    "min": "30'",
-    "jugador": "Nikola Milenkovic",
+    "min": "31'",
+    "jugador": "Evanilson",
     "lado": "local",
     "penal": false,
-    "autogol": true
+    "autogol": false
    },
    {
-    "min": "76'",
-    "jugador": "Igor Thiago",
+    "min": "90+4'",
+    "jugador": "Amine Adli",
     "lado": "local",
     "penal": false,
     "autogol": false
@@ -81,27 +26,27 @@
   ],
   "tarjetas": [
    {
-    "min": "36'",
-    "jugador": "Nikola Milenkovic",
+    "min": "35'",
+    "jugador": "Nico Elvedi",
     "lado": "visita",
     "tipo": "amarilla"
    },
    {
-    "min": "64'",
-    "jugador": "Daniel Muñoz",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "68'",
-    "jugador": "Michael Kayode",
+    "min": "45+2'",
+    "jugador": "Ryan Christie",
     "lado": "local",
     "tipo": "amarilla"
    },
    {
-    "min": "83'",
-    "jugador": "James McAtee",
+    "min": "62'",
+    "jugador": "Ethan Ampadu",
     "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "74'",
+    "jugador": "Tyler Adams",
+    "lado": "local",
     "tipo": "amarilla"
    }
   ],
@@ -109,18 +54,101 @@
   "verificado": "ESPN+FotMob"
  },
  {
-  "id": "eng1-man-city-brighton",
+  "id": "eng1-coventry-sunderland",
   "liga": "eng.1",
   "fase": "",
   "fecha": "2026-10-31",
-  "local": "Man. City",
-  "visita": "Brighton",
-  "gl": 0,
+  "local": "Coventry",
+  "visita": "Sunderland",
+  "gl": 3,
   "gv": 1,
   "goles": [
    {
-    "min": "11'",
-    "jugador": "Yasin Ayari",
+    "min": "17'",
+    "jugador": "Tatsuhiro Sakamoto",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "37'",
+    "jugador": "Taiwo Awoniyi",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "52'",
+    "jugador": "Jack Rudoni",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "67'",
+    "jugador": "Enzo Le Fée",
+    "lado": "visita",
+    "penal": true,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "7'",
+    "jugador": "Victor Torp",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "55'",
+    "jugador": "Tatsuhiro Sakamoto",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+9'",
+    "jugador": "Omar Alderete",
+    "lado": "visita",
+    "tipo": "doble"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "eng1-hull-city-ipswich",
+  "liga": "eng.1",
+  "fase": "",
+  "fecha": "2026-10-31",
+  "local": "Hull City",
+  "visita": "Ipswich",
+  "gl": 2,
+  "gv": 2,
+  "goles": [
+   {
+    "min": "22'",
+    "jugador": "Florentino",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "58'",
+    "jugador": "Tim Iroegbunam",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "68'",
+    "jugador": "Oliver McBurnie",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "74'",
+    "jugador": "Julio Enciso",
     "lado": "visita",
     "penal": false,
     "autogol": false
@@ -128,24 +156,43 @@
   ],
   "tarjetas": [
    {
-    "min": "20'",
-    "jugador": "Chema Andrés",
+    "min": "28'",
+    "jugador": "Exequiel Palacios",
     "lado": "visita",
     "tipo": "amarilla"
    },
    {
-    "min": "49'",
-    "jugador": "Maxim De Cuyper",
-    "lado": "visita",
+    "min": "52'",
+    "jugador": "Elliot Stroud",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "60'",
+    "jugador": "Matt Crooks",
+    "lado": "local",
     "tipo": "amarilla"
    },
    {
     "min": "81'",
-    "jugador": "Pascal Gross",
+    "jugador": "Julio Enciso",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "88'",
+    "jugador": "Semi Ajayi",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+2'",
+    "jugador": "Issa Diop",
     "lado": "visita",
     "tipo": "amarilla"
    }
   ],
-  "anulados": []
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
  }
 ]

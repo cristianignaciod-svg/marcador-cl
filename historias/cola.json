@@ -3075,5 +3075,38 @@
   "enviado": false,
   "error": "400 {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,130,983,721,759,825 cannot be found.\",\"fbtrace_id\":\"A794NVUTny1nE9sK4L3_jkC\"}}",
   "intentos": 1
+ },
+ {
+  "tipo": "historia",
+  "clave": "eng.1:401879251",
+  "creado": "2026-10-31T14:37:34-03:00",
+  "archivos": [
+   "historias/img/2026-10-31/eng1-bournemouth-leeds.png"
+  ],
+  "titulo": "Bournemouth 2–0 Leeds",
+  "liga": "eng.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "eng.1:401879247",
+  "creado": "2026-10-31T14:37:34-03:00",
+  "archivos": [
+   "historias/img/2026-10-31/eng1-coventry-sunderland.png"
+  ],
+  "titulo": "Coventry 3–1 Sunderland",
+  "liga": "eng.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "eng.1:401878763",
+  "creado": "2026-10-31T14:37:34-03:00",
+  "archivos": [
+   "historias/img/2026-10-31/eng1-hull-city-ipswich.png"
+  ],
+  "titulo": "Hull City 2–2 Ipswich",
+  "liga": "eng.1",
+  "enviado": false
  }
 ]
