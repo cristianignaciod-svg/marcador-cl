@@ -1,60 +1,84 @@
 [
  {
-  "id": "arg1-racing-club-aldosivi",
+  "id": "arg1-sarmiento-junin-rosario-central",
   "liga": "arg.1",
   "fase": "",
   "fecha": "2026-10-30",
-  "local": "Racing Club",
-  "visita": "Aldosivi",
-  "gl": 2,
-  "gv": 1,
+  "local": "Sarmiento (Junín)",
+  "visita": "Rosario Central",
+  "gl": 1,
+  "gv": 2,
   "goles": [
    {
-    "min": "20'",
-    "jugador": "Andrés Vombergar",
+    "min": "5'",
+    "jugador": "Manuel Garcia",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "29'",
+    "jugador": "Gastón Ávila",
     "lado": "visita",
     "penal": false,
     "autogol": false
    },
    {
-    "min": "24'",
-    "jugador": "Adrián Martínez",
-    "lado": "local",
+    "min": "90+5'",
+    "jugador": "Gastón Ávila",
+    "lado": "visita",
     "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "60'",
-    "jugador": "Ignacio Agustin Rodríguez",
-    "lado": "local",
-    "penal": true,
     "autogol": false
    }
   ],
   "tarjetas": [
    {
-    "min": "18'",
-    "jugador": "Matías Kranevitter",
+    "min": "11'",
+    "jugador": "Juan Insaurralde",
     "lado": "local",
     "tipo": "amarilla"
    },
    {
-    "min": "48'",
-    "jugador": "Alejandro Tello",
+    "min": "13'",
+    "jugador": "Elián Giménez",
     "lado": "local",
     "tipo": "amarilla"
    },
    {
-    "min": "58'",
-    "jugador": "Joaquin Pombo",
+    "min": "31'",
+    "jugador": "Alan Rodríguez",
     "lado": "visita",
     "tipo": "amarilla"
    },
    {
-    "min": "87'",
-    "jugador": "Matías Pérez",
+    "min": "43'",
+    "jugador": "Julián Mavilla",
     "lado": "local",
     "tipo": "amarilla"
+   },
+   {
+    "min": "51'",
+    "jugador": "Thiago Santamaría",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "65'",
+    "jugador": "Emanuel Coronel",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "67'",
+    "jugador": "Renzo Orihuela",
+    "lado": "local",
+    "tipo": "roja"
+   },
+   {
+    "min": "90'",
+    "jugador": "Santiago Salle",
+    "lado": "local",
+    "tipo": "roja"
    }
   ],
   "anulados": [],
