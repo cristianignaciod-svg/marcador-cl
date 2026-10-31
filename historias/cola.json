@@ -2834,7 +2834,9 @@
   ],
   "titulo": "Colo Colo 6–1 Universidad de Concepción",
   "liga": "chi.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18015006440759104",
+  "publicado": "2026-10-31T00:15:26+00:00"
  },
  {
   "tipo": "historia",
@@ -2845,6 +2847,8 @@
   ],
   "titulo": "Coquimbo Unido 1–0 Unión La Calera",
   "liga": "chi.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18126594322963134",
+  "publicado": "2026-10-31T00:15:26+00:00"
  }
 ]
