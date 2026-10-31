@@ -1,1 +1,63 @@
-[]
+[
+ {
+  "id": "arg1-racing-club-aldosivi",
+  "liga": "arg.1",
+  "fase": "",
+  "fecha": "2026-10-30",
+  "local": "Racing Club",
+  "visita": "Aldosivi",
+  "gl": 2,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "20'",
+    "jugador": "Andrés Vombergar",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "24'",
+    "jugador": "Adrián Martínez",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "60'",
+    "jugador": "Ignacio Agustin Rodríguez",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "18'",
+    "jugador": "Matías Kranevitter",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "48'",
+    "jugador": "Alejandro Tello",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "58'",
+    "jugador": "Joaquin Pombo",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "87'",
+    "jugador": "Matías Pérez",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]
