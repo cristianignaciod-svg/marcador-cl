@@ -1,1 +1,150 @@
-[]
+[
+ {
+  "id": "ger1-leverkusen-vfb-stuttgart",
+  "liga": "ger.1",
+  "fase": "",
+  "fecha": "2026-10-31",
+  "local": "Leverkusen",
+  "visita": "VfB Stuttgart",
+  "gl": 2,
+  "gv": 4,
+  "goles": [
+   {
+    "min": "14'",
+    "jugador": "Ermedin Demirovic",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "22'",
+    "jugador": "Jamie Leweling",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "28'",
+    "jugador": "Patrik Schick",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "51'",
+    "jugador": "Bilal El Khannouss",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "65'",
+    "jugador": "Ermedin Demirovic",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "79'",
+    "jugador": "Ibrahim Maza",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "17'",
+    "jugador": "Ezequiel Fernández",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "40'",
+    "jugador": "Facundo Medina",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "40'",
+    "jugador": "Aleix García",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "40'",
+    "jugador": "Jeff Chabot",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "40'",
+    "jugador": "Luca Jaquez",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "53'",
+    "jugador": "Ibrahim Maza",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "58'",
+    "jugador": "Atakan Karazor",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "64'",
+    "jugador": "Ermedin Demirovic",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "ger1-schalke-04-rb-leipzig",
+  "liga": "ger.1",
+  "fase": "",
+  "fecha": "2026-10-31",
+  "local": "Schalke 04",
+  "visita": "RB Leipzig",
+  "gl": 0,
+  "gv": 2,
+  "goles": [
+   {
+    "min": "37'",
+    "jugador": "Antonio Nusa",
+    "lado": "visita",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "78'",
+    "jugador": "Rômulo",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "51'",
+    "jugador": "Timo Becker",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "86'",
+    "jugador": "Adil Aouchiche",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]

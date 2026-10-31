@@ -3010,5 +3010,27 @@
   "enviado": true,
   "ig_id": "18153313063515758",
   "publicado": "2026-10-31T16:38:07+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "ger.1:401884753",
+  "creado": "2026-10-31T13:58:00-03:00",
+  "archivos": [
+   "historias/img/2026-10-31/ger1-leverkusen-vfb-stuttgart.png"
+  ],
+  "titulo": "Leverkusen 2–4 VfB Stuttgart",
+  "liga": "ger.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "ger.1:401884747",
+  "creado": "2026-10-31T13:58:00-03:00",
+  "archivos": [
+   "historias/img/2026-10-31/ger1-schalke-04-rb-leipzig.png"
+  ],
+  "titulo": "Schalke 04 0–2 RB Leipzig",
+  "liga": "ger.1",
+  "enviado": false
  }
 ]
