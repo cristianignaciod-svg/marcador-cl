@@ -2900,9 +2900,11 @@
   ],
   "titulo": "Racing Club 2–1 Aldosivi",
   "liga": "arg.1",
-  "enviado": false,
+  "enviado": true,
   "error": "400 {\"error\":{\"message\":\"Media ID is not available\",\"type\":\"OAuthException\",\"code\":9007,\"error_subcode\":2207027,\"is_transient\":false,\"error_user_title\":\"Cannot Publish\",\"error_user_msg\":\"The media is not ready for publishing, please wait for a moment\",\"fbtrace_id\":\"AijbldKwrV6EvqGwx6tbmEX\"}}",
-  "intentos": 1
+  "intentos": 1,
+  "ig_id": "18432520585195419",
+  "publicado": "2026-10-31T02:58:03+00:00"
  },
  {
   "tipo": "historia",
@@ -2913,6 +2915,8 @@
   ],
   "titulo": "Sarmiento (Junín) 1–2 Rosario Central",
   "liga": "arg.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18094960709653610",
+  "publicado": "2026-10-31T02:58:03+00:00"
  }
 ]
