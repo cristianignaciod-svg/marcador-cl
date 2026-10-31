@@ -2958,5 +2958,49 @@
   "enviado": true,
   "ig_id": "18104833574545609",
   "publicado": "2026-10-31T15:02:53+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "ger.1:401884749",
+  "creado": "2026-10-31T13:37:45-03:00",
+  "archivos": [
+   "historias/img/2026-10-31/ger1-borussia-monchengladbach-sc-paderborn-07.png"
+  ],
+  "titulo": "Borussia Monchengladbach 0–0 SC Paderborn 07",
+  "liga": "ger.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "ger.1:401884751",
+  "creado": "2026-10-31T13:37:45-03:00",
+  "archivos": [
+   "historias/img/2026-10-31/ger1-f-c-augsburgo-sc-freiburg.png"
+  ],
+  "titulo": "F. C. Augsburgo 1–2 SC Freiburg",
+  "liga": "ger.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "ger.1:401884748",
+  "creado": "2026-10-31T13:37:45-03:00",
+  "archivos": [
+   "historias/img/2026-10-31/ger1-werder-bremen-tsg-hoffenheim.png"
+  ],
+  "titulo": "Werder Bremen 2–0 TSG Hoffenheim",
+  "liga": "ger.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "ita.1:401874798",
+  "creado": "2026-10-31T13:37:45-03:00",
+  "archivos": [
+   "historias/img/2026-10-31/ita1-bolonia-monza.png"
+  ],
+  "titulo": "Bolonia 2–1 Monza",
+  "liga": "ita.1",
+  "enviado": false
  }
 ]
