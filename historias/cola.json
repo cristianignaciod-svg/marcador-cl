@@ -3020,7 +3020,9 @@
   ],
   "titulo": "Leverkusen 2–4 VfB Stuttgart",
   "liga": "ger.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18199713358386532",
+  "publicado": "2026-10-31T16:58:23+00:00"
  },
  {
   "tipo": "historia",
@@ -3031,6 +3033,8 @@
   ],
   "titulo": "Schalke 04 0–2 RB Leipzig",
   "liga": "ger.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18113537429169183",
+  "publicado": "2026-10-31T16:58:23+00:00"
  }
 ]
