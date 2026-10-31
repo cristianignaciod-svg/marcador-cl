@@ -3046,7 +3046,9 @@
   ],
   "titulo": "Rayo 3–0 Celta",
   "liga": "esp.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18059807681800007",
+  "publicado": "2026-10-31T17:27:32+00:00"
  },
  {
   "tipo": "historia",
@@ -3057,7 +3059,9 @@
   ],
   "titulo": "Brentford 2–0 Nottingham F.",
   "liga": "eng.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18287702230290647",
+  "publicado": "2026-10-31T17:27:32+00:00"
  },
  {
   "tipo": "historia",
@@ -3068,6 +3072,8 @@
   ],
   "titulo": "Man. City 0–1 Brighton",
   "liga": "eng.1",
-  "enviado": false
+  "enviado": false,
+  "error": "400 {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,130,983,721,759,825 cannot be found.\",\"fbtrace_id\":\"A794NVUTny1nE9sK4L3_jkC\"}}",
+  "intentos": 1
  }
 ]
