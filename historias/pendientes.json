@@ -1,59 +1,31 @@
 [
  {
-  "id": "chi1-colo-colo-universidad-de-concepcion",
-  "liga": "chi.1",
+  "id": "arg1-estudiantes-de-rio-cuarto-gimnasia-la-plata",
+  "liga": "arg.1",
   "fase": "",
   "fecha": "2026-10-30",
-  "local": "Colo Colo",
-  "visita": "Universidad de Concepción",
-  "gl": 6,
-  "gv": 1,
+  "local": "Estudiantes de Río Cuarto",
+  "visita": "Gimnasia La Plata",
+  "gl": 1,
+  "gv": 2,
   "goles": [
    {
-    "min": "7'",
-    "jugador": "Álvaro Madrid",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "9'",
-    "jugador": "Marcelo Correa",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "20'",
-    "jugador": "Marcelo Correa",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "36'",
-    "jugador": "Marcelo Correa",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "45'",
-    "jugador": "Marcelo Correa",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "47'",
-    "jugador": "Jeison Fuentealba",
+    "min": "24'",
+    "jugador": "Marcelo Torres",
     "lado": "visita",
     "penal": false,
     "autogol": false
    },
    {
-    "min": "52'",
-    "jugador": "Joaquín Sosa",
+    "min": "40'",
+    "jugador": "Ignacio Fernández",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "54'",
+    "jugador": "Gabriel Alanís",
     "lado": "local",
     "penal": false,
     "autogol": false
@@ -61,75 +33,46 @@
   ],
   "tarjetas": [
    {
-    "min": "24'",
-    "jugador": "Joaquín Sosa",
+    "min": "12'",
+    "jugador": "Agustin Quiroga",
     "lado": "local",
     "tipo": "amarilla"
    },
    {
-    "min": "34'",
-    "jugador": "Arturo Vidal",
+    "min": "51'",
+    "jugador": "Sergio Ojeda",
     "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "40'",
-    "jugador": "Antonio Díaz",
-    "lado": "visita",
     "tipo": "amarilla"
    },
    {
     "min": "57'",
-    "jugador": "Benjamín Sáez",
+    "jugador": "Alexis Steimbach",
     "lado": "visita",
-    "tipo": "roja"
-   }
-  ],
-  "anulados": [],
-  "verificado": "ESPN+FotMob"
- },
- {
-  "id": "chi1-coquimbo-unido-union-la-calera",
-  "liga": "chi.1",
-  "fase": "",
-  "fecha": "2026-10-30",
-  "local": "Coquimbo Unido",
-  "visita": "Unión La Calera",
-  "gl": 1,
-  "gv": 0,
-  "goles": [
+    "tipo": "doble"
+   },
    {
-    "min": "63'",
-    "jugador": "Luis Riveros",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   }
-  ],
-  "tarjetas": [
+    "min": "66'",
+    "jugador": "Pedro Silva Torrejón",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
    {
-    "min": "1'",
-    "jugador": "Luis Riveros",
+    "min": "74'",
+    "jugador": "Harlen Castillo",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "86'",
+    "jugador": "Alejandro Cabrera",
     "lado": "local",
     "tipo": "amarilla"
    },
    {
-    "min": "22'",
-    "jugador": "Sebastián Cabrera",
+    "min": "86'",
+    "jugador": "Juan Antonini",
     "lado": "local",
     "tipo": "roja"
-   },
-   {
-    "min": "27'",
-    "jugador": "Yerko Leiva",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "70'",
-    "jugador": "Brian Nicolas Ferreyra",
-    "lado": "visita",
-    "tipo": "amarilla"
    }
   ],
   "anulados": [],
