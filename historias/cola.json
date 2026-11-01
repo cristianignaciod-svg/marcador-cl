@@ -3286,5 +3286,16 @@
   "enviado": true,
   "ig_id": "18107917550212418",
   "publicado": "2026-11-01T12:28:41+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "ita.1:401875002",
+  "creado": "2026-11-01T11:12:22-03:00",
+  "archivos": [
+   "historias/img/2026-11-01/ita1-como-venezia.png"
+  ],
+  "titulo": "Como 1–0 Venezia",
+  "liga": "ita.1",
+  "enviado": false
  }
 ]

@@ -1,1 +1,43 @@
-[]
+[
+ {
+  "id": "ita1-como-venezia",
+  "liga": "ita.1",
+  "fase": "",
+  "fecha": "2026-11-01",
+  "local": "Como",
+  "visita": "Venezia",
+  "gl": 1,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "43'",
+    "jugador": "Lucas Da Cunha",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "39'",
+    "jugador": "Simon Sohm",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "41'",
+    "jugador": "Juan Jesus",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "86'",
+    "jugador": "Kaiki",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]
