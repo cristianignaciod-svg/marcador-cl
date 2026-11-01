@@ -1,1 +1,60 @@
-[]
+[
+ {
+  "id": "chi1-u-catolica-u-de-chile",
+  "liga": "chi.1",
+  "fase": "",
+  "fecha": "2026-11-01",
+  "local": "U. Católica",
+  "visita": "U. de Chile",
+  "gl": 1,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "4'",
+    "jugador": "Clemente Montes",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "42'",
+    "jugador": "Nicolás Ramírez",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "62'",
+    "jugador": "Cristian Cuevas",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "66'",
+    "jugador": "Charles Aránguiz",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "80'",
+    "jugador": "Marcelo Morales",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+7'",
+    "jugador": "Fernando Zampedri",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+7'",
+    "jugador": "Maximiliano Guerrero",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ }
+]
