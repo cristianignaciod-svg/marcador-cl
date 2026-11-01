@@ -3364,5 +3364,27 @@
   "enviado": true,
   "ig_id": "18134932748498030",
   "publicado": "2026-11-01T16:45:31+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "chi.1:401850677",
+  "creado": "2026-11-01T14:23:22-03:00",
+  "archivos": [
+   "historias/img/2026-11-01/chi1-huachipato-la-serena.png"
+  ],
+  "titulo": "Huachipato 0–0 La Serena",
+  "liga": "chi.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "esp.1:401882819",
+  "creado": "2026-11-01T14:23:22-03:00",
+  "archivos": [
+   "historias/img/2026-11-01/esp1-racing-real-madrid.png"
+  ],
+  "titulo": "Racing 0–3 Real Madrid",
+  "liga": "esp.1",
+  "enviado": false
  }
 ]
