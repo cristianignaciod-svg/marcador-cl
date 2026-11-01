@@ -708,7 +708,7 @@ def revisar_antes(p, clave, ahora, espera, max_espera=45):
 
 
 def main():
-    if os.environ.get("DEBUG_TABLA"):
+    if os.environ.get("DEBUG_TABLA") or os.path.exists(os.path.join(BASE, "probar_tablas")):
         out = {}
         for lg in CON_TABLA:
             try:
