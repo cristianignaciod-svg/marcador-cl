@@ -3429,5 +3429,27 @@
   "enviado": true,
   "ig_id": "18137042476678620",
   "publicado": "2026-11-01T18:50:50+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "eng.1:401879246",
+  "creado": "2026-11-01T16:19:14-03:00",
+  "archivos": [
+   "historias/img/2026-11-01/eng1-liverpool-arsenal.png"
+  ],
+  "titulo": "Liverpool 0–1 Arsenal",
+  "liga": "eng.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "ger.1:401884752",
+  "creado": "2026-11-01T16:19:14-03:00",
+  "archivos": [
+   "historias/img/2026-11-01/ger1-eintracht-hamburg-sv.png"
+  ],
+  "titulo": "Eintracht 3–1 Hamburg SV",
+  "liga": "ger.1",
+  "enviado": false
  }
 ]
