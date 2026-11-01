@@ -3312,5 +3312,16 @@
   "enviado": true,
   "ig_id": "17990249340073177",
   "publicado": "2026-11-01T15:09:42+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "ita.1:401874782",
+  "creado": "2026-11-01T13:15:46-03:00",
+  "archivos": [
+   "historias/img/2026-11-01/ita1-frosinone-torino.png"
+  ],
+  "titulo": "Frosinone 2–0 Torino",
+  "liga": "ita.1",
+  "enviado": false
  }
 ]

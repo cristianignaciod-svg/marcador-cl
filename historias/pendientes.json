@@ -1,1 +1,56 @@
-[]
+[
+ {
+  "id": "ita1-frosinone-torino",
+  "liga": "ita.1",
+  "fase": "",
+  "fecha": "2026-11-01",
+  "local": "Frosinone",
+  "visita": "Torino",
+  "gl": 2,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "48'",
+    "jugador": "Farès Ghedjemis",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "90+3'",
+    "jugador": "Giacomo Calo",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "27'",
+    "jugador": "Zakaria Aboukhlal",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "33'",
+    "jugador": "Gvidas Gineitis",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "62'",
+    "jugador": "Patrizio Masini",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "66'",
+    "jugador": "Saúl Coco",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]
