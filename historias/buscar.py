@@ -43,6 +43,7 @@ CORTOS = {  # nombres cortos en español
     "Celta Vigo": "Celta", "Deportivo La Coruña": "Deportivo", "Sevilla FC": "Sevilla",
     "Racing Santander": "Racing", "Rayo Vallecano": "Rayo", "Real Betis": "Betis",
     "Borussia Mönchengladbach": "M'gladbach", "Bayer Leverkusen": "Leverkusen", "Eintracht Frankfurt": "Eintracht",
+    "Deportes Concepcion": "Deportes Concepción", "Everton CD": "Everton", "Colo Colo": "Colo-Colo",
     "Internazionale": "Inter", "AC Milan": "Milan", "Olympique de Marseille": "Marsella", "Olympique Lyonnais": "Lyon",
 }
 TERMINADO = {"STATUS_FULL_TIME", "STATUS_FINAL", "STATUS_FINAL_AET", "STATUS_FINAL_PEN",
