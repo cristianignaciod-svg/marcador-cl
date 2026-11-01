@@ -3455,5 +3455,16 @@
   "enviado": true,
   "ig_id": "18113861936582643",
   "publicado": "2026-11-01T19:19:43+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "esp.1:401882823",
+  "creado": "2026-11-01T16:29:40-03:00",
+  "archivos": [
+   "historias/img/2026-11-01/esp1-elche-valencia.png"
+  ],
+  "titulo": "Elche 0–1 Valencia",
+  "liga": "esp.1",
+  "enviado": false
  }
 ]

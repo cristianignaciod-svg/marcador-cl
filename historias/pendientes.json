@@ -1,142 +1,50 @@
 [
  {
-  "id": "eng1-liverpool-arsenal",
-  "liga": "eng.1",
+  "id": "esp1-elche-valencia",
+  "liga": "esp.1",
   "fase": "",
   "fecha": "2026-11-01",
-  "local": "Liverpool",
-  "visita": "Arsenal",
+  "local": "Elche",
+  "visita": "Valencia",
   "gl": 0,
   "gv": 1,
   "goles": [
    {
-    "min": "16'",
-    "jugador": "Kai Havertz",
-    "lado": "visita",
-    "penal": false,
-    "autogol": false
-   }
-  ],
-  "tarjetas": [
-   {
-    "min": "45+2'",
-    "jugador": "Bradley Barcola",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "55'",
-    "jugador": "Noni Madueke",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "67'",
-    "jugador": "Milos Kerkez",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "72'",
-    "jugador": "Myles Lewis-Skelly",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "80'",
-    "jugador": "Jurriën Timber",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "80'",
-    "jugador": "Alexis Mac Allister",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "90+3'",
-    "jugador": "David Raya",
-    "lado": "visita",
-    "tipo": "amarilla"
-   }
-  ],
-  "anulados": [],
-  "verificado": "ESPN+FotMob"
- },
- {
-  "id": "ger1-eintracht-hamburg-sv",
-  "liga": "ger.1",
-  "fase": "",
-  "fecha": "2026-11-01",
-  "local": "Eintracht",
-  "visita": "Hamburg SV",
-  "gl": 3,
-  "gv": 1,
-  "goles": [
-   {
-    "min": "10'",
-    "jugador": "Warmed Omari",
-    "lado": "local",
-    "penal": false,
-    "autogol": true
-   },
-   {
-    "min": "14'",
-    "jugador": "Terem Moffi",
-    "lado": "visita",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "47'",
-    "jugador": "Raphael Onyedika",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   },
-   {
     "min": "69'",
-    "jugador": "Younes Ebnoutalib",
-    "lado": "local",
+    "jugador": "Umar Sadiq",
+    "lado": "visita",
     "penal": false,
     "autogol": false
    }
   ],
   "tarjetas": [
    {
-    "min": "33'",
-    "jugador": "Shafiq Nandja",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "70'",
-    "jugador": "Martin Adeline",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "76'",
-    "jugador": "Warmed Omari",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "85'",
-    "jugador": "Elias Baum",
+    "min": "36'",
+    "jugador": "Germán Valera",
     "lado": "local",
     "tipo": "amarilla"
    },
    {
-    "min": "90+8'",
-    "jugador": "Robin Koch",
+    "min": "42'",
+    "jugador": "Víctor Chust",
     "lado": "local",
     "tipo": "amarilla"
    },
    {
-    "min": "90+9'",
-    "jugador": "Otto Stange",
+    "min": "62'",
+    "jugador": "Facundo Buonanotte",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "73'",
+    "jugador": "Javi Guerra",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+1'",
+    "jugador": "Stole Dimitrievski",
     "lado": "visita",
     "tipo": "amarilla"
    }
