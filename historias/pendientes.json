@@ -1,1 +1,57 @@
-[]
+[
+ {
+  "id": "ita1-lecce-genova",
+  "liga": "ita.1",
+  "fase": "",
+  "fecha": "2026-11-01",
+  "local": "Lecce",
+  "visita": "Génova",
+  "gl": 1,
+  "gv": 2,
+  "goles": [
+   {
+    "min": "11'",
+    "jugador": "Milutin Osmajic",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "28'",
+    "jugador": "Junior Messias",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "40'",
+    "jugador": "Youssef Maleh",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "59'",
+    "jugador": "Mohamed Kaba",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "62'",
+    "jugador": "Hamed Traoré",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "70'",
+    "jugador": "Jamil Siebert",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]
