@@ -289,8 +289,16 @@ CON_TABLA = set(FM_LIGA)
 
 
 def _stat(entry, *nombres):
-    for st in entry.get("stats", []):
-        if st.get("name") in nombres or st.get("type") in nombres or st.get("abbreviation") in nombres:
+    """Lee una estadística de ESPN por su nombre exacto (p. ej. "points"), sin confundir abreviaturas."""
+    stats = entry.get("stats", [])
+    for st in stats:
+        if st.get("name") in nombres:
+            try:
+                return int(float(st.get("value")))
+            except (TypeError, ValueError):
+                pass
+    for st in stats:
+        if st.get("type") in nombres:
             try:
                 return int(float(st.get("value")))
             except (TypeError, ValueError):
@@ -306,9 +314,9 @@ def tabla_espn(liga):
         entradas += (g.get("standings") or {}).get("entries", [])
     filas = []
     for e in entradas:
-        filas.append({"equipo": nombre(e.get("team", {})), "pj": _stat(e, "gamesPlayed", "GP"),
-                      "dg": _stat(e, "pointDifferential", "GD"), "pts": _stat(e, "points", "P"),
-                      "pos": _stat(e, "rank", "R")})
+        filas.append({"equipo": nombre(e.get("team", {})), "pj": _stat(e, "gamesPlayed", "gamesplayed"),
+                      "dg": _stat(e, "pointDifferential", "pointdifferential"), "pts": _stat(e, "points"),
+                      "pos": _stat(e, "rank")})
     filas = [f for f in filas if f["pts"] is not None]
     filas.sort(key=lambda f: (f["pos"] if f["pos"] else 99, -f["pts"]))
     for i, f in enumerate(filas):
