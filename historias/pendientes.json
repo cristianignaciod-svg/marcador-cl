@@ -1,1 +1,110 @@
-[]
+[
+ {
+  "id": "ita1-juventus-napoli",
+  "liga": "ita.1",
+  "fase": "",
+  "fecha": "2026-11-01",
+  "local": "Juventus",
+  "visita": "Napoli",
+  "gl": 2,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "70'",
+    "jugador": "Kerim Alajbegovic",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "87'",
+    "jugador": "Jérémie Boga",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "16'",
+    "jugador": "Douglas Luiz",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "20'",
+    "jugador": "Jhon Lucumí",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "71'",
+    "jugador": "Kerim Alajbegovic",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "75'",
+    "jugador": "Luca Marianucci",
+    "lado": "visita",
+    "tipo": "doble"
+   },
+   {
+    "min": "90+1'",
+    "jugador": "Rafa Marín",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "fra1-marseille-toulouse",
+  "liga": "fra.1",
+  "fase": "",
+  "fecha": "2026-11-01",
+  "local": "Marseille",
+  "visita": "Toulouse",
+  "gl": 2,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "1'",
+    "jugador": "Amine Harit",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "25'",
+    "jugador": "Amine Gouiri",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "44'",
+    "jugador": "Pierre-Emile Højbjerg",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "78'",
+    "jugador": "CJ Egan-Riley",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "86'",
+    "jugador": "Santiago Hidalgo",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]

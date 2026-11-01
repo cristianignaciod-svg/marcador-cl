@@ -3507,5 +3507,27 @@
   "enviado": true,
   "ig_id": "18138740467650260",
   "publicado": "2026-11-01T20:18:41+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "ita.1:401874949",
+  "creado": "2026-11-01T19:02:39-03:00",
+  "archivos": [
+   "historias/img/2026-11-01/ita1-juventus-napoli.png"
+  ],
+  "titulo": "Juventus 2–0 Napoli",
+  "liga": "ita.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "fra.1:401876417",
+  "creado": "2026-11-01T19:02:39-03:00",
+  "archivos": [
+   "historias/img/2026-11-01/fra1-marseille-toulouse.png"
+  ],
+  "titulo": "Marseille 2–0 Toulouse",
+  "liga": "fra.1",
+  "enviado": false
  }
 ]
