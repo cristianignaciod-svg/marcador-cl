@@ -3533,5 +3533,16 @@
   "enviado": true,
   "ig_id": "18399169522207691",
   "publicado": "2026-11-01T22:03:20+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "esp.1:401882826",
+  "creado": "2026-11-01T19:13:15-03:00",
+  "archivos": [
+   "historias/img/2026-11-01/esp1-athletic-real-sociedad.png"
+  ],
+  "titulo": "Athletic 2–1 Real Sociedad",
+  "liga": "esp.1",
+  "enviado": false
  }
 ]
