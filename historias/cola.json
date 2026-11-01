@@ -3351,5 +3351,16 @@
   "enviado": true,
   "ig_id": "18111756188181863",
   "publicado": "2026-11-01T16:26:04+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "ger.1:401884750",
+  "creado": "2026-11-01T13:45:09-03:00",
+  "archivos": [
+   "historias/img/2026-11-01/ger1-1-fc-union-berlin-fc-cologne.png"
+  ],
+  "titulo": "1. FC Union Berlin 1–1 FC Cologne",
+  "liga": "ger.1",
+  "enviado": false
  }
 ]
