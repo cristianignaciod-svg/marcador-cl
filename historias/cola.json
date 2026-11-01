@@ -3517,7 +3517,9 @@
   ],
   "titulo": "Juventus 2–0 Napoli",
   "liga": "ita.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18131567626835185",
+  "publicado": "2026-11-01T22:03:20+00:00"
  },
  {
   "tipo": "historia",
@@ -3528,6 +3530,8 @@
   ],
   "titulo": "Marseille 2–0 Toulouse",
   "liga": "fra.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18399169522207691",
+  "publicado": "2026-11-01T22:03:20+00:00"
  }
 ]
