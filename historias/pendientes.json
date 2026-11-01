@@ -1,1 +1,38 @@
-[]
+[
+ {
+  "id": "fra1-lyon-angers",
+  "liga": "fra.1",
+  "fase": "",
+  "fecha": "2026-11-01",
+  "local": "Lyon",
+  "visita": "Angers",
+  "gl": 2,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "38'",
+    "jugador": "Ernest Nuamah",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "86'",
+    "jugador": "Corentin Tolisso",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "88'",
+    "jugador": "Jordan Lefort",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]
