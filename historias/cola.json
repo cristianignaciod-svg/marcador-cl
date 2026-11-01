@@ -3494,5 +3494,16 @@
   "enviado": true,
   "ig_id": "17962835871251483",
   "publicado": "2026-11-01T19:59:22+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "arg.1:401841658",
+  "creado": "2026-11-01T17:18:21-03:00",
+  "archivos": [
+   "historias/img/2026-11-01/arg1-boca-juniors-river-plate.png"
+  ],
+  "titulo": "Boca Juniors 1–0 River Plate",
+  "liga": "arg.1",
+  "enviado": false
  }
 ]
