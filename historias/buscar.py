@@ -602,12 +602,21 @@ def fotmob_dia(fecha):
     return _FM_CACHE[fecha]
 
 
+_RELLENO = {"de", "del", "la", "el", "fc", "cf", "cd", "sc", "afc", "club", "ca", "sd", "ud"}
+
+
 def _mismo_equipo(a, b):
+    """Compara nombres de equipo tolerando abreviaturas ("U. de Chile" = "Universidad de Chile",
+    "Nottingham F." = "Nottingham Forest", "Man. City" = "Manchester City")."""
     import difflib
     a, b = slug(a), slug(b)
     if not a or not b:
         return False
     if a in b or b in a:
+        return True
+    ta = [t for t in a.split("-") if t not in _RELLENO]
+    tb = [t for t in b.split("-") if t not in _RELLENO]
+    if ta and len(ta) == len(tb) and all(x.startswith(y) or y.startswith(x) for x, y in zip(ta, tb)):
         return True
     return difflib.SequenceMatcher(None, a, b).ratio() >= 0.7
 
