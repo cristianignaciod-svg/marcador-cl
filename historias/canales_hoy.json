@@ -1,186 +1,177 @@
 {
- "fecha": "2026-10-31",
+ "fecha": "2026-11-01",
  "fuentes": [
+  "https://redgol.cl/internacional/boca-juniors-vs-river-plate-horario-canal-y-donde-ver-en-vivo-el-superclasico-del-futbol-argentino",
   "https://www.futbolenvivochile.com/",
-  "https://www.fotmob.com/es-419/tv-guide/cl",
-  "https://www.prensafutbol.cl/ohiggins-se-mide-ante-nublense/",
-  "https://tecache.cl/futbol/barcelona-vs-alaves-en-vivo-donde-ver-horario-y-como-seguir-el-partido-de-laliga",
-  "https://www.goal.com/es-cl/noticias/streaming-en-vivo-ac-mila%CC%81n-v-inter-mila%CC%81n/blt2314f52363f72124",
-  "https://rpp.pe/futbol/futbol-mundial/partidos-de-hoy-sabado-31-de-octubre-en-vivo-liga-1-laliga-y-premier-league-en-directo-horarios-y-canales-de-tv-online-para-ver-futbol-minuto-a-minuto-noticia-1715290",
-  "https://larepublica.pe/deportes/2026/10/31/partidos-de-hoy-sabado-31-de-octubre-horarios-y-canales-para-ver-futbol-en-vivo-1927282",
-  "https://elcomercio.pe/deporte-total/futbol-mundial/partidos-de-hoy-sabado-31-de-octubre-del-2026-a-que-hora-juegan-y-en-que-canales-ver-futbol-en-vivo-online-gratis-noticia/"
+  "https://www.alairelibre.cl/futbol/campeonato-nacional/partidos-de-hoy-domingo-1-de-noviembre-clasico-universitario-cobresal-everton/",
+  "https://www.pauta.cl/deportes/2026/11/01/universidad-catolica-vs-universidad-de-chile-donde-ver-en-vivo-y-online-el-clasico-universitario.html",
+  "https://www.pauta.cl/deportes/2026/11/01/huachipato-vs-deportes-la-serena-donde-ver-en-vivo-y-online-la-liga-de-primera.html",
+  "https://www.pauta.cl/deportes/2026/11/01/cobresal-vs-everton-donde-ver-en-vivo-y-online-la-liga-de-primera.html",
+  "https://www.t13.cl/noticia/deportes13/boca-vs-river-vivo-hora-donde-ver-superclasico-argentina-31-10-2026",
+  "https://sabesdeportes.com/2026/10/31/liverpool-vs-arsenal-como-ver-en-chile-el-duelo-estelar-de-la-fecha-9-de-premier-league/",
+  "https://bolavip.com/cl/internacional/racing-de-santander-vs-real-madrid-horario-y-donde-ver-en-vivo-y-online-en-chile-por-la-jornada-11-de-la-laliga",
+  "https://libero.pe/futbol-internacional/2026/10/31/partidos-de-hoy-domingo-1-de-noviembre-quienes-juegan-liga-1-premier-league-laliga-1930618"
  ],
  "partidos": [
   {
-   "local": "O'Higgins",
-   "visita": "Ñublense",
+   "local": "Huachipato",
+   "visita": "La Serena",
    "tv": "TNT Sports Premium · HBO Max",
    "verificado": "2_fuentes"
   },
   {
-   "local": "Levante",
-   "visita": "Atlético Madrid",
+   "local": "U. Católica",
+   "visita": "U. de Chile",
+   "tv": "TNT Sports Premium · HBO Max",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Cobresal",
+   "visita": "Everton",
+   "tv": "Canal 13 · TNT Sports Premium · HBO Max",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Getafe",
+   "visita": "Sevilla",
+   "tv": "Disney+ Premium",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Racing Santander",
+   "visita": "Real Madrid",
    "tv": "DSports · DGO",
    "verificado": "2_fuentes"
   },
   {
-   "local": "Rayo Vallecano",
-   "visita": "Celta Vigo",
-   "tv": "ESPN 4 · Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Real Betis",
-   "visita": "Málaga",
-   "tv": "DSports · DGO",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Barcelona",
-   "visita": "Alavés",
-   "tv": "ESPN · Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Chelsea",
-   "visita": "Man United",
-   "tv": "ESPN · Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Man City",
-   "visita": "Brighton",
-   "tv": "ESPN · Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Hull City",
-   "visita": "Ipswich",
-   "tv": "Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Brentford",
-   "visita": "Nottm Forest",
-   "tv": "Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Bournemouth",
-   "visita": "Leeds",
-   "tv": "Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Coventry",
-   "visita": "Sunderland",
-   "tv": "Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Tottenham",
-   "visita": "Crystal Palace",
-   "tv": "ESPN · Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Aston Villa",
-   "visita": "Fulham",
-   "tv": "Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Leverkusen",
-   "visita": "Stuttgart",
-   "tv": "ESPN 5 · Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Schalke 04",
-   "visita": "RB Leipzig",
-   "tv": "Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Augsburg",
-   "visita": "Freiburg",
-   "tv": "Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "M'gladbach",
-   "visita": "Paderborn",
-   "tv": "Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Werder Bremen",
-   "visita": "Hoffenheim",
-   "tv": "Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Bayern",
-   "visita": "Dortmund",
-   "tv": "Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Bologna",
-   "visita": "Monza",
-   "tv": "ESPN 2 · Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Udinese",
-   "visita": "Roma",
-   "tv": "Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "AC Milan",
-   "visita": "Inter",
+   "local": "Elche",
+   "visita": "Valencia",
    "tv": "ESPN 3 · Disney+ Premium",
    "verificado": "2_fuentes"
   },
   {
-   "local": "Troyes",
-   "visita": "Le Mans",
+   "local": "Athletic Club",
+   "visita": "Real Sociedad",
+   "tv": "DSports · DGO",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Liverpool",
+   "visita": "Arsenal",
+   "tv": "ESPN · Disney+ Premium",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Como",
+   "visita": "Venezia",
    "tv": "Disney+ Premium",
    "verificado": "2_fuentes"
   },
   {
-   "local": "Coritiba",
-   "visita": "Vitória",
-   "tv": "Fanatiz",
+   "local": "Lazio",
+   "visita": "Cagliari",
+   "tv": "Disney+ Premium",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Frosinone",
+   "visita": "Torino",
+   "tv": "Disney+ Premium",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Lecce",
+   "visita": "Genoa",
+   "tv": "Disney+ Premium",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Juventus",
+   "visita": "Napoli",
+   "tv": "ESPN 3 · Disney+ Premium",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Union Berlin",
+   "visita": "Köln",
+   "tv": "Disney+ Premium",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Frankfurt",
+   "visita": "Hamburg",
+   "tv": "Disney+ Premium",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Strasbourg",
+   "visita": "Auxerre",
+   "tv": "Disney+ Premium",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Lyon",
+   "visita": "Angers",
+   "tv": "Disney+ Premium",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Paris FC",
+   "visita": "Monaco",
+   "tv": "Disney+ Premium",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Marseille",
+   "visita": "Toulouse",
+   "tv": "Disney+ Premium",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Boca Juniors",
+   "visita": "River Plate",
+   "tv": "ESPN 2 · Disney+ Premium",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Newell's",
+   "visita": "Unión",
+   "tv": "Disney+ Premium",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Palmeiras",
+   "visita": "Vasco da Gama",
+   "tv": "DSports · DGO",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Grêmio",
+   "visita": "Atlético-MG",
+   "tv": "DSports · DGO",
    "verificado": "2_fuentes"
   }
  ],
  "conflictos": [
   {
-   "local": "Bayern",
-   "visita": "Dortmund",
-   "detalle": "Solo se publica Disney+ Premium: Fútbol en Vivo Chile dice ESPN 5, RPP dice ESPN, La República solo Disney+ Premium"
+   "local": "Getafe",
+   "visita": "Sevilla",
+   "detalle": "Solo se publica Disney+ Premium: Fútbol en Vivo Chile dice ESPN, Líbero dice ESPN 2"
   },
   {
-   "local": "Udinese",
-   "visita": "Roma",
-   "detalle": "Solo se publica Disney+ Premium: Fútbol en Vivo Chile dice ESPN 2, RPP dice ESPN 5, La República dice ESPN"
+   "local": "Como",
+   "visita": "Venezia",
+   "detalle": "Solo se publica Disney+ Premium: Fútbol en Vivo Chile dice ESPN 3, Líbero dice ESPN"
   },
   {
-   "local": "Dep. Riestra",
-   "visita": "Talleres",
-   "detalle": "Fútbol en Vivo Chile dice Fanatiz · TyC Sports Internacional; El Comercio dice ESPN Premium · Disney+"
+   "local": "Belgrano",
+   "visita": "Barracas Central",
+   "detalle": "Fútbol en Vivo Chile dice Fanatiz · TyC Sports Internacional; Líbero dice TNT Sports"
   },
   {
-   "local": "Vélez",
-   "visita": "San Lorenzo",
-   "detalle": "Fútbol en Vivo Chile dice Fanatiz · TyC Sports Internacional; El Comercio dice TNT Sports · Max"
-  },
-  {
-   "local": "Estudiantes",
-   "visita": "Instituto",
-   "detalle": "Fútbol en Vivo Chile dice Fanatiz · TyC Sports Internacional; El Comercio dice ESPN Premium · Disney+"
+   "local": "Lanús",
+   "visita": "Gimnasia Mendoza",
+   "detalle": "Fútbol en Vivo Chile dice Fanatiz · TyC Sports Internacional; Líbero dice TNT Sports"
   }
  ]
 }
