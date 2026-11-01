@@ -352,7 +352,8 @@ def tabla_fotmob(liga):
         if dg is None and isinstance(f.get("scoresStr"), str) and "-" in f["scoresStr"]:
             a, b = f["scoresStr"].split("-")[:2]
             dg = int(a) - int(b)
-        out.append({"equipo": f.get("shortName") or f.get("name"), "pj": f.get("played"), "dg": dg,
+        out.append({"equipo": f.get("shortName") or f.get("name"), "largo": f.get("name") or "",
+                    "pj": f.get("played"), "dg": dg,
                     "pts": f.get("pts"), "pos": f.get("idx") or i + 1})
     return out
 
@@ -374,10 +375,14 @@ def tabla_verificada(liga):
         return None, "falta una de las dos tablas"
     if len(es) != len(fm):
         return None, f"cantidad de equipos distinta ESPN {len(es)} / FotMob {len(fm)}"
+    libres = list(fm)
     for f in es:
-        g = next((x for x in fm if _mismo_equipo(x["equipo"] or "", f["equipo"])), None)
-        if not g:
+        puntos = [(max(_parecido(x["equipo"] or "", f["equipo"]), _parecido(x.get("largo", ""), f["equipo"])), i)
+                  for i, x in enumerate(libres)]
+        mejor = max(puntos, default=(0, None))
+        if mejor[0] < 0.6:
             return None, f"{f['equipo']} no está en FotMob"
+        g = libres.pop(mejor[1])
         if (g["pts"], g["pj"]) != (f["pts"], f["pj"]):
             return None, f"{f['equipo']}: ESPN {f['pts']} pts/{f['pj']} PJ, FotMob {g['pts']} pts/{g['pj']} PJ"
     return es, None
@@ -603,6 +608,23 @@ def fotmob_dia(fecha):
 
 
 _RELLENO = {"de", "del", "la", "el", "fc", "cf", "cd", "sc", "afc", "club", "ca", "sd", "ud"}
+
+
+def _parecido(a, b):
+    """0 a 1: qué tan seguro es que a y b son el mismo club."""
+    import difflib
+    a, b = slug(a), slug(b)
+    if not a or not b:
+        return 0.0
+    if a == b:
+        return 1.0
+    ta = [t for t in a.split("-") if t not in _RELLENO]
+    tb = [t for t in b.split("-") if t not in _RELLENO]
+    if ta and len(ta) == len(tb) and all(x.startswith(y) or y.startswith(x) for x, y in zip(ta, tb)):
+        return 0.95
+    if a in b or b in a:
+        return 0.9
+    return difflib.SequenceMatcher(None, a, b).ratio() * 0.85
 
 
 def _mismo_equipo(a, b):
