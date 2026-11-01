@@ -3325,5 +3325,27 @@
   "enviado": true,
   "ig_id": "18101952461185828",
   "publicado": "2026-11-01T16:16:16+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "ita.1:401874983",
+  "creado": "2026-11-01T13:25:43-03:00",
+  "archivos": [
+   "historias/img/2026-11-01/ita1-lazio-cagliari.png"
+  ],
+  "titulo": "Lazio 2–1 Cagliari",
+  "liga": "ita.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "fra.1:401876414",
+  "creado": "2026-11-01T13:25:43-03:00",
+  "archivos": [
+   "historias/img/2026-11-01/fra1-strasbourg-aj-auxerre.png"
+  ],
+  "titulo": "Strasbourg 5–1 AJ Auxerre",
+  "liga": "fra.1",
+  "enviado": false
  }
 ]

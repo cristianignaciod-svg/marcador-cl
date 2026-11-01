@@ -1,24 +1,31 @@
 [
  {
-  "id": "ita1-frosinone-torino",
+  "id": "ita1-lazio-cagliari",
   "liga": "ita.1",
   "fase": "",
   "fecha": "2026-11-01",
-  "local": "Frosinone",
-  "visita": "Torino",
+  "local": "Lazio",
+  "visita": "Cagliari",
   "gl": 2,
-  "gv": 0,
+  "gv": 1,
   "goles": [
    {
-    "min": "48'",
-    "jugador": "Farès Ghedjemis",
+    "min": "20'",
+    "jugador": "M'Bala Nzola",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "36'",
+    "jugador": "Gustav Isaksen",
     "lado": "local",
     "penal": false,
     "autogol": false
    },
    {
-    "min": "90+3'",
-    "jugador": "Giacomo Calo",
+    "min": "83'",
+    "jugador": "Andrea Pinamonti",
     "lado": "local",
     "penal": false,
     "autogol": false
@@ -26,26 +33,114 @@
   ],
   "tarjetas": [
    {
-    "min": "27'",
-    "jugador": "Zakaria Aboukhlal",
+    "min": "59'",
+    "jugador": "Jacopo Fazzini",
     "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "33'",
-    "jugador": "Gvidas Gineitis",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "62'",
-    "jugador": "Patrizio Masini",
-    "lado": "local",
     "tipo": "amarilla"
    },
    {
     "min": "66'",
-    "jugador": "Saúl Coco",
+    "jugador": "Juan Rodríguez",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "84'",
+    "jugador": "Andrea Pinamonti",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+1'",
+    "jugador": "Adam Obert",
+    "lado": "visita",
+    "tipo": "doble"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "fra1-strasbourg-aj-auxerre",
+  "liga": "fra.1",
+  "fase": "",
+  "fecha": "2026-11-01",
+  "local": "Strasbourg",
+  "visita": "AJ Auxerre",
+  "gl": 5,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "41'",
+    "jugador": "Dário Essugo",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "55'",
+    "jugador": "Martial Godo",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "62'",
+    "jugador": "Conrad Harder",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "68'",
+    "jugador": "Cameron Archer",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "77'",
+    "jugador": "Gessime Yassine",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "85'",
+    "jugador": "Gessime Yassine",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "39'",
+    "jugador": "Lamine Sy",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "60'",
+    "jugador": "Christ Makosso",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "72'",
+    "jugador": "Paul Nardi",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "74'",
+    "jugador": "Lamfia Dioubaté",
+    "lado": "visita",
+    "tipo": "roja"
+   },
+   {
+    "min": "87'",
+    "jugador": "Romain Faivre",
     "lado": "visita",
     "tipo": "amarilla"
    }
