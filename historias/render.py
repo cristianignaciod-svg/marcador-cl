@@ -496,8 +496,8 @@ def main():
                 continue
             if p.get("tipo") == "resumen":
                 ps = p["partidos"]
-                n = (len(ps) + 9) // 10
-                tam = -(-len(ps) // n)
+                n = (len(ps) + 9) // 10 if ps else 0
+                tam = -(-len(ps) // n) if n else 0
                 for i in range(n):
                     render(pg, html_resumen(p, ps[i * tam:(i + 1) * tam], i + 1, n),
                            os.path.join(d, f'{p["id"]}-{i + 1}.png'), 1080, 1350)
