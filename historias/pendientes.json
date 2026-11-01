@@ -1,24 +1,38 @@
 [
  {
-  "id": "fra1-lyon-angers",
+  "id": "fra1-paris-fc-as-monaco",
   "liga": "fra.1",
   "fase": "",
   "fecha": "2026-11-01",
-  "local": "Lyon",
-  "visita": "Angers",
-  "gl": 2,
-  "gv": 0,
+  "local": "Paris FC",
+  "visita": "AS Mónaco",
+  "gl": 3,
+  "gv": 1,
   "goles": [
    {
     "min": "38'",
-    "jugador": "Ernest Nuamah",
+    "jugador": "Lassine Sinayoko",
     "lado": "local",
     "penal": false,
     "autogol": false
    },
    {
-    "min": "86'",
-    "jugador": "Corentin Tolisso",
+    "min": "44'",
+    "jugador": "Lassine Sinayoko",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "65'",
+    "jugador": "Folarin Balogun",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "74'",
+    "jugador": "Pablo Pagis",
     "lado": "local",
     "penal": false,
     "autogol": false
@@ -26,9 +40,27 @@
   ],
   "tarjetas": [
    {
-    "min": "88'",
-    "jugador": "Jordan Lefort",
+    "min": "68'",
+    "jugador": "Vanderson",
     "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "85'",
+    "jugador": "Hamari Traoré",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "88'",
+    "jugador": "Lamine Camara",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "88'",
+    "jugador": "Pablo Pagis",
+    "lado": "local",
     "tipo": "amarilla"
    }
   ],

@@ -3416,5 +3416,16 @@
   "enviado": true,
   "ig_id": "18202116052381417",
   "publicado": "2026-11-01T18:40:45+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "fra.1:401876415",
+  "creado": "2026-11-01T15:50:19-03:00",
+  "archivos": [
+   "historias/img/2026-11-01/fra1-paris-fc-as-monaco.png"
+  ],
+  "titulo": "Paris FC 3–1 AS Mónaco",
+  "liga": "fra.1",
+  "enviado": false
  }
 ]
