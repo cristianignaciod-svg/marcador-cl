@@ -284,7 +284,115 @@ def fotmob_detalle(mid):
     return goles, tarjetas, anulados, data
 
 
-def primera_b_resumen(hoy, ahora, resumenes, pendientes, cola):
+FM_LIGA = {"esp.1": 87, "eng.1": 47, "chi.1": 273, "chi.pb": 9126}
+CON_TABLA = set(FM_LIGA)
+
+
+def _stat(entry, *nombres):
+    for st in entry.get("stats", []):
+        if st.get("name") in nombres or st.get("type") in nombres or st.get("abbreviation") in nombres:
+            try:
+                return int(float(st.get("value")))
+            except (TypeError, ValueError):
+                pass
+    return None
+
+
+def tabla_espn(liga):
+    data = get(f"https://site.web.api.espn.com/apis/v2/sports/soccer/{liga}/standings?lang=es&region=cl")
+    grupos = data.get("children") or [data]
+    entradas = []
+    for g in grupos:
+        entradas += (g.get("standings") or {}).get("entries", [])
+    filas = []
+    for e in entradas:
+        filas.append({"equipo": nombre(e.get("team", {})), "pj": _stat(e, "gamesPlayed", "GP"),
+                      "dg": _stat(e, "pointDifferential", "GD"), "pts": _stat(e, "points", "P"),
+                      "pos": _stat(e, "rank", "R")})
+    filas = [f for f in filas if f["pts"] is not None]
+    filas.sort(key=lambda f: (f["pos"] if f["pos"] else 99, -f["pts"]))
+    for i, f in enumerate(filas):
+        f["pos"] = f["pos"] or i + 1
+    return filas
+
+
+def _buscar_tabla(obj):
+    """Encuentra en el JSON de FotMob la lista de filas de la tabla general."""
+    if isinstance(obj, list) and obj and isinstance(obj[0], dict) and "pts" in obj[0] and "name" in obj[0]:
+        return obj
+    if isinstance(obj, dict):
+        if "all" in obj and isinstance(obj["all"], list) and obj["all"] and "pts" in obj["all"][0]:
+            return obj["all"]
+        for v in obj.values():
+            r = _buscar_tabla(v)
+            if r:
+                return r
+    if isinstance(obj, list):
+        for v in obj:
+            r = _buscar_tabla(v)
+            if r:
+                return r
+    return None
+
+
+def tabla_fotmob(liga):
+    data = get(f"https://www.fotmob.com/api/data/leagues?id={FM_LIGA[liga]}&ccode3=CHL")
+    filas = _buscar_tabla(data.get("table", data)) or []
+    out = []
+    for i, f in enumerate(filas):
+        dg = f.get("goalConDiff")
+        if dg is None and isinstance(f.get("scoresStr"), str) and "-" in f["scoresStr"]:
+            a, b = f["scoresStr"].split("-")[:2]
+            dg = int(a) - int(b)
+        out.append({"equipo": f.get("shortName") or f.get("name"), "pj": f.get("played"), "dg": dg,
+                    "pts": f.get("pts"), "pos": f.get("idx") or i + 1})
+    return out
+
+
+def tabla_verificada(liga):
+    """Tabla de posiciones comparada entre ESPN y FotMob. Devuelve (filas, problema).
+    Primera B: solo FotMob (ESPN no la cubre)."""
+    try:
+        fm = tabla_fotmob(liga)
+    except Exception as ex:
+        fm, DIAG["errores"] = [], DIAG["errores"] + [f"tabla FotMob {liga}: {str(ex)[:100]}"]
+    if liga == "chi.pb":
+        return (fm, None) if fm else (None, "FotMob sin tabla")
+    try:
+        es = tabla_espn(liga)
+    except Exception as ex:
+        es, DIAG["errores"] = [], DIAG["errores"] + [f"tabla ESPN {liga}: {str(ex)[:100]}"]
+    if not es or not fm:
+        return None, "falta una de las dos tablas"
+    if len(es) != len(fm):
+        return None, f"cantidad de equipos distinta ESPN {len(es)} / FotMob {len(fm)}"
+    for f in es:
+        g = next((x for x in fm if _mismo_equipo(x["equipo"] or "", f["equipo"])), None)
+        if not g:
+            return None, f"{f['equipo']} no está en FotMob"
+        if (g["pts"], g["pj"]) != (f["pts"], f["pj"]):
+            return None, f"{f['equipo']}: ESPN {f['pts']} pts/{f['pj']} PJ, FotMob {g['pts']} pts/{g['pj']} PJ"
+    return es, None
+
+
+def tabla_para_resumen(liga, clave, ahora, espera, max_espera=60):
+    """Devuelve (tabla|None, esperar). Espera hasta 60 min a que ambas fuentes se actualicen."""
+    if liga not in CON_TABLA:
+        return None, False
+    filas, prob = tabla_verificada(liga)
+    k = "tabla:" + clave
+    if filas:
+        espera.pop(k, None)
+        return filas, False
+    DIAG.setdefault("tablas", {})[clave] = prob
+    desde = dt.datetime.fromisoformat(espera.setdefault(k, ahora.isoformat(timespec="seconds")))
+    if ahora - desde < dt.timedelta(minutes=max_espera):
+        return None, True
+    espera.pop(k, None)
+    return None, False  # pasado el plazo: resumen sin tabla
+
+
+def primera_b_resumen(hoy, ahora, resumenes, pendientes, cola, espera):
     """Resumen de fecha de la Primera B (FotMob): bloque de días seguidos con todos los partidos terminados."""
     partidos = []
     for k in range(-5, 4):
@@ -345,11 +453,17 @@ def primera_b_resumen(hoy, ahora, resumenes, pendientes, cola):
         rango = (f"{ini.day} al {fin.day} de {MESES[fin.month - 1]}" if ini.month == fin.month
                  else f"{ini.day} de {MESES[ini.month - 1]} al {fin.day} de {MESES[fin.month - 1]}")
         rid = f"chipb-{ini:%Y%m%d}"
-        pendientes.append({"tipo": "resumen", "id": rid, "liga": "chi.pb", "fase": fase, "fecha": fin.isoformat(),
-                           "rango": rango, "partidos": filas})
+        tabla, esperar = tabla_para_resumen("chi.pb", clave, ahora, espera)
+        if esperar:
+            continue
+        r = {"tipo": "resumen", "id": rid, "liga": "chi.pb", "fase": fase, "fecha": fin.isoformat(),
+             "rango": rango, "partidos": filas}
+        if tabla:
+            r["tabla"] = tabla
+        pendientes.append(r)
         resumenes.add(clave)
         cola.append({"tipo": "resumen", "clave": clave, "creado": ahora.isoformat(timespec="seconds"),
-                     "archivos": [f"historias/img/{fin.isoformat()}/{rid}-1.png"],
+                     "archivos": [f"historias/img/{fin.isoformat()}/{rid}-{i + 1}.png" for i in range(2 if tabla else 1)],
                      "titulo": f"Primera B {fase or rango}", "liga": "chi.pb", "fase": fase, "rango": rango,
                      "partidos": filas, "enviado": False})
 
@@ -594,6 +708,21 @@ def revisar_antes(p, clave, ahora, espera, max_espera=45):
 
 
 def main():
+    if os.environ.get("DEBUG_TABLA"):
+        out = {}
+        for lg in CON_TABLA:
+            try:
+                fm = tabla_fotmob(lg)
+            except Exception as ex:
+                fm = str(ex)
+            try:
+                es = tabla_espn(lg) if lg != "chi.pb" else None
+            except Exception as ex:
+                es = str(ex)
+            out[lg] = {"verificada": tabla_verificada(lg)[1] or "OK", "espn": es, "fotmob": fm}
+        os.makedirs(os.path.join(BASE, "debug"), exist_ok=True)
+        guardar("debug/tablas.json", out)
+        return
     if os.environ.get("DEBUG_FM_ID"):
         mid = os.environ["DEBUG_FM_ID"]
         g, t, a, raw = fotmob_detalle(mid)
@@ -705,11 +834,16 @@ def main():
             if ini == fin:
                 rango = f"{fin.day} de {MESES[fin.month - 1]}"
             rid = f"{liga.replace('.', '')}-{ini:%Y%m%d}"
+            tabla, esperar = tabla_para_resumen(liga, clave, ahora, espera)
+            if esperar:
+                continue  # la tabla aún no coincide entre fuentes: se reintenta en la próxima pasada
             r = {"tipo": "resumen", "id": rid, "liga": liga, "fase": fase, "fecha": fin.isoformat(),
                  "rango": rango, "partidos": filas}
+            if tabla:
+                r["tabla"] = tabla
             pendientes.append(r)
             resumenes.add(clave)
-            n = (len(filas) + 9) // 10
+            n = (len(filas) + 9) // 10 + (1 if tabla else 0)
             cola.append({"tipo": "resumen", "clave": clave, "creado": ahora.isoformat(timespec="seconds"),
                          "archivos": [f"historias/img/{fin.isoformat()}/{rid}-{i + 1}.png" for i in range(n)],
                          "titulo": f"{liga} {fase or rango}".strip(), "liga": liga, "fase": fase, "rango": rango,
@@ -743,7 +877,7 @@ def main():
                      "titulo": f"{p['local']} {p['gl']}–{p['gv']} {p['visita']}", "liga": "chi.pb",
                      "sin_goleadores": not goles and p["gl"] + p["gv"] > 0, "enviado": False})
 
-    primera_b_resumen(hoy, ahora, resumenes, pendientes, cola)
+    primera_b_resumen(hoy, ahora, resumenes, pendientes, cola, espera)
     agenda_del_dia(ahora, publicados, pendientes, cola)
 
     guardar("espera.json", espera)

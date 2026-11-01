@@ -9,6 +9,10 @@ on:
         description: "ID de partido FotMob para probar el detalle (opcional)"
         required: false
         default: ""
+      debug_tabla:
+        description: "Probar tablas de posiciones (si/no)"
+        required: false
+        default: ""
       verificar:
         description: "Solo verificar la conexión con Instagram (si/no)"
         required: false
@@ -32,6 +36,7 @@ jobs:
       - name: Buscar partidos terminados
         env:
           DEBUG_FM_ID: ${{ github.event.inputs.debug_fm }}
+          DEBUG_TABLA: ${{ github.event.inputs.debug_tabla }}
         run: python3 historias/buscar.py
 
       - name: Revisar si hay imágenes por generar
