@@ -3481,5 +3481,16 @@
   "enviado": true,
   "ig_id": "17965212465226527",
   "publicado": "2026-11-01T19:49:29+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "chi.1:401850682",
+  "creado": "2026-11-01T16:59:03-03:00",
+  "archivos": [
+   "historias/img/2026-11-01/chi1-cobresal-everton-cd.png"
+  ],
+  "titulo": "Cobresal 2–2 Everton CD",
+  "liga": "chi.1",
+  "enviado": false
  }
 ]

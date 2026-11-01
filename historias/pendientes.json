@@ -1,52 +1,65 @@
 [
  {
-  "id": "ita1-lecce-genova",
-  "liga": "ita.1",
+  "id": "chi1-cobresal-everton-cd",
+  "liga": "chi.1",
   "fase": "",
   "fecha": "2026-11-01",
-  "local": "Lecce",
-  "visita": "Génova",
-  "gl": 1,
+  "local": "Cobresal",
+  "visita": "Everton CD",
+  "gl": 2,
   "gv": 2,
   "goles": [
    {
-    "min": "11'",
-    "jugador": "Milutin Osmajic",
-    "lado": "visita",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "28'",
-    "jugador": "Junior Messias",
-    "lado": "visita",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "40'",
-    "jugador": "Youssef Maleh",
+    "min": "59'",
+    "jugador": "Juan Eduardo Fuentes",
     "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "72'",
+    "jugador": "Julián Brea",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "90+5'",
+    "jugador": "Hugo Magallanes",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "90+6'",
+    "jugador": "Josue Ovalle",
+    "lado": "visita",
     "penal": false,
     "autogol": false
    }
   ],
   "tarjetas": [
    {
-    "min": "59'",
-    "jugador": "Mohamed Kaba",
+    "min": "32'",
+    "jugador": "Christian Moreno",
     "lado": "local",
     "tipo": "amarilla"
    },
    {
-    "min": "62'",
-    "jugador": "Hamed Traoré",
+    "min": "35'",
+    "jugador": "Janpol Morales",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "63'",
+    "jugador": "Joaquin Moya",
     "lado": "visita",
     "tipo": "amarilla"
    },
    {
-    "min": "70'",
-    "jugador": "Jamil Siebert",
+    "min": "88'",
+    "jugador": "Juan Eduardo Fuentes",
     "lado": "local",
     "tipo": "amarilla"
    }
