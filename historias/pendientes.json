@@ -1,1 +1,38 @@
-[]
+[
+ {
+  "id": "arg1-lanus-gimnasia-mendoza",
+  "liga": "arg.1",
+  "fase": "",
+  "fecha": "2026-11-01",
+  "local": "Lanús",
+  "visita": "Gimnasia (Mendoza)",
+  "gl": 1,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "45+4'",
+    "jugador": "Gonzalo Lobos",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "72'",
+    "jugador": "Raúl Loaiza",
+    "lado": "visita",
+    "penal": false,
+    "autogol": true
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "44'",
+    "jugador": "Nahuel Barboza",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]
