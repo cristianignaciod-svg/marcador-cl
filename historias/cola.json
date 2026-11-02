@@ -3556,7 +3556,9 @@
   ],
   "titulo": "Belgrano (Córdoba) 2–2 Barracas Central",
   "liga": "arg.1",
-  "enviado": false
+  "enviado": false,
+  "error": "400 {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,131,333,269,759,825 cannot be found.\",\"fbtrace_id\":\"Ac58RvL6VwGH55Vsv7kBzyG\"}}",
+  "intentos": 1
  },
  {
   "tipo": "historia",
@@ -3567,6 +3569,8 @@
   ],
   "titulo": "Newell's Old Boys 1–1 Unión (Santa Fe)",
   "liga": "arg.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17908732515566221",
+  "publicado": "2026-11-02T00:07:17+00:00"
  }
 ]
