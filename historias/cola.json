@@ -3546,5 +3546,27 @@
   "enviado": true,
   "ig_id": "18202004647384762",
   "publicado": "2026-11-01T22:13:49+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "arg.1:401841645",
+  "creado": "2026-11-01T21:06:55-03:00",
+  "archivos": [
+   "historias/img/2026-11-01/arg1-belgrano-cordoba-barracas-central.png"
+  ],
+  "titulo": "Belgrano (Córdoba) 2–2 Barracas Central",
+  "liga": "arg.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "arg.1:401841650",
+  "creado": "2026-11-01T21:06:55-03:00",
+  "archivos": [
+   "historias/img/2026-11-01/arg1-newell-s-old-boys-union-santa-fe.png"
+  ],
+  "titulo": "Newell's Old Boys 1–1 Unión (Santa Fe)",
+  "liga": "arg.1",
+  "enviado": false
  }
 ]
