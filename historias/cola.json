@@ -3556,9 +3556,11 @@
   ],
   "titulo": "Belgrano (Córdoba) 2–2 Barracas Central",
   "liga": "arg.1",
-  "enviado": false,
+  "enviado": true,
   "error": "400 {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,131,333,269,759,825 cannot be found.\",\"fbtrace_id\":\"Ac58RvL6VwGH55Vsv7kBzyG\"}}",
-  "intentos": 1
+  "intentos": 1,
+  "ig_id": "18132945157774812",
+  "publicado": "2026-11-02T00:17:06+00:00"
  },
  {
   "tipo": "historia",
