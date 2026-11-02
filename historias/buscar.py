@@ -285,7 +285,7 @@ def fotmob_detalle(mid):
     return goles, tarjetas, anulados, data
 
 
-FM_LIGA = {"esp.1": 87, "eng.1": 47, "chi.1": 273, "chi.pb": 9126}
+FM_LIGA = {"esp.1": 87, "eng.1": 47, "chi.1": 273, "chi.pb": 9126, "uefa.champions": 42, "uefa.europa": 73}
 CON_TABLA = set(FM_LIGA)
 
 
@@ -389,8 +389,13 @@ def tabla_verificada(liga):
     return es, None
 
 
-def tabla_para_resumen(liga, clave, ahora, espera, max_espera=60):
-    """Devuelve (tabla|None, esperar). Espera hasta 60 min a que ambas fuentes se actualicen."""
+def paginas_tabla(n):
+    return 1 if n <= 20 else -(-n // 18)
+
+
+def tabla_para_resumen(liga, clave, ahora, espera, max_espera=24 * 60):
+    """Devuelve (tabla|None, esperar). Todo resumen sale con tabla: espera a que ESPN y FotMob coincidan
+    (hasta 24 h; pasado eso, el resumen va igual a aprobación pero marcado "sin tabla")."""
     if liga not in CON_TABLA:
         return None, False
     filas, prob = tabla_verificada(liga)
@@ -403,7 +408,8 @@ def tabla_para_resumen(liga, clave, ahora, espera, max_espera=60):
     if ahora - desde < dt.timedelta(minutes=max_espera):
         return None, True
     espera.pop(k, None)
-    return None, False  # pasado el plazo: resumen sin tabla
+    DIAG.setdefault("sin_tabla", []).append(f"{clave}: {prob}")
+    return None, False  # 24 h sin coincidencia: va a aprobación sin tabla (el aviso lo indica)
 
 
 def primera_b_resumen(hoy, ahora, resumenes, pendientes, cola, espera):
@@ -477,7 +483,7 @@ def primera_b_resumen(hoy, ahora, resumenes, pendientes, cola, espera):
         pendientes.append(r)
         resumenes.add(clave)
         cola.append({"tipo": "resumen", "clave": clave, "creado": ahora.isoformat(timespec="seconds"),
-                     "archivos": [f"historias/img/{fin.isoformat()}/{rid}-{i + 1}.png" for i in range(2 if tabla else 1)],
+                     "archivos": [f"historias/img/{fin.isoformat()}/{rid}-{i + 1}.png" for i in range(1 + (paginas_tabla(len(tabla)) if tabla else 0))],
                      "titulo": f"Primera B {fase or rango}", "liga": "chi.pb", "fase": fase, "rango": rango,
                      "partidos": filas, "enviado": False})
 
@@ -883,11 +889,11 @@ def main():
                 r["tabla"] = tabla
             pendientes.append(r)
             resumenes.add(clave)
-            n = (len(filas) + 9) // 10 + (1 if tabla else 0)
+            n = (len(filas) + 9) // 10 + (paginas_tabla(len(tabla)) if tabla else 0)
             cola.append({"tipo": "resumen", "clave": clave, "creado": ahora.isoformat(timespec="seconds"),
                          "archivos": [f"historias/img/{fin.isoformat()}/{rid}-{i + 1}.png" for i in range(n)],
                          "titulo": f"{liga} {fase or rango}".strip(), "liga": liga, "fase": fase, "rango": rango,
-                         "partidos": filas, "enviado": False})
+                         "partidos": filas, "sin_tabla": liga in CON_TABLA and not tabla, "enviado": False})
 
     # Primera B (FotMob): historias solo con marcador; resumen cuando no queden partidos del fin de semana
     pb = primera_b([hoy - dt.timedelta(days=1), hoy])

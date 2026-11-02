@@ -414,11 +414,16 @@ window.ajustar=function(){document.querySelectorAll('.ajusta').forEach(function(
 </script>"""
 
 
-def html_tabla(r):
-    """Imagen 1080x1350 con la tabla de posiciones (última del carrusel del resumen)."""
+def paginas_tabla(n):
+    return 1 if n <= 20 else -(-n // 18)
+
+
+def html_tabla(r, pagina=1, total=1):
+    """Imagen 1080x1350 con la tabla de posiciones (últimas imágenes del carrusel del resumen).
+    Tablas de más de 20 equipos (Champions/Europa League) se dividen en páginas de 18."""
     e = html.escape
     liga = LIGAS.get(r["liga"], (r["liga"], []))[0]
-    filas = r["tabla"]
+    filas = r["tabla"] if total == 1 else r["tabla"][(pagina - 1) * 18: pagina * 18]
     alto = max(38, min(56, int(930 / max(len(filas), 1))))
     fs = 26 if alto >= 46 else 22
     def chip(n):
@@ -430,7 +435,7 @@ def html_tabla(r):
     for i, f in enumerate(filas):
         dg = f.get("dg")
         dgt = "" if dg is None else (f"+{dg}" if dg > 0 else str(dg))
-        lider = "color:#e9a63b" if i == 0 else ""
+        lider = "color:#e9a63b" if str(f.get("pos")) == "1" else ""
         rows += f'''<div style="display:grid;grid-template-columns:52px minmax(0,1fr) 70px 80px 90px;align-items:center;height:{alto}px;border-bottom:1px solid #1f2924;column-gap:12px;font:600 {fs}px Figtree">
   <div style="font:800 {fs+6}px Saira;text-align:center;{lider}">{e(str(f["pos"]))}</div>
   <div style="display:flex;align-items:center;gap:14px;min-width:0">{chip(f["equipo"])}<div class="ajusta" style="min-width:0;white-space:nowrap">{e(f["equipo"])}</div></div>
@@ -451,7 +456,7 @@ html,body{{margin:0;background:#0f1512}}
 <div style="width:1080px;height:1350px;box-sizing:border-box;background:#0f1512;color:#e8eee9;font-family:Figtree;display:flex;flex-direction:column;padding:64px 80px 56px;overflow:hidden">
   <div style="display:flex;justify-content:space-between;align-items:flex-end;gap:24px;padding-bottom:22px;border-bottom:2px solid #2c3830">
     <div style="font:800 56px/0.9 Saira;text-transform:uppercase">Marcador <span style="color:#e9a63b">CL</span></div>
-    <div class="ajusta" style="min-width:0;text-align:right;font:700 20px Figtree;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap">Tabla de posiciones</div>
+    <div class="ajusta" style="min-width:0;text-align:right;font:700 20px Figtree;letter-spacing:.08em;text-transform:uppercase;white-space:nowrap">Tabla de posiciones{(" · " + str(pagina) + "/" + str(total)) if total > 1 else ""}</div>
   </div>
   <div class="ajusta" style="margin-top:26px;font:800 76px/0.95 Saira;text-transform:uppercase;white-space:nowrap">{e(liga)}</div>
   <div style="margin-top:22px">{cab}{rows}</div>
@@ -502,7 +507,9 @@ def main():
                     render(pg, html_resumen(p, ps[i * tam:(i + 1) * tam], i + 1, n),
                            os.path.join(d, f'{p["id"]}-{i + 1}.png'), 1080, 1350)
                 if p.get("tabla"):
-                    render(pg, html_tabla(p), os.path.join(d, f'{p["id"]}-{n + 1}.png'), 1080, 1350)
+                    tt = paginas_tabla(len(p["tabla"]))
+                    for j in range(tt):
+                        render(pg, html_tabla(p, j + 1, tt), os.path.join(d, f'{p["id"]}-{n + j + 1}.png'), 1080, 1350)
             else:
                 render(pg, html_partido(p), os.path.join(d, f'{p["id"]}.png'), 1080, 1920)
         b.close()
