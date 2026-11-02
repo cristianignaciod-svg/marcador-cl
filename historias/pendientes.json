@@ -1,1 +1,90 @@
-[]
+[
+ {
+  "id": "ita1-sassuolo-fiorentina",
+  "liga": "ita.1",
+  "fase": "",
+  "fecha": "2026-11-02",
+  "local": "Sassuolo",
+  "visita": "Fiorentina",
+  "gl": 2,
+  "gv": 4,
+  "goles": [
+   {
+    "min": "25'",
+    "jugador": "Armand Laurienté",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "45+2'",
+    "jugador": "Mateo Pellegrino",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "50'",
+    "jugador": "Alieu Njie",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "65'",
+    "jugador": "Armand Laurienté",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "79'",
+    "jugador": "Franco Mastantuono",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "90+3'",
+    "jugador": "Víctor Valdepeñas",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "40'",
+    "jugador": "Sulemana",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "42'",
+    "jugador": "Radu Dragusin",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "44'",
+    "jugador": "Alieu Njie",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+2'",
+    "jugador": "Wilfried Gnonto",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+5'",
+    "jugador": "Gabriel Kulla",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]

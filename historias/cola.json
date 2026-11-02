@@ -3600,5 +3600,16 @@
   "enviado": true,
   "ig_id": "18038186393902486",
   "publicado": "2026-11-02T12:27:43+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "ita.1:401874963",
+  "creado": "2026-11-02T16:46:27-03:00",
+  "archivos": [
+   "historias/img/2026-11-02/ita1-sassuolo-fiorentina.png"
+  ],
+  "titulo": "Sassuolo 2–4 Fiorentina",
+  "liga": "ita.1",
+  "enviado": false
  }
 ]
