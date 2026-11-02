@@ -3737,10 +3737,12 @@
     "gv": 1
    }
   ],
-  "enviado": false,
+  "enviado": true,
   "texto": "¡Arsenal ganó en Anfield y la Premier arde! 🔥 Liverpool 0-1 Arsenal en el partidazo de la fecha.\nY no fue la única sorpresa: Brighton se llevó los tres puntos del Etihad (Man. City 0-1 Brighton) y Everton pegó en Newcastle (0-1).\nChelsea, en cambio, cumplió y le ganó 2-0 al Man. United en Stamford Bridge.\n¿Cuál fue el resultado que más los sorprendió? 👇\n\n#MarcadorCL #Futbol #PremierLeague #EPL #FutbolInglés",
   "avisado": true,
-  "aprobado": true
+  "aprobado": true,
+  "ig_id": "18098044901467295",
+  "publicado": "2026-11-02T23:10:50+00:00"
  },
  {
   "tipo": "historia",
@@ -3764,6 +3766,8 @@
   ],
   "titulo": "Deportes Limache 2–0 Audax Italiano",
   "liga": "chi.1",
-  "enviado": false
+  "enviado": false,
+  "error": "400 {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,131,555,473,759,825 cannot be found.\",\"fbtrace_id\":\"AMsQ0vmfbF16Fj1h1nndbGd\"}}",
+  "intentos": 1
  }
 ]
