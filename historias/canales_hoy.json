@@ -1,177 +1,68 @@
 {
- "fecha": "2026-11-01",
+ "fecha": "2026-11-02",
  "fuentes": [
-  "https://redgol.cl/internacional/boca-juniors-vs-river-plate-horario-canal-y-donde-ver-en-vivo-el-superclasico-del-futbol-argentino",
+  "https://redgol.cl/campeonato-nacional/programacion-fecha-26-liga-de-primera-2026-agenda-de-partidos-horarios-y-donde-ver-el-futbol-chileno",
   "https://www.futbolenvivochile.com/",
-  "https://www.alairelibre.cl/futbol/campeonato-nacional/partidos-de-hoy-domingo-1-de-noviembre-clasico-universitario-cobresal-everton/",
-  "https://www.pauta.cl/deportes/2026/11/01/universidad-catolica-vs-universidad-de-chile-donde-ver-en-vivo-y-online-el-clasico-universitario.html",
-  "https://www.pauta.cl/deportes/2026/11/01/huachipato-vs-deportes-la-serena-donde-ver-en-vivo-y-online-la-liga-de-primera.html",
-  "https://www.pauta.cl/deportes/2026/11/01/cobresal-vs-everton-donde-ver-en-vivo-y-online-la-liga-de-primera.html",
-  "https://www.t13.cl/noticia/deportes13/boca-vs-river-vivo-hora-donde-ver-superclasico-argentina-31-10-2026",
-  "https://sabesdeportes.com/2026/10/31/liverpool-vs-arsenal-como-ver-en-chile-el-duelo-estelar-de-la-fecha-9-de-premier-league/",
-  "https://bolavip.com/cl/internacional/racing-de-santander-vs-real-madrid-horario-y-donde-ver-en-vivo-y-online-en-chile-por-la-jornada-11-de-la-laliga",
-  "https://libero.pe/futbol-internacional/2026/10/31/partidos-de-hoy-domingo-1-de-noviembre-quienes-juegan-liga-1-premier-league-laliga-1930618"
+  "https://tecache.cl/futbol/deportes-limache-vs-audax-italiano-horario-canal-de-tv-y-donde-ver-el-partido-en-vivo",
+  "https://palestino.cl/previa-liga-de-primera-mercado-libre-2026-fecha-26-deportes-concepcion-vs-palestino/",
+  "https://www.todofutbol.cl/copa-chile/con-el-titulo-en-el-boslillo-colo-colo-va-tambien-por-la-copa-chile-hoy-se-completa-el-partido-con-puerto-montt/",
+  "https://www.cooperativa.cl/noticias/deportes/futbol/copa-chile/cuando-y-donde-ver-la-reanudacion-de-la-revancha-entre-colo-colo-y/2026-10-29/162619.html",
+  "https://goal.com/es-cl/noticias/donde-ver-hoy-en-directo-el-newcastle-united-everton-que-canal-televisa-el-partido-y-donde-se-puede-seguir-en-streaming/bltee957aade548aa22",
+  "https://www.fotmob.com/es/tv-guide/cl/espn",
+  "https://www.fotmob.com/es/tv-guide/cl/espn-5",
+  "https://goal.com/es/noticias/sigue-en-directo-hoy-el-deportivo-de-a-coruna-contra-osasuna-quien-retransmite-el-partido-por-television-y-en-streaming/bltbec8e9f12d785ff4",
+  "https://goal.com/es-cl/noticias/sassuolo-contra-fiorentina-en-directo-hoy-donde-ver-el-partido-por-television-y-en-streaming/blt722c5e54174c1bc8",
+  "https://goal.com/es-cl/noticias/mira-el-atalanta-parma-calcio-1913-en-directo-hoy-quien-retransmite-el-partido-por-television-y-en-streaming/blt03e4f77abe5620ed"
  ],
  "partidos": [
   {
-   "local": "Huachipato",
-   "visita": "La Serena",
+   "local": "Deportes Limache",
+   "visita": "Audax Italiano",
+   "tv": "TNT Sports · HBO Max",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Colo-Colo",
+   "visita": "Deportes Puerto Montt",
    "tv": "TNT Sports Premium · HBO Max",
    "verificado": "2_fuentes"
   },
   {
-   "local": "U. Católica",
-   "visita": "U. de Chile",
+   "local": "Deportes Concepción",
+   "visita": "Palestino",
    "tv": "TNT Sports Premium · HBO Max",
    "verificado": "2_fuentes"
   },
   {
-   "local": "Cobresal",
+   "local": "Newcastle",
    "visita": "Everton",
-   "tv": "Canal 13 · TNT Sports Premium · HBO Max",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Getafe",
-   "visita": "Sevilla",
-   "tv": "Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Racing Santander",
-   "visita": "Real Madrid",
-   "tv": "DSports · DGO",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Elche",
-   "visita": "Valencia",
-   "tv": "ESPN 3 · Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Athletic Club",
-   "visita": "Real Sociedad",
-   "tv": "DSports · DGO",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Liverpool",
-   "visita": "Arsenal",
    "tv": "ESPN · Disney+ Premium",
    "verificado": "2_fuentes"
   },
   {
-   "local": "Como",
-   "visita": "Venezia",
+   "local": "Deportivo La Coruña",
+   "visita": "Osasuna",
    "tv": "Disney+ Premium",
    "verificado": "2_fuentes"
   },
   {
-   "local": "Lazio",
-   "visita": "Cagliari",
+   "local": "Sassuolo",
+   "visita": "Fiorentina",
    "tv": "Disney+ Premium",
    "verificado": "2_fuentes"
   },
   {
-   "local": "Frosinone",
-   "visita": "Torino",
+   "local": "Atalanta",
+   "visita": "Parma",
    "tv": "Disney+ Premium",
    "verificado": "2_fuentes"
   },
   {
-   "local": "Lecce",
-   "visita": "Genoa",
-   "tv": "Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Juventus",
-   "visita": "Napoli",
-   "tv": "ESPN 3 · Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Union Berlin",
-   "visita": "Köln",
-   "tv": "Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Frankfurt",
-   "visita": "Hamburg",
-   "tv": "Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Strasbourg",
-   "visita": "Auxerre",
-   "tv": "Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Lyon",
-   "visita": "Angers",
-   "tv": "Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Paris FC",
-   "visita": "Monaco",
-   "tv": "Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Marseille",
-   "visita": "Toulouse",
-   "tv": "Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Boca Juniors",
-   "visita": "River Plate",
-   "tv": "ESPN 2 · Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Newell's",
-   "visita": "Unión",
-   "tv": "Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Palmeiras",
-   "visita": "Vasco da Gama",
-   "tv": "DSports · DGO",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Grêmio",
-   "visita": "Atlético-MG",
-   "tv": "DSports · DGO",
+   "local": "Platense",
+   "visita": "Central Córdoba",
+   "tv": "ESPN 5",
    "verificado": "2_fuentes"
   }
  ],
- "conflictos": [
-  {
-   "local": "Getafe",
-   "visita": "Sevilla",
-   "detalle": "Solo se publica Disney+ Premium: Fútbol en Vivo Chile dice ESPN, Líbero dice ESPN 2"
-  },
-  {
-   "local": "Como",
-   "visita": "Venezia",
-   "detalle": "Solo se publica Disney+ Premium: Fútbol en Vivo Chile dice ESPN 3, Líbero dice ESPN"
-  },
-  {
-   "local": "Belgrano",
-   "visita": "Barracas Central",
-   "detalle": "Fútbol en Vivo Chile dice Fanatiz · TyC Sports Internacional; Líbero dice TNT Sports"
-  },
-  {
-   "local": "Lanús",
-   "visita": "Gimnasia Mendoza",
-   "detalle": "Fútbol en Vivo Chile dice Fanatiz · TyC Sports Internacional; Líbero dice TNT Sports"
-  }
- ]
+ "conflictos": []
 }
