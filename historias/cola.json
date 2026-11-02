@@ -3766,8 +3766,10 @@
   ],
   "titulo": "Deportes Limache 2–0 Audax Italiano",
   "liga": "chi.1",
-  "enviado": false,
+  "enviado": true,
   "error": "400 {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,131,555,473,759,825 cannot be found.\",\"fbtrace_id\":\"AMsQ0vmfbF16Fj1h1nndbGd\"}}",
-  "intentos": 1
+  "intentos": 1,
+  "ig_id": "18451047769134843",
+  "publicado": "2026-11-02T23:21:09+00:00"
  }
 ]
