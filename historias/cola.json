@@ -3639,5 +3639,113 @@
   "enviado": true,
   "ig_id": "17992176612099335",
   "publicado": "2026-11-02T22:21:44+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "eng.1:401878762",
+  "creado": "2026-11-02T19:40:57-03:00",
+  "archivos": [
+   "historias/img/2026-11-02/eng1-newcastle-everton.png"
+  ],
+  "titulo": "Newcastle 0–1 Everton",
+  "liga": "eng.1",
+  "enviado": false
+ },
+ {
+  "tipo": "resumen",
+  "clave": "eng.1:2026-10-31",
+  "creado": "2026-11-02T19:40:57-03:00",
+  "archivos": [
+   "historias/img/2026-11-02/eng1-20261031-1.png",
+   "historias/img/2026-11-02/eng1-20261031-2.png"
+  ],
+  "titulo": "eng.1 31 de octubre al 2 de noviembre",
+  "liga": "eng.1",
+  "fase": "",
+  "rango": "31 de octubre al 2 de noviembre",
+  "partidos": [
+   {
+    "dia": "Sáb 31",
+    "local": "Chelsea",
+    "visita": "Man. United",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "dia": "Sáb 31",
+    "local": "Bournemouth",
+    "visita": "Leeds",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "dia": "Sáb 31",
+    "local": "Brentford",
+    "visita": "Nottingham F.",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "dia": "Sáb 31",
+    "local": "Coventry",
+    "visita": "Sunderland",
+    "gl": 3,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 31",
+    "local": "Hull City",
+    "visita": "Ipswich",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "dia": "Sáb 31",
+    "local": "Man. City",
+    "visita": "Brighton",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 31",
+    "local": "Tottenham",
+    "visita": "Crystal Palace",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "dia": "Sáb 31",
+    "local": "Aston Villa",
+    "visita": "Fulham",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "dia": "Dom 1",
+    "local": "Liverpool",
+    "visita": "Arsenal",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "dia": "Lun 2",
+    "local": "Newcastle",
+    "visita": "Everton",
+    "gl": 0,
+    "gv": 1
+   }
+  ],
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "ita.1:401874971",
+  "creado": "2026-11-02T19:40:57-03:00",
+  "archivos": [
+   "historias/img/2026-11-02/ita1-atalanta-parma.png"
+  ],
+  "titulo": "Atalanta 0–3 Parma",
+  "liga": "ita.1",
+  "enviado": false
  }
 ]
