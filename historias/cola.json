@@ -3649,7 +3649,9 @@
   ],
   "titulo": "Newcastle 0–1 Everton",
   "liga": "eng.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17955124968335571",
+  "publicado": "2026-11-02T22:41:21+00:00"
  },
  {
   "tipo": "resumen",
@@ -3746,6 +3748,8 @@
   ],
   "titulo": "Atalanta 0–3 Parma",
   "liga": "ita.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17876461827650203",
+  "publicado": "2026-11-02T22:41:21+00:00"
  }
 ]
