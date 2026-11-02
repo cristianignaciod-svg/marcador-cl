@@ -3587,5 +3587,16 @@
   "enviado": true,
   "ig_id": "17894508258683449",
   "publicado": "2026-11-02T01:51:28+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "agenda:2026-11-02",
+  "creado": "2026-11-02T09:27:12-03:00",
+  "archivos": [
+   "historias/img/2026-11-02/agenda-2026-11-02-1.png"
+  ],
+  "titulo": "Hoy se juega (4 partidos)",
+  "liga": "agenda",
+  "enviado": false
  }
 ]

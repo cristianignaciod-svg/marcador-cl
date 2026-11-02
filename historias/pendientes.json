@@ -1,1 +1,48 @@
-[]
+[
+ {
+  "tipo": "agenda",
+  "id": "agenda-2026-11-02",
+  "fecha": "2026-11-02",
+  "grupos": [
+   {
+    "liga": "chi.1",
+    "partidos": [
+     {
+      "hora": "18:00",
+      "local": "Deportes Limache",
+      "visita": "Audax Italiano",
+      "tv": "TNT Sports · HBO Max"
+     },
+     {
+      "hora": "20:30",
+      "local": "Deportes Concepción",
+      "visita": "Palestino",
+      "tv": "TNT Sports · HBO Max"
+     }
+    ]
+   },
+   {
+    "liga": "esp.1",
+    "partidos": [
+     {
+      "hora": "17:00",
+      "local": "Deportivo",
+      "visita": "Osasuna",
+      "tv": "TNT Sports · HBO Max"
+     }
+    ]
+   },
+   {
+    "liga": "eng.1",
+    "partidos": [
+     {
+      "hora": "17:00",
+      "local": "Newcastle",
+      "visita": "Everton",
+      "tv": "TNT Sports · HBO Max"
+     }
+    ]
+   }
+  ]
+ }
+]
