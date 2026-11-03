@@ -4096,9 +4096,11 @@
   ],
   "titulo": "Feyenoord Rotterdam 0–3 Inter",
   "liga": "uefa.champions",
-  "enviado": false,
+  "enviado": true,
   "error": "400 {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,131,778,019,759,825 cannot be found.\",\"fbtrace_id\":\"AND8Do50MRaSZNQ2sbplTxK\"}}",
-  "intentos": 1
+  "intentos": 1,
+  "ig_id": "18139309801632958",
+  "publicado": "2026-11-03T22:14:01+00:00"
  },
  {
   "tipo": "historia",
