@@ -1,1 +1,93 @@
-[]
+[
+ {
+  "id": "arg1-atletico-tucuman-argentinos-juniors",
+  "liga": "arg.1",
+  "fase": "",
+  "fecha": "2026-11-02",
+  "local": "Atlético Tucumán",
+  "visita": "Argentinos Juniors",
+  "gl": 1,
+  "gv": 2,
+  "goles": [
+   {
+    "min": "30'",
+    "jugador": "Matías Giménez",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "43'",
+    "jugador": "Clever Ferreira",
+    "lado": "visita",
+    "penal": false,
+    "autogol": true
+   },
+   {
+    "min": "86'",
+    "jugador": "Pedro Canelo",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "59'",
+    "jugador": "Francisco Álvarez",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "59'",
+    "jugador": "Franco Paredes",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "59'",
+    "jugador": "Julián Fernández",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "59'",
+    "jugador": "Brayan Cortés",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "60'",
+    "jugador": "Luis Ingolotti",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "83'",
+    "jugador": "Erik Godoy",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "85'",
+    "jugador": "Mateo Mendoza",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+1'",
+    "jugador": "Luciano Vallejo",
+    "lado": "local",
+    "tipo": "doble"
+   },
+   {
+    "min": "90+1'",
+    "jugador": "Lautaro Godoy",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]

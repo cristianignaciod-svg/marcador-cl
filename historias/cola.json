@@ -3980,5 +3980,16 @@
   "aprobado": true,
   "ig_id": "18115623989590620",
   "publicado": "2026-11-03T02:04:20+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "arg.1:401841644",
+  "creado": "2026-11-02T23:14:20-03:00",
+  "archivos": [
+   "historias/img/2026-11-02/arg1-atletico-tucuman-argentinos-juniors.png"
+  ],
+  "titulo": "Atlético Tucumán 1–2 Argentinos Juniors",
+  "liga": "arg.1",
+  "enviado": false
  }
 ]
