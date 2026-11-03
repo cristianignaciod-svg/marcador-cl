@@ -3781,7 +3781,9 @@
   ],
   "titulo": "Defensa y Justicia 1–1 Independiente",
   "liga": "arg.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18639287686047797",
+  "publicado": "2026-11-03T00:09:09+00:00"
  },
  {
   "tipo": "historia",
@@ -3792,6 +3794,8 @@
   ],
   "titulo": "Platense 2–0 Central Córdoba (Santiago del Estero)",
   "liga": "arg.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18133273201684022",
+  "publicado": "2026-11-03T00:09:09+00:00"
  }
 ]
