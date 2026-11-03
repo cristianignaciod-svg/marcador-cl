@@ -1,66 +1,57 @@
 {
- "fecha": "2026-11-02",
+ "fecha": "2026-11-03",
  "fuentes": [
-  "https://redgol.cl/campeonato-nacional/programacion-fecha-26-liga-de-primera-2026-agenda-de-partidos-horarios-y-donde-ver-el-futbol-chileno",
   "https://www.futbolenvivochile.com/",
-  "https://tecache.cl/futbol/deportes-limache-vs-audax-italiano-horario-canal-de-tv-y-donde-ver-el-partido-en-vivo",
-  "https://palestino.cl/previa-liga-de-primera-mercado-libre-2026-fecha-26-deportes-concepcion-vs-palestino/",
-  "https://www.todofutbol.cl/copa-chile/con-el-titulo-en-el-boslillo-colo-colo-va-tambien-por-la-copa-chile-hoy-se-completa-el-partido-con-puerto-montt/",
-  "https://www.cooperativa.cl/noticias/deportes/futbol/copa-chile/cuando-y-donde-ver-la-reanudacion-de-la-revancha-entre-colo-colo-y/2026-10-29/162619.html",
-  "https://goal.com/es-cl/noticias/donde-ver-hoy-en-directo-el-newcastle-united-everton-que-canal-televisa-el-partido-y-donde-se-puede-seguir-en-streaming/bltee957aade548aa22",
+  "https://www.tvn.cl/deportes/futbol-internacional/atletico-madrid-vs-bayern-munich-en-vivo-a-que-hora-y-donde-ver-champions",
+  "https://bolavip.com/cl/champions-league/galatasaray-vs-stuttgart-en-vivo-donde-ver-por-tv-y-streaming-online-por-la-jornada-4-de-la-champions-league",
+  "https://www.prensafutbol.cl/manchester-united-roma-hora-ver-champions/",
   "https://www.fotmob.com/es/tv-guide/cl/espn",
-  "https://www.fotmob.com/es/tv-guide/cl/espn-5",
-  "https://goal.com/es/noticias/sigue-en-directo-hoy-el-deportivo-de-a-coruna-contra-osasuna-quien-retransmite-el-partido-por-television-y-en-streaming/bltbec8e9f12d785ff4",
-  "https://goal.com/es-cl/noticias/sassuolo-contra-fiorentina-en-directo-hoy-donde-ver-el-partido-por-television-y-en-streaming/blt722c5e54174c1bc8",
-  "https://goal.com/es-cl/noticias/mira-el-atalanta-parma-calcio-1913-en-directo-hoy-quien-retransmite-el-partido-por-television-y-en-streaming/blt03e4f77abe5620ed"
+  "https://www.fotmob.com/sv/tv-guide/cl/espn-5",
+  "https://www.fotmob.com/es/tv-guide/cl/espn-4",
+  "https://www.fotmob.com/fr/tv-guide/cl/espn-premium",
+  "https://redgol.cl/apuestas/pronosticos/atletico-de-madrid-vs-bayern-munich-champions-league-03-11-2026"
  ],
  "partidos": [
   {
-   "local": "Deportes Limache",
-   "visita": "Audax Italiano",
-   "tv": "TNT Sports · HBO Max",
+   "local": "Shakhtar",
+   "visita": "Sporting CP",
+   "tv": "ESPN Premium · Disney+ Premium",
    "verificado": "2_fuentes"
   },
   {
-   "local": "Colo-Colo",
-   "visita": "Deportes Puerto Montt",
-   "tv": "TNT Sports Premium · HBO Max",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Deportes Concepción",
-   "visita": "Palestino",
-   "tv": "TNT Sports Premium · HBO Max",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Newcastle",
-   "visita": "Everton",
+   "local": "Galatasaray",
+   "visita": "Stuttgart",
    "tv": "ESPN · Disney+ Premium",
    "verificado": "2_fuentes"
   },
   {
-   "local": "Deportivo La Coruña",
-   "visita": "Osasuna",
-   "tv": "Disney+ Premium",
+   "local": "Atlético Madrid",
+   "visita": "Bayern",
+   "tv": "ESPN 2 · Disney+ Premium",
    "verificado": "2_fuentes"
   },
   {
-   "local": "Sassuolo",
-   "visita": "Fiorentina",
-   "tv": "Disney+ Premium",
+   "local": "Barcelona",
+   "visita": "Aston Villa",
+   "tv": "ESPN 5 · ESPN Premium · Disney+ Premium",
    "verificado": "2_fuentes"
   },
   {
-   "local": "Atalanta",
-   "visita": "Parma",
-   "tv": "Disney+ Premium",
+   "local": "Villarreal",
+   "visita": "PSG",
+   "tv": "ESPN · Disney+ Premium",
    "verificado": "2_fuentes"
   },
   {
-   "local": "Platense",
-   "visita": "Central Córdoba",
-   "tv": "ESPN 5",
+   "local": "Bodø/Glimt",
+   "visita": "Lille",
+   "tv": "ESPN 4 · Disney+ Premium",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Man. United",
+   "visita": "Roma",
+   "tv": "Disney+ Premium",
    "verificado": "2_fuentes"
   }
  ],
