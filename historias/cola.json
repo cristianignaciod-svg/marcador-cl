@@ -4047,5 +4047,163 @@
   "enviado": true,
   "ig_id": "18100969367386706",
   "publicado": "2026-11-03T19:48:09+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915386",
+  "creado": "2026-11-03T19:01:40-03:00",
+  "archivos": [
+   "historias/img/2026-11-03/uefachampions-atletico-bayern.png"
+  ],
+  "titulo": "Atlético 0–2 Bayern",
+  "liga": "uefa.champions",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915387",
+  "creado": "2026-11-03T19:01:40-03:00",
+  "archivos": [
+   "historias/img/2026-11-03/uefachampions-barcelona-aston-villa.png"
+  ],
+  "titulo": "Barcelona 3–0 Aston Villa",
+  "liga": "uefa.champions",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915384",
+  "creado": "2026-11-03T19:01:40-03:00",
+  "archivos": [
+   "historias/img/2026-11-03/uefachampions-bodo-glimt-lille.png"
+  ],
+  "titulo": "Bodo/Glimt 0–0 Lille",
+  "liga": "uefa.champions",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915307",
+  "creado": "2026-11-03T19:01:40-03:00",
+  "archivos": [
+   "historias/img/2026-11-03/uefachampions-feyenoord-rotterdam-inter.png"
+  ],
+  "titulo": "Feyenoord Rotterdam 0–3 Inter",
+  "liga": "uefa.champions",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915385",
+  "creado": "2026-11-03T19:01:40-03:00",
+  "archivos": [
+   "historias/img/2026-11-03/uefachampions-lask-linz-slovan-bratislava.png"
+  ],
+  "titulo": "LASK Linz 4–0 Slovan Bratislava",
+  "liga": "uefa.champions",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915308",
+  "creado": "2026-11-03T19:01:40-03:00",
+  "archivos": [
+   "historias/img/2026-11-03/uefachampions-man-united-as-roma.png"
+  ],
+  "titulo": "Man. United 3–2 AS Roma",
+  "liga": "uefa.champions",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915309",
+  "creado": "2026-11-03T19:01:40-03:00",
+  "archivos": [
+   "historias/img/2026-11-03/uefachampions-villarreal-psg.png"
+  ],
+  "titulo": "Villarreal 0–6 PSG",
+  "liga": "uefa.champions",
+  "enviado": false
+ },
+ {
+  "tipo": "resumen",
+  "clave": "uefa.champions:2026-11-03",
+  "creado": "2026-11-03T19:01:40-03:00",
+  "archivos": [
+   "historias/img/2026-11-03/uefachampions-20261103-1.png",
+   "historias/img/2026-11-03/uefachampions-20261103-2.png",
+   "historias/img/2026-11-03/uefachampions-20261103-3.png"
+  ],
+  "titulo": "uefa.champions 3 de noviembre",
+  "liga": "uefa.champions",
+  "fase": "",
+  "rango": "3 de noviembre",
+  "partidos": [
+   {
+    "dia": "Mar 3",
+    "local": "Galatasaray",
+    "visita": "VfB Stuttgart",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "dia": "Mar 3",
+    "local": "Shakhtar Donetsk",
+    "visita": "Sporting CP",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "dia": "Mar 3",
+    "local": "Atlético",
+    "visita": "Bayern",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "dia": "Mar 3",
+    "local": "Barcelona",
+    "visita": "Aston Villa",
+    "gl": 3,
+    "gv": 0
+   },
+   {
+    "dia": "Mar 3",
+    "local": "Bodo/Glimt",
+    "visita": "Lille",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "dia": "Mar 3",
+    "local": "Feyenoord Rotterdam",
+    "visita": "Inter",
+    "gl": 0,
+    "gv": 3
+   },
+   {
+    "dia": "Mar 3",
+    "local": "LASK Linz",
+    "visita": "Slovan Bratislava",
+    "gl": 4,
+    "gv": 0
+   },
+   {
+    "dia": "Mar 3",
+    "local": "Man. United",
+    "visita": "AS Roma",
+    "gl": 3,
+    "gv": 2
+   },
+   {
+    "dia": "Mar 3",
+    "local": "Villarreal",
+    "visita": "PSG",
+    "gl": 0,
+    "gv": 6
+   }
+  ],
+  "sin_tabla": false,
+  "enviado": false
  }
 ]
