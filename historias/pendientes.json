@@ -1,1 +1,224 @@
-[]
+[
+ {
+  "tipo": "resumen",
+  "id": "esp1-20261030",
+  "liga": "esp.1",
+  "fase": "",
+  "fecha": "2026-11-02",
+  "rango": "30 de octubre al 2 de noviembre",
+  "partidos": [
+   {
+    "dia": "Vie 30",
+    "local": "Villarreal",
+    "visita": "Espanyol",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 31",
+    "local": "Levante",
+    "visita": "Atlético",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "dia": "Sáb 31",
+    "local": "Rayo",
+    "visita": "Celta",
+    "gl": 3,
+    "gv": 0
+   },
+   {
+    "dia": "Sáb 31",
+    "local": "Betis",
+    "visita": "Málaga",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 31",
+    "local": "Barcelona",
+    "visita": "Alavés",
+    "gl": 6,
+    "gv": 1
+   },
+   {
+    "dia": "Dom 1",
+    "local": "Getafe",
+    "visita": "Sevilla",
+    "gl": 3,
+    "gv": 1
+   },
+   {
+    "dia": "Dom 1",
+    "local": "Racing",
+    "visita": "Real Madrid",
+    "gl": 0,
+    "gv": 3
+   },
+   {
+    "dia": "Dom 1",
+    "local": "Elche",
+    "visita": "Valencia",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "dia": "Dom 1",
+    "local": "Athletic",
+    "visita": "Real Sociedad",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "dia": "Lun 2",
+    "local": "Deportivo",
+    "visita": "Osasuna",
+    "gl": 2,
+    "gv": 1
+   }
+  ],
+  "tabla": [
+   {
+    "equipo": "Barcelona",
+    "pj": 11,
+    "dg": 34,
+    "pts": 30,
+    "pos": 1
+   },
+   {
+    "equipo": "Atlético",
+    "pj": 11,
+    "dg": 14,
+    "pts": 28,
+    "pos": 2
+   },
+   {
+    "equipo": "Real Madrid",
+    "pj": 11,
+    "dg": 18,
+    "pts": 27,
+    "pos": 3
+   },
+   {
+    "equipo": "Betis",
+    "pj": 11,
+    "dg": 3,
+    "pts": 23,
+    "pos": 4
+   },
+   {
+    "equipo": "Real Sociedad",
+    "pj": 11,
+    "dg": 0,
+    "pts": 19,
+    "pos": 5
+   },
+   {
+    "equipo": "Sevilla",
+    "pj": 11,
+    "dg": -2,
+    "pts": 17,
+    "pos": 6
+   },
+   {
+    "equipo": "Athletic",
+    "pj": 10,
+    "dg": 4,
+    "pts": 15,
+    "pos": 7
+   },
+   {
+    "equipo": "Deportivo",
+    "pj": 11,
+    "dg": 1,
+    "pts": 14,
+    "pos": 8
+   },
+   {
+    "equipo": "Villarreal",
+    "pj": 11,
+    "dg": 0,
+    "pts": 12,
+    "pos": 9
+   },
+   {
+    "equipo": "Celta",
+    "pj": 11,
+    "dg": 0,
+    "pts": 12,
+    "pos": 10
+   },
+   {
+    "equipo": "Alavés",
+    "pj": 11,
+    "dg": -2,
+    "pts": 12,
+    "pos": 11
+   },
+   {
+    "equipo": "Rayo",
+    "pj": 10,
+    "dg": -5,
+    "pts": 12,
+    "pos": 12
+   },
+   {
+    "equipo": "Getafe",
+    "pj": 11,
+    "dg": -8,
+    "pts": 12,
+    "pos": 13
+   },
+   {
+    "equipo": "Espanyol",
+    "pj": 11,
+    "dg": -1,
+    "pts": 11,
+    "pos": 14
+   },
+   {
+    "equipo": "Osasuna",
+    "pj": 11,
+    "dg": -11,
+    "pts": 11,
+    "pos": 15
+   },
+   {
+    "equipo": "Racing",
+    "pj": 11,
+    "dg": -14,
+    "pts": 11,
+    "pos": 16
+   },
+   {
+    "equipo": "Elche",
+    "pj": 11,
+    "dg": -4,
+    "pts": 10,
+    "pos": 17
+   },
+   {
+    "equipo": "Levante",
+    "pj": 11,
+    "dg": -5,
+    "pts": 10,
+    "pos": 18
+   },
+   {
+    "equipo": "Valencia",
+    "pj": 11,
+    "dg": -9,
+    "pts": 9,
+    "pos": 19
+   },
+   {
+    "equipo": "Málaga",
+    "pj": 11,
+    "dg": -13,
+    "pts": 5,
+    "pos": 20
+   }
+  ]
+ }
+]

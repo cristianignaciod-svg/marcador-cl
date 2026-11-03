@@ -3797,5 +3797,92 @@
   "enviado": true,
   "ig_id": "18133273201684022",
   "publicado": "2026-11-03T00:09:09+00:00"
+ },
+ {
+  "tipo": "resumen",
+  "clave": "esp.1:2026-10-30",
+  "creado": "2026-11-02T22:06:33-03:00",
+  "archivos": [
+   "historias/img/2026-11-02/esp1-20261030-1.png",
+   "historias/img/2026-11-02/esp1-20261030-2.png"
+  ],
+  "titulo": "esp.1 30 de octubre al 2 de noviembre",
+  "liga": "esp.1",
+  "fase": "",
+  "rango": "30 de octubre al 2 de noviembre",
+  "partidos": [
+   {
+    "dia": "Vie 30",
+    "local": "Villarreal",
+    "visita": "Espanyol",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 31",
+    "local": "Levante",
+    "visita": "Atlético",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "dia": "Sáb 31",
+    "local": "Rayo",
+    "visita": "Celta",
+    "gl": 3,
+    "gv": 0
+   },
+   {
+    "dia": "Sáb 31",
+    "local": "Betis",
+    "visita": "Málaga",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 31",
+    "local": "Barcelona",
+    "visita": "Alavés",
+    "gl": 6,
+    "gv": 1
+   },
+   {
+    "dia": "Dom 1",
+    "local": "Getafe",
+    "visita": "Sevilla",
+    "gl": 3,
+    "gv": 1
+   },
+   {
+    "dia": "Dom 1",
+    "local": "Racing",
+    "visita": "Real Madrid",
+    "gl": 0,
+    "gv": 3
+   },
+   {
+    "dia": "Dom 1",
+    "local": "Elche",
+    "visita": "Valencia",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "dia": "Dom 1",
+    "local": "Athletic",
+    "visita": "Real Sociedad",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "dia": "Lun 2",
+    "local": "Deportivo",
+    "visita": "Osasuna",
+    "gl": 2,
+    "gv": 1
+   }
+  ],
+  "sin_tabla": false,
+  "enviado": false
  }
 ]
