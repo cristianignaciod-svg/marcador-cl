@@ -4021,5 +4021,27 @@
   "enviado": true,
   "ig_id": "18138651550734072",
   "publicado": "2026-11-03T12:21:43+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915311",
+  "creado": "2026-11-03T16:47:35-03:00",
+  "archivos": [
+   "historias/img/2026-11-03/uefachampions-galatasaray-vfb-stuttgart.png"
+  ],
+  "titulo": "Galatasaray 2–0 VfB Stuttgart",
+  "liga": "uefa.champions",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915310",
+  "creado": "2026-11-03T16:47:35-03:00",
+  "archivos": [
+   "historias/img/2026-11-03/uefachampions-shakhtar-donetsk-sporting-cp.png"
+  ],
+  "titulo": "Shakhtar Donetsk 0–1 Sporting CP",
+  "liga": "uefa.champions",
+  "enviado": false
  }
 ]
