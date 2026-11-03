@@ -4057,7 +4057,9 @@
   ],
   "titulo": "Atlético 0–2 Bayern",
   "liga": "uefa.champions",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17977416033154712",
+  "publicado": "2026-11-03T22:02:20+00:00"
  },
  {
   "tipo": "historia",
@@ -4068,7 +4070,9 @@
   ],
   "titulo": "Barcelona 3–0 Aston Villa",
   "liga": "uefa.champions",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18641245579034194",
+  "publicado": "2026-11-03T22:02:20+00:00"
  },
  {
   "tipo": "historia",
@@ -4079,7 +4083,9 @@
   ],
   "titulo": "Bodo/Glimt 0–0 Lille",
   "liga": "uefa.champions",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17868023673679713",
+  "publicado": "2026-11-03T22:02:20+00:00"
  },
  {
   "tipo": "historia",
@@ -4090,7 +4096,9 @@
   ],
   "titulo": "Feyenoord Rotterdam 0–3 Inter",
   "liga": "uefa.champions",
-  "enviado": false
+  "enviado": false,
+  "error": "400 {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,131,778,019,759,825 cannot be found.\",\"fbtrace_id\":\"AND8Do50MRaSZNQ2sbplTxK\"}}",
+  "intentos": 1
  },
  {
   "tipo": "historia",
@@ -4101,7 +4109,9 @@
   ],
   "titulo": "LASK Linz 4–0 Slovan Bratislava",
   "liga": "uefa.champions",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18059775326562342",
+  "publicado": "2026-11-03T22:02:20+00:00"
  },
  {
   "tipo": "historia",
@@ -4112,7 +4122,9 @@
   ],
   "titulo": "Man. United 3–2 AS Roma",
   "liga": "uefa.champions",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17898363006416462",
+  "publicado": "2026-11-03T22:02:20+00:00"
  },
  {
   "tipo": "historia",
@@ -4123,7 +4135,9 @@
   ],
   "titulo": "Villarreal 0–6 PSG",
   "liga": "uefa.champions",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18137458369660234",
+  "publicado": "2026-11-03T22:02:20+00:00"
  },
  {
   "tipo": "resumen",
