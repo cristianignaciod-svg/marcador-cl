@@ -4031,7 +4031,9 @@
   ],
   "titulo": "Galatasaray 2–0 VfB Stuttgart",
   "liga": "uefa.champions",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18135545083739700",
+  "publicado": "2026-11-03T19:48:09+00:00"
  },
  {
   "tipo": "historia",
@@ -4042,6 +4044,8 @@
   ],
   "titulo": "Shakhtar Donetsk 0–1 Sporting CP",
   "liga": "uefa.champions",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18100969367386706",
+  "publicado": "2026-11-03T19:48:09+00:00"
  }
 ]
