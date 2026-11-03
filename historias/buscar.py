@@ -398,8 +398,18 @@ def tabla_para_resumen(liga, clave, ahora, espera, max_espera=24 * 60):
     (hasta 24 h; pasado eso, el resumen va igual a aprobación pero marcado "sin tabla")."""
     if liga not in CON_TABLA:
         return None, False
-    filas, prob = tabla_verificada(liga)
     k = "tabla:" + clave
+    # desempate manual: si una tercera fuente confirmó a ESPN, se usa la tabla de ESPN
+    if espera.get("usar_espn:" + clave):
+        try:
+            filas = tabla_espn(liga)
+            if filas:
+                espera.pop("usar_espn:" + clave, None)
+                espera.pop(k, None)
+                return filas, False
+        except Exception:
+            pass
+    filas, prob = tabla_verificada(liga)
     if filas:
         espera.pop(k, None)
         return filas, False
