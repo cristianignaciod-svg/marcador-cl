@@ -1,1 +1,97 @@
-[]
+[
+ {
+  "id": "arg1-defensa-y-justicia-independiente",
+  "liga": "arg.1",
+  "fase": "",
+  "fecha": "2026-11-02",
+  "local": "Defensa y Justicia",
+  "visita": "Independiente",
+  "gl": 1,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "38'",
+    "jugador": "Leandro Miguel Fernandez",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "44'",
+    "jugador": "Maximiliano Meza",
+    "lado": "visita",
+    "penal": true,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "24'",
+    "jugador": "Santiago Arias",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "52'",
+    "jugador": "Nahuel Banegas",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "61'",
+    "jugador": "Santiago Montiel",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "68'",
+    "jugador": "Sebastian Valdez",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "71'",
+    "jugador": "Maximiliano Porcel",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "79'",
+    "jugador": "Juan Migue Arrayago",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "arg1-platense-central-cordoba-santiago-del-estero",
+  "liga": "arg.1",
+  "fase": "",
+  "fecha": "2026-11-02",
+  "local": "Platense",
+  "visita": "Central Córdoba (Santiago del Estero)",
+  "gl": 2,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "58'",
+    "jugador": "Guido Mainero",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "74'",
+    "jugador": "Víctor Cuesta",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]
