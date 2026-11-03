@@ -3886,7 +3886,9 @@
   "enviado": false,
   "texto": "¡El Barça no tuvo piedad! 🔥 Goleada 6-1 al Alavés y fin de semana redondo en LaLiga.\nEl Real Madrid también cumplió y le ganó 3-0 al Racing de visita, mientras el Atlético sacó un 2-0 en cancha del Levante.\nOjo con la sorpresa del viernes: el Espanyol se llevó los tres puntos de Villarreal (0-1).\n¿Quién te impresionó más esta fecha? 👇\n\n#MarcadorCL #Futbol #LaLiga #LaLigaEA #FutbolEspañol",
   "avisado": true,
-  "aprobado": true
+  "aprobado": true,
+  "error": "400 {\"error\":{\"message\":\"Media ID is not available\",\"type\":\"OAuthException\",\"code\":9007,\"error_subcode\":2207027,\"is_transient\":false,\"error_user_title\":\"Cannot Publish\",\"error_user_msg\":\"The media is not ready for publishing, please wait for a moment\",\"fbtrace_id\":\"AfxdEcDkI4vWL4_EJa1Nb7J\"}}",
+  "intentos": 1
  },
  {
   "tipo": "historia",
@@ -3972,9 +3974,11 @@
    }
   ],
   "sin_tabla": false,
-  "enviado": false,
+  "enviado": true,
   "texto": "¡Se lo llevó la UC! ⚪🔵 Universidad Católica le ganó 1-0 a la U de Chile en el clásico universitario.\nColo-Colo no se quedó atrás y le pasó por encima a Universidad de Concepción con un 6-1 🔥\nAdemás, Cobresal y Everton empataron 2-2 en un partidazo.\n¿Quién fue la figura de la fecha para ti? 👇\n\n#MarcadorCL #Futbol #CampeonatoNacional #FutbolChileno #LigaDePrimera",
   "avisado": true,
-  "aprobado": true
+  "aprobado": true,
+  "ig_id": "18115623989590620",
+  "publicado": "2026-11-03T02:04:20+00:00"
  }
 ]
