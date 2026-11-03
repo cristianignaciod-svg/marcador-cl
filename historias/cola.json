@@ -3884,5 +3884,89 @@
   ],
   "sin_tabla": false,
   "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "chi.1:401850679",
+  "creado": "2026-11-02T22:35:19-03:00",
+  "archivos": [
+   "historias/img/2026-11-02/chi1-deportes-concepcion-palestino.png"
+  ],
+  "titulo": "Deportes Concepción 1–0 Palestino",
+  "liga": "chi.1",
+  "enviado": false
+ },
+ {
+  "tipo": "resumen",
+  "clave": "chi.1:2026-10-30",
+  "creado": "2026-11-02T22:35:19-03:00",
+  "archivos": [
+   "historias/img/2026-11-02/chi1-20261030-1.png",
+   "historias/img/2026-11-02/chi1-20261030-2.png"
+  ],
+  "titulo": "chi.1 30 de octubre al 2 de noviembre",
+  "liga": "chi.1",
+  "fase": "",
+  "rango": "30 de octubre al 2 de noviembre",
+  "partidos": [
+   {
+    "dia": "Vie 30",
+    "local": "Colo-Colo",
+    "visita": "Universidad de Concepción",
+    "gl": 6,
+    "gv": 1
+   },
+   {
+    "dia": "Vie 30",
+    "local": "Coquimbo Unido",
+    "visita": "Unión La Calera",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "dia": "Sáb 31",
+    "local": "O'Higgins",
+    "visita": "Ñublense",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "dia": "Dom 1",
+    "local": "Huachipato",
+    "visita": "La Serena",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "dia": "Dom 1",
+    "local": "U. Católica",
+    "visita": "U. de Chile",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "dia": "Dom 1",
+    "local": "Cobresal",
+    "visita": "Everton",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "dia": "Lun 2",
+    "local": "Deportes Limache",
+    "visita": "Audax Italiano",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "dia": "Lun 2",
+    "local": "Deportes Concepción",
+    "visita": "Palestino",
+    "gl": 1,
+    "gv": 0
+   }
+  ],
+  "sin_tabla": false,
+  "enviado": false
  }
 ]
