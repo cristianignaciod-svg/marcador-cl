@@ -1,1 +1,79 @@
-[]
+[
+ {
+  "tipo": "agenda",
+  "id": "agenda-2026-11-04",
+  "fecha": "2026-11-04",
+  "grupos": [
+   {
+    "liga": "uefa.champions",
+    "partidos": [
+     {
+      "hora": "14:45",
+      "local": "AEK Athens",
+      "visita": "Real Madrid",
+      "tv": "ESPN · Disney+ Premium"
+     },
+     {
+      "hora": "14:45",
+      "local": "Fenerbahçe",
+      "visita": "Liverpool",
+      "tv": "ESPN · Disney+ Premium"
+     },
+     {
+      "hora": "17:00",
+      "local": "Borussia Dortmund",
+      "visita": "Betis",
+      "tv": "ESPN · Disney+ Premium"
+     },
+     {
+      "hora": "17:00",
+      "local": "FC Porto",
+      "visita": "Napoli",
+      "tv": "ESPN · Disney+ Premium"
+     },
+     {
+      "hora": "17:00",
+      "local": "Lens",
+      "visita": "Como",
+      "tv": "ESPN · Disney+ Premium"
+     },
+     {
+      "hora": "17:00",
+      "local": "PSV Eindhoven",
+      "visita": "Club Brujas",
+      "tv": "ESPN · Disney+ Premium"
+     },
+     {
+      "hora": "17:00",
+      "local": "RB Leipzig",
+      "visita": "Man. City",
+      "tv": "ESPN · Disney+ Premium"
+     },
+     {
+      "hora": "17:00",
+      "local": "Slavia Prague",
+      "visita": "Arsenal",
+      "tv": "ESPN · Disney+ Premium"
+     },
+     {
+      "hora": "17:00",
+      "local": "Viking FK",
+      "visita": "Sabah FK",
+      "tv": "ESPN 5 · ESPN Premium · Disney+ Premium"
+     }
+    ]
+   },
+   {
+    "liga": "uefa.europa",
+    "partidos": [
+     {
+      "hora": "12:30",
+      "local": "Stade Rennais",
+      "visita": "Olympiacos",
+      "tv": "ESPN · Disney+ Premium"
+     }
+    ]
+   }
+  ]
+ }
+]
