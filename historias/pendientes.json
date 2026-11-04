@@ -1,1 +1,89 @@
-[]
+[
+ {
+  "id": "uefachampions-fc-porto-napoli",
+  "liga": "uefa.champions",
+  "fase": "",
+  "fecha": "2026-11-04",
+  "local": "FC Porto",
+  "visita": "Napoli",
+  "gl": 4,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "11'",
+    "jugador": "Jan Bednarek",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "43'",
+    "jugador": "Scott McTominay",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "71'",
+    "jugador": "Gabri Veiga",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "80'",
+    "jugador": "Jakub Kiwior",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "90'",
+    "jugador": "Samu Aghehowa",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "1'",
+    "jugador": "Antonio Vergara",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "21'",
+    "jugador": "Frank Anguissa",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "35'",
+    "jugador": "Amir Rrahmani",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "36'",
+    "jugador": "Scott McTominay",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "45+2'",
+    "jugador": "Gabri Veiga",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "88'",
+    "jugador": "Rafa Marín",
+    "lado": "visita",
+    "tipo": "roja"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]
