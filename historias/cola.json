@@ -4240,5 +4240,16 @@
   "enviado": true,
   "ig_id": "18370087678301427",
   "publicado": "2026-11-04T12:21:53+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915551",
+  "creado": "2026-11-04T14:36:53-03:00",
+  "archivos": [
+   "historias/img/2026-11-04/uefaeuropa-stade-rennais-olympiacos.png"
+  ],
+  "titulo": "Stade Rennais 0–0 Olympiacos",
+  "liga": "uefa.europa",
+  "enviado": false
  }
 ]
