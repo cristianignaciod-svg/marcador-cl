@@ -4253,5 +4253,27 @@
   "enviado": true,
   "ig_id": "18108484175258253",
   "publicado": "2026-11-04T17:37:15+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915383",
+  "creado": "2026-11-04T16:59:52-03:00",
+  "archivos": [
+   "historias/img/2026-11-04/uefachampions-aek-athens-real-madrid.png"
+  ],
+  "titulo": "AEK Athens 2–3 Real Madrid",
+  "liga": "uefa.champions",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915382",
+  "creado": "2026-11-04T16:59:52-03:00",
+  "archivos": [
+   "historias/img/2026-11-04/uefachampions-fenerbahce-liverpool.png"
+  ],
+  "titulo": "Fenerbahçe 3–2 Liverpool",
+  "liga": "uefa.champions",
+  "enviado": false
  }
 ]
