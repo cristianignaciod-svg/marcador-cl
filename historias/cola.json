@@ -4296,5 +4296,152 @@
   "intentos": 1,
   "ig_id": "18065704973523294",
   "publicado": "2026-11-04T22:05:05+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915304",
+  "creado": "2026-11-04T19:14:32-03:00",
+  "archivos": [
+   "historias/img/2026-11-04/uefachampions-borussia-dortmund-betis.png"
+  ],
+  "titulo": "Borussia Dortmund 2–1 Betis",
+  "liga": "uefa.champions",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915305",
+  "creado": "2026-11-04T19:14:32-03:00",
+  "archivos": [
+   "historias/img/2026-11-04/uefachampions-lens-como.png"
+  ],
+  "titulo": "Lens 1–9 Como",
+  "liga": "uefa.champions",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915303",
+  "creado": "2026-11-04T19:14:32-03:00",
+  "archivos": [
+   "historias/img/2026-11-04/uefachampions-psv-eindhoven-club-brujas.png"
+  ],
+  "titulo": "PSV Eindhoven 1–2 Club Brujas",
+  "liga": "uefa.champions",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915306",
+  "creado": "2026-11-04T19:14:32-03:00",
+  "archivos": [
+   "historias/img/2026-11-04/uefachampions-rb-leipzig-man-city.png"
+  ],
+  "titulo": "RB Leipzig 2–3 Man. City",
+  "liga": "uefa.champions",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915381",
+  "creado": "2026-11-04T19:14:32-03:00",
+  "archivos": [
+   "historias/img/2026-11-04/uefachampions-slavia-prague-arsenal.png"
+  ],
+  "titulo": "Slavia Prague 1–2 Arsenal",
+  "liga": "uefa.champions",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915302",
+  "creado": "2026-11-04T19:14:32-03:00",
+  "archivos": [
+   "historias/img/2026-11-04/uefachampions-viking-fk-sabah-fk.png"
+  ],
+  "titulo": "Viking FK 4–1 Sabah FK",
+  "liga": "uefa.champions",
+  "enviado": false
+ },
+ {
+  "tipo": "resumen",
+  "clave": "uefa.champions:2026-11-04",
+  "creado": "2026-11-04T19:14:32-03:00",
+  "archivos": [
+   "historias/img/2026-11-04/uefachampions-20261104-1.png",
+   "historias/img/2026-11-04/uefachampions-20261104-2.png",
+   "historias/img/2026-11-04/uefachampions-20261104-3.png"
+  ],
+  "titulo": "uefa.champions 4 de noviembre",
+  "liga": "uefa.champions",
+  "fase": "",
+  "rango": "4 de noviembre",
+  "partidos": [
+   {
+    "dia": "Mié 4",
+    "local": "AEK Athens",
+    "visita": "Real Madrid",
+    "gl": 2,
+    "gv": 3
+   },
+   {
+    "dia": "Mié 4",
+    "local": "Fenerbahçe",
+    "visita": "Liverpool",
+    "gl": 3,
+    "gv": 2
+   },
+   {
+    "dia": "Mié 4",
+    "local": "Borussia Dortmund",
+    "visita": "Betis",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "dia": "Mié 4",
+    "local": "FC Porto",
+    "visita": "Napoli",
+    "gl": 4,
+    "gv": 1
+   },
+   {
+    "dia": "Mié 4",
+    "local": "Lens",
+    "visita": "Como",
+    "gl": 1,
+    "gv": 9
+   },
+   {
+    "dia": "Mié 4",
+    "local": "PSV Eindhoven",
+    "visita": "Club Brujas",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "dia": "Mié 4",
+    "local": "RB Leipzig",
+    "visita": "Man. City",
+    "gl": 2,
+    "gv": 3
+   },
+   {
+    "dia": "Mié 4",
+    "local": "Slavia Prague",
+    "visita": "Arsenal",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "dia": "Mié 4",
+    "local": "Viking FK",
+    "visita": "Sabah FK",
+    "gl": 4,
+    "gv": 1
+   }
+  ],
+  "sin_tabla": false,
+  "enviado": false
  }
 ]
