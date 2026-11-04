@@ -4306,7 +4306,9 @@
   ],
   "titulo": "Borussia Dortmund 2–1 Betis",
   "liga": "uefa.champions",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18127664044854317",
+  "publicado": "2026-11-04T22:15:07+00:00"
  },
  {
   "tipo": "historia",
@@ -4317,7 +4319,9 @@
   ],
   "titulo": "Lens 1–9 Como",
   "liga": "uefa.champions",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18152056888562167",
+  "publicado": "2026-11-04T22:15:07+00:00"
  },
  {
   "tipo": "historia",
@@ -4328,7 +4332,9 @@
   ],
   "titulo": "PSV Eindhoven 1–2 Club Brujas",
   "liga": "uefa.champions",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18119804249117334",
+  "publicado": "2026-11-04T22:15:07+00:00"
  },
  {
   "tipo": "historia",
@@ -4339,7 +4345,9 @@
   ],
   "titulo": "RB Leipzig 2–3 Man. City",
   "liga": "uefa.champions",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18019652807952306",
+  "publicado": "2026-11-04T22:15:07+00:00"
  },
  {
   "tipo": "historia",
@@ -4350,7 +4358,9 @@
   ],
   "titulo": "Slavia Prague 1–2 Arsenal",
   "liga": "uefa.champions",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18099149738393102",
+  "publicado": "2026-11-04T22:15:07+00:00"
  },
  {
   "tipo": "historia",
@@ -4361,7 +4371,9 @@
   ],
   "titulo": "Viking FK 4–1 Sabah FK",
   "liga": "uefa.champions",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17980871138922807",
+  "publicado": "2026-11-04T22:15:07+00:00"
  },
  {
   "tipo": "resumen",
