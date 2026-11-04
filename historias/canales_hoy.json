@@ -1,59 +1,31 @@
 {
- "fecha": "2026-11-03",
+ "fecha": "2026-11-04",
  "fuentes": [
   "https://www.futbolenvivochile.com/",
-  "https://www.tvn.cl/deportes/futbol-internacional/atletico-madrid-vs-bayern-munich-en-vivo-a-que-hora-y-donde-ver-champions",
-  "https://bolavip.com/cl/champions-league/galatasaray-vs-stuttgart-en-vivo-donde-ver-por-tv-y-streaming-online-por-la-jornada-4-de-la-champions-league",
-  "https://www.prensafutbol.cl/manchester-united-roma-hora-ver-champions/",
+  "https://redgol.cl/championsleague/donde-ver-a-betis-vs-borussia-dortmund-horario-y-transmision-de-la-uefa-champions-league",
   "https://www.fotmob.com/es/tv-guide/cl/espn",
+  "https://www.fotmob.com/tv-guide/cl/espn-2",
+  "https://www.fotmob.com/vi/tv-guide/cl/espn-3",
+  "https://www.fotmob.com/fi/tv-guide/cl/espn-4",
   "https://www.fotmob.com/sv/tv-guide/cl/espn-5",
-  "https://www.fotmob.com/es/tv-guide/cl/espn-4",
-  "https://www.fotmob.com/fr/tv-guide/cl/espn-premium",
-  "https://redgol.cl/apuestas/pronosticos/atletico-de-madrid-vs-bayern-munich-champions-league-03-11-2026"
+  "https://www.fotmob.com/fi/tv-guide/cl/espn-6",
+  "https://www.fotmob.com/nb/tv-guide/cl/espn-7",
+  "https://www.fotmob.com/sw/tv-guide/cl/espn-premium",
+  "https://www.prensafutbol.cl/la-calera-vs-coquimbo-hora-los-xi-donde-ver/",
+  "https://www.alairelibre.cl/futbol/copa-chile/union-la-calera-vs-coquimbo-unido-horario-donde-ver-copa-chile-2026/"
  ],
  "partidos": [
-  {
-   "local": "Shakhtar",
-   "visita": "Sporting CP",
-   "tv": "ESPN Premium · Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Galatasaray",
-   "visita": "Stuttgart",
-   "tv": "ESPN · Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Atlético Madrid",
-   "visita": "Bayern",
-   "tv": "ESPN 2 · Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Barcelona",
-   "visita": "Aston Villa",
-   "tv": "ESPN 5 · ESPN Premium · Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Villarreal",
-   "visita": "PSG",
-   "tv": "ESPN · Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Bodø/Glimt",
-   "visita": "Lille",
-   "tv": "ESPN 4 · Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Man. United",
-   "visita": "Roma",
-   "tv": "Disney+ Premium",
-   "verificado": "2_fuentes"
-  }
+  {"local": "Fenerbahçe", "visita": "Liverpool", "tv": "ESPN · Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "AEK Atenas", "visita": "Real Madrid", "tv": "ESPN 5 · ESPN Premium · Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "Dortmund", "visita": "Betis", "tv": "ESPN 2 · Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "RB Leipzig", "visita": "Man. City", "tv": "ESPN · Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "Porto", "visita": "Napoli", "tv": "ESPN 7 · Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "PSV", "visita": "Club Brugge", "tv": "ESPN 4 · Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "Slavia Praga", "visita": "Arsenal", "tv": "ESPN Premium · Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "Lens", "visita": "Como", "tv": "ESPN 3 · Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "Viking", "visita": "Sabah", "tv": "ESPN 6 · Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "Rennes", "visita": "Olympiacos", "tv": "ESPN 4 · Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "U. La Calera", "visita": "Coquimbo", "tv": "TNT Sports Premium · HBO Max", "verificado": "2_fuentes"}
  ],
  "conflictos": []
 }
