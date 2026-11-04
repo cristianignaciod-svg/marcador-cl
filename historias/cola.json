@@ -4291,8 +4291,10 @@
   ],
   "titulo": "FC Porto 4–1 Napoli",
   "liga": "uefa.champions",
-  "enviado": false,
+  "enviado": true,
   "error": "400 {\"error\":{\"message\":\"Only photo or video can be accepted as media type.\",\"type\":\"OAuthException\",\"code\":9004,\"error_subcode\":2207052,\"is_transient\":false,\"error_user_title\":\"Media download has failed. The media URI doesn't meet our requirements.\",\"error_user_msg\":\"The media could not be fetched ",
-  "intentos": 1
+  "intentos": 1,
+  "ig_id": "18065704973523294",
+  "publicado": "2026-11-04T22:05:05+00:00"
  }
 ]
