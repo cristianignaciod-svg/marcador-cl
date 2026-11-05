@@ -4603,7 +4603,9 @@
   ],
   "titulo": "Leverkusen 0–1 Marseille",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17936061198142921",
+  "publicado": "2026-11-05T21:59:02+00:00"
  },
  {
   "tipo": "historia",
@@ -4614,7 +4616,9 @@
   ],
   "titulo": "Benfica 3–1 Lech Poznan",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18134883623506780",
+  "publicado": "2026-11-05T21:59:02+00:00"
  },
  {
   "tipo": "historia",
@@ -4625,7 +4629,9 @@
   ],
   "titulo": "Celta 1–2 Union St.-Gilloise",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18642186436053086",
+  "publicado": "2026-11-05T21:59:02+00:00"
  },
  {
   "tipo": "historia",
@@ -4636,7 +4642,9 @@
   ],
   "titulo": "Celtic 3–2 Besiktas",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18136561435658789",
+  "publicado": "2026-11-05T21:59:02+00:00"
  },
  {
   "tipo": "historia",
@@ -4647,7 +4655,9 @@
   ],
   "titulo": "Hapoel Be'er 0–2 OFI Crete",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18138927559636819",
+  "publicado": "2026-11-05T21:59:02+00:00"
  },
  {
   "tipo": "historia",
@@ -4658,7 +4668,9 @@
   ],
   "titulo": "SK Sturm Graz 2–3 NK Celje",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18177100201453702",
+  "publicado": "2026-11-05T21:59:02+00:00"
  },
  {
   "tipo": "historia",
@@ -4669,6 +4681,8 @@
   ],
   "titulo": "Sunderland 0–2 Dinamo Zagreb",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18077938268726754",
+  "publicado": "2026-11-05T21:59:02+00:00"
  }
 ]
