@@ -389,6 +389,156 @@ def tabla_verificada(liga):
     return es, None
 
 
+# ---------------------------------------------------------------------------
+# Tablas de posiciones para la página web (historias/tablas.json)
+# Solo se guarda una tabla cuando ESPN y FotMob coinciden en puntos y partidos jugados de todos los equipos.
+# Si no coinciden, la página sigue mostrando la última tabla verificada y avisa que se está confirmando.
+WEB_TABLAS = [  # (liga ESPN, id FotMob, nombre)
+    ("chi.1", 273, "Liga de Primera"), ("chi.pb", 9126, "Primera B"),
+    ("esp.1", 87, "LaLiga"), ("eng.1", 47, "Premier League"), ("ger.1", 54, "Bundesliga"),
+    ("fra.1", 53, "Ligue 1"), ("arg.1", 112, "Liga Profesional"), ("bra.1", 268, "Brasileirão"),
+    ("uefa.champions", 42, "Champions League"), ("uefa.europa", 73, "Europa League"),
+]
+
+
+def _web_espn(liga):
+    data = get(f"https://site.web.api.espn.com/apis/v2/sports/soccer/{liga}/standings?lang=es&region=cl")
+    grupos = []
+    for g in (data.get("children") or [data]):
+        filas = []
+        for e in (g.get("standings") or {}).get("entries", []):
+            t = e.get("team", {})
+            nota = e.get("note") or {}
+            logo = (t.get("logos") or [{}])[0].get("href")
+            filas.append({"equipo": nombre(t), "largo": t.get("displayName") or "", "logo": logo,
+                          "pos": _stat(e, "rank"), "pj": _stat(e, "gamesPlayed"), "g": _stat(e, "wins"),
+                          "e": _stat(e, "ties"), "p": _stat(e, "losses"), "gf": _stat(e, "pointsFor"),
+                          "gc": _stat(e, "pointsAgainst"), "dg": _stat(e, "pointDifferential"),
+                          "pts": _stat(e, "points"), "zona": nota.get("description"), "color": nota.get("color")})
+        filas = [f for f in filas if f["pts"] is not None]
+        if not filas:
+            continue
+        filas.sort(key=lambda f: (f["pos"] or 99, -f["pts"]))
+        for i, f in enumerate(filas):
+            f["pos"] = f["pos"] or i + 1
+            if f["color"] and not f["color"].startswith("#"):
+                f["color"] = "#" + f["color"]
+        grupos.append({"nombre": g.get("name") or "", "filas": filas})
+    return grupos
+
+
+def _web_fotmob(fm_id):
+    data = get(f"https://www.fotmob.com/api/data/leagues?id={fm_id}&ccode3=CHL")
+    grupos = []
+
+    def fila(f, i):
+        gf = gc = None
+        if isinstance(f.get("scoresStr"), str) and "-" in f["scoresStr"]:
+            try:
+                gf, gc = [int(x) for x in f["scoresStr"].split("-")[:2]]
+            except ValueError:
+                pass
+        dg = f.get("goalConDiff")
+        if dg is None and gf is not None:
+            dg = gf - gc
+        return {"equipo": f.get("shortName") or f.get("name"), "largo": f.get("name") or "",
+                "logo": f"https://images.fotmob.com/image_resources/logo/teamlogo/{f.get('id')}_small.png" if f.get("id") else None,
+                "pos": f.get("idx") or i + 1, "pj": f.get("played"), "g": f.get("wins"), "e": f.get("draws"),
+                "p": f.get("losses"), "gf": gf, "gc": gc, "dg": dg, "pts": f.get("pts"),
+                "zona": None, "color": f.get("qualColor")}
+
+    def recorrer(obj, nombre_g=""):
+        if isinstance(obj, dict):
+            nm = obj.get("leagueName") or obj.get("name") or nombre_g
+            t = obj.get("table")
+            if isinstance(t, dict) and isinstance(t.get("all"), list) and t["all"] and "pts" in t["all"][0]:
+                grupos.append({"nombre": nm if isinstance(nm, str) else "", "filas": [fila(f, i) for i, f in enumerate(t["all"])]})
+                return
+            for k, v in obj.items():
+                if k in ("legend", "teamForm", "form", "xg", "home", "away"):
+                    continue
+                recorrer(v, nm if isinstance(nm, str) else nombre_g)
+        elif isinstance(obj, list):
+            for v in obj:
+                recorrer(v, nombre_g)
+
+    recorrer(data.get("table", data))
+    if not grupos:
+        filas = _buscar_tabla(data.get("table", data)) or []
+        if filas:
+            grupos = [{"nombre": "", "filas": [fila(f, i) for i, f in enumerate(filas)]}]
+    return grupos
+
+
+def _web_cruzar(es, fm):
+    """Cada equipo de ESPN tiene que aparecer en FotMob con los mismos puntos y partidos jugados."""
+    pool = [f for g in fm for f in g["filas"]]
+    n_es = sum(len(g["filas"]) for g in es)
+    if not n_es:
+        return "ESPN sin tabla"
+    for g in es:
+        for f in g["filas"]:
+            cands = [x for x in pool
+                     if max(_parecido(x["equipo"] or "", f["equipo"]), _parecido(x["largo"], f["equipo"]),
+                            _parecido(x["largo"], f["largo"])) >= 0.6]
+            if not cands:
+                return f"{f['equipo']} no aparece en FotMob"
+            if not any((x["pts"], x["pj"]) == (f["pts"], f["pj"]) for x in cands):
+                x = cands[0]
+                return f"{f['equipo']}: ESPN {f['pts']} pts/{f['pj']} PJ, FotMob {x['pts']} pts/{x['pj']} PJ"
+    return None
+
+
+def actualizar_tablas_web(ahora):
+    actual = cargar("tablas.json", {})
+    ligas = actual.get("ligas", {})
+    cambio = False
+    for liga, fm_id, nom in WEB_TABLAS:
+        prev = ligas.get(liga, {})
+        es = fm = None
+        try:
+            fm = _web_fotmob(fm_id)
+        except Exception as ex:
+            DIAG["errores"].append(f"tabla web FotMob {liga}: {str(ex)[:100]}")
+        if liga != "chi.pb":
+            try:
+                es = _web_espn(liga)
+            except Exception as ex:
+                DIAG["errores"].append(f"tabla web ESPN {liga}: {str(ex)[:100]}")
+        if liga == "chi.pb":  # ESPN no cubre la Primera B: solo FotMob (igual que en los resúmenes)
+            grupos, prob, fuentes = (fm, None, ["FotMob"]) if fm else (None, "FotMob sin tabla", [])
+        elif es and fm:
+            grupos, prob, fuentes = es, _web_cruzar(es, fm), ["ESPN", "FotMob"]
+        else:
+            grupos, prob, fuentes = None, "falta una de las dos fuentes", []
+        nuevo = dict(prev)
+        nuevo["nombre"] = nom
+        if grupos and not prob:
+            # colores/zonas: si ESPN no los trae, se toman de FotMob
+            if fm and liga != "chi.pb":
+                pool = [x for g in fm for x in g["filas"]]
+                for g in grupos:
+                    for f in g["filas"]:
+                        if not f["color"]:
+                            m = max(pool, key=lambda x: max(_parecido(x["largo"], f["largo"]), _parecido(x["equipo"] or "", f["equipo"])), default=None)
+                            if m:
+                                f["color"] = m["color"]
+            if grupos != prev.get("grupos"):
+                nuevo["grupos"] = grupos
+                nuevo["actualizado"] = ahora.isoformat(timespec="minutes")
+            nuevo["fuentes"] = fuentes
+            nuevo.pop("pendiente", None)
+        else:
+            if prob:
+                nuevo["pendiente"] = prob
+            DIAG.setdefault("tablas_web", {})[liga] = prob
+        if nuevo != prev:
+            ligas[liga] = nuevo
+            cambio = True
+    if cambio or "ligas" not in actual:
+        guardar("tablas.json", {"ligas": ligas, "orden": [l for l, _, _ in WEB_TABLAS]})
+
+
 def paginas_tabla(n):
     return 1 if n <= 20 else -(-n // 18)
 
@@ -935,6 +1085,10 @@ def main():
 
     primera_b_resumen(hoy, ahora, resumenes, pendientes, cola, espera)
     agenda_del_dia(ahora, publicados, pendientes, cola)
+    try:
+        actualizar_tablas_web(ahora)
+    except Exception as ex:
+        DIAG["errores"].append(f"tablas web: {str(ex)[:150]}")
 
     guardar("espera.json", espera)
     try:
