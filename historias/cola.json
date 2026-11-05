@@ -4484,7 +4484,9 @@
   ],
   "titulo": "Milan 0–2 Ferencvaros",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18080399117415719",
+  "publicado": "2026-11-05T19:50:57+00:00"
  },
  {
   "tipo": "historia",
@@ -4495,7 +4497,9 @@
   ],
   "titulo": "Anderlecht 2–0 RB Salzburg",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17900756199398900",
+  "publicado": "2026-11-05T19:50:57+00:00"
  },
  {
   "tipo": "historia",
@@ -4506,7 +4510,9 @@
   ],
   "titulo": "Crystal Palace 1–1 TSG Hoffenheim",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17877379707586522",
+  "publicado": "2026-11-05T19:50:57+00:00"
  },
  {
   "tipo": "historia",
@@ -4517,7 +4523,9 @@
   ],
   "titulo": "Levski Sofia 1–0 Jagiellonia Bialystok",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": false,
+  "error": "400 {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,132,216,115,759,825 cannot be found.\",\"fbtrace_id\":\"AI0Rgk0DECDlqTbkx8BZLiR\"}}",
+  "intentos": 1
  },
  {
   "tipo": "historia",
@@ -4528,7 +4536,9 @@
   ],
   "titulo": "Lillestrom 0–1 Viktoria Plzen",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18119215241080191",
+  "publicado": "2026-11-05T19:50:57+00:00"
  },
  {
   "tipo": "historia",
@@ -4539,7 +4549,9 @@
   ],
   "titulo": "NEC Nijmegen 3–1 Omonia Nicosia",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17909720631578492",
+  "publicado": "2026-11-05T19:50:57+00:00"
  },
  {
   "tipo": "historia",
@@ -4550,7 +4562,9 @@
   ],
   "titulo": "Real Sociedad 1–1 Lyon",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18452862355121239",
+  "publicado": "2026-11-05T19:50:57+00:00"
  },
  {
   "tipo": "historia",
@@ -4561,6 +4575,8 @@
   ],
   "titulo": "Sparta Prague 1–3 Bournemouth",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18220305196359360",
+  "publicado": "2026-11-05T19:50:57+00:00"
  }
 ]
