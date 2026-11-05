@@ -538,6 +538,11 @@ async function loadTablas() {
 }
 const fmtUpd = iso => { const d = new Date(iso); return isNaN(d) ? "" : new Intl.DateTimeFormat("es-CL",{timeZone:TZ,day:"numeric",month:"short",hour:"2-digit",minute:"2-digit",hour12:false}).format(d); };
 const dgTxt = v => v == null ? "–" : v > 0 ? "+" + v : String(v);
+const ZONA_ES = [[/relegation play-?off/i,"Repechaje por la permanencia"],[/relegation/i,"Descenso"],[/promotion play-?off/i,"Liguilla de ascenso"],[/promotion/i,"Ascenso"],
+  [/conference league qualif/i,"Clasificación a Conference League"],[/conference league/i,"Conference League"],[/europa league qualif/i,"Clasificación a Europa League"],
+  [/champions league qualif/i,"Clasificación a Champions League"],[/libertadores qualif/i,"Clasificación a Libertadores"],[/sudamericana/i,"Copa Sudamericana"],
+  [/knockout round play-?off/i,"Repechaje a octavos"],[/round of 16|octavos/i,"Clasifica a octavos de final"],[/eliminated/i,"Eliminado"]];
+const zonaES = z => { if (!z) return ""; for (const [r, t] of ZONA_ES) if (r.test(z)) return t; return z; };
 function tablaHTML(id, t) {
   const liga = TABLA_LIGA[id];
   const zonas = new Map();
@@ -545,7 +550,8 @@ function tablaHTML(id, t) {
   for (const g of t.grupos || []) {
     if ((t.grupos.length > 1) && g.nombre) body += `<div class="tgrp">${esc(g.nombre)}</div>`;
     const rows = g.filas.map(f => {
-      if (f.color && f.zona && !zonas.has(f.color)) zonas.set(f.color, f.zona);
+      const zn = zonaES(f.zona);
+      if (f.color && zn && ![...zonas.values()].includes(zn) && !zonas.has(f.color)) zonas.set(f.color, zn);
       const logo = f.logo ? `<img class="lg" src="${esc(f.logo)}" alt="" loading="lazy" width="18" height="18" onerror="this.style.visibility='hidden'">` : `<span class="lg"></span>`;
       const v = x => x == null ? "–" : x;
       return `<tr class="${f.pos === 1 ? "lead" : ""}"><td class="ps" style="--z:${esc(f.color || "transparent")}">${f.pos}</td><td class="eq"><span>${logo}<b>${esc(f.equipo)}</b></span></td><td class="mu">${v(f.pj)}</td><td class="mu xs">${v(f.g)}</td><td class="mu xs">${v(f.e)}</td><td class="mu xs">${v(f.p)}</td><td class="mu">${dgTxt(f.dg)}</td><td class="pt">${v(f.pts)}</td></tr>`;
