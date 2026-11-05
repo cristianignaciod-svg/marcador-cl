@@ -4593,5 +4593,82 @@
   "enviado": true,
   "ig_id": "18231354046327108",
   "publicado": "2026-11-05T20:12:32+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915533",
+  "creado": "2026-11-05T18:58:21-03:00",
+  "archivos": [
+   "historias/img/2026-11-05/uefaeuropa-leverkusen-marseille.png"
+  ],
+  "titulo": "Leverkusen 0–1 Marseille",
+  "liga": "uefa.europa",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915525",
+  "creado": "2026-11-05T18:58:21-03:00",
+  "archivos": [
+   "historias/img/2026-11-05/uefaeuropa-benfica-lech-poznan.png"
+  ],
+  "titulo": "Benfica 3–1 Lech Poznan",
+  "liga": "uefa.europa",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915531",
+  "creado": "2026-11-05T18:58:21-03:00",
+  "archivos": [
+   "historias/img/2026-11-05/uefaeuropa-celta-union-st-gilloise.png"
+  ],
+  "titulo": "Celta 1–2 Union St.-Gilloise",
+  "liga": "uefa.europa",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915522",
+  "creado": "2026-11-05T18:58:21-03:00",
+  "archivos": [
+   "historias/img/2026-11-05/uefaeuropa-celtic-besiktas.png"
+  ],
+  "titulo": "Celtic 3–2 Besiktas",
+  "liga": "uefa.europa",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915532",
+  "creado": "2026-11-05T18:58:21-03:00",
+  "archivos": [
+   "historias/img/2026-11-05/uefaeuropa-hapoel-be-er-ofi-crete.png"
+  ],
+  "titulo": "Hapoel Be'er 0–2 OFI Crete",
+  "liga": "uefa.europa",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915524",
+  "creado": "2026-11-05T18:58:21-03:00",
+  "archivos": [
+   "historias/img/2026-11-05/uefaeuropa-sk-sturm-graz-nk-celje.png"
+  ],
+  "titulo": "SK Sturm Graz 2–3 NK Celje",
+  "liga": "uefa.europa",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915523",
+  "creado": "2026-11-05T18:58:21-03:00",
+  "archivos": [
+   "historias/img/2026-11-05/uefaeuropa-sunderland-dinamo-zagreb.png"
+  ],
+  "titulo": "Sunderland 0–2 Dinamo Zagreb",
+  "liga": "uefa.europa",
+  "enviado": false
  }
 ]
