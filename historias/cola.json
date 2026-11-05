@@ -4474,5 +4474,93 @@
   "enviado": true,
   "ig_id": "18103136165387707",
   "publicado": "2026-11-05T12:26:29+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915534",
+  "creado": "2026-11-05T16:50:21-03:00",
+  "archivos": [
+   "historias/img/2026-11-05/uefaeuropa-milan-ferencvaros.png"
+  ],
+  "titulo": "Milan 0–2 Ferencvaros",
+  "liga": "uefa.europa",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915538",
+  "creado": "2026-11-05T16:50:21-03:00",
+  "archivos": [
+   "historias/img/2026-11-05/uefaeuropa-anderlecht-rb-salzburg.png"
+  ],
+  "titulo": "Anderlecht 2–0 RB Salzburg",
+  "liga": "uefa.europa",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915526",
+  "creado": "2026-11-05T16:50:21-03:00",
+  "archivos": [
+   "historias/img/2026-11-05/uefaeuropa-crystal-palace-tsg-hoffenheim.png"
+  ],
+  "titulo": "Crystal Palace 1–1 TSG Hoffenheim",
+  "liga": "uefa.europa",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915536",
+  "creado": "2026-11-05T16:50:21-03:00",
+  "archivos": [
+   "historias/img/2026-11-05/uefaeuropa-levski-sofia-jagiellonia-bialystok.png"
+  ],
+  "titulo": "Levski Sofia 1–0 Jagiellonia Bialystok",
+  "liga": "uefa.europa",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915527",
+  "creado": "2026-11-05T16:50:21-03:00",
+  "archivos": [
+   "historias/img/2026-11-05/uefaeuropa-lillestrom-viktoria-plzen.png"
+  ],
+  "titulo": "Lillestrom 0–1 Viktoria Plzen",
+  "liga": "uefa.europa",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915535",
+  "creado": "2026-11-05T16:50:21-03:00",
+  "archivos": [
+   "historias/img/2026-11-05/uefaeuropa-nec-nijmegen-omonia-nicosia.png"
+  ],
+  "titulo": "NEC Nijmegen 3–1 Omonia Nicosia",
+  "liga": "uefa.europa",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915537",
+  "creado": "2026-11-05T16:50:21-03:00",
+  "archivos": [
+   "historias/img/2026-11-05/uefaeuropa-real-sociedad-lyon.png"
+  ],
+  "titulo": "Real Sociedad 1–1 Lyon",
+  "liga": "uefa.europa",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915528",
+  "creado": "2026-11-05T16:50:21-03:00",
+  "archivos": [
+   "historias/img/2026-11-05/uefaeuropa-sparta-prague-bournemouth.png"
+  ],
+  "titulo": "Sparta Prague 1–3 Bournemouth",
+  "liga": "uefa.europa",
+  "enviado": false
  }
 ]
