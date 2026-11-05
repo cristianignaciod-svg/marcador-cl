@@ -4684,5 +4684,27 @@
   "enviado": true,
   "ig_id": "18077938268726754",
   "publicado": "2026-11-05T21:59:02+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915529",
+  "creado": "2026-11-05T19:29:50-03:00",
+  "archivos": [
+   "historias/img/2026-11-05/uefaeuropa-az-alkmaar-juventus.png"
+  ],
+  "titulo": "AZ Alkmaar 1–2 Juventus",
+  "liga": "uefa.europa",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915530",
+  "creado": "2026-11-05T19:29:50-03:00",
+  "archivos": [
+   "historias/img/2026-11-05/uefaeuropa-torreense-ararat-armenia.png"
+  ],
+  "titulo": "Torreense 3–2 Ararat-Armenia",
+  "liga": "uefa.europa",
+  "enviado": false
  }
 ]
