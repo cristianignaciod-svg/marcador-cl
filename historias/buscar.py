@@ -482,6 +482,10 @@ def _web_cruzar(es, fm):
                      if max(_parecido(x["equipo"] or "", f["equipo"]), _parecido(x["largo"], f["equipo"]),
                             _parecido(x["largo"], f["largo"])) >= 0.6]
             if not cands:
+                # nombre muy distinto entre fuentes (ej. "FC Cologne" / "1. FC Köln"): se acepta si en FotMob
+                # existe la misma fila (posición, puntos, partidos y diferencia de gol idénticos)
+                cands = [x for x in pool if (x["pos"], x["pts"], x["pj"], x["dg"]) == (f["pos"], f["pts"], f["pj"], f["dg"])]
+            if not cands:
                 return f"{f['equipo']} no aparece en FotMob"
             if not any((x["pts"], x["pj"]) == (f["pts"], f["pj"]) for x in cands):
                 x = cands[0]
