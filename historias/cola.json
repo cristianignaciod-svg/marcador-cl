@@ -4805,5 +4805,141 @@
   "enviado": true,
   "ig_id": "18181802023433318",
   "publicado": "2026-11-06T22:03:24+00:00"
+ },
+ {
+  "tipo": "resumen",
+  "clave": "uefa.europa:2026-11-05",
+  "creado": "2026-11-06T19:33:03-03:00",
+  "archivos": [
+   "historias/img/2026-11-05/uefaeuropa-20261105-1.png",
+   "historias/img/2026-11-05/uefaeuropa-20261105-2.png"
+  ],
+  "titulo": "uefa.europa 5 de noviembre",
+  "liga": "uefa.europa",
+  "fase": "",
+  "rango": "5 de noviembre",
+  "partidos": [
+   {
+    "dia": "Jue 5",
+    "local": "Milan",
+    "visita": "Ferencvaros",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "dia": "Jue 5",
+    "local": "Anderlecht",
+    "visita": "RB Salzburg",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "dia": "Jue 5",
+    "local": "Crystal Palace",
+    "visita": "TSG Hoffenheim",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "dia": "Jue 5",
+    "local": "Levski Sofia",
+    "visita": "Jagiellonia Bialystok",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "dia": "Jue 5",
+    "local": "Lillestrom",
+    "visita": "Viktoria Plzen",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "dia": "Jue 5",
+    "local": "NEC Nijmegen",
+    "visita": "Omonia Nicosia",
+    "gl": 3,
+    "gv": 1
+   },
+   {
+    "dia": "Jue 5",
+    "local": "Real Sociedad",
+    "visita": "Lyon",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "dia": "Jue 5",
+    "local": "Sparta Prague",
+    "visita": "Bournemouth",
+    "gl": 1,
+    "gv": 3
+   },
+   {
+    "dia": "Jue 5",
+    "local": "AZ Alkmaar",
+    "visita": "Juventus",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "dia": "Jue 5",
+    "local": "Leverkusen",
+    "visita": "Marseille",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "dia": "Jue 5",
+    "local": "Benfica",
+    "visita": "Lech Poznan",
+    "gl": 3,
+    "gv": 1
+   },
+   {
+    "dia": "Jue 5",
+    "local": "Celta",
+    "visita": "Union St.-Gilloise",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "dia": "Jue 5",
+    "local": "Celtic",
+    "visita": "Besiktas",
+    "gl": 3,
+    "gv": 2
+   },
+   {
+    "dia": "Jue 5",
+    "local": "Hapoel Be'er",
+    "visita": "OFI Crete",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "dia": "Jue 5",
+    "local": "SK Sturm Graz",
+    "visita": "NK Celje",
+    "gl": 2,
+    "gv": 3
+   },
+   {
+    "dia": "Jue 5",
+    "local": "Sunderland",
+    "visita": "Dinamo Zagreb",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "dia": "Jue 5",
+    "local": "Torreense",
+    "visita": "Ararat-Armenia",
+    "gl": 3,
+    "gv": 2
+   }
+  ],
+  "sin_tabla": true,
+  "enviado": false
  }
 ]
