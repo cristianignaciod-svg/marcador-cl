@@ -2137,32 +2137,32 @@
        "color": "#2AD572"
       },
       {
+       "equipo": "Barracas Central",
+       "largo": "Barracas Central",
+       "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10060.png",
+       "pos": 5,
+       "pj": 16,
+       "g": 7,
+       "e": 5,
+       "p": 4,
+       "gf": 17,
+       "gc": 13,
+       "dg": 4,
+       "pts": 26,
+       "zona": null,
+       "color": "#2AD572"
+      },
+      {
        "equipo": "Belgrano (Córdoba)",
        "largo": "Belgrano (Córdoba)",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4.png",
-       "pos": 5,
+       "pos": 6,
        "pj": 16,
        "g": 6,
        "e": 5,
        "p": 5,
        "gf": 17,
        "gc": 15,
-       "dg": 2,
-       "pts": 23,
-       "zona": null,
-       "color": "#2AD572"
-      },
-      {
-       "equipo": "Barracas Central",
-       "largo": "Barracas Central",
-       "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10060.png",
-       "pos": 6,
-       "pj": 15,
-       "g": 6,
-       "e": 5,
-       "p": 4,
-       "gf": 15,
-       "gc": 13,
        "dg": 2,
        "pts": 23,
        "zona": null,
@@ -2253,13 +2253,13 @@
        "largo": "Racing Club",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/15.png",
        "pos": 12,
-       "pj": 15,
+       "pj": 16,
        "g": 4,
        "e": 3,
-       "p": 8,
+       "p": 9,
        "gf": 16,
-       "gc": 22,
-       "dg": -6,
+       "gc": 24,
+       "dg": -8,
        "pts": 15,
        "zona": null,
        "color": null
@@ -2315,12 +2315,11 @@
      ]
     }
    ],
-   "actualizado": "2026-11-05T22:05-03:00",
+   "actualizado": "2026-11-06T17:45-03:00",
    "fuentes": [
     "ESPN",
     "FotMob"
-   ],
-   "pendiente": "Barracas Central: ESPN 23 pts/15 PJ, FotMob 26 pts/16 PJ"
+   ]
   },
   "bra.1": {
    "nombre": "Brasileirão",
