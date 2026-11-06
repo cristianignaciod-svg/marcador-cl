@@ -1,1 +1,81 @@
-[]
+[
+ {
+  "id": "arg1-gimnasia-la-plata-belgrano-cordoba",
+  "liga": "arg.1",
+  "fase": "",
+  "fecha": "2026-11-05",
+  "local": "Gimnasia La Plata",
+  "visita": "Belgrano (Córdoba)",
+  "gl": 2,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "6'",
+    "jugador": "Lucas Janson",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "27'",
+    "jugador": "Agustín Auzmendi",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "45+1'",
+    "jugador": "Alcides Benítez",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "6'",
+    "jugador": "Alcides Benítez",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "48'",
+    "jugador": "Nicolas Schelotto",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "67'",
+    "jugador": "Nicolás Fernández",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "72'",
+    "jugador": "Leonardo Morales",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "80'",
+    "jugador": "Ignacio Miramon",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "84'",
+    "jugador": "Adrián Sporle",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+5'",
+    "jugador": "Facundo Di Biasi",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]

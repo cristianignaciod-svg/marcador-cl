@@ -4710,5 +4710,16 @@
   "enviado": true,
   "ig_id": "17977010457152777",
   "publicado": "2026-11-05T22:30:42+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "arg.1:401841667",
+  "creado": "2026-11-05T21:16:41-03:00",
+  "archivos": [
+   "historias/img/2026-11-05/arg1-gimnasia-la-plata-belgrano-cordoba.png"
+  ],
+  "titulo": "Gimnasia La Plata 2–1 Belgrano (Córdoba)",
+  "liga": "arg.1",
+  "enviado": false
  }
 ]
