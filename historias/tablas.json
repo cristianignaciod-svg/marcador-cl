@@ -874,8 +874,7 @@
    "fuentes": [
     "ESPN",
     "FotMob"
-   ],
-   "pendiente": "Sevilla: ESPN 17 pts/11 PJ, FotMob 18 pts/12 PJ"
+   ]
   },
   "eng.1": {
    "nombre": "Premier League",
@@ -1210,8 +1209,7 @@
    "fuentes": [
     "ESPN",
     "FotMob"
-   ],
-   "pendiente": "Everton: ESPN 13 pts/9 PJ, FotMob 16 pts/10 PJ"
+   ]
   },
   "ger.1": {
    "nombre": "Bundesliga",
@@ -2654,7 +2652,7 @@
     "ESPN",
     "FotMob"
    ],
-   "pendiente": "Fluminense: ESPN 54 pts/33 PJ, FotMob 55 pts/34 PJ"
+   "pendiente": "Fluminense: ESPN 54 pts/33 PJ, FotMob 57 pts/34 PJ"
   },
   "uefa.champions": {
    "nombre": "Champions League",
