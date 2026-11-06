@@ -1,128 +1,13 @@
 {
- "fecha": "2026-11-05",
+ "fecha": "2026-11-06",
  "fuentes": [
-  "https://redgol.cl/udechile/va-por-tnt-el-canal-que-transmite-en-vivo-por-tv-y-online-a-u-de-chile-vs-antofagasta-por-copa-chile-2026-2",
-  "https://www.espn.cl/futbol/uefa-europa-league/nota/_/id/9198125/cuando-y-como-ver-uefa-europa-league-en-vivo-dias-horarios-tv",
-  "https://bolavip.com/europa-league/donde-ver-en-vivo-crystal-palace-vs-hoffenheim-por-la-jornada-4-de-la-europa-league-tv-y-streaming-online",
-  "https://bolavip.com/europa-league/donde-ver-en-vivo-milan-vs-ferencvaros-por-la-jornada-4-de-la-europa-league-tv-y-streaming-online",
-  "https://bolavip.com/europa-league/donde-ver-en-vivo-levski-sofia-vs-jagiellonia-por-la-jornada-4-de-la-europa-league-tv-y-streaming-online",
-  "https://bolavip.com/europa-league/donde-ver-en-vivo-lillestroem-vs-viktoria-por-la-jornada-4-de-la-europa-league-tv-y-streaming-online"
+  "https://tecache.cl/futbol/everton-vs-coventry-por-la-premier-league-cuando-juegan-horario-y-donde-ver-en-vivo",
+  "https://www.futbolenvivochile.com/",
+  "https://www.prensafutbol.cl/sevilla-suazo-vs-alaves-hora-xi-donde-verlo/"
  ],
  "partidos": [
-  {
-   "local": "U. de Chile",
-   "visita": "Antofagasta",
-   "tv": "TNT Sports · HBO Max",
-   "verificado": "una_fuente"
-  },
-  {
-   "local": "Crystal Palace",
-   "visita": "Hoffenheim",
-   "tv": "ESPN 5 · Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Milan",
-   "visita": "Ferencváros",
-   "tv": "ESPN · Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Levski Sofia",
-   "visita": "Jagiellonia",
-   "tv": "Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Lillestrøm",
-   "visita": "Viktoria Plzeň",
-   "tv": "Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Anderlecht",
-   "visita": "Salzburg",
-   "tv": "ESPN 2 · Disney+ Premium",
-   "verificado": "una_fuente"
-  },
-  {
-   "local": "Real Sociedad",
-   "visita": "Lyon",
-   "tv": "ESPN 3 · Disney+ Premium",
-   "verificado": "una_fuente"
-  },
-  {
-   "local": "NEC",
-   "visita": "Omonia",
-   "tv": "Disney+ Premium",
-   "verificado": "una_fuente"
-  },
-  {
-   "local": "Sparta Praha",
-   "visita": "Bournemouth",
-   "tv": "ESPN 7 · Disney+ Premium",
-   "verificado": "una_fuente"
-  },
-  {
-   "local": "AZ",
-   "visita": "Juventus",
-   "tv": "ESPN · Disney+ Premium",
-   "verificado": "una_fuente"
-  },
-  {
-   "local": "Leverkusen",
-   "visita": "Marseille",
-   "tv": "ESPN 3 · Disney+ Premium",
-   "verificado": "una_fuente"
-  },
-  {
-   "local": "Benfica",
-   "visita": "Lech Poznań",
-   "tv": "ESPN 2 · Disney+ Premium",
-   "verificado": "una_fuente"
-  },
-  {
-   "local": "Celta",
-   "visita": "Union St.-Gilloise",
-   "tv": "ESPN 4 · Disney+ Premium",
-   "verificado": "una_fuente"
-  },
-  {
-   "local": "Celtic",
-   "visita": "Besiktas",
-   "tv": "ESPN 5 · Disney+ Premium",
-   "verificado": "una_fuente"
-  },
-  {
-   "local": "Hapoel Beer-Sheva",
-   "visita": "OFI",
-   "tv": "Disney+ Premium",
-   "verificado": "una_fuente"
-  },
-  {
-   "local": "Sturm Graz",
-   "visita": "Celje",
-   "tv": "Disney+ Premium",
-   "verificado": "una_fuente"
-  },
-  {
-   "local": "Sunderland",
-   "visita": "Dinamo Zagreb",
-   "tv": "ESPN 7 · Disney+ Premium",
-   "verificado": "una_fuente"
-  },
-  {
-   "local": "Torreense",
-   "visita": "Ararat-Armenia",
-   "tv": "Disney+ Premium",
-   "verificado": "una_fuente"
-  }
+  {"local": "Everton", "visita": "Coventry", "tv": "Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "Sevilla", "visita": "Alavés", "tv": "DSports", "verificado": "2_fuentes"}
  ],
- "conflictos": [
-  {
-   "local": "Rennes",
-   "visita": "Olympiacos",
-   "detalle": "ESPN lo lista el jueves 5 por ESPN 4 · Disney+ Premium; Bolavip dice que se jugó el miércoles 4"
-  }
- ]
+ "conflictos": []
 }
