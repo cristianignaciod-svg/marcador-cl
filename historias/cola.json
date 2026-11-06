@@ -4738,5 +4738,16 @@
   "enviado": true,
   "ig_id": "17994133137115642",
   "publicado": "2026-11-06T12:26:11+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "arg.1:401841670",
+  "creado": "2026-11-06T17:16:42-03:00",
+  "archivos": [
+   "historias/img/2026-11-06/arg1-barracas-central-racing-club.png"
+  ],
+  "titulo": "Barracas Central 2–0 Racing Club",
+  "liga": "arg.1",
+  "enviado": false
  }
 ]
