@@ -1,1 +1,64 @@
-[]
+[
+ {
+  "id": "ger1-hamburg-sv-borussia-monchengladbach",
+  "liga": "ger.1",
+  "fase": "",
+  "fecha": "2026-11-06",
+  "local": "Hamburg SV",
+  "visita": "Borussia Monchengladbach",
+  "gl": 3,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "11'",
+    "jugador": "Miro Muheim",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "44'",
+    "jugador": "Robin Hack",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "59'",
+    "jugador": "Shafiq Nandja",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "70'",
+    "jugador": "Albert Grønbaek",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "49'",
+    "jugador": "Kou Itakura",
+    "lado": "visita",
+    "tipo": "doble"
+   },
+   {
+    "min": "90+2'",
+    "jugador": "Jens Castrop",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+3'",
+    "jugador": "Warmed Omari",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]
