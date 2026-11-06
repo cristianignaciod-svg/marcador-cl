@@ -1514,8 +1514,7 @@
    "fuentes": [
     "ESPN",
     "FotMob"
-   ],
-   "pendiente": "FC Cologne no aparece en FotMob"
+   ]
   },
   "fra.1": {
    "nombre": "Ligue 1",
@@ -1668,10 +1667,26 @@
        "color": null
       },
       {
+       "equipo": "Toulouse",
+       "largo": "Toulouse",
+       "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
+       "pos": 10,
+       "pj": 10,
+       "g": 3,
+       "e": 4,
+       "p": 3,
+       "gf": 15,
+       "gc": 14,
+       "dg": 1,
+       "pts": 13,
+       "zona": null,
+       "color": null
+      },
+      {
        "equipo": "Brest",
        "largo": "Brest",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6997.png",
-       "pos": 10,
+       "pos": 11,
        "pj": 9,
        "g": 3,
        "e": 3,
@@ -1687,7 +1702,7 @@
        "equipo": "Lorient",
        "largo": "Lorient",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/273.png",
-       "pos": 11,
+       "pos": 12,
        "pj": 9,
        "g": 3,
        "e": 3,
@@ -1700,33 +1715,17 @@
        "color": null
       },
       {
-       "equipo": "Toulouse",
-       "largo": "Toulouse",
-       "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
-       "pos": 12,
-       "pj": 9,
-       "g": 2,
-       "e": 4,
-       "p": 3,
-       "gf": 12,
-       "gc": 13,
-       "dg": -1,
-       "pts": 10,
-       "zona": null,
-       "color": null
-      },
-      {
        "equipo": "Strasbourg",
        "largo": "Strasbourg",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/180.png",
        "pos": 13,
-       "pj": 9,
+       "pj": 10,
        "g": 3,
        "e": 1,
-       "p": 5,
-       "gf": 17,
-       "gc": 19,
-       "dg": -2,
+       "p": 6,
+       "gf": 18,
+       "gc": 22,
+       "dg": -4,
        "pts": 10,
        "zona": null,
        "color": null
@@ -1814,12 +1813,11 @@
      ]
     }
    ],
-   "actualizado": "2026-11-05T16:50-03:00",
+   "actualizado": "2026-11-06T19:23-03:00",
    "fuentes": [
     "ESPN",
     "FotMob"
-   ],
-   "pendiente": "Toulouse: ESPN 10 pts/9 PJ, FotMob 13 pts/10 PJ"
+   ]
   },
   "arg.1": {
    "nombre": "Liga Profesional",
@@ -2319,7 +2317,8 @@
    "fuentes": [
     "ESPN",
     "FotMob"
-   ]
+   ],
+   "pendiente": "Vélez Sarsfield: ESPN 28 pts/15 PJ, FotMob 29 pts/16 PJ"
   },
   "bra.1": {
    "nombre": "Brasileirão",
