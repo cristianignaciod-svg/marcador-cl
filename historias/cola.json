@@ -4940,10 +4940,12 @@
    }
   ],
   "sin_tabla": true,
-  "enviado": false,
+  "enviado": true,
   "texto": "¡Batacazo en San Siro! 😱 El Ferencváros le ganó 0-2 al Milan en la Europa League.\nY no fue la única sorpresa: el Marseille se llevó el triunfo 0-1 desde Leverkusen, mientras la Juventus ganó 1-2 en la cancha del AZ Alkmaar.\nEl Bournemouth también la rompió de visita: 1-3 al Sparta Praga.\n¿Cuál fue el resultado que más te sorprendió? 👇\n\n#MarcadorCL #Futbol #EuropaLeague #UEL #FutbolEuropeo",
   "avisado": true,
-  "aprobado": true
+  "aprobado": true,
+  "ig_id": "18129502429884846",
+  "publicado": "2026-11-06T23:32:28+00:00"
  },
  {
   "tipo": "historia",
