@@ -4764,5 +4764,38 @@
   "enviado": true,
   "ig_id": "18143133664619378",
   "publicado": "2026-11-06T21:53:23+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "esp.1:401882809",
+  "creado": "2026-11-06T19:02:58-03:00",
+  "archivos": [
+   "historias/img/2026-11-06/esp1-sevilla-alaves.png"
+  ],
+  "titulo": "Sevilla 0–0 Alavés",
+  "liga": "esp.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "ita.1:401874815",
+  "creado": "2026-11-06T19:02:58-03:00",
+  "archivos": [
+   "historias/img/2026-11-06/ita1-venezia-udinese.png"
+  ],
+  "titulo": "Venezia 2–1 Udinese",
+  "liga": "ita.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "fra.1:401876405",
+  "creado": "2026-11-06T19:02:58-03:00",
+  "archivos": [
+   "historias/img/2026-11-06/fra1-toulouse-strasbourg.png"
+  ],
+  "titulo": "Toulouse 3–1 Strasbourg",
+  "liga": "fra.1",
+  "enviado": false
  }
 ]
