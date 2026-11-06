@@ -4941,5 +4941,16 @@
   ],
   "sin_tabla": true,
   "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "eng.1:401879242",
+  "creado": "2026-11-06T19:52:37-03:00",
+  "archivos": [
+   "historias/img/2026-11-06/eng1-everton-coventry.png"
+  ],
+  "titulo": "Everton 3–1 Coventry",
+  "liga": "eng.1",
+  "enviado": false
  }
 ]

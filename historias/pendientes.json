@@ -1,1 +1,58 @@
-[]
+[
+ {
+  "id": "eng1-everton-coventry",
+  "liga": "eng.1",
+  "fase": "",
+  "fecha": "2026-11-06",
+  "local": "Everton",
+  "visita": "Coventry",
+  "gl": 3,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "52'",
+    "jugador": "Yann Gboho",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "56'",
+    "jugador": "Thierno Barry",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "61'",
+    "jugador": "Thierno Barry",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "81'",
+    "jugador": "Kiernan Dewsbury-Hall",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "88'",
+    "jugador": "Jarrad Branthwaite",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "88'",
+    "jugador": "Caleb Yirenkyi",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]

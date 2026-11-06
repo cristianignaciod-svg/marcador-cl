@@ -632,14 +632,14 @@
        "largo": "Sevilla FC",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
        "pos": 6,
-       "pj": 11,
+       "pj": 12,
        "g": 5,
-       "e": 2,
+       "e": 3,
        "p": 4,
        "gf": 17,
        "gc": 19,
        "dg": -2,
-       "pts": 17,
+       "pts": 18,
        "zona": "Europa League",
        "color": "#c6d1e0"
       },
@@ -676,10 +676,26 @@
        "color": null
       },
       {
+       "equipo": "Alavés",
+       "largo": "Alavés",
+       "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
+       "pos": 9,
+       "pj": 12,
+       "g": 3,
+       "e": 4,
+       "p": 5,
+       "gf": 15,
+       "gc": 17,
+       "dg": -2,
+       "pts": 13,
+       "zona": null,
+       "color": null
+      },
+      {
        "equipo": "Villarreal",
        "largo": "Villarreal",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
-       "pos": 9,
+       "pos": 10,
        "pj": 11,
        "g": 3,
        "e": 3,
@@ -688,14 +704,14 @@
        "gc": 15,
        "dg": 0,
        "pts": 12,
-       "zona": null,
-       "color": null
+       "zona": "Europa League",
+       "color": "##c6d1e0"
       },
       {
        "equipo": "Celta",
        "largo": "Celta Vigo",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
-       "pos": 10,
+       "pos": 11,
        "pj": 11,
        "g": 2,
        "e": 6,
@@ -703,22 +719,6 @@
        "gf": 10,
        "gc": 10,
        "dg": 0,
-       "pts": 12,
-       "zona": "Europa League",
-       "color": "##c6d1e0"
-      },
-      {
-       "equipo": "Alavés",
-       "largo": "Alavés",
-       "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
-       "pos": 11,
-       "pj": 11,
-       "g": 3,
-       "e": 3,
-       "p": 5,
-       "gf": 15,
-       "gc": 17,
-       "dg": -2,
        "pts": 12,
        "zona": null,
        "color": null
@@ -870,12 +870,11 @@
      ]
     }
    ],
-   "actualizado": "2026-11-05T16:40-03:00",
+   "actualizado": "2026-11-06T19:52-03:00",
    "fuentes": [
     "ESPN",
     "FotMob"
-   ],
-   "pendiente": "Sevilla: ESPN 17 pts/11 PJ, FotMob 18 pts/12 PJ"
+   ]
   },
   "eng.1": {
    "nombre": "Premier League",
@@ -948,10 +947,26 @@
        "color": "#81D6AC"
       },
       {
+       "equipo": "Everton",
+       "largo": "Everton",
+       "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
+       "pos": 5,
+       "pj": 10,
+       "g": 4,
+       "e": 4,
+       "p": 2,
+       "gf": 12,
+       "gc": 10,
+       "dg": 2,
+       "pts": 16,
+       "zona": "Europa League",
+       "color": "##B5E7CE"
+      },
+      {
        "equipo": "Liverpool",
        "largo": "Liverpool",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-       "pos": 5,
+       "pos": 6,
        "pj": 9,
        "g": 4,
        "e": 3,
@@ -960,14 +975,14 @@
        "gc": 9,
        "dg": 2,
        "pts": 15,
-       "zona": "Europa League",
-       "color": "##B5E7CE"
+       "zona": null,
+       "color": null
       },
       {
        "equipo": "Brentford",
        "largo": "Brentford",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
-       "pos": 6,
+       "pos": 7,
        "pj": 9,
        "g": 3,
        "e": 5,
@@ -976,22 +991,6 @@
        "gc": 9,
        "dg": 7,
        "pts": 14,
-       "zona": null,
-       "color": null
-      },
-      {
-       "equipo": "Everton",
-       "largo": "Everton",
-       "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
-       "pos": 7,
-       "pj": 9,
-       "g": 3,
-       "e": 4,
-       "p": 2,
-       "gf": 9,
-       "gc": 9,
-       "dg": 0,
-       "pts": 13,
        "zona": null,
        "color": null
       },
@@ -1128,13 +1127,13 @@
        "largo": "Coventry City",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
        "pos": 16,
-       "pj": 9,
+       "pj": 10,
        "g": 3,
        "e": 0,
-       "p": 6,
-       "gf": 9,
-       "gc": 16,
-       "dg": -7,
+       "p": 7,
+       "gf": 10,
+       "gc": 19,
+       "dg": -9,
        "pts": 9,
        "zona": null,
        "color": null
@@ -1206,12 +1205,11 @@
      ]
     }
    ],
-   "actualizado": "2026-11-05T16:40-03:00",
+   "actualizado": "2026-11-06T19:52-03:00",
    "fuentes": [
     "ESPN",
     "FotMob"
-   ],
-   "pendiente": "Everton: ESPN 13 pts/9 PJ, FotMob 16 pts/10 PJ"
+   ]
   },
   "ger.1": {
    "nombre": "Bundesliga",
@@ -1817,8 +1815,7 @@
    "fuentes": [
     "ESPN",
     "FotMob"
-   ],
-   "pendiente": "Toulouse: ESPN 10 pts/9 PJ, FotMob 13 pts/10 PJ"
+   ]
   },
   "arg.1": {
    "nombre": "Liga Profesional",
