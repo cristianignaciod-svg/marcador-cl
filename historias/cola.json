@@ -4774,7 +4774,9 @@
   ],
   "titulo": "Sevilla 0–0 Alavés",
   "liga": "esp.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17996977820842303",
+  "publicado": "2026-11-06T22:03:24+00:00"
  },
  {
   "tipo": "historia",
@@ -4785,7 +4787,9 @@
   ],
   "titulo": "Venezia 2–1 Udinese",
   "liga": "ita.1",
-  "enviado": false
+  "enviado": false,
+  "error": "400 {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,132,452,110,759,825 cannot be found.\",\"fbtrace_id\":\"AR3LWStcKiPEDVnkkqlrg6s\"}}",
+  "intentos": 1
  },
  {
   "tipo": "historia",
@@ -4796,6 +4800,8 @@
   ],
   "titulo": "Toulouse 3–1 Strasbourg",
   "liga": "fra.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18181802023433318",
+  "publicado": "2026-11-06T22:03:24+00:00"
  }
 ]
