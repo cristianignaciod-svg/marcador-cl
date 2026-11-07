@@ -5211,5 +5211,27 @@
   "enviado": true,
   "ig_id": "18648969832053367",
   "publicado": "2026-11-07T19:29:59+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "eng.1:401878757",
+  "creado": "2026-11-07T16:39:32-03:00",
+  "archivos": [
+   "historias/img/2026-11-07/eng1-nottingham-f-man-city.png"
+  ],
+  "titulo": "Nottingham F. 3–1 Man. City",
+  "liga": "eng.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "ger.1:401884743",
+  "creado": "2026-11-07T16:39:32-03:00",
+  "archivos": [
+   "historias/img/2026-11-07/ger1-vfb-stuttgart-werder-bremen.png"
+  ],
+  "titulo": "VfB Stuttgart 1–0 Werder Bremen",
+  "liga": "ger.1",
+  "enviado": false
  }
 ]
