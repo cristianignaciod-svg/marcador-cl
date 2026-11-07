@@ -1,20 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "chi.pb:fm1000007333",
-  "creado": "2026-10-19T21:01:59-03:00",
-  "archivos": [
-   "historias/img/2026-10-19/chipb-union-espanola-deportes-copiapo.png"
-  ],
-  "titulo": "Unión Española 1–0 Deportes Copiapó",
-  "liga": "chi.pb",
-  "sin_goleadores": true,
-  "enviado": true,
-  "ig_id": "18651894559013174",
-  "publicado": "2026-10-20T00:02:38+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "chi.pb:fm1000007333:v2",
   "creado": "2026-10-19T21:12:57-03:00",
   "archivos": [
@@ -5123,5 +5109,16 @@
   "enviado": true,
   "ig_id": "18098277809395705",
   "publicado": "2026-11-07T22:15:29+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "fra.1:401876407",
+  "creado": "2026-11-07T19:25:22-03:00",
+  "archivos": [
+   "historias/img/2026-11-07/fra1-psg-troyes.png"
+  ],
+  "titulo": "PSG 1–0 Troyes",
+  "liga": "fra.1",
+  "enviado": false
  }
 ]

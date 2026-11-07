@@ -1,123 +1,42 @@
 [
  {
-  "id": "esp1-valencia-real-madrid",
-  "liga": "esp.1",
+  "id": "fra1-psg-troyes",
+  "liga": "fra.1",
   "fase": "",
   "fecha": "2026-11-07",
-  "local": "Valencia",
-  "visita": "Real Madrid",
-  "gl": 0,
-  "gv": 3,
+  "local": "PSG",
+  "visita": "Troyes",
+  "gl": 1,
+  "gv": 0,
   "goles": [
    {
-    "min": "28'",
-    "jugador": "Federico Valverde",
-    "lado": "visita",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "36'",
-    "jugador": "Arda Güler",
-    "lado": "visita",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "75'",
-    "jugador": "Kylian Mbappé",
-    "lado": "visita",
+    "min": "39'",
+    "jugador": "Illia Zabarnyi",
+    "lado": "local",
     "penal": false,
     "autogol": false
    }
   ],
   "tarjetas": [
    {
-    "min": "26'",
-    "jugador": "Pablo Maffeo",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "45'",
-    "jugador": "Andriy Lunin",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "50'",
-    "jugador": "Guido Rodríguez",
+    "min": "34'",
+    "jugador": "Illia Zabarnyi",
     "lado": "local",
     "tipo": "amarilla"
    },
    {
     "min": "79'",
-    "jugador": "José Gayà",
-    "lado": "local",
-    "tipo": "roja"
-   },
-   {
-    "min": "80'",
-    "jugador": "Yan Diomande",
+    "jugador": "Jeremy Le Douaron",
     "lado": "visita",
     "tipo": "amarilla"
    },
    {
-    "min": "80'",
-    "jugador": "Luis Rioja",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "81'",
-    "jugador": "Pepelu",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "81'",
-    "jugador": "Kylian Mbappé",
+    "min": "86'",
+    "jugador": "Antoine Mille",
     "lado": "visita",
     "tipo": "amarilla"
    }
   ],
-  "anulados": [],
-  "verificado": "ESPN+FotMob"
- },
- {
-  "id": "ita1-as-roma-sassuolo",
-  "liga": "ita.1",
-  "fase": "",
-  "fecha": "2026-11-07",
-  "local": "AS Roma",
-  "visita": "Sassuolo",
-  "gl": 3,
-  "gv": 0,
-  "goles": [
-   {
-    "min": "27'",
-    "jugador": "Mario Hermoso",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "30'",
-    "jugador": "Sebastian Walukiewicz",
-    "lado": "local",
-    "penal": false,
-    "autogol": true
-   },
-   {
-    "min": "58'",
-    "jugador": "Rodrigo Mora",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   }
-  ],
-  "tarjetas": [],
-  "anulados": [],
-  "verificado": "ESPN+FotMob"
+  "anulados": []
  }
 ]
