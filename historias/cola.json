@@ -5237,5 +5237,27 @@
   "enviado": true,
   "ig_id": "18002718096009887",
   "publicado": "2026-11-07T19:39:52+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "arg.1:401841666",
+  "creado": "2026-11-07T16:59:10-03:00",
+  "archivos": [
+   "historias/img/2026-11-07/arg1-gimnasia-mendoza-independiente-rivadavia.png"
+  ],
+  "titulo": "Gimnasia (Mendoza) 1–1 Independiente Rivadavia",
+  "liga": "arg.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "arg.1:401841661",
+  "creado": "2026-11-07T16:59:10-03:00",
+  "archivos": [
+   "historias/img/2026-11-07/arg1-talleres-cordoba-estudiantes-de-la-plata.png"
+  ],
+  "titulo": "Talleres (Córdoba) 1–1 Estudiantes de La Plata",
+  "liga": "arg.1",
+  "enviado": false
  }
 ]
