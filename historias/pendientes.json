@@ -1,1 +1,117 @@
-[]
+[
+ {
+  "id": "arg1-banfield-atletico-tucuman",
+  "liga": "arg.1",
+  "fase": "",
+  "fecha": "2026-11-06",
+  "local": "Banfield",
+  "visita": "Atlético Tucumán",
+  "gl": 2,
+  "gv": 2,
+  "goles": [
+   {
+    "min": "15'",
+    "jugador": "Juan Rodríguez",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "18'",
+    "jugador": "Juan Rodríguez",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "58'",
+    "jugador": "Alexander Machado",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "78'",
+    "jugador": "Lautaro Gómez",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "43'",
+    "jugador": "Juan Infante",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "43'",
+    "jugador": "Tomás Adoryan",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "61'",
+    "jugador": "Santiago Daniele",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "arg1-tigre-sarmiento-junin",
+  "liga": "arg.1",
+  "fase": "",
+  "fecha": "2026-11-06",
+  "local": "Tigre",
+  "visita": "Sarmiento (Junín)",
+  "gl": 1,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "70'",
+    "jugador": "Santiago López",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "45'",
+    "jugador": "Thiago Santamaría",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "50'",
+    "jugador": "Gastón González",
+    "lado": "visita",
+    "tipo": "roja"
+   },
+   {
+    "min": "55'",
+    "jugador": "Lucas Suarez",
+    "lado": "visita",
+    "tipo": "roja"
+   },
+   {
+    "min": "67'",
+    "jugador": "Alan Barrionuevo",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "80'",
+    "jugador": "Mauro Méndez",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]

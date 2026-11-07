@@ -4998,5 +4998,27 @@
   "enviado": true,
   "ig_id": "18226122220354217",
   "publicado": "2026-11-07T00:21:32+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "arg.1:401841671",
+  "creado": "2026-11-07T00:24:38-03:00",
+  "archivos": [
+   "historias/img/2026-11-06/arg1-banfield-atletico-tucuman.png"
+  ],
+  "titulo": "Banfield 2–2 Atlético Tucumán",
+  "liga": "arg.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "arg.1:401841673",
+  "creado": "2026-11-07T00:24:38-03:00",
+  "archivos": [
+   "historias/img/2026-11-06/arg1-tigre-sarmiento-junin.png"
+  ],
+  "titulo": "Tigre 1–0 Sarmiento (Junín)",
+  "liga": "arg.1",
+  "enviado": false
  }
 ]
