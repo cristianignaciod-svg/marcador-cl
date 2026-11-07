@@ -5079,5 +5079,60 @@
   "enviado": true,
   "ig_id": "18212021395368162",
   "publicado": "2026-11-07T16:32:57+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "ger.1:401884745",
+  "creado": "2026-11-07T13:42:30-03:00",
+  "archivos": [
+   "historias/img/2026-11-07/ger1-borussia-dortmund-sv-elversberg.png"
+  ],
+  "titulo": "Borussia Dortmund 2–1 SV Elversberg",
+  "liga": "ger.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "ger.1:401884740",
+  "creado": "2026-11-07T13:42:30-03:00",
+  "archivos": [
+   "historias/img/2026-11-07/ger1-mainz-bayern.png"
+  ],
+  "titulo": "Mainz 1–2 Bayern",
+  "liga": "ger.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "ger.1:401884744",
+  "creado": "2026-11-07T13:42:30-03:00",
+  "archivos": [
+   "historias/img/2026-11-07/ger1-rb-leipzig-f-c-augsburgo.png"
+  ],
+  "titulo": "RB Leipzig 5–2 F. C. Augsburgo",
+  "liga": "ger.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "ger.1:401884737",
+  "creado": "2026-11-07T13:42:30-03:00",
+  "archivos": [
+   "historias/img/2026-11-07/ger1-sc-paderborn-07-eintracht.png"
+  ],
+  "titulo": "SC Paderborn 07 2–2 Eintracht",
+  "liga": "ger.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "ita.1:401874811",
+  "creado": "2026-11-07T13:42:30-03:00",
+  "archivos": [
+   "historias/img/2026-11-07/ita1-torino-lecce.png"
+  ],
+  "titulo": "Torino 1–1 Lecce",
+  "liga": "ita.1",
+  "enviado": false
  }
 ]
