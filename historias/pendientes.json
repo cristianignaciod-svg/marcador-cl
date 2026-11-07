@@ -1,1 +1,56 @@
-[]
+[
+ {
+  "id": "esp1-osasuna-athletic",
+  "liga": "esp.1",
+  "fase": "",
+  "fecha": "2026-11-07",
+  "local": "Osasuna",
+  "visita": "Athletic",
+  "gl": 1,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "84'",
+    "jugador": "Nico Williams",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "90'",
+    "jugador": "Alejandro Catena",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "45+2'",
+    "jugador": "Jon Moncayola",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "54'",
+    "jugador": "Ante Budimir",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+3'",
+    "jugador": "Yuri Berchiche",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+4'",
+    "jugador": "Iker Muñoz",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]
