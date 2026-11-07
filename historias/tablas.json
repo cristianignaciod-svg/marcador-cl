@@ -270,7 +270,7 @@
     "ESPN",
     "FotMob"
    ],
-   "pendiente": "Everton: ESPN 40 pts/26 PJ, FotMob 41 pts/27 PJ"
+   "pendiente": "Everton: ESPN 40 pts/26 PJ, FotMob 40 pts/27 PJ"
   },
   "chi.pb": {
    "nombre": "Primera B",
@@ -1211,8 +1211,7 @@
    "fuentes": [
     "ESPN",
     "FotMob"
-   ],
-   "pendiente": "Man. City: ESPN 21 pts/9 PJ, FotMob 21 pts/10 PJ"
+   ]
   },
   "ger.1": {
    "nombre": "Bundesliga",
@@ -1515,8 +1514,7 @@
    "fuentes": [
     "ESPN",
     "FotMob"
-   ],
-   "pendiente": "Werder Bremen: ESPN 15 pts/8 PJ, FotMob 15 pts/9 PJ"
+   ]
   },
   "fra.1": {
    "nombre": "Ligue 1",

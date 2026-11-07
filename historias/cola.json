@@ -1,102 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "eng.1:401879257",
-  "creado": "2026-10-19T18:23:05-03:00",
-  "archivos": [
-   "historias/img/2026-10-19/eng1-tottenham-coventry-city.png"
-  ],
-  "titulo": "Tottenham 3–1 Coventry City",
-  "liga": "eng.1",
-  "enviado": true
- },
- {
-  "tipo": "resumen",
-  "clave": "eng.1:2026-10-17",
-  "creado": "2026-10-19T18:23:05-03:00",
-  "archivos": [
-   "historias/img/2026-10-19/eng1-20261017-1.png"
-  ],
-  "titulo": "eng.1 17 al 19 de octubre",
-  "liga": "eng.1",
-  "fase": "",
-  "rango": "17 al 19 de octubre",
-  "partidos": [
-   {
-    "dia": "Sáb 17",
-    "local": "Everton",
-    "visita": "Chelsea",
-    "gl": 0,
-    "gv": 2
-   },
-   {
-    "dia": "Sáb 17",
-    "local": "Brentford",
-    "visita": "Liverpool",
-    "gl": 1,
-    "gv": 2
-   },
-   {
-    "dia": "Sáb 17",
-    "local": "Fulham",
-    "visita": "Hull City",
-    "gl": 1,
-    "gv": 0
-   },
-   {
-    "dia": "Sáb 17",
-    "local": "Man. City",
-    "visita": "Ipswich Town",
-    "gl": 3,
-    "gv": 2
-   },
-   {
-    "dia": "Sáb 17",
-    "local": "Newcastle United",
-    "visita": "Aston Villa",
-    "gl": 0,
-    "gv": 1
-   },
-   {
-    "dia": "Dom 18",
-    "local": "AFC Bournemouth",
-    "visita": "Sunderland",
-    "gl": 2,
-    "gv": 0
-   },
-   {
-    "dia": "Dom 18",
-    "local": "Brighton",
-    "visita": "Crystal Palace",
-    "gl": 5,
-    "gv": 0
-   },
-   {
-    "dia": "Dom 18",
-    "local": "Leeds United",
-    "visita": "Man. United",
-    "gl": 1,
-    "gv": 1
-   },
-   {
-    "dia": "Dom 18",
-    "local": "Nottingham F.",
-    "visita": "Arsenal",
-    "gl": 0,
-    "gv": 1
-   },
-   {
-    "dia": "Lun 19",
-    "local": "Tottenham",
-    "visita": "Coventry City",
-    "gl": 3,
-    "gv": 1
-   }
-  ],
-  "enviado": true
- },
- {
-  "tipo": "historia",
   "clave": "chi.pb:fm1000007333",
   "creado": "2026-10-19T21:01:59-03:00",
   "archivos": [
@@ -5193,5 +5097,27 @@
   "enviado": true,
   "ig_id": "18148753426569863",
   "publicado": "2026-11-07T20:10:04+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "esp.1:401882808",
+  "creado": "2026-11-07T19:14:46-03:00",
+  "archivos": [
+   "historias/img/2026-11-07/esp1-valencia-real-madrid.png"
+  ],
+  "titulo": "Valencia 0–3 Real Madrid",
+  "liga": "esp.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "ita.1:401874803",
+  "creado": "2026-11-07T19:14:46-03:00",
+  "archivos": [
+   "historias/img/2026-11-07/ita1-as-roma-sassuolo.png"
+  ],
+  "titulo": "AS Roma 3–0 Sassuolo",
+  "liga": "ita.1",
+  "enviado": false
  }
 ]
