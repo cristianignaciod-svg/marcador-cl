@@ -4959,5 +4959,38 @@
   "enviado": true,
   "ig_id": "18239811874316954",
   "publicado": "2026-11-06T22:53:44+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "arg.1:401841665",
+  "creado": "2026-11-06T21:20:54-03:00",
+  "archivos": [
+   "historias/img/2026-11-06/arg1-independiente-deportivo-riestra.png"
+  ],
+  "titulo": "Independiente 2–1 Deportivo Riestra",
+  "liga": "arg.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "arg.1:401841662",
+  "creado": "2026-11-06T21:20:54-03:00",
+  "archivos": [
+   "historias/img/2026-11-06/arg1-san-lorenzo-platense.png"
+  ],
+  "titulo": "San Lorenzo 0–2 Platense",
+  "liga": "arg.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "arg.1:401841660",
+  "creado": "2026-11-06T21:20:54-03:00",
+  "archivos": [
+   "historias/img/2026-11-06/arg1-union-santa-fe-velez-sarsfield.png"
+  ],
+  "titulo": "Unión (Santa Fe) 2–0 Vélez Sarsfield",
+  "liga": "arg.1",
+  "enviado": false
  }
 ]
