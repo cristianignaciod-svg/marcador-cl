@@ -5185,5 +5185,16 @@
   "enviado": true,
   "ig_id": "17927785176202807",
   "publicado": "2026-11-07T17:33:22+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "ita.1:401874974",
+  "creado": "2026-11-07T16:10:03-03:00",
+  "archivos": [
+   "historias/img/2026-11-07/ita1-parma-bolonia.png"
+  ],
+  "titulo": "Parma 1–2 Bolonia",
+  "liga": "ita.1",
+  "enviado": false
  }
 ]
