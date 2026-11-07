@@ -5156,7 +5156,9 @@
   ],
   "titulo": "Espanyol 0–0 Deportivo",
   "liga": "esp.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18095883317183977",
+  "publicado": "2026-11-07T17:33:22+00:00"
  },
  {
   "tipo": "historia",
@@ -5167,7 +5169,9 @@
   ],
   "titulo": "Arsenal 1–0 Hull City",
   "liga": "eng.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18473016301137130",
+  "publicado": "2026-11-07T17:33:22+00:00"
  },
  {
   "tipo": "historia",
@@ -5178,6 +5182,8 @@
   ],
   "titulo": "Fulham 1–1 Newcastle",
   "liga": "eng.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17927785176202807",
+  "publicado": "2026-11-07T17:33:22+00:00"
  }
 ]
