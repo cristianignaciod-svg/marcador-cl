@@ -1,122 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "chi.pb:fm1000007333:v2",
-  "creado": "2026-10-19T21:12:57-03:00",
-  "archivos": [
-   "historias/img/2026-10-19/chipb-union-espanola-deportes-copiapo-v2.png"
-  ],
-  "titulo": "Unión Española 1–0 Deportes Copiapó (corregida)",
-  "liga": "chi.pb",
-  "enviado": true,
-  "ig_id": "18346653253252841",
-  "publicado": "2026-10-20T00:13:15+00:00"
- },
- {
-  "tipo": "resumen",
-  "clave": "chi.pb:fecha-28",
-  "creado": "2026-10-19T21:34:42-03:00",
-  "archivos": [
-   "historias/img/2026-10-19/chipb-fecha-28-1.png"
-  ],
-  "titulo": "Primera B Fecha 28",
-  "liga": "chi.pb",
-  "fase": "Fecha 28",
-  "rango": "16 al 19 de octubre",
-  "partidos": [
-   {
-    "dia": "Vie 16",
-    "local": "S. Wanderers",
-    "visita": "Rangers",
-    "gl": 4,
-    "gv": 1
-   },
-   {
-    "dia": "Sáb 17",
-    "local": "Magallanes",
-    "visita": "San Luis",
-    "gl": 0,
-    "gv": 1
-   },
-   {
-    "dia": "Sáb 17",
-    "local": "Cobreloa",
-    "visita": "Recoleta",
-    "gl": 6,
-    "gv": 1
-   },
-   {
-    "dia": "Dom 18",
-    "local": "Curicó Unido",
-    "visita": "Iquique",
-    "gl": 2,
-    "gv": 2
-   },
-   {
-    "dia": "Dom 18",
-    "local": "U. San Felipe",
-    "visita": "Temuco",
-    "gl": 2,
-    "gv": 2
-   },
-   {
-    "dia": "Dom 18",
-    "local": "San Marcos",
-    "visita": "Puerto Montt",
-    "gl": 0,
-    "gv": 0
-   },
-   {
-    "dia": "Dom 18",
-    "local": "Santa Cruz",
-    "visita": "Antofagasta",
-    "gl": 0,
-    "gv": 0
-   },
-   {
-    "dia": "Lun 19",
-    "local": "U. Española",
-    "visita": "Copiapó",
-    "gl": 1,
-    "gv": 0
-   }
-  ],
-  "texto": "¡Cobreloa no tuvo piedad! 🔥 Le hizo seis a Recoleta (6-1) en la fecha 28 de la Primera B.\nSantiago Wanderers también se lució con un 4-1 sobre Rangers, y en el cierre del lunes Unión Española le ganó 1-0 a Copiapó.\n¿Quién fue la figura de la fecha para ustedes? 👇\n\n#MarcadorCL #Futbol #PrimeraB #FutbolChileno #AscensoChile",
-  "avisado": true,
-  "enviado": true,
-  "aprobado": true,
-  "ig_id": "18125942671880805",
-  "publicado": "2026-10-20T00:42:38+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "agenda:2026-10-20",
-  "creado": "2026-10-20T09:24:39-03:00",
-  "archivos": [
-   "historias/img/2026-10-20/agenda-2026-10-20-1.png",
-   "historias/img/2026-10-20/agenda-2026-10-20-2.png"
-  ],
-  "titulo": "Hoy se juega (10 partidos)",
-  "liga": "agenda",
-  "enviado": true,
-  "ig_id": "18080687831787479",
-  "publicado": "2026-10-20T12:25:04+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "uefa.champions:401915403",
-  "creado": "2026-10-20T16:28:18-03:00",
-  "archivos": [
-   "historias/img/2026-10-20/uefachampions-fenerbahce-slavia-prague.png"
-  ],
-  "titulo": "Fenerbahçe 2–2 Slavia Prague",
-  "liga": "uefa.champions",
-  "enviado": "error",
-  "error": "400 {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"A9uIIcb5c0mil7NKu2ezT4J\"}}",
-  "intentos": 3
- },
- {
-  "tipo": "historia",
   "clave": "uefa.champions:401915404",
   "creado": "2026-10-20T16:28:18-03:00",
   "archivos": [
@@ -5122,5 +5006,49 @@
   "enviado": true,
   "ig_id": "17992505190068085",
   "publicado": "2026-11-07T22:26:00+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "chi.1:401850689",
+  "creado": "2026-11-07T19:35:33-03:00",
+  "archivos": [
+   "historias/img/2026-11-07/chi1-everton-deportes-concepcion.png"
+  ],
+  "titulo": "Everton 0–2 Deportes Concepción",
+  "liga": "chi.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "arg.1:401841672",
+  "creado": "2026-11-07T19:35:33-03:00",
+  "archivos": [
+   "historias/img/2026-11-07/arg1-argentinos-juniors-huracan.png"
+  ],
+  "titulo": "Argentinos Juniors 0–2 Huracán",
+  "liga": "arg.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "arg.1:401841669",
+  "creado": "2026-11-07T19:35:33-03:00",
+  "archivos": [
+   "historias/img/2026-11-07/arg1-boca-juniors-defensa-y-justicia.png"
+  ],
+  "titulo": "Boca Juniors 1–0 Defensa y Justicia",
+  "liga": "arg.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "arg.1:401841663",
+  "creado": "2026-11-07T19:35:33-03:00",
+  "archivos": [
+   "historias/img/2026-11-07/arg1-rosario-central-estudiantes-de-rio-cuarto.png"
+  ],
+  "titulo": "Rosario Central 2–0 Estudiantes de Río Cuarto",
+  "liga": "arg.1",
+  "enviado": false
  }
 ]
