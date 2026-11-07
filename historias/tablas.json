@@ -2377,14 +2377,14 @@
        "largo": "Fluminense",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
        "pos": 4,
-       "pj": 33,
-       "g": 15,
+       "pj": 34,
+       "g": 16,
        "e": 9,
        "p": 9,
-       "gf": 52,
+       "gf": 55,
        "gc": 42,
-       "dg": 10,
-       "pts": 54,
+       "dg": 13,
+       "pts": 57,
        "zona": null,
        "color": "#2AD572"
       },
@@ -2553,13 +2553,13 @@
        "largo": "Vitória",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
        "pos": 15,
-       "pj": 33,
+       "pj": 34,
        "g": 10,
        "e": 8,
-       "p": 15,
+       "p": 16,
        "gf": 35,
-       "gc": 48,
-       "dg": -13,
+       "gc": 51,
+       "dg": -16,
        "pts": 38,
        "zona": null,
        "color": null
@@ -2647,12 +2647,11 @@
      ]
     }
    ],
-   "actualizado": "2026-11-06T00:19-03:00",
+   "actualizado": "2026-11-06T22:29-03:00",
    "fuentes": [
     "ESPN",
     "FotMob"
-   ],
-   "pendiente": "Fluminense: ESPN 54 pts/33 PJ, FotMob 57 pts/34 PJ"
+   ]
   },
   "uefa.champions": {
    "nombre": "Champions League",
