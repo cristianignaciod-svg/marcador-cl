@@ -5008,7 +5008,9 @@
   ],
   "titulo": "Banfield 2–2 Atlético Tucumán",
   "liga": "arg.1",
-  "enviado": false
+  "enviado": false,
+  "error": "400 {\"error\":{\"message\":\"Media ID is not available\",\"type\":\"OAuthException\",\"code\":9007,\"error_subcode\":2207027,\"is_transient\":false,\"error_user_title\":\"Cannot Publish\",\"error_user_msg\":\"The media is not ready for publishing, please wait for a moment\",\"fbtrace_id\":\"ALjHrJzd2b_mh6ScB1Bc383\"}}",
+  "intentos": 1
  },
  {
   "tipo": "historia",
@@ -5019,6 +5021,8 @@
   ],
   "titulo": "Tigre 1–0 Sarmiento (Junín)",
   "liga": "arg.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18008580353789573",
+  "publicado": "2026-11-07T03:25:07+00:00"
  }
 ]
