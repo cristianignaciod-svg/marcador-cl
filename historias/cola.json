@@ -5146,5 +5146,38 @@
   "intentos": 1,
   "ig_id": "17999342658021004",
   "publicado": "2026-11-07T16:54:05+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "esp.1:401882813",
+  "creado": "2026-11-07T14:32:50-03:00",
+  "archivos": [
+   "historias/img/2026-11-07/esp1-espanyol-deportivo.png"
+  ],
+  "titulo": "Espanyol 0–0 Deportivo",
+  "liga": "esp.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "eng.1:401878760",
+  "creado": "2026-11-07T14:32:50-03:00",
+  "archivos": [
+   "historias/img/2026-11-07/eng1-arsenal-hull-city.png"
+  ],
+  "titulo": "Arsenal 1–0 Hull City",
+  "liga": "eng.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "eng.1:401879241",
+  "creado": "2026-11-07T14:32:50-03:00",
+  "archivos": [
+   "historias/img/2026-11-07/eng1-fulham-newcastle.png"
+  ],
+  "titulo": "Fulham 1–1 Newcastle",
+  "liga": "eng.1",
+  "enviado": false
  }
 ]

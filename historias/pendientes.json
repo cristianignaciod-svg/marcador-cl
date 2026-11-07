@@ -1,1 +1,160 @@
-[]
+[
+ {
+  "id": "esp1-espanyol-deportivo",
+  "liga": "esp.1",
+  "fase": "",
+  "fecha": "2026-11-07",
+  "local": "Espanyol",
+  "visita": "Deportivo",
+  "gl": 0,
+  "gv": 0,
+  "goles": [],
+  "tarjetas": [
+   {
+    "min": "39'",
+    "jugador": "Luismi Cruz",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "44'",
+    "jugador": "Roberto Fernández",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "73'",
+    "jugador": "Leandro Cabrera",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "77'",
+    "jugador": "Alejandro Santiago",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "81'",
+    "jugador": "Diego Villares",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "82'",
+    "jugador": "Lorenzo Amatucci",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "89'",
+    "jugador": "Gabriel Moscardo",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "89'",
+    "jugador": "Pierre-Emerick Aubameyang",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "eng1-arsenal-hull-city",
+  "liga": "eng.1",
+  "fase": "",
+  "fecha": "2026-11-07",
+  "local": "Arsenal",
+  "visita": "Hull City",
+  "gl": 1,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "72'",
+    "jugador": "Martin Ødegaard",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "34'",
+    "jugador": "Lewie Coyle",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "48'",
+    "jugador": "Lucas Gourna-Douath",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "61'",
+    "jugador": "Brooke Norton-Cuffy",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "75'",
+    "jugador": "Elliot Stroud",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "87'",
+    "jugador": "Nobel Mendy",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "eng1-fulham-newcastle",
+  "liga": "eng.1",
+  "fase": "",
+  "fecha": "2026-11-07",
+  "local": "Fulham",
+  "visita": "Newcastle",
+  "gl": 1,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "80'",
+    "jugador": "Jacob Murphy",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "83'",
+    "jugador": "Rodrigo Muniz",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "90'",
+    "jugador": "Fabian Schär",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+2'",
+    "jugador": "Amar Dedic",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]
