@@ -1,1 +1,61 @@
-[]
+[
+ {
+  "id": "ita1-cagliari-frosinone",
+  "liga": "ita.1",
+  "fase": "",
+  "fecha": "2026-11-07",
+  "local": "Cagliari",
+  "visita": "Frosinone",
+  "gl": 1,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "38'",
+    "jugador": "Michel Adopo",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "13'",
+    "jugador": "Gabriele Bracaglia",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "60'",
+    "jugador": "Anthony Oyono",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "69'",
+    "jugador": "Jacopo Fazzini",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "70'",
+    "jugador": "Nicola Grandu",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "85'",
+    "jugador": "Ilario Monterisi",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "87'",
+    "jugador": "Zé Pedro",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]
