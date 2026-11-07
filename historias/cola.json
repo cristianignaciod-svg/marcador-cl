@@ -5016,7 +5016,9 @@
   ],
   "titulo": "Everton 0–2 Deportes Concepción",
   "liga": "chi.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18133002286688731",
+  "publicado": "2026-11-07T22:35:58+00:00"
  },
  {
   "tipo": "historia",
@@ -5027,7 +5029,9 @@
   ],
   "titulo": "Argentinos Juniors 0–2 Huracán",
   "liga": "arg.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18014454194985144",
+  "publicado": "2026-11-07T22:35:58+00:00"
  },
  {
   "tipo": "historia",
@@ -5038,7 +5042,9 @@
   ],
   "titulo": "Boca Juniors 1–0 Defensa y Justicia",
   "liga": "arg.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18101594723356682",
+  "publicado": "2026-11-07T22:35:58+00:00"
  },
  {
   "tipo": "historia",
@@ -5049,6 +5055,8 @@
   ],
   "titulo": "Rosario Central 2–0 Estudiantes de Río Cuarto",
   "liga": "arg.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18133217491700555",
+  "publicado": "2026-11-07T22:35:58+00:00"
  }
 ]
