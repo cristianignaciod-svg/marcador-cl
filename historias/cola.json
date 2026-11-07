@@ -5050,7 +5050,9 @@
   ],
   "titulo": "Málaga 1–2 Racing",
   "liga": "esp.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18118353353085833",
+  "publicado": "2026-11-07T15:15:21+00:00"
  },
  {
   "tipo": "historia",
@@ -5061,6 +5063,8 @@
   ],
   "titulo": "Leeds 1–0 Tottenham",
   "liga": "eng.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17990952831074991",
+  "publicado": "2026-11-07T15:15:21+00:00"
  }
 ]
