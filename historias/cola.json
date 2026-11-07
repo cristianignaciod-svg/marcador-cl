@@ -4969,7 +4969,9 @@
   ],
   "titulo": "Independiente 2–1 Deportivo Riestra",
   "liga": "arg.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17924999016433638",
+  "publicado": "2026-11-07T00:21:32+00:00"
  },
  {
   "tipo": "historia",
@@ -4980,7 +4982,9 @@
   ],
   "titulo": "San Lorenzo 0–2 Platense",
   "liga": "arg.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17998280841020081",
+  "publicado": "2026-11-07T00:21:32+00:00"
  },
  {
   "tipo": "historia",
@@ -4991,6 +4995,8 @@
   ],
   "titulo": "Unión (Santa Fe) 2–0 Vélez Sarsfield",
   "liga": "arg.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18226122220354217",
+  "publicado": "2026-11-07T00:21:32+00:00"
  }
 ]
