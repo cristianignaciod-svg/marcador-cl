@@ -5040,5 +5040,27 @@
   "enviado": true,
   "ig_id": "18035099378907606",
   "publicado": "2026-11-07T12:22:14+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "esp.1:401882812",
+  "creado": "2026-11-07T12:14:51-03:00",
+  "archivos": [
+   "historias/img/2026-11-07/esp1-malaga-racing.png"
+  ],
+  "titulo": "Málaga 1–2 Racing",
+  "liga": "esp.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "eng.1:401878758",
+  "creado": "2026-11-07T12:14:51-03:00",
+  "archivos": [
+   "historias/img/2026-11-07/eng1-leeds-tottenham.png"
+  ],
+  "titulo": "Leeds 1–0 Tottenham",
+  "liga": "eng.1",
+  "enviado": false
  }
 ]

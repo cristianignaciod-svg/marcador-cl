@@ -1,1 +1,134 @@
-[]
+[
+ {
+  "id": "esp1-malaga-racing",
+  "liga": "esp.1",
+  "fase": "",
+  "fecha": "2026-11-07",
+  "local": "Málaga",
+  "visita": "Racing",
+  "gl": 1,
+  "gv": 2,
+  "goles": [
+   {
+    "min": "28'",
+    "jugador": "Carlos Dotor",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "50'",
+    "jugador": "Iker Luque",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "60'",
+    "jugador": "Yassir Zabiri",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "31'",
+    "jugador": "Julen Agirrezabala",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "45+1'",
+    "jugador": "Einar Galilea",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "64'",
+    "jugador": "Adam Aznou",
+    "lado": "local",
+    "tipo": "doble"
+   },
+   {
+    "min": "76'",
+    "jugador": "Adrián Niño",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "80'",
+    "jugador": "Chupete",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90'",
+    "jugador": "Carlos Dotor",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+1'",
+    "jugador": "Giorgi Guliashvili",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "eng1-leeds-tottenham",
+  "liga": "eng.1",
+  "fase": "",
+  "fecha": "2026-11-07",
+  "local": "Leeds",
+  "visita": "Tottenham",
+  "gl": 1,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "79'",
+    "jugador": "Noah Okafor",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "15'",
+    "jugador": "Micky van de Ven",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "22'",
+    "jugador": "Sean Longstaff",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "51'",
+    "jugador": "Pedro Porro",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "80'",
+    "jugador": "Noah Okafor",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "88'",
+    "jugador": "Sandro Tonali",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]
