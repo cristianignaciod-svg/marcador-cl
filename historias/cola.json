@@ -5247,7 +5247,9 @@
   ],
   "titulo": "Gimnasia (Mendoza) 1–1 Independiente Rivadavia",
   "liga": "arg.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18118669426821611",
+  "publicado": "2026-11-07T19:59:42+00:00"
  },
  {
   "tipo": "historia",
@@ -5258,6 +5260,8 @@
   ],
   "titulo": "Talleres (Córdoba) 1–1 Estudiantes de La Plata",
   "liga": "arg.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18084394970718542",
+  "publicado": "2026-11-07T19:59:42+00:00"
  }
 ]
