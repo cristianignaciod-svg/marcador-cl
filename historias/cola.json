@@ -5107,7 +5107,9 @@
   ],
   "titulo": "Valencia 0–3 Real Madrid",
   "liga": "esp.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18097903685470662",
+  "publicado": "2026-11-07T22:15:29+00:00"
  },
  {
   "tipo": "historia",
@@ -5118,6 +5120,8 @@
   ],
   "titulo": "AS Roma 3–0 Sassuolo",
   "liga": "ita.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18098277809395705",
+  "publicado": "2026-11-07T22:15:29+00:00"
  }
 ]
