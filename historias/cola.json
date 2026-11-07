@@ -1,102 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "esp.1:401882842",
-  "creado": "2026-10-19T18:23:05-03:00",
-  "archivos": [
-   "historias/img/2026-10-19/esp1-getafe-rayo-vallecano.png"
-  ],
-  "titulo": "Getafe 1–1 Rayo Vallecano",
-  "liga": "esp.1",
-  "enviado": true
- },
- {
-  "tipo": "resumen",
-  "clave": "esp.1:2026-10-16",
-  "creado": "2026-10-19T18:23:05-03:00",
-  "archivos": [
-   "historias/img/2026-10-19/esp1-20261016-1.png"
-  ],
-  "titulo": "esp.1 16 al 19 de octubre",
-  "liga": "esp.1",
-  "fase": "",
-  "rango": "16 al 19 de octubre",
-  "partidos": [
-   {
-    "dia": "Vie 16",
-    "local": "Deportivo La Coruña",
-    "visita": "Levante",
-    "gl": 1,
-    "gv": 1
-   },
-   {
-    "dia": "Sáb 17",
-    "local": "Espanyol",
-    "visita": "Atlético",
-    "gl": 0,
-    "gv": 1
-   },
-   {
-    "dia": "Sáb 17",
-    "local": "Villarreal",
-    "visita": "Elche",
-    "gl": 0,
-    "gv": 0
-   },
-   {
-    "dia": "Sáb 17",
-    "local": "Real Betis",
-    "visita": "Barcelona",
-    "gl": 2,
-    "gv": 5
-   },
-   {
-    "dia": "Sáb 17",
-    "local": "Valencia",
-    "visita": "Athletic",
-    "gl": 0,
-    "gv": 0
-   },
-   {
-    "dia": "Dom 18",
-    "local": "Osasuna",
-    "visita": "Racing Santander",
-    "gl": 2,
-    "gv": 0
-   },
-   {
-    "dia": "Dom 18",
-    "local": "Celta Vigo",
-    "visita": "Alavés",
-    "gl": 2,
-    "gv": 1
-   },
-   {
-    "dia": "Dom 18",
-    "local": "Málaga",
-    "visita": "Real Sociedad",
-    "gl": 2,
-    "gv": 5
-   },
-   {
-    "dia": "Dom 18",
-    "local": "Real Madrid",
-    "visita": "Sevilla FC",
-    "gl": 4,
-    "gv": 1
-   },
-   {
-    "dia": "Lun 19",
-    "local": "Getafe",
-    "visita": "Rayo Vallecano",
-    "gl": 1,
-    "gv": 1
-   }
-  ],
-  "enviado": true
- },
- {
-  "tipo": "historia",
   "clave": "eng.1:401879257",
   "creado": "2026-10-19T18:23:05-03:00",
   "archivos": [
@@ -5263,5 +5167,27 @@
   "enviado": true,
   "ig_id": "18084394970718542",
   "publicado": "2026-11-07T19:59:42+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "chi.1:401850688",
+  "creado": "2026-11-07T17:09:35-03:00",
+  "archivos": [
+   "historias/img/2026-11-07/chi1-la-serena-palestino.png"
+  ],
+  "titulo": "La Serena 1–0 Palestino",
+  "liga": "chi.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "fra.1:401876411",
+  "creado": "2026-11-07T17:09:35-03:00",
+  "archivos": [
+   "historias/img/2026-11-07/fra1-aj-auxerre-paris-fc.png"
+  ],
+  "titulo": "AJ Auxerre 0–1 Paris FC",
+  "liga": "fra.1",
+  "enviado": false
  }
 ]

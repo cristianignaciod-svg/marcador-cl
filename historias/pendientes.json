@@ -1,82 +1,39 @@
 [
  {
-  "id": "arg1-gimnasia-mendoza-independiente-rivadavia",
-  "liga": "arg.1",
+  "id": "chi1-la-serena-palestino",
+  "liga": "chi.1",
   "fase": "",
   "fecha": "2026-11-07",
-  "local": "Gimnasia (Mendoza)",
-  "visita": "Independiente Rivadavia",
+  "local": "La Serena",
+  "visita": "Palestino",
   "gl": 1,
-  "gv": 1,
+  "gv": 0,
   "goles": [
    {
-    "min": "45'",
-    "jugador": "Germán Guiffrey",
+    "min": "65'",
+    "jugador": "Diego Rubio",
     "lado": "local",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "90+5'",
-    "jugador": "Luis Díaz",
-    "lado": "visita",
     "penal": false,
     "autogol": false
    }
   ],
   "tarjetas": [
    {
-    "min": "17'",
-    "jugador": "José Florentín",
-    "lado": "visita",
-    "tipo": "roja"
-   },
-   {
-    "min": "20'",
-    "jugador": "Emmanuel Gómez Riga",
+    "min": "8'",
+    "jugador": "Nicolás Alonso Meza Muñoz",
     "lado": "visita",
     "tipo": "amarilla"
    },
    {
-    "min": "21'",
-    "jugador": "Fermín Antonini",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "21'",
-    "jugador": "Matías Fernández",
+    "min": "31'",
+    "jugador": "José Bizama",
     "lado": "visita",
     "tipo": "amarilla"
    },
    {
-    "min": "45+5'",
-    "jugador": "César Rigamonti",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "59'",
-    "jugador": "Luciano Paredes",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "62'",
-    "jugador": "Alex Arce",
+    "min": "36'",
+    "jugador": "Sebastian Gallegos",
     "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "84'",
-    "jugador": "Luciano Cingolani",
-    "lado": "local",
-    "tipo": "doble"
-   },
-   {
-    "min": "89'",
-    "jugador": "Tomas O'Connor",
-    "lado": "local",
     "tipo": "amarilla"
    }
   ],
@@ -84,34 +41,45 @@
   "verificado": "ESPN+FotMob"
  },
  {
-  "id": "arg1-talleres-cordoba-estudiantes-de-la-plata",
-  "liga": "arg.1",
+  "id": "fra1-aj-auxerre-paris-fc",
+  "liga": "fra.1",
   "fase": "",
   "fecha": "2026-11-07",
-  "local": "Talleres (Córdoba)",
-  "visita": "Estudiantes de La Plata",
-  "gl": 1,
+  "local": "AJ Auxerre",
+  "visita": "Paris FC",
+  "gl": 0,
   "gv": 1,
   "goles": [
    {
-    "min": "38'",
-    "jugador": "Román Riquelme",
+    "min": "63'",
+    "jugador": "Lassine Sinayoko",
     "lado": "visita",
-    "penal": false,
-    "autogol": true
-   },
-   {
-    "min": "52'",
-    "jugador": "Alexandro Maidana",
-    "lado": "local",
     "penal": false,
     "autogol": false
    }
   ],
   "tarjetas": [
    {
-    "min": "70'",
-    "jugador": "Agustín Álvarez Martínez",
+    "min": "15'",
+    "jugador": "Pierre Lees-Melou",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "15'",
+    "jugador": "Cameron Archer",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "16'",
+    "jugador": "Sinaly Diomande",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "88'",
+    "jugador": "Kévin Danois",
     "lado": "local",
     "tipo": "amarilla"
    }
