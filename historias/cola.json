@@ -5177,7 +5177,9 @@
   ],
   "titulo": "La Serena 1–0 Palestino",
   "liga": "chi.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17913918063474430",
+  "publicado": "2026-11-07T20:10:04+00:00"
  },
  {
   "tipo": "historia",
@@ -5188,6 +5190,8 @@
   ],
   "titulo": "AJ Auxerre 0–1 Paris FC",
   "liga": "fra.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18148753426569863",
+  "publicado": "2026-11-07T20:10:04+00:00"
  }
 ]
