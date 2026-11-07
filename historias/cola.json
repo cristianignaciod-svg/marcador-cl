@@ -5089,7 +5089,9 @@
   ],
   "titulo": "Borussia Dortmund 2–1 SV Elversberg",
   "liga": "ger.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18074122160760147",
+  "publicado": "2026-11-07T16:43:03+00:00"
  },
  {
   "tipo": "historia",
@@ -5100,7 +5102,9 @@
   ],
   "titulo": "Mainz 1–2 Bayern",
   "liga": "ger.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17975282730172066",
+  "publicado": "2026-11-07T16:43:03+00:00"
  },
  {
   "tipo": "historia",
@@ -5111,7 +5115,9 @@
   ],
   "titulo": "RB Leipzig 5–2 F. C. Augsburgo",
   "liga": "ger.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17899312278610281",
+  "publicado": "2026-11-07T16:43:03+00:00"
  },
  {
   "tipo": "historia",
@@ -5122,7 +5128,9 @@
   ],
   "titulo": "SC Paderborn 07 2–2 Eintracht",
   "liga": "ger.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17905865001603004",
+  "publicado": "2026-11-07T16:43:03+00:00"
  },
  {
   "tipo": "historia",
@@ -5133,6 +5141,8 @@
   ],
   "titulo": "Torino 1–1 Lecce",
   "liga": "ita.1",
-  "enviado": false
+  "enviado": false,
+  "error": "400 {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,132,642,187,759,825 cannot be found.\",\"fbtrace_id\":\"AMFMWzkfxdI4FDFsHn_Ium7\"}}",
+  "intentos": 1
  }
 ]
