@@ -1,13 +1,18 @@
 {
- "fecha": "2026-11-06",
+ "fecha": "2026-11-07",
  "fuentes": [
-  "https://tecache.cl/futbol/everton-vs-coventry-por-la-premier-league-cuando-juegan-horario-y-donde-ver-en-vivo",
+  "https://redgol.cl/campeonato-nacional/programacion-fecha-27-liga-de-primera-2026-agenda-de-partidos-horarios-y-donde-ver-el-futbol-chileno",
+  "https://tvenserio.com/2026/11/05/liga-de-primera-2026-programacion-fecha-27-tnt-sports/",
   "https://www.futbolenvivochile.com/",
-  "https://www.prensafutbol.cl/sevilla-suazo-vs-alaves-hora-xi-donde-verlo/"
+  "https://tecache.cl/futbol/valencia-vs-real-madrid-horario-y-donde-ver-en-vivo-el-partido-por-laliga",
+  "https://www.prensafutbol.cl/valencia-vs-real-madrid-hora-los-xi-donde-ver/",
+  "https://bolavip.com/premier-league/donde-ver-en-vivo-nottingham-forest-vs-man-city-por-la-jornada-10-de-la-premier-league-tv-y-streaming-online"
  ],
  "partidos": [
-  {"local": "Everton", "visita": "Coventry", "tv": "Disney+ Premium", "verificado": "2_fuentes"},
-  {"local": "Sevilla", "visita": "Alavés", "tv": "DSports", "verificado": "2_fuentes"}
+  {"local": "La Serena", "visita": "Palestino", "tv": "TNT Sports Premium · HBO Max", "verificado": "2_fuentes"},
+  {"local": "Everton", "visita": "Concepción", "tv": "TNT Sports Premium · HBO Max", "verificado": "2_fuentes"},
+  {"local": "Valencia", "visita": "Real Madrid", "tv": "DSports · DGO · Prime Video", "verificado": "2_fuentes"},
+  {"local": "Nottm Forest", "visita": "Man. City", "tv": "ESPN · Disney+ Premium", "verificado": "2_fuentes"}
  ],
  "conflictos": []
 }
