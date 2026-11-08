@@ -1,18 +1,35 @@
 {
- "fecha": "2026-11-07",
+ "fecha": "2026-11-08",
  "fuentes": [
-  "https://redgol.cl/campeonato-nacional/programacion-fecha-27-liga-de-primera-2026-agenda-de-partidos-horarios-y-donde-ver-el-futbol-chileno",
-  "https://tvenserio.com/2026/11/05/liga-de-primera-2026-programacion-fecha-27-tnt-sports/",
+  "https://www.alairelibre.cl/futbol/campeonato-nacional/fecha-27-liga-de-primera-donde-ver-ocho-partidos-tv-hbo-max/",
+  "https://www.prensafutbol.cl/u-catolica-vs-limache-hora-los-xi-donde-ver/",
+  "https://www.t13.cl/noticia/deportes13/va-por-tv-hora-como-ver-vivo-nublense-vs-colo-colo-por-liga-primera-2026-5-11-2026",
+  "https://www.prensafutbol.cl/u-de-concepcion-ohiggins-hora-liga-de-primera/",
+  "https://redgol.cl/internacional/elche-vs-betis-horario-y-donde-ver-en-vivo-por-tv-y-online-a-lucas-cepeda-y-manuel-pellegrini",
+  "https://redgol.cl/internacional/crystal-palace-vs-liverpool-horario-y-donde-ver-en-vivo-por-tv-y-online-a-dario-osorio-en-premier-league",
   "https://www.futbolenvivochile.com/",
-  "https://tecache.cl/futbol/valencia-vs-real-madrid-horario-y-donde-ver-en-vivo-el-partido-por-laliga",
-  "https://www.prensafutbol.cl/valencia-vs-real-madrid-hora-los-xi-donde-ver/",
-  "https://bolavip.com/premier-league/donde-ver-en-vivo-nottingham-forest-vs-man-city-por-la-jornada-10-de-la-premier-league-tv-y-streaming-online"
+  "https://www.cnnchile.com/deportes/atletico-de-madrid-vs-barcelona-a-que-hora-juegan-y-donde-ver-en-vivo-el-partido-por-laliga/",
+  "https://www.prensafutbol.cl/atletico-de-madrid-vs-barcelona-donde-ver/",
+  "https://bolavip.com/laliga/donde-ver-en-vivo-villarreal-vs-getafe-por-la-jornada-12-de-la-laliga-tv-y-streaming-online",
+  "https://bolavip.com/premier-league/donde-ver-en-vivo-manchester-united-vs-aston-villa-por-la-jornada-10-de-la-premier-league-tv-y-streaming-online"
  ],
  "partidos": [
-  {"local": "La Serena", "visita": "Palestino", "tv": "TNT Sports Premium · HBO Max", "verificado": "2_fuentes"},
-  {"local": "Everton", "visita": "Concepción", "tv": "TNT Sports Premium · HBO Max", "verificado": "2_fuentes"},
-  {"local": "Valencia", "visita": "Real Madrid", "tv": "DSports · DGO · Prime Video", "verificado": "2_fuentes"},
-  {"local": "Nottm Forest", "visita": "Man. City", "tv": "ESPN · Disney+ Premium", "verificado": "2_fuentes"}
+  {"local": "U. Católica", "visita": "Deportes Limache", "tv": "TNT Sports Premium · HBO Max", "verificado": "2_fuentes"},
+  {"local": "Ñublense", "visita": "Colo Colo", "tv": "TNT Sports Premium · HBO Max", "verificado": "2_fuentes"},
+  {"local": "Universidad de Concepción", "visita": "O'Higgins", "tv": "TNT Sports Premium · HBO Max", "verificado": "2_fuentes"},
+  {"local": "Elche", "visita": "Betis", "tv": "ESPN 3 · Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "Real Sociedad", "visita": "Rayo Vallecano", "tv": "Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "Villarreal", "visita": "Getafe", "tv": "DSports · DGO", "verificado": "2_fuentes"},
+  {"local": "Celta", "visita": "Levante", "tv": "ESPN 3 · Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "Sunderland", "visita": "Chelsea", "tv": "ESPN · Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "Brighton", "visita": "Brentford", "tv": "Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "Crystal Palace", "visita": "Liverpool", "tv": "Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "Ipswich", "visita": "Bournemouth", "tv": "Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "Man. United", "visita": "Aston Villa", "tv": "ESPN · Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "Colonia", "visita": "Leverkusen", "tv": "Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "Freiburg", "visita": "Union Berlin", "tv": "Disney+ Premium", "verificado": "2_fuentes"}
  ],
- "conflictos": []
+ "conflictos": [
+  {"local": "Atlético", "visita": "Barcelona", "detalle": "CNN Chile y futbolenvivochile dicen ESPN · Disney+ Premium; Prensafutbol dice DSports · DGO; RedGol no informa canal"}
+ ]
 }
