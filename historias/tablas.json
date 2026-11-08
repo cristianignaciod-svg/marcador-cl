@@ -23,10 +23,26 @@
        "color": "#2AD572"
       },
       {
+       "equipo": "U. Católica",
+       "largo": "Universidad Católica",
+       "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/885.png",
+       "pos": 2,
+       "pj": 27,
+       "g": 15,
+       "e": 4,
+       "p": 8,
+       "gf": 56,
+       "gc": 37,
+       "dg": 19,
+       "pts": 49,
+       "zona": null,
+       "color": "#2AD572"
+      },
+      {
        "equipo": "U. de Chile",
        "largo": "Universidad de Chile",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4139.png",
-       "pos": 2,
+       "pos": 3,
        "pj": 26,
        "g": 14,
        "e": 6,
@@ -36,22 +52,6 @@
        "dg": 24,
        "pts": 48,
        "zona": null,
-       "color": "#2AD572"
-      },
-      {
-       "equipo": "U. Católica",
-       "largo": "Universidad Católica",
-       "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/885.png",
-       "pos": 3,
-       "pj": 26,
-       "g": 14,
-       "e": 4,
-       "p": 8,
-       "gf": 53,
-       "gc": 37,
-       "dg": 16,
-       "pts": 46,
-       "zona": null,
        "color": "#000000"
       },
       {
@@ -59,13 +59,13 @@
        "largo": "Deportes Limache",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/19195.png",
        "pos": 4,
-       "pj": 26,
+       "pj": 27,
        "g": 12,
        "e": 4,
-       "p": 10,
+       "p": 11,
        "gf": 48,
-       "gc": 37,
-       "dg": 11,
+       "gc": 40,
+       "dg": 8,
        "pts": 40,
        "zona": null,
        "color": "#0046A7"
@@ -87,10 +87,26 @@
        "color": "#0046A7"
       },
       {
+       "equipo": "Coquimbo Unido",
+       "largo": "Coquimbo Unido",
+       "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/8186.png",
+       "pos": 6,
+       "pj": 27,
+       "g": 11,
+       "e": 5,
+       "p": 11,
+       "gf": 39,
+       "gc": 36,
+       "dg": 3,
+       "pts": 38,
+       "zona": null,
+       "color": "#0046A7"
+      },
+      {
        "equipo": "Palestino",
        "largo": "Palestino",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4422.png",
-       "pos": 6,
+       "pos": 7,
        "pj": 27,
        "g": 11,
        "e": 5,
@@ -100,13 +116,13 @@
        "dg": 1,
        "pts": 38,
        "zona": null,
-       "color": "#0046A7"
+       "color": null
       },
       {
        "equipo": "Deportes Concepción",
        "largo": "Deportes Concepcion",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/8110.png",
-       "pos": 7,
+       "pos": 8,
        "pj": 27,
        "g": 11,
        "e": 5,
@@ -122,7 +138,7 @@
        "equipo": "La Serena",
        "largo": "La Serena",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4137.png",
-       "pos": 8,
+       "pos": 9,
        "pj": 27,
        "g": 9,
        "e": 10,
@@ -138,7 +154,7 @@
        "equipo": "Huachipato",
        "largo": "Huachipato",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4134.png",
-       "pos": 9,
+       "pos": 10,
        "pj": 26,
        "g": 10,
        "e": 6,
@@ -147,22 +163,6 @@
        "gc": 40,
        "dg": -5,
        "pts": 36,
-       "zona": null,
-       "color": null
-      },
-      {
-       "equipo": "Coquimbo Unido",
-       "largo": "Coquimbo Unido",
-       "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/8186.png",
-       "pos": 10,
-       "pj": 26,
-       "g": 10,
-       "e": 5,
-       "p": 11,
-       "gf": 38,
-       "gc": 36,
-       "dg": 2,
-       "pts": 35,
        "zona": null,
        "color": null
       },
@@ -203,13 +203,13 @@
        "largo": "Audax Italiano",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4138.png",
        "pos": 13,
-       "pj": 26,
+       "pj": 27,
        "g": 7,
        "e": 9,
-       "p": 10,
+       "p": 11,
        "gf": 28,
-       "gc": 35,
-       "dg": -7,
+       "gc": 36,
+       "dg": -8,
        "pts": 30,
        "zona": null,
        "color": null
@@ -265,12 +265,11 @@
      ]
     }
    ],
-   "actualizado": "2026-11-07T19:56-03:00",
+   "actualizado": "2026-11-08T14:37-03:00",
    "fuentes": [
     "ESPN",
     "FotMob"
-   ],
-   "pendiente": "U. Católica: ESPN 46 pts/26 PJ, FotMob 49 pts/27 PJ"
+   ]
   },
   "chi.pb": {
    "nombre": "Primera B",
@@ -1212,7 +1211,7 @@
     "ESPN",
     "FotMob"
    ],
-   "pendiente": "Brighton: ESPN 19 pts/9 PJ, FotMob 22 pts/10 PJ"
+   "pendiente": "Aston Villa: ESPN 12 pts/9 PJ, FotMob 13 pts/10 PJ"
   },
   "ger.1": {
    "nombre": "Bundesliga",
@@ -1820,7 +1819,7 @@
     "ESPN",
     "FotMob"
    ],
-   "pendiente": "Lille: ESPN 18 pts/9 PJ, FotMob 21 pts/10 PJ"
+   "pendiente": "Lyon: ESPN 17 pts/9 PJ, FotMob 17 pts/10 PJ"
   },
   "arg.1": {
    "nombre": "Liga Profesional",

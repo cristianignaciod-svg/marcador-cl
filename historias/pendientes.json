@@ -1,1 +1,116 @@
-[]
+[
+ {
+  "id": "chi1-audax-italiano-coquimbo-unido",
+  "liga": "chi.1",
+  "fase": "",
+  "fecha": "2026-11-08",
+  "local": "Audax Italiano",
+  "visita": "Coquimbo Unido",
+  "gl": 0,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "50'",
+    "jugador": "Guido Vadalá",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "24'",
+    "jugador": "Felipe Salomoni",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "38'",
+    "jugador": "Benjamin Gazzolo",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "55'",
+    "jugador": "Luis Riveros",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "76'",
+    "jugador": "Manuel Fernández",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "79'",
+    "jugador": "Ariel Uribe",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "85'",
+    "jugador": "Cesar Pinares",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "chi1-u-catolica-deportes-limache",
+  "liga": "chi.1",
+  "fase": "",
+  "fecha": "2026-11-08",
+  "local": "U. Católica",
+  "visita": "Deportes Limache",
+  "gl": 3,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "23'",
+    "jugador": "Fernando Zampedri",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "31'",
+    "jugador": "Tomas Astaburuaga",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "45+4'",
+    "jugador": "Fernando Zampedri",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "30'",
+    "jugador": "Leonardo Valencia",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "41'",
+    "jugador": "Jhojan Valencia",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "76'",
+    "jugador": "Diego Corral",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]

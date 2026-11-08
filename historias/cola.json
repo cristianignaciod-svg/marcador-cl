@@ -1,32 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "uefa.champions:401915312",
-  "creado": "2026-10-21T18:20:13-03:00",
-  "archivos": [
-   "historias/img/2026-10-21/uefachampions-bayern-arsenal.png"
-  ],
-  "titulo": "Bayern 2–2 Arsenal",
-  "liga": "uefa.champions",
-  "enviado": true,
-  "ig_id": "17994024276057428",
-  "publicado": "2026-10-21T21:20:57+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "uefa.champions:401915388",
-  "creado": "2026-10-21T18:20:13-03:00",
-  "archivos": [
-   "historias/img/2026-10-21/uefachampions-club-brujas-lens.png"
-  ],
-  "titulo": "Club Brujas 3–0 Lens",
-  "liga": "uefa.champions",
-  "enviado": true,
-  "ig_id": "18414259339095746",
-  "publicado": "2026-10-21T21:20:57+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "uefa.champions:401915389",
   "creado": "2026-10-21T18:20:13-03:00",
   "archivos": [
@@ -4989,5 +4963,27 @@
   "enviado": true,
   "ig_id": "18457947172125611",
   "publicado": "2026-11-08T17:17:58+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "chi.1:401850690",
+  "creado": "2026-11-08T14:37:20-03:00",
+  "archivos": [
+   "historias/img/2026-11-08/chi1-audax-italiano-coquimbo-unido.png"
+  ],
+  "titulo": "Audax Italiano 0–1 Coquimbo Unido",
+  "liga": "chi.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "chi.1:401850687",
+  "creado": "2026-11-08T14:37:20-03:00",
+  "archivos": [
+   "historias/img/2026-11-08/chi1-u-catolica-deportes-limache.png"
+  ],
+  "titulo": "U. Católica 3–0 Deportes Limache",
+  "liga": "chi.1",
+  "enviado": false
  }
 ]
