@@ -1,278 +1,35 @@
 [
  {
-  "id": "esp1-villarreal-getafe",
+  "id": "esp1-celta-levante",
   "liga": "esp.1",
   "fase": "",
   "fecha": "2026-11-08",
-  "local": "Villarreal",
-  "visita": "Getafe",
-  "gl": 2,
+  "local": "Celta",
+  "visita": "Levante",
+  "gl": 0,
   "gv": 0,
-  "goles": [
-   {
-    "min": "80'",
-    "jugador": "Tajon Buchanan",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "90+1'",
-    "jugador": "Carlos Romero",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   }
-  ],
+  "goles": [],
   "tarjetas": [
    {
     "min": "32'",
-    "jugador": "Mario Martín",
+    "jugador": "Dani Requena",
     "lado": "visita",
     "tipo": "amarilla"
    },
    {
-    "min": "62'",
-    "jugador": "Nemanja Gudelj",
+    "min": "63'",
+    "jugador": "Adrián de la Fuente",
     "lado": "visita",
     "tipo": "amarilla"
    },
    {
-    "min": "67'",
-    "jugador": "Santi Comesaña",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "76'",
-    "jugador": "Renato Veiga",
+    "min": "88'",
+    "jugador": "Javi Galán",
     "lado": "local",
     "tipo": "amarilla"
    }
   ],
   "anulados": [],
   "verificado": "ESPN+FotMob"
- },
- {
-  "tipo": "resumen",
-  "id": "eng1-20261106",
-  "liga": "eng.1",
-  "fase": "",
-  "fecha": "2026-11-08",
-  "rango": "6 al 8 de noviembre",
-  "partidos": [
-   {
-    "dia": "Vie 6",
-    "local": "Everton",
-    "visita": "Coventry",
-    "gl": 3,
-    "gv": 1
-   },
-   {
-    "dia": "Sáb 7",
-    "local": "Leeds",
-    "visita": "Tottenham",
-    "gl": 1,
-    "gv": 0
-   },
-   {
-    "dia": "Sáb 7",
-    "local": "Arsenal",
-    "visita": "Hull City",
-    "gl": 1,
-    "gv": 0
-   },
-   {
-    "dia": "Sáb 7",
-    "local": "Fulham",
-    "visita": "Newcastle",
-    "gl": 1,
-    "gv": 1
-   },
-   {
-    "dia": "Sáb 7",
-    "local": "Nottingham F.",
-    "visita": "Man. City",
-    "gl": 3,
-    "gv": 1
-   },
-   {
-    "dia": "Dom 8",
-    "local": "Brighton",
-    "visita": "Brentford",
-    "gl": 2,
-    "gv": 0
-   },
-   {
-    "dia": "Dom 8",
-    "local": "Crystal Palace",
-    "visita": "Liverpool",
-    "gl": 1,
-    "gv": 3
-   },
-   {
-    "dia": "Dom 8",
-    "local": "Ipswich",
-    "visita": "Bournemouth",
-    "gl": 1,
-    "gv": 2
-   },
-   {
-    "dia": "Dom 8",
-    "local": "Sunderland",
-    "visita": "Chelsea",
-    "gl": 1,
-    "gv": 0
-   },
-   {
-    "dia": "Dom 8",
-    "local": "Man. United",
-    "visita": "Aston Villa",
-    "gl": 4,
-    "gv": 4
-   }
-  ],
-  "tabla": [
-   {
-    "equipo": "Arsenal",
-    "pj": 10,
-    "dg": 10,
-    "pts": 27,
-    "pos": 1
-   },
-   {
-    "equipo": "Brighton",
-    "pj": 10,
-    "dg": 19,
-    "pts": 22,
-    "pos": 2
-   },
-   {
-    "equipo": "Man. City",
-    "pj": 10,
-    "dg": 8,
-    "pts": 21,
-    "pos": 3
-   },
-   {
-    "equipo": "Liverpool",
-    "pj": 10,
-    "dg": 4,
-    "pts": 18,
-    "pos": 4
-   },
-   {
-    "equipo": "Chelsea",
-    "pj": 10,
-    "dg": 3,
-    "pts": 16,
-    "pos": 5
-   },
-   {
-    "equipo": "Everton",
-    "pj": 10,
-    "dg": 2,
-    "pts": 16,
-    "pos": 6
-   },
-   {
-    "equipo": "Bournemouth",
-    "pj": 10,
-    "dg": 2,
-    "pts": 15,
-    "pos": 7
-   },
-   {
-    "equipo": "Brentford",
-    "pj": 10,
-    "dg": 5,
-    "pts": 14,
-    "pos": 8
-   },
-   {
-    "equipo": "Leeds",
-    "pj": 10,
-    "dg": 2,
-    "pts": 14,
-    "pos": 9
-   },
-   {
-    "equipo": "Aston Villa",
-    "pj": 10,
-    "dg": -3,
-    "pts": 13,
-    "pos": 10
-   },
-   {
-    "equipo": "Tottenham",
-    "pj": 10,
-    "dg": -1,
-    "pts": 12,
-    "pos": 11
-   },
-   {
-    "equipo": "Newcastle",
-    "pj": 10,
-    "dg": -3,
-    "pts": 12,
-    "pos": 12
-   },
-   {
-    "equipo": "Hull City",
-    "pj": 10,
-    "dg": 0,
-    "pts": 11,
-    "pos": 13
-   },
-   {
-    "equipo": "Ipswich",
-    "pj": 10,
-    "dg": -5,
-    "pts": 11,
-    "pos": 14
-   },
-   {
-    "equipo": "Fulham",
-    "pj": 10,
-    "dg": -2,
-    "pts": 10,
-    "pos": 15
-   },
-   {
-    "equipo": "Nottingham F.",
-    "pj": 10,
-    "dg": -4,
-    "pts": 9,
-    "pos": 16
-   },
-   {
-    "equipo": "Coventry",
-    "pj": 10,
-    "dg": -9,
-    "pts": 9,
-    "pos": 17
-   },
-   {
-    "equipo": "Man. United",
-    "pj": 10,
-    "dg": -5,
-    "pts": 8,
-    "pos": 18
-   },
-   {
-    "equipo": "Sunderland",
-    "pj": 10,
-    "dg": -9,
-    "pts": 8,
-    "pos": 19
-   },
-   {
-    "equipo": "Crystal Palace",
-    "pj": 10,
-    "dg": -14,
-    "pts": 7,
-    "pos": 20
-   }
-  ]
  }
 ]
