@@ -4956,7 +4956,9 @@
   ],
   "titulo": "Ñublense 1–2 Colo-Colo",
   "liga": "chi.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18190478860420404",
+  "publicado": "2026-11-08T20:17:18+00:00"
  },
  {
   "tipo": "historia",
@@ -4967,6 +4969,8 @@
   ],
   "titulo": "U. de Chile 2–1 Cobresal",
   "liga": "chi.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17949172878075747",
+  "publicado": "2026-11-08T20:17:18+00:00"
  }
 ]
