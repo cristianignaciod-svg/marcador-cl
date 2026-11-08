@@ -11,14 +11,30 @@
        "largo": "Colo Colo",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2688.png",
        "pos": 1,
-       "pj": 26,
-       "g": 18,
+       "pj": 27,
+       "g": 19,
        "e": 4,
        "p": 4,
-       "gf": 57,
-       "gc": 29,
-       "dg": 28,
-       "pts": 58,
+       "gf": 59,
+       "gc": 30,
+       "dg": 29,
+       "pts": 61,
+       "zona": null,
+       "color": "#2AD572"
+      },
+      {
+       "equipo": "U. de Chile",
+       "largo": "Universidad de Chile",
+       "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4139.png",
+       "pos": 2,
+       "pj": 27,
+       "g": 15,
+       "e": 6,
+       "p": 6,
+       "gf": 47,
+       "gc": 22,
+       "dg": 25,
+       "pts": 51,
        "zona": null,
        "color": "#2AD572"
       },
@@ -26,7 +42,7 @@
        "equipo": "U. Católica",
        "largo": "Universidad Católica",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/885.png",
-       "pos": 2,
+       "pos": 3,
        "pj": 27,
        "g": 15,
        "e": 4,
@@ -35,22 +51,6 @@
        "gc": 37,
        "dg": 19,
        "pts": 49,
-       "zona": null,
-       "color": "#2AD572"
-      },
-      {
-       "equipo": "U. de Chile",
-       "largo": "Universidad de Chile",
-       "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4139.png",
-       "pos": 3,
-       "pj": 26,
-       "g": 14,
-       "e": 6,
-       "p": 6,
-       "gf": 45,
-       "gc": 21,
-       "dg": 24,
-       "pts": 48,
        "zona": null,
        "color": "#000000"
       },
@@ -171,13 +171,13 @@
        "largo": "Ñublense",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7427.png",
        "pos": 11,
-       "pj": 26,
+       "pj": 27,
        "g": 9,
        "e": 8,
-       "p": 9,
-       "gf": 30,
-       "gc": 39,
-       "dg": -9,
+       "p": 10,
+       "gf": 31,
+       "gc": 41,
+       "dg": -10,
        "pts": 35,
        "zona": null,
        "color": null
@@ -219,13 +219,13 @@
        "largo": "Cobresal",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4133.png",
        "pos": 14,
-       "pj": 26,
+       "pj": 27,
        "g": 7,
        "e": 6,
-       "p": 13,
-       "gf": 38,
-       "gc": 48,
-       "dg": -10,
+       "p": 14,
+       "gf": 39,
+       "gc": 50,
+       "dg": -11,
        "pts": 27,
        "zona": null,
        "color": null
@@ -265,12 +265,11 @@
      ]
     }
    ],
-   "actualizado": "2026-11-08T14:37-03:00",
+   "actualizado": "2026-11-08T17:16-03:00",
    "fuentes": [
     "ESPN",
     "FotMob"
-   ],
-   "pendiente": "Colo-Colo: ESPN 58 pts/26 PJ, FotMob 61 pts/27 PJ"
+   ]
   },
   "chi.pb": {
    "nombre": "Primera B",
@@ -876,7 +875,7 @@
     "ESPN",
     "FotMob"
    ],
-   "pendiente": "Barcelona: ESPN 30 pts/11 PJ, FotMob 31 pts/12 PJ"
+   "pendiente": "Barcelona: ESPN 30 pts/11 PJ, FotMob 30 pts/12 PJ"
   },
   "eng.1": {
    "nombre": "Premier League",
