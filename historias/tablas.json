@@ -155,13 +155,13 @@
        "largo": "Huachipato",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4134.png",
        "pos": 10,
-       "pj": 26,
+       "pj": 27,
        "g": 10,
        "e": 6,
-       "p": 10,
+       "p": 11,
        "gf": 35,
-       "gc": 40,
-       "dg": -5,
+       "gc": 41,
+       "dg": -6,
        "pts": 36,
        "zona": null,
        "color": null
@@ -231,10 +231,26 @@
        "color": null
       },
       {
+       "equipo": "Unión La Calera",
+       "largo": "Unión La Calera",
+       "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10144.png",
+       "pos": 15,
+       "pj": 27,
+       "g": 6,
+       "e": 6,
+       "p": 15,
+       "gf": 24,
+       "gc": 43,
+       "dg": -19,
+       "pts": 24,
+       "zona": null,
+       "color": "#FF4646"
+      },
+      {
        "equipo": "Universidad de Concepción",
        "largo": "Universidad de Concepción",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5362.png",
-       "pos": 15,
+       "pos": 16,
        "pj": 26,
        "g": 6,
        "e": 5,
@@ -245,32 +261,15 @@
        "pts": 23,
        "zona": null,
        "color": "#FF4646"
-      },
-      {
-       "equipo": "Unión La Calera",
-       "largo": "Unión La Calera",
-       "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10144.png",
-       "pos": 16,
-       "pj": 26,
-       "g": 5,
-       "e": 6,
-       "p": 15,
-       "gf": 23,
-       "gc": 43,
-       "dg": -20,
-       "pts": 21,
-       "zona": null,
-       "color": "#FF4646"
       }
      ]
     }
    ],
-   "actualizado": "2026-11-08T17:16-03:00",
+   "actualizado": "2026-11-08T19:44-03:00",
    "fuentes": [
     "ESPN",
     "FotMob"
-   ],
-   "pendiente": "Huachipato: ESPN 36 pts/26 PJ, FotMob 36 pts/27 PJ"
+   ]
   },
   "chi.pb": {
    "nombre": "Primera B",
