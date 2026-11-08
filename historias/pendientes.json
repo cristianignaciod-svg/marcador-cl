@@ -1,1 +1,187 @@
-[]
+[
+ {
+  "id": "fra1-angers-nice",
+  "liga": "fra.1",
+  "fase": "",
+  "fecha": "2026-11-08",
+  "local": "Angers",
+  "visita": "Nice",
+  "gl": 0,
+  "gv": 2,
+  "goles": [
+   {
+    "min": "2'",
+    "jugador": "Sofiane Diop",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "78'",
+    "jugador": "Jonathan Clauss",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "30'",
+    "jugador": "Carlens Arcus",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "32'",
+    "jugador": "Ousmane Camara",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "70'",
+    "jugador": "Branco van den Boomen",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "70'",
+    "jugador": "Sofiane Diop",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "fra1-brest-lyon",
+  "liga": "fra.1",
+  "fase": "",
+  "fecha": "2026-11-08",
+  "local": "Brest",
+  "visita": "Lyon",
+  "gl": 2,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "22'",
+    "jugador": "Noah Edjouma",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "90+4'",
+    "jugador": "Ludovic Ajorque",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "55'",
+    "jugador": "Corentin Tolisso",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "63'",
+    "jugador": "Kail Boudache",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90'",
+    "jugador": "Ludovic Ajorque",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "fra1-le-havre-ac-lorient",
+  "liga": "fra.1",
+  "fase": "",
+  "fecha": "2026-11-08",
+  "local": "Le Havre AC",
+  "visita": "Lorient",
+  "gl": 0,
+  "gv": 2,
+  "goles": [
+   {
+    "min": "18'",
+    "jugador": "Isaak Touré",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "90+5'",
+    "jugador": "Jean-Victor Makengo",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "67'",
+    "jugador": "Souleymane Faye",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "85'",
+    "jugador": "Noah Cadiou",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+6'",
+    "jugador": "Ahmed Touba",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+6'",
+    "jugador": "Jean-Victor Makengo",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "fra1-le-mans-as-monaco",
+  "liga": "fra.1",
+  "fase": "",
+  "fecha": "2026-11-08",
+  "local": "Le Mans",
+  "visita": "AS Mónaco",
+  "gl": 1,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "40'",
+    "jugador": "Mamadou Coulibaly",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "90'",
+    "jugador": "Erwan Colas",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]

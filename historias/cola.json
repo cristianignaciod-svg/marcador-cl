@@ -1,58 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "uefa.champions:401915389",
-  "creado": "2026-10-21T18:20:13-03:00",
-  "archivos": [
-   "historias/img/2026-10-21/uefachampions-betis-feyenoord-rotterdam.png"
-  ],
-  "titulo": "Betis 1–0 Feyenoord Rotterdam",
-  "liga": "uefa.champions",
-  "enviado": true,
-  "ig_id": "18136492942642904",
-  "publicado": "2026-10-21T21:20:57+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "uefa.champions:401915394",
-  "creado": "2026-10-21T18:40:30-03:00",
-  "archivos": [
-   "historias/img/2026-10-21/uefachampions-aston-villa-viking-fk.png"
-  ],
-  "titulo": "Aston Villa 3–1 Viking FK",
-  "liga": "uefa.champions",
-  "enviado": true,
-  "ig_id": "17958059475253991",
-  "publicado": "2026-10-21T21:41:13+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "uefa.champions:401915390",
-  "creado": "2026-10-21T18:40:30-03:00",
-  "archivos": [
-   "historias/img/2026-10-21/uefachampions-internazionale-shakhtar-donetsk.png"
-  ],
-  "titulo": "Internazionale 1–0 Shakhtar Donetsk",
-  "liga": "uefa.champions",
-  "enviado": true,
-  "ig_id": "17908689933569366",
-  "publicado": "2026-10-21T21:41:13+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "uefa.champions:401915313",
-  "creado": "2026-10-21T18:40:30-03:00",
-  "archivos": [
-   "historias/img/2026-10-21/uefachampions-real-madrid-rb-leipzig.png"
-  ],
-  "titulo": "Real Madrid 4–1 RB Leipzig",
-  "liga": "uefa.champions",
-  "enviado": true,
-  "ig_id": "17998865076010827",
-  "publicado": "2026-10-21T21:41:13+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "uefa.champions:401915391",
   "creado": "2026-10-21T18:40:30-03:00",
   "archivos": [
@@ -4989,5 +4937,49 @@
   "enviado": true,
   "ig_id": "18501214363100467",
   "publicado": "2026-11-08T17:38:06+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "fra.1:401876412",
+  "creado": "2026-11-08T15:26:17-03:00",
+  "archivos": [
+   "historias/img/2026-11-08/fra1-angers-nice.png"
+  ],
+  "titulo": "Angers 0–2 Nice",
+  "liga": "fra.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "fra.1:401876410",
+  "creado": "2026-11-08T15:26:17-03:00",
+  "archivos": [
+   "historias/img/2026-11-08/fra1-brest-lyon.png"
+  ],
+  "titulo": "Brest 2–0 Lyon",
+  "liga": "fra.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "fra.1:401876409",
+  "creado": "2026-11-08T15:26:17-03:00",
+  "archivos": [
+   "historias/img/2026-11-08/fra1-le-havre-ac-lorient.png"
+  ],
+  "titulo": "Le Havre AC 0–2 Lorient",
+  "liga": "fra.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "fra.1:401876408",
+  "creado": "2026-11-08T15:26:17-03:00",
+  "archivos": [
+   "historias/img/2026-11-08/fra1-le-mans-as-monaco.png"
+  ],
+  "titulo": "Le Mans 1–1 AS Mónaco",
+  "liga": "fra.1",
+  "enviado": false
  }
 ]
