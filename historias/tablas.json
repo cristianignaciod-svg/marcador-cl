@@ -875,7 +875,8 @@
    "fuentes": [
     "ESPN",
     "FotMob"
-   ]
+   ],
+   "pendiente": "Barcelona: ESPN 30 pts/11 PJ, FotMob 33 pts/12 PJ"
   },
   "eng.1": {
    "nombre": "Premier League",
@@ -1816,7 +1817,8 @@
    "fuentes": [
     "ESPN",
     "FotMob"
-   ]
+   ],
+   "pendiente": "Stade Rennais no aparece en FotMob"
   },
   "arg.1": {
    "nombre": "Liga Profesional",
