@@ -4947,7 +4947,9 @@
   ],
   "titulo": "Angers 0–2 Nice",
   "liga": "fra.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18080957231417897",
+  "publicado": "2026-11-08T18:26:57+00:00"
  },
  {
   "tipo": "historia",
@@ -4958,7 +4960,9 @@
   ],
   "titulo": "Brest 2–0 Lyon",
   "liga": "fra.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18111322034242214",
+  "publicado": "2026-11-08T18:26:57+00:00"
  },
  {
   "tipo": "historia",
@@ -4969,7 +4973,9 @@
   ],
   "titulo": "Le Havre AC 0–2 Lorient",
   "liga": "fra.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18132804853795183",
+  "publicado": "2026-11-08T18:26:57+00:00"
  },
  {
   "tipo": "historia",
@@ -4980,6 +4986,8 @@
   ],
   "titulo": "Le Mans 1–1 AS Mónaco",
   "liga": "fra.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18119512975790725",
+  "publicado": "2026-11-08T18:26:57+00:00"
  }
 ]
