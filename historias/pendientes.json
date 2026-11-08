@@ -1,1 +1,52 @@
-[]
+[
+ {
+  "id": "arg1-instituto-cordoba-newell-s-old-boys",
+  "liga": "arg.1",
+  "fase": "",
+  "fecha": "2026-11-07",
+  "local": "Instituto (Córdoba)",
+  "visita": "Newell's Old Boys",
+  "gl": 2,
+  "gv": 2,
+  "goles": [
+   {
+    "min": "7'",
+    "jugador": "Facundo Suárez",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "66'",
+    "jugador": "Walter Núñez",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "79'",
+    "jugador": "Walter Mazzantti",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "90+3'",
+    "jugador": "Matias Tissera",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "45+2'",
+    "jugador": "Matías Gallardo",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]

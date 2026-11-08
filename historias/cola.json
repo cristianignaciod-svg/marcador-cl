@@ -1,19 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "uefa.champions:401915404",
-  "creado": "2026-10-20T16:28:18-03:00",
-  "archivos": [
-   "historias/img/2026-10-20/uefachampions-sabah-fk-borussia-dortmund.png"
-  ],
-  "titulo": "Sabah FK 1–2 Borussia Dortmund",
-  "liga": "uefa.champions",
-  "enviado": "error",
-  "error": "400 {\"error\":{\"message\":\"API access blocked.\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"ACyEiEDonMFvjdQO7Rll6dc\"}}",
-  "intentos": 3
- },
- {
-  "tipo": "historia",
   "clave": "uefa.champions:401915402",
   "creado": "2026-10-20T18:22:20-03:00",
   "archivos": [
@@ -5058,5 +5045,16 @@
   "enviado": true,
   "ig_id": "18133217491700555",
   "publicado": "2026-11-07T22:35:58+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "arg.1:401841664",
+  "creado": "2026-11-08T00:05:51-03:00",
+  "archivos": [
+   "historias/img/2026-11-07/arg1-instituto-cordoba-newell-s-old-boys.png"
+  ],
+  "titulo": "Instituto (Córdoba) 2–2 Newell's Old Boys",
+  "liga": "arg.1",
+  "enviado": false
  }
 ]
