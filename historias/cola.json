@@ -4973,7 +4973,9 @@
   ],
   "titulo": "Audax Italiano 0–1 Coquimbo Unido",
   "liga": "chi.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18483696844116014",
+  "publicado": "2026-11-08T17:38:06+00:00"
  },
  {
   "tipo": "historia",
@@ -4984,6 +4986,8 @@
   ],
   "titulo": "U. Católica 3–0 Deportes Limache",
   "liga": "chi.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18501214363100467",
+  "publicado": "2026-11-08T17:38:06+00:00"
  }
 ]
