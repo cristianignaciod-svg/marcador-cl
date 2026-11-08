@@ -54,7 +54,7 @@
    "401875018 STATUS_FULL_TIME 2026-11-08T14:00Z",
    "401874800 STATUS_FULL_TIME 2026-11-08T14:00Z",
    "401874808 STATUS_FULL_TIME 2026-11-08T17:00Z",
-   "401875003 STATUS_HALFTIME 2026-11-08T19:45Z"
+   "401875003 STATUS_SECOND_HALF 2026-11-08T19:45Z"
   ],
   "fra.1": [
    "401876411 STATUS_FULL_TIME 2026-11-07T18:00Z",
@@ -78,7 +78,7 @@
  },
  "tablas_web": {
   "chi.1": "Huachipato: ESPN 36 pts/26 PJ, FotMob 36 pts/27 PJ",
-  "esp.1": "Barcelona: ESPN 30 pts/11 PJ, FotMob 31 pts/12 PJ",
+  "esp.1": "Barcelona: ESPN 30 pts/11 PJ, FotMob 33 pts/12 PJ",
   "fra.1": "Stade Rennais no aparece en FotMob"
  }
 }
