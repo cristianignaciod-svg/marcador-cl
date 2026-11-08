@@ -1,19 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "uefa.europa:401915559",
-  "creado": "2026-10-22T16:23:53-03:00",
-  "archivos": [
-   "historias/img/2026-10-22/uefaeuropa-ofi-crete-bayer-leverkusen.png"
-  ],
-  "titulo": "OFI Crete 0–2 Bayer Leverkusen",
-  "liga": "uefa.europa",
-  "enviado": true,
-  "ig_id": "18636452668010156",
-  "publicado": "2026-10-22T19:24:26+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "uefa.europa:401915557",
   "creado": "2026-10-22T16:23:53-03:00",
   "archivos": [
@@ -4970,5 +4957,16 @@
   "enviado": true,
   "ig_id": "17959875567257422",
   "publicado": "2026-11-08T22:04:41+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "chi.1:401850684",
+  "creado": "2026-11-08T19:34:03-03:00",
+  "archivos": [
+   "historias/img/2026-11-08/chi1-union-la-calera-huachipato.png"
+  ],
+  "titulo": "Unión La Calera 1–0 Huachipato",
+  "liga": "chi.1",
+  "enviado": false
  }
 ]
