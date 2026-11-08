@@ -703,10 +703,13 @@ def agenda_del_dia(ahora, publicados, pendientes, cola):
     tv_hoy = canales.get("partidos", []) if canales.get("fecha") == hoy.isoformat() else []
 
     def canal(liga, loc, vis):
+        # _parecido devuelve un puntaje 0..1: se exige parecido real en ambos equipos y se toma el mejor
+        mejor, tv = 0.0, None
         for c in tv_hoy:
-            if _parecido(c.get("local", ""), loc) and _parecido(c.get("visita", ""), vis):
-                return c.get("tv") or TV_DEFECTO.get(liga, "")
-        return TV_DEFECTO.get(liga, "")
+            pl, pv = _parecido(c.get("local", ""), loc), _parecido(c.get("visita", ""), vis)
+            if min(pl, pv) >= 0.6 and pl + pv > mejor:
+                mejor, tv = pl + pv, c.get("tv")
+        return tv or TV_DEFECTO.get(liga, "")
 
     grupos = {}
     for liga in LIGAS_PRINCIPALES:
