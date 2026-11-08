@@ -1,1 +1,49 @@
-[]
+[
+ {
+  "id": "esp1-real-sociedad-rayo",
+  "liga": "esp.1",
+  "fase": "",
+  "fecha": "2026-11-08",
+  "local": "Real Sociedad",
+  "visita": "Rayo",
+  "gl": 1,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "67'",
+    "jugador": "Orri Óskarsson",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "34'",
+    "jugador": "Giorgi Tsitaishvili",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "50'",
+    "jugador": "Igor Zubeldia",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "61'",
+    "jugador": "Beñat Turrientes",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "88'",
+    "jugador": "Gnangoro Bouare Samake",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]
