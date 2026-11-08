@@ -1,19 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "uefa.champions:401915397",
-  "creado": "2026-10-20T18:22:20-03:00",
-  "archivos": [
-   "historias/img/2026-10-20/uefachampions-liverpool-villarreal.png"
-  ],
-  "titulo": "Liverpool 4–3 Villarreal",
-  "liga": "uefa.champions",
-  "enviado": true,
-  "ig_id": "18120108973982107",
-  "publicado": "2026-10-20T21:22:51+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "uefa.champions:401915401",
   "creado": "2026-10-20T18:22:20-03:00",
   "archivos": [
@@ -5060,5 +5047,16 @@
   "enviado": true,
   "ig_id": "18091409942261047",
   "publicado": "2026-11-08T13:22:07+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "ita.1:401874810",
+  "creado": "2026-11-08T11:29:54-03:00",
+  "archivos": [
+   "historias/img/2026-11-08/ita1-napoli-lazio.png"
+  ],
+  "titulo": "Napoli 1–1 Lazio",
+  "liga": "ita.1",
+  "enviado": false
  }
 ]

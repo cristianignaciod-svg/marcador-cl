@@ -1,1 +1,56 @@
-[]
+[
+ {
+  "id": "ita1-napoli-lazio",
+  "liga": "ita.1",
+  "fase": "",
+  "fecha": "2026-11-08",
+  "local": "Napoli",
+  "visita": "Lazio",
+  "gl": 1,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "28'",
+    "jugador": "Davide Frattesi",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "48'",
+    "jugador": "Alfonso Pedraza",
+    "lado": "local",
+    "penal": false,
+    "autogol": true
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "44'",
+    "jugador": "Noa Lang",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "65'",
+    "jugador": "Billy Gilmour",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "66'",
+    "jugador": "Antonio Vergara",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "78'",
+    "jugador": "Alfonso Pedraza",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]
