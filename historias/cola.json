@@ -1,128 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "uefa.champions:401915400",
-  "creado": "2026-10-20T18:22:20-03:00",
-  "archivos": [
-   "historias/img/2026-10-20/uefachampions-napoli-bodo-glimt.png"
-  ],
-  "titulo": "Napoli 4–3 Bodo/Glimt",
-  "liga": "uefa.champions",
-  "enviado": true,
-  "ig_id": "18130954150687963",
-  "publicado": "2026-10-20T21:22:51+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "uefa.champions:401915399",
-  "creado": "2026-10-20T18:22:20-03:00",
-  "archivos": [
-   "historias/img/2026-10-20/uefachampions-psg-barcelona.png"
-  ],
-  "titulo": "PSG 4–2 Barcelona",
-  "liga": "uefa.champions",
-  "enviado": true,
-  "ig_id": "18092460527220682",
-  "publicado": "2026-10-20T21:22:51+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "uefa.champions:401915392",
-  "creado": "2026-10-20T18:22:20-03:00",
-  "archivos": [
-   "historias/img/2026-10-20/uefachampions-vfb-stuttgart-atletico.png"
-  ],
-  "titulo": "VfB Stuttgart 1–1 Atlético",
-  "liga": "uefa.champions",
-  "enviado": true,
-  "ig_id": "17880818829545844",
-  "publicado": "2026-10-20T21:22:51+00:00"
- },
- {
-  "tipo": "resumen",
-  "clave": "uefa.champions:2026-10-20",
-  "creado": "2026-10-20T18:22:20-03:00",
-  "archivos": [
-   "historias/img/2026-10-20/uefachampions-20261020-1.png"
-  ],
-  "titulo": "uefa.champions 20 de octubre",
-  "liga": "uefa.champions",
-  "fase": "",
-  "rango": "20 de octubre",
-  "partidos": [
-   {
-    "dia": "Mar 20",
-    "local": "Fenerbahçe",
-    "visita": "Slavia Prague",
-    "gl": 2,
-    "gv": 2
-   },
-   {
-    "dia": "Mar 20",
-    "local": "Sabah FK",
-    "visita": "Borussia Dortmund",
-    "gl": 1,
-    "gv": 2
-   },
-   {
-    "dia": "Mar 20",
-    "local": "AS Roma",
-    "visita": "Slovan Bratislava",
-    "gl": 4,
-    "gv": 0
-   },
-   {
-    "dia": "Mar 20",
-    "local": "FC Porto",
-    "visita": "PSV Eindhoven",
-    "gl": 0,
-    "gv": 1
-   },
-   {
-    "dia": "Mar 20",
-    "local": "Liverpool",
-    "visita": "Villarreal",
-    "gl": 4,
-    "gv": 3
-   },
-   {
-    "dia": "Mar 20",
-    "local": "Man. City",
-    "visita": "AEK Athens",
-    "gl": 5,
-    "gv": 1
-   },
-   {
-    "dia": "Mar 20",
-    "local": "Napoli",
-    "visita": "Bodo/Glimt",
-    "gl": 4,
-    "gv": 3
-   },
-   {
-    "dia": "Mar 20",
-    "local": "PSG",
-    "visita": "Barcelona",
-    "gl": 4,
-    "gv": 2
-   },
-   {
-    "dia": "Mar 20",
-    "local": "VfB Stuttgart",
-    "visita": "Atlético",
-    "gl": 1,
-    "gv": 1
-   }
-  ],
-  "enviado": true,
-  "texto": "¡Noche de goles en la Champions! ⚽🔥\nEl PSG le metió 4-2 al Barcelona en el partidazo de la jornada, y el Liverpool sufrió hasta el final para ganarle 4-3 al Villarreal.\nEl Man. City goleó 5-1 al AEK Athens y el Napoli también se la jugó con un 4-3 ante el Bodo/Glimt.\nLa sorpresa: el PSV le ganó 1-0 al Porto en Portugal.\n¿Cuál fue el mejor partido de la noche? 👇\n\n#MarcadorCL #Futbol #ChampionsLeague #UCL #FutbolEuropeo",
-  "avisado": true,
-  "aprobado": true,
-  "ig_id": "18082848143706240",
-  "publicado": "2026-10-20T22:12:11+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "conmebol.sudamericana:401913957",
   "creado": "2026-10-20T23:53:03-03:00",
   "archivos": [
@@ -5058,5 +4936,49 @@
   "enviado": true,
   "ig_id": "18019162079973267",
   "publicado": "2026-11-08T14:59:41+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "eng.1:401879244",
+  "creado": "2026-11-08T13:35:47-03:00",
+  "archivos": [
+   "historias/img/2026-11-08/eng1-brighton-brentford.png"
+  ],
+  "titulo": "Brighton 2–0 Brentford",
+  "liga": "eng.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "eng.1:401879243",
+  "creado": "2026-11-08T13:35:47-03:00",
+  "archivos": [
+   "historias/img/2026-11-08/eng1-crystal-palace-liverpool.png"
+  ],
+  "titulo": "Crystal Palace 1–3 Liverpool",
+  "liga": "eng.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "ita.1:401874800",
+  "creado": "2026-11-08T13:35:47-03:00",
+  "archivos": [
+   "historias/img/2026-11-08/ita1-monza-atalanta.png"
+  ],
+  "titulo": "Monza 0–1 Atalanta",
+  "liga": "ita.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "fra.1:401876406",
+  "creado": "2026-11-08T13:35:47-03:00",
+  "archivos": [
+   "historias/img/2026-11-08/fra1-stade-rennais-lille.png"
+  ],
+  "titulo": "Stade Rennais 1–2 Lille",
+  "liga": "fra.1",
+  "enviado": false
  }
 ]

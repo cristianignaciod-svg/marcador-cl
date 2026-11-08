@@ -1,1 +1,267 @@
-[]
+[
+ {
+  "id": "eng1-brighton-brentford",
+  "liga": "eng.1",
+  "fase": "",
+  "fecha": "2026-11-08",
+  "local": "Brighton",
+  "visita": "Brentford",
+  "gl": 2,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "15'",
+    "jugador": "Diego Gómez",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "42'",
+    "jugador": "Pascal Gross",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "5'",
+    "jugador": "Kristoffer Ajer",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "22'",
+    "jugador": "Chema Andrés",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "23'",
+    "jugador": "Igor Thiago",
+    "lado": "visita",
+    "tipo": "roja"
+   },
+   {
+    "min": "27'",
+    "jugador": "Olivier Boscagli",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "51'",
+    "jugador": "Mats Wieffer",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "61'",
+    "jugador": "Lewis Dunk",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "69'",
+    "jugador": "Kevin Schade",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "eng1-crystal-palace-liverpool",
+  "liga": "eng.1",
+  "fase": "",
+  "fecha": "2026-11-08",
+  "local": "Crystal Palace",
+  "visita": "Liverpool",
+  "gl": 1,
+  "gv": 3,
+  "goles": [
+   {
+    "min": "40'",
+    "jugador": "Alexis Mac Allister",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "54'",
+    "jugador": "Florian Wirtz",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "89'",
+    "jugador": "Alexander Isak",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "90+5'",
+    "jugador": "Eddie Nketiah",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "24'",
+    "jugador": "Ronald Araujo",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "59'",
+    "jugador": "Bradley Barcola",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "71'",
+    "jugador": "Yéremy Pino",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "82'",
+    "jugador": "Víctor Muñoz",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "82'",
+    "jugador": "Jefferson Lerma",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "83'",
+    "jugador": "Alexis Mac Allister",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "ita1-monza-atalanta",
+  "liga": "ita.1",
+  "fase": "",
+  "fecha": "2026-11-08",
+  "local": "Monza",
+  "visita": "Atalanta",
+  "gl": 0,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "49'",
+    "jugador": "Nikola Krstovic",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "14'",
+    "jugador": "Eddy Kouadio",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "48'",
+    "jugador": "Leonardo Colombo",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "85'",
+    "jugador": "Éderson",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+2'",
+    "jugador": "Charles De Ketelaere",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+2'",
+    "jugador": "Andrea Carboni",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+3'",
+    "jugador": "Andrea Colpani",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "fra1-stade-rennais-lille",
+  "liga": "fra.1",
+  "fase": "",
+  "fecha": "2026-11-08",
+  "local": "Stade Rennais",
+  "visita": "Lille",
+  "gl": 1,
+  "gv": 2,
+  "goles": [
+   {
+    "min": "24'",
+    "jugador": "Soriba Diaoune",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "31'",
+    "jugador": "Boulaye Dia",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "68'",
+    "jugador": "Nathan Ngoy",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "55'",
+    "jugador": "Calvin Verdonk",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "73'",
+    "jugador": "Maurits Kjaergaard",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "77'",
+    "jugador": "Nathan Ngoy",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ }
+]
