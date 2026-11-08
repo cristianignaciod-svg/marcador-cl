@@ -1,18 +1,5 @@
 [
  {
-  "tipo": "historia",
-  "clave": "uefa.champions:401915391",
-  "creado": "2026-10-21T18:40:30-03:00",
-  "archivos": [
-   "historias/img/2026-10-21/uefachampions-sporting-cp-lask-linz.png"
-  ],
-  "titulo": "Sporting CP 2–3 LASK Linz",
-  "liga": "uefa.champions",
-  "enviado": true,
-  "ig_id": "18088996088691779",
-  "publicado": "2026-10-21T21:41:13+00:00"
- },
- {
   "tipo": "resumen",
   "clave": "uefa.champions:2026-10-21",
   "creado": "2026-10-21T18:40:30-03:00",
@@ -4989,5 +4976,16 @@
   "enviado": true,
   "ig_id": "18119512975790725",
   "publicado": "2026-11-08T18:26:57+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "ger.1:401884741",
+  "creado": "2026-11-08T15:37:34-03:00",
+  "archivos": [
+   "historias/img/2026-11-08/ger1-sc-freiburg-1-fc-union-berlin.png"
+  ],
+  "titulo": "SC Freiburg 2–0 1. FC Union Berlin",
+  "liga": "ger.1",
+  "enviado": false
  }
 ]
