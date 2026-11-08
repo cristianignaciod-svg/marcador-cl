@@ -1,47 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "uefa.europa:401915548",
-  "creado": "2026-10-22T16:23:53-03:00",
-  "archivos": [
-   "historias/img/2026-10-22/uefaeuropa-ararat-armenia-az-alkmaar.png"
-  ],
-  "titulo": "Ararat-Armenia 0–4 AZ Alkmaar",
-  "liga": "uefa.europa",
-  "enviado": true,
-  "error": "400 {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,128,444,830,759,825 cannot be found.\",\"fbtrace_id\":\"A2_Gy35P8heKaoA3Qs2behe\"}}",
-  "intentos": 1,
-  "ig_id": "18103218761456432",
-  "publicado": "2026-10-22T19:35:27+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "uefa.europa:401915556",
-  "creado": "2026-10-22T16:23:53-03:00",
-  "archivos": [
-   "historias/img/2026-10-22/uefaeuropa-dinamo-zagreb-nec-nijmegen.png"
-  ],
-  "titulo": "Dinamo Zagreb 2–4 NEC Nijmegen",
-  "liga": "uefa.europa",
-  "enviado": true,
-  "ig_id": "17913639144492906",
-  "publicado": "2026-10-22T19:24:26+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "uefa.europa:401915547",
-  "creado": "2026-10-22T16:23:53-03:00",
-  "archivos": [
-   "historias/img/2026-10-22/uefaeuropa-juventus-stade-rennais.png"
-  ],
-  "titulo": "Juventus 2–2 Stade Rennais",
-  "liga": "uefa.europa",
-  "enviado": true,
-  "ig_id": "18132401104773069",
-  "publicado": "2026-10-22T19:24:26+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "uefa.europa:401915559",
   "creado": "2026-10-22T16:23:53-03:00",
   "archivos": [
@@ -4972,5 +4931,38 @@
   "enviado": true,
   "ig_id": "17999098299039478",
   "publicado": "2026-11-08T20:56:47+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "esp.1:401882816",
+  "creado": "2026-11-08T19:03:58-03:00",
+  "archivos": [
+   "historias/img/2026-11-08/esp1-atletico-barcelona.png"
+  ],
+  "titulo": "Atlético 1–2 Barcelona",
+  "liga": "esp.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "ita.1:401875003",
+  "creado": "2026-11-08T19:03:58-03:00",
+  "archivos": [
+   "historias/img/2026-11-08/ita1-fiorentina-juventus.png"
+  ],
+  "titulo": "Fiorentina 2–2 Juventus",
+  "liga": "ita.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "fra.1:401876404",
+  "creado": "2026-11-08T19:03:58-03:00",
+  "archivos": [
+   "historias/img/2026-11-08/fra1-lens-marseille.png"
+  ],
+  "titulo": "Lens 1–2 Marseille",
+  "liga": "fra.1",
+  "enviado": false
  }
 ]
