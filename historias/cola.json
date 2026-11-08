@@ -1,88 +1,5 @@
 [
  {
-  "tipo": "resumen",
-  "clave": "uefa.champions:2026-10-21",
-  "creado": "2026-10-21T18:40:30-03:00",
-  "archivos": [
-   "historias/img/2026-10-21/uefachampions-20261021-1.png"
-  ],
-  "titulo": "uefa.champions 21 de octubre",
-  "liga": "uefa.champions",
-  "fase": "",
-  "rango": "21 de octubre",
-  "partidos": [
-   {
-    "dia": "Mié 21",
-    "local": "Como",
-    "visita": "Man. United",
-    "gl": 4,
-    "gv": 1
-   },
-   {
-    "dia": "Mié 21",
-    "local": "Lille",
-    "visita": "Galatasaray",
-    "gl": 2,
-    "gv": 4
-   },
-   {
-    "dia": "Mié 21",
-    "local": "Aston Villa",
-    "visita": "Viking FK",
-    "gl": 3,
-    "gv": 1
-   },
-   {
-    "dia": "Mié 21",
-    "local": "Bayern",
-    "visita": "Arsenal",
-    "gl": 2,
-    "gv": 2
-   },
-   {
-    "dia": "Mié 21",
-    "local": "Club Brujas",
-    "visita": "Lens",
-    "gl": 3,
-    "gv": 0
-   },
-   {
-    "dia": "Mié 21",
-    "local": "Internazionale",
-    "visita": "Shakhtar Donetsk",
-    "gl": 1,
-    "gv": 0
-   },
-   {
-    "dia": "Mié 21",
-    "local": "Betis",
-    "visita": "Feyenoord Rotterdam",
-    "gl": 1,
-    "gv": 0
-   },
-   {
-    "dia": "Mié 21",
-    "local": "Real Madrid",
-    "visita": "RB Leipzig",
-    "gl": 4,
-    "gv": 1
-   },
-   {
-    "dia": "Mié 21",
-    "local": "Sporting CP",
-    "visita": "LASK Linz",
-    "gl": 2,
-    "gv": 3
-   }
-  ],
-  "enviado": true,
-  "texto": "¡Noche de batacazos en la Champions! 🔥 El Como le pasó por encima al Man. United: 4-1 😱\nEl Real Madrid también goleó 4-1 al RB Leipzig y el Galatasaray ganó 4-2 de visita en Lille.\nY en el duelo de gigantes, Bayern y Arsenal empataron 2-2 en un partidazo.\n¿Cuál fue el resultado que más te sorprendió? 👇\n\n#MarcadorCL #Futbol #ChampionsLeague #UCL #FutbolEuropeo",
-  "avisado": true,
-  "aprobado": true,
-  "ig_id": "18454998994130136",
-  "publicado": "2026-10-21T22:10:21+00:00"
- },
- {
   "tipo": "historia",
   "clave": "conmebol.sudamericana:401913956",
   "creado": "2026-10-21T21:31:32-03:00",
@@ -4989,5 +4906,16 @@
   "enviado": true,
   "ig_id": "18130038854304518",
   "publicado": "2026-11-08T18:38:02+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "eng.1:401879240",
+  "creado": "2026-11-08T15:47:40-03:00",
+  "archivos": [
+   "historias/img/2026-11-08/eng1-man-united-aston-villa.png"
+  ],
+  "titulo": "Man. United 4–4 Aston Villa",
+  "liga": "eng.1",
+  "enviado": false
  }
 ]
