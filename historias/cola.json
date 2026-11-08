@@ -1,55 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "conmebol.sudamericana:401913956",
-  "creado": "2026-10-21T21:31:32-03:00",
-  "archivos": [
-   "historias/img/2026-10-21/conmebolsudamericana-montevideo-city-torque-atletico-mg.png"
-  ],
-  "titulo": "Montevideo City Torque 2–0 Atlético-MG",
-  "liga": "conmebol.sudamericana",
-  "enviado": true,
-  "ig_id": "18104417405566548",
-  "publicado": "2026-10-22T00:32:12+00:00"
- },
- {
-  "tipo": "resumen",
-  "clave": "conmebol.sudamericana:2026-10-20",
-  "creado": "2026-10-21T21:31:32-03:00",
-  "archivos": [
-   "historias/img/2026-10-21/conmebolsudamericana-20261020-1.png"
-  ],
-  "titulo": "conmebol.sudamericana Juego de Vuelta - Boca Juniors Gana 3-2 en el global",
-  "liga": "conmebol.sudamericana",
-  "fase": "Semifinales · Boca Juniors y Atlético-MG a la final",
-  "rango": "20 al 21 de octubre",
-  "partidos": [
-   {
-    "dia": "Mar 20",
-    "local": "Vasco da Gama",
-    "visita": "Boca Juniors",
-    "gl": 1,
-    "gv": 3
-   },
-   {
-    "dia": "Mié 21",
-    "local": "Montevideo City Torque",
-    "visita": "Atlético-MG",
-    "gl": 2,
-    "gv": 0
-   }
-  ],
-  "enviado": true,
-  "texto": "¡Ya tenemos final de la Sudamericana! 🏆\nBoca lo dio vuelta en Brasil: le ganó 3-1 a Vasco da Gama y avanzó 3-2 en el global.\nMontevideo City Torque le pegó 2-0 a Atlético-MG, pero no le alcanzó: el Galo también está en la final.\n¿Quién se queda con la copa, Boca o Atlético-MG? 👇\n\n#MarcadorCL #Futbol #Sudamericana #CopaSudamericana #FutbolSudamericano",
-  "avisado": true,
-  "aprobado": true,
-  "error": "400 {\"error\":{\"message\":\"Media ID is not available\",\"type\":\"OAuthException\",\"code\":9007,\"error_subcode\":2207027,\"is_transient\":false,\"error_user_title\":\"Cannot Publish\",\"error_user_msg\":\"The media is not ready for publishing, please wait for a moment\",\"fbtrace_id\":\"Avd6B8UK9BEri2cT782y6Aq\"}}",
-  "intentos": 1,
-  "ig_id": "18126657799906366",
-  "publicado": "2026-10-22T01:29:02+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "conmebol.libertadores:401912520",
   "creado": "2026-10-22T00:02:13-03:00",
   "archivos": [
@@ -4919,5 +4870,103 @@
   "enviado": true,
   "ig_id": "17955978150337641",
   "publicado": "2026-11-08T18:48:10+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "esp.1:401882807",
+  "creado": "2026-11-08T16:26:56-03:00",
+  "archivos": [
+   "historias/img/2026-11-08/esp1-villarreal-getafe.png"
+  ],
+  "titulo": "Villarreal 2–0 Getafe",
+  "liga": "esp.1",
+  "enviado": false
+ },
+ {
+  "tipo": "resumen",
+  "clave": "eng.1:2026-11-06",
+  "creado": "2026-11-08T16:26:56-03:00",
+  "archivos": [
+   "historias/img/2026-11-08/eng1-20261106-1.png",
+   "historias/img/2026-11-08/eng1-20261106-2.png"
+  ],
+  "titulo": "eng.1 6 al 8 de noviembre",
+  "liga": "eng.1",
+  "fase": "",
+  "rango": "6 al 8 de noviembre",
+  "partidos": [
+   {
+    "dia": "Vie 6",
+    "local": "Everton",
+    "visita": "Coventry",
+    "gl": 3,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 7",
+    "local": "Leeds",
+    "visita": "Tottenham",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "dia": "Sáb 7",
+    "local": "Arsenal",
+    "visita": "Hull City",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "dia": "Sáb 7",
+    "local": "Fulham",
+    "visita": "Newcastle",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 7",
+    "local": "Nottingham F.",
+    "visita": "Man. City",
+    "gl": 3,
+    "gv": 1
+   },
+   {
+    "dia": "Dom 8",
+    "local": "Brighton",
+    "visita": "Brentford",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "dia": "Dom 8",
+    "local": "Crystal Palace",
+    "visita": "Liverpool",
+    "gl": 1,
+    "gv": 3
+   },
+   {
+    "dia": "Dom 8",
+    "local": "Ipswich",
+    "visita": "Bournemouth",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "dia": "Dom 8",
+    "local": "Sunderland",
+    "visita": "Chelsea",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "dia": "Dom 8",
+    "local": "Man. United",
+    "visita": "Aston Villa",
+    "gl": 4,
+    "gv": 4
+   }
+  ],
+  "sin_tabla": false,
+  "enviado": false
  }
 ]
