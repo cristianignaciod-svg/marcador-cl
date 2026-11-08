@@ -4946,7 +4946,9 @@
   ],
   "titulo": "Brighton 2–0 Brentford",
   "liga": "eng.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18180757351453111",
+  "publicado": "2026-11-08T16:36:19+00:00"
  },
  {
   "tipo": "historia",
@@ -4957,7 +4959,9 @@
   ],
   "titulo": "Crystal Palace 1–3 Liverpool",
   "liga": "eng.1",
-  "enviado": false
+  "enviado": false,
+  "error": "400 {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,132,888,841,759,825 cannot be found.\",\"fbtrace_id\":\"AXzWsiFJHWkhl8AuYacZlhn\"}}",
+  "intentos": 1
  },
  {
   "tipo": "historia",
@@ -4968,7 +4972,9 @@
   ],
   "titulo": "Monza 0–1 Atalanta",
   "liga": "ita.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17888323143624166",
+  "publicado": "2026-11-08T16:36:19+00:00"
  },
  {
   "tipo": "historia",
@@ -4979,6 +4985,8 @@
   ],
   "titulo": "Stade Rennais 1–2 Lille",
   "liga": "fra.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18121284647090401",
+  "publicado": "2026-11-08T16:36:19+00:00"
  }
 ]
