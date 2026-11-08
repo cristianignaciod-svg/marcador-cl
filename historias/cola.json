@@ -4867,9 +4867,11 @@
   ],
   "titulo": "Villarreal 2–0 Getafe",
   "liga": "esp.1",
-  "enviado": false,
+  "enviado": true,
   "error": "400 {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,132,921,124,759,825 cannot be found.\",\"fbtrace_id\":\"A7h2JXaKEk94OTCAHfYR1sO\"}}",
-  "intentos": 1
+  "intentos": 1,
+  "ig_id": "17883469671628717",
+  "publicado": "2026-11-08T19:37:10+00:00"
  },
  {
   "tipo": "resumen",
@@ -4967,6 +4969,8 @@
   ],
   "titulo": "Celta 0–0 Levante",
   "liga": "esp.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18120091841061984",
+  "publicado": "2026-11-08T19:37:10+00:00"
  }
 ]
