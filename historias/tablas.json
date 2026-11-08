@@ -1211,7 +1211,8 @@
    "fuentes": [
     "ESPN",
     "FotMob"
-   ]
+   ],
+   "pendiente": "Aston Villa: ESPN 12 pts/9 PJ, FotMob 13 pts/10 PJ"
   },
   "ger.1": {
    "nombre": "Bundesliga",
@@ -1515,7 +1516,7 @@
     "ESPN",
     "FotMob"
    ],
-   "pendiente": "TSG Hoffenheim: ESPN 9 pts/8 PJ, FotMob 12 pts/9 PJ"
+   "pendiente": "SC Freiburg: ESPN 16 pts/8 PJ, FotMob 19 pts/9 PJ"
   },
   "fra.1": {
    "nombre": "Ligue 1",
@@ -1818,7 +1819,8 @@
    "fuentes": [
     "ESPN",
     "FotMob"
-   ]
+   ],
+   "pendiente": "Stade Rennais no aparece en FotMob"
   },
   "arg.1": {
    "nombre": "Liga Profesional",
