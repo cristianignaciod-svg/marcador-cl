@@ -1,21 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "uefa.champions:401915401",
-  "creado": "2026-10-20T18:22:20-03:00",
-  "archivos": [
-   "historias/img/2026-10-20/uefachampions-man-city-aek-athens.png"
-  ],
-  "titulo": "Man. City 5–1 AEK Athens",
-  "liga": "uefa.champions",
-  "enviado": true,
-  "error": "400 {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,127,896,145,759,825 cannot be found.\",\"fbtrace_id\":\"AlncjFHdbb82QN728E2ucWU\"}}",
-  "intentos": 1,
-  "ig_id": "18102417161455482",
-  "publicado": "2026-10-20T21:34:20+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "uefa.champions:401915400",
   "creado": "2026-10-20T18:22:20-03:00",
   "archivos": [
@@ -5060,5 +5045,16 @@
   "enviado": true,
   "ig_id": "18135304399665425",
   "publicado": "2026-11-08T14:30:13+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "esp.1:401882814",
+  "creado": "2026-11-08T11:59:01-03:00",
+  "archivos": [
+   "historias/img/2026-11-08/esp1-elche-betis.png"
+  ],
+  "titulo": "Elche 0–2 Betis",
+  "liga": "esp.1",
+  "enviado": false
  }
 ]
