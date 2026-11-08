@@ -875,7 +875,7 @@
     "ESPN",
     "FotMob"
    ],
-   "pendiente": "Betis: ESPN 23 pts/11 PJ, FotMob 24 pts/12 PJ"
+   "pendiente": "Betis: ESPN 23 pts/11 PJ, FotMob 26 pts/12 PJ"
   },
   "eng.1": {
    "nombre": "Premier League",
@@ -1514,7 +1514,8 @@
    "fuentes": [
     "ESPN",
     "FotMob"
-   ]
+   ],
+   "pendiente": "Leverkusen: ESPN 13 pts/8 PJ, FotMob 16 pts/9 PJ"
   },
   "fra.1": {
    "nombre": "Ligue 1",
@@ -1818,7 +1819,7 @@
     "ESPN",
     "FotMob"
    ],
-   "pendiente": "Lille: ESPN 18 pts/9 PJ, FotMob 21 pts/10 PJ"
+   "pendiente": "Lille: ESPN 18 pts/9 PJ, FotMob 19 pts/10 PJ"
   },
   "arg.1": {
    "nombre": "Liga Profesional",
