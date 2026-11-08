@@ -270,7 +270,7 @@
     "ESPN",
     "FotMob"
    ],
-   "pendiente": "Huachipato: ESPN 36 pts/26 PJ, FotMob 36 pts/27 PJ"
+   "pendiente": "O'Higgins: ESPN 31 pts/26 PJ, FotMob 31 pts/27 PJ"
   },
   "chi.pb": {
    "nombre": "Primera B",
@@ -875,8 +875,7 @@
    "fuentes": [
     "ESPN",
     "FotMob"
-   ],
-   "pendiente": "Barcelona: ESPN 30 pts/11 PJ, FotMob 33 pts/12 PJ"
+   ]
   },
   "eng.1": {
    "nombre": "Premier League",
@@ -1514,8 +1513,7 @@
    "fuentes": [
     "ESPN",
     "FotMob"
-   ],
-   "pendiente": "TSG Hoffenheim: ESPN 9 pts/8 PJ, FotMob 12 pts/9 PJ"
+   ]
   },
   "fra.1": {
    "nombre": "Ligue 1",
@@ -1818,8 +1816,7 @@
    "fuentes": [
     "ESPN",
     "FotMob"
-   ],
-   "pendiente": "Stade Rennais no aparece en FotMob"
+   ]
   },
   "arg.1": {
    "nombre": "Liga Profesional",
