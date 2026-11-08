@@ -1210,7 +1210,8 @@
    "fuentes": [
     "ESPN",
     "FotMob"
-   ]
+   ],
+   "pendiente": "Brighton: ESPN 19 pts/9 PJ, FotMob 20 pts/10 PJ"
   },
   "ger.1": {
    "nombre": "Bundesliga",
@@ -1816,7 +1817,8 @@
    "fuentes": [
     "ESPN",
     "FotMob"
-   ]
+   ],
+   "pendiente": "Lille: ESPN 18 pts/9 PJ, FotMob 19 pts/10 PJ"
   },
   "arg.1": {
    "nombre": "Liga Profesional",
