@@ -1,59 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "conmebol.sudamericana:401913957",
-  "creado": "2026-10-20T23:53:03-03:00",
-  "archivos": [
-   "historias/img/2026-10-20/conmebolsudamericana-vasco-da-gama-boca-juniors.png"
-  ],
-  "titulo": "Vasco da Gama 1–3 Boca Juniors",
-  "liga": "conmebol.sudamericana",
-  "enviado": true,
-  "ig_id": "18119326276995011",
-  "publicado": "2026-10-21T02:53:32+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "agenda:2026-10-21",
-  "creado": "2026-10-21T09:24:36-03:00",
-  "archivos": [
-   "historias/img/2026-10-21/agenda-2026-10-21-1.png",
-   "historias/img/2026-10-21/agenda-2026-10-21-2.png"
-  ],
-  "titulo": "Hoy se juega (12 partidos)",
-  "liga": "agenda",
-  "enviado": true,
-  "ig_id": "18123527519304049",
-  "publicado": "2026-10-21T12:25:12+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "uefa.champions:401915395",
-  "creado": "2026-10-21T16:07:16-03:00",
-  "archivos": [
-   "historias/img/2026-10-21/uefachampions-como-man-united.png"
-  ],
-  "titulo": "Como 4–1 Man. United",
-  "liga": "uefa.champions",
-  "enviado": true,
-  "ig_id": "18124836964924288",
-  "publicado": "2026-10-21T19:07:47+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "uefa.champions:401915396",
-  "creado": "2026-10-21T16:07:16-03:00",
-  "archivos": [
-   "historias/img/2026-10-21/uefachampions-lille-galatasaray.png"
-  ],
-  "titulo": "Lille 2–4 Galatasaray",
-  "liga": "uefa.champions",
-  "enviado": true,
-  "ig_id": "18127563298850348",
-  "publicado": "2026-10-21T19:07:47+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "esp.1:401882870",
   "creado": "2026-10-21T17:13:26-03:00",
   "archivos": [
@@ -4988,5 +4935,49 @@
   "enviado": true,
   "ig_id": "18121284647090401",
   "publicado": "2026-11-08T16:36:19+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "eng.1:401878759",
+  "creado": "2026-11-08T13:46:46-03:00",
+  "archivos": [
+   "historias/img/2026-11-08/eng1-ipswich-bournemouth.png"
+  ],
+  "titulo": "Ipswich 1–2 Bournemouth",
+  "liga": "eng.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "eng.1:401879239",
+  "creado": "2026-11-08T13:46:46-03:00",
+  "archivos": [
+   "historias/img/2026-11-08/eng1-sunderland-chelsea.png"
+  ],
+  "titulo": "Sunderland 1–0 Chelsea",
+  "liga": "eng.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "ger.1:401884738",
+  "creado": "2026-11-08T13:46:46-03:00",
+  "archivos": [
+   "historias/img/2026-11-08/ger1-fc-cologne-leverkusen.png"
+  ],
+  "titulo": "FC Cologne 1–2 Leverkusen",
+  "liga": "ger.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "ita.1:401875018",
+  "creado": "2026-11-08T13:46:46-03:00",
+  "archivos": [
+   "historias/img/2026-11-08/ita1-genova-milan.png"
+  ],
+  "titulo": "Génova 1–2 Milan",
+  "liga": "ita.1",
+  "enviado": false
  }
 ]
