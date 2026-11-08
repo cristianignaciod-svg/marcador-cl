@@ -681,6 +681,7 @@ TV_DEFECTO = {"chi.1": "TNT Sports Premium · HBO Max", "chi.pb": "TNT Sports ·
               "esp.1": "DSports o ESPN", "eng.1": "ESPN · Disney+ Premium",
               "uefa.champions": "ESPN · Disney+ Premium", "uefa.europa": "ESPN · Disney+ Premium",
               "conmebol.libertadores": "ESPN · Disney+ Premium", "conmebol.sudamericana": "ESPN · Disney+ Premium · DSports"}
+CHILENOS_AG = {"chi.1", "chi.pb"}
 ORDEN_AGENDA = ["chi.1", "chi.pb", "conmebol.libertadores", "conmebol.sudamericana",
                 "uefa.champions", "uefa.europa", "esp.1", "eng.1"]
 
@@ -710,6 +711,14 @@ def agenda_del_dia(ahora, publicados, pendientes, cola):
             if min(pl, pv) >= 0.6 and pl + pv > mejor:
                 mejor, tv = pl + pv, c.get("tv")
         return tv or TV_DEFECTO.get(liga, "")
+
+    def entrada(loc, vis):
+        mejor, idx = 0.0, None
+        for i, c in enumerate(tv_hoy):
+            pl, pv = _parecido(c.get("local", ""), loc), _parecido(c.get("visita", ""), vis)
+            if min(pl, pv) >= 0.6 and pl + pv > mejor:
+                mejor, idx = pl + pv, i
+        return idx
 
     grupos = {}
     for liga in LIGAS_PRINCIPALES:
@@ -747,6 +756,32 @@ def agenda_del_dia(ahora, publicados, pendientes, cola):
     if not grupos:
         publicados.add(clave)
         return
+    # doble chequeo de canales antes de publicar:
+    # 1) cada canal verificado se asigna a un solo partido (si dos partidos toman el mismo, ambos vuelven al canal habitual)
+    # 2) TNT/HBO Max solo transmiten fútbol chileno: si aparecen en otra liga, se descarta
+    # 3) el canal final de cada partido tiene que ser el de su fila en canales_hoy.json (o el habitual de la liga)
+    usos = {}
+    for liga, ps in grupos.items():
+        for m in ps:
+            i = entrada(m["local"], m["visita"])
+            m["_i"] = i
+            if i is not None:
+                usos.setdefault(i, []).append(f"{m['local']}-{m['visita']}")
+    chequeo = []
+    for liga, ps in grupos.items():
+        for m in ps:
+            i = m.pop("_i")
+            if i is not None and len(usos[i]) > 1:
+                chequeo.append(f"canal de {tv_hoy[i]['local']}-{tv_hoy[i]['visita']} calzaba con {usos[i]}")
+                m["tv"] = TV_DEFECTO.get(liga, "")
+            elif i is not None and m["tv"] != (tv_hoy[i].get("tv") or TV_DEFECTO.get(liga, "")):
+                chequeo.append(f"{m['local']}-{m['visita']}: canal no coincide con la fuente")
+                m["tv"] = tv_hoy[i].get("tv") or TV_DEFECTO.get(liga, "")
+            if liga not in CHILENOS_AG and re.search(r"TNT|HBO", m["tv"] or "", re.I):
+                chequeo.append(f"{m['local']}-{m['visita']} ({liga}) salía por {m['tv']}")
+                m["tv"] = TV_DEFECTO.get(liga, "")
+    sin_usar = [f"{c.get('local')}-{c.get('visita')}" for i, c in enumerate(tv_hoy) if i not in usos]
+    DIAG["agenda"] = {"corregidos": chequeo, "canales_sin_partido": sin_usar}
     gr = []
     for liga in ORDEN_AGENDA:
         if liga in grupos:
