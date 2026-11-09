@@ -9,7 +9,7 @@
    "401850691 STATUS_FULL_TIME 2026-11-08T18:00Z",
    "401850686 STATUS_FULL_TIME 2026-11-08T18:00Z",
    "401850684 STATUS_FULL_TIME 2026-11-08T20:30Z",
-   "401850685 STATUS_SECOND_HALF 2026-11-08T23:00Z"
+   "401850685 STATUS_FULL_TIME 2026-11-08T23:00Z"
   ],
   "esp.1": [
    "401882812 STATUS_FULL_TIME 2026-11-07T13:00Z",
@@ -77,10 +77,11 @@
   ]
  },
  "tablas": {
+  "chi.1:2026-11-07": "O'Higgins: ESPN 31 pts/26 PJ, FotMob 31 pts/27 PJ",
   "esp.1:2026-11-06": "Deportivo: ESPN 15 pts/12 PJ, FotMob 13 pts/12 PJ"
  },
  "tablas_web": {
-  "chi.1": "O'Higgins: ESPN 31 pts/26 PJ, FotMob 32 pts/27 PJ",
+  "chi.1": "O'Higgins: ESPN 31 pts/26 PJ, FotMob 31 pts/27 PJ",
   "arg.1": "Lanús: ESPN 25 pts/15 PJ, FotMob 26 pts/16 PJ"
  }
 }

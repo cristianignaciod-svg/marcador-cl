@@ -1,1 +1,71 @@
-[]
+[
+ {
+  "id": "chi1-universidad-de-concepcion-o-higgins",
+  "liga": "chi.1",
+  "fase": "",
+  "fecha": "2026-11-08",
+  "local": "Universidad de Concepción",
+  "visita": "O'Higgins",
+  "gl": 3,
+  "gv": 2,
+  "goles": [
+   {
+    "min": "39'",
+    "jugador": "Cristopher Mesías",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "41'",
+    "jugador": "Harol Salgado",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "45+1'",
+    "jugador": "Esteban Moreira",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "71'",
+    "jugador": "Tomás Avilés",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "90'",
+    "jugador": "Moises Torres",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "24'",
+    "jugador": "Osvaldo González",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "75'",
+    "jugador": "Santiago Toloza",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "89'",
+    "jugador": "Benjamín Pérez",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]
