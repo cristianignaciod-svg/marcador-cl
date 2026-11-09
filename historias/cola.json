@@ -4954,7 +4954,9 @@
   ],
   "titulo": "Colo-Colo campeón 2026",
   "liga": "chi.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17881341078651501",
+  "publicado": "2026-11-09T01:00:06+00:00"
  },
  {
   "tipo": "historia",
@@ -4965,6 +4967,8 @@
   ],
   "titulo": "Universidad de Concepción 3–2 O'Higgins",
   "liga": "chi.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18176516002458897",
+  "publicado": "2026-11-09T01:00:06+00:00"
  }
 ]
