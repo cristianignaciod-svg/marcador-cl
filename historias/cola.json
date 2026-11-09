@@ -1,19 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "uefa.europa:401915553",
-  "creado": "2026-10-22T18:10:25-03:00",
-  "archivos": [
-   "historias/img/2026-10-22/uefaeuropa-besiktas-crystal-palace.png"
-  ],
-  "titulo": "Besiktas 2–2 Crystal Palace",
-  "liga": "uefa.europa",
-  "enviado": true,
-  "ig_id": "18138014839642497",
-  "publicado": "2026-10-22T21:11:12+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "uefa.europa:401915555",
   "creado": "2026-10-22T18:10:25-03:00",
   "archivos": [
@@ -5035,5 +5022,91 @@
   "aprobado": true,
   "ig_id": "18101625041677811",
   "publicado": "2026-11-09T02:46:23+00:00"
+ },
+ {
+  "tipo": "resumen",
+  "clave": "esp.1:2026-11-06",
+  "creado": "2026-11-09T19:05:25-03:00",
+  "archivos": [
+   "historias/img/2026-11-08/esp1-20261106-1.png"
+  ],
+  "titulo": "esp.1 6 al 8 de noviembre",
+  "liga": "esp.1",
+  "fase": "",
+  "rango": "6 al 8 de noviembre",
+  "partidos": [
+   {
+    "dia": "Vie 6",
+    "local": "Sevilla",
+    "visita": "Alavés",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "dia": "Sáb 7",
+    "local": "Málaga",
+    "visita": "Racing",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "dia": "Sáb 7",
+    "local": "Espanyol",
+    "visita": "Deportivo",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "dia": "Sáb 7",
+    "local": "Osasuna",
+    "visita": "Athletic",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 7",
+    "local": "Valencia",
+    "visita": "Real Madrid",
+    "gl": 0,
+    "gv": 3
+   },
+   {
+    "dia": "Dom 8",
+    "local": "Elche",
+    "visita": "Betis",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "dia": "Dom 8",
+    "local": "Real Sociedad",
+    "visita": "Rayo",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "dia": "Dom 8",
+    "local": "Celta",
+    "visita": "Levante",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "dia": "Dom 8",
+    "local": "Villarreal",
+    "visita": "Getafe",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "dia": "Dom 8",
+    "local": "Atlético",
+    "visita": "Barcelona",
+    "gl": 1,
+    "gv": 2
+   }
+  ],
+  "sin_tabla": true,
+  "enviado": false
  }
 ]
