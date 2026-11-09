@@ -1,19 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "uefa.europa:401915557",
-  "creado": "2026-10-22T16:23:53-03:00",
-  "archivos": [
-   "historias/img/2026-10-22/uefaeuropa-sk-sturm-graz-marseille.png"
-  ],
-  "titulo": "SK Sturm Graz 1–0 Marseille",
-  "liga": "uefa.europa",
-  "enviado": true,
-  "ig_id": "17905566390657136",
-  "publicado": "2026-10-22T19:24:26+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "uefa.europa:401915545",
   "creado": "2026-10-22T16:23:53-03:00",
   "archivos": [
@@ -4970,5 +4957,16 @@
   "enviado": true,
   "ig_id": "18472464361191952",
   "publicado": "2026-11-08T22:34:33+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "arg.1:401841668",
+  "creado": "2026-11-08T21:30:14-03:00",
+  "archivos": [
+   "historias/img/2026-11-08/arg1-central-cordoba-santiago-del-estero-lanus.png"
+  ],
+  "titulo": "Central Córdoba (Santiago del Estero) 1–1 Lanús",
+  "liga": "arg.1",
+  "enviado": false
  }
 ]
