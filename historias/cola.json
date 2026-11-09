@@ -1,19 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "uefa.europa:401915552",
-  "creado": "2026-10-22T18:10:25-03:00",
-  "archivos": [
-   "historias/img/2026-10-22/uefaeuropa-bournemouth-ac-milan.png"
-  ],
-  "titulo": "Bournemouth 3–0 AC Milan",
-  "liga": "uefa.europa",
-  "enviado": true,
-  "ig_id": "17882742174691375",
-  "publicado": "2026-10-22T21:11:12+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "uefa.europa:401915553",
   "creado": "2026-10-22T18:10:25-03:00",
   "archivos": [
@@ -4970,5 +4957,78 @@
   "enviado": true,
   "ig_id": "18176516002458897",
   "publicado": "2026-11-09T01:00:06+00:00"
+ },
+ {
+  "tipo": "resumen",
+  "clave": "chi.1:2026-11-07",
+  "creado": "2026-11-08T22:09:59-03:00",
+  "archivos": [
+   "historias/img/2026-11-08/chi1-20261107-1.png",
+   "historias/img/2026-11-08/chi1-20261107-2.png"
+  ],
+  "titulo": "chi.1 7 al 8 de noviembre",
+  "liga": "chi.1",
+  "fase": "",
+  "rango": "7 al 8 de noviembre",
+  "partidos": [
+   {
+    "dia": "Sáb 7",
+    "local": "La Serena",
+    "visita": "Palestino",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "dia": "Sáb 7",
+    "local": "Everton",
+    "visita": "Deportes Concepción",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "dia": "Dom 8",
+    "local": "Audax Italiano",
+    "visita": "Coquimbo Unido",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "dia": "Dom 8",
+    "local": "U. Católica",
+    "visita": "Deportes Limache",
+    "gl": 3,
+    "gv": 0
+   },
+   {
+    "dia": "Dom 8",
+    "local": "Ñublense",
+    "visita": "Colo-Colo",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "dia": "Dom 8",
+    "local": "U. de Chile",
+    "visita": "Cobresal",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "dia": "Dom 8",
+    "local": "Unión La Calera",
+    "visita": "Huachipato",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "dia": "Dom 8",
+    "local": "Universidad de Concepción",
+    "visita": "O'Higgins",
+    "gl": 3,
+    "gv": 2
+   }
+  ],
+  "sin_tabla": false,
+  "enviado": false
  }
 ]
