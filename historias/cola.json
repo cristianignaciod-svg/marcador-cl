@@ -4970,5 +4970,16 @@
   "enviado": true,
   "ig_id": "18080019359729357",
   "publicado": "2026-11-09T00:30:45+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "especial:campeon-colo-colo-2026",
+  "creado": "2026-11-08T21:50:49-03:00",
+  "archivos": [
+   "historias/img/2026-11-08/campeon-colo-colo-2026.png"
+  ],
+  "titulo": "Colo-Colo campeón 2026",
+  "liga": "chi.1",
+  "enviado": false
  }
 ]
