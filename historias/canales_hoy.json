@@ -1,35 +1,11 @@
 {
- "fecha": "2026-11-08",
+ "fecha": "2026-11-12",
  "fuentes": [
-  "https://www.alairelibre.cl/futbol/campeonato-nacional/fecha-27-liga-de-primera-donde-ver-ocho-partidos-tv-hbo-max/",
-  "https://www.prensafutbol.cl/u-catolica-vs-limache-hora-los-xi-donde-ver/",
-  "https://www.t13.cl/noticia/deportes13/va-por-tv-hora-como-ver-vivo-nublense-vs-colo-colo-por-liga-primera-2026-5-11-2026",
-  "https://www.prensafutbol.cl/u-de-concepcion-ohiggins-hora-liga-de-primera/",
-  "https://redgol.cl/internacional/elche-vs-betis-horario-y-donde-ver-en-vivo-por-tv-y-online-a-lucas-cepeda-y-manuel-pellegrini",
-  "https://redgol.cl/internacional/crystal-palace-vs-liverpool-horario-y-donde-ver-en-vivo-por-tv-y-online-a-dario-osorio-en-premier-league",
-  "https://www.futbolenvivochile.com/",
-  "https://www.cnnchile.com/deportes/atletico-de-madrid-vs-barcelona-a-que-hora-juegan-y-donde-ver-en-vivo-el-partido-por-laliga/",
-  "https://www.prensafutbol.cl/atletico-de-madrid-vs-barcelona-donde-ver/",
-  "https://bolavip.com/laliga/donde-ver-en-vivo-villarreal-vs-getafe-por-la-jornada-12-de-la-laliga-tv-y-streaming-online",
-  "https://bolavip.com/premier-league/donde-ver-en-vivo-manchester-united-vs-aston-villa-por-la-jornada-10-de-la-premier-league-tv-y-streaming-online"
+  "https://www.365scores.com/es/news/estudiantes-vs-rivadavia-horario-tv-once/",
+  "https://es-us.noticias.yahoo.com/deportes/estudiantes-vs-independiente-rivadavia-supercopa-135137224.html"
  ],
- "partidos": [
-  {"local": "U. Católica", "visita": "Deportes Limache", "tv": "TNT Sports Premium · HBO Max", "verificado": "2_fuentes"},
-  {"local": "Ñublense", "visita": "Colo Colo", "tv": "TNT Sports Premium · HBO Max", "verificado": "2_fuentes"},
-  {"local": "Universidad de Concepción", "visita": "O'Higgins", "tv": "TNT Sports Premium · HBO Max", "verificado": "2_fuentes"},
-  {"local": "Elche", "visita": "Betis", "tv": "ESPN 3 · Disney+ Premium", "verificado": "2_fuentes"},
-  {"local": "Real Sociedad", "visita": "Rayo Vallecano", "tv": "Disney+ Premium", "verificado": "2_fuentes"},
-  {"local": "Villarreal", "visita": "Getafe", "tv": "DSports · DGO", "verificado": "2_fuentes"},
-  {"local": "Celta", "visita": "Levante", "tv": "ESPN 3 · Disney+ Premium", "verificado": "2_fuentes"},
-  {"local": "Sunderland", "visita": "Chelsea", "tv": "ESPN · Disney+ Premium", "verificado": "2_fuentes"},
-  {"local": "Brighton", "visita": "Brentford", "tv": "Disney+ Premium", "verificado": "2_fuentes"},
-  {"local": "Crystal Palace", "visita": "Liverpool", "tv": "Disney+ Premium", "verificado": "2_fuentes"},
-  {"local": "Ipswich", "visita": "Bournemouth", "tv": "Disney+ Premium", "verificado": "2_fuentes"},
-  {"local": "Man. United", "visita": "Aston Villa", "tv": "ESPN · Disney+ Premium", "verificado": "2_fuentes"},
-  {"local": "Colonia", "visita": "Leverkusen", "tv": "Disney+ Premium", "verificado": "2_fuentes"},
-  {"local": "Freiburg", "visita": "Union Berlin", "tv": "Disney+ Premium", "verificado": "2_fuentes"}
- ],
+ "partidos": [],
  "conflictos": [
-  {"local": "Atlético", "visita": "Barcelona", "detalle": "CNN Chile y futbolenvivochile dicen ESPN · Disney+ Premium; Prensafutbol dice DSports · DGO; RedGol no informa canal"}
+  {"local": "Estudiantes", "visita": "Independiente Rivadavia", "detalle": "Supercopa Argentina. Sin fuente chilena (RedGol/canal oficial): 365Scores indica Disney+ Premium para Sudamérica; La Nación indica ESPN Premium y TNT Sports (solo Argentina). No publicado."}
  ]
 }
