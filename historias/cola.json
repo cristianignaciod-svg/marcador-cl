@@ -1,288 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "uefa.europa:401915543",
-  "creado": "2026-10-22T18:10:25-03:00",
-  "archivos": [
-   "historias/img/2026-10-22/uefaeuropa-tsg-hoffenheim-lyon.png"
-  ],
-  "titulo": "TSG Hoffenheim 3–0 Lyon",
-  "liga": "uefa.europa",
-  "enviado": true,
-  "ig_id": "18356470933168809",
-  "publicado": "2026-10-22T21:11:12+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "uefa.europa:401915539",
-  "creado": "2026-10-22T18:10:25-03:00",
-  "archivos": [
-   "historias/img/2026-10-22/uefaeuropa-viktoria-plzen-levski-sofia.png"
-  ],
-  "titulo": "Viktoria Plzen 1–2 Levski Sofia",
-  "liga": "uefa.europa",
-  "enviado": true,
-  "ig_id": "18107384140966132",
-  "publicado": "2026-10-22T21:11:12+00:00"
- },
- {
-  "tipo": "resumen",
-  "clave": "uefa.europa:2026-10-22",
-  "creado": "2026-10-22T18:10:25-03:00",
-  "archivos": [
-   "historias/img/2026-10-22/uefaeuropa-20261022-1.png",
-   "historias/img/2026-10-22/uefaeuropa-20261022-2.png"
-  ],
-  "titulo": "uefa.europa 22 de octubre",
-  "liga": "uefa.europa",
-  "fase": "",
-  "rango": "22 de octubre",
-  "partidos": [
-   {
-    "dia": "Jue 22",
-    "local": "Ararat-Armenia",
-    "visita": "AZ Alkmaar",
-    "gl": 0,
-    "gv": 4
-   },
-   {
-    "dia": "Jue 22",
-    "local": "Dinamo Zagreb",
-    "visita": "NEC Nijmegen",
-    "gl": 2,
-    "gv": 4
-   },
-   {
-    "dia": "Jue 22",
-    "local": "Ferencvaros",
-    "visita": "Torreense",
-    "gl": 4,
-    "gv": 1
-   },
-   {
-    "dia": "Jue 22",
-    "local": "Juventus",
-    "visita": "Stade Rennais",
-    "gl": 2,
-    "gv": 2
-   },
-   {
-    "dia": "Jue 22",
-    "local": "Lech Poznan",
-    "visita": "Sunderland",
-    "gl": 1,
-    "gv": 1
-   },
-   {
-    "dia": "Jue 22",
-    "local": "OFI Crete",
-    "visita": "Bayer Leverkusen",
-    "gl": 0,
-    "gv": 2
-   },
-   {
-    "dia": "Jue 22",
-    "local": "SK Sturm Graz",
-    "visita": "Marseille",
-    "gl": 1,
-    "gv": 0
-   },
-   {
-    "dia": "Jue 22",
-    "local": "Union St.-Gilloise",
-    "visita": "Hapoel Be'er",
-    "gl": 4,
-    "gv": 0
-   },
-   {
-    "dia": "Jue 22",
-    "local": "Bournemouth",
-    "visita": "AC Milan",
-    "gl": 3,
-    "gv": 0
-   },
-   {
-    "dia": "Jue 22",
-    "local": "Besiktas",
-    "visita": "Crystal Palace",
-    "gl": 2,
-    "gv": 2
-   },
-   {
-    "dia": "Jue 22",
-    "local": "Celtic",
-    "visita": "Celta",
-    "gl": 1,
-    "gv": 2
-   },
-   {
-    "dia": "Jue 22",
-    "local": "Jagiellonia Bialystok",
-    "visita": "Anderlecht",
-    "gl": 0,
-    "gv": 3
-   },
-   {
-    "dia": "Jue 22",
-    "local": "Lillestrom",
-    "visita": "Real Sociedad",
-    "gl": 0,
-    "gv": 6
-   },
-   {
-    "dia": "Jue 22",
-    "local": "NK Celje",
-    "visita": "RB Salzburg",
-    "gl": 2,
-    "gv": 2
-   },
-   {
-    "dia": "Jue 22",
-    "local": "Olympiacos",
-    "visita": "Sparta Prague",
-    "gl": 1,
-    "gv": 0
-   },
-   {
-    "dia": "Jue 22",
-    "local": "Omonia Nicosia",
-    "visita": "Benfica",
-    "gl": 1,
-    "gv": 4
-   },
-   {
-    "dia": "Jue 22",
-    "local": "TSG Hoffenheim",
-    "visita": "Lyon",
-    "gl": 3,
-    "gv": 0
-   },
-   {
-    "dia": "Jue 22",
-    "local": "Viktoria Plzen",
-    "visita": "Levski Sofia",
-    "gl": 1,
-    "gv": 2
-   }
-  ],
-  "enviado": true,
-  "texto": "¡Noche de goles en la Europa League! 🔥 La Real Sociedad aplastó 6-0 a Lillestrom y el Bournemouth le pasó por encima al AC Milan: 3-0.\n\nLa Juventus no pasó del 2-2 con el Stade Rennais, mientras el Marseille cayó 1-0 en su visita al Sturm Graz.\n\n¿Cuál fue el resultado que más te sorprendió? 👇\n\n#MarcadorCL #Futbol #EuropaLeague #UEL #FutbolEuropeo",
-  "avisado": true,
-  "aprobado": true,
-  "ig_id": "18096644036446826",
-  "publicado": "2026-10-22T22:29:14+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "conmebol.libertadores:401912521",
-  "creado": "2026-10-23T00:20:18-03:00",
-  "archivos": [
-   "historias/img/2026-10-22/conmebollibertadores-flamengo-estudiantes-de-la-plata.png"
-  ],
-  "titulo": "Flamengo 0–0 Estudiantes de La Plata",
-  "liga": "conmebol.libertadores",
-  "enviado": true,
-  "error": "400 {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,128,534,791,759,825 cannot be found.\",\"fbtrace_id\":\"ANsezY_2qxhN_0dJklWD_at\"}}",
-  "intentos": 1,
-  "ig_id": "18067227959785222",
-  "publicado": "2026-10-23T03:30:35+00:00"
- },
- {
-  "tipo": "resumen",
-  "clave": "conmebol.libertadores:2026-10-21",
-  "creado": "2026-10-23T00:20:18-03:00",
-  "archivos": [
-   "historias/img/2026-10-22/conmebollibertadores-20261021-1.png"
-  ],
-  "titulo": "conmebol.libertadores Vuelta",
-  "liga": "conmebol.libertadores",
-  "fase": "Vuelta",
-  "rango": "21 al 22 de octubre",
-  "partidos": [
-   {
-    "dia": "Mié 21",
-    "local": "Palmeiras",
-    "visita": "Fluminense",
-    "gl": 0,
-    "gv": 1,
-    "pen": [
-     5,
-     3
-    ]
-   },
-   {
-    "dia": "Jue 22",
-    "local": "Flamengo",
-    "visita": "Estudiantes de La Plata",
-    "gl": 0,
-    "gv": 0,
-    "pen": [
-     2,
-     3
-    ]
-   }
-  ],
-  "enviado": true,
-  "texto": "¡Vuelta de infarto en la Libertadores! Las dos llaves se definieron desde los doce pasos 😱\nFluminense ganó 1-0 en casa de Palmeiras, pero el Verdão se impuso 5-3 en los penales.\nY Estudiantes de La Plata dio el golpe en el Maracaná: 0-0 con Flamengo y 3-2 en la tanda.\n¿Quién se lleva la Copa? Te leemos 👇\n\n#MarcadorCL #Futbol #Libertadores #CopaLibertadores #FutbolSudamericano",
-  "avisado": true,
-  "aprobado": true,
-  "ig_id": "18116012168028691",
-  "publicado": "2026-10-23T10:32:34+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "agenda:2026-10-23",
-  "creado": "2026-10-23T09:25:21-03:00",
-  "archivos": [
-   "historias/img/2026-10-23/agenda-2026-10-23-1.png"
-  ],
-  "titulo": "Hoy se juega (4 partidos)",
-  "liga": "agenda",
-  "enviado": true,
-  "ig_id": "18477672247118760",
-  "publicado": "2026-10-23T12:26:04+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "esp.1:401882836",
-  "creado": "2026-10-23T18:12:59-03:00",
-  "archivos": [
-   "historias/img/2026-10-23/esp1-alaves-malaga.png"
-  ],
-  "titulo": "Alavés 1–1 Málaga",
-  "liga": "esp.1",
-  "enviado": true,
-  "ig_id": "17923479921220215",
-  "publicado": "2026-10-23T21:13:37+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "eng.1:401879253",
-  "creado": "2026-10-23T18:12:59-03:00",
-  "archivos": [
-   "historias/img/2026-10-23/eng1-ipswich-nottingham-f.png"
-  ],
-  "titulo": "Ipswich 1–1 Nottingham F.",
-  "liga": "eng.1",
-  "enviado": true,
-  "ig_id": "18021435365730680",
-  "publicado": "2026-10-23T21:13:37+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "chi.1:401850668",
-  "creado": "2026-10-23T22:07:57-03:00",
-  "archivos": [
-   "historias/img/2026-10-23/chi1-audax-italiano-huachipato.png"
-  ],
-  "titulo": "Audax Italiano 1–1 Huachipato",
-  "liga": "chi.1",
-  "enviado": true,
-  "ig_id": "17988380315996346",
-  "publicado": "2026-10-24T01:08:40+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "chi.pb:fm1000007344",
   "creado": "2026-10-23T22:07:57-03:00",
   "archivos": [
@@ -5175,5 +4893,179 @@
   "enviado": true,
   "ig_id": "18110168090302339",
   "publicado": "2026-11-13T21:39:09+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.nations:401861155",
+  "creado": "2026-11-13T18:58:24-03:00",
+  "archivos": [
+   "historias/img/2026-11-13/uefanations-andorra-gibraltar.png"
+  ],
+  "titulo": "Andorra 2–0 Gibraltar",
+  "liga": "uefa.nations",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.nations:401861157",
+  "creado": "2026-11-13T18:58:24-03:00",
+  "archivos": [
+   "historias/img/2026-11-13/uefanations-bulgaria-islandia.png"
+  ],
+  "titulo": "Bulgaria 0–5 Islandia",
+  "liga": "uefa.nations",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.nations:401861153",
+  "creado": "2026-11-13T18:58:24-03:00",
+  "archivos": [
+   "historias/img/2026-11-13/uefanations-liechtenstein-azerbaiyan.png"
+  ],
+  "titulo": "Liechtenstein 0–1 Azerbaiyán",
+  "liga": "uefa.nations",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.nations:401861154",
+  "creado": "2026-11-13T18:58:24-03:00",
+  "archivos": [
+   "historias/img/2026-11-13/uefanations-luxemburgo-estonia.png"
+  ],
+  "titulo": "Luxemburgo 0–1 Estonia",
+  "liga": "uefa.nations",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.nations:401861161",
+  "creado": "2026-11-13T18:58:24-03:00",
+  "archivos": [
+   "historias/img/2026-11-13/uefanations-escocia-north-macedonia.png"
+  ],
+  "titulo": "Escocia 2–1 North Macedonia",
+  "liga": "uefa.nations",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.nations:401861158",
+  "creado": "2026-11-13T18:58:24-03:00",
+  "archivos": [
+   "historias/img/2026-11-13/uefanations-serbia-alemania.png"
+  ],
+  "titulo": "Serbia 1–3 Alemania",
+  "liga": "uefa.nations",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.nations:401861160",
+  "creado": "2026-11-13T18:58:24-03:00",
+  "archivos": [
+   "historias/img/2026-11-13/uefanations-eslovaquia-islas-feroe.png"
+  ],
+  "titulo": "Eslovaquia 2–2 Islas Feroe",
+  "liga": "uefa.nations",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.nations:401861156",
+  "creado": "2026-11-13T18:58:24-03:00",
+  "archivos": [
+   "historias/img/2026-11-13/uefanations-eslovenia-suiza.png"
+  ],
+  "titulo": "Eslovenia 0–0 Suiza",
+  "liga": "uefa.nations",
+  "enviado": false
+ },
+ {
+  "tipo": "resumen",
+  "clave": "uefa.nations:2026-11-13",
+  "creado": "2026-11-13T18:58:24-03:00",
+  "archivos": [
+   "historias/img/2026-11-13/uefanations-20261113-1.png"
+  ],
+  "titulo": "uefa.nations 13 de noviembre",
+  "liga": "uefa.nations",
+  "fase": "",
+  "rango": "13 de noviembre",
+  "partidos": [
+   {
+    "dia": "Vie 13",
+    "local": "Moldavia",
+    "visita": "Kazajistán",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "dia": "Vie 13",
+    "local": "Andorra",
+    "visita": "Gibraltar",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "dia": "Vie 13",
+    "local": "Bulgaria",
+    "visita": "Islandia",
+    "gl": 0,
+    "gv": 5
+   },
+   {
+    "dia": "Vie 13",
+    "local": "Liechtenstein",
+    "visita": "Azerbaiyán",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "dia": "Vie 13",
+    "local": "Luxemburgo",
+    "visita": "Estonia",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "dia": "Vie 13",
+    "local": "Países Bajos",
+    "visita": "Grecia",
+    "gl": 7,
+    "gv": 0
+   },
+   {
+    "dia": "Vie 13",
+    "local": "Escocia",
+    "visita": "North Macedonia",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "dia": "Vie 13",
+    "local": "Serbia",
+    "visita": "Alemania",
+    "gl": 1,
+    "gv": 3
+   },
+   {
+    "dia": "Vie 13",
+    "local": "Eslovaquia",
+    "visita": "Islas Feroe",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "dia": "Vie 13",
+    "local": "Eslovenia",
+    "visita": "Suiza",
+    "gl": 0,
+    "gv": 0
+   }
+  ],
+  "sin_tabla": false,
+  "enviado": false
  }
 ]

@@ -1,1 +1,529 @@
-[]
+[
+ {
+  "id": "uefanations-andorra-gibraltar",
+  "liga": "uefa.nations",
+  "fase": "",
+  "fecha": "2026-11-13",
+  "local": "Andorra",
+  "visita": "Gibraltar",
+  "gl": 2,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "24'",
+    "jugador": "Guillaume Lopez",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "35'",
+    "jugador": "Albert Rosas",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "19'",
+    "jugador": "Tjay De Barr",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "54'",
+    "jugador": "Éric De Las Heras",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "55'",
+    "jugador": "Carlos Peliza Richards",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "56'",
+    "jugador": "Julian Valarino",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "58'",
+    "jugador": "Louie Annesley",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "77'",
+    "jugador": "Jordi Aláez",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "79'",
+    "jugador": "Dan Bent",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "uefanations-bulgaria-islandia",
+  "liga": "uefa.nations",
+  "fase": "",
+  "fecha": "2026-11-13",
+  "local": "Bulgaria",
+  "visita": "Islandia",
+  "gl": 0,
+  "gv": 5,
+  "goles": [
+   {
+    "min": "17'",
+    "jugador": "Andri Gudjohnsen",
+    "lado": "visita",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "21'",
+    "jugador": "Orri Óskarsson",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "52'",
+    "jugador": "Emil Tsenov",
+    "lado": "visita",
+    "penal": false,
+    "autogol": true
+   },
+   {
+    "min": "68'",
+    "jugador": "Andri Gudjohnsen",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "79'",
+    "jugador": "Andri Gudjohnsen",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "39'",
+    "jugador": "Hördur Magnússon",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "45+4'",
+    "jugador": "Kristiyan Balov",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "55'",
+    "jugador": "Andrian Kraev",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "66'",
+    "jugador": "Hákon Haraldsson",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "uefanations-liechtenstein-azerbaiyan",
+  "liga": "uefa.nations",
+  "fase": "",
+  "fecha": "2026-11-13",
+  "local": "Liechtenstein",
+  "visita": "Azerbaiyán",
+  "gl": 0,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "26'",
+    "jugador": "Mahir Emreli",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "43'",
+    "jugador": "Emanuel Zünd",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "47'",
+    "jugador": "Marcel Büchel",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+2'",
+    "jugador": "Emil Balayev",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "uefanations-luxemburgo-estonia",
+  "liga": "uefa.nations",
+  "fase": "",
+  "fecha": "2026-11-13",
+  "local": "Luxemburgo",
+  "visita": "Estonia",
+  "gl": 0,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "42'",
+    "jugador": "Maksim Paskotši",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "61'",
+    "jugador": "Omar Natami",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "80'",
+    "jugador": "Jayson Videira",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+5'",
+    "jugador": "Laurent Jans",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "uefanations-escocia-north-macedonia",
+  "liga": "uefa.nations",
+  "fase": "",
+  "fecha": "2026-11-13",
+  "local": "Escocia",
+  "visita": "North Macedonia",
+  "gl": 2,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "54'",
+    "jugador": "John McGinn",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "57'",
+    "jugador": "Elmin Rastoder",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "74'",
+    "jugador": "John McGinn",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "89'",
+    "jugador": "Lewis Ferguson",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "uefanations-serbia-alemania",
+  "liga": "uefa.nations",
+  "fase": "",
+  "fecha": "2026-11-13",
+  "local": "Serbia",
+  "visita": "Alemania",
+  "gl": 1,
+  "gv": 3,
+  "goles": [
+   {
+    "min": "3'",
+    "jugador": "Srjdan Babic",
+    "lado": "visita",
+    "penal": false,
+    "autogol": true
+   },
+   {
+    "min": "14'",
+    "jugador": "Florian Wirtz",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "50'",
+    "jugador": "Brajan Gruda",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "56'",
+    "jugador": "Srjdan Babic",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "41'",
+    "jugador": "Brajan Gruda",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "62'",
+    "jugador": "Srjdan Babic",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "76'",
+    "jugador": "Vanja Dragojevic",
+    "lado": "local",
+    "tipo": "roja"
+   },
+   {
+    "min": "87'",
+    "jugador": "Petar Sukacev",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "89'",
+    "jugador": "Andrija Zivkovic",
+    "lado": "local",
+    "tipo": "doble"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "uefanations-eslovaquia-islas-feroe",
+  "liga": "uefa.nations",
+  "fase": "",
+  "fecha": "2026-11-13",
+  "local": "Eslovaquia",
+  "visita": "Islas Feroe",
+  "gl": 2,
+  "gv": 2,
+  "goles": [
+   {
+    "min": "17'",
+    "jugador": "Erik Prekop",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "30'",
+    "jugador": "Viljormur Davidsen",
+    "lado": "visita",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "47'",
+    "jugador": "Áki Debes Samuelsen",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "74'",
+    "jugador": "Lukás Haraslín",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "55'",
+    "jugador": "Martin Valjent",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "62'",
+    "jugador": "Petur Knudsen",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "66'",
+    "jugador": "Dominik Greif",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "68'",
+    "jugador": "Joannes Danielsen",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "82'",
+    "jugador": "Andrias Edmundsson",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "uefanations-eslovenia-suiza",
+  "liga": "uefa.nations",
+  "fase": "",
+  "fecha": "2026-11-13",
+  "local": "Eslovenia",
+  "visita": "Suiza",
+  "gl": 0,
+  "gv": 0,
+  "goles": [],
+  "tarjetas": [
+   {
+    "min": "50'",
+    "jugador": "Srdjan Kuzmic",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "83'",
+    "jugador": "Jaka Bijol",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "tipo": "resumen",
+  "id": "uefanations-20261113",
+  "liga": "uefa.nations",
+  "fase": "",
+  "fecha": "2026-11-13",
+  "rango": "13 de noviembre",
+  "partidos": [
+   {
+    "dia": "Vie 13",
+    "local": "Moldavia",
+    "visita": "Kazajistán",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "dia": "Vie 13",
+    "local": "Andorra",
+    "visita": "Gibraltar",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "dia": "Vie 13",
+    "local": "Bulgaria",
+    "visita": "Islandia",
+    "gl": 0,
+    "gv": 5
+   },
+   {
+    "dia": "Vie 13",
+    "local": "Liechtenstein",
+    "visita": "Azerbaiyán",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "dia": "Vie 13",
+    "local": "Luxemburgo",
+    "visita": "Estonia",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "dia": "Vie 13",
+    "local": "Países Bajos",
+    "visita": "Grecia",
+    "gl": 7,
+    "gv": 0
+   },
+   {
+    "dia": "Vie 13",
+    "local": "Escocia",
+    "visita": "North Macedonia",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "dia": "Vie 13",
+    "local": "Serbia",
+    "visita": "Alemania",
+    "gl": 1,
+    "gv": 3
+   },
+   {
+    "dia": "Vie 13",
+    "local": "Eslovaquia",
+    "visita": "Islas Feroe",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "dia": "Vie 13",
+    "local": "Eslovenia",
+    "visita": "Suiza",
+    "gl": 0,
+    "gv": 0
+   }
+  ]
+ }
+]
