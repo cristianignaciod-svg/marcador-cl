@@ -5155,10 +5155,12 @@
    }
   ],
   "sin_tabla": false,
-  "enviado": false,
+  "enviado": true,
   "texto": "¡Italia le pasó por encima a Francia! 🇮🇹 Un 3-1 que nadie veía venir en la Nations League.\nEspaña cumplió de visita y se impuso 2-0 en Chequia, mientras Inglaterra le ganó 2-1 a Croacia.\nBélgica también sacó un triunfo de peso: 2-1 en su visita a Turquía.\n¿Quién los sorprendió más en esta fecha? 👇\n\n#MarcadorCL #Futbol #NationsLeague #UNL #FutbolEuropeo",
   "avisado": true,
-  "aprobado": true
+  "aprobado": true,
+  "ig_id": "17910927066324930",
+  "publicado": "2026-11-13T13:50:25+00:00"
  },
  {
   "tipo": "historia",
