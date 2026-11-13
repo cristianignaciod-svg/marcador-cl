@@ -1,1 +1,109 @@
-[]
+[
+ {
+  "tipo": "agenda",
+  "id": "agenda-2026-11-13",
+  "fecha": "2026-11-13",
+  "grupos": [
+   {
+    "liga": "fifa.friendly",
+    "partidos": [
+     {
+      "hora": "09:00",
+      "local": "Singapur",
+      "visita": "Paraguay",
+      "tv": ""
+     },
+     {
+      "hora": "20:00",
+      "local": "Argentina",
+      "visita": "Uruguay",
+      "tv": ""
+     },
+     {
+      "hora": "21:00",
+      "local": "Colombia",
+      "visita": "Chile",
+      "tv": ""
+     },
+     {
+      "hora": "21:00",
+      "local": "Ecuador",
+      "visita": "Costa Rica",
+      "tv": ""
+     },
+     {
+      "hora": "22:00",
+      "local": "Perú",
+      "visita": "Bolívia",
+      "tv": ""
+     }
+    ]
+   },
+   {
+    "liga": "uefa.nations",
+    "partidos": [
+     {
+      "hora": "14:00",
+      "local": "Moldavia",
+      "visita": "Kazajistán",
+      "tv": "ESPN · Disney+ Premium"
+     },
+     {
+      "hora": "16:45",
+      "local": "Andorra",
+      "visita": "Gibraltar",
+      "tv": "ESPN · Disney+ Premium"
+     },
+     {
+      "hora": "16:45",
+      "local": "Bulgaria",
+      "visita": "Islandia",
+      "tv": "ESPN · Disney+ Premium"
+     },
+     {
+      "hora": "16:45",
+      "local": "Liechtenstein",
+      "visita": "Azerbaiyán",
+      "tv": "ESPN · Disney+ Premium"
+     },
+     {
+      "hora": "16:45",
+      "local": "Luxemburgo",
+      "visita": "Estonia",
+      "tv": "ESPN · Disney+ Premium"
+     },
+     {
+      "hora": "16:45",
+      "local": "Países Bajos",
+      "visita": "Grecia",
+      "tv": "ESPN · Disney+ Premium"
+     },
+     {
+      "hora": "16:45",
+      "local": "Escocia",
+      "visita": "North Macedonia",
+      "tv": "ESPN · Disney+ Premium"
+     },
+     {
+      "hora": "16:45",
+      "local": "Serbia",
+      "visita": "Alemania",
+      "tv": "ESPN · Disney+ Premium"
+     },
+     {
+      "hora": "16:45",
+      "local": "Eslovaquia",
+      "visita": "Islas Feroe",
+      "tv": "ESPN · Disney+ Premium"
+     },
+     {
+      "hora": "16:45",
+      "local": "Eslovenia",
+      "visita": "Suiza",
+      "tv": "ESPN · Disney+ Premium"
+     }
+    ]
+   }
+  ]
+ }
+]

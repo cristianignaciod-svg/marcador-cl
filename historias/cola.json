@@ -1,19 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "uefa.europa:401915542",
-  "creado": "2026-10-22T18:10:25-03:00",
-  "archivos": [
-   "historias/img/2026-10-22/uefaeuropa-jagiellonia-bialystok-anderlecht.png"
-  ],
-  "titulo": "Jagiellonia Bialystok 0–3 Anderlecht",
-  "liga": "uefa.europa",
-  "enviado": true,
-  "ig_id": "18098693423451506",
-  "publicado": "2026-10-22T21:11:12+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "uefa.europa:401915541",
   "creado": "2026-10-22T18:10:25-03:00",
   "archivos": [
@@ -5168,6 +5155,18 @@
    }
   ],
   "sin_tabla": false,
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "agenda:2026-11-13",
+  "creado": "2026-11-13T10:19:50-03:00",
+  "archivos": [
+   "historias/img/2026-11-13/agenda-2026-11-13-1.png",
+   "historias/img/2026-11-13/agenda-2026-11-13-2.png"
+  ],
+  "titulo": "Hoy se juega (15 partidos)",
+  "liga": "agenda",
   "enviado": false
  }
 ]
