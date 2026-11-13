@@ -1,19 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "uefa.europa:401915555",
-  "creado": "2026-10-22T18:10:25-03:00",
-  "archivos": [
-   "historias/img/2026-10-22/uefaeuropa-celtic-celta.png"
-  ],
-  "titulo": "Celtic 1–2 Celta",
-  "liga": "uefa.europa",
-  "enviado": true,
-  "ig_id": "18159834718516139",
-  "publicado": "2026-10-22T21:11:12+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "uefa.europa:401915542",
   "creado": "2026-10-22T18:10:25-03:00",
   "archivos": [
@@ -5110,5 +5097,77 @@
   "enviado": false,
   "texto": "¡Barça ganó en el Metropolitano y el Madrid goleó en Mestalla! 🔥\nEl clásico del domingo se lo quedó el Barcelona: Atlético 1-2 Barcelona.\nReal Madrid no perdonó en Valencia: 0-3 de visita.\nAdemás, Villarreal 2-0 Getafe y Betis ganó 2-0 en Elche.\n¿Quién fue el gran ganador de la fecha para ustedes? 👇\n\n#MarcadorCL #Futbol #LaLiga #LaLigaEA #FutbolEspañol",
   "avisado": true
+ },
+ {
+  "tipo": "resumen",
+  "clave": "uefa.nations:2026-11-12",
+  "creado": "2026-11-13T09:40:53-03:00",
+  "archivos": [
+   "historias/img/2026-11-12/uefanations-20261112-1.png"
+  ],
+  "titulo": "uefa.nations 12 de noviembre",
+  "liga": "uefa.nations",
+  "fase": "",
+  "rango": "12 de noviembre",
+  "partidos": [
+   {
+    "dia": "Jue 12",
+    "local": "Armenia",
+    "visita": "Chipre",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "dia": "Jue 12",
+    "local": "Turquía",
+    "visita": "Bélgica",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "dia": "Jue 12",
+    "local": "Albania",
+    "visita": "Finlandia",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "dia": "Jue 12",
+    "local": "Chequia",
+    "visita": "España",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "dia": "Jue 12",
+    "local": "Inglaterra",
+    "visita": "Croacia",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "dia": "Jue 12",
+    "local": "Italia",
+    "visita": "Francia",
+    "gl": 3,
+    "gv": 1
+   },
+   {
+    "dia": "Jue 12",
+    "local": "Montenegro",
+    "visita": "Letonia",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "dia": "Jue 12",
+    "local": "San Marino",
+    "visita": "Bielorrusia",
+    "gl": 0,
+    "gv": 2
+   }
+  ],
+  "sin_tabla": false,
+  "enviado": false
  }
 ]

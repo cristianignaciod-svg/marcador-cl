@@ -1,1 +1,68 @@
-[]
+[
+ {
+  "tipo": "resumen",
+  "id": "uefanations-20261112",
+  "liga": "uefa.nations",
+  "fase": "",
+  "fecha": "2026-11-12",
+  "rango": "12 de noviembre",
+  "partidos": [
+   {
+    "dia": "Jue 12",
+    "local": "Armenia",
+    "visita": "Chipre",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "dia": "Jue 12",
+    "local": "Turquía",
+    "visita": "Bélgica",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "dia": "Jue 12",
+    "local": "Albania",
+    "visita": "Finlandia",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "dia": "Jue 12",
+    "local": "Chequia",
+    "visita": "España",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "dia": "Jue 12",
+    "local": "Inglaterra",
+    "visita": "Croacia",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "dia": "Jue 12",
+    "local": "Italia",
+    "visita": "Francia",
+    "gl": 3,
+    "gv": 1
+   },
+   {
+    "dia": "Jue 12",
+    "local": "Montenegro",
+    "visita": "Letonia",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "dia": "Jue 12",
+    "local": "San Marino",
+    "visita": "Bielorrusia",
+    "gl": 0,
+    "gv": 2
+   }
+  ]
+ }
+]
