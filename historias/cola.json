@@ -4903,7 +4903,9 @@
   ],
   "titulo": "Andorra 2–0 Gibraltar",
   "liga": "uefa.nations",
-  "enviado": false
+  "enviado": false,
+  "error": "400 {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,134,247,943,759,825 cannot be found.\",\"fbtrace_id\":\"ASxbdtuc9jLwzvewutks5zZ\"}}",
+  "intentos": 1
  },
  {
   "tipo": "historia",
@@ -4914,7 +4916,9 @@
   ],
   "titulo": "Bulgaria 0–5 Islandia",
   "liga": "uefa.nations",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18658673938049724",
+  "publicado": "2026-11-13T21:58:49+00:00"
  },
  {
   "tipo": "historia",
@@ -4925,7 +4929,9 @@
   ],
   "titulo": "Liechtenstein 0–1 Azerbaiyán",
   "liga": "uefa.nations",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17955464769319765",
+  "publicado": "2026-11-13T21:58:49+00:00"
  },
  {
   "tipo": "historia",
@@ -4936,7 +4942,9 @@
   ],
   "titulo": "Luxemburgo 0–1 Estonia",
   "liga": "uefa.nations",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17977968768141895",
+  "publicado": "2026-11-13T21:58:49+00:00"
  },
  {
   "tipo": "historia",
@@ -4947,7 +4955,9 @@
   ],
   "titulo": "Escocia 2–1 North Macedonia",
   "liga": "uefa.nations",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18135284749665217",
+  "publicado": "2026-11-13T21:58:49+00:00"
  },
  {
   "tipo": "historia",
@@ -4958,7 +4968,9 @@
   ],
   "titulo": "Serbia 1–3 Alemania",
   "liga": "uefa.nations",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18115210052324194",
+  "publicado": "2026-11-13T21:58:49+00:00"
  },
  {
   "tipo": "historia",
@@ -4969,7 +4981,9 @@
   ],
   "titulo": "Eslovaquia 2–2 Islas Feroe",
   "liga": "uefa.nations",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17913791646592589",
+  "publicado": "2026-11-13T21:58:49+00:00"
  },
  {
   "tipo": "historia",
@@ -4980,7 +4994,9 @@
   ],
   "titulo": "Eslovenia 0–0 Suiza",
   "liga": "uefa.nations",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18135444626500039",
+  "publicado": "2026-11-13T21:58:49+00:00"
  },
  {
   "tipo": "resumen",
