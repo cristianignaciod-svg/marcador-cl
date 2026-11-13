@@ -4903,9 +4903,11 @@
   ],
   "titulo": "Andorra 2–0 Gibraltar",
   "liga": "uefa.nations",
-  "enviado": false,
+  "enviado": true,
   "error": "400 {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,134,247,943,759,825 cannot be found.\",\"fbtrace_id\":\"ASxbdtuc9jLwzvewutks5zZ\"}}",
-  "intentos": 1
+  "intentos": 1,
+  "ig_id": "18203549182377965",
+  "publicado": "2026-11-13T22:10:49+00:00"
  },
  {
   "tipo": "historia",
