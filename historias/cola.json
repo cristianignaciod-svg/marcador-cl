@@ -1,19 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "uefa.europa:401915554",
-  "creado": "2026-10-22T18:10:25-03:00",
-  "archivos": [
-   "historias/img/2026-10-22/uefaeuropa-olympiacos-sparta-prague.png"
-  ],
-  "titulo": "Olympiacos 1–0 Sparta Prague",
-  "liga": "uefa.europa",
-  "enviado": true,
-  "ig_id": "18110608271579136",
-  "publicado": "2026-10-22T21:11:12+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "uefa.europa:401915544",
   "creado": "2026-10-22T18:10:25-03:00",
   "archivos": [
@@ -5175,5 +5162,16 @@
   "enviado": true,
   "ig_id": "18128481364687422",
   "publicado": "2026-11-13T14:20:21+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.nations:401861162",
+  "creado": "2026-11-13T15:53:18-03:00",
+  "archivos": [
+   "historias/img/2026-11-13/uefanations-moldavia-kazajistan.png"
+  ],
+  "titulo": "Moldavia 2–1 Kazajistán",
+  "liga": "uefa.nations",
+  "enviado": false
  }
 ]
