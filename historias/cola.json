@@ -1,19 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "uefa.europa:401915541",
-  "creado": "2026-10-22T18:10:25-03:00",
-  "archivos": [
-   "historias/img/2026-10-22/uefaeuropa-nk-celje-rb-salzburg.png"
-  ],
-  "titulo": "NK Celje 2–2 RB Salzburg",
-  "liga": "uefa.europa",
-  "enviado": true,
-  "ig_id": "18150688564553389",
-  "publicado": "2026-10-22T21:11:12+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "uefa.europa:401915554",
   "creado": "2026-10-22T18:10:25-03:00",
   "archivos": [
@@ -5175,5 +5162,16 @@
   "enviado": true,
   "ig_id": "18399623884162605",
   "publicado": "2026-11-13T13:20:45+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "fifa.friendly:401916338",
+  "creado": "2026-11-13T11:19:32-03:00",
+  "archivos": [
+   "historias/img/2026-11-13/fifafriendly-singapur-paraguay.png"
+  ],
+  "titulo": "Singapur 1–4 Paraguay",
+  "liga": "fifa.friendly",
+  "enviado": false
  }
 ]
