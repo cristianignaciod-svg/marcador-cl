@@ -1,1 +1,66 @@
-[]
+[
+ {
+  "id": "uefanations-paises-bajos-grecia",
+  "liga": "uefa.nations",
+  "fase": "",
+  "fecha": "2026-11-13",
+  "local": "Países Bajos",
+  "visita": "Grecia",
+  "gl": 7,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "6'",
+    "jugador": "Crysencio Summerville",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "12'",
+    "jugador": "Tijjani Reijnders",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "18'",
+    "jugador": "Tijjani Reijnders",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "33'",
+    "jugador": "Tijjani Reijnders",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "40'",
+    "jugador": "Jurriën Timber",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "59'",
+    "jugador": "Jurriën Timber",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "61'",
+    "jugador": "Donyell Malen",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]

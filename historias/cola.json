@@ -1,19 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "uefa.europa:401915544",
-  "creado": "2026-10-22T18:10:25-03:00",
-  "archivos": [
-   "historias/img/2026-10-22/uefaeuropa-omonia-nicosia-benfica.png"
-  ],
-  "titulo": "Omonia Nicosia 1–4 Benfica",
-  "liga": "uefa.europa",
-  "enviado": true,
-  "ig_id": "18171165904476362",
-  "publicado": "2026-10-22T21:11:12+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "uefa.europa:401915543",
   "creado": "2026-10-22T18:10:25-03:00",
   "archivos": [
@@ -5175,5 +5162,16 @@
   "enviado": true,
   "ig_id": "18189265390412984",
   "publicado": "2026-11-13T18:53:38+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.nations:401861159",
+  "creado": "2026-11-13T18:38:37-03:00",
+  "archivos": [
+   "historias/img/2026-11-13/uefanations-paises-bajos-grecia.png"
+  ],
+  "titulo": "Países Bajos 7–0 Grecia",
+  "liga": "uefa.nations",
+  "enviado": false
  }
 ]
