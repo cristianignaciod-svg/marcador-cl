@@ -20,10 +20,15 @@ import urllib.request
 from zoneinfo import ZoneInfo
 
 BASE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, BASE)
+from paises import iso_de, CONMEBOL  # noqa: E402
 CL = ZoneInfo("America/Santiago")
 ESPN = "https://site.web.api.espn.com/apis/site/v2/sports/soccer/"
 LIGAS_PRINCIPALES = ["chi.1", "esp.1", "eng.1", "uefa.champions", "uefa.europa",
-                     "conmebol.libertadores", "conmebol.sudamericana"]
+                     "conmebol.libertadores", "conmebol.sudamericana", "uefa.nations", "fifa.friendly"]
+# Selecciones: Nations League completa; amistosos solo si juega una selección de CONMEBOL.
+SELECCIONES = {"uefa.nations", "fifa.friendly"}
+POR_DIA = {"uefa.champions", "uefa.europa", "uefa.nations", "fifa.friendly"}
 # Solo historias por partido (sin resumen de fecha ni agenda de la mañana)
 SOLO_HISTORIAS = ["ger.1", "ita.1", "fra.1", "arg.1"]
 LIGAS = LIGAS_PRINCIPALES + SOLO_HISTORIAS
@@ -76,6 +81,16 @@ def guardar(n, v):
 def slug(s):
     s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()
     return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
+
+
+def _amistoso_conmebol(ev):
+    """Amistoso de selección mayor donde juega al menos una selección sudamericana."""
+    try:
+        cs = ev["competitions"][0]["competitors"]
+    except (KeyError, IndexError):
+        return False
+    isos = [iso_de(c.get("team", {}).get("displayName", "")) or iso_de(c.get("team", {}).get("name", "")) for c in cs]
+    return any(i in CONMEBOL for i in isos)
 
 
 def nombre(team):
@@ -680,10 +695,11 @@ def primera_b(dias):
 TV_DEFECTO = {"chi.1": "TNT Sports Premium · HBO Max", "chi.pb": "TNT Sports · HBO Max",
               "esp.1": "DSports o ESPN", "eng.1": "ESPN · Disney+ Premium",
               "uefa.champions": "ESPN · Disney+ Premium", "uefa.europa": "ESPN · Disney+ Premium",
-              "conmebol.libertadores": "ESPN · Disney+ Premium", "conmebol.sudamericana": "ESPN · Disney+ Premium · DSports"}
+              "conmebol.libertadores": "ESPN · Disney+ Premium", "conmebol.sudamericana": "ESPN · Disney+ Premium · DSports",
+              "uefa.nations": "ESPN · Disney+ Premium", "fifa.friendly": ""}
 CHILENOS_AG = {"chi.1", "chi.pb"}
-ORDEN_AGENDA = ["chi.1", "chi.pb", "conmebol.libertadores", "conmebol.sudamericana",
-                "uefa.champions", "uefa.europa", "esp.1", "eng.1"]
+ORDEN_AGENDA = ["chi.1", "chi.pb", "fifa.friendly", "conmebol.libertadores", "conmebol.sudamericana",
+                "uefa.champions", "uefa.europa", "esp.1", "eng.1", "uefa.nations"]
 
 
 def _parecido(a, b):
@@ -729,6 +745,8 @@ def agenda_del_dia(ahora, publicados, pendientes, cola):
                 if h.date() != hoy or ev["id"] in vistos:
                     continue
                 if ev["status"]["type"].get("name") in NO_SE_JUEGA:
+                    continue
+                if liga == "fifa.friendly" and not _amistoso_conmebol(ev):
                     continue
                 vistos.add(ev["id"])
                 c = ev["competitions"][0]
@@ -840,6 +858,9 @@ def _mismo_equipo(a, b):
     """Compara nombres de equipo tolerando abreviaturas ("U. de Chile" = "Universidad de Chile",
     "Nottingham F." = "Nottingham Forest", "Man. City" = "Manchester City")."""
     import difflib
+    ia, ib = iso_de(a), iso_de(b)
+    if ia or ib:  # selecciones: mismo país por código ("Alemania" = "Germany"; "Irlanda" ≠ "Irlanda del Norte")
+        return ia == ib
     a, b = slug(a), slug(b)
     if not a or not b:
         return False
@@ -995,6 +1016,8 @@ def main():
             for ev in data.get("events", []):
                 eventos[ev["id"]] = ev
                 datas[ev["id"]] = data
+        if liga == "fifa.friendly":
+            eventos = {k: e for k, e in eventos.items() if _amistoso_conmebol(e)}
         if not eventos:
             continue
         lista = sorted(eventos.values(), key=lambda e: e["date"])
@@ -1034,7 +1057,7 @@ def main():
             continue
         # B) resumen: agrupar en fechas (bloques de días seguidos, cortando con 2+ días sin partidos).
         #    Champions y Europa League: un resumen por cada día de la jornada.
-        por_dia = liga in ("uefa.champions", "uefa.europa")
+        por_dia = liga in POR_DIA
         bloques, actual, ult = [], [], None
         for ev in lista:
             d = hora_cl(ev["date"]).date()

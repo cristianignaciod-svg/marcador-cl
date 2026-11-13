@@ -30,7 +30,8 @@ MAX_EDAD = dt.timedelta(hours=12)   # no publicar cosas atrasadas
 LIGA_NOMBRE = {"esp.1": "LaLiga", "eng.1": "la Premier League", "chi.1": "la Liga de Primera",
                "chi.pb": "la Primera B", "uefa.champions": "la Champions League",
                "uefa.europa": "la Europa League", "conmebol.libertadores": "la Copa Libertadores",
-               "conmebol.sudamericana": "la Copa Sudamericana"}
+               "conmebol.sudamericana": "la Copa Sudamericana", "uefa.nations": "la Nations League",
+               "fifa.friendly": "los amistosos de selecciones"}
 LIGA_TAGS = {"esp.1": ["#LaLiga", "#LaLigaEA", "#FutbolEspañol"],
              "eng.1": ["#PremierLeague", "#EPL", "#FutbolInglés"],
              "chi.1": ["#CampeonatoNacional", "#FutbolChileno", "#LigaDePrimera"],
@@ -38,7 +39,9 @@ LIGA_TAGS = {"esp.1": ["#LaLiga", "#LaLigaEA", "#FutbolEspañol"],
              "uefa.champions": ["#ChampionsLeague", "#UCL"],
              "uefa.europa": ["#EuropaLeague", "#UEL"],
              "conmebol.libertadores": ["#Libertadores", "#CopaLibertadores"],
-             "conmebol.sudamericana": ["#Sudamericana", "#CopaSudamericana"]}
+             "conmebol.sudamericana": ["#Sudamericana", "#CopaSudamericana"],
+             "uefa.nations": ["#NationsLeague", "#UNL", "#FutbolEuropeo"],
+             "fifa.friendly": ["#FechaFIFA", "#Selecciones", "#FutbolSudamericano"]}
 TAG_EQUIPO = {"Man. City": "#ManCity", "Man. United": "#ManUnited", "U. de Chile": "#UdeChile",
               "U. Católica": "#UC", "Universidad Católica": "#UC", "Colo-Colo": "#ColoColo",
               "Nottingham F.": "#NottinghamForest", "Santiago Wanderers": "#Wanderers",

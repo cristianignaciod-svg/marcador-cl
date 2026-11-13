@@ -32,8 +32,11 @@ LIGAS = {
     "ita.1": ("Serie A", ["serie-a"]),
     "fra.1": ("Ligue 1", ["ligue-1"]),
     "arg.1": ("Liga Profesional", ["liga-argentina"]),
+    "uefa.nations": ("Nations League", ["selecciones"]),
+    "fifa.friendly": ("Amistoso internacional", ["selecciones"]),
 }
-TODAS = sorted(os.listdir(os.path.join(BASE, "escudos")))
+SELECCIONES = {"uefa.nations", "fifa.friendly"}
+TODAS = sorted(c for c in os.listdir(os.path.join(BASE, "escudos")) if c != "selecciones")
 
 STOP = {"fc", "cf", "cd", "sc", "ac", "afc", "club", "de", "del", "la", "el", "the",
         "deportes", "deportivo", "sd", "ud", "rc", "ca", "cs", "sv", "fk", "sk", "as", "us"}
@@ -91,6 +94,11 @@ def escudo(liga, nombre):
     """Busca el escudo del equipo; devuelve data URI o None.
     Primero en la carpeta de la propia liga; fuera de ella exige una coincidencia casi exacta,
     para no poner el escudo de otro club (mejor iniciales que un escudo equivocado)."""
+    if liga in SELECCIONES:  # banderas: solo por nombre exacto del país
+        from paises import iso_de
+        iso = iso_de(nombre)
+        f = os.path.join(BASE, "escudos", "selecciones", f"{iso}.png") if iso else None
+        return datauri(f) if f and os.path.exists(f) else None
     carpetas = [c for c in LIGAS.get(liga, ("", []))[1] if c in TODAS]
     clave = norm(nombre)
     alias = ALIAS.get(_clave_alias(nombre)) or ALIAS.get(clave)

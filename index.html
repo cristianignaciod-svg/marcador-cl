@@ -15,7 +15,7 @@
   --bg:#f3f5f2; --surface:#ffffff; --surface-2:#e9ede7; --line:#d6ddd3;
   --fg:#16201a; --muted:#5c6b61; --accent:#c8871a; --accent-ink:#ffffff;
   --live:#d1342f; --final:#2f3a33; --soon:#3d6b52;
-  --cl:#d52b1e; --es:#e8a400; --en:#5b3fa6; --ar:#3a9ad9; --de:#3c4a42; --in:#12857a; --fr:#2f62c9; --br:#1d8f45;
+  --cl:#d52b1e; --es:#e8a400; --en:#5b3fa6; --ar:#3a9ad9; --de:#3c4a42; --in:#12857a; --se:#b5452e; --fr:#2f62c9; --br:#1d8f45;
   --display:"Saira Condensed","Arial Narrow",system-ui,sans-serif;
   --body:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;
 }
@@ -23,12 +23,12 @@
   --bg:#0f1512; --surface:#18201b; --surface-2:#212b25; --line:#2c3830;
   --fg:#e8eee9; --muted:#93a399; --accent:#e9a63b; --accent-ink:#1a1306;
   --live:#ff5a4f; --final:#c9d3cc; --soon:#7fc29c;
-  --cl:#ff5747; --es:#ffc53d; --en:#a58cf0; --ar:#6cbcf0; --de:#d8dfda; --in:#4fc7b8; --fr:#86a8ff; --br:#5fd38a; color-scheme:dark}}
+  --cl:#ff5747; --es:#ffc53d; --en:#a58cf0; --ar:#6cbcf0; --de:#d8dfda; --in:#4fc7b8; --se:#f08a6c; --fr:#86a8ff; --br:#5fd38a; color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#0f1512; --surface:#18201b; --surface-2:#212b25; --line:#2c3830;
   --fg:#e8eee9; --muted:#93a399; --accent:#e9a63b; --accent-ink:#1a1306;
   --live:#ff5a4f; --final:#c9d3cc; --soon:#7fc29c;
-  --cl:#ff5747; --es:#ffc53d; --en:#a58cf0; --ar:#6cbcf0; --de:#d8dfda; --in:#4fc7b8; --fr:#86a8ff; --br:#5fd38a; color-scheme:dark}
+  --cl:#ff5747; --es:#ffc53d; --en:#a58cf0; --ar:#6cbcf0; --de:#d8dfda; --in:#4fc7b8; --se:#f08a6c; --fr:#86a8ff; --br:#5fd38a; color-scheme:dark}
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.45}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--surface)}
@@ -209,10 +209,11 @@ const LIGAS = [
   {id:"francia", nombre:"Francia", c:"var(--fr)"},
   {id:"argentina", nombre:"Argentina", c:"var(--ar)"},
   {id:"brasil", nombre:"Brasil", c:"var(--br)"},
-  {id:"internacional", nombre:"Internacional", c:"var(--in)"}
+  {id:"internacional", nombre:"Internacional", c:"var(--in)"},
+  {id:"selecciones", nombre:"Selecciones", c:"var(--se)"}
 ];
 /* nivel: 1 = primera división · 2 = copas internacionales · 3 = copas nacionales · 4 = segunda división */
-const NIVELES = {1:"Primera división", 2:"Copas internacionales", 3:"Copas nacionales", 4:"Segunda división"};
+const NIVELES = {1:"Primera división", 2:"Copas internacionales", 3:"Copas nacionales", 4:"Segunda división", 5:"Selecciones"};
 const TORNEOS = [
   // Chile (se muestran desde FotMob)
   {fm:273,   liga:"chile", nivel:1, nombre:"Liga de Primera", tv:"TNT Sports Premium · HBO Max"},
@@ -253,8 +254,14 @@ const TORNEOS = [
   {slug:"uefa.champions", liga:"internacional", nivel:2, nombre:"Champions League", tv:"ESPN · Disney+ Premium"},
   {slug:"uefa.europa", liga:"internacional", nivel:2, nombre:"Europa League", tv:"ESPN · Disney+ Premium"},
   {slug:"conmebol.libertadores", liga:"internacional", nivel:2, nombre:"Copa Libertadores", tv:"ESPN · Disney+ Premium (algunos por CHV)"},
-  {slug:"conmebol.sudamericana", liga:"internacional", nivel:2, nombre:"Copa Sudamericana", tv:"ESPN · Disney+ Premium · DSports"}
+  {slug:"conmebol.sudamericana", liga:"internacional", nivel:2, nombre:"Copa Sudamericana", tv:"ESPN · Disney+ Premium · DSports"},
+  // Selecciones
+  {slug:"uefa.nations", liga:"selecciones", nivel:5, nombre:"UEFA Nations League", tv:"ESPN · Disney+ Premium"},
+  {slug:"fifa.friendly", liga:"selecciones", nivel:5, nombre:"Amistosos (selecciones sudamericanas)", tv:"Por confirmar", soloConmebol:true}
 ];
+// Amistosos: solo partidos donde juega una selección de CONMEBOL
+const CONMEBOL_SEL = new Set(["argentina","bolivia","brasil","brazil","chile","colombia","ecuador","paraguay","peru","uruguay","venezuela"]);
+const esConmebol = n => CONMEBOL_SEL.has((n || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim());
 // Torneos chilenos que ESPN también tiene: se consultan solo para verificar y traer goleadores
 const ESPN_VERIF = [
   {slug:"chi.1", liga:"chile", nivel:1, nombre:"Liga de Primera", verif:true},
@@ -346,7 +353,8 @@ async function fetchEspn(t, key) {
   const r = await fetch(`${ESPN}${t.slug}/scoreboard?dates=${compact(key)}&lang=es&region=cl`, {cache:"no-store"});
   if (!r.ok) throw new Error(t.slug);
   const j = await r.json();
-  return (j.events || []).map(e => parseEspn(e, t)).filter(p => dayKey(p._d) === key);
+  return (j.events || []).map(e => parseEspn(e, t)).filter(p => dayKey(p._d) === key)
+    .filter(p => !t.soloConmebol || esConmebol(p.altL) || esConmebol(p.altV) || esConmebol(p.local) || esConmebol(p.visita));
 }
 
 // Resumen del partido en ESPN: suele publicar el autor del gol antes que el marcador general
@@ -626,7 +634,7 @@ function render() {
       ? `<div class="empty"><h3>Cargando partidos</h3>Consultando ${TORNEOS.length} torneos en dos fuentes…</div>`
       : `<div class="empty"><h3>Sin partidos este día</h3>Elige otro día en la barra superior o cambia de liga.</div>`;
   } else {
-    for (const nivel of [1,2,3,4]) {
+    for (const nivel of [1,2,3,4,5]) {
       const items = filtered.filter(p => p.nivel === nivel);
       if (!items.length) continue;
       html += `<div class="sect">${NIVELES[nivel]}</div>`;
