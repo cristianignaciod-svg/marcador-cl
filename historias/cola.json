@@ -4759,7 +4759,7 @@
    }
   ],
   "sin_tabla": false,
-  "enviado": false,
+  "enviado": "vencido",
   "texto": "¡Partidazo en Old Trafford! Man. United y Aston Villa empataron 4-4 en el duelo más loco de la fecha de Premier 🔥\nNottingham Forest dio el golpe y le ganó 3-1 al Man. City, mientras Liverpool se impuso 3-1 de visita ante Crystal Palace.\nArsenal sufrió pero sacó un 1-0 ante Hull City, y Sunderland sorprendió 1-0 al Chelsea.\n¿Cuál fue el resultado que más te sorprendió? 👇\n\n#MarcadorCL #Futbol #PremierLeague #EPL #FutbolInglés",
   "avisado": true
  },
@@ -5081,7 +5081,7 @@
    }
   ],
   "sin_tabla": true,
-  "enviado": false,
+  "enviado": "vencido",
   "texto": "¡Barça ganó en el Metropolitano y el Madrid goleó en Mestalla! 🔥\nEl clásico del domingo se lo quedó el Barcelona: Atlético 1-2 Barcelona.\nReal Madrid no perdonó en Valencia: 0-3 de visita.\nAdemás, Villarreal 2-0 Getafe y Betis ganó 2-0 en Elche.\n¿Quién fue el gran ganador de la fecha para ustedes? 👇\n\n#MarcadorCL #Futbol #LaLiga #LaLigaEA #FutbolEspañol",
   "avisado": true
  },
@@ -5167,6 +5167,8 @@
   ],
   "titulo": "Hoy se juega (15 partidos)",
   "liga": "agenda",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18399623884162605",
+  "publicado": "2026-11-13T13:20:45+00:00"
  }
 ]
