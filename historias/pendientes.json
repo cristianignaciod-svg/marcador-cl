@@ -1,1 +1,50 @@
-[]
+[
+ {
+  "id": "uefanations-georgia-hungria",
+  "liga": "uefa.nations",
+  "fase": "",
+  "fecha": "2026-11-14",
+  "local": "Georgia",
+  "visita": "Hungría",
+  "gl": 0,
+  "gv": 2,
+  "goles": [
+   {
+    "min": "73'",
+    "jugador": "Lasha Dvali",
+    "lado": "visita",
+    "penal": false,
+    "autogol": true
+   },
+   {
+    "min": "85'",
+    "jugador": "Barnabás Varga",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "18'",
+    "jugador": "Willi Orbán",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "51'",
+    "jugador": "Milán Vitális",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "60'",
+    "jugador": "Giorgi Tsitaishvili",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]

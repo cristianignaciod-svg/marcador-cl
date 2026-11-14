@@ -1,19 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "esp.1:401882830",
-  "creado": "2026-10-24T11:22:09-03:00",
-  "archivos": [
-   "historias/img/2026-10-24/esp1-rayo-elche.png"
-  ],
-  "titulo": "Rayo 0–3 Elche",
-  "liga": "esp.1",
-  "enviado": true,
-  "ig_id": "18350648866282985",
-  "publicado": "2026-10-24T14:22:44+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "ita.1:401874958",
   "creado": "2026-10-24T12:18:53-03:00",
   "archivos": [
@@ -5130,5 +5117,16 @@
   "enviado": true,
   "ig_id": "18084006608369475",
   "publicado": "2026-11-14T15:54:12+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.nations:401861164",
+  "creado": "2026-11-14T15:55:38-03:00",
+  "archivos": [
+   "historias/img/2026-11-14/uefanations-georgia-hungria.png"
+  ],
+  "titulo": "Georgia 0–2 Hungría",
+  "liga": "uefa.nations",
+  "enviado": false
  }
 ]
