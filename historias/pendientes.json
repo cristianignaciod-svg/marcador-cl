@@ -1,46 +1,60 @@
 [
  {
-  "id": "uefanations-georgia-hungria",
+  "id": "uefanations-noruega-gales",
   "liga": "uefa.nations",
   "fase": "",
   "fecha": "2026-11-14",
-  "local": "Georgia",
-  "visita": "Hungría",
-  "gl": 0,
-  "gv": 2,
+  "local": "Noruega",
+  "visita": "Gales",
+  "gl": 3,
+  "gv": 1,
   "goles": [
    {
-    "min": "73'",
-    "jugador": "Lasha Dvali",
-    "lado": "visita",
+    "min": "59'",
+    "jugador": "Antonio Nusa",
+    "lado": "local",
     "penal": false,
-    "autogol": true
+    "autogol": false
    },
    {
-    "min": "85'",
-    "jugador": "Barnabás Varga",
+    "min": "68'",
+    "jugador": "Andreas Schjelderup",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "79'",
+    "jugador": "David Brooks",
     "lado": "visita",
     "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "88'",
+    "jugador": "Erling Haaland",
+    "lado": "local",
+    "penal": true,
     "autogol": false
    }
   ],
   "tarjetas": [
    {
-    "min": "18'",
-    "jugador": "Willi Orbán",
+    "min": "16'",
+    "jugador": "Ethan Ampadu",
     "lado": "visita",
     "tipo": "amarilla"
    },
    {
-    "min": "51'",
-    "jugador": "Milán Vitális",
+    "min": "85'",
+    "jugador": "Connor Roberts",
     "lado": "visita",
     "tipo": "amarilla"
    },
    {
-    "min": "60'",
-    "jugador": "Giorgi Tsitaishvili",
-    "lado": "local",
+    "min": "87'",
+    "jugador": "Harry Wilson",
+    "lado": "visita",
     "tipo": "amarilla"
    }
   ],
