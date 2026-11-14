@@ -5062,7 +5062,9 @@
   ],
   "titulo": "Austria 1–0 Irlanda",
   "liga": "uefa.nations",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18499717003111858",
+  "publicado": "2026-11-14T21:48:50+00:00"
  },
  {
   "tipo": "historia",
@@ -5073,7 +5075,9 @@
   ],
   "titulo": "Irlanda del Norte 1–0 Ucrania",
   "liga": "uefa.nations",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18025779695723556",
+  "publicado": "2026-11-14T21:48:50+00:00"
  },
  {
   "tipo": "historia",
@@ -5084,7 +5088,9 @@
   ],
   "titulo": "Portugal 1–4 Dinamarca",
   "liga": "uefa.nations",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18166047013497595",
+  "publicado": "2026-11-14T21:48:50+00:00"
  },
  {
   "tipo": "historia",
@@ -5095,7 +5101,9 @@
   ],
   "titulo": "Rumania 2–1 Polonia",
   "liga": "uefa.nations",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18112146827192470",
+  "publicado": "2026-11-14T21:48:50+00:00"
  },
  {
   "tipo": "historia",
@@ -5106,7 +5114,9 @@
   ],
   "titulo": "Suecia 3–2 Bosnia y Herzegovina",
   "liga": "uefa.nations",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18104312708419962",
+  "publicado": "2026-11-14T21:48:50+00:00"
  },
  {
   "tipo": "resumen",
