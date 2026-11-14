@@ -5098,10 +5098,12 @@
    }
   ],
   "sin_tabla": false,
-  "enviado": false,
+  "enviado": true,
   "texto": "¡Viernes de selecciones con sorpresa en el clásico del Río de la Plata! 🔥 Uruguay le ganó 2-1 a Argentina de visita.\nLa Roja no pudo de visita y cayó 1-0 ante Colombia.\nParaguay goleó 4-1 a Singapur, mientras Ecuador y Perú ganaron 2-0 ante Costa Rica y Bolivia.\n¿Qué le faltó a Chile? Los leemos 👇\n\n#MarcadorCL #Futbol #FechaFIFA #Selecciones #FutbolSudamericano",
   "avisado": true,
-  "aprobado": true
+  "aprobado": true,
+  "ig_id": "18641529502031539",
+  "publicado": "2026-11-14T12:33:59+00:00"
  },
  {
   "tipo": "historia",
@@ -5112,7 +5114,9 @@
   ],
   "titulo": "Japón 3–2 Brasil",
   "liga": "fifa.friendly",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18121264976100790",
+  "publicado": "2026-11-14T12:33:59+00:00"
  },
  {
   "tipo": "historia",
@@ -5123,6 +5127,8 @@
   ],
   "titulo": "Hoy se juega (9 partidos)",
   "liga": "agenda",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18130899574868861",
+  "publicado": "2026-11-14T12:33:59+00:00"
  }
 ]
