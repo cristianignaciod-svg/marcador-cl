@@ -1,32 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "arg.1:401841638",
-  "creado": "2026-10-23T23:42:40-03:00",
-  "archivos": [
-   "historias/img/2026-10-23/arg1-gimnasia-la-plata-sarmiento-junin.png"
-  ],
-  "titulo": "Gimnasia La Plata 2–0 Sarmiento (Junín)",
-  "liga": "arg.1",
-  "enviado": true,
-  "ig_id": "18115453946170696",
-  "publicado": "2026-10-24T02:43:12+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "arg.1:401841637",
-  "creado": "2026-10-23T23:42:40-03:00",
-  "archivos": [
-   "historias/img/2026-10-23/arg1-gimnasia-mendoza-platense.png"
-  ],
-  "titulo": "Gimnasia (Mendoza) 1–2 Platense",
-  "liga": "arg.1",
-  "enviado": true,
-  "ig_id": "18126646447678097",
-  "publicado": "2026-10-24T02:43:12+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "arg.1:401841643",
   "creado": "2026-10-23T23:42:40-03:00",
   "archivos": [
@@ -5089,5 +5063,67 @@
   "enviado": true,
   "ig_id": "18164807569544757",
   "publicado": "2026-11-14T02:13:21+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "fifa.friendly:401930878",
+  "creado": "2026-11-14T00:11:08-03:00",
+  "archivos": [
+   "historias/img/2026-11-13/fifafriendly-peru-bolivia.png"
+  ],
+  "titulo": "Perú 2–0 Bolívia",
+  "liga": "fifa.friendly",
+  "enviado": false
+ },
+ {
+  "tipo": "resumen",
+  "clave": "fifa.friendly:2026-11-13",
+  "creado": "2026-11-14T00:11:08-03:00",
+  "archivos": [
+   "historias/img/2026-11-13/fifafriendly-20261113-1.png"
+  ],
+  "titulo": "fifa.friendly 13 de noviembre",
+  "liga": "fifa.friendly",
+  "fase": "",
+  "rango": "13 de noviembre",
+  "partidos": [
+   {
+    "dia": "Vie 13",
+    "local": "Singapur",
+    "visita": "Paraguay",
+    "gl": 1,
+    "gv": 4
+   },
+   {
+    "dia": "Vie 13",
+    "local": "Argentina",
+    "visita": "Uruguay",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "dia": "Vie 13",
+    "local": "Colombia",
+    "visita": "Chile",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "dia": "Vie 13",
+    "local": "Ecuador",
+    "visita": "Costa Rica",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "dia": "Vie 13",
+    "local": "Perú",
+    "visita": "Bolívia",
+    "gl": 2,
+    "gv": 0
+   }
+  ],
+  "sin_tabla": false,
+  "enviado": false
  }
 ]

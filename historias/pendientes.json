@@ -1,1 +1,95 @@
-[]
+[
+ {
+  "id": "fifafriendly-peru-bolivia",
+  "liga": "fifa.friendly",
+  "fase": "",
+  "fecha": "2026-11-13",
+  "local": "Perú",
+  "visita": "Bolívia",
+  "gl": 2,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "13'",
+    "jugador": "Gianluca Lapadula",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "87'",
+    "jugador": "Maxloren Castro",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "62'",
+    "jugador": "Marcos López",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "66'",
+    "jugador": "Miguel Terceros",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "68'",
+    "jugador": "Óscar López",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "tipo": "resumen",
+  "id": "fifafriendly-20261113",
+  "liga": "fifa.friendly",
+  "fase": "",
+  "fecha": "2026-11-13",
+  "rango": "13 de noviembre",
+  "partidos": [
+   {
+    "dia": "Vie 13",
+    "local": "Singapur",
+    "visita": "Paraguay",
+    "gl": 1,
+    "gv": 4
+   },
+   {
+    "dia": "Vie 13",
+    "local": "Argentina",
+    "visita": "Uruguay",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "dia": "Vie 13",
+    "local": "Colombia",
+    "visita": "Chile",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "dia": "Vie 13",
+    "local": "Ecuador",
+    "visita": "Costa Rica",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "dia": "Vie 13",
+    "local": "Perú",
+    "visita": "Bolívia",
+    "gl": 2,
+    "gv": 0
+   }
+  ]
+ }
+]
