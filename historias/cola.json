@@ -1,32 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "ita.1:401874957",
-  "creado": "2026-10-23T23:42:40-03:00",
-  "archivos": [
-   "historias/img/2026-10-23/ita1-torino-monza.png"
-  ],
-  "titulo": "Torino 3–2 Monza",
-  "liga": "ita.1",
-  "enviado": true,
-  "ig_id": "18476780494117936",
-  "publicado": "2026-10-24T02:43:12+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "fra.1:401876428",
-  "creado": "2026-10-23T23:42:40-03:00",
-  "archivos": [
-   "historias/img/2026-10-23/fra1-brest-nice.png"
-  ],
-  "titulo": "Brest 1–2 Nice",
-  "liga": "fra.1",
-  "enviado": true,
-  "ig_id": "18076409645773892",
-  "publicado": "2026-10-24T02:43:12+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "arg.1:401841638",
   "creado": "2026-10-23T23:42:40-03:00",
   "archivos": [
@@ -5089,5 +5063,27 @@
   "enviado": true,
   "ig_id": "18104630960538300",
   "publicado": "2026-11-14T01:05:27+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "fifa.friendly:401921325",
+  "creado": "2026-11-13T23:12:49-03:00",
+  "archivos": [
+   "historias/img/2026-11-13/fifafriendly-colombia-chile.png"
+  ],
+  "titulo": "Colombia 1–0 Chile",
+  "liga": "fifa.friendly",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "fifa.friendly:401930898",
+  "creado": "2026-11-13T23:12:49-03:00",
+  "archivos": [
+   "historias/img/2026-11-13/fifafriendly-ecuador-costa-rica.png"
+  ],
+  "titulo": "Ecuador 2–0 Costa Rica",
+  "liga": "fifa.friendly",
+  "enviado": false
  }
 ]

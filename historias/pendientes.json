@@ -1,1 +1,109 @@
-[]
+[
+ {
+  "id": "fifafriendly-colombia-chile",
+  "liga": "fifa.friendly",
+  "fase": "",
+  "fecha": "2026-11-13",
+  "local": "Colombia",
+  "visita": "Chile",
+  "gl": 1,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "35'",
+    "jugador": "Guillermo Maripán",
+    "lado": "local",
+    "penal": false,
+    "autogol": true
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "12'",
+    "jugador": "Samuel Velásquez",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "55'",
+    "jugador": "Óscar Perea",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "69'",
+    "jugador": "Daniel Muñoz",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "69'",
+    "jugador": "Rodrigo Echeverría",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "87'",
+    "jugador": "César Pérez",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "fifafriendly-ecuador-costa-rica",
+  "liga": "fifa.friendly",
+  "fase": "",
+  "fecha": "2026-11-13",
+  "local": "Ecuador",
+  "visita": "Costa Rica",
+  "gl": 2,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "22'",
+    "jugador": "Jordy Caicedo",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "83'",
+    "jugador": "Moisés Caicedo",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "58'",
+    "jugador": "John Yeboah",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "64'",
+    "jugador": "Alexis Gamboa",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "68'",
+    "jugador": "Diego Mesén",
+    "lado": "visita",
+    "tipo": "roja"
+   },
+   {
+    "min": "90'",
+    "jugador": "Kenay Myrie",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]
