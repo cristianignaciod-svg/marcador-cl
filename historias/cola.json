@@ -1,84 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "ita.1:401874961",
-  "creado": "2026-10-24T12:18:53-03:00",
-  "archivos": [
-   "historias/img/2026-10-24/ita1-como-sassuolo.png"
-  ],
-  "titulo": "Como 2–0 Sassuolo",
-  "liga": "ita.1",
-  "enviado": true,
-  "ig_id": "18167238115489424",
-  "publicado": "2026-10-24T15:19:23+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "esp.1:401882831",
-  "creado": "2026-10-24T13:16:11-03:00",
-  "archivos": [
-   "historias/img/2026-10-24/esp1-racing-espanyol.png"
-  ],
-  "titulo": "Racing 2–1 Espanyol",
-  "liga": "esp.1",
-  "enviado": true,
-  "ig_id": "18012073544987043",
-  "publicado": "2026-10-24T16:16:56+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "eng.1:401878768",
-  "creado": "2026-10-24T13:16:11-03:00",
-  "archivos": [
-   "historias/img/2026-10-24/eng1-arsenal-everton.png"
-  ],
-  "titulo": "Arsenal 2–0 Everton",
-  "liga": "eng.1",
-  "enviado": true,
-  "ig_id": "17889790929686123",
-  "publicado": "2026-10-24T16:16:56+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "eng.1:401879255",
-  "creado": "2026-10-24T13:16:11-03:00",
-  "archivos": [
-   "historias/img/2026-10-24/eng1-coventry-fulham.png"
-  ],
-  "titulo": "Coventry 0–1 Fulham",
-  "liga": "eng.1",
-  "enviado": true,
-  "ig_id": "18124952000297690",
-  "publicado": "2026-10-24T16:16:56+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "ger.1:401884758",
-  "creado": "2026-10-24T13:16:11-03:00",
-  "archivos": [
-   "historias/img/2026-10-24/ger1-f-c-augsburgo-1-fc-union-berlin.png"
-  ],
-  "titulo": "F. C. Augsburgo 1–1 1. FC Union Berlin",
-  "liga": "ger.1",
-  "enviado": true,
-  "ig_id": "18095414240465236",
-  "publicado": "2026-10-24T16:16:56+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "ger.1:401884756",
-  "creado": "2026-10-24T13:16:11-03:00",
-  "archivos": [
-   "historias/img/2026-10-24/ger1-fc-cologne-schalke-04.png"
-  ],
-  "titulo": "FC Cologne 0–0 Schalke 04",
-  "liga": "ger.1",
-  "enviado": true,
-  "ig_id": "18146504233526905",
-  "publicado": "2026-10-24T16:16:56+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "ger.1:401884757",
   "creado": "2026-10-24T13:16:11-03:00",
   "archivos": [
@@ -5130,5 +5052,132 @@
   "enviado": true,
   "ig_id": "18162746092506261",
   "publicado": "2026-11-14T19:06:05+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.nations:401861170",
+  "creado": "2026-11-14T18:48:21-03:00",
+  "archivos": [
+   "historias/img/2026-11-14/uefanations-austria-irlanda.png"
+  ],
+  "titulo": "Austria 1–0 Irlanda",
+  "liga": "uefa.nations",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.nations:401861169",
+  "creado": "2026-11-14T18:48:21-03:00",
+  "archivos": [
+   "historias/img/2026-11-14/uefanations-irlanda-del-norte-ucrania.png"
+  ],
+  "titulo": "Irlanda del Norte 1–0 Ucrania",
+  "liga": "uefa.nations",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.nations:401861167",
+  "creado": "2026-11-14T18:48:21-03:00",
+  "archivos": [
+   "historias/img/2026-11-14/uefanations-portugal-dinamarca.png"
+  ],
+  "titulo": "Portugal 1–4 Dinamarca",
+  "liga": "uefa.nations",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.nations:401861168",
+  "creado": "2026-11-14T18:48:21-03:00",
+  "archivos": [
+   "historias/img/2026-11-14/uefanations-rumania-polonia.png"
+  ],
+  "titulo": "Rumania 2–1 Polonia",
+  "liga": "uefa.nations",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.nations:401861166",
+  "creado": "2026-11-14T18:48:21-03:00",
+  "archivos": [
+   "historias/img/2026-11-14/uefanations-suecia-bosnia-y-herzegovina.png"
+  ],
+  "titulo": "Suecia 3–2 Bosnia y Herzegovina",
+  "liga": "uefa.nations",
+  "enviado": false
+ },
+ {
+  "tipo": "resumen",
+  "clave": "uefa.nations:2026-11-14",
+  "creado": "2026-11-14T18:48:21-03:00",
+  "archivos": [
+   "historias/img/2026-11-14/uefanations-20261114-1.png"
+  ],
+  "titulo": "uefa.nations 14 de noviembre",
+  "liga": "uefa.nations",
+  "fase": "",
+  "rango": "14 de noviembre",
+  "partidos": [
+   {
+    "dia": "Sáb 14",
+    "local": "Kosovo",
+    "visita": "Israel",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "dia": "Sáb 14",
+    "local": "Georgia",
+    "visita": "Hungría",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "dia": "Sáb 14",
+    "local": "Noruega",
+    "visita": "Gales",
+    "gl": 3,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 14",
+    "local": "Austria",
+    "visita": "Irlanda",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "dia": "Sáb 14",
+    "local": "Irlanda del Norte",
+    "visita": "Ucrania",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "dia": "Sáb 14",
+    "local": "Portugal",
+    "visita": "Dinamarca",
+    "gl": 1,
+    "gv": 4
+   },
+   {
+    "dia": "Sáb 14",
+    "local": "Rumania",
+    "visita": "Polonia",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 14",
+    "local": "Suecia",
+    "visita": "Bosnia y Herzegovina",
+    "gl": 3,
+    "gv": 2
+   }
+  ],
+  "sin_tabla": false,
+  "enviado": false
  }
 ]
