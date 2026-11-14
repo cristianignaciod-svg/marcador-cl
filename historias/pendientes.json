@@ -1,1 +1,75 @@
-[]
+[
+ {
+  "id": "fifafriendly-argentina-uruguay",
+  "liga": "fifa.friendly",
+  "fase": "",
+  "fecha": "2026-11-13",
+  "local": "Argentina",
+  "visita": "Uruguay",
+  "gl": 1,
+  "gv": 2,
+  "goles": [
+   {
+    "min": "48'",
+    "jugador": "Leonardo Balerdi",
+    "lado": "visita",
+    "penal": false,
+    "autogol": true
+   },
+   {
+    "min": "53'",
+    "jugador": "Maxi Araújo",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "73'",
+    "jugador": "Julián Álvarez",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "47'",
+    "jugador": "Leonardo Balerdi",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "60'",
+    "jugador": "Federico Valverde",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "65'",
+    "jugador": "Guillermo Varela",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "75'",
+    "jugador": "Enzo Fernández",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "77'",
+    "jugador": "Rodrigo Bentancur",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+1'",
+    "jugador": "Agustín Giay",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]

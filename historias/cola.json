@@ -1,20 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "chi.pb:fm1000007344",
-  "creado": "2026-10-23T22:07:57-03:00",
-  "archivos": [
-   "historias/img/2026-10-23/chipb-deportes-iquique-magallanes.png"
-  ],
-  "titulo": "Deportes Iquique 4–1 Magallanes",
-  "liga": "chi.pb",
-  "sin_goleadores": false,
-  "enviado": true,
-  "ig_id": "18131292563506816",
-  "publicado": "2026-10-24T01:08:40+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "ita.1:401874957",
   "creado": "2026-10-23T23:42:40-03:00",
   "archivos": [
@@ -5090,5 +5076,16 @@
   "aprobado": true,
   "ig_id": "18079491416440948",
   "publicado": "2026-11-13T22:49:22+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "fifa.friendly:401930876",
+  "creado": "2026-11-13T22:04:19-03:00",
+  "archivos": [
+   "historias/img/2026-11-13/fifafriendly-argentina-uruguay.png"
+  ],
+  "titulo": "Argentina 1–2 Uruguay",
+  "liga": "fifa.friendly",
+  "enviado": false
  }
 ]
