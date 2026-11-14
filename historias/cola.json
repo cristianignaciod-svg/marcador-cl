@@ -5073,7 +5073,9 @@
   ],
   "titulo": "Colombia 1–0 Chile",
   "liga": "fifa.friendly",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17989391148118743",
+  "publicado": "2026-11-14T02:13:21+00:00"
  },
  {
   "tipo": "historia",
@@ -5084,6 +5086,8 @@
   ],
   "titulo": "Ecuador 2–0 Costa Rica",
   "liga": "fifa.friendly",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18164807569544757",
+  "publicado": "2026-11-14T02:13:21+00:00"
  }
 ]
