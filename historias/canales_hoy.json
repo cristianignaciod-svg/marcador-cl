@@ -1,11 +1,18 @@
 {
- "fecha": "2026-11-12",
+ "fecha": "2026-11-14",
  "fuentes": [
-  "https://www.365scores.com/es/news/estudiantes-vs-rivadavia-horario-tv-once/",
-  "https://es-us.noticias.yahoo.com/deportes/estudiantes-vs-independiente-rivadavia-supercopa-135137224.html"
+  "https://redgol.cl/chile/coquimbo-unido-vs-ohiggins-donde-ver-en-vivo-la-final-de-la-copa-de-la-liga-2026-unica-senal",
+  "https://www.alairelibre.cl/futbol/copa-de-la-liga/coquimbo-unido-vs-ohiggins-horario-donde-ver-copa-de-la-liga-2026/",
+  "https://bolavip.com/nations-league/donde-ver-en-vivo-noruega-vs-gales-por-la-fecha-5-de-la-liga-de-naciones-tv-y-streaming-online",
+  "https://www.365scores.com/es/news/donde-ver-brasil-vs-japon-en-vivo-canal/"
  ],
- "partidos": [],
+ "partidos": [
+  {"local": "Coquimbo Unido", "visita": "O'Higgins", "tv": "HBO Max", "verificado": "2_fuentes"}
+ ],
  "conflictos": [
-  {"local": "Estudiantes", "visita": "Independiente Rivadavia", "detalle": "Supercopa Argentina. Sin fuente chilena (RedGol/canal oficial): 365Scores indica Disney+ Premium para Sudamérica; La Nación indica ESPN Premium y TNT Sports (solo Argentina). No publicado."}
+  {"local": "Noruega", "visita": "Gales", "detalle": "UEFA Nations League. Solo Bolavip indica 'Disney+ Premium Chile' (también ESPN según medios peruanos); sin nota de RedGol ni del canal oficial legible (La Tercera y ESPN.cl no accesibles). No publicado."},
+  {"local": "Kosovo", "visita": "Israel", "detalle": "UEFA Nations League. Solo Bolavip indica 'Disney+ Premium Chile'; sin confirmación de RedGol ni del canal oficial. No publicado."},
+  {"local": "Portugal", "visita": "Dinamarca", "detalle": "UEFA Nations League. Solo medios peruanos (ESPN · Disney+ Premium); sin fuente chilena. No publicado. Mismo caso para Georgia-Hungría, Austria-Irlanda, Irlanda del Norte-Ucrania, Rumania-Polonia y Suecia-Bosnia."},
+  {"local": "Japón", "visita": "Brasil", "detalle": "Amistoso. DAZN: Chile 'por confirmar'; 365Scores: sin transmisión oficial fuera de Brasil; La República (Perú) dice DSports. No publicado."}
  ]
 }
