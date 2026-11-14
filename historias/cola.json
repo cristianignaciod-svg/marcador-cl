@@ -1,34 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "arg.1:401841643",
-  "creado": "2026-10-23T23:42:40-03:00",
-  "archivos": [
-   "historias/img/2026-10-23/arg1-tigre-atletico-tucuman.png"
-  ],
-  "titulo": "Tigre 0–1 Atlético Tucumán",
-  "liga": "arg.1",
-  "enviado": true,
-  "ig_id": "18357248674218201",
-  "publicado": "2026-10-24T02:43:12+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "agenda:2026-10-24",
-  "creado": "2026-10-24T09:26:34-03:00",
-  "archivos": [
-   "historias/img/2026-10-24/agenda-2026-10-24-1.png",
-   "historias/img/2026-10-24/agenda-2026-10-24-2.png",
-   "historias/img/2026-10-24/agenda-2026-10-24-3.png"
-  ],
-  "titulo": "Hoy se juega (15 partidos)",
-  "liga": "agenda",
-  "enviado": true,
-  "ig_id": "18131578321693382",
-  "publicado": "2026-10-24T12:27:06+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "eng.1:401879256",
   "creado": "2026-10-24T11:02:01-03:00",
   "archivos": [
@@ -5130,5 +5102,27 @@
   "texto": "¡Viernes de selecciones con sorpresa en el clásico del Río de la Plata! 🔥 Uruguay le ganó 2-1 a Argentina de visita.\nLa Roja no pudo de visita y cayó 1-0 ante Colombia.\nParaguay goleó 4-1 a Singapur, mientras Ecuador y Perú ganaron 2-0 ante Costa Rica y Bolivia.\n¿Qué le faltó a Chile? Los leemos 👇\n\n#MarcadorCL #Futbol #FechaFIFA #Selecciones #FutbolSudamericano",
   "avisado": true,
   "aprobado": true
+ },
+ {
+  "tipo": "historia",
+  "clave": "fifa.friendly:401916337",
+  "creado": "2026-11-14T09:33:16-03:00",
+  "archivos": [
+   "historias/img/2026-11-14/fifafriendly-japon-brasil.png"
+  ],
+  "titulo": "Japón 3–2 Brasil",
+  "liga": "fifa.friendly",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "agenda:2026-11-14",
+  "creado": "2026-11-14T09:33:16-03:00",
+  "archivos": [
+   "historias/img/2026-11-14/agenda-2026-11-14-1.png"
+  ],
+  "titulo": "Hoy se juega (9 partidos)",
+  "liga": "agenda",
+  "enviado": false
  }
 ]
