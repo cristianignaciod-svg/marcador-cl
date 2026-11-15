@@ -1,74 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "fra.1:401876427",
-  "creado": "2026-10-24T18:15:32-03:00",
-  "archivos": [
-   "historias/img/2026-10-24/fra1-lens-paris-fc.png"
-  ],
-  "titulo": "Lens 2–1 Paris FC",
-  "liga": "fra.1",
-  "enviado": true,
-  "ig_id": "17914246575286563",
-  "publicado": "2026-10-24T21:16:16+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "arg.1:401841631",
-  "creado": "2026-10-24T19:22:16-03:00",
-  "archivos": [
-   "historias/img/2026-10-24/arg1-talleres-cordoba-defensa-y-justicia.png"
-  ],
-  "titulo": "Talleres (Córdoba) 1–2 Defensa y Justicia",
-  "liga": "arg.1",
-  "enviado": true,
-  "ig_id": "18094492607480462",
-  "publicado": "2026-10-24T22:22:50+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "chi.pb:fm1000007340",
-  "creado": "2026-10-24T19:32:21-03:00",
-  "archivos": [
-   "historias/img/2026-10-24/chipb-rangers-cobreloa.png"
-  ],
-  "titulo": "Rangers 0–1 Cobreloa",
-  "liga": "chi.pb",
-  "sin_goleadores": false,
-  "enviado": true,
-  "ig_id": "18667301764032539",
-  "publicado": "2026-10-24T22:33:03+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "chi.pb:fm1000007341",
-  "creado": "2026-10-24T19:32:21-03:00",
-  "archivos": [
-   "historias/img/2026-10-24/chipb-union-espanola-santiago-wanderers.png"
-  ],
-  "titulo": "Unión Española 1–2 Santiago Wanderers",
-  "liga": "chi.pb",
-  "sin_goleadores": false,
-  "enviado": true,
-  "ig_id": "17976837471146948",
-  "publicado": "2026-10-24T22:33:03+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "chi.pb:fm1000007342",
-  "creado": "2026-10-24T19:42:47-03:00",
-  "archivos": [
-   "historias/img/2026-10-24/chipb-puerto-montt-union-san-felipe.png"
-  ],
-  "titulo": "Puerto Montt 3–1 Unión San Felipe",
-  "liga": "chi.pb",
-  "sin_goleadores": false,
-  "enviado": true,
-  "ig_id": "18066050987512084",
-  "publicado": "2026-10-24T22:43:24+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "chi.pb:fm1000007343",
   "creado": "2026-10-24T19:42:47-03:00",
   "archivos": [
@@ -5257,5 +5189,65 @@
   "enviado": false,
   "texto": "¡Domingo de infarto en la Nations League! 🔥 Inglaterra le ganó 3-2 a España en un partidazo entre grandes.\nBélgica no tuvo piedad y goleó 4-1 a Italia, mientras Finlandia le hizo siete a San Marino (7-2).\nFrancia también sumó con un 2-1 sobre Turquía.\n¿Cuál fue el resultado que más los sorprendió? 👇\n\n#MarcadorCL #Futbol #NationsLeague #UNL #FutbolEuropeo",
   "avisado": true
+ },
+ {
+  "tipo": "historia",
+  "clave": "chi.pb:fm1000007354",
+  "creado": "2026-11-15T20:09:15-03:00",
+  "archivos": [
+   "historias/img/2026-11-15/chipb-cobreloa-puerto-montt.png"
+  ],
+  "titulo": "Cobreloa 3–0 Puerto Montt",
+  "liga": "chi.pb",
+  "sin_goleadores": false,
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "chi.pb:fm1000007352",
+  "creado": "2026-11-15T20:09:15-03:00",
+  "archivos": [
+   "historias/img/2026-11-15/chipb-deportes-santa-cruz-rangers.png"
+  ],
+  "titulo": "Deportes Santa Cruz 0–0 Rangers",
+  "liga": "chi.pb",
+  "sin_goleadores": false,
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "chi.pb:fm1000007348",
+  "creado": "2026-11-15T20:09:15-03:00",
+  "archivos": [
+   "historias/img/2026-11-15/chipb-magallanes-antofagasta.png"
+  ],
+  "titulo": "Magallanes 2–3 Antofagasta",
+  "liga": "chi.pb",
+  "sin_goleadores": false,
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "chi.pb:fm1000007350",
+  "creado": "2026-11-15T20:09:15-03:00",
+  "archivos": [
+   "historias/img/2026-11-15/chipb-san-marcos-san-luis.png"
+  ],
+  "titulo": "San Marcos 0–1 San Luis",
+  "liga": "chi.pb",
+  "sin_goleadores": false,
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "chi.pb:fm1000007351",
+  "creado": "2026-11-15T20:09:15-03:00",
+  "archivos": [
+   "historias/img/2026-11-15/chipb-union-san-felipe-union-espanola.png"
+  ],
+  "titulo": "Unión San Felipe 3–4 Unión Española",
+  "liga": "chi.pb",
+  "sin_goleadores": false,
+  "enviado": false
  }
 ]
