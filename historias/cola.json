@@ -5180,7 +5180,9 @@
   ],
   "titulo": "Croacia 2–1 Chequia",
   "liga": "uefa.nations",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18132916840697038",
+  "publicado": "2026-11-15T21:41:26+00:00"
  },
  {
   "tipo": "historia",
@@ -5191,6 +5193,8 @@
   ],
   "titulo": "Francia 2–1 Turquía",
   "liga": "uefa.nations",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18148105384597590",
+  "publicado": "2026-11-15T21:41:26+00:00"
  }
 ]
