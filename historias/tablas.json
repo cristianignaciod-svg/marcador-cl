@@ -2425,14 +2425,14 @@
        "largo": "Atlético-MG",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
        "pos": 7,
-       "pj": 34,
+       "pj": 35,
        "g": 14,
-       "e": 8,
+       "e": 9,
        "p": 12,
        "gf": 44,
        "gc": 40,
        "dg": 4,
-       "pts": 50,
+       "pts": 51,
        "zona": null,
        "color": "#0046A7"
       },
@@ -2485,10 +2485,26 @@
        "color": "#0046A7"
       },
       {
+       "equipo": "Vasco da Gama",
+       "largo": "Vasco da Gama",
+       "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+       "pos": 11,
+       "pj": 34,
+       "g": 12,
+       "e": 8,
+       "p": 14,
+       "gf": 45,
+       "gc": 50,
+       "dg": -5,
+       "pts": 44,
+       "zona": null,
+       "color": "#0046A7"
+      },
+      {
        "equipo": "Botafogo",
        "largo": "Botafogo",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
-       "pos": 11,
+       "pos": 12,
        "pj": 34,
        "g": 11,
        "e": 9,
@@ -2498,13 +2514,13 @@
        "dg": -7,
        "pts": 42,
        "zona": null,
-       "color": "#0046A7"
+       "color": null
       },
       {
        "equipo": "Coritiba",
        "largo": "Coritiba",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
-       "pos": 12,
+       "pos": 13,
        "pj": 34,
        "g": 11,
        "e": 9,
@@ -2517,34 +2533,18 @@
        "color": null
       },
       {
-       "equipo": "Vasco da Gama",
-       "largo": "Vasco da Gama",
-       "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
-       "pos": 13,
-       "pj": 33,
-       "g": 11,
-       "e": 8,
-       "p": 14,
-       "gf": 43,
-       "gc": 50,
-       "dg": -7,
-       "pts": 41,
-       "zona": null,
-       "color": null
-      },
-      {
        "equipo": "Mirassol",
        "largo": "Mirassol",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
        "pos": 14,
-       "pj": 34,
+       "pj": 35,
        "g": 10,
-       "e": 10,
+       "e": 11,
        "p": 14,
        "gf": 39,
        "gc": 48,
        "dg": -9,
-       "pts": 40,
+       "pts": 41,
        "zona": null,
        "color": null
       },
@@ -2633,13 +2633,13 @@
        "largo": "Chapecoense",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
        "pos": 20,
-       "pj": 33,
+       "pj": 34,
        "g": 4,
        "e": 9,
-       "p": 20,
+       "p": 21,
        "gf": 33,
-       "gc": 68,
-       "dg": -35,
+       "gc": 70,
+       "dg": -37,
        "pts": 21,
        "zona": null,
        "color": "#FF4646"
@@ -2647,12 +2647,11 @@
      ]
     }
    ],
-   "actualizado": "2026-11-06T22:29-03:00",
+   "actualizado": "2026-11-14T22:57-03:00",
    "fuentes": [
     "ESPN",
     "FotMob"
-   ],
-   "pendiente": "Vasco da Gama: ESPN 41 pts/33 PJ, FotMob 44 pts/34 PJ"
+   ]
   },
   "uefa.champions": {
    "nombre": "Champions League",
