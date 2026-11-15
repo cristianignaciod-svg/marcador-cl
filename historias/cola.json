@@ -5200,7 +5200,9 @@
   "titulo": "Cobreloa 3–0 Puerto Montt",
   "liga": "chi.pb",
   "sin_goleadores": false,
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18090876986302255",
+  "publicado": "2026-11-15T23:09:44+00:00"
  },
  {
   "tipo": "historia",
@@ -5212,7 +5214,9 @@
   "titulo": "Deportes Santa Cruz 0–0 Rangers",
   "liga": "chi.pb",
   "sin_goleadores": false,
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18004942913801973",
+  "publicado": "2026-11-15T23:09:44+00:00"
  },
  {
   "tipo": "historia",
@@ -5224,7 +5228,9 @@
   "titulo": "Magallanes 2–3 Antofagasta",
   "liga": "chi.pb",
   "sin_goleadores": false,
-  "enviado": false
+  "enviado": false,
+  "error": "400 {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,134,837,731,759,825 cannot be found.\",\"fbtrace_id\":\"AVeBo6wc4UHqHdu0UKV_VFr\"}}",
+  "intentos": 1
  },
  {
   "tipo": "historia",
@@ -5236,7 +5242,9 @@
   "titulo": "San Marcos 0–1 San Luis",
   "liga": "chi.pb",
   "sin_goleadores": false,
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18121803281098382",
+  "publicado": "2026-11-15T23:09:44+00:00"
  },
  {
   "tipo": "historia",
@@ -5248,6 +5256,8 @@
   "titulo": "Unión San Felipe 3–4 Unión Española",
   "liga": "chi.pb",
   "sin_goleadores": false,
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18081608957729831",
+  "publicado": "2026-11-15T23:09:44+00:00"
  }
 ]
