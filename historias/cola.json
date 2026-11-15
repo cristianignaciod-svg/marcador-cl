@@ -1,32 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "eng.1:401878767",
-  "creado": "2026-10-24T16:01:06-03:00",
-  "archivos": [
-   "historias/img/2026-10-24/eng1-chelsea-tottenham.png"
-  ],
-  "titulo": "Chelsea 0–2 Tottenham",
-  "liga": "eng.1",
-  "enviado": true,
-  "ig_id": "18126647002849416",
-  "publicado": "2026-10-24T19:01:35+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "ger.1:401884763",
-  "creado": "2026-10-24T16:01:06-03:00",
-  "archivos": [
-   "historias/img/2026-10-24/ger1-borussia-dortmund-eintracht.png"
-  ],
-  "titulo": "Borussia Dortmund 1–0 Eintracht",
-  "liga": "ger.1",
-  "enviado": true,
-  "ig_id": "18106715756363444",
-  "publicado": "2026-10-24T19:01:35+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "arg.1:401841641",
   "creado": "2026-10-24T17:07:47-03:00",
   "archivos": [
@@ -5196,5 +5170,27 @@
   "enviado": true,
   "ig_id": "18034806563681294",
   "publicado": "2026-11-15T18:58:10+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.nations:401861178",
+  "creado": "2026-11-15T18:40:32-03:00",
+  "archivos": [
+   "historias/img/2026-11-15/uefanations-croacia-chequia.png"
+  ],
+  "titulo": "Croacia 2–1 Chequia",
+  "liga": "uefa.nations",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.nations:401861177",
+  "creado": "2026-11-15T18:40:32-03:00",
+  "archivos": [
+   "historias/img/2026-11-15/uefanations-francia-turquia.png"
+  ],
+  "titulo": "Francia 2–1 Turquía",
+  "liga": "uefa.nations",
+  "enviado": false
  }
 ]
