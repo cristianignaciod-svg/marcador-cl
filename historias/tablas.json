@@ -316,12 +316,12 @@
        "pos": 3,
        "pj": 30,
        "g": 14,
-       "e": 9,
-       "p": 7,
+       "e": 8,
+       "p": 8,
        "gf": 48,
-       "gc": 32,
-       "dg": 16,
-       "pts": 51,
+       "gc": 33,
+       "dg": 15,
+       "pts": 50,
        "zona": null,
        "color": "#c9dd03"
       },
@@ -358,10 +358,26 @@
        "color": "#c9dd03"
       },
       {
+       "equipo": "Deportes Copiapó",
+       "largo": "Deportes Copiapó",
+       "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/192436_small.png",
+       "pos": 6,
+       "pj": 30,
+       "g": 12,
+       "e": 8,
+       "p": 10,
+       "gf": 44,
+       "gc": 42,
+       "dg": 2,
+       "pts": 44,
+       "zona": null,
+       "color": "#c9dd03"
+      },
+      {
        "equipo": "San Marcos",
        "largo": "San Marcos",
        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/192433_small.png",
-       "pos": 6,
+       "pos": 7,
        "pj": 29,
        "g": 11,
        "e": 10,
@@ -370,22 +386,6 @@
        "gc": 28,
        "dg": 7,
        "pts": 43,
-       "zona": null,
-       "color": "#c9dd03"
-      },
-      {
-       "equipo": "Deportes Copiapó",
-       "largo": "Deportes Copiapó",
-       "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/192436_small.png",
-       "pos": 7,
-       "pj": 30,
-       "g": 11,
-       "e": 9,
-       "p": 10,
-       "gf": 43,
-       "gc": 42,
-       "dg": 1,
-       "pts": 42,
        "zona": null,
        "color": "#c9dd03"
       },
@@ -536,7 +536,7 @@
      ]
     }
    ],
-   "actualizado": "2026-11-15T12:07-03:00",
+   "actualizado": "2026-11-15T12:17-03:00",
    "fuentes": [
     "FotMob"
    ]
