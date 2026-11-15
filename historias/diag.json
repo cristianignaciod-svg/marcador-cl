@@ -33,6 +33,10 @@
    "401916337 STATUS_FULL_TIME 2026-11-14T10:15Z"
   ]
  },
+ "agenda": {
+  "corregidos": [],
+  "canales_sin_partido": []
+ },
  "tablas_web": {
   "arg.1": "Lanús: ESPN 25 pts/15 PJ, FotMob 26 pts/16 PJ"
  }
