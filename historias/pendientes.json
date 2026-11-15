@@ -1,1 +1,30 @@
-[]
+[
+ {
+  "id": "chipb-santiago-wanderers-deportes-copiapo",
+  "liga": "chi.pb",
+  "fase": "",
+  "fecha": "2026-11-15",
+  "local": "Santiago Wanderers",
+  "visita": "Deportes Copiapó",
+  "gl": 1,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "6'",
+    "jugador": "Manuel López",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "85'",
+    "jugador": "Sergio Felipe",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [],
+  "anulados": []
+ }
+]
