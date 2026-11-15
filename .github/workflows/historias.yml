@@ -77,11 +77,23 @@ jobs:
         run: |
           export SHA=$(git rev-parse HEAD)
           python3 historias/publicar.py
-          git add historias/cola.json historias/estado_instagram.json
-          git diff --cached --quiet && exit 0
-          git commit -m "Instagram: publicaciones $(TZ=America/Santiago date +'%H:%M')"
-          git pull --rebase -q origin main
-          git push
+          git diff --quiet -- historias/cola.json historias/estado_instagram.json && [ -z "$(git status --porcelain historias/ig_hechos.json)" ] && exit 0
+          # se guarda lo publicado y se fusiona sobre la versión más nueva del repo
+          # (otra tarea puede haber cambiado cola.json mientras tanto; antes eso hacía perder la marca y repetir historias)
+          T=$(mktemp -d)
+          cp historias/cola.json $T/cola.json; cp historias/estado_instagram.json $T/estado.json
+          cp historias/ig_hechos.json $T/hechos.json 2>/dev/null || echo '{}' > $T/hechos.json
+          for i in 1 2 3 4 5; do
+            git fetch -q origin main
+            git reset -q --hard origin/main
+            python3 historias/fusionar.py $T/cola.json $T/hechos.json $T/estado.json
+            git add historias/cola.json historias/estado_instagram.json historias/ig_hechos.json
+            git diff --cached --quiet && exit 0
+            git commit -q -m "Instagram: publicaciones $(TZ=America/Santiago date +'%H:%M')"
+            git push -q && exit 0
+            sleep $((i * 5))
+          done
+          exit 1
 
       # GitHub no está ejecutando el horario (cron) de forma confiable: cada pasada deja
       # programada la siguiente ~10 minutos después. Si la cadena se corta, la tarea horaria

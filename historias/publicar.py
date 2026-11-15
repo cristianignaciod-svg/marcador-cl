@@ -197,8 +197,20 @@ def main():
     p = os.path.join(BASE, "cola.json")
     cola = json.load(open(p))
     ahora = dt.datetime.now(dt.timezone.utc)
+    # registro propio de lo ya publicado (solo lo escribe este proceso): evita publicar dos veces
+    # si el cambio de "enviado" en cola.json se perdió por un choque con otra tarea
+    ph = os.path.join(BASE, "ig_hechos.json")
+    try:
+        ya = json.load(open(ph))
+    except Exception:
+        ya = {}
     hechos = 0
     for item in cola:
+        llave = f"{item.get('clave')}|{item.get('creado')}"
+        if not item.get("enviado") and llave in ya:
+            item.update(enviado=True, ig_id=ya[llave].get("ig_id"), publicado=ya[llave].get("publicado"))
+            json.dump(cola, open(p, "w"), ensure_ascii=False, indent=1)
+            continue
         if item.get("enviado") or not activar.get(item["tipo"], False):
             continue
         creado = dt.datetime.fromisoformat(item["creado"])
@@ -216,6 +228,8 @@ def main():
             item["ig_id"] = publicar(item)
             item["enviado"] = True
             item["publicado"] = ahora.isoformat(timespec="seconds")
+            ya[llave] = {"ig_id": item["ig_id"], "publicado": item["publicado"], "titulo": item.get("titulo")}
+            json.dump(ya, open(ph, "w"), ensure_ascii=False, indent=1)
             hechos += 1
             print("Publicado:", item["titulo"])
         except Exception as ex:
