@@ -5180,7 +5180,9 @@
   ],
   "titulo": "Bielorrusia 0–2 Albania",
   "liga": "uefa.nations",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18118269308089738",
+  "publicado": "2026-11-15T18:58:10+00:00"
  },
  {
   "tipo": "historia",
@@ -5191,6 +5193,8 @@
   ],
   "titulo": "Finlandia 7–2 San Marino",
   "liga": "uefa.nations",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18034806563681294",
+  "publicado": "2026-11-15T18:58:10+00:00"
  }
 ]
