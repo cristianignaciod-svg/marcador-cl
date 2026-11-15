@@ -5167,7 +5167,9 @@
   ],
   "titulo": "Bélgica 4–1 Italia",
   "liga": "uefa.nations",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18126713590721387",
+  "publicado": "2026-11-15T22:11:35+00:00"
  },
  {
   "tipo": "historia",
@@ -5178,7 +5180,9 @@
   ],
   "titulo": "España 2–3 Inglaterra",
   "liga": "uefa.nations",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17917368225519677",
+  "publicado": "2026-11-15T22:11:35+00:00"
  },
  {
   "tipo": "resumen",
