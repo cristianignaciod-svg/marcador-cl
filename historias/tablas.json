@@ -310,26 +310,10 @@
        "color": "#FFD908"
       },
       {
-       "equipo": "Antofagasta",
-       "largo": "Antofagasta",
-       "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6201_small.png",
-       "pos": 3,
-       "pj": 30,
-       "g": 14,
-       "e": 9,
-       "p": 7,
-       "gf": 52,
-       "gc": 26,
-       "dg": 26,
-       "pts": 51,
-       "zona": null,
-       "color": "#c9dd03"
-      },
-      {
        "equipo": "Santiago Wanderers",
        "largo": "Santiago Wanderers",
        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1849_small.png",
-       "pos": 4,
+       "pos": 3,
        "pj": 30,
        "g": 14,
        "e": 9,
@@ -342,18 +326,34 @@
        "color": "#c9dd03"
       },
       {
+       "equipo": "Antofagasta",
+       "largo": "Antofagasta",
+       "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6201_small.png",
+       "pos": 4,
+       "pj": 30,
+       "g": 13,
+       "e": 10,
+       "p": 7,
+       "gf": 52,
+       "gc": 27,
+       "dg": 25,
+       "pts": 49,
+       "zona": null,
+       "color": "#c9dd03"
+      },
+      {
        "equipo": "Magallanes",
        "largo": "Magallanes",
        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/246503_small.png",
        "pos": 5,
        "pj": 30,
        "g": 13,
-       "e": 7,
-       "p": 10,
-       "gf": 45,
+       "e": 8,
+       "p": 9,
+       "gf": 46,
        "gc": 45,
-       "dg": 0,
-       "pts": 46,
+       "dg": 1,
+       "pts": 47,
        "zona": null,
        "color": "#c9dd03"
       },
@@ -399,8 +399,8 @@
        "e": 6,
        "p": 12,
        "gf": 36,
-       "gc": 37,
-       "dg": -1,
+       "gc": 38,
+       "dg": -2,
        "pts": 42,
        "zona": null,
        "color": "#c9dd03"
@@ -510,9 +510,9 @@
        "g": 5,
        "e": 8,
        "p": 17,
-       "gf": 19,
+       "gf": 20,
        "gc": 55,
-       "dg": -36,
+       "dg": -35,
        "pts": 23,
        "zona": null,
        "color": null
@@ -536,7 +536,7 @@
      ]
     }
    ],
-   "actualizado": "2026-11-15T18:40-03:00",
+   "actualizado": "2026-11-15T18:51-03:00",
    "fuentes": [
     "FotMob"
    ]
