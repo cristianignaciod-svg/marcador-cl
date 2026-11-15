@@ -314,14 +314,14 @@
        "largo": "Santiago Wanderers",
        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1849_small.png",
        "pos": 3,
-       "pj": 29,
+       "pj": 30,
        "g": 14,
-       "e": 8,
+       "e": 9,
        "p": 7,
        "gf": 48,
        "gc": 32,
        "dg": 16,
-       "pts": 50,
+       "pts": 51,
        "zona": null,
        "color": "#c9dd03"
       },
@@ -374,10 +374,26 @@
        "color": "#c9dd03"
       },
       {
+       "equipo": "Deportes Copiapó",
+       "largo": "Deportes Copiapó",
+       "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/192436_small.png",
+       "pos": 7,
+       "pj": 30,
+       "g": 11,
+       "e": 9,
+       "p": 10,
+       "gf": 43,
+       "gc": 42,
+       "dg": 1,
+       "pts": 42,
+       "zona": null,
+       "color": "#c9dd03"
+      },
+      {
        "equipo": "Deportes Recoleta",
        "largo": "Deportes Recoleta",
        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1264972_small.png",
-       "pos": 7,
+       "pos": 8,
        "pj": 29,
        "g": 11,
        "e": 9,
@@ -386,22 +402,6 @@
        "gc": 43,
        "dg": -2,
        "pts": 42,
-       "zona": null,
-       "color": "#c9dd03"
-      },
-      {
-       "equipo": "Deportes Copiapó",
-       "largo": "Deportes Copiapó",
-       "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/192436_small.png",
-       "pos": 8,
-       "pj": 29,
-       "g": 11,
-       "e": 8,
-       "p": 10,
-       "gf": 43,
-       "gc": 42,
-       "dg": 1,
-       "pts": 41,
        "zona": null,
        "color": "#c9dd03"
       },
@@ -536,7 +536,7 @@
      ]
     }
    ],
-   "actualizado": "2026-11-05T16:40-03:00",
+   "actualizado": "2026-11-15T12:07-03:00",
    "fuentes": [
     "FotMob"
    ]
