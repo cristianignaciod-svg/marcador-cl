@@ -1,45 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "arg.1:401841641",
-  "creado": "2026-10-24T17:07:47-03:00",
-  "archivos": [
-   "historias/img/2026-10-24/arg1-banfield-lanus.png"
-  ],
-  "titulo": "Banfield 1–1 Lanús",
-  "liga": "arg.1",
-  "enviado": true,
-  "ig_id": "18124508905933507",
-  "publicado": "2026-10-24T20:08:19+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "ita.1:401874955",
-  "creado": "2026-10-24T17:55:38-03:00",
-  "archivos": [
-   "historias/img/2026-10-24/ita1-lazio-parma.png"
-  ],
-  "titulo": "Lazio 2–1 Parma",
-  "liga": "ita.1",
-  "enviado": true,
-  "ig_id": "18013761968991889",
-  "publicado": "2026-10-24T20:56:32+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "esp.1:401882834",
-  "creado": "2026-10-24T18:15:32-03:00",
-  "archivos": [
-   "historias/img/2026-10-24/esp1-atletico-deportivo.png"
-  ],
-  "titulo": "Atlético 1–0 Deportivo",
-  "liga": "esp.1",
-  "enviado": true,
-  "ig_id": "18386445877239114",
-  "publicado": "2026-10-24T21:16:16+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "fra.1:401876427",
   "creado": "2026-10-24T18:15:32-03:00",
   "archivos": [
@@ -5196,5 +5157,99 @@
   "enviado": true,
   "ig_id": "18148105384597590",
   "publicado": "2026-11-15T21:41:26+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.nations:401861176",
+  "creado": "2026-11-15T19:00:54-03:00",
+  "archivos": [
+   "historias/img/2026-11-15/uefanations-belgica-italia.png"
+  ],
+  "titulo": "Bélgica 4–1 Italia",
+  "liga": "uefa.nations",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.nations:401861175",
+  "creado": "2026-11-15T19:00:54-03:00",
+  "archivos": [
+   "historias/img/2026-11-15/uefanations-espana-inglaterra.png"
+  ],
+  "titulo": "España 2–3 Inglaterra",
+  "liga": "uefa.nations",
+  "enviado": false
+ },
+ {
+  "tipo": "resumen",
+  "clave": "uefa.nations:2026-11-15",
+  "creado": "2026-11-15T19:00:54-03:00",
+  "archivos": [
+   "historias/img/2026-11-15/uefanations-20261115-1.png"
+  ],
+  "titulo": "uefa.nations 15 de noviembre",
+  "liga": "uefa.nations",
+  "fase": "",
+  "rango": "15 de noviembre",
+  "partidos": [
+   {
+    "dia": "Dom 15",
+    "local": "Chipre",
+    "visita": "Montenegro",
+    "gl": 1,
+    "gv": 4
+   },
+   {
+    "dia": "Dom 15",
+    "local": "Letonia",
+    "visita": "Armenia",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "dia": "Dom 15",
+    "local": "Bielorrusia",
+    "visita": "Albania",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "dia": "Dom 15",
+    "local": "Finlandia",
+    "visita": "San Marino",
+    "gl": 7,
+    "gv": 2
+   },
+   {
+    "dia": "Dom 15",
+    "local": "Bélgica",
+    "visita": "Italia",
+    "gl": 4,
+    "gv": 1
+   },
+   {
+    "dia": "Dom 15",
+    "local": "Croacia",
+    "visita": "Chequia",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "dia": "Dom 15",
+    "local": "Francia",
+    "visita": "Turquía",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "dia": "Dom 15",
+    "local": "España",
+    "visita": "Inglaterra",
+    "gl": 2,
+    "gv": 3
+   }
+  ],
+  "sin_tabla": false,
+  "enviado": false
  }
 ]
