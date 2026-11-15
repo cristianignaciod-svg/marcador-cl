@@ -1,18 +1,65 @@
 {
- "fecha": "2026-11-14",
+ "fecha": "2026-11-15",
  "fuentes": [
-  "https://redgol.cl/chile/coquimbo-unido-vs-ohiggins-donde-ver-en-vivo-la-final-de-la-copa-de-la-liga-2026-unica-senal",
-  "https://www.alairelibre.cl/futbol/copa-de-la-liga/coquimbo-unido-vs-ohiggins-horario-donde-ver-copa-de-la-liga-2026/",
-  "https://bolavip.com/nations-league/donde-ver-en-vivo-noruega-vs-gales-por-la-fecha-5-de-la-liga-de-naciones-tv-y-streaming-online",
-  "https://www.365scores.com/es/news/donde-ver-brasil-vs-japon-en-vivo-canal/"
+  "https://www.encancha.cl/futbol-chileno/primera-b/2026/11/13/donde-ver-la-ultima-fecha-de-primera-b-todos-los-partidos-iran-por-hbo-max-y-cuatro-tendran-tv-325047.html",
+  "https://www.alairelibre.cl/futbol/primera-b/partidos-de-hoy-domingo-15-noviembre/",
+  "https://tecache.cl/futbol/espana-vs-inglaterra-en-vivo-horario-canal-y-donde-ver-el-partido-en-chile",
+  "https://www.elliberal.com.ar/nota/98105/2026/11/agenda-deportiva-del-domingo-15-de-noviembre--horarios-y-como-ver-en-vivo-por-tv"
  ],
  "partidos": [
-  {"local": "Coquimbo Unido", "visita": "O'Higgins", "tv": "HBO Max", "verificado": "2_fuentes"}
+  {
+   "local": "Santiago Wanderers",
+   "visita": "Deportes Copiapó",
+   "tv": "TNT Sports Premium · HBO Max",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Magallanes",
+   "visita": "Deportes Antofagasta",
+   "tv": "HBO Max",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "San Marcos de Arica",
+   "visita": "San Luis",
+   "tv": "TNT Sports · HBO Max",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Unión San Felipe",
+   "visita": "Unión Española",
+   "tv": "HBO Max",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Deportes Santa Cruz",
+   "visita": "Rangers",
+   "tv": "HBO Max",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Cobreloa",
+   "visita": "Deportes Puerto Montt",
+   "tv": "TNT Sports Premium · HBO Max",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Deportes Recoleta",
+   "visita": "Deportes Iquique",
+   "tv": "TNT Sports Premium · HBO Max",
+   "verificado": "2_fuentes"
+  }
  ],
  "conflictos": [
-  {"local": "Noruega", "visita": "Gales", "detalle": "UEFA Nations League. Solo Bolavip indica 'Disney+ Premium Chile' (también ESPN según medios peruanos); sin nota de RedGol ni del canal oficial legible (La Tercera y ESPN.cl no accesibles). No publicado."},
-  {"local": "Kosovo", "visita": "Israel", "detalle": "UEFA Nations League. Solo Bolavip indica 'Disney+ Premium Chile'; sin confirmación de RedGol ni del canal oficial. No publicado."},
-  {"local": "Portugal", "visita": "Dinamarca", "detalle": "UEFA Nations League. Solo medios peruanos (ESPN · Disney+ Premium); sin fuente chilena. No publicado. Mismo caso para Georgia-Hungría, Austria-Irlanda, Irlanda del Norte-Ucrania, Rumania-Polonia y Suecia-Bosnia."},
-  {"local": "Japón", "visita": "Brasil", "detalle": "Amistoso. DAZN: Chile 'por confirmar'; 365Scores: sin transmisión oficial fuera de Brasil; La República (Perú) dice DSports. No publicado."}
+  {
+   "local": "España",
+   "visita": "Inglaterra",
+   "detalle": "UEFA Nations League. Solo Te Caché (Chile) indica 'ESPN · Disney+ Premium'; RedGol no accesible y La Tercera bloqueada; resto de fuentes son de Perú/Argentina. No publicado."
+  },
+  {
+   "local": "Bélgica",
+   "visita": "Italia",
+   "detalle": "UEFA Nations League. Sin fuente chilena; RPP (Perú) dice ESPN 7 · Disney+, El Liberal (Argentina) solo Disney+ Premium. No publicado. Mismo caso (sin fuente chilena) para Francia-Turquía, Croacia-Rep. Checa, Bielorrusia-Albania, Finlandia-San Marino, Letonia-Armenia y Chipre-Montenegro."
+  }
  ]
 }
