@@ -1,32 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "ger.1:401884762",
-  "creado": "2026-10-24T13:16:11-03:00",
-  "archivos": [
-   "historias/img/2026-10-24/ger1-rb-leipzig-sv-elversberg.png"
-  ],
-  "titulo": "RB Leipzig 4–0 SV Elversberg",
-  "liga": "ger.1",
-  "enviado": true,
-  "ig_id": "18035782427668653",
-  "publicado": "2026-10-24T16:16:56+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "ger.1:401884755",
-  "creado": "2026-10-24T13:16:11-03:00",
-  "archivos": [
-   "historias/img/2026-10-24/ger1-sc-paderborn-07-hamburg-sv.png"
-  ],
-  "titulo": "SC Paderborn 07 1–0 Hamburg SV",
-  "liga": "ger.1",
-  "enviado": true,
-  "ig_id": "18107455496194332",
-  "publicado": "2026-10-24T16:16:56+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "chi.1:401850674",
   "creado": "2026-10-24T14:44:15-03:00",
   "archivos": [
@@ -5195,5 +5169,27 @@
   "enviado": true,
   "ig_id": "18083237048735964",
   "publicado": "2026-11-15T12:25:59+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.nations:401861172",
+  "creado": "2026-11-15T12:55:14-03:00",
+  "archivos": [
+   "historias/img/2026-11-15/uefanations-chipre-montenegro.png"
+  ],
+  "titulo": "Chipre 1–4 Montenegro",
+  "liga": "uefa.nations",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.nations:401861171",
+  "creado": "2026-11-15T12:55:14-03:00",
+  "archivos": [
+   "historias/img/2026-11-15/uefanations-letonia-armenia.png"
+  ],
+  "titulo": "Letonia 0–0 Armenia",
+  "liga": "uefa.nations",
+  "enviado": false
  }
 ]

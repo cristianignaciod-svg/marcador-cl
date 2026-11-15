@@ -1,1 +1,116 @@
-[]
+[
+ {
+  "id": "uefanations-chipre-montenegro",
+  "liga": "uefa.nations",
+  "fase": "",
+  "fecha": "2026-11-15",
+  "local": "Chipre",
+  "visita": "Montenegro",
+  "gl": 1,
+  "gv": 4,
+  "goles": [
+   {
+    "min": "5'",
+    "jugador": "Milutin Osmajic",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "52'",
+    "jugador": "Ioannis Pittas",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "58'",
+    "jugador": "Milan Vukotic",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "67'",
+    "jugador": "Nikola Krstovic",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "83'",
+    "jugador": "Nikola Krstovic",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "12'",
+    "jugador": "Dzonatan Dresaj",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "39'",
+    "jugador": "Vasilije Adzic",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "44'",
+    "jugador": "Stavros Georgiou",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "70'",
+    "jugador": "Marko Jankovic",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "70'",
+    "jugador": "Konstantinos Laifis",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "74'",
+    "jugador": "Miloš Brnovic",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "uefanations-letonia-armenia",
+  "liga": "uefa.nations",
+  "fase": "",
+  "fecha": "2026-11-15",
+  "local": "Letonia",
+  "visita": "Armenia",
+  "gl": 0,
+  "gv": 0,
+  "goles": [],
+  "tarjetas": [
+   {
+    "min": "5'",
+    "jugador": "Oskars Vientiess",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90'",
+    "jugador": "Eduards Daskevics",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]
