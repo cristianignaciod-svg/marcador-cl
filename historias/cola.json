@@ -5228,9 +5228,11 @@
   "titulo": "Magallanes 2–3 Antofagasta",
   "liga": "chi.pb",
   "sin_goleadores": false,
-  "enviado": false,
+  "enviado": true,
   "error": "400 {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,134,837,731,759,825 cannot be found.\",\"fbtrace_id\":\"AVeBo6wc4UHqHdu0UKV_VFr\"}}",
-  "intentos": 1
+  "intentos": 1,
+  "ig_id": "18112550309575628",
+  "publicado": "2026-11-15T23:20:48+00:00"
  },
  {
   "tipo": "historia",
