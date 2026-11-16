@@ -1,65 +1,78 @@
 {
- "fecha": "2026-11-15",
+ "fecha": "2026-11-16",
  "fuentes": [
-  "https://www.encancha.cl/futbol-chileno/primera-b/2026/11/13/donde-ver-la-ultima-fecha-de-primera-b-todos-los-partidos-iran-por-hbo-max-y-cuatro-tendran-tv-325047.html",
-  "https://www.alairelibre.cl/futbol/primera-b/partidos-de-hoy-domingo-15-noviembre/",
-  "https://tecache.cl/futbol/espana-vs-inglaterra-en-vivo-horario-canal-y-donde-ver-el-partido-en-chile",
-  "https://www.elliberal.com.ar/nota/98105/2026/11/agenda-deportiva-del-domingo-15-de-noviembre--horarios-y-como-ver-en-vivo-por-tv"
+  "https://tecache.cl/futbol/alemania-vs-paises-bajos-horario-canal-y-donde-ver-en-vivo-la-uefa-nations-league-en-chile/",
+  "https://www.prensafutbol.cl/alemania-paises-bajos-donde-cuando-ver-chile/",
+  "https://www.futbolenvivochile.com/competicion/uefa-nations-league",
+  "https://www.365scores.com/es/news/nations-league-hoy-partidos-lunes-tabla/",
+  "https://redgol.cl/apuestas/pronosticos/alemania-vs-paises-bajos-uefa-nations-league-16-11-2026"
  ],
  "partidos": [
   {
-   "local": "Santiago Wanderers",
-   "visita": "Deportes Copiapó",
-   "tv": "TNT Sports Premium · HBO Max",
+   "local": "Kazajistán",
+   "visita": "Eslovaquia",
+   "tv": "ESPN 4 · Disney+ Premium",
    "verificado": "2_fuentes"
   },
   {
-   "local": "Magallanes",
-   "visita": "Deportes Antofagasta",
-   "tv": "HBO Max",
+   "local": "Islas Feroe",
+   "visita": "Moldavia",
+   "tv": "Disney+ Premium",
    "verificado": "2_fuentes"
   },
   {
-   "local": "San Marcos de Arica",
-   "visita": "San Luis",
-   "tv": "TNT Sports · HBO Max",
+   "local": "Estonia",
+   "visita": "Bulgaria",
+   "tv": "Disney+ Premium",
    "verificado": "2_fuentes"
   },
   {
-   "local": "Unión San Felipe",
-   "visita": "Unión Española",
-   "tv": "HBO Max",
+   "local": "Lituania",
+   "visita": "Liechtenstein",
+   "tv": "Disney+ Premium",
    "verificado": "2_fuentes"
   },
   {
-   "local": "Deportes Santa Cruz",
-   "visita": "Rangers",
-   "tv": "HBO Max",
+   "local": "Alemania",
+   "visita": "Países Bajos",
+   "tv": "ESPN · Disney+ Premium",
    "verificado": "2_fuentes"
   },
   {
-   "local": "Cobreloa",
-   "visita": "Deportes Puerto Montt",
-   "tv": "TNT Sports Premium · HBO Max",
+   "local": "Grecia",
+   "visita": "Serbia",
+   "tv": "ESPN 4 · Disney+ Premium",
    "verificado": "2_fuentes"
   },
   {
-   "local": "Deportes Recoleta",
-   "visita": "Deportes Iquique",
-   "tv": "TNT Sports Premium · HBO Max",
+   "local": "Suiza",
+   "visita": "Escocia",
+   "tv": "Disney+ Premium",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Macedonia del Norte",
+   "visita": "Eslovenia",
+   "tv": "Disney+ Premium",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Gibraltar",
+   "visita": "Malta",
+   "tv": "Disney+ Premium",
    "verificado": "2_fuentes"
   }
  ],
  "conflictos": [
   {
-   "local": "España",
-   "visita": "Inglaterra",
-   "detalle": "UEFA Nations League. Solo Te Caché (Chile) indica 'ESPN · Disney+ Premium'; RedGol no accesible y La Tercera bloqueada; resto de fuentes son de Perú/Argentina. No publicado."
+   "local": "Islandia",
+   "visita": "Luxemburgo",
+   "detalle": "UEFA Nations League. FútbolEnVivoChile dice 'ESPN · Disney+ Premium', 365Scores (columna Chile) dice 'ESPN 2 · Disney+'. RedGol sin nota. No publicado."
   },
   {
-   "local": "Bélgica",
-   "visita": "Italia",
-   "detalle": "UEFA Nations League. Sin fuente chilena; RPP (Perú) dice ESPN 7 · Disney+, El Liberal (Argentina) solo Disney+ Premium. No publicado. Mismo caso (sin fuente chilena) para Francia-Turquía, Croacia-Rep. Checa, Bielorrusia-Albania, Finlandia-San Marino, Letonia-Armenia y Chipre-Montenegro."
+   "local": "Suiza",
+   "visita": "Escocia",
+   "detalle": "Nota: se publica solo Disney+ Premium (coinciden ambas fuentes). FútbolEnVivoChile agrega ESPN 5; 365Scores no lo menciona."
   }
  ]
 }
