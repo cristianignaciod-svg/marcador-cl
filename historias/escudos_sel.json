@@ -28,5 +28,33 @@
   "equipo": "Denmark",
   "fuente": "https://r2.thesportsdb.com/images/media/team/badge/e13arj1717365623.png",
   "liga": "World Cup Qualifying UEFA UEFA Nations League"
+ },
+ "gb-eng": {
+  "equipo": "England",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/vf5ttc1726166739.png",
+  "liga": "FIFA World Cup UEFA European Championships"
+ },
+ "ee": {
+  "equipo": "Estonia",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/n43zxi1730303815.png",
+  "liga": "World Cup Qualifying UEFA UEFA Nations League"
+ },
+ "fo": {
+  "equipo": "Faroe Islands",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/pjs0io1552936544.png",
+  "liga": "World Cup Qualifying UEFA UEFA Nations League"
+ },
+ "fi": {
+  "equipo": "Finland",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/wgvfd21730303889.png",
+  "liga": "World Cup Qualifying UEFA UEFA Nations League"
+ },
+ "fr": {
+  "equipo": "France",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/ejx5za1788198941.png",
+  "liga": "FIFA World Cup UEFA Nations League"
+ },
+ "ge": {
+  "intento": "2026-11-16T16:44+00:00"
  }
 }
