@@ -135,6 +135,12 @@ button.match:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
 .seg button[aria-pressed="true"]{background:var(--fg);color:var(--bg)}
 .seg button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .days[hidden]{display:none}
+.orden{display:flex;align-items:center;gap:8px;margin:4px 0 12px;font:600 12px var(--body);color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.orden .seg{margin:0}
+.orden .seg button{padding:5px 12px;font-size:12px}
+.ctag{display:flex;align-items:center;gap:6px;font:700 10.5px var(--body);letter-spacing:.07em;text-transform:uppercase;color:var(--muted);margin-bottom:2px;min-width:0}
+.ctag i{flex:none;width:8px;height:8px;border-radius:2px;background:var(--c)}
+.ctag span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .tbl{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums;font-size:14px}
 .tbl th{font:700 10.5px var(--body);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);text-align:center;padding:8px 6px;border-bottom:1px solid var(--line)}
 .tbl th.eq{text-align:left}
@@ -297,6 +303,8 @@ const state = {liga:"todos", dia:null, cache:{}, lastOk:null, errors:0, open:new
 try { const s = localStorage.getItem("mcl-liga"); if (s && LIGAS.some(l => l.id === s)) state.liga = s; } catch (e) {}
 state.vista = "partidos"; state.tablas = null; state.tablasAt = 0; state.tablasErr = false;
 try { if (localStorage.getItem("mcl-vista") === "tablas") state.vista = "tablas"; } catch (e) {}
+state.orden = "liga";
+try { if (localStorage.getItem("mcl-orden") === "hora") state.orden = "hora"; } catch (e) {}
 
 const dayKey = d => new Intl.DateTimeFormat("en-CA",{timeZone:TZ,year:"numeric",month:"2-digit",day:"2-digit"}).format(d);
 const fmtTime = d => new Intl.DateTimeFormat("es-CL",{timeZone:TZ,hour:"2-digit",minute:"2-digit",hour12:false}).format(d);
@@ -626,6 +634,7 @@ function render() {
   const live = filtered.filter(isLive);
   if (live.length) html += `<div class="live-strip"><span class="dot"></span>${live.length} partido${live.length > 1 ? "s" : ""} en vivo</div>`;
   html += `<div class="day-title">${state.dia === hoy ? "Hoy, " : ""}${fmtLong(state.dia)}</div>`;
+  html += `<div class="orden">Ordenar <div class="seg" role="toolbar" aria-label="Ordenar partidos"><button type="button" data-orden="liga" aria-pressed="${state.orden === "liga"}">Por liga</button><button type="button" data-orden="hora" aria-pressed="${state.orden === "hora"}">Por hora</button></div></div>`;
   if (!entry) {
     html += state.errors
       ? `<div class="empty"><h3>Sin conexión</h3>No se pudieron cargar los resultados. Revisa tu internet y presiona Actualizar.</div>`
@@ -634,6 +643,16 @@ function render() {
     html += entry.partial
       ? `<div class="empty"><h3>Cargando partidos</h3>Consultando ${TORNEOS.length} torneos en dos fuentes…</div>`
       : `<div class="empty"><h3>Sin partidos este día</h3>Elige otro día en la barra superior o cambia de liga.</div>`;
+  } else if (state.orden === "hora") {
+    // en vivo primero, luego lo que viene más pronto, después los terminados (el más reciente arriba)
+    const rango = p => isLive(p) ? 0 : p.estado === "final" ? 2 : (p.estado === "postergado" || p.estado === "por_programar") ? 3 : 1;
+    const orden = [...filtered].sort((a, b) => (rango(a) - rango(b)) || (rango(a) === 2 ? b._d - a._d : a._d - b._d) || a.local.localeCompare(b.local));
+    const TIT = ["En vivo", "Próximos", "Terminados", "Postergados / por definir"];
+    for (let r = 0; r < 4; r++) {
+      const items = orden.filter(p => rango(p) === r);
+      if (!items.length) continue;
+      html += `<div class="sect">${TIT[r]}</div><section class="comp" style="--c:var(--accent)">${items.map(p => matchHTML(p, true)).join("")}</section>`;
+    }
   } else {
     for (const nivel of [1,2,3,4,5]) {
       const items = filtered.filter(p => p.nivel === nivel);
@@ -643,14 +662,14 @@ function render() {
       for (const p of items) { const k = p.liga + "|" + p.torneo; if (!(k in gi)) { gi[k] = groups.length; groups.push({liga:p.liga, torneo:p.torneo, items:[]}); } groups[gi[k]].items.push(p); }
       groups.sort((a,b) => (ORDER.indexOf(a.liga) - ORDER.indexOf(b.liga)) || ((TORDER[a.torneo] ?? 99) - (TORDER[b.torneo] ?? 99)));
       for (const g of groups) {
-        html += `<section class="comp" style="--c:${COLOR[g.liga]}"><div class="comp-h"><h2>${esc(g.torneo)}</h2><small>${esc(LIGAS.find(l => l.id === g.liga).nombre)}</small></div>${g.items.map(matchHTML).join("")}</section>`;
+        html += `<section class="comp" style="--c:${COLOR[g.liga]}"><div class="comp-h"><h2>${esc(g.torneo)}</h2><small>${esc(LIGAS.find(l => l.id === g.liga).nombre)}</small></div>${g.items.map(p => matchHTML(p)).join("")}</section>`;
       }
     }
   }
   main.innerHTML = html;
 }
 
-function matchHTML(p) {
+function matchHTML(p, conTorneo) {
   const has = Number.isFinite(p.gl) && Number.isFinite(p.gv);
   const fin = p.estado === "final";
   let cls = "", top = fmtTime(p._d), sub = "<small>Programado</small>";
@@ -663,7 +682,8 @@ function matchHTML(p) {
   const logo = u => u ? `<img class="lg" src="${esc(u)}" alt="" loading="lazy" width="18" height="18" onerror="this.style.visibility='hidden'">` : `<span class="lg"></span>`;
   const canal = tvFor(p);
   const tv = (canal && canal !== "Por confirmar") ? `<div class="tv"><b>Dónde verlo</b><span>${esc(canal)}</span></div>` : `<div class="tv"><b>Dónde verlo</b>Por confirmar</div>`;
-  const body = `<div class="when ${cls}">${top}${sub}</div><div class="teams">
+  const ctag = conTorneo ? `<div class="ctag" style="--c:${COLOR[p.liga]}"><i></i><span>${esc(p.torneo)}</span></div>` : "";
+  const body = `<div class="when ${cls}">${top}${sub}</div><div class="teams">${ctag}
     <div class="team ${wl(p.gl,p.gv)}"><span class="nm">${logo(p.logoL)}<span class="tn">${esc(p.local)}</span></span>${sc(p.gl,p.pl)}</div>
     <div class="team ${wl(p.gv,p.gl)}"><span class="nm">${logo(p.logoV)}<span class="tn">${esc(p.visita)}</span></span>${sc(p.gv,p.pv)}</div></div>${tv}`;
   if (!started(p) || !((p.gl ?? 0) + (p.gv ?? 0))) return `<div class="mwrap"><div class="match">${body}</div></div>`;
@@ -751,6 +771,8 @@ function srcHTML(p, d) {
 
 /* ---------- interacción ---------- */
 document.addEventListener("click", e => {
+  const o = e.target.closest("[data-orden]");
+  if (o) { state.orden = o.dataset.orden; try { localStorage.setItem("mcl-orden", state.orden); } catch (_) {} render(); return; }
   const v = e.target.closest("[data-vista]");
   if (v) {
     state.vista = v.dataset.vista; try { localStorage.setItem("mcl-vista", state.vista); } catch (_) {}
