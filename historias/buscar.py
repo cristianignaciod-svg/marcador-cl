@@ -83,12 +83,14 @@ def asegurar_escudo_sel(nombre):
     if reg.get(iso, {}).get("intento", "") > (dt.datetime.now(dt.timezone.utc) - dt.timedelta(hours=12)).isoformat():
         return False  # no se encontró hace poco: no insistir en cada pasada
     import time
+    fallo_red = False
     for n in PAISES[iso]:
         try:
-            time.sleep(2.2)  # límite de la API gratuita
+            time.sleep(3)  # límite de la API gratuita
             q = urllib.parse.quote(n)
             data = get(f"https://www.thesportsdb.com/api/v1/json/123/searchteams.php?t={q}")
         except Exception:
+            fallo_red = True  # p. ej. demasiadas consultas: se reintenta en la próxima pasada
             continue
         for t in data.get("teams") or []:
             if t.get("strSport") != "Soccer" or (t.get("strGender") or "Male") != "Male":
@@ -107,6 +109,7 @@ def asegurar_escudo_sel(nombre):
                 with urllib.request.urlopen(req, timeout=25) as r:
                     img = r.read()
             except Exception:
+                fallo_red = True
                 continue
             if not img.startswith(b"\x89PNG") and not img[:3] == b"\xff\xd8\xff":
                 continue
@@ -115,6 +118,8 @@ def asegurar_escudo_sel(nombre):
             reg[iso] = {"equipo": nt, "fuente": url, "liga": liga.strip()}
             guardar("escudos_sel.json", reg)
             return True
+    if fallo_red:
+        return False
     reg[iso] = {"intento": dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes")}
     guardar("escudos_sel.json", reg)
     DIAG.setdefault("sin_escudo_sel", []).append(nombre)
@@ -1219,10 +1224,15 @@ def main():
     # escudos oficiales de selecciones: se bajan antes de generar las imágenes
     try:
         if os.path.exists(os.path.join(BASE, "bajar_escudos_sel")):
+            # descarga inicial repartida en varias pasadas (la API gratuita limita las consultas por minuto)
             from paises import PAISES
-            for iso, ns in PAISES.items():
-                asegurar_escudo_sel(ns[0])
-            os.remove(os.path.join(BASE, "bajar_escudos_sel"))
+            faltan = [ns[0] for iso, ns in PAISES.items()
+                      if not os.path.exists(os.path.join(ESC_SEL, f"{iso}.png"))
+                      and "intento" not in cargar("escudos_sel.json", {}).get(iso, {})]
+            for n in faltan[:12]:
+                asegurar_escudo_sel(n)
+            if len(faltan) <= 12:
+                os.remove(os.path.join(BASE, "bajar_escudos_sel"))
         nombres = set()
         for x in pendientes:
             if x.get("liga") in SELECCIONES:
