@@ -5247,7 +5247,9 @@
   "titulo": "Deportes Recoleta 1–1 Deportes Iquique",
   "liga": "chi.pb",
   "sin_goleadores": false,
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17967927057216848",
+  "publicado": "2026-11-16T01:35:28+00:00"
  },
  {
   "tipo": "resumen",
