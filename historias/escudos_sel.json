@@ -254,5 +254,45 @@
   "equipo": "Haiti",
   "fuente": "https://r2.thesportsdb.com/images/media/team/badge/gml8wx1598135302.png",
   "liga": "FIFA World Cup CONCACAF Gold Cup"
+ },
+ "tt": {
+  "equipo": "Trinidad and Tobago",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/x0uq8u1598135774.png",
+  "liga": "World Cup Qualifying CONCACAF CONCACAF Gold Cup"
+ },
+ "cw": {
+  "equipo": "Curaçao",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/itygvb1600955363.png",
+  "liga": "FIFA World Cup CONCACAF Gold Cup"
+ },
+ "ni": {
+  "equipo": "Nicaragua",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/up3xrd1718413389.png",
+  "liga": "World Cup Qualifying CONCACAF International Friendlies"
+ },
+ "cu": {
+  "equipo": "Cuba",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/v89t931724137434.png",
+  "liga": "World Cup Qualifying CONCACAF CONCACAF Nations League"
+ },
+ "do": {
+  "equipo": "Dominican Republic",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/tnvu6e1774758597.png",
+  "liga": "World Cup Qualifying CONCACAF CONCACAF Gold Cup"
+ },
+ "jp": {
+  "equipo": "Japan",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/ffsyxz1591989843.png",
+  "liga": "FIFA World Cup AFC Asian Cup"
+ },
+ "kr": {
+  "equipo": "South Korea",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/a8nqfs1589564916.png",
+  "liga": "FIFA World Cup AFC Asian Cup"
+ },
+ "au": {
+  "equipo": "Australia",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/eylq8x1781926138.png",
+  "liga": "FIFA World Cup AFC Asian Cup"
  }
 }
