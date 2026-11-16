@@ -106,7 +106,7 @@ def asegurar_escudo_sel(nombre):
                 continue
             try:
                 req = urllib.request.Request(url, headers=UA)
-                with urllib.request.urlopen(req, timeout=25) as r:
+                with urllib.request.urlopen(req, timeout=12) as r:
                     img = r.read()
             except Exception:
                 fallo_red = True
@@ -1229,7 +1229,10 @@ def main():
             faltan = [ns[0] for iso, ns in PAISES.items()
                       if not os.path.exists(os.path.join(ESC_SEL, f"{iso}.png"))
                       and "intento" not in cargar("escudos_sel.json", {}).get(iso, {})]
+            t0 = dt.datetime.now()
             for n in faltan[:12]:
+                if (dt.datetime.now() - t0).total_seconds() > 90:  # no atrasar la pasada
+                    break
                 asegurar_escudo_sel(n)
             if len(faltan) <= 12:
                 os.remove(os.path.join(BASE, "bajar_escudos_sel"))
