@@ -1,1 +1,43 @@
-[]
+[
+ {
+  "id": "uefanations-islas-feroe-moldavia",
+  "liga": "uefa.nations",
+  "fase": "",
+  "fecha": "2026-11-16",
+  "local": "Islas Feroe",
+  "visita": "Moldavia",
+  "gl": 1,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "24'",
+    "jugador": "Áki Debes Samuelsen",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "28'",
+    "jugador": "Nichita Motpan",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "73'",
+    "jugador": "Áki Debes Samuelsen",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "86'",
+    "jugador": "Victor Stina",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]

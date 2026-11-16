@@ -1,19 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "chi.1:401850673",
-  "creado": "2026-10-24T22:15:40-03:00",
-  "archivos": [
-   "historias/img/2026-10-24/chi1-o-higgins-cobresal.png"
-  ],
-  "titulo": "O'Higgins 1–1 Cobresal",
-  "liga": "chi.1",
-  "enviado": true,
-  "ig_id": "18097126910133389",
-  "publicado": "2026-10-25T01:16:21+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "arg.1:401841633",
   "creado": "2026-10-24T23:59:26-03:00",
   "archivos": [
@@ -5321,5 +5308,16 @@
   "enviado": true,
   "ig_id": "17893910565457404",
   "publicado": "2026-11-16T12:22:04+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.nations:401861180",
+  "creado": "2026-11-16T14:26:23-03:00",
+  "archivos": [
+   "historias/img/2026-11-16/uefanations-islas-feroe-moldavia.png"
+  ],
+  "titulo": "Islas Feroe 1–0 Moldavia",
+  "liga": "uefa.nations",
+  "enviado": false
  }
 ]

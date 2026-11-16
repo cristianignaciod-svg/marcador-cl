@@ -159,5 +159,50 @@
   "equipo": "San Marino",
   "fuente": "https://r2.thesportsdb.com/images/media/team/badge/vfvy3j1626192199.png",
   "liga": "World Cup Qualifying UEFA UEFA Nations League"
+ },
+ "gb-sct": {
+  "equipo": "Scotland",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/3691i11552945146.png",
+  "liga": "FIFA World Cup UEFA European Championships"
+ },
+ "rs": {
+  "equipo": "Serbia",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/oxvynb1689195538.png",
+  "liga": "World Cup Qualifying UEFA UEFA Nations League"
+ },
+ "sk": {
+  "equipo": "Slovakia",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/njbw8n1717365638.png",
+  "liga": "World Cup Qualifying UEFA UEFA Nations League"
+ },
+ "si": {
+  "equipo": "Slovenia",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/s7k1x51552909864.png",
+  "liga": "World Cup Qualifying UEFA UEFA Nations League"
+ },
+ "es": {
+  "equipo": "Spain",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/ncgqyr1726166942.png",
+  "liga": "FIFA World Cup UEFA Nations League"
+ },
+ "se": {
+  "equipo": "Sweden",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/h5adzg1591981772.png",
+  "liga": "FIFA World Cup World Cup Qualifying UEFA"
+ },
+ "ch": {
+  "equipo": "Switzerland",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/mb7yqe1717365808.png",
+  "liga": "FIFA World Cup UEFA Nations League"
+ },
+ "tr": {
+  "equipo": "Turkey",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/vhi9951794738535.png",
+  "liga": "FIFA World Cup World Cup Qualifying UEFA"
+ },
+ "ua": {
+  "equipo": "Ukraine",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/k36g2e1591982718.png",
+  "liga": "World Cup Qualifying UEFA UEFA Nations League"
  }
 }
