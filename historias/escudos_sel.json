@@ -204,5 +204,55 @@
   "equipo": "Ukraine",
   "fuente": "https://r2.thesportsdb.com/images/media/team/badge/k36g2e1591982718.png",
   "liga": "World Cup Qualifying UEFA UEFA Nations League"
+ },
+ "gb-wls": {
+  "equipo": "Wales",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/pdayn21591983222.png",
+  "liga": "World Cup Qualifying UEFA UEFA European Championships"
+ },
+ "us": {
+  "equipo": "USA",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/21f0oi1597948195.png",
+  "liga": "FIFA World Cup CONCACAF Gold Cup"
+ },
+ "ca": {
+  "equipo": "Canada",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/2t631f1595154867.png",
+  "liga": "FIFA World Cup International Friendlies"
+ },
+ "cr": {
+  "equipo": "Costa Rica",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/bss90a1637840151.png",
+  "liga": "World Cup Qualifying CONCACAF CONCACAF Nations League"
+ },
+ "pa": {
+  "equipo": "Panama",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/asp2ck1715849700.png",
+  "liga": "FIFA World Cup CONCACAF Gold Cup"
+ },
+ "hn": {
+  "equipo": "Honduras",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/wuu4fp1718413719.png",
+  "liga": "World Cup Qualifying CONCACAF CONCACAF Gold Cup"
+ },
+ "jm": {
+  "equipo": "Jamaica",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/v6mk4r1594321722.png",
+  "liga": "World Cup Qualifying CONCACAF CONCACAF Gold Cup"
+ },
+ "sv": {
+  "equipo": "El Salvador",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/gjc22e1598134820.png",
+  "liga": "World Cup Qualifying CONCACAF CONCACAF Nations League"
+ },
+ "gt": {
+  "equipo": "Guatemala",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/qrnbik1791433961.png",
+  "liga": "World Cup Qualifying CONCACAF CONCACAF Gold Cup"
+ },
+ "ht": {
+  "equipo": "Haiti",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/gml8wx1598135302.png",
+  "liga": "FIFA World Cup CONCACAF Gold Cup"
  }
 }
