@@ -1,1 +1,32 @@
-{}
+{
+ "ba": {
+  "equipo": "Bosnia-Herzegovina",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/wtqqst1455463120.png",
+  "liga": "FIFA World Cup World Cup Qualifying UEFA"
+ },
+ "bg": {
+  "equipo": "Bulgaria",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/0bee7p1552858893.png",
+  "liga": "World Cup Qualifying UEFA UEFA Nations League"
+ },
+ "hr": {
+  "equipo": "Croatia",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/84cfeg1789271106.png",
+  "liga": "FIFA World Cup UEFA Nations League"
+ },
+ "cy": {
+  "equipo": "Cyprus",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/g3slx61589798705.png",
+  "liga": "World Cup Qualifying UEFA UEFA Nations League"
+ },
+ "cz": {
+  "equipo": "Czech Republic",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/1o0cx31654205806.png",
+  "liga": "FIFA World Cup World Cup Qualifying UEFA"
+ },
+ "dk": {
+  "equipo": "Denmark",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/e13arj1717365623.png",
+  "liga": "World Cup Qualifying UEFA UEFA Nations League"
+ }
+}
