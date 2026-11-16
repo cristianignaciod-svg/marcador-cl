@@ -1,84 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "eng.1:401879254",
-  "creado": "2026-10-25T13:01:53-03:00",
-  "archivos": [
-   "historias/img/2026-10-25/eng1-crystal-palace-newcastle.png"
-  ],
-  "titulo": "Crystal Palace 0–2 Newcastle",
-  "liga": "eng.1",
-  "enviado": true,
-  "ig_id": "17986638330108748",
-  "publicado": "2026-10-25T16:02:43+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "eng.1:401878766",
-  "creado": "2026-10-25T13:01:53-03:00",
-  "archivos": [
-   "historias/img/2026-10-25/eng1-hull-city-brentford.png"
-  ],
-  "titulo": "Hull City 1–1 Brentford",
-  "liga": "eng.1",
-  "enviado": true,
-  "ig_id": "17888453880487141",
-  "publicado": "2026-10-25T16:02:43+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "eng.1:401878765",
-  "creado": "2026-10-25T13:01:53-03:00",
-  "archivos": [
-   "historias/img/2026-10-25/eng1-liverpool-brighton.png"
-  ],
-  "titulo": "Liverpool 2–0 Brighton",
-  "liga": "eng.1",
-  "enviado": true,
-  "ig_id": "18109571270181652",
-  "publicado": "2026-10-25T16:02:43+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "eng.1:401879252",
-  "creado": "2026-10-25T13:01:53-03:00",
-  "archivos": [
-   "historias/img/2026-10-25/eng1-man-united-bournemouth.png"
-  ],
-  "titulo": "Man. United 0–3 Bournemouth",
-  "liga": "eng.1",
-  "enviado": true,
-  "ig_id": "18131937994742924",
-  "publicado": "2026-10-25T16:02:43+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "ita.1:401874972",
-  "creado": "2026-10-25T13:32:06-03:00",
-  "archivos": [
-   "historias/img/2026-10-25/ita1-atalanta-frosinone.png"
-  ],
-  "titulo": "Atalanta 4–4 Frosinone",
-  "liga": "ita.1",
-  "enviado": true,
-  "ig_id": "17986856379092835",
-  "publicado": "2026-10-25T16:32:48+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "ita.1:401874952",
-  "creado": "2026-10-25T13:32:06-03:00",
-  "archivos": [
-   "historias/img/2026-10-25/ita1-genova-venezia.png"
-  ],
-  "titulo": "Génova 1–0 Venezia",
-  "liga": "ita.1",
-  "enviado": true,
-  "ig_id": "18076308035754485",
-  "publicado": "2026-10-25T16:32:48+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "fra.1:401876425",
   "creado": "2026-10-25T13:32:06-03:00",
   "archivos": [
@@ -5320,5 +5242,146 @@
   "enviado": true,
   "ig_id": "18002481689821709",
   "publicado": "2026-11-16T19:11:35+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.nations:401861185",
+  "creado": "2026-11-16T18:46:28-03:00",
+  "archivos": [
+   "historias/img/2026-11-16/uefanations-alemania-paises-bajos.png"
+  ],
+  "titulo": "Alemania 5–0 Países Bajos",
+  "liga": "uefa.nations",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.nations:401861179",
+  "creado": "2026-11-16T18:46:28-03:00",
+  "archivos": [
+   "historias/img/2026-11-16/uefanations-gibraltar-malta.png"
+  ],
+  "titulo": "Gibraltar 1–1 Malta",
+  "liga": "uefa.nations",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.nations:401861188",
+  "creado": "2026-11-16T18:46:28-03:00",
+  "archivos": [
+   "historias/img/2026-11-16/uefanations-grecia-serbia.png"
+  ],
+  "titulo": "Grecia 1–0 Serbia",
+  "liga": "uefa.nations",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.nations:401861187",
+  "creado": "2026-11-16T18:46:28-03:00",
+  "archivos": [
+   "historias/img/2026-11-16/uefanations-north-macedonia-eslovenia.png"
+  ],
+  "titulo": "North Macedonia 0–3 Eslovenia",
+  "liga": "uefa.nations",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.nations:401861186",
+  "creado": "2026-11-16T18:46:28-03:00",
+  "archivos": [
+   "historias/img/2026-11-16/uefanations-suiza-escocia.png"
+  ],
+  "titulo": "Suiza 4–0 Escocia",
+  "liga": "uefa.nations",
+  "enviado": false
+ },
+ {
+  "tipo": "resumen",
+  "clave": "uefa.nations:2026-11-16",
+  "creado": "2026-11-16T18:46:28-03:00",
+  "archivos": [
+   "historias/img/2026-11-16/uefanations-20261116-1.png"
+  ],
+  "titulo": "uefa.nations 16 de noviembre",
+  "liga": "uefa.nations",
+  "fase": "",
+  "rango": "16 de noviembre",
+  "partidos": [
+   {
+    "dia": "Lun 16",
+    "local": "Islas Feroe",
+    "visita": "Moldavia",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "dia": "Lun 16",
+    "local": "Kazajistán",
+    "visita": "Eslovaquia",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "dia": "Lun 16",
+    "local": "Estonia",
+    "visita": "Bulgaria",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "dia": "Lun 16",
+    "local": "Islandia",
+    "visita": "Luxemburgo",
+    "gl": 3,
+    "gv": 0
+   },
+   {
+    "dia": "Lun 16",
+    "local": "Lituania",
+    "visita": "Liechtenstein",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "dia": "Lun 16",
+    "local": "Alemania",
+    "visita": "Países Bajos",
+    "gl": 5,
+    "gv": 0
+   },
+   {
+    "dia": "Lun 16",
+    "local": "Gibraltar",
+    "visita": "Malta",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "dia": "Lun 16",
+    "local": "Grecia",
+    "visita": "Serbia",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "dia": "Lun 16",
+    "local": "North Macedonia",
+    "visita": "Eslovenia",
+    "gl": 0,
+    "gv": 3
+   },
+   {
+    "dia": "Lun 16",
+    "local": "Suiza",
+    "visita": "Escocia",
+    "gl": 4,
+    "gv": 0
+   }
+  ],
+  "sin_tabla": false,
+  "enviado": false
  }
 ]

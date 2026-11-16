@@ -1,1 +1,339 @@
-[]
+[
+ {
+  "id": "uefanations-alemania-paises-bajos",
+  "liga": "uefa.nations",
+  "fase": "",
+  "fecha": "2026-11-16",
+  "local": "Alemania",
+  "visita": "Países Bajos",
+  "gl": 5,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "41'",
+    "jugador": "Derry Scherhant",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "60'",
+    "jugador": "Florian Wirtz",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "65'",
+    "jugador": "Nico Schlotterbeck",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "71'",
+    "jugador": "Florian Wirtz",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "77'",
+    "jugador": "Brajan Gruda",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "86'",
+    "jugador": "Mexx Meerdink",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "uefanations-gibraltar-malta",
+  "liga": "uefa.nations",
+  "fase": "",
+  "fecha": "2026-11-16",
+  "local": "Gibraltar",
+  "visita": "Malta",
+  "gl": 1,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "19'",
+    "jugador": "Kurt Shaw",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "81'",
+    "jugador": "Carlos Peliza Richards",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "7'",
+    "jugador": "Nicholas Pozo",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "30'",
+    "jugador": "Graeme Torrilla",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "uefanations-grecia-serbia",
+  "liga": "uefa.nations",
+  "fase": "",
+  "fecha": "2026-11-16",
+  "local": "Grecia",
+  "visita": "Serbia",
+  "gl": 1,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "69'",
+    "jugador": "Georgios Masouras",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "7'",
+    "jugador": "Christos Zafeiris",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "45'",
+    "jugador": "Srjdan Babic",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "uefanations-north-macedonia-eslovenia",
+  "liga": "uefa.nations",
+  "fase": "",
+  "fecha": "2026-11-16",
+  "local": "North Macedonia",
+  "visita": "Eslovenia",
+  "gl": 0,
+  "gv": 3,
+  "goles": [
+   {
+    "min": "29'",
+    "jugador": "Danijel Sturm",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "66'",
+    "jugador": "David Zec",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "90+1'",
+    "jugador": "Danijel Sturm",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "22'",
+    "jugador": "Adam Gnezda Cerin",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "48'",
+    "jugador": "Zan Karnicnik",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "57'",
+    "jugador": "Ezgjan Alioski",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "75'",
+    "jugador": "Benjamin Verbic",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "uefanations-suiza-escocia",
+  "liga": "uefa.nations",
+  "fase": "",
+  "fecha": "2026-11-16",
+  "local": "Suiza",
+  "visita": "Escocia",
+  "gl": 4,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "22'",
+    "jugador": "Lewis Ferguson",
+    "lado": "local",
+    "penal": false,
+    "autogol": true
+   },
+   {
+    "min": "47'",
+    "jugador": "Winsley Boteli",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "51'",
+    "jugador": "Alvyn Sanches",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "89'",
+    "jugador": "Zeki Amdouni",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "52'",
+    "jugador": "Oliver McBurnie",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "53'",
+    "jugador": "Andy Robertson",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "73'",
+    "jugador": "Ryan Christie",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "tipo": "resumen",
+  "id": "uefanations-20261116",
+  "liga": "uefa.nations",
+  "fase": "",
+  "fecha": "2026-11-16",
+  "rango": "16 de noviembre",
+  "partidos": [
+   {
+    "dia": "Lun 16",
+    "local": "Islas Feroe",
+    "visita": "Moldavia",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "dia": "Lun 16",
+    "local": "Kazajistán",
+    "visita": "Eslovaquia",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "dia": "Lun 16",
+    "local": "Estonia",
+    "visita": "Bulgaria",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "dia": "Lun 16",
+    "local": "Islandia",
+    "visita": "Luxemburgo",
+    "gl": 3,
+    "gv": 0
+   },
+   {
+    "dia": "Lun 16",
+    "local": "Lituania",
+    "visita": "Liechtenstein",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "dia": "Lun 16",
+    "local": "Alemania",
+    "visita": "Países Bajos",
+    "gl": 5,
+    "gv": 0
+   },
+   {
+    "dia": "Lun 16",
+    "local": "Gibraltar",
+    "visita": "Malta",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "dia": "Lun 16",
+    "local": "Grecia",
+    "visita": "Serbia",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "dia": "Lun 16",
+    "local": "North Macedonia",
+    "visita": "Eslovenia",
+    "gl": 0,
+    "gv": 3
+   },
+   {
+    "dia": "Lun 16",
+    "local": "Suiza",
+    "visita": "Escocia",
+    "gl": 4,
+    "gv": 0
+   }
+  ]
+ }
+]
