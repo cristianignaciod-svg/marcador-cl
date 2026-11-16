@@ -294,5 +294,30 @@
   "equipo": "Australia",
   "fuente": "https://r2.thesportsdb.com/images/media/team/badge/eylq8x1781926138.png",
   "liga": "FIFA World Cup AFC Asian Cup"
+ },
+ "ir": {
+  "equipo": "Iran",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/uttpvw1455465617.png",
+  "liga": "FIFA World Cup AFC Asian Cup"
+ },
+ "sa": {
+  "equipo": "Saudi Arabia",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/24xwpq1594125742.png",
+  "liga": "FIFA World Cup AFC Asian Cup"
+ },
+ "qa": {
+  "equipo": "Qatar",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/rs3ir31642708685.png",
+  "liga": "FIFA World Cup AFC Asian Cup"
+ },
+ "ae": {
+  "equipo": "United Arab Emirates",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/tua6w31713725676.png",
+  "liga": "World Cup Qualifying AFC AFC Asian Cup"
+ },
+ "iq": {
+  "equipo": "Iraq",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/aqidfn1742100110.png",
+  "liga": "FIFA World Cup World Cup Qualifying AFC"
  }
 }
