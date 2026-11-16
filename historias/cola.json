@@ -5186,10 +5186,12 @@
    }
   ],
   "sin_tabla": false,
-  "enviado": false,
+  "enviado": true,
   "texto": "¡Domingo de infarto en la Nations League! 🔥 Inglaterra le ganó 3-2 a España en un partidazo entre grandes.\nBélgica no tuvo piedad y goleó 4-1 a Italia, mientras Finlandia le hizo siete a San Marino (7-2).\nFrancia también sumó con un 2-1 sobre Turquía.\n¿Cuál fue el resultado que más los sorprendió? 👇\n\n#MarcadorCL #Futbol #NationsLeague #UNL #FutbolEuropeo",
   "avisado": true,
-  "aprobado": true
+  "aprobado": true,
+  "ig_id": "17992546587076258",
+  "publicado": "2026-11-16T00:18:10+00:00"
  },
  {
   "tipo": "historia",
