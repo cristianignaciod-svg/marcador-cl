@@ -5291,7 +5291,9 @@
   ],
   "titulo": "Estonia 2–1 Bulgaria",
   "liga": "uefa.nations",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18119970727801531",
+  "publicado": "2026-11-16T19:11:35+00:00"
  },
  {
   "tipo": "historia",
@@ -5302,7 +5304,9 @@
   ],
   "titulo": "Islandia 3–0 Luxemburgo",
   "liga": "uefa.nations",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18106615166567231",
+  "publicado": "2026-11-16T19:11:35+00:00"
  },
  {
   "tipo": "historia",
@@ -5313,6 +5317,8 @@
   ],
   "titulo": "Lituania 2–1 Liechtenstein",
   "liga": "uefa.nations",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18002481689821709",
+  "publicado": "2026-11-16T19:11:35+00:00"
  }
 ]
