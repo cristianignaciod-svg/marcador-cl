@@ -43,6 +43,20 @@ h1 span{color:var(--accent)}
 .upd .stale{color:var(--live)}
 .tabs{display:flex;gap:6px;overflow-x:auto;padding-bottom:10px;scrollbar-width:none}
 .tabs::-webkit-scrollbar,.days::-webkit-scrollbar{display:none}
+/* flechas del selector de ligas: solo en computador (mouse); en el celular se desliza con el dedo */
+.tabs-wrap{position:relative}
+.tarrow{display:none}
+@media (hover:hover) and (pointer:fine){
+  .tarrow{position:absolute;top:0;z-index:2;width:34px;height:34px;border-radius:50%;border:1px solid var(--line);background:var(--bg);color:var(--fg);font:700 18px/1 var(--body);cursor:pointer;align-items:center;justify-content:center;box-shadow:0 1px 4px rgba(0,0,0,.12)}
+  .tarrow:hover{background:var(--surface-2)}
+  .tarrow:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  .tarrow.izq{left:0}.tarrow.der{right:0}
+  .tabs-wrap.puede-izq .tarrow.izq,.tabs-wrap.puede-der .tarrow.der{display:flex}
+  .tabs-wrap::before,.tabs-wrap::after{content:"";position:absolute;top:0;bottom:10px;width:70px;pointer-events:none;z-index:1;opacity:0;transition:opacity .15s}
+  .tabs-wrap::before{left:0;background:linear-gradient(90deg,var(--bg) 45%,transparent)}
+  .tabs-wrap::after{right:0;background:linear-gradient(270deg,var(--bg) 45%,transparent)}
+  .tabs-wrap.puede-izq::before,.tabs-wrap.puede-der::after{opacity:1}
+}
 .tab{flex:none;display:flex;align-items:center;gap:7px;border:1px solid var(--line);background:var(--bg);color:var(--fg);font:600 13.5px var(--body);padding:7px 12px;border-radius:999px;cursor:pointer}
 .tab i{width:8px;height:8px;border-radius:50%;background:var(--c,var(--muted))}
 .tab .n{font-size:11.5px;color:var(--muted);font-variant-numeric:tabular-nums}
@@ -185,7 +199,7 @@ footer{font-size:12px;color:var(--muted);padding-bottom:30px}
       </div>
     </div>
     <div class="seg" id="vista" role="toolbar" aria-label="Vista"><button type="button" data-vista="partidos" aria-pressed="true">Partidos</button><button type="button" data-vista="tablas" aria-pressed="false">Tablas</button></div>
-    <div class="tabs" id="tabs" role="toolbar" aria-label="Ligas"></div>
+    <div class="tabs-wrap" id="tabsWrap"><button type="button" class="tarrow izq" aria-label="Ver ligas anteriores">‹</button><div class="tabs" id="tabs" role="toolbar" aria-label="Ligas"></div><button type="button" class="tarrow der" aria-label="Ver más ligas">›</button></div>
     <div class="days" id="days" role="toolbar" aria-label="Días"></div>
   </div>
 </header>
@@ -603,7 +617,27 @@ function renderTablas() {
   document.getElementById("main").innerHTML = html;
 }
 
+function flechasLigas() {
+  const t = document.getElementById("tabs"), w = document.getElementById("tabsWrap");
+  if (!t || !w) return;
+  w.classList.toggle("puede-izq", t.scrollLeft > 2);
+  w.classList.toggle("puede-der", t.scrollLeft + t.clientWidth < t.scrollWidth - 2);
+}
+(() => {
+  const t = document.getElementById("tabs"), w = document.getElementById("tabsWrap");
+  w.querySelector(".izq").addEventListener("click", () => t.scrollBy({left: -t.clientWidth * 0.7, behavior: "smooth"}));
+  w.querySelector(".der").addEventListener("click", () => t.scrollBy({left: t.clientWidth * 0.7, behavior: "smooth"}));
+  t.addEventListener("scroll", flechasLigas, {passive: true});
+  window.addEventListener("resize", flechasLigas);
+  // rueda del mouse: mueve la fila de ligas hacia los lados
+  t.addEventListener("wheel", e => {
+    if (t.scrollWidth <= t.clientWidth || Math.abs(e.deltaX) > Math.abs(e.deltaY)) return;
+    t.scrollLeft += e.deltaY; e.preventDefault();
+  }, {passive: false});
+})();
+
 function render() {
+  queueMicrotask(flechasLigas);
   document.querySelectorAll("#vista [data-vista]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.vista === state.vista)));
   if (state.vista === "tablas") { renderTablas(); return; }
   document.getElementById("days").hidden = false;
