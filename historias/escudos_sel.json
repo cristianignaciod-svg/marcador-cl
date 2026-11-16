@@ -131,5 +131,33 @@
   "equipo": "Norway",
   "fuente": "https://r2.thesportsdb.com/images/media/team/badge/gyfn811591973155.png",
   "liga": "World Cup Qualifying UEFA UEFA Nations League"
+ },
+ "gb-nir": {
+  "intento": "2026-11-16T17:15+00:00"
+ },
+ "pl": {
+  "equipo": "Poland",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/ttvrxy1455466076.png",
+  "liga": "World Cup Qualifying UEFA UEFA Nations League"
+ },
+ "pt": {
+  "equipo": "Portugal",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/swqvpy1455466083.png",
+  "liga": "FIFA World Cup UEFA Nations League"
+ },
+ "ro": {
+  "equipo": "Romania",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/w903wb1689198300.png",
+  "liga": "World Cup Qualifying UEFA UEFA Nations League"
+ },
+ "ru": {
+  "equipo": "Russia",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/nz50i51689197440.png",
+  "liga": "International Friendlies"
+ },
+ "sm": {
+  "equipo": "San Marino",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/vfvy3j1626192199.png",
+  "liga": "World Cup Qualifying UEFA UEFA Nations League"
  }
 }
