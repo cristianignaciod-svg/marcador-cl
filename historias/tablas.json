@@ -358,10 +358,26 @@
        "color": "#c9dd03"
       },
       {
+       "equipo": "Deportes Recoleta",
+       "largo": "Deportes Recoleta",
+       "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1264972_small.png",
+       "pos": 6,
+       "pj": 30,
+       "g": 12,
+       "e": 9,
+       "p": 9,
+       "gf": 42,
+       "gc": 43,
+       "dg": -1,
+       "pts": 45,
+       "zona": null,
+       "color": "#c9dd03"
+      },
+      {
        "equipo": "San Marcos",
        "largo": "San Marcos",
        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/192433_small.png",
-       "pos": 6,
+       "pos": 7,
        "pj": 30,
        "g": 11,
        "e": 10,
@@ -369,22 +385,6 @@
        "gf": 35,
        "gc": 29,
        "dg": 6,
-       "pts": 43,
-       "zona": null,
-       "color": "#c9dd03"
-      },
-      {
-       "equipo": "Deportes Recoleta",
-       "largo": "Deportes Recoleta",
-       "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/1264972_small.png",
-       "pos": 7,
-       "pj": 30,
-       "g": 11,
-       "e": 10,
-       "p": 9,
-       "gf": 41,
-       "gc": 43,
-       "dg": -2,
        "pts": 43,
        "zona": null,
        "color": "#c9dd03"
@@ -428,12 +428,12 @@
        "pos": 10,
        "pj": 30,
        "g": 9,
-       "e": 12,
-       "p": 9,
+       "e": 11,
+       "p": 10,
        "gf": 42,
-       "gc": 33,
-       "dg": 9,
-       "pts": 39,
+       "gc": 34,
+       "dg": 8,
+       "pts": 38,
        "zona": null,
        "color": null
       },
@@ -536,7 +536,7 @@
      ]
     }
    ],
-   "actualizado": "2026-11-15T20:39-03:00",
+   "actualizado": "2026-11-15T21:47-03:00",
    "fuentes": [
     "FotMob"
    ]
