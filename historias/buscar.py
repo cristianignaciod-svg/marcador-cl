@@ -87,7 +87,7 @@ def asegurar_escudo_sel(nombre):
         try:
             time.sleep(2.2)  # límite de la API gratuita
             q = urllib.parse.quote(n)
-            data = get(f"https://www.thesportsdb.com/api/v1/json/3/searchteams.php?t={q}")
+            data = get(f"https://www.thesportsdb.com/api/v1/json/123/searchteams.php?t={q}")
         except Exception:
             continue
         for t in data.get("teams") or []:
