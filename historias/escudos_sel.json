@@ -56,5 +56,30 @@
  },
  "ge": {
   "intento": "2026-11-16T16:44+00:00"
+ },
+ "de": {
+  "equipo": "Germany",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/1xysi51726167152.png",
+  "liga": "FIFA World Cup UEFA Nations League"
+ },
+ "gi": {
+  "equipo": "Gibraltar",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/l5eevk1655237355.png",
+  "liga": "World Cup Qualifying UEFA UEFA Nations League"
+ },
+ "gr": {
+  "equipo": "Greece",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/xtxtts1455465601.png",
+  "liga": "World Cup Qualifying UEFA UEFA Nations League"
+ },
+ "kz": {
+  "equipo": "Kazakhstan",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/h3wfj01552944956.png",
+  "liga": "World Cup Qualifying UEFA UEFA Nations League"
+ },
+ "xk": {
+  "equipo": "Kosovo",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/i3wq751730304457.png",
+  "liga": "World Cup Qualifying UEFA UEFA Nations League"
  }
 }
