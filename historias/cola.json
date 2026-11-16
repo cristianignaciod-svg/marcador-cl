@@ -5252,7 +5252,9 @@
   ],
   "titulo": "Alemania 5–0 Países Bajos",
   "liga": "uefa.nations",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18144187156615655",
+  "publicado": "2026-11-16T21:46:59+00:00"
  },
  {
   "tipo": "historia",
@@ -5263,7 +5265,9 @@
   ],
   "titulo": "Gibraltar 1–1 Malta",
   "liga": "uefa.nations",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17920072164468214",
+  "publicado": "2026-11-16T21:46:59+00:00"
  },
  {
   "tipo": "historia",
@@ -5274,7 +5278,9 @@
   ],
   "titulo": "Grecia 1–0 Serbia",
   "liga": "uefa.nations",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18131263945881425",
+  "publicado": "2026-11-16T21:46:59+00:00"
  },
  {
   "tipo": "historia",
@@ -5285,7 +5291,9 @@
   ],
   "titulo": "North Macedonia 0–3 Eslovenia",
   "liga": "uefa.nations",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17957226300284638",
+  "publicado": "2026-11-16T21:46:59+00:00"
  },
  {
   "tipo": "historia",
@@ -5296,7 +5304,9 @@
   ],
   "titulo": "Suiza 4–0 Escocia",
   "liga": "uefa.nations",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18101572955098732",
+  "publicado": "2026-11-16T21:46:59+00:00"
  },
  {
   "tipo": "resumen",
