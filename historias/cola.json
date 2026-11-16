@@ -1,34 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "chi.pb:fm1000007343",
-  "creado": "2026-10-24T19:42:47-03:00",
-  "archivos": [
-   "historias/img/2026-10-24/chipb-san-luis-deportes-recoleta.png"
-  ],
-  "titulo": "San Luis 1–1 Deportes Recoleta",
-  "liga": "chi.pb",
-  "sin_goleadores": false,
-  "enviado": true,
-  "ig_id": "18120307502069000",
-  "publicado": "2026-10-24T22:43:24+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "chi.pb:fm1000007345",
-  "creado": "2026-10-24T19:42:47-03:00",
-  "archivos": [
-   "historias/img/2026-10-24/chipb-deportes-copiapo-deportes-santa-cruz.png"
-  ],
-  "titulo": "Deportes Copiapó 1–1 Deportes Santa Cruz",
-  "liga": "chi.pb",
-  "sin_goleadores": false,
-  "enviado": true,
-  "ig_id": "18111767585177739",
-  "publicado": "2026-10-24T22:43:24+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "arg.1:401841632",
   "creado": "2026-10-24T21:46:54-03:00",
   "archivos": [
@@ -5264,5 +5236,82 @@
   "enviado": true,
   "ig_id": "18081608957729831",
   "publicado": "2026-11-15T23:09:44+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "chi.pb:fm1000007347",
+  "creado": "2026-11-15T22:35:00-03:00",
+  "archivos": [
+   "historias/img/2026-11-15/chipb-deportes-recoleta-deportes-iquique.png"
+  ],
+  "titulo": "Deportes Recoleta 1–1 Deportes Iquique",
+  "liga": "chi.pb",
+  "sin_goleadores": false,
+  "enviado": false
+ },
+ {
+  "tipo": "resumen",
+  "clave": "chi.pb:2026-11-15",
+  "creado": "2026-11-15T22:35:00-03:00",
+  "archivos": [
+   "historias/img/2026-11-15/chipb-20261115-1.png",
+   "historias/img/2026-11-15/chipb-20261115-2.png"
+  ],
+  "titulo": "Primera B Fecha 30",
+  "liga": "chi.pb",
+  "fase": "Fecha 30",
+  "rango": "15 al 15 de noviembre",
+  "partidos": [
+   {
+    "dia": "Dom 15",
+    "local": "Santiago Wanderers",
+    "visita": "Deportes Copiapó",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "dia": "Dom 15",
+    "local": "Cobreloa",
+    "visita": "Puerto Montt",
+    "gl": 3,
+    "gv": 0
+   },
+   {
+    "dia": "Dom 15",
+    "local": "Deportes Santa Cruz",
+    "visita": "Rangers",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "dia": "Dom 15",
+    "local": "Magallanes",
+    "visita": "Antofagasta",
+    "gl": 2,
+    "gv": 3
+   },
+   {
+    "dia": "Dom 15",
+    "local": "San Marcos",
+    "visita": "San Luis",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "dia": "Dom 15",
+    "local": "Unión San Felipe",
+    "visita": "Unión Española",
+    "gl": 3,
+    "gv": 4
+   },
+   {
+    "dia": "Dom 15",
+    "local": "Deportes Recoleta",
+    "visita": "Deportes Iquique",
+    "gl": 1,
+    "gv": 1
+   }
+  ],
+  "enviado": false
  }
 ]
