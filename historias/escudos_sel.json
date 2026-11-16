@@ -379,5 +379,30 @@
   "equipo": "Ghana",
   "fuente": "https://r2.thesportsdb.com/images/media/team/badge/j589xw1751526124.png",
   "liga": "FIFA World Cup African Cup of Nations Qualifying"
+ },
+ "cm": {
+  "equipo": "Cameroon",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/txqspw1455463989.png",
+  "liga": "World Cup Qualifying CAF African Cup of Nations"
+ },
+ "ci": {
+  "equipo": "Ivory Coast",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/rwxuuu1455465643.png",
+  "liga": "FIFA World Cup African Cup of Nations"
+ },
+ "ml": {
+  "equipo": "Mali",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/urrruy1455465656.png",
+  "liga": "World Cup Qualifying CAF African Cup of Nations"
+ },
+ "za": {
+  "equipo": "South Africa",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/xjz9j91553368824.png",
+  "liga": "FIFA World Cup African Cup of Nations"
+ },
+ "cv": {
+  "equipo": "Cape Verde",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/5jn0o71593280376.png",
+  "liga": "FIFA World Cup International Friendlies"
  }
 }
