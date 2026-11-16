@@ -16,6 +16,7 @@ import os
 import re
 import sys
 import unicodedata
+import urllib.parse
 import urllib.request
 from zoneinfo import ZoneInfo
 
@@ -64,6 +65,60 @@ def get(url):
     req = urllib.request.Request(url, headers=UA)
     with urllib.request.urlopen(req, timeout=25) as r:
         return json.load(r)
+
+
+ESC_SEL = os.path.join(BASE, "escudos", "selecciones-escudos")
+
+
+def asegurar_escudo_sel(nombre):
+    """Baja el escudo oficial de la federación (TheSportsDB) si no está guardado. Devuelve True si existe."""
+    from paises import PAISES
+    iso = iso_de(nombre)
+    if not iso:
+        return False
+    destino = os.path.join(ESC_SEL, f"{iso}.png")
+    if os.path.exists(destino):
+        return True
+    reg = cargar("escudos_sel.json", {})
+    if reg.get(iso, {}).get("intento", "") > (dt.datetime.now(dt.timezone.utc) - dt.timedelta(hours=12)).isoformat():
+        return False  # no se encontró hace poco: no insistir en cada pasada
+    import time
+    for n in PAISES[iso]:
+        try:
+            time.sleep(2.2)  # límite de la API gratuita
+            q = urllib.parse.quote(n)
+            data = get(f"https://www.thesportsdb.com/api/v1/json/3/searchteams.php?t={q}")
+        except Exception:
+            continue
+        for t in data.get("teams") or []:
+            if t.get("strSport") != "Soccer" or (t.get("strGender") or "Male") != "Male":
+                continue
+            nt = t.get("strTeam") or ""
+            if iso_de(nt) != iso:  # nombre exacto del país (descarta Sub-21, femenino, clubes)
+                continue
+            liga = (t.get("strLeague") or "") + " " + (t.get("strLeague2") or "")
+            if not re.search(r"International|World Cup|Nations|Friendl|Euro|Copa Am|Africa Cup|Asian Cup|Gold Cup|Qualif", liga, re.I):
+                continue
+            url = t.get("strBadge") or t.get("strTeamBadge")
+            if not url:
+                continue
+            try:
+                req = urllib.request.Request(url, headers=UA)
+                with urllib.request.urlopen(req, timeout=25) as r:
+                    img = r.read()
+            except Exception:
+                continue
+            if not img.startswith(b"\x89PNG") and not img[:3] == b"\xff\xd8\xff":
+                continue
+            os.makedirs(ESC_SEL, exist_ok=True)
+            open(destino, "wb").write(img)
+            reg[iso] = {"equipo": nt, "fuente": url, "liga": liga.strip()}
+            guardar("escudos_sel.json", reg)
+            return True
+    reg[iso] = {"intento": dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes")}
+    guardar("escudos_sel.json", reg)
+    DIAG.setdefault("sin_escudo_sel", []).append(nombre)
+    return False
 
 
 def cargar(n, defecto):
@@ -1161,6 +1216,27 @@ def main():
     except Exception:
         pass
     cola = cola[-300:]
+    # escudos oficiales de selecciones: se bajan antes de generar las imágenes
+    try:
+        if os.path.exists(os.path.join(BASE, "bajar_escudos_sel")):
+            from paises import PAISES
+            for iso, ns in PAISES.items():
+                asegurar_escudo_sel(ns[0])
+            os.remove(os.path.join(BASE, "bajar_escudos_sel"))
+        nombres = set()
+        for x in pendientes:
+            if x.get("liga") in SELECCIONES:
+                nombres |= {x.get("local"), x.get("visita")}
+            for pp in x.get("partidos", []) if x.get("liga") in SELECCIONES else []:
+                nombres |= {pp.get("local"), pp.get("visita")}
+            for g in x.get("grupos", []) if x.get("tipo") == "agenda" else []:
+                if isinstance(g, dict) and g.get("liga") in SELECCIONES:
+                    for pp in g.get("partidos", []):
+                        nombres |= {pp.get("local"), pp.get("visita")}
+        for n in nombres - {None}:
+            asegurar_escudo_sel(n)
+    except Exception as ex:
+        DIAG["errores"].append(f"escudos selecciones: {str(ex)[:150]}")
     guardar("pendientes.json", pendientes)
     guardar("cola.json", cola)
     guardar("publicados.json", sorted(publicados)[-3000:])
