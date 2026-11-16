@@ -81,5 +81,55 @@
   "equipo": "Kosovo",
   "fuente": "https://r2.thesportsdb.com/images/media/team/badge/i3wq751730304457.png",
   "liga": "World Cup Qualifying UEFA UEFA Nations League"
+ },
+ "lv": {
+  "equipo": "Latvia",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/3zoyfk1692679699.png",
+  "liga": "World Cup Qualifying UEFA UEFA Nations League"
+ },
+ "li": {
+  "equipo": "Liechtenstein",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/4o0nlh1591970494.png",
+  "liga": "World Cup Qualifying UEFA UEFA Nations League"
+ },
+ "lt": {
+  "equipo": "Lithuania",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/ukapsd1689197167.png",
+  "liga": "World Cup Qualifying UEFA UEFA Nations League"
+ },
+ "lu": {
+  "equipo": "Luxembourg",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/nsakoo1713725395.png",
+  "liga": "World Cup Qualifying UEFA UEFA Nations League"
+ },
+ "mt": {
+  "equipo": "Malta",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/w3knbf1790356155.png",
+  "liga": "World Cup Qualifying UEFA UEFA Nations League"
+ },
+ "md": {
+  "equipo": "Moldova",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/dcxqck1591972290.png",
+  "liga": "World Cup Qualifying UEFA UEFA Nations League"
+ },
+ "me": {
+  "equipo": "Montenegro",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/dywswx1552859263.png",
+  "liga": "World Cup Qualifying UEFA UEFA Nations League"
+ },
+ "nl": {
+  "equipo": "Netherlands",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/1p0hr41593787110.png",
+  "liga": "FIFA World Cup UEFA Nations League"
+ },
+ "mk": {
+  "equipo": "North Macedonia",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/v6xfhn1552943846.png",
+  "liga": "World Cup Qualifying UEFA UEFA Nations League"
+ },
+ "no": {
+  "equipo": "Norway",
+  "fuente": "https://r2.thesportsdb.com/images/media/team/badge/gyfn811591973155.png",
+  "liga": "World Cup Qualifying UEFA UEFA Nations League"
  }
 }
