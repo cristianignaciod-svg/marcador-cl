@@ -1,46 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "agenda:2026-10-25",
-  "creado": "2026-10-25T09:23:29-03:00",
-  "archivos": [
-   "historias/img/2026-10-25/agenda-2026-10-25-1.png",
-   "historias/img/2026-10-25/agenda-2026-10-25-2.png"
-  ],
-  "titulo": "Hoy se juega (15 partidos)",
-  "liga": "agenda",
-  "enviado": true,
-  "ig_id": "18051555140811735",
-  "publicado": "2026-10-25T12:24:12+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "ita.1:401875036",
-  "creado": "2026-10-25T11:26:36-03:00",
-  "archivos": [
-   "historias/img/2026-10-25/ita1-inter-fiorentina.png"
-  ],
-  "titulo": "Inter 2–1 Fiorentina",
-  "liga": "ita.1",
-  "enviado": true,
-  "ig_id": "18118811444002794",
-  "publicado": "2026-10-25T14:27:13+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "esp.1:401882835",
-  "creado": "2026-10-25T12:04:50-03:00",
-  "archivos": [
-   "historias/img/2026-10-25/esp1-athletic-getafe.png"
-  ],
-  "titulo": "Athletic 4–0 Getafe",
-  "liga": "esp.1",
-  "enviado": true,
-  "ig_id": "17994184503103284",
-  "publicado": "2026-10-25T15:05:28+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "eng.1:401879254",
   "creado": "2026-10-25T13:01:53-03:00",
   "archivos": [
@@ -5321,5 +5281,38 @@
   "enviado": true,
   "ig_id": "18116712773130801",
   "publicado": "2026-11-16T17:39:16+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.nations:401861183",
+  "creado": "2026-11-16T16:11:01-03:00",
+  "archivos": [
+   "historias/img/2026-11-16/uefanations-estonia-bulgaria.png"
+  ],
+  "titulo": "Estonia 2–1 Bulgaria",
+  "liga": "uefa.nations",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.nations:401861182",
+  "creado": "2026-11-16T16:11:01-03:00",
+  "archivos": [
+   "historias/img/2026-11-16/uefanations-islandia-luxemburgo.png"
+  ],
+  "titulo": "Islandia 3–0 Luxemburgo",
+  "liga": "uefa.nations",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.nations:401861184",
+  "creado": "2026-11-16T16:11:01-03:00",
+  "archivos": [
+   "historias/img/2026-11-16/uefanations-lituania-liechtenstein.png"
+  ],
+  "titulo": "Lituania 2–1 Liechtenstein",
+  "liga": "uefa.nations",
+  "enviado": false
  }
 ]
