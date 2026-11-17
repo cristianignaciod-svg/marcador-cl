@@ -1,202 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "fra.1:401876423",
-  "creado": "2026-10-25T15:56:05-03:00",
-  "archivos": [
-   "historias/img/2026-10-25/fra1-toulouse-troyes.png"
-  ],
-  "titulo": "Toulouse 0–0 Troyes",
-  "liga": "fra.1",
-  "enviado": true,
-  "ig_id": "18138846358712559",
-  "publicado": "2026-10-25T18:56:46+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "chi.1:401850675",
-  "creado": "2026-10-25T16:06:43-03:00",
-  "archivos": [
-   "historias/img/2026-10-25/chi1-nublense-coquimbo-unido.png"
-  ],
-  "titulo": "Ñublense 2–1 Coquimbo Unido",
-  "liga": "chi.1",
-  "enviado": true,
-  "ig_id": "18125605955296669",
-  "publicado": "2026-10-25T19:07:37+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "fra.1:401876429",
-  "creado": "2026-10-25T16:06:43-03:00",
-  "archivos": [
-   "historias/img/2026-10-25/fra1-aj-auxerre-le-mans.png"
-  ],
-  "titulo": "AJ Auxerre 1–1 Le Mans",
-  "liga": "fra.1",
-  "enviado": true,
-  "ig_id": "18115269962328344",
-  "publicado": "2026-10-25T19:07:37+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "fra.1:401876426",
-  "creado": "2026-10-25T16:06:43-03:00",
-  "archivos": [
-   "historias/img/2026-10-25/fra1-marseille-le-havre-ac.png"
-  ],
-  "titulo": "Marseille 4–3 Le Havre AC",
-  "liga": "fra.1",
-  "enviado": true,
-  "ig_id": "18642556495007374",
-  "publicado": "2026-10-25T19:07:37+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "fra.1:401876424",
-  "creado": "2026-10-25T16:06:43-03:00",
-  "archivos": [
-   "historias/img/2026-10-25/fra1-stade-rennais-strasbourg.png"
-  ],
-  "titulo": "Stade Rennais 3–0 Strasbourg",
-  "liga": "fra.1",
-  "enviado": true,
-  "ig_id": "18018291860958709",
-  "publicado": "2026-10-25T19:07:37+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "eng.1:401878764",
-  "creado": "2026-10-25T16:17:58-03:00",
-  "archivos": [
-   "historias/img/2026-10-25/eng1-sunderland-leeds.png"
-  ],
-  "titulo": "Sunderland 0–0 Leeds",
-  "liga": "eng.1",
-  "enviado": true,
-  "error": "400 {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,129,316,831,759,825 cannot be found.\",\"fbtrace_id\":\"AGelXgOsh3n7tpYND4LEXOy\"}}",
-  "intentos": 1,
-  "ig_id": "18111272690228815",
-  "publicado": "2026-10-25T19:28:30+00:00"
- },
- {
-  "tipo": "resumen",
-  "clave": "eng.1:2026-10-23",
-  "creado": "2026-10-25T16:17:58-03:00",
-  "archivos": [
-   "historias/img/2026-10-25/eng1-20261023-1.png"
-  ],
-  "titulo": "eng.1 23 al 25 de octubre",
-  "liga": "eng.1",
-  "fase": "",
-  "rango": "23 al 25 de octubre",
-  "partidos": [
-   {
-    "dia": "Vie 23",
-    "local": "Ipswich",
-    "visita": "Nottingham F.",
-    "gl": 1,
-    "gv": 1
-   },
-   {
-    "dia": "Sáb 24",
-    "local": "Aston Villa",
-    "visita": "Man. City",
-    "gl": 2,
-    "gv": 1
-   },
-   {
-    "dia": "Sáb 24",
-    "local": "Arsenal",
-    "visita": "Everton",
-    "gl": 2,
-    "gv": 0
-   },
-   {
-    "dia": "Sáb 24",
-    "local": "Coventry",
-    "visita": "Fulham",
-    "gl": 0,
-    "gv": 1
-   },
-   {
-    "dia": "Sáb 24",
-    "local": "Chelsea",
-    "visita": "Tottenham",
-    "gl": 0,
-    "gv": 2
-   },
-   {
-    "dia": "Dom 25",
-    "local": "Crystal Palace",
-    "visita": "Newcastle",
-    "gl": 0,
-    "gv": 2
-   },
-   {
-    "dia": "Dom 25",
-    "local": "Hull City",
-    "visita": "Brentford",
-    "gl": 1,
-    "gv": 1
-   },
-   {
-    "dia": "Dom 25",
-    "local": "Liverpool",
-    "visita": "Brighton",
-    "gl": 2,
-    "gv": 0
-   },
-   {
-    "dia": "Dom 25",
-    "local": "Man. United",
-    "visita": "Bournemouth",
-    "gl": 0,
-    "gv": 3
-   },
-   {
-    "dia": "Dom 25",
-    "local": "Sunderland",
-    "visita": "Leeds",
-    "gl": 0,
-    "gv": 0
-   }
-  ],
-  "enviado": true,
-  "texto": "¡Fecha de batacazos en la Premier! 😱 Bournemouth fue a Old Trafford y le metió un 0-3 al Man. United.\nTottenham también ganó el derbi de visita: Chelsea 0-2 Spurs. Y Aston Villa le dio vuelta a la tarde al Man. City con un 2-1.\nArsenal y Liverpool cumplieron en casa con sendos 2-0.\n¿Cuál fue la sorpresa más grande de la fecha? 👇\n\n#MarcadorCL #Futbol #PremierLeague #EPL #FutbolInglés",
-  "avisado": true,
-  "aprobado": true,
-  "ig_id": "18110900510351305",
-  "publicado": "2026-10-25T20:08:35+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "ger.1:401884759",
-  "creado": "2026-10-25T16:17:58-03:00",
-  "archivos": [
-   "historias/img/2026-10-25/ger1-sc-freiburg-bayern.png"
-  ],
-  "titulo": "SC Freiburg 1–3 Bayern",
-  "liga": "ger.1",
-  "enviado": true,
-  "ig_id": "17894435859435938",
-  "publicado": "2026-10-25T19:18:34+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "ita.1:401874772",
-  "creado": "2026-10-25T16:37:53-03:00",
-  "archivos": [
-   "historias/img/2026-10-25/ita1-lecce-juventus.png"
-  ],
-  "titulo": "Lecce 0–2 Juventus",
-  "liga": "ita.1",
-  "enviado": true,
-  "ig_id": "18412125838094790",
-  "publicado": "2026-10-25T19:38:23+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "esp.1:401882829",
   "creado": "2026-10-25T16:47:51-03:00",
   "archivos": [
@@ -5401,5 +5205,165 @@
   "enviado": true,
   "ig_id": "18122015171516294",
   "publicado": "2026-11-17T18:12:18+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.nations:401861196",
+  "creado": "2026-11-17T18:52:49-03:00",
+  "archivos": [
+   "historias/img/2026-11-17/uefanations-bosnia-y-herzegovina-rumania.png"
+  ],
+  "titulo": "Bosnia y Herzegovina 2–1 Rumania",
+  "liga": "uefa.nations",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.nations:401861194",
+  "creado": "2026-11-17T18:52:49-03:00",
+  "archivos": [
+   "historias/img/2026-11-17/uefanations-dinamarca-noruega.png"
+  ],
+  "titulo": "Dinamarca 2–3 Noruega",
+  "liga": "uefa.nations",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.nations:401861191",
+  "creado": "2026-11-17T18:52:49-03:00",
+  "archivos": [
+   "historias/img/2026-11-17/uefanations-hungria-irlanda-del-norte.png"
+  ],
+  "titulo": "Hungría 1–1 Irlanda del Norte",
+  "liga": "uefa.nations",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.nations:401861193",
+  "creado": "2026-11-17T18:52:49-03:00",
+  "archivos": [
+   "historias/img/2026-11-17/uefanations-israel-austria.png"
+  ],
+  "titulo": "Israel 1–1 Austria",
+  "liga": "uefa.nations",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.nations:401861195",
+  "creado": "2026-11-17T18:52:49-03:00",
+  "archivos": [
+   "historias/img/2026-11-17/uefanations-polonia-suecia.png"
+  ],
+  "titulo": "Polonia 1–1 Suecia",
+  "liga": "uefa.nations",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.nations:401861192",
+  "creado": "2026-11-17T18:52:49-03:00",
+  "archivos": [
+   "historias/img/2026-11-17/uefanations-irlanda-kosovo.png"
+  ],
+  "titulo": "Irlanda 3–0 Kosovo",
+  "liga": "uefa.nations",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.nations:401861190",
+  "creado": "2026-11-17T18:52:49-03:00",
+  "archivos": [
+   "historias/img/2026-11-17/uefanations-ucrania-georgia.png"
+  ],
+  "titulo": "Ucrania 1–0 Georgia",
+  "liga": "uefa.nations",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.nations:401861189",
+  "creado": "2026-11-17T18:52:49-03:00",
+  "archivos": [
+   "historias/img/2026-11-17/uefanations-gales-portugal.png"
+  ],
+  "titulo": "Gales 2–3 Portugal",
+  "liga": "uefa.nations",
+  "enviado": false
+ },
+ {
+  "tipo": "resumen",
+  "clave": "uefa.nations:2026-11-17",
+  "creado": "2026-11-17T18:52:49-03:00",
+  "archivos": [
+   "historias/img/2026-11-17/uefanations-20261117-1.png"
+  ],
+  "titulo": "uefa.nations 17 de noviembre",
+  "liga": "uefa.nations",
+  "fase": "",
+  "rango": "17 de noviembre",
+  "partidos": [
+   {
+    "dia": "Mar 17",
+    "local": "Bosnia y Herzegovina",
+    "visita": "Rumania",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "dia": "Mar 17",
+    "local": "Dinamarca",
+    "visita": "Noruega",
+    "gl": 2,
+    "gv": 3
+   },
+   {
+    "dia": "Mar 17",
+    "local": "Hungría",
+    "visita": "Irlanda del Norte",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "dia": "Mar 17",
+    "local": "Israel",
+    "visita": "Austria",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "dia": "Mar 17",
+    "local": "Polonia",
+    "visita": "Suecia",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "dia": "Mar 17",
+    "local": "Irlanda",
+    "visita": "Kosovo",
+    "gl": 3,
+    "gv": 0
+   },
+   {
+    "dia": "Mar 17",
+    "local": "Ucrania",
+    "visita": "Georgia",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "dia": "Mar 17",
+    "local": "Gales",
+    "visita": "Portugal",
+    "gl": 2,
+    "gv": 3
+   }
+  ],
+  "sin_tabla": false,
+  "enviado": false
  }
 ]

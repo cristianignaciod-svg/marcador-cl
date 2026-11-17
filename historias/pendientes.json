@@ -1,1 +1,542 @@
-[]
+[
+ {
+  "id": "uefanations-bosnia-y-herzegovina-rumania",
+  "liga": "uefa.nations",
+  "fase": "",
+  "fecha": "2026-11-17",
+  "local": "Bosnia y Herzegovina",
+  "visita": "Rumania",
+  "gl": 2,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "6'",
+    "jugador": "Daniel Birligea",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "44'",
+    "jugador": "Benjamin Tahirovic",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "82'",
+    "jugador": "Esmir Bajraktarevic",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "46'",
+    "jugador": "Ivan Basic",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "69'",
+    "jugador": "Razvan Marin",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "70'",
+    "jugador": "Andrei Coubis",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "70'",
+    "jugador": "Ermedin Demirovic",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "76'",
+    "jugador": "Catalin Cirjan",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+1'",
+    "jugador": "Tony Strata",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+5'",
+    "jugador": "Nikola Katic",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "uefanations-dinamarca-noruega",
+  "liga": "uefa.nations",
+  "fase": "",
+  "fecha": "2026-11-17",
+  "local": "Dinamarca",
+  "visita": "Noruega",
+  "gl": 2,
+  "gv": 3,
+  "goles": [
+   {
+    "min": "11'",
+    "jugador": "Rasmus Højlund",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "14'",
+    "jugador": "Pierre-Emile Højbjerg",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "37'",
+    "jugador": "Erling Haaland",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "83'",
+    "jugador": "Martin Ødegaard",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "90+6'",
+    "jugador": "Erling Haaland",
+    "lado": "visita",
+    "penal": true,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "45+2'",
+    "jugador": "Leo Østigard",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "46'",
+    "jugador": "Rasmus Kristensen",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "79'",
+    "jugador": "Julian Ryerson",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+7'",
+    "jugador": "Erling Haaland",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "uefanations-hungria-irlanda-del-norte",
+  "liga": "uefa.nations",
+  "fase": "",
+  "fecha": "2026-11-17",
+  "local": "Hungría",
+  "visita": "Irlanda del Norte",
+  "gl": 1,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "35'",
+    "jugador": "Barnabás Varga",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "65'",
+    "jugador": "Justin Devenny",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "51'",
+    "jugador": "Barnabás Varga",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "51'",
+    "jugador": "Pierce Charles",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "56'",
+    "jugador": "Trai Hume",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "83'",
+    "jugador": "Milos Kerkez",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "uefanations-israel-austria",
+  "liga": "uefa.nations",
+  "fase": "",
+  "fecha": "2026-11-17",
+  "local": "Israel",
+  "visita": "Austria",
+  "gl": 1,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "36'",
+    "jugador": "Dor Peretz",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "62'",
+    "jugador": "Sasa Kalajdzic",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "uefanations-polonia-suecia",
+  "liga": "uefa.nations",
+  "fase": "",
+  "fecha": "2026-11-17",
+  "local": "Polonia",
+  "visita": "Suecia",
+  "gl": 1,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "16'",
+    "jugador": "Adrian Benedyczak",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "24'",
+    "jugador": "Hugo Larsson",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "49'",
+    "jugador": "Kacper Potulski",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "67'",
+    "jugador": "Sebastian Szymanski",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "uefanations-irlanda-kosovo",
+  "liga": "uefa.nations",
+  "fase": "",
+  "fecha": "2026-11-17",
+  "local": "Irlanda",
+  "visita": "Kosovo",
+  "gl": 3,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "28'",
+    "jugador": "Troy Parrott",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "50'",
+    "jugador": "Troy Parrott",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "75'",
+    "jugador": "Jack Moylan",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "4'",
+    "jugador": "Liam Scales",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "26'",
+    "jugador": "Kreshnik Hajrizi",
+    "lado": "visita",
+    "tipo": "roja"
+   },
+   {
+    "min": "40'",
+    "jugador": "Ryan Manning",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "43'",
+    "jugador": "Mërgim Vojvoda",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "62'",
+    "jugador": "John Egan",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "uefanations-ucrania-georgia",
+  "liga": "uefa.nations",
+  "fase": "",
+  "fecha": "2026-11-17",
+  "local": "Ucrania",
+  "visita": "Georgia",
+  "gl": 1,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "1'",
+    "jugador": "Danylo Sikan",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "53'",
+    "jugador": "Ihor Krasnopir",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "62'",
+    "jugador": "Otar Kakabadze",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "73'",
+    "jugador": "Giorgi Kochorashvili",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "75'",
+    "jugador": "Nika Gagnidze",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90'",
+    "jugador": "Luka Lochoshvili",
+    "lado": "visita",
+    "tipo": "doble"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "uefanations-gales-portugal",
+  "liga": "uefa.nations",
+  "fase": "",
+  "fecha": "2026-11-17",
+  "local": "Gales",
+  "visita": "Portugal",
+  "gl": 2,
+  "gv": 3,
+  "goles": [
+   {
+    "min": "11'",
+    "jugador": "Bruno Fernandes",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "13'",
+    "jugador": "David Brooks",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "40'",
+    "jugador": "Sorba Thomas",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "43'",
+    "jugador": "Pedro Neto",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "70'",
+    "jugador": "Carlos Forbs",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "51'",
+    "jugador": "Ben Cabango",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "53'",
+    "jugador": "Francisco Trincão",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "62'",
+    "jugador": "Josh Sheehan",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "74'",
+    "jugador": "Pedro Neto",
+    "lado": "visita",
+    "tipo": "doble"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "tipo": "resumen",
+  "id": "uefanations-20261117",
+  "liga": "uefa.nations",
+  "fase": "",
+  "fecha": "2026-11-17",
+  "rango": "17 de noviembre",
+  "partidos": [
+   {
+    "dia": "Mar 17",
+    "local": "Bosnia y Herzegovina",
+    "visita": "Rumania",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "dia": "Mar 17",
+    "local": "Dinamarca",
+    "visita": "Noruega",
+    "gl": 2,
+    "gv": 3
+   },
+   {
+    "dia": "Mar 17",
+    "local": "Hungría",
+    "visita": "Irlanda del Norte",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "dia": "Mar 17",
+    "local": "Israel",
+    "visita": "Austria",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "dia": "Mar 17",
+    "local": "Polonia",
+    "visita": "Suecia",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "dia": "Mar 17",
+    "local": "Irlanda",
+    "visita": "Kosovo",
+    "gl": 3,
+    "gv": 0
+   },
+   {
+    "dia": "Mar 17",
+    "local": "Ucrania",
+    "visita": "Georgia",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "dia": "Mar 17",
+    "local": "Gales",
+    "visita": "Portugal",
+    "gl": 2,
+    "gv": 3
+   }
+  ]
+ }
+]
