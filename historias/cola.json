@@ -5396,6 +5396,8 @@
   ],
   "titulo": "Japón 1–2 Paraguay",
   "liga": "fifa.friendly",
-  "enviado": false
+  "enviado": false,
+  "error": "400 {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,135,331,933,759,825 cannot be found.\",\"fbtrace_id\":\"ADXe6voR6NuAGtaSgSCQvzo\"}}",
+  "intentos": 1
  }
 ]
