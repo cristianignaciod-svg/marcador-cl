@@ -1,19 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "fra.1:401876430",
-  "creado": "2026-10-25T15:56:05-03:00",
-  "archivos": [
-   "historias/img/2026-10-25/fra1-angers-lorient.png"
-  ],
-  "titulo": "Angers 0–0 Lorient",
-  "liga": "fra.1",
-  "enviado": true,
-  "ig_id": "18023929871712483",
-  "publicado": "2026-10-25T18:56:46+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "fra.1:401876423",
   "creado": "2026-10-25T15:56:05-03:00",
   "archivos": [
@@ -5401,5 +5388,16 @@
   "intentos": 1,
   "ig_id": "18154742116543165",
   "publicado": "2026-11-17T15:18:57+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "fifa.friendly:401930978",
+  "creado": "2026-11-17T15:11:46-03:00",
+  "archivos": [
+   "historias/img/2026-11-17/fifafriendly-rusia-venezuela.png"
+  ],
+  "titulo": "Rusia 2–0 Venezuela",
+  "liga": "fifa.friendly",
+  "enviado": false
  }
 ]
