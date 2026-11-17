@@ -1,19 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "fra.1:401876425",
-  "creado": "2026-10-25T13:32:06-03:00",
-  "archivos": [
-   "historias/img/2026-10-25/fra1-as-monaco-lille.png"
-  ],
-  "titulo": "AS Mónaco 1–1 Lille",
-  "liga": "fra.1",
-  "enviado": true,
-  "ig_id": "18489638803107974",
-  "publicado": "2026-10-25T16:32:48+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "ger.1:401884760",
   "creado": "2026-10-25T13:42:55-03:00",
   "archivos": [
@@ -5398,5 +5385,16 @@
   "aprobado": true,
   "ig_id": "18203597473341010",
   "publicado": "2026-11-16T22:17:50+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "fifa.friendly:401916335",
+  "creado": "2026-11-17T08:54:22-03:00",
+  "archivos": [
+   "historias/img/2026-11-17/fifafriendly-singapur-brasil.png"
+  ],
+  "titulo": "Singapur 0–7 Brasil",
+  "liga": "fifa.friendly",
+  "enviado": false
  }
 ]

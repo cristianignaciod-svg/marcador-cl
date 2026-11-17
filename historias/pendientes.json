@@ -1,1 +1,79 @@
-[]
+[
+ {
+  "id": "fifafriendly-singapur-brasil",
+  "liga": "fifa.friendly",
+  "fase": "",
+  "fecha": "2026-11-17",
+  "local": "Singapur",
+  "visita": "Brasil",
+  "gl": 0,
+  "gv": 7,
+  "goles": [
+   {
+    "min": "9'",
+    "jugador": "Vinícius Júnior",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "15'",
+    "jugador": "Vinícius Júnior",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "21'",
+    "jugador": "Vinícius Júnior",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "31'",
+    "jugador": "Endrick",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "51'",
+    "jugador": "Estêvão",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "65'",
+    "jugador": "Rayan",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "74'",
+    "jugador": "Raoul Bin Suhaimi",
+    "lado": "visita",
+    "penal": false,
+    "autogol": true
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "45'",
+    "jugador": "Safuwan Baharudin",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "50'",
+    "jugador": "Jacob Mahler",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]
