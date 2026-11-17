@@ -1,1 +1,109 @@
-[]
+[
+ {
+  "tipo": "agenda",
+  "id": "agenda-2026-11-17",
+  "fecha": "2026-11-17",
+  "grupos": [
+   {
+    "liga": "fifa.friendly",
+    "partidos": [
+     {
+      "hora": "07:00",
+      "local": "Singapur",
+      "visita": "Brasil",
+      "tv": ""
+     },
+     {
+      "hora": "10:10",
+      "local": "Japón",
+      "visita": "Paraguay",
+      "tv": ""
+     },
+     {
+      "hora": "13:00",
+      "local": "Rusia",
+      "visita": "Venezuela",
+      "tv": ""
+     },
+     {
+      "hora": "20:00",
+      "local": "Argentina",
+      "visita": "Costa Rica",
+      "tv": ""
+     },
+     {
+      "hora": "20:00",
+      "local": "Chile",
+      "visita": "Colombia",
+      "tv": "Mega · Mega GO"
+     },
+     {
+      "hora": "20:30",
+      "local": "Ecuador",
+      "visita": "Bolívia",
+      "tv": ""
+     },
+     {
+      "hora": "20:30",
+      "local": "Uruguay",
+      "visita": "República Dominicana",
+      "tv": ""
+     }
+    ]
+   },
+   {
+    "liga": "uefa.nations",
+    "partidos": [
+     {
+      "hora": "16:45",
+      "local": "Bosnia y Herzegovina",
+      "visita": "Rumania",
+      "tv": "Disney+ Premium"
+     },
+     {
+      "hora": "16:45",
+      "local": "Dinamarca",
+      "visita": "Noruega",
+      "tv": "ESPN 4 · Disney+ Premium"
+     },
+     {
+      "hora": "16:45",
+      "local": "Hungría",
+      "visita": "Irlanda del Norte",
+      "tv": "Disney+ Premium"
+     },
+     {
+      "hora": "16:45",
+      "local": "Israel",
+      "visita": "Austria",
+      "tv": "Disney+ Premium"
+     },
+     {
+      "hora": "16:45",
+      "local": "Polonia",
+      "visita": "Suecia",
+      "tv": "ESPN 5 · Disney+ Premium"
+     },
+     {
+      "hora": "16:45",
+      "local": "Irlanda",
+      "visita": "Kosovo",
+      "tv": "Disney+ Premium"
+     },
+     {
+      "hora": "16:45",
+      "local": "Ucrania",
+      "visita": "Georgia",
+      "tv": "Disney+ Premium"
+     },
+     {
+      "hora": "16:45",
+      "local": "Gales",
+      "visita": "Portugal",
+      "tv": "ESPN · Disney+ Premium"
+     }
+    ]
+   }
+  ]
+ }
+]
