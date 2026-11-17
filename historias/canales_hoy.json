@@ -1,78 +1,67 @@
 {
- "fecha": "2026-11-16",
+ "fecha": "2026-11-17",
  "fuentes": [
-  "https://tecache.cl/futbol/alemania-vs-paises-bajos-horario-canal-y-donde-ver-en-vivo-la-uefa-nations-league-en-chile/",
-  "https://www.prensafutbol.cl/alemania-paises-bajos-donde-cuando-ver-chile/",
+  "https://redgol.cl/seleccionchilena/chile-vs-colombia-horario-y-donde-ver-en-vivo-el-segundo-amistoso-de-la-roja",
+  "https://www.alairelibre.cl/futbol/chile-vs-colombia-horario-donde-ver-amistoso-2026/",
   "https://www.futbolenvivochile.com/competicion/uefa-nations-league",
-  "https://www.365scores.com/es/news/nations-league-hoy-partidos-lunes-tabla/",
-  "https://redgol.cl/apuestas/pronosticos/alemania-vs-paises-bajos-uefa-nations-league-16-11-2026"
+  "https://rpp.pe/futbol/futbol-mundial/partidos-de-hoy-martes-17-de-noviembre-en-vivo-uefa-nations-league-y-amistosos-internacionales-donde-seguir-en-directo-horarios-y-canales-de-tv-online-para-ver-futbol-minuto-a-minuto-noticia-1718110",
+  "https://libero.pe/futbol-internacional/2026/11/16/partidos-de-hoy-martes-17-de-noviembre-en-vivo-horarios-donde-ver-futbol-gales-vs-portugal-argentina-vs-costa-rica-chile-vs-colombia-203616"
  ],
  "partidos": [
   {
-   "local": "Kazajistán",
-   "visita": "Eslovaquia",
+   "local": "Chile",
+   "visita": "Colombia",
+   "tv": "Mega · Mega GO",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Bosnia y Herzegovina",
+   "visita": "Rumania",
+   "tv": "Disney+ Premium",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Dinamarca",
+   "visita": "Noruega",
    "tv": "ESPN 4 · Disney+ Premium",
    "verificado": "2_fuentes"
   },
   {
-   "local": "Islas Feroe",
-   "visita": "Moldavia",
+   "local": "Ucrania",
+   "visita": "Georgia",
    "tv": "Disney+ Premium",
    "verificado": "2_fuentes"
   },
   {
-   "local": "Estonia",
-   "visita": "Bulgaria",
+   "local": "Israel",
+   "visita": "Austria",
    "tv": "Disney+ Premium",
    "verificado": "2_fuentes"
   },
   {
-   "local": "Lituania",
-   "visita": "Liechtenstein",
+   "local": "Irlanda",
+   "visita": "Kosovo",
    "tv": "Disney+ Premium",
    "verificado": "2_fuentes"
   },
   {
-   "local": "Alemania",
-   "visita": "Países Bajos",
+   "local": "Hungría",
+   "visita": "Irlanda del Norte",
+   "tv": "Disney+ Premium",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Polonia",
+   "visita": "Suecia",
+   "tv": "ESPN 5 · Disney+ Premium",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Gales",
+   "visita": "Portugal",
    "tv": "ESPN · Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Grecia",
-   "visita": "Serbia",
-   "tv": "ESPN 4 · Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Suiza",
-   "visita": "Escocia",
-   "tv": "Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Macedonia del Norte",
-   "visita": "Eslovenia",
-   "tv": "Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Gibraltar",
-   "visita": "Malta",
-   "tv": "Disney+ Premium",
    "verificado": "2_fuentes"
   }
  ],
- "conflictos": [
-  {
-   "local": "Islandia",
-   "visita": "Luxemburgo",
-   "detalle": "UEFA Nations League. FútbolEnVivoChile dice 'ESPN · Disney+ Premium', 365Scores (columna Chile) dice 'ESPN 2 · Disney+'. RedGol sin nota. No publicado."
-  },
-  {
-   "local": "Suiza",
-   "visita": "Escocia",
-   "detalle": "Nota: se publica solo Disney+ Premium (coinciden ambas fuentes). FútbolEnVivoChile agrega ESPN 5; 365Scores no lo menciona."
-  }
- ]
+ "conflictos": []
 }
