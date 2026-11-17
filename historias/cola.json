@@ -1,19 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "esp.1:401882833",
-  "creado": "2026-10-25T14:40:00-03:00",
-  "archivos": [
-   "historias/img/2026-10-25/esp1-celta-betis.png"
-  ],
-  "titulo": "Celta 0–0 Betis",
-  "liga": "esp.1",
-  "enviado": true,
-  "ig_id": "17881232265548538",
-  "publicado": "2026-10-25T17:40:33+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "fra.1:401876430",
   "creado": "2026-10-25T15:56:05-03:00",
   "archivos": [
@@ -5399,5 +5386,16 @@
   "enviado": true,
   "ig_id": "18112059007923091",
   "publicado": "2026-11-17T12:24:35+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "fifa.friendly:401916336",
+  "creado": "2026-11-17T12:08:26-03:00",
+  "archivos": [
+   "historias/img/2026-11-17/fifafriendly-japon-paraguay.png"
+  ],
+  "titulo": "Japón 1–2 Paraguay",
+  "liga": "fifa.friendly",
+  "enviado": false
  }
 ]
