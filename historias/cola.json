@@ -5354,7 +5354,9 @@
   ],
   "titulo": "Argentina 7–0 Costa Rica",
   "liga": "fifa.friendly",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18128008159930076",
+  "publicado": "2026-11-18T01:27:43+00:00"
  },
  {
   "tipo": "historia",
@@ -5365,7 +5367,9 @@
   ],
   "titulo": "Chile 0–0 Colombia",
   "liga": "fifa.friendly",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18118575446277575",
+  "publicado": "2026-11-18T01:27:43+00:00"
  },
  {
   "tipo": "historia",
@@ -5376,6 +5380,8 @@
   ],
   "titulo": "Uruguay 5–0 República Dominicana",
   "liga": "fifa.friendly",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18124567067472876",
+  "publicado": "2026-11-18T01:27:43+00:00"
  }
 ]
