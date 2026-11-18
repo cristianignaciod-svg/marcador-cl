@@ -1,1 +1,103 @@
-[]
+[
+ {
+  "id": "fifafriendly-ecuador-bolivia",
+  "liga": "fifa.friendly",
+  "fase": "",
+  "fecha": "2026-11-17",
+  "local": "Ecuador",
+  "visita": "Bolívia",
+  "gl": 2,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "20'",
+    "jugador": "John Mercado",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "45+4'",
+    "jugador": "Jordy Caicedo",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "69'",
+    "jugador": "Diego Arroyo",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+5'",
+    "jugador": "Félix Torres",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "tipo": "resumen",
+  "id": "fifafriendly-20261117",
+  "liga": "fifa.friendly",
+  "fase": "",
+  "fecha": "2026-11-17",
+  "rango": "17 de noviembre",
+  "partidos": [
+   {
+    "dia": "Mar 17",
+    "local": "Singapur",
+    "visita": "Brasil",
+    "gl": 0,
+    "gv": 7
+   },
+   {
+    "dia": "Mar 17",
+    "local": "Japón",
+    "visita": "Paraguay",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "dia": "Mar 17",
+    "local": "Rusia",
+    "visita": "Venezuela",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "dia": "Mar 17",
+    "local": "Argentina",
+    "visita": "Costa Rica",
+    "gl": 7,
+    "gv": 0
+   },
+   {
+    "dia": "Mar 17",
+    "local": "Chile",
+    "visita": "Colombia",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "dia": "Mar 17",
+    "local": "Ecuador",
+    "visita": "Bolívia",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "dia": "Mar 17",
+    "local": "Uruguay",
+    "visita": "República Dominicana",
+    "gl": 5,
+    "gv": 0
+   }
+  ]
+ }
+]

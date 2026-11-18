@@ -1,33 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "chi.pb:fm1000007339",
-  "creado": "2026-10-25T17:07:57-03:00",
-  "archivos": [
-   "historias/img/2026-10-25/chipb-deportes-temuco-san-marcos.png"
-  ],
-  "titulo": "Deportes Temuco 1–2 San Marcos",
-  "liga": "chi.pb",
-  "sin_goleadores": false,
-  "enviado": true,
-  "ig_id": "18639442000029703",
-  "publicado": "2026-10-25T20:08:35+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "ita.1:401874779",
-  "creado": "2026-10-25T19:02:27-03:00",
-  "archivos": [
-   "historias/img/2026-10-25/ita1-udinese-milan.png"
-  ],
-  "titulo": "Udinese 0–2 Milan",
-  "liga": "ita.1",
-  "enviado": true,
-  "ig_id": "18119830492959035",
-  "publicado": "2026-10-25T22:03:02+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "esp.1:401882832",
   "creado": "2026-10-25T19:31:34-03:00",
   "archivos": [
@@ -5383,5 +5356,81 @@
   "enviado": true,
   "ig_id": "18124567067472876",
   "publicado": "2026-11-18T01:27:43+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "fifa.friendly:401930899",
+  "creado": "2026-11-17T23:06:47-03:00",
+  "archivos": [
+   "historias/img/2026-11-17/fifafriendly-ecuador-bolivia.png"
+  ],
+  "titulo": "Ecuador 2–0 Bolívia",
+  "liga": "fifa.friendly",
+  "enviado": false
+ },
+ {
+  "tipo": "resumen",
+  "clave": "fifa.friendly:2026-11-17",
+  "creado": "2026-11-17T23:06:47-03:00",
+  "archivos": [
+   "historias/img/2026-11-17/fifafriendly-20261117-1.png"
+  ],
+  "titulo": "fifa.friendly 17 de noviembre",
+  "liga": "fifa.friendly",
+  "fase": "",
+  "rango": "17 de noviembre",
+  "partidos": [
+   {
+    "dia": "Mar 17",
+    "local": "Singapur",
+    "visita": "Brasil",
+    "gl": 0,
+    "gv": 7
+   },
+   {
+    "dia": "Mar 17",
+    "local": "Japón",
+    "visita": "Paraguay",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "dia": "Mar 17",
+    "local": "Rusia",
+    "visita": "Venezuela",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "dia": "Mar 17",
+    "local": "Argentina",
+    "visita": "Costa Rica",
+    "gl": 7,
+    "gv": 0
+   },
+   {
+    "dia": "Mar 17",
+    "local": "Chile",
+    "visita": "Colombia",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "dia": "Mar 17",
+    "local": "Ecuador",
+    "visita": "Bolívia",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "dia": "Mar 17",
+    "local": "Uruguay",
+    "visita": "República Dominicana",
+    "gl": 5,
+    "gv": 0
+   }
+  ],
+  "sin_tabla": false,
+  "enviado": false
  }
 ]
