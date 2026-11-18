@@ -1,45 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "esp.1:401882829",
-  "creado": "2026-10-25T16:47:51-03:00",
-  "archivos": [
-   "historias/img/2026-10-25/esp1-real-sociedad-levante.png"
-  ],
-  "titulo": "Real Sociedad 2–1 Levante",
-  "liga": "esp.1",
-  "enviado": true,
-  "ig_id": "18127812695487271",
-  "publicado": "2026-10-25T19:48:21+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "arg.1:401841629",
-  "creado": "2026-10-25T16:57:51-03:00",
-  "archivos": [
-   "historias/img/2026-10-25/arg1-aldosivi-belgrano-cordoba.png"
-  ],
-  "titulo": "Aldosivi 1–0 Belgrano (Córdoba)",
-  "liga": "arg.1",
-  "enviado": true,
-  "ig_id": "18115527710329994",
-  "publicado": "2026-10-25T19:58:25+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "chi.1:401850669",
-  "creado": "2026-10-25T17:07:57-03:00",
-  "archivos": [
-   "historias/img/2026-10-25/chi1-union-la-calera-u-catolica.png"
-  ],
-  "titulo": "Unión La Calera 3–1 U. Católica",
-  "liga": "chi.1",
-  "enviado": true,
-  "ig_id": "17915499621513876",
-  "publicado": "2026-10-25T20:08:35+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "chi.pb:fm1000007339",
   "creado": "2026-10-25T17:07:57-03:00",
   "archivos": [
@@ -5383,5 +5344,38 @@
   "enviado": false,
   "texto": "¡Noche de infarto en la Nations League! 🔥\nNoruega se llevó el clásico nórdico en Copenhague: Dinamarca 2-3 Noruega.\nPortugal también sufrió para ganar en Gales (2-3) e Irlanda goleó 3-0 a Kosovo.\nAdemás, empates 1-1 en Polonia-Suecia, Israel-Austria y Hungría-Irlanda del Norte.\n¿Cuál fue el partidazo de la noche? 👇\n\n#MarcadorCL #Futbol #NationsLeague #UNL #FutbolEuropeo",
   "avisado": true
+ },
+ {
+  "tipo": "historia",
+  "clave": "fifa.friendly:401930895",
+  "creado": "2026-11-17T22:27:19-03:00",
+  "archivos": [
+   "historias/img/2026-11-17/fifafriendly-argentina-costa-rica.png"
+  ],
+  "titulo": "Argentina 7–0 Costa Rica",
+  "liga": "fifa.friendly",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "fifa.friendly:401921304",
+  "creado": "2026-11-17T22:27:19-03:00",
+  "archivos": [
+   "historias/img/2026-11-17/fifafriendly-chile-colombia.png"
+  ],
+  "titulo": "Chile 0–0 Colombia",
+  "liga": "fifa.friendly",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "fifa.friendly:401932215",
+  "creado": "2026-11-17T22:27:19-03:00",
+  "archivos": [
+   "historias/img/2026-11-17/fifafriendly-uruguay-republica-dominicana.png"
+  ],
+  "titulo": "Uruguay 5–0 República Dominicana",
+  "liga": "fifa.friendly",
+  "enviado": false
  }
 ]

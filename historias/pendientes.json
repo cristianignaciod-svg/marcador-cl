@@ -1,1 +1,210 @@
-[]
+[
+ {
+  "id": "fifafriendly-argentina-costa-rica",
+  "liga": "fifa.friendly",
+  "fase": "",
+  "fecha": "2026-11-17",
+  "local": "Argentina",
+  "visita": "Costa Rica",
+  "gl": 7,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "8'",
+    "jugador": "Nico Paz",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "35'",
+    "jugador": "Julián Álvarez",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "38'",
+    "jugador": "Nico Paz",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "43'",
+    "jugador": "Julián Álvarez",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "48'",
+    "jugador": "Franco Mastantuono",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "78'",
+    "jugador": "Alexis Mac Allister",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "88'",
+    "jugador": "Franco Mastantuono",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "fifafriendly-chile-colombia",
+  "liga": "fifa.friendly",
+  "fase": "",
+  "fecha": "2026-11-17",
+  "local": "Chile",
+  "visita": "Colombia",
+  "gl": 0,
+  "gv": 0,
+  "goles": [],
+  "tarjetas": [
+   {
+    "min": "23'",
+    "jugador": "Camilo Mena",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "25'",
+    "jugador": "César Pérez",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "45+2'",
+    "jugador": "Jefferson Lerma",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "46'",
+    "jugador": "Gabriel Suazo",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "57'",
+    "jugador": "Darío Osorio",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "63'",
+    "jugador": "Luis Suárez",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+4'",
+    "jugador": "Jhon Lucumí",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "fifafriendly-uruguay-republica-dominicana",
+  "liga": "fifa.friendly",
+  "fase": "",
+  "fecha": "2026-11-17",
+  "local": "Uruguay",
+  "visita": "República Dominicana",
+  "gl": 5,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "41'",
+    "jugador": "Rodrigo Aguirre",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "70'",
+    "jugador": "Xavier Valdez",
+    "lado": "local",
+    "penal": false,
+    "autogol": true
+   },
+   {
+    "min": "80'",
+    "jugador": "Nicolás de la Cruz",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "87'",
+    "jugador": "Federico Valverde",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "90+4'",
+    "jugador": "Bruno Damiani",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "44'",
+    "jugador": "Noah Dollenmayer",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "53'",
+    "jugador": "Edison Azcona",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "57'",
+    "jugador": "Juan Castillo",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "63'",
+    "jugador": "Facundo Bernal",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "73'",
+    "jugador": "Edgar Pujol",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "76'",
+    "jugador": "Pablo Rosario",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]
