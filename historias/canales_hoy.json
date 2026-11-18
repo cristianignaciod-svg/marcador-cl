@@ -1,67 +1,16 @@
 {
- "fecha": "2026-11-17",
+ "fecha": "2026-11-18",
  "fuentes": [
-  "https://redgol.cl/seleccionchilena/chile-vs-colombia-horario-y-donde-ver-en-vivo-el-segundo-amistoso-de-la-roja",
-  "https://www.alairelibre.cl/futbol/chile-vs-colombia-horario-donde-ver-amistoso-2026/",
-  "https://www.futbolenvivochile.com/competicion/uefa-nations-league",
-  "https://rpp.pe/futbol/futbol-mundial/partidos-de-hoy-martes-17-de-noviembre-en-vivo-uefa-nations-league-y-amistosos-internacionales-donde-seguir-en-directo-horarios-y-canales-de-tv-online-para-ver-futbol-minuto-a-minuto-noticia-1718110",
-  "https://libero.pe/futbol-internacional/2026/11/16/partidos-de-hoy-martes-17-de-noviembre-en-vivo-horarios-donde-ver-futbol-gales-vs-portugal-argentina-vs-costa-rica-chile-vs-colombia-203616"
+  "https://tecache.cl/futbol/flamengo-vs-athletico-paranaense-horario-canal-y-donde-ver-en-vivo-a-erick-pulgar",
+  "https://www.alairelibre.cl/futbol/liga-brasilena/flamengo-vs-athletico-paranaense-horario-donde-ver-erick-pulgar-brasileirao-2026/",
+  "https://redgol.cl/noticias/completamente-gratis-confirman-la-senal-que-transmitira-el-brasileirao-en-chile-y-latam"
  ],
- "partidos": [
+ "partidos": [],
+ "conflictos": [
   {
-   "local": "Chile",
-   "visita": "Colombia",
-   "tv": "Mega · Mega GO",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Bosnia y Herzegovina",
-   "visita": "Rumania",
-   "tv": "Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Dinamarca",
-   "visita": "Noruega",
-   "tv": "ESPN 4 · Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Ucrania",
-   "visita": "Georgia",
-   "tv": "Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Israel",
-   "visita": "Austria",
-   "tv": "Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Irlanda",
-   "visita": "Kosovo",
-   "tv": "Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Hungría",
-   "visita": "Irlanda del Norte",
-   "tv": "Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Polonia",
-   "visita": "Suecia",
-   "tv": "ESPN 5 · Disney+ Premium",
-   "verificado": "2_fuentes"
-  },
-  {
-   "local": "Gales",
-   "visita": "Portugal",
-   "tv": "ESPN · Disney+ Premium",
-   "verificado": "2_fuentes"
+   "local": "Flamengo",
+   "visita": "Athletico Paranaense",
+   "detalle": "TeCaché dice Fanatiz 1 (Zapping canal 52); Al Aire Libre dice que la transmisión en Chile no está confirmada; RedGol (enero) indicaba Kick para 2 partidos por fecha. Sin nota de RedGol ni del canal para hoy."
   }
- ],
- "conflictos": []
+ ]
 }
