@@ -657,7 +657,7 @@ def primera_b_resumen(hoy, ahora, resumenes, pendientes, cola, espera):
     for k in range(-5, 4):
         d = hoy + dt.timedelta(days=k)
         try:
-            data = get(f"https://www.fotmob.com/api/data/matches?date={d:%Y%m%d}&timezone=America/Santiago&ccode3=CHL")
+            data = fm_data(d)
         except Exception as ex:
             print("FotMob falla", d, ex, file=sys.stderr)
             return
@@ -732,7 +732,7 @@ def primera_b(dias):
     out = []
     for d in dias:
         try:
-            data = get(f"https://www.fotmob.com/api/data/matches?date={d:%Y%m%d}&timezone=America/Santiago&ccode3=CHL")
+            data = fm_data(d)
         except Exception as ex:
             print("FotMob falla", d, ex, file=sys.stderr)
             continue
@@ -815,7 +815,7 @@ def agenda_del_dia(ahora, publicados, pendientes, cola):
                 grupos.setdefault(liga, []).append({"h": h, "hora": f"{h:%H:%M}", "local": lo, "visita": vi,
                                                     "tv": canal(liga, lo, vi)})
     try:
-        data = get(f"https://www.fotmob.com/api/data/matches?date={hoy:%Y%m%d}&timezone=America/Santiago&ccode3=CHL")
+        data = fm_data(hoy)
         for lg in data.get("leagues", []):
             if lg.get("primaryId") != 9126:
                 continue
@@ -882,11 +882,70 @@ def agenda_del_dia(ahora, publicados, pendientes, cola):
 _FM_CACHE = {}
 
 
+def _correcciones():
+    try:
+        c = json.load(open(os.path.join(BASE, "correcciones.json"))).get("partidos", [])
+    except Exception:
+        return []
+    hoy = dt.datetime.now(CL).date().isoformat()
+    return [x for x in c if x.get("hasta", "9999") >= hoy]
+
+
+def _es_corregido(m, c):
+    lo, vi = (m.get("home") or {}).get("name", ""), (m.get("away") or {}).get("name", "")
+    ok = lambda a, b: _parecido(a, b) >= 0.8
+    return (ok(lo, c["local"]) and ok(vi, c["visita"])) or (ok(lo, c["visita"]) and ok(vi, c["local"]))
+
+
+_FM_RAW = {}
+
+
+def fm_data(d):
+    """Partidos de FotMob de un día, con las correcciones manuales aplicadas (historias/correcciones.json):
+    un partido con fecha mal cargada se saca del día equivocado y se agrega al día correcto con la hora oficial."""
+    def bajar(f):
+        if f not in _FM_RAW:
+            _FM_RAW[f] = get(f"https://www.fotmob.com/api/data/matches?date={f:%Y%m%d}&timezone=America/Santiago&ccode3=CHL")
+        return _FM_RAW[f]
+    data = json.loads(json.dumps(bajar(d)))
+    for c in _correcciones():
+        inicio = dt.datetime.fromisoformat(c["inicio_utc"].replace("Z", "+00:00"))
+        dia_ok = inicio.astimezone(CL).date()
+        nuevo = inicio.strftime("%Y-%m-%dT%H:%M:%S.000Z")
+        for lg in data.get("leagues", []):  # sacar del día equivocado
+            lg["matches"] = [m for m in lg.get("matches", []) if not (_es_corregido(m, c) and dia_ok != d)]
+        if dia_ok == d:
+            ya = False
+            for lg in data.get("leagues", []):
+                for m in lg.get("matches", []):
+                    if _es_corregido(m, c):
+                        m.setdefault("status", {})["utcTime"] = nuevo
+                        ya = True
+            if not ya and c.get("fm_fecha"):
+                try:
+                    otro = bajar(dt.date.fromisoformat(c["fm_fecha"]))
+                except Exception:
+                    otro = {}
+                for lg in otro.get("leagues", []):
+                    for m in lg.get("matches", []):
+                        if _es_corregido(m, c):
+                            m2 = json.loads(json.dumps(m))
+                            m2.setdefault("status", {})["utcTime"] = nuevo
+                            m2["time"] = inicio.astimezone(CL).strftime("%d.%m.%Y %H:%M")
+                            dest = next((x for x in data.setdefault("leagues", []) if x.get("primaryId") == lg.get("primaryId")), None)
+                            if dest is None:
+                                dest = {k: v for k, v in lg.items() if k != "matches"}
+                                dest["matches"] = []
+                                data["leagues"].append(dest)
+                            dest["matches"].append(m2)
+    return data
+
+
 def fotmob_dia(fecha):
     """Todos los partidos de FotMob de un día (hora de Chile)."""
     if fecha not in _FM_CACHE:
         try:
-            data = get(f"https://www.fotmob.com/api/data/matches?date={fecha:%Y%m%d}&timezone=America/Santiago&ccode3=CHL")
+            data = fm_data(fecha)
             _FM_CACHE[fecha] = [m for lg in data.get("leagues", []) for m in lg.get("matches", [])]
         except Exception as ex:
             DIAG["errores"].append(f"FotMob {fecha}: {str(ex)[:100]}")

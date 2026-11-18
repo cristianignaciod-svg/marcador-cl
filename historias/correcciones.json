@@ -1,0 +1,8 @@
+{
+ "nota": "Correcciones manuales de fecha/hora cuando la fuente (FotMob) tiene un dato desactualizado. Las usan la página y el proceso de Instagram.",
+ "partidos": [
+  {"local": "Cobreloa", "visita": "San Luis", "fm_fecha": "2026-11-20", "inicio_utc": "2026-11-21T21:30:00Z",
+   "tv": "TNT Sports · HBO Max", "fuente": "Programación oficial ANFP (Cooperativa y Emol, 17-11-2026): sábado 21 de noviembre, 18:30, Estadio Santa Laura",
+   "hasta": "2026-11-23"}
+ ]
+}

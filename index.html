@@ -420,17 +420,41 @@ function parseFotmob(m, t, mostrar) {
     goles:null, rojas:null
   };
 }
-async function fetchFotmob(key) {
+/* Correcciones manuales de fecha/hora (historias/correcciones.json): cuando FotMob tiene un partido en el día equivocado */
+const CORR_P = fetch("https://raw.githubusercontent.com/cristianignaciod-svg/marcador-cl/main/historias/correcciones.json", {cache:"no-store"})
+  .then(r => r.ok ? r.json() : null).then(j => (j?.partidos || [])).catch(() => []);
+const esCorr = (m, c) => {
+  const lo = [m.home?.name, m.home?.longName], vi = [m.away?.name, m.away?.longName];
+  const ok = (ns, x) => ns.some(n => n && toks(x).length && toks(x).every(w => toks(n).includes(w)));
+  return (ok(lo, c.local) && ok(vi, c.visita)) || (ok(lo, c.visita) && ok(vi, c.local));
+};
+async function fmRaw(key) {
   const r = await fetch(`${FOTMOB}matches?date=${compact(key)}&timezone=${encodeURIComponent(TZ)}&ccode3=CHL`, {cache:"no-store"});
   if (!r.ok) throw new Error("fotmob");
-  const j = await r.json();
+  return r.json();
+}
+async function fetchFotmob(key) {
+  const j = await fmRaw(key);
+  const corr = (await CORR_P).filter(c => !c.hasta || c.hasta >= todayKey());
   const out = [];
-  for (const l of j.leagues || []) {
-    const chile = l.ccode === "CHI";
-    const t = FM_T[l.primaryId] || (chile ? {liga:"chile", nivel:3, nombre:l.name, tv:"Por confirmar"} : {liga:null, nivel:0, nombre:l.name, tv:""});
-    for (const m of l.matches || []) {
-      const p = parseFotmob(m, t, chile);
-      if (!isNaN(p._d) && dayKey(p._d) === key) out.push(p);
+  const agregar = (j2, forzar) => {
+    for (const l of j2.leagues || []) {
+      const chile = l.ccode === "CHI";
+      const t = FM_T[l.primaryId] || (chile ? {liga:"chile", nivel:3, nombre:l.name, tv:"Por confirmar"} : {liga:null, nivel:0, nombre:l.name, tv:""});
+      for (const m of l.matches || []) {
+        const c = corr.find(c => esCorr(m, c));
+        if (forzar && !c) continue;
+        const p = parseFotmob(m, t, chile);
+        if (c) { p._d = new Date(c.inicio_utc); if (c.tv) p.tv = c.tv; }
+        if (!isNaN(p._d) && dayKey(p._d) === key && !out.some(q => q.id === p.id)) out.push(p);
+      }
+    }
+  };
+  agregar(j, false);
+  // partido corregido que FotMob todavía tiene en otro día: se trae desde ese día
+  for (const c of corr) {
+    if (dayKey(new Date(c.inicio_utc)) === key && c.fm_fecha && c.fm_fecha !== key) {
+      try { agregar(await fmRaw(c.fm_fecha), true); } catch (e) {}
     }
   }
   return out;
