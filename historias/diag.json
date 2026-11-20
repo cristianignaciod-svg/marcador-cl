@@ -30,7 +30,7 @@
   "uefa.nations": [],
   "fifa.friendly": [],
   "ger.1": [
-   "401884736 STATUS_IN_PROGRESS 2026-11-20T19:30Z"
+   "401884736 STATUS_SCHEDULED 2026-11-20T19:30Z"
   ],
   "fra.1": [
    "401876395 STATUS_SCHEDULED 2026-11-20T19:45Z"
@@ -40,8 +40,9 @@
   ]
  },
  "tablas_web": {
-  "ger.1": "Bayern: ESPN 21 pts/9 PJ, FotMob 21 pts/10 PJ",
-  "fra.1": "Troyes: ESPN 8 pts/10 PJ, FotMob 8 pts/11 PJ",
+  "esp.1": "Athletic: ESPN 16 pts/11 PJ, FotMob 17 pts/12 PJ",
+  "ger.1": "Bayern: ESPN 21 pts/9 PJ, FotMob 22 pts/10 PJ",
+  "fra.1": "Troyes: ESPN 8 pts/10 PJ, FotMob 9 pts/11 PJ",
   "arg.1": "Lanús: ESPN 25 pts/15 PJ, FotMob 26 pts/16 PJ"
  }
 }

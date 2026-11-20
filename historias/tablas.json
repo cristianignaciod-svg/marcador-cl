@@ -874,7 +874,8 @@
    "fuentes": [
     "ESPN",
     "FotMob"
-   ]
+   ],
+   "pendiente": "Athletic: ESPN 16 pts/11 PJ, FotMob 17 pts/12 PJ"
   },
   "eng.1": {
    "nombre": "Premier League",
@@ -1513,7 +1514,7 @@
     "ESPN",
     "FotMob"
    ],
-   "pendiente": "Bayern: ESPN 21 pts/9 PJ, FotMob 21 pts/10 PJ"
+   "pendiente": "Bayern: ESPN 21 pts/9 PJ, FotMob 22 pts/10 PJ"
   },
   "fra.1": {
    "nombre": "Ligue 1",
@@ -1817,7 +1818,7 @@
     "ESPN",
     "FotMob"
    ],
-   "pendiente": "Troyes: ESPN 8 pts/10 PJ, FotMob 8 pts/11 PJ"
+   "pendiente": "Troyes: ESPN 8 pts/10 PJ, FotMob 9 pts/11 PJ"
   },
   "arg.1": {
    "nombre": "Liga Profesional",
