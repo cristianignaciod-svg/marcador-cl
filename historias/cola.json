@@ -1,32 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "chi.1:401850672",
-  "creado": "2026-10-25T19:42:29-03:00",
-  "archivos": [
-   "historias/img/2026-10-25/chi1-palestino-colo-colo.png"
-  ],
-  "titulo": "Palestino 1–1 Colo Colo",
-  "liga": "chi.1",
-  "enviado": true,
-  "ig_id": "18029173688916379",
-  "publicado": "2026-10-25T22:43:12+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "arg.1:401841634",
-  "creado": "2026-10-25T21:27:47-03:00",
-  "archivos": [
-   "historias/img/2026-10-25/arg1-river-plate-racing-club.png"
-  ],
-  "titulo": "River Plate 1–0 Racing Club",
-  "liga": "arg.1",
-  "enviado": true,
-  "ig_id": "18105678392242421",
-  "publicado": "2026-10-26T00:28:20+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "chi.1:401850670",
   "creado": "2026-10-25T22:05:53-03:00",
   "archivos": [
@@ -5377,5 +5351,28 @@
   "enviado": true,
   "ig_id": "18113689778523003",
   "publicado": "2026-11-20T21:59:11+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "chi.1:401850692",
+  "creado": "2026-11-20T20:06:59-03:00",
+  "archivos": [
+   "historias/img/2026-11-20/chi1-cobresal-audax-italiano.png"
+  ],
+  "titulo": "Cobresal 3–2 Audax Italiano",
+  "liga": "chi.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "chi.pb:fm1000024443",
+  "creado": "2026-11-20T20:06:59-03:00",
+  "archivos": [
+   "historias/img/2026-11-20/chipb-deportes-recoleta-santiago-wanderers.png"
+  ],
+  "titulo": "Deportes Recoleta 3–1 Santiago Wanderers",
+  "liga": "chi.pb",
+  "sin_goleadores": false,
+  "enviado": false
  }
 ]

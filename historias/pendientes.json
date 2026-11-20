@@ -1,1 +1,137 @@
-[]
+[
+ {
+  "id": "chi1-cobresal-audax-italiano",
+  "liga": "chi.1",
+  "fase": "",
+  "fecha": "2026-11-20",
+  "local": "Cobresal",
+  "visita": "Audax Italiano",
+  "gl": 3,
+  "gv": 2,
+  "goles": [
+   {
+    "min": "5'",
+    "jugador": "Felipe Villagrán",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "23'",
+    "jugador": "Julián Brea",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "33'",
+    "jugador": "Felipe Salomoni",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "63'",
+    "jugador": "Stefan Pino",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "89'",
+    "jugador": "Franco Troyansky",
+    "lado": "visita",
+    "penal": true,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "10'",
+    "jugador": "Julián Brea",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "45+3'",
+    "jugador": "Nicolás Orellana",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "67'",
+    "jugador": "Marcelo Ortiz",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "83'",
+    "jugador": "Enzo Ferrario",
+    "lado": "visita",
+    "tipo": "doble"
+   },
+   {
+    "min": "90+1'",
+    "jugador": "Benjamin Valenzuela",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+9'",
+    "jugador": "Franco Troyansky",
+    "lado": "visita",
+    "tipo": "roja"
+   },
+   {
+    "min": "90+9'",
+    "jugador": "Alejandro Santander",
+    "lado": "local",
+    "tipo": "roja"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "chipb-deportes-recoleta-santiago-wanderers",
+  "liga": "chi.pb",
+  "fase": "",
+  "fecha": "2026-11-20",
+  "local": "Deportes Recoleta",
+  "visita": "Santiago Wanderers",
+  "gl": 3,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "7'",
+    "jugador": "Cristopher Valenzuela",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "33'",
+    "jugador": "Branco Provoste",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "42'",
+    "jugador": "Carlos González",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "72'",
+    "jugador": "Roberto Riveros",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [],
+  "anulados": []
+ }
+]

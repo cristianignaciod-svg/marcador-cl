@@ -52,7 +52,7 @@
        "dg": 19,
        "pts": 49,
        "zona": null,
-       "color": "#000000"
+       "color": "#FFD908"
       },
       {
        "equipo": "Deportes Limache",
@@ -203,13 +203,13 @@
        "largo": "Audax Italiano",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4138.png",
        "pos": 13,
-       "pj": 27,
+       "pj": 28,
        "g": 7,
        "e": 9,
-       "p": 11,
-       "gf": 28,
-       "gc": 36,
-       "dg": -8,
+       "p": 12,
+       "gf": 30,
+       "gc": 39,
+       "dg": -9,
        "pts": 30,
        "zona": null,
        "color": null
@@ -219,14 +219,14 @@
        "largo": "Cobresal",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4133.png",
        "pos": 14,
-       "pj": 27,
-       "g": 7,
+       "pj": 28,
+       "g": 8,
        "e": 6,
        "p": 14,
-       "gf": 39,
-       "gc": 50,
-       "dg": -11,
-       "pts": 27,
+       "gf": 42,
+       "gc": 52,
+       "dg": -10,
+       "pts": 30,
        "zona": null,
        "color": null
       },
@@ -265,12 +265,11 @@
      ]
     }
    ],
-   "actualizado": "2026-11-08T22:09-03:00",
+   "actualizado": "2026-11-20T20:06-03:00",
    "fuentes": [
     "ESPN",
     "FotMob"
-   ],
-   "pendiente": "Audax Italiano: ESPN 30 pts/27 PJ, FotMob 30 pts/28 PJ"
+   ]
   },
   "chi.pb": {
    "nombre": "Primera B",
