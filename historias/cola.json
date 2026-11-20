@@ -1,96 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "chi.pb:fm1000007346",
-  "creado": "2026-10-25T19:31:34-03:00",
-  "archivos": [
-   "historias/img/2026-10-25/chipb-antofagasta-curico-unido.png"
-  ],
-  "titulo": "Antofagasta 4–0 Curicó Unido",
-  "liga": "chi.pb",
-  "sin_goleadores": false,
-  "enviado": true,
-  "ig_id": "18156156175524409",
-  "publicado": "2026-10-25T22:32:16+00:00"
- },
- {
-  "tipo": "resumen",
-  "clave": "chi.pb:2026-10-23",
-  "creado": "2026-10-25T19:31:34-03:00",
-  "archivos": [
-   "historias/img/2026-10-25/chipb-20261023-1.png"
-  ],
-  "titulo": "Primera B Fecha 29",
-  "liga": "chi.pb",
-  "fase": "Fecha 29",
-  "rango": "23 al 25 de octubre",
-  "partidos": [
-   {
-    "dia": "Vie 23",
-    "local": "Deportes Iquique",
-    "visita": "Magallanes",
-    "gl": 4,
-    "gv": 1
-   },
-   {
-    "dia": "Sáb 24",
-    "local": "Rangers",
-    "visita": "Cobreloa",
-    "gl": 0,
-    "gv": 1
-   },
-   {
-    "dia": "Sáb 24",
-    "local": "Unión Española",
-    "visita": "Santiago Wanderers",
-    "gl": 1,
-    "gv": 2
-   },
-   {
-    "dia": "Sáb 24",
-    "local": "Puerto Montt",
-    "visita": "Unión San Felipe",
-    "gl": 3,
-    "gv": 1
-   },
-   {
-    "dia": "Sáb 24",
-    "local": "San Luis",
-    "visita": "Deportes Recoleta",
-    "gl": 1,
-    "gv": 1
-   },
-   {
-    "dia": "Sáb 24",
-    "local": "Deportes Copiapó",
-    "visita": "Deportes Santa Cruz",
-    "gl": 1,
-    "gv": 1
-   },
-   {
-    "dia": "Dom 25",
-    "local": "Deportes Temuco",
-    "visita": "San Marcos",
-    "gl": 1,
-    "gv": 2
-   },
-   {
-    "dia": "Dom 25",
-    "local": "Antofagasta",
-    "visita": "Curicó Unido",
-    "gl": 4,
-    "gv": 0
-   }
-  ],
-  "enviado": true,
-  "texto": "¡Fecha 29 de la Primera B con goleadas en el norte! 🔥\nAntofagasta aplastó 4-0 a Curicó Unido y Deportes Iquique le hizo cuatro a Magallanes (4-1).\nAdemás, Santiago Wanderers ganó 2-1 en su visita a Unión Española y Cobreloa se impuso 1-0 ante Rangers.\n¿Qué resultado los sorprendió más? 👇\n\n#MarcadorCL #Futbol #PrimeraB #FutbolChileno #AscensoChile",
-  "avisado": true,
-  "aprobado": true,
-  "ig_id": "18127898224825359",
-  "publicado": "2026-10-25T23:11:57+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "chi.1:401850672",
   "creado": "2026-10-25T19:42:29-03:00",
   "archivos": [
@@ -5441,5 +5351,27 @@
   "enviado": true,
   "ig_id": "17917613607501525",
   "publicado": "2026-11-20T21:49:01+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "esp.1:401882805",
+  "creado": "2026-11-20T18:58:42-03:00",
+  "archivos": [
+   "historias/img/2026-11-20/esp1-athletic-espanyol.png"
+  ],
+  "titulo": "Athletic 0–1 Espanyol",
+  "liga": "esp.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "fra.1:401876395",
+  "creado": "2026-11-20T18:58:42-03:00",
+  "archivos": [
+   "historias/img/2026-11-20/fra1-troyes-le-havre-ac.png"
+  ],
+  "titulo": "Troyes 3–1 Le Havre AC",
+  "liga": "fra.1",
+  "enviado": false
  }
 ]
