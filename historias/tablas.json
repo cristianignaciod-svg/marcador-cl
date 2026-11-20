@@ -1224,14 +1224,14 @@
        "largo": "Bayern Munich",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
        "pos": 1,
-       "pj": 9,
+       "pj": 10,
        "g": 6,
-       "e": 3,
+       "e": 4,
        "p": 0,
-       "gf": 29,
-       "gc": 9,
+       "gf": 30,
+       "gc": 10,
        "dg": 20,
-       "pts": 21,
+       "pts": 22,
        "zona": "Champions League",
        "color": "#81D6AC"
       },
@@ -1428,10 +1428,26 @@
        "color": null
       },
       {
+       "equipo": "FC Cologne",
+       "largo": "FC Cologne",
+       "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/122.png",
+       "pos": 14,
+       "pj": 10,
+       "g": 2,
+       "e": 4,
+       "p": 4,
+       "gf": 11,
+       "gc": 15,
+       "dg": -4,
+       "pts": 10,
+       "zona": null,
+       "color": null
+      },
+      {
        "equipo": "F. C. Augsburgo",
        "largo": "F. C. Augsburgo",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3841.png",
-       "pos": 14,
+       "pos": 15,
        "pj": 9,
        "g": 2,
        "e": 3,
@@ -1439,22 +1455,6 @@
        "gf": 20,
        "gc": 20,
        "dg": 0,
-       "pts": 9,
-       "zona": null,
-       "color": null
-      },
-      {
-       "equipo": "FC Cologne",
-       "largo": "FC Cologne",
-       "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/122.png",
-       "pos": 15,
-       "pj": 9,
-       "g": 2,
-       "e": 3,
-       "p": 4,
-       "gf": 10,
-       "gc": 14,
-       "dg": -4,
        "pts": 9,
        "zona": null,
        "color": null
@@ -1510,12 +1510,11 @@
      ]
     }
    ],
-   "actualizado": "2026-11-08T18:16-03:00",
+   "actualizado": "2026-11-20T19:18-03:00",
    "fuentes": [
     "ESPN",
     "FotMob"
-   ],
-   "pendiente": "Bayern: ESPN 21 pts/9 PJ, FotMob 22 pts/10 PJ"
+   ]
   },
   "fra.1": {
    "nombre": "Ligue 1",
