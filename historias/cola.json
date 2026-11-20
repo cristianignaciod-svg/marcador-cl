@@ -5361,7 +5361,9 @@
   ],
   "titulo": "Cobresal 3–2 Audax Italiano",
   "liga": "chi.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17989765593086657",
+  "publicado": "2026-11-20T23:07:37+00:00"
  },
  {
   "tipo": "historia",
@@ -5373,6 +5375,8 @@
   "titulo": "Deportes Recoleta 3–1 Santiago Wanderers",
   "liga": "chi.pb",
   "sin_goleadores": false,
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18107754269198151",
+  "publicado": "2026-11-20T23:07:37+00:00"
  }
 ]
