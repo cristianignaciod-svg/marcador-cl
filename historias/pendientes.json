@@ -1,1 +1,49 @@
-[]
+[
+ {
+  "id": "ger1-bayern-fc-cologne",
+  "liga": "ger.1",
+  "fase": "",
+  "fecha": "2026-11-20",
+  "local": "Bayern",
+  "visita": "FC Cologne",
+  "gl": 1,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "12'",
+    "jugador": "Mikey Moore",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "37'",
+    "jugador": "Nathaniel Brown",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "56'",
+    "jugador": "Paul Okon-Engstler",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "62'",
+    "jugador": "Dayot Upamecano",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "66'",
+    "jugador": "Said El Mala",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ }
+]

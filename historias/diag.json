@@ -30,13 +30,18 @@
   "uefa.nations": [],
   "fifa.friendly": [],
   "ger.1": [
-   "401884736 STATUS_SECOND_HALF 2026-11-20T19:30Z"
+   "401884736 STATUS_FULL_TIME 2026-11-20T19:30Z"
   ],
   "fra.1": [
-   "401876395 STATUS_SECOND_HALF 2026-11-20T19:45Z"
+   "401876395 STATUS_IN_PROGRESS 2026-11-20T19:45Z"
   ],
   "arg.1": [
    "401933760 STATUS_SCHEDULED 2026-11-20T23:00Z"
+  ]
+ },
+ "cruce": {
+  "ger.1:401884736": [
+   "partido no encontrado en FotMob: sin segunda fuente"
   ]
  },
  "tablas_web": {

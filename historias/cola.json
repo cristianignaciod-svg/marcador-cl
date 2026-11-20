@@ -1,19 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "arg.1:401841636",
-  "creado": "2026-10-25T19:31:34-03:00",
-  "archivos": [
-   "historias/img/2026-10-25/arg1-independiente-boca-juniors.png"
-  ],
-  "titulo": "Independiente 0–1 Boca Juniors",
-  "liga": "arg.1",
-  "enviado": true,
-  "ig_id": "18158843590503571",
-  "publicado": "2026-10-25T22:32:16+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "chi.pb:fm1000007346",
   "creado": "2026-10-25T19:31:34-03:00",
   "archivos": [
@@ -5441,5 +5428,16 @@
   "intentos": 1,
   "ig_id": "17986861979900459",
   "publicado": "2026-11-20T12:39:43+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "ger.1:401884736",
+  "creado": "2026-11-20T18:48:26-03:00",
+  "archivos": [
+   "historias/img/2026-11-20/ger1-bayern-fc-cologne.png"
+  ],
+  "titulo": "Bayern 1–1 FC Cologne",
+  "liga": "ger.1",
+  "enviado": false
  }
 ]
