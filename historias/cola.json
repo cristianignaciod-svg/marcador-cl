@@ -5301,7 +5301,7 @@
    }
   ],
   "sin_tabla": false,
-  "enviado": false,
+  "enviado": "vencido",
   "texto": "¡Noche de infarto en la Nations League! 🔥\nNoruega se llevó el clásico nórdico en Copenhague: Dinamarca 2-3 Noruega.\nPortugal también sufrió para ganar en Gales (2-3) e Irlanda goleó 3-0 a Kosovo.\nAdemás, empates 1-1 en Polonia-Suecia, Israel-Austria y Hungría-Irlanda del Norte.\n¿Cuál fue el partidazo de la noche? 👇\n\n#MarcadorCL #Futbol #NationsLeague #UNL #FutbolEuropeo",
   "avisado": true
  },
@@ -5436,6 +5436,8 @@
   ],
   "titulo": "Hoy se juega (4 partidos)",
   "liga": "agenda",
-  "enviado": false
+  "enviado": false,
+  "error": "400 {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,135,895,744,759,825 cannot be found.\",\"fbtrace_id\":\"AYn5oRmufOvPBbpRjMhBqhG\"}}",
+  "intentos": 1
  }
 ]
