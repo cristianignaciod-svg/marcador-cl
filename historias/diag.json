@@ -39,6 +39,12 @@
    "401933760 STATUS_SCHEDULED 2026-11-20T23:00Z"
   ]
  },
+ "agenda": {
+  "corregidos": [],
+  "canales_sin_partido": [
+   "Troyes-Le Havre"
+  ]
+ },
  "tablas_web": {
   "arg.1": "Lanús: ESPN 25 pts/15 PJ, FotMob 26 pts/16 PJ"
  }

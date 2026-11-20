@@ -1,19 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "esp.1:401882832",
-  "creado": "2026-10-25T19:31:34-03:00",
-  "archivos": [
-   "historias/img/2026-10-25/esp1-barcelona-real-madrid.png"
-  ],
-  "titulo": "Barcelona 1–2 Real Madrid",
-  "liga": "esp.1",
-  "enviado": true,
-  "ig_id": "18037069994890822",
-  "publicado": "2026-10-25T22:32:16+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "arg.1:401841636",
   "creado": "2026-10-25T19:31:34-03:00",
   "archivos": [
@@ -5439,5 +5426,16 @@
   "aprobado": true,
   "ig_id": "18146580568594389",
   "publicado": "2026-11-18T03:05:20+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "agenda:2026-11-20",
+  "creado": "2026-11-20T09:29:21-03:00",
+  "archivos": [
+   "historias/img/2026-11-20/agenda-2026-11-20-1.png"
+  ],
+  "titulo": "Hoy se juega (4 partidos)",
+  "liga": "agenda",
+  "enviado": false
  }
 ]
