@@ -1,19 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "arg.1:401841639",
-  "creado": "2026-10-25T23:50:38-03:00",
-  "archivos": [
-   "historias/img/2026-10-25/arg1-central-cordoba-santiago-del-estero-velez-sarsfield.png"
-  ],
-  "titulo": "Central Córdoba (Santiago del Estero) 0–5 Vélez Sarsfield",
-  "liga": "arg.1",
-  "enviado": true,
-  "ig_id": "17904790455669786",
-  "publicado": "2026-10-26T02:51:15+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "arg.1:401841640",
   "creado": "2026-10-26T00:29:07-03:00",
   "archivos": [
@@ -5378,5 +5365,16 @@
   "enviado": true,
   "ig_id": "17992057617077684",
   "publicado": "2026-11-21T01:33:23+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "arg.1:401933760",
+  "creado": "2026-11-20T23:11:58-03:00",
+  "archivos": [
+   "historias/img/2026-11-20/arg1-velez-sarsfield-belgrano-cordoba.png"
+  ],
+  "titulo": "Vélez Sarsfield 2–2 Belgrano (Córdoba)",
+  "liga": "arg.1",
+  "enviado": false
  }
 ]
