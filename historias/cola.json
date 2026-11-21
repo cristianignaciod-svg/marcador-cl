@@ -5221,7 +5221,9 @@
   ],
   "titulo": "Coquimbo Unido 2–1 Everton",
   "liga": "chi.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17983854672131293",
+  "publicado": "2026-11-21T17:36:29+00:00"
  },
  {
   "tipo": "historia",
@@ -5232,6 +5234,8 @@
   ],
   "titulo": "Rayo 0–1 Valencia",
   "liga": "esp.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18137691223670217",
+  "publicado": "2026-11-21T17:36:29+00:00"
  }
 ]
