@@ -1,19 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "agenda:2026-10-26",
-  "creado": "2026-10-26T09:20:19-03:00",
-  "archivos": [
-   "historias/img/2026-10-26/agenda-2026-10-26-1.png"
-  ],
-  "titulo": "Hoy se juega (2 partidos)",
-  "liga": "agenda",
-  "enviado": true,
-  "ig_id": "17991624989858462",
-  "publicado": "2026-10-26T12:21:01+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "fra.1:401876422",
   "creado": "2026-10-26T19:05:28-03:00",
   "archivos": [
@@ -5379,5 +5366,16 @@
   "enviado": true,
   "ig_id": "18108703283527193",
   "publicado": "2026-11-21T13:17:56+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "eng.1:401879233",
+  "creado": "2026-11-21T11:54:54-03:00",
+  "archivos": [
+   "historias/img/2026-11-21/eng1-man-city-fulham.png"
+  ],
+  "titulo": "Man. City 1–1 Fulham",
+  "liga": "eng.1",
+  "enviado": false
  }
 ]

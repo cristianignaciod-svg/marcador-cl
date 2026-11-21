@@ -1,1 +1,56 @@
-[]
+[
+ {
+  "id": "eng1-man-city-fulham",
+  "liga": "eng.1",
+  "fase": "",
+  "fecha": "2026-11-21",
+  "local": "Man. City",
+  "visita": "Fulham",
+  "gl": 1,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "16'",
+    "jugador": "Rodrigo Muniz",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "57'",
+    "jugador": "Elliot Anderson",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "7'",
+    "jugador": "Alex Iwobi",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "22'",
+    "jugador": "Calvin Bassey",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "44'",
+    "jugador": "Shea Charles",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "76'",
+    "jugador": "Gianluigi Donnarumma",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]
