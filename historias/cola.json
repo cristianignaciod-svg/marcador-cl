@@ -1,18 +1,5 @@
 [
  {
-  "tipo": "historia",
-  "clave": "esp.1:401882828",
-  "creado": "2026-10-26T19:34:25-03:00",
-  "archivos": [
-   "historias/img/2026-10-26/esp1-sevilla-osasuna.png"
-  ],
-  "titulo": "Sevilla 2–0 Osasuna",
-  "liga": "esp.1",
-  "enviado": true,
-  "ig_id": "18110940290240158",
-  "publicado": "2026-10-26T22:35:10+00:00"
- },
- {
   "tipo": "resumen",
   "clave": "esp.1:2026-10-23",
   "creado": "2026-10-26T19:34:25-03:00",
@@ -5379,5 +5366,16 @@
   "enviado": true,
   "ig_id": "18122902232516892",
   "publicado": "2026-11-21T15:34:36+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "ita.1:401874981",
+  "creado": "2026-11-21T13:23:07-03:00",
+  "archivos": [
+   "historias/img/2026-11-21/ita1-lazio-lecce.png"
+  ],
+  "titulo": "Lazio 3–0 Lecce",
+  "liga": "ita.1",
+  "enviado": false
  }
 ]

@@ -1,1 +1,57 @@
-[]
+[
+ {
+  "id": "ita1-lazio-lecce",
+  "liga": "ita.1",
+  "fase": "",
+  "fecha": "2026-11-21",
+  "local": "Lazio",
+  "visita": "Lecce",
+  "gl": 3,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "25'",
+    "jugador": "Tijjani Noslin",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "68'",
+    "jugador": "Tijjani Noslin",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "90'",
+    "jugador": "Davide Frattesi",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "50'",
+    "jugador": "Jamil Siebert",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "77'",
+    "jugador": "Danilo Veiga",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "87'",
+    "jugador": "Luca Pellegrini",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]
