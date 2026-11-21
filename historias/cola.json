@@ -1,19 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "arg.1:401841640",
-  "creado": "2026-10-26T00:29:07-03:00",
-  "archivos": [
-   "historias/img/2026-10-25/arg1-barracas-central-estudiantes-de-rio-cuarto.png"
-  ],
-  "titulo": "Barracas Central 2–1 Estudiantes de Río Cuarto",
-  "liga": "arg.1",
-  "enviado": true,
-  "ig_id": "17920280874245708",
-  "publicado": "2026-10-26T03:29:45+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "agenda:2026-10-26",
   "creado": "2026-10-26T09:20:19-03:00",
   "archivos": [
@@ -5378,5 +5365,17 @@
   "enviado": true,
   "ig_id": "18136263340688774",
   "publicado": "2026-11-21T02:12:29+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "agenda:2026-11-21",
+  "creado": "2026-11-21T10:17:29-03:00",
+  "archivos": [
+   "historias/img/2026-11-21/agenda-2026-11-21-1.png",
+   "historias/img/2026-11-21/agenda-2026-11-21-2.png"
+  ],
+  "titulo": "Hoy se juega (17 partidos)",
+  "liga": "agenda",
+  "enviado": false
  }
 ]
