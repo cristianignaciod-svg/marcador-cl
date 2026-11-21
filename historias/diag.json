@@ -50,7 +50,7 @@
   ],
   "ita.1": [
    "401875056 STATUS_FIRST_HALF 2026-11-21T14:00Z",
-   "401874981 STATUS_FIRST_HALF 2026-11-21T14:00Z",
+   "401874981 STATUS_IN_PROGRESS 2026-11-21T14:00Z",
    "401874967 STATUS_SCHEDULED 2026-11-21T17:00Z",
    "401875067 STATUS_SCHEDULED 2026-11-21T19:45Z"
   ],
@@ -69,6 +69,7 @@
   ]
  },
  "tablas_web": {
+  "chi.1": "Everton: ESPN 40 pts/27 PJ, FotMob 43 pts/28 PJ",
   "esp.1": "Deportivo: ESPN 15 pts/12 PJ, FotMob 16 pts/13 PJ",
   "eng.1": "Chelsea: ESPN 16 pts/10 PJ, FotMob 17 pts/11 PJ",
   "ger.1": "Borussia Dortmund: ESPN 21 pts/9 PJ, FotMob 22 pts/10 PJ"
