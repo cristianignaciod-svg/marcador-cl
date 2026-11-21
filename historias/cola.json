@@ -5223,7 +5223,9 @@
   ],
   "titulo": "Leverkusen 4–0 SC Paderborn 07",
   "liga": "ger.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18025071041945008",
+  "publicado": "2026-11-21T16:54:23+00:00"
  },
  {
   "tipo": "historia",
@@ -5234,6 +5236,8 @@
   ],
   "titulo": "Eintracht 1–0 TSG Hoffenheim",
   "liga": "ger.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18382314172241390",
+  "publicado": "2026-11-21T16:54:23+00:00"
  }
 ]
