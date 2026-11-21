@@ -270,7 +270,7 @@
     "ESPN",
     "FotMob"
    ],
-   "pendiente": "U. de Chile: ESPN 51 pts/27 PJ, FotMob 52 pts/28 PJ"
+   "pendiente": "U. de Chile: ESPN 51 pts/27 PJ, FotMob 54 pts/28 PJ"
   },
   "chi.pb": {
    "nombre": "Primera B",
@@ -1817,8 +1817,7 @@
    "fuentes": [
     "ESPN",
     "FotMob"
-   ],
-   "pendiente": "Lille: ESPN 21 pts/10 PJ, FotMob 21 pts/11 PJ"
+   ]
   },
   "arg.1": {
    "nombre": "Liga Profesional",
@@ -2654,7 +2653,7 @@
     "ESPN",
     "FotMob"
    ],
-   "pendiente": "Flamengo: ESPN 79 pts/35 PJ, FotMob 80 pts/36 PJ"
+   "pendiente": "Bahia: ESPN 54 pts/35 PJ, FotMob 54 pts/36 PJ"
   },
   "uefa.champions": {
    "nombre": "Champions League",
