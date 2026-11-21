@@ -1,45 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "fra.1:401876420",
-  "creado": "2026-10-30T19:21:03-03:00",
-  "archivos": [
-   "historias/img/2026-10-30/fra1-lille-lens.png"
-  ],
-  "titulo": "Lille 1–0 Lens",
-  "liga": "fra.1",
-  "enviado": true,
-  "ig_id": "18119337128090577",
-  "publicado": "2026-10-30T22:21:22+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "chi.1:401850681",
-  "creado": "2026-10-30T21:15:07-03:00",
-  "archivos": [
-   "historias/img/2026-10-30/chi1-colo-colo-universidad-de-concepcion.png"
-  ],
-  "titulo": "Colo Colo 6–1 Universidad de Concepción",
-  "liga": "chi.1",
-  "enviado": true,
-  "ig_id": "18015006440759104",
-  "publicado": "2026-10-31T00:15:26+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "chi.1:401850680",
-  "creado": "2026-10-30T21:15:07-03:00",
-  "archivos": [
-   "historias/img/2026-10-30/chi1-coquimbo-unido-union-la-calera.png"
-  ],
-  "titulo": "Coquimbo Unido 1–0 Unión La Calera",
-  "liga": "chi.1",
-  "enviado": true,
-  "ig_id": "18126594322963134",
-  "publicado": "2026-10-31T00:15:26+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "arg.1:401841655",
   "creado": "2026-10-30T21:25:19-03:00",
   "archivos": [
@@ -5235,5 +5196,38 @@
   "enviado": true,
   "ig_id": "17866564584694961",
   "publicado": "2026-11-21T19:14:55+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "esp.1:401882797",
+  "creado": "2026-11-21T16:34:15-03:00",
+  "archivos": [
+   "historias/img/2026-11-21/esp1-sevilla-betis.png"
+  ],
+  "titulo": "Sevilla 1–1 Betis",
+  "liga": "esp.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "eng.1:401879232",
+  "creado": "2026-11-21T16:34:15-03:00",
+  "archivos": [
+   "historias/img/2026-11-21/eng1-newcastle-arsenal.png"
+  ],
+  "titulo": "Newcastle 2–2 Arsenal",
+  "liga": "eng.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "ger.1:401884729",
+  "creado": "2026-11-21T16:34:15-03:00",
+  "archivos": [
+   "historias/img/2026-11-21/ger1-schalke-04-vfb-stuttgart.png"
+  ],
+  "titulo": "Schalke 04 0–0 VfB Stuttgart",
+  "liga": "ger.1",
+  "enviado": false
  }
 ]
