@@ -1,56 +1,112 @@
 [
  {
-  "id": "ita1-lazio-lecce",
-  "liga": "ita.1",
+  "id": "ger1-borussia-monchengladbach-borussia-dortmund",
+  "liga": "ger.1",
   "fase": "",
   "fecha": "2026-11-21",
-  "local": "Lazio",
-  "visita": "Lecce",
-  "gl": 3,
-  "gv": 0,
+  "local": "Borussia Monchengladbach",
+  "visita": "Borussia Dortmund",
+  "gl": 0,
+  "gv": 1,
   "goles": [
    {
-    "min": "25'",
-    "jugador": "Tijjani Noslin",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "68'",
-    "jugador": "Tijjani Noslin",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "90'",
-    "jugador": "Davide Frattesi",
-    "lado": "local",
+    "min": "80'",
+    "jugador": "Felix Nmecha",
+    "lado": "visita",
     "penal": false,
     "autogol": false
    }
   ],
   "tarjetas": [
    {
-    "min": "50'",
-    "jugador": "Jamil Siebert",
+    "min": "16'",
+    "jugador": "Kouakou Gadou",
     "lado": "visita",
     "tipo": "amarilla"
    },
    {
-    "min": "77'",
-    "jugador": "Danilo Veiga",
-    "lado": "visita",
+    "min": "32'",
+    "jugador": "Zento Uno",
+    "lado": "local",
     "tipo": "amarilla"
    },
    {
-    "min": "87'",
-    "jugador": "Luca Pellegrini",
+    "min": "71'",
+    "jugador": "Kevin Diks",
     "lado": "local",
     "tipo": "amarilla"
    }
   ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "ger1-sv-elversberg-sc-freiburg",
+  "liga": "ger.1",
+  "fase": "",
+  "fecha": "2026-11-21",
+  "local": "SV Elversberg",
+  "visita": "SC Freiburg",
+  "gl": 0,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "68'",
+    "jugador": "Igor Matanovic",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "33'",
+    "jugador": "Niklas Beste",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "70'",
+    "jugador": "Igor Matanovic",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "78'",
+    "jugador": "Philipp Lienhart",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "ita1-como-cagliari",
+  "liga": "ita.1",
+  "fase": "",
+  "fecha": "2026-11-21",
+  "local": "Como",
+  "visita": "Cagliari",
+  "gl": 2,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "24'",
+    "jugador": "Jacobo Ramón",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "56'",
+    "jugador": "Lucas Da Cunha",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [],
   "anulados": [],
   "verificado": "ESPN+FotMob"
  }

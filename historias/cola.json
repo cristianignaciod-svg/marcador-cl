@@ -1,184 +1,5 @@
 [
  {
-  "tipo": "resumen",
-  "clave": "esp.1:2026-10-23",
-  "creado": "2026-10-26T19:34:25-03:00",
-  "archivos": [
-   "historias/img/2026-10-26/esp1-20261023-1.png"
-  ],
-  "titulo": "esp.1 23 al 26 de octubre",
-  "liga": "esp.1",
-  "fase": "",
-  "rango": "23 al 26 de octubre",
-  "partidos": [
-   {
-    "dia": "Vie 23",
-    "local": "Alavés",
-    "visita": "Málaga",
-    "gl": 1,
-    "gv": 1
-   },
-   {
-    "dia": "Sáb 24",
-    "local": "Rayo",
-    "visita": "Elche",
-    "gl": 0,
-    "gv": 3
-   },
-   {
-    "dia": "Sáb 24",
-    "local": "Racing",
-    "visita": "Espanyol",
-    "gl": 2,
-    "gv": 1
-   },
-   {
-    "dia": "Sáb 24",
-    "local": "Valencia",
-    "visita": "Villarreal",
-    "gl": 1,
-    "gv": 2
-   },
-   {
-    "dia": "Sáb 24",
-    "local": "Atlético",
-    "visita": "Deportivo",
-    "gl": 1,
-    "gv": 0
-   },
-   {
-    "dia": "Dom 25",
-    "local": "Athletic",
-    "visita": "Getafe",
-    "gl": 4,
-    "gv": 0
-   },
-   {
-    "dia": "Dom 25",
-    "local": "Celta",
-    "visita": "Betis",
-    "gl": 0,
-    "gv": 0
-   },
-   {
-    "dia": "Dom 25",
-    "local": "Real Sociedad",
-    "visita": "Levante",
-    "gl": 2,
-    "gv": 1
-   },
-   {
-    "dia": "Dom 25",
-    "local": "Barcelona",
-    "visita": "Real Madrid",
-    "gl": 1,
-    "gv": 2
-   },
-   {
-    "dia": "Lun 26",
-    "local": "Sevilla",
-    "visita": "Osasuna",
-    "gl": 2,
-    "gv": 0
-   }
-  ],
-  "enviado": true,
-  "texto": "¡El Real Madrid se llevó el Clásico! 🔥 Ganó 2-1 en la cancha del Barcelona y se quedó con el duelo más esperado de la fecha.\nEl Athletic pasó por encima del Getafe con un 4-0 y el Elche dio el golpe goleando 3-0 al Rayo de visita.\nTambién ganaron Atlético (1-0 al Deportivo) y Sevilla (2-0 a Osasuna).\n¿Qué resultado los sorprendió más esta fecha? 👇\n\n#MarcadorCL #Futbol #LaLiga #LaLigaEA #FutbolEspañol",
-  "avisado": true,
-  "aprobado": true,
-  "ig_id": "18036164669850910",
-  "publicado": "2026-10-26T23:04:07+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "chi.1:401850671",
-  "creado": "2026-10-26T20:23:09-03:00",
-  "archivos": [
-   "historias/img/2026-10-26/chi1-u-de-chile-everton-cd.png"
-  ],
-  "titulo": "U. de Chile 4–1 Everton CD",
-  "liga": "chi.1",
-  "enviado": true,
-  "ig_id": "18137461222639979",
-  "publicado": "2026-10-26T23:24:03+00:00"
- },
- {
-  "tipo": "resumen",
-  "clave": "chi.1:2026-10-23",
-  "creado": "2026-10-26T20:23:09-03:00",
-  "archivos": [
-   "historias/img/2026-10-26/chi1-20261023-1.png"
-  ],
-  "titulo": "chi.1 23 al 26 de octubre",
-  "liga": "chi.1",
-  "fase": "",
-  "rango": "23 al 26 de octubre",
-  "partidos": [
-   {
-    "dia": "Vie 23",
-    "local": "Audax Italiano",
-    "visita": "Huachipato",
-    "gl": 1,
-    "gv": 1
-   },
-   {
-    "dia": "Sáb 24",
-    "local": "La Serena",
-    "visita": "Deportes Concepcion",
-    "gl": 3,
-    "gv": 1
-   },
-   {
-    "dia": "Sáb 24",
-    "local": "O'Higgins",
-    "visita": "Cobresal",
-    "gl": 1,
-    "gv": 1
-   },
-   {
-    "dia": "Dom 25",
-    "local": "Ñublense",
-    "visita": "Coquimbo Unido",
-    "gl": 2,
-    "gv": 1
-   },
-   {
-    "dia": "Dom 25",
-    "local": "Unión La Calera",
-    "visita": "U. Católica",
-    "gl": 3,
-    "gv": 1
-   },
-   {
-    "dia": "Dom 25",
-    "local": "Palestino",
-    "visita": "Colo Colo",
-    "gl": 1,
-    "gv": 1
-   },
-   {
-    "dia": "Dom 25",
-    "local": "Universidad de Concepción",
-    "visita": "Deportes Limache",
-    "gl": 0,
-    "gv": 1
-   },
-   {
-    "dia": "Lun 26",
-    "local": "U. de Chile",
-    "visita": "Everton CD",
-    "gl": 4,
-    "gv": 1
-   }
-  ],
-  "enviado": true,
-  "texto": "¡Fecha cargada en el Campeonato! 🔥 La U se lució en el cierre y le metió un 4-1 a Everton.\nLa sorpresa la dio Unión La Calera, que goleó 3-1 a la UC 😮\nY Palestino y Colo Colo se repartieron puntos con un 1-1.\n¿Cuál fue para ustedes el resultado de la fecha? 👇\n\n#MarcadorCL #Futbol #CampeonatoNacional #FutbolChileno #LigaDePrimera",
-  "avisado": true,
-  "aprobado": true,
-  "ig_id": "17974626669158162",
-  "publicado": "2026-10-27T00:11:40+00:00"
- },
- {
   "tipo": "historia",
   "clave": "arg.1:401841630",
   "creado": "2026-10-26T21:21:15-03:00",
@@ -5379,5 +5200,38 @@
   "enviado": true,
   "ig_id": "17985883716081556",
   "publicado": "2026-11-21T16:23:41+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "ger.1:401884731",
+  "creado": "2026-11-21T13:33:20-03:00",
+  "archivos": [
+   "historias/img/2026-11-21/ger1-borussia-monchengladbach-borussia-dortmund.png"
+  ],
+  "titulo": "Borussia Monchengladbach 0–1 Borussia Dortmund",
+  "liga": "ger.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "ger.1:401884728",
+  "creado": "2026-11-21T13:33:20-03:00",
+  "archivos": [
+   "historias/img/2026-11-21/ger1-sv-elversberg-sc-freiburg.png"
+  ],
+  "titulo": "SV Elversberg 0–1 SC Freiburg",
+  "liga": "ger.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "ita.1:401875056",
+  "creado": "2026-11-21T13:33:20-03:00",
+  "archivos": [
+   "historias/img/2026-11-21/ita1-como-cagliari.png"
+  ],
+  "titulo": "Como 2–0 Cagliari",
+  "liga": "ita.1",
+  "enviado": false
  }
 ]
