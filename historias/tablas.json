@@ -1332,10 +1332,26 @@
        "color": "#B2BFD0"
       },
       {
+       "equipo": "VfB Stuttgart",
+       "largo": "VfB Stuttgart",
+       "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
+       "pos": 8,
+       "pj": 10,
+       "g": 4,
+       "e": 1,
+       "p": 5,
+       "gf": 15,
+       "gc": 15,
+       "dg": 0,
+       "pts": 13,
+       "zona": null,
+       "color": null
+      },
+      {
        "equipo": "SV Elversberg",
        "largo": "SV Elversberg",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/10388.png",
-       "pos": 8,
+       "pos": 9,
        "pj": 10,
        "g": 4,
        "e": 1,
@@ -1344,22 +1360,6 @@
        "gc": 19,
        "dg": -2,
        "pts": 13,
-       "zona": null,
-       "color": null
-      },
-      {
-       "equipo": "VfB Stuttgart",
-       "largo": "VfB Stuttgart",
-       "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
-       "pos": 9,
-       "pj": 9,
-       "g": 4,
-       "e": 0,
-       "p": 5,
-       "gf": 15,
-       "gc": 15,
-       "dg": 0,
-       "pts": 12,
        "zona": null,
        "color": null
       },
@@ -1460,10 +1460,26 @@
        "color": null
       },
       {
+       "equipo": "Schalke 04",
+       "largo": "Schalke 04",
+       "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/133.png",
+       "pos": 16,
+       "pj": 10,
+       "g": 1,
+       "e": 4,
+       "p": 5,
+       "gf": 5,
+       "gc": 11,
+       "dg": -6,
+       "pts": 7,
+       "zona": "Relegation playoff",
+       "color": "#FEB4B5"
+      },
+      {
        "equipo": "1. FC Union Berlin",
        "largo": "1. FC Union Berlin",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/598.png",
-       "pos": 16,
+       "pos": 17,
        "pj": 10,
        "g": 1,
        "e": 4,
@@ -1472,22 +1488,6 @@
        "gc": 26,
        "dg": -18,
        "pts": 7,
-       "zona": "Relegation playoff",
-       "color": "#FEB4B5"
-      },
-      {
-       "equipo": "Schalke 04",
-       "largo": "Schalke 04",
-       "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/133.png",
-       "pos": 17,
-       "pj": 9,
-       "g": 1,
-       "e": 3,
-       "p": 5,
-       "gf": 5,
-       "gc": 11,
-       "dg": -6,
-       "pts": 6,
        "zona": "Relegation",
        "color": "#FF7F84"
       },
@@ -1510,12 +1510,11 @@
      ]
     }
    ],
-   "actualizado": "2026-11-21T14:24-03:00",
+   "actualizado": "2026-11-21T17:04-03:00",
    "fuentes": [
     "ESPN",
     "FotMob"
-   ],
-   "pendiente": "VfB Stuttgart: ESPN 12 pts/9 PJ, FotMob 13 pts/10 PJ"
+   ]
   },
   "fra.1": {
    "nombre": "Ligue 1",
