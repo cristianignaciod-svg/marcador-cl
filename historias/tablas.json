@@ -1817,7 +1817,8 @@
    "fuentes": [
     "ESPN",
     "FotMob"
-   ]
+   ],
+   "pendiente": "Lille: ESPN 21 pts/10 PJ, FotMob 21 pts/11 PJ"
   },
   "arg.1": {
    "nombre": "Liga Profesional",
@@ -2653,7 +2654,7 @@
     "ESPN",
     "FotMob"
    ],
-   "pendiente": "Bahia: ESPN 54 pts/35 PJ, FotMob 54 pts/36 PJ"
+   "pendiente": "Flamengo: ESPN 79 pts/35 PJ, FotMob 80 pts/36 PJ"
   },
   "uefa.champions": {
    "nombre": "Champions League",
