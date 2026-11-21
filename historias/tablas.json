@@ -269,8 +269,7 @@
    "fuentes": [
     "ESPN",
     "FotMob"
-   ],
-   "pendiente": "Palestino: ESPN 38 pts/27 PJ, FotMob 38 pts/28 PJ"
+   ]
   },
   "chi.pb": {
    "nombre": "Primera B",
@@ -1893,14 +1892,14 @@
        "largo": "Lanús",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/12.png",
        "pos": 5,
-       "pj": 15,
+       "pj": 16,
        "g": 7,
-       "e": 4,
+       "e": 5,
        "p": 4,
-       "gf": 18,
-       "gc": 11,
+       "gf": 19,
+       "gc": 12,
        "dg": 7,
-       "pts": 25,
+       "pts": 26,
        "zona": null,
        "color": "#2AD572"
       },
@@ -2053,14 +2052,14 @@
        "largo": "Central Córdoba (Santiago del Estero)",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11989.png",
        "pos": 15,
-       "pj": 15,
+       "pj": 16,
        "g": 2,
-       "e": 4,
+       "e": 5,
        "p": 9,
-       "gf": 11,
-       "gc": 25,
+       "gf": 12,
+       "gc": 26,
        "dg": -14,
-       "pts": 10,
+       "pts": 11,
        "zona": null,
        "color": null
       }
@@ -2312,12 +2311,11 @@
      ]
     }
    ],
-   "actualizado": "2026-11-08T00:05-03:00",
+   "actualizado": "2026-11-20T23:22-03:00",
    "fuentes": [
     "ESPN",
     "FotMob"
-   ],
-   "pendiente": "Lanús: ESPN 25 pts/15 PJ, FotMob 26 pts/16 PJ"
+   ]
   },
   "bra.1": {
    "nombre": "Brasileirão",
