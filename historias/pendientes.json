@@ -1,1 +1,94 @@
-[]
+[
+ {
+  "id": "esp1-alaves-deportivo",
+  "liga": "esp.1",
+  "fase": "",
+  "fecha": "2026-11-21",
+  "local": "Alavés",
+  "visita": "Deportivo",
+  "gl": 3,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "2'",
+    "jugador": "Ángel Pérez",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "41'",
+    "jugador": "Nahuel Tenaglia",
+    "lado": "visita",
+    "penal": false,
+    "autogol": true
+   },
+   {
+    "min": "62'",
+    "jugador": "Lucas Boyé",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "90'",
+    "jugador": "Denis Suárez",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "5'",
+    "jugador": "Ximo Navarro",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "19'",
+    "jugador": "Giacomo Quagliata",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "32'",
+    "jugador": "Ángel Pérez",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "48'",
+    "jugador": "Miguel Loureiro",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "56'",
+    "jugador": "Adama Traoré",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "56'",
+    "jugador": "Abde Rebbach",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "65'",
+    "jugador": "Lucas Boyé",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "89'",
+    "jugador": "Ander Guevara",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]
