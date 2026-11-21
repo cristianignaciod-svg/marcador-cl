@@ -3,7 +3,7 @@
  "eventos": {
   "chi.1": [
    "401850692 STATUS_FULL_TIME 2026-11-20T21:00Z",
-   "401850695 STATUS_SECOND_HALF 2026-11-20T23:30Z",
+   "401850695 STATUS_FULL_TIME 2026-11-20T23:30Z",
    "401850699 STATUS_SCHEDULED 2026-11-21T15:00Z",
    "401850696 STATUS_SCHEDULED 2026-11-21T21:00Z",
    "401850694 STATUS_SCHEDULED 2026-11-21T23:30Z"
@@ -40,7 +40,7 @@
   ]
  },
  "tablas_web": {
-  "chi.1": "Palestino: ESPN 38 pts/27 PJ, FotMob 39 pts/28 PJ",
+  "chi.1": "Palestino: ESPN 38 pts/27 PJ, FotMob 38 pts/28 PJ",
   "arg.1": "Lanús: ESPN 25 pts/15 PJ, FotMob 26 pts/16 PJ"
  }
 }

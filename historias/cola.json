@@ -1,19 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "chi.1:401850670",
-  "creado": "2026-10-25T22:05:53-03:00",
-  "archivos": [
-   "historias/img/2026-10-25/chi1-universidad-de-concepcion-deportes-limache.png"
-  ],
-  "titulo": "Universidad de Concepción 0–1 Deportes Limache",
-  "liga": "chi.1",
-  "enviado": true,
-  "ig_id": "18044350805839192",
-  "publicado": "2026-10-26T01:06:25+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "arg.1:401841639",
   "creado": "2026-10-25T23:50:38-03:00",
   "archivos": [
@@ -5378,5 +5365,16 @@
   "enviado": true,
   "ig_id": "18107754269198151",
   "publicado": "2026-11-20T23:07:37+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "chi.1:401850695",
+  "creado": "2026-11-20T22:32:47-03:00",
+  "archivos": [
+   "historias/img/2026-11-20/chi1-palestino-union-la-calera.png"
+  ],
+  "titulo": "Palestino 0–1 Unión La Calera",
+  "liga": "chi.1",
+  "enviado": false
  }
 ]

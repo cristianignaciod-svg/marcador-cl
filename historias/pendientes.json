@@ -1,1 +1,61 @@
-[]
+[
+ {
+  "id": "chi1-palestino-union-la-calera",
+  "liga": "chi.1",
+  "fase": "",
+  "fecha": "2026-11-20",
+  "local": "Palestino",
+  "visita": "Unión La Calera",
+  "gl": 0,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "90+1'",
+    "jugador": "Matías Campos López",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "27'",
+    "jugador": "Dylan Glaby",
+    "lado": "local",
+    "tipo": "roja"
+   },
+   {
+    "min": "44'",
+    "jugador": "Enzo Roco",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "80'",
+    "jugador": "Joe Abrigo",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "82'",
+    "jugador": "Rodrigo Pérez",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "84'",
+    "jugador": "César Munder",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "86'",
+    "jugador": "Camilo Moya",
+    "lado": "visita",
+    "tipo": "doble"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]
