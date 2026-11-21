@@ -65,12 +65,12 @@
   "arg.1": [
    "401933760 STATUS_FINAL_PEN 2026-11-20T23:00Z",
    "401933758 STATUS_FULL_TIME 2026-11-21T18:00Z",
-   "401933755 STATUS_SECOND_HALF 2026-11-21T20:00Z"
+   "401933755 STATUS_FULL_TIME 2026-11-21T20:00Z"
   ]
  },
  "tablas_web": {
   "chi.1": "U. de Chile: ESPN 51 pts/27 PJ, FotMob 52 pts/28 PJ",
-  "esp.1": "Real Madrid: ESPN 30 pts/12 PJ, FotMob 31 pts/13 PJ",
+  "esp.1": "Real Madrid: ESPN 30 pts/12 PJ, FotMob 33 pts/13 PJ",
   "fra.1": "Lille: ESPN 21 pts/10 PJ, FotMob 21 pts/11 PJ",
   "bra.1": "Flamengo: ESPN 79 pts/35 PJ, FotMob 80 pts/36 PJ"
  }

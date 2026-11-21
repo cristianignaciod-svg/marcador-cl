@@ -1,1 +1,57 @@
-[]
+[
+ {
+  "id": "arg1-argentinos-juniors-independiente",
+  "liga": "arg.1",
+  "fase": "",
+  "fecha": "2026-11-21",
+  "local": "Argentinos Juniors",
+  "visita": "Independiente",
+  "gl": 1,
+  "gv": 2,
+  "goles": [
+   {
+    "min": "40'",
+    "jugador": "Maximiliano Meza",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "47'",
+    "jugador": "Diego Porcel",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "75'",
+    "jugador": "Maximiliano Meza",
+    "lado": "visita",
+    "penal": true,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "18'",
+    "jugador": "Sebastián Prieto",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "21'",
+    "jugador": "Iván Marcone",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "74'",
+    "jugador": "Brayan Cortés",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]

@@ -1,19 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "arg.1:401841653",
-  "creado": "2026-10-30T21:35:25-03:00",
-  "archivos": [
-   "historias/img/2026-10-30/arg1-huracan-tigre.png"
-  ],
-  "titulo": "Huracán 0–2 Tigre",
-  "liga": "arg.1",
-  "enviado": true,
-  "ig_id": "17918325555262156",
-  "publicado": "2026-10-31T00:35:54+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "chi.pb:fm1000007353",
   "creado": "2026-10-30T23:19:03-03:00",
   "archivos": [
@@ -5235,5 +5222,16 @@
   "enviado": true,
   "ig_id": "17955616137301924",
   "publicado": "2026-11-21T20:24:20+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "arg.1:401933755",
+  "creado": "2026-11-21T19:00:46-03:00",
+  "archivos": [
+   "historias/img/2026-11-21/arg1-argentinos-juniors-independiente.png"
+  ],
+  "titulo": "Argentinos Juniors 1–2 Independiente",
+  "liga": "arg.1",
+  "enviado": false
  }
 ]
