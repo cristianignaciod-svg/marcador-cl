@@ -1,52 +1,259 @@
 [
  {
-  "id": "arg1-argentinos-juniors-independiente",
-  "liga": "arg.1",
+  "id": "esp1-real-madrid-celta",
+  "liga": "esp.1",
   "fase": "",
   "fecha": "2026-11-21",
-  "local": "Argentinos Juniors",
-  "visita": "Independiente",
-  "gl": 1,
-  "gv": 2,
+  "local": "Real Madrid",
+  "visita": "Celta",
+  "gl": 2,
+  "gv": 1,
   "goles": [
    {
-    "min": "40'",
-    "jugador": "Maximiliano Meza",
+    "min": "6'",
+    "jugador": "Pablo Durán",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "66'",
+    "jugador": "Jude Bellingham",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "85'",
+    "jugador": "Carlos Espí",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "74'",
+    "jugador": "Yoel Lago",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "82'",
+    "jugador": "Javi Rodríguez",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+4'",
+    "jugador": "Carlos Espí",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "ita1-napoli-torino",
+  "liga": "ita.1",
+  "fase": "",
+  "fecha": "2026-11-21",
+  "local": "Napoli",
+  "visita": "Torino",
+  "gl": 1,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "73'",
+    "jugador": "Scott McTominay",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "54'",
+    "jugador": "Pietro Comuzzo",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "56'",
+    "jugador": "Billy Gilmour",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "76'",
+    "jugador": "Frank Anguissa",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "fra1-as-monaco-aj-auxerre",
+  "liga": "fra.1",
+  "fase": "",
+  "fecha": "2026-11-21",
+  "local": "AS Mónaco",
+  "visita": "AJ Auxerre",
+  "gl": 1,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "29'",
+    "jugador": "Romain Faivre",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "82'",
+    "jugador": "Edan Diop",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "90+5'",
+    "jugador": "Paul Nardi",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "fra1-lens-toulouse",
+  "liga": "fra.1",
+  "fase": "",
+  "fecha": "2026-11-21",
+  "local": "Lens",
+  "visita": "Toulouse",
+  "gl": 1,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "39'",
+    "jugador": "Jacen Russell-Rowe",
     "lado": "visita",
     "penal": false,
     "autogol": false
    },
    {
     "min": "47'",
-    "jugador": "Diego Porcel",
+    "jugador": "Michaël Cuisance",
     "lado": "local",
     "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "75'",
-    "jugador": "Maximiliano Meza",
-    "lado": "visita",
-    "penal": true,
     "autogol": false
    }
   ],
   "tarjetas": [
    {
-    "min": "18'",
-    "jugador": "Sebastián Prieto",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "21'",
-    "jugador": "Iván Marcone",
+    "min": "28'",
+    "jugador": "Niko Sigur",
     "lado": "visita",
     "tipo": "amarilla"
    },
    {
-    "min": "74'",
-    "jugador": "Brayan Cortés",
+    "min": "33'",
+    "jugador": "Florian Thauvin",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "43'",
+    "jugador": "Santiago Hidalgo",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "62'",
+    "jugador": "Amadou Haidara",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "fra1-lille-lyon",
+  "liga": "fra.1",
+  "fase": "",
+  "fecha": "2026-11-21",
+  "local": "Lille",
+  "visita": "Lyon",
+  "gl": 0,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "40'",
+    "jugador": "Mads Bidstrup",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "90+3'",
+    "jugador": "Corentin Tolisso",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "fra1-strasbourg-brest",
+  "liga": "fra.1",
+  "fase": "",
+  "fecha": "2026-11-21",
+  "local": "Strasbourg",
+  "visita": "Brest",
+  "gl": 0,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "22'",
+    "jugador": "Noah Edjouma",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "13'",
+    "jugador": "Dário Essugo",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "24'",
+    "jugador": "Sebastian Nanasi",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "56'",
+    "jugador": "Lucas Tousart",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "86'",
+    "jugador": "Diogo Sousa",
     "lado": "local",
     "tipo": "amarilla"
    }
