@@ -1,21 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "ger.1:401884746",
-  "creado": "2026-10-30T19:01:41-03:00",
-  "archivos": [
-   "historias/img/2026-10-30/ger1-sv-elversberg-mainz.png"
-  ],
-  "titulo": "SV Elversberg 4–1 Mainz",
-  "liga": "ger.1",
-  "enviado": true,
-  "error": "400 {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,130,754,326,759,825 cannot be found.\",\"fbtrace_id\":\"A0nr4hmoyYyP9RTu824R21j\"}}",
-  "intentos": 1,
-  "ig_id": "18118606163008461",
-  "publicado": "2026-10-30T22:11:28+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "esp.1:401882817",
   "creado": "2026-10-30T19:21:03-03:00",
   "archivos": [
@@ -5237,5 +5222,16 @@
   "enviado": true,
   "ig_id": "18137691223670217",
   "publicado": "2026-11-21T17:36:29+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "fra.1:401876398",
+  "creado": "2026-11-21T15:25:28-03:00",
+  "archivos": [
+   "historias/img/2026-11-21/fra1-nice-psg.png"
+  ],
+  "titulo": "Nice 2–3 PSG",
+  "liga": "fra.1",
+  "enviado": false
  }
 ]
