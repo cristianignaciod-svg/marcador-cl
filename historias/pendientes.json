@@ -1,165 +1,70 @@
 [
  {
-  "id": "eng1-bournemouth-nottingham-f",
-  "liga": "eng.1",
+  "id": "chi1-coquimbo-unido-everton",
+  "liga": "chi.1",
   "fase": "",
   "fecha": "2026-11-21",
-  "local": "Bournemouth",
-  "visita": "Nottingham F.",
+  "local": "Coquimbo Unido",
+  "visita": "Everton",
   "gl": 2,
-  "gv": 0,
+  "gv": 1,
   "goles": [
    {
-    "min": "19'",
-    "jugador": "Evanilson",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "45+3'",
-    "jugador": "Justin Kluivert",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   }
-  ],
-  "tarjetas": [
-   {
-    "min": "45'",
-    "jugador": "Liam Delap",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "57'",
-    "jugador": "Daniel Muñoz",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "87'",
-    "jugador": "Alex Scott",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "90+1'",
-    "jugador": "Murillo",
-    "lado": "visita",
-    "tipo": "amarilla"
-   }
-  ],
-  "anulados": [],
-  "verificado": "ESPN+FotMob"
- },
- {
-  "id": "eng1-aston-villa-sunderland",
-  "liga": "eng.1",
-  "fase": "",
-  "fecha": "2026-11-21",
-  "local": "Aston Villa",
-  "visita": "Sunderland",
-  "gl": 0,
-  "gv": 0,
-  "goles": [],
-  "tarjetas": [
-   {
-    "min": "38'",
-    "jugador": "Trai Hume",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "54'",
-    "jugador": "Leon Goretzka",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "66'",
-    "jugador": "Ian Maatsen",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "85'",
-    "jugador": "Nilson Angulo",
-    "lado": "visita",
-    "tipo": "amarilla"
-   }
-  ],
-  "anulados": [],
-  "verificado": "ESPN+FotMob"
- },
- {
-  "id": "eng1-chelsea-leeds",
-  "liga": "eng.1",
-  "fase": "",
-  "fecha": "2026-11-21",
-  "local": "Chelsea",
-  "visita": "Leeds",
-  "gl": 1,
-  "gv": 4,
-  "goles": [
-   {
-    "min": "25'",
-    "jugador": "Emmanuel Emegha",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "28'",
-    "jugador": "Noah Okafor",
+    "min": "8'",
+    "jugador": "Nicolás Montiel",
     "lado": "visita",
     "penal": false,
     "autogol": false
    },
    {
-    "min": "53'",
-    "jugador": "Dominic Calvert-Lewin",
-    "lado": "visita",
+    "min": "10'",
+    "jugador": "Luis Riveros",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "90+7'",
+    "jugador": "Lucas Pratto",
+    "lado": "local",
     "penal": true,
     "autogol": false
-   },
-   {
-    "min": "58'",
-    "jugador": "Noah Okafor",
-    "lado": "visita",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "90+1'",
-    "jugador": "Brenden Aaronson",
-    "lado": "visita",
-    "penal": false,
-    "autogol": false
    }
   ],
   "tarjetas": [
    {
-    "min": "38'",
-    "jugador": "Gabriel Gudmundsson",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "47'",
-    "jugador": "Romeo Lavia",
+    "min": "18'",
+    "jugador": "Juan Cornejo",
     "lado": "local",
     "tipo": "amarilla"
    },
    {
-    "min": "68'",
-    "jugador": "Jayden Bogle",
+    "min": "43'",
+    "jugador": "Elvis Hernandez",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "50'",
+    "jugador": "Nicolás Montiel",
     "lado": "visita",
     "tipo": "amarilla"
    },
    {
-    "min": "83'",
-    "jugador": "Sean Longstaff",
+    "min": "70'",
+    "jugador": "Pablo Rodríguez",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+4'",
+    "jugador": "Braian Martínez",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+6'",
+    "jugador": "Ignacio González",
     "lado": "visita",
     "tipo": "amarilla"
    }
@@ -168,127 +73,39 @@
   "verificado": "ESPN+FotMob"
  },
  {
-  "id": "eng1-coventry-crystal-palace",
-  "liga": "eng.1",
+  "id": "esp1-rayo-valencia",
+  "liga": "esp.1",
   "fase": "",
   "fecha": "2026-11-21",
-  "local": "Coventry",
-  "visita": "Crystal Palace",
-  "gl": 3,
-  "gv": 2,
+  "local": "Rayo",
+  "visita": "Valencia",
+  "gl": 0,
+  "gv": 1,
   "goles": [
-   {
-    "min": "5'",
-    "jugador": "Taiwo Awoniyi",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "13'",
-    "jugador": "Yéremy Pino",
-    "lado": "visita",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "30'",
-    "jugador": "Tatsuhiro Sakamoto",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "45+1'",
-    "jugador": "Jørgen Strand Larsen",
-    "lado": "visita",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "85'",
-    "jugador": "Dwight McNeil",
-    "lado": "local",
-    "penal": false,
-    "autogol": true
-   }
-  ],
-  "tarjetas": [
-   {
-    "min": "36'",
-    "jugador": "Adam Wharton",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "61'",
-    "jugador": "Matt Grimes",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "75'",
-    "jugador": "Yéremy Pino",
-    "lado": "visita",
-    "tipo": "amarilla"
-   }
-  ],
-  "anulados": [],
-  "verificado": "ESPN+FotMob"
- },
- {
-  "id": "eng1-tottenham-ipswich",
-  "liga": "eng.1",
-  "fase": "",
-  "fecha": "2026-11-21",
-  "local": "Tottenham",
-  "visita": "Ipswich",
-  "gl": 2,
-  "gv": 0,
-  "goles": [
-   {
-    "min": "15'",
-    "jugador": "Luca Williams-Barnett",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "51'",
-    "jugador": "Dominic Solanke",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   }
-  ],
-  "tarjetas": [
    {
     "min": "41'",
-    "jugador": "James Maddison",
+    "jugador": "Copete",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "45+1'",
+    "jugador": "Sergio Camello",
     "lado": "local",
     "tipo": "amarilla"
    },
    {
-    "min": "52'",
-    "jugador": "Luca Williams-Barnett",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "79'",
-    "jugador": "Mohammed Kudus",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "83'",
-    "jugador": "Issa Diop",
+    "min": "64'",
+    "jugador": "Javier Guerra",
     "lado": "visita",
     "tipo": "amarilla"
    },
    {
-    "min": "90+5'",
-    "jugador": "Mateus Fernandes",
+    "min": "71'",
+    "jugador": "Jorge de Frutos",
     "lado": "local",
     "tipo": "amarilla"
    }

@@ -1,32 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "fra.1:401876421",
-  "creado": "2026-10-30T17:45:19-03:00",
-  "archivos": [
-   "historias/img/2026-10-30/fra1-le-havre-ac-psg.png"
-  ],
-  "titulo": "Le Havre AC 1–5 PSG",
-  "liga": "fra.1",
-  "enviado": true,
-  "ig_id": "18397151272161382",
-  "publicado": "2026-10-30T20:45:43+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "fra.1:401876416",
-  "creado": "2026-10-30T17:45:19-03:00",
-  "archivos": [
-   "historias/img/2026-10-30/fra1-nice-stade-rennais.png"
-  ],
-  "titulo": "Nice 5–2 Stade Rennais",
-  "liga": "fra.1",
-  "enviado": true,
-  "ig_id": "18169391650467056",
-  "publicado": "2026-10-30T20:45:43+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "ger.1:401884746",
   "creado": "2026-10-30T19:01:41-03:00",
   "archivos": [
@@ -5237,5 +5211,27 @@
   "enviado": true,
   "ig_id": "18112022711196344",
   "publicado": "2026-11-21T17:25:02+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "chi.1:401850699",
+  "creado": "2026-11-21T14:35:54-03:00",
+  "archivos": [
+   "historias/img/2026-11-21/chi1-coquimbo-unido-everton.png"
+  ],
+  "titulo": "Coquimbo Unido 2–1 Everton",
+  "liga": "chi.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "esp.1:401882799",
+  "creado": "2026-11-21T14:35:54-03:00",
+  "archivos": [
+   "historias/img/2026-11-21/esp1-rayo-valencia.png"
+  ],
+  "titulo": "Rayo 0–1 Valencia",
+  "liga": "esp.1",
+  "enviado": false
  }
 ]
