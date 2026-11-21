@@ -5182,7 +5182,9 @@
   ],
   "titulo": "Bournemouth 2–0 Nottingham F.",
   "liga": "eng.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18130902808851679",
+  "publicado": "2026-11-21T17:25:02+00:00"
  },
  {
   "tipo": "historia",
@@ -5193,7 +5195,9 @@
   ],
   "titulo": "Aston Villa 0–0 Sunderland",
   "liga": "eng.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18077323748745984",
+  "publicado": "2026-11-21T17:25:02+00:00"
  },
  {
   "tipo": "historia",
@@ -5204,7 +5208,9 @@
   ],
   "titulo": "Chelsea 1–4 Leeds",
   "liga": "eng.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18017172428986649",
+  "publicado": "2026-11-21T17:25:02+00:00"
  },
  {
   "tipo": "historia",
@@ -5215,7 +5221,9 @@
   ],
   "titulo": "Coventry 3–2 Crystal Palace",
   "liga": "eng.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18182460661432224",
+  "publicado": "2026-11-21T17:25:02+00:00"
  },
  {
   "tipo": "historia",
@@ -5226,6 +5234,8 @@
   ],
   "titulo": "Tottenham 2–0 Ipswich",
   "liga": "eng.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18112022711196344",
+  "publicado": "2026-11-21T17:25:02+00:00"
  }
 ]
