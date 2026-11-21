@@ -1,1 +1,84 @@
-[]
+[
+ {
+  "id": "ger1-1-fc-union-berlin-rb-leipzig",
+  "liga": "ger.1",
+  "fase": "",
+  "fecha": "2026-11-21",
+  "local": "1. FC Union Berlin",
+  "visita": "RB Leipzig",
+  "gl": 1,
+  "gv": 5,
+  "goles": [
+   {
+    "min": "18'",
+    "jugador": "Antonio Nusa",
+    "lado": "visita",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "41'",
+    "jugador": "Michel Aebischer",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "50'",
+    "jugador": "Rômulo",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "72'",
+    "jugador": "Brajan Gruda",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "76'",
+    "jugador": "Rocco Reitz",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "89'",
+    "jugador": "Ridle Baku",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "5'",
+    "jugador": "Brajan Gruda",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "9'",
+    "jugador": "András Schäfer",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "13'",
+    "jugador": "Ezechiel Banzuzi",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "17'",
+    "jugador": "Zeno Van Den Bosch",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]
