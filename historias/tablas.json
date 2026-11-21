@@ -270,7 +270,7 @@
     "ESPN",
     "FotMob"
    ],
-   "pendiente": "U. de Chile: ESPN 51 pts/27 PJ, FotMob 54 pts/28 PJ"
+   "pendiente": "Ñublense: ESPN 35 pts/27 PJ, FotMob 38 pts/28 PJ"
   },
   "chi.pb": {
    "nombre": "Primera B",
@@ -2651,7 +2651,8 @@
    "fuentes": [
     "ESPN",
     "FotMob"
-   ]
+   ],
+   "pendiente": "Bahia: ESPN 54 pts/35 PJ, FotMob 54 pts/36 PJ"
   },
   "uefa.champions": {
    "nombre": "Champions League",

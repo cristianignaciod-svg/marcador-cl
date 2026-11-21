@@ -1,19 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "ger.1:401884749",
-  "creado": "2026-10-31T13:37:45-03:00",
-  "archivos": [
-   "historias/img/2026-10-31/ger1-borussia-monchengladbach-sc-paderborn-07.png"
-  ],
-  "titulo": "Borussia Monchengladbach 0–0 SC Paderborn 07",
-  "liga": "ger.1",
-  "enviado": true,
-  "ig_id": "17890912080653615",
-  "publicado": "2026-10-31T16:38:07+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "ger.1:401884751",
   "creado": "2026-10-31T13:37:45-03:00",
   "archivos": [
@@ -5231,5 +5218,16 @@
   "enviado": true,
   "ig_id": "18115806454893233",
   "publicado": "2026-11-21T22:11:18+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "chi.1:401850696",
+  "creado": "2026-11-21T20:40:01-03:00",
+  "archivos": [
+   "historias/img/2026-11-21/chi1-o-higgins-u-de-chile.png"
+  ],
+  "titulo": "O'Higgins 0–1 U. de Chile",
+  "liga": "chi.1",
+  "enviado": false
  }
 ]
