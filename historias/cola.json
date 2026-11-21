@@ -5206,7 +5206,9 @@
   ],
   "titulo": "Sevilla 1–1 Betis",
   "liga": "esp.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18017224328993696",
+  "publicado": "2026-11-21T19:34:44+00:00"
  },
  {
   "tipo": "historia",
@@ -5217,7 +5219,9 @@
   ],
   "titulo": "Newcastle 2–2 Arsenal",
   "liga": "eng.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18034355015685919",
+  "publicado": "2026-11-21T19:34:44+00:00"
  },
  {
   "tipo": "historia",
@@ -5228,6 +5232,8 @@
   ],
   "titulo": "Schalke 04 0–0 VfB Stuttgart",
   "liga": "ger.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18292708450291650",
+  "publicado": "2026-11-21T19:34:44+00:00"
  }
 ]
