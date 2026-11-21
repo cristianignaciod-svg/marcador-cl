@@ -1210,7 +1210,8 @@
    "fuentes": [
     "ESPN",
     "FotMob"
-   ]
+   ],
+   "pendiente": "Arsenal: ESPN 27 pts/10 PJ, FotMob 28 pts/11 PJ"
   },
   "ger.1": {
    "nombre": "Bundesliga",
@@ -1513,7 +1514,8 @@
    "fuentes": [
     "ESPN",
     "FotMob"
-   ]
+   ],
+   "pendiente": "VfB Stuttgart: ESPN 12 pts/9 PJ, FotMob 13 pts/10 PJ"
   },
   "fra.1": {
    "nombre": "Ligue 1",
