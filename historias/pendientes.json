@@ -1,52 +1,138 @@
 [
  {
-  "id": "ger1-1-fc-union-berlin-rb-leipzig",
-  "liga": "ger.1",
+  "id": "eng1-bournemouth-nottingham-f",
+  "liga": "eng.1",
   "fase": "",
   "fecha": "2026-11-21",
-  "local": "1. FC Union Berlin",
-  "visita": "RB Leipzig",
-  "gl": 1,
-  "gv": 5,
+  "local": "Bournemouth",
+  "visita": "Nottingham F.",
+  "gl": 2,
+  "gv": 0,
   "goles": [
    {
-    "min": "18'",
-    "jugador": "Antonio Nusa",
-    "lado": "visita",
-    "penal": true,
-    "autogol": false
-   },
-   {
-    "min": "41'",
-    "jugador": "Michel Aebischer",
+    "min": "19'",
+    "jugador": "Evanilson",
     "lado": "local",
     "penal": false,
     "autogol": false
    },
    {
-    "min": "50'",
-    "jugador": "Rômulo",
+    "min": "45+3'",
+    "jugador": "Justin Kluivert",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "45'",
+    "jugador": "Liam Delap",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "57'",
+    "jugador": "Daniel Muñoz",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "87'",
+    "jugador": "Alex Scott",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+1'",
+    "jugador": "Murillo",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "eng1-aston-villa-sunderland",
+  "liga": "eng.1",
+  "fase": "",
+  "fecha": "2026-11-21",
+  "local": "Aston Villa",
+  "visita": "Sunderland",
+  "gl": 0,
+  "gv": 0,
+  "goles": [],
+  "tarjetas": [
+   {
+    "min": "38'",
+    "jugador": "Trai Hume",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "54'",
+    "jugador": "Leon Goretzka",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "66'",
+    "jugador": "Ian Maatsen",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "85'",
+    "jugador": "Nilson Angulo",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "eng1-chelsea-leeds",
+  "liga": "eng.1",
+  "fase": "",
+  "fecha": "2026-11-21",
+  "local": "Chelsea",
+  "visita": "Leeds",
+  "gl": 1,
+  "gv": 4,
+  "goles": [
+   {
+    "min": "25'",
+    "jugador": "Emmanuel Emegha",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "28'",
+    "jugador": "Noah Okafor",
     "lado": "visita",
     "penal": false,
     "autogol": false
    },
    {
-    "min": "72'",
-    "jugador": "Brajan Gruda",
+    "min": "53'",
+    "jugador": "Dominic Calvert-Lewin",
+    "lado": "visita",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "58'",
+    "jugador": "Noah Okafor",
     "lado": "visita",
     "penal": false,
     "autogol": false
    },
    {
-    "min": "76'",
-    "jugador": "Rocco Reitz",
-    "lado": "visita",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "89'",
-    "jugador": "Ridle Baku",
+    "min": "90+1'",
+    "jugador": "Brenden Aaronson",
     "lado": "visita",
     "penal": false,
     "autogol": false
@@ -54,26 +140,155 @@
   ],
   "tarjetas": [
    {
-    "min": "5'",
-    "jugador": "Brajan Gruda",
+    "min": "38'",
+    "jugador": "Gabriel Gudmundsson",
     "lado": "visita",
     "tipo": "amarilla"
    },
    {
-    "min": "9'",
-    "jugador": "András Schäfer",
+    "min": "47'",
+    "jugador": "Romeo Lavia",
     "lado": "local",
     "tipo": "amarilla"
    },
    {
-    "min": "13'",
-    "jugador": "Ezechiel Banzuzi",
+    "min": "68'",
+    "jugador": "Jayden Bogle",
     "lado": "visita",
     "tipo": "amarilla"
    },
    {
-    "min": "17'",
-    "jugador": "Zeno Van Den Bosch",
+    "min": "83'",
+    "jugador": "Sean Longstaff",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "eng1-coventry-crystal-palace",
+  "liga": "eng.1",
+  "fase": "",
+  "fecha": "2026-11-21",
+  "local": "Coventry",
+  "visita": "Crystal Palace",
+  "gl": 3,
+  "gv": 2,
+  "goles": [
+   {
+    "min": "5'",
+    "jugador": "Taiwo Awoniyi",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "13'",
+    "jugador": "Yéremy Pino",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "30'",
+    "jugador": "Tatsuhiro Sakamoto",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "45+1'",
+    "jugador": "Jørgen Strand Larsen",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "85'",
+    "jugador": "Dwight McNeil",
+    "lado": "local",
+    "penal": false,
+    "autogol": true
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "36'",
+    "jugador": "Adam Wharton",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "61'",
+    "jugador": "Matt Grimes",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "75'",
+    "jugador": "Yéremy Pino",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "eng1-tottenham-ipswich",
+  "liga": "eng.1",
+  "fase": "",
+  "fecha": "2026-11-21",
+  "local": "Tottenham",
+  "visita": "Ipswich",
+  "gl": 2,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "15'",
+    "jugador": "Luca Williams-Barnett",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "51'",
+    "jugador": "Dominic Solanke",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "41'",
+    "jugador": "James Maddison",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "52'",
+    "jugador": "Luca Williams-Barnett",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "79'",
+    "jugador": "Mohammed Kudus",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "83'",
+    "jugador": "Issa Diop",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+5'",
+    "jugador": "Mateus Fernandes",
     "lado": "local",
     "tipo": "amarilla"
    }

@@ -1,73 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "ita.1:401874780",
-  "creado": "2026-10-27T18:58:15-03:00",
-  "archivos": [
-   "historias/img/2026-10-27/ita1-as-roma-cagliari.png"
-  ],
-  "titulo": "AS Roma 4–2 Cagliari",
-  "liga": "ita.1",
-  "enviado": true,
-  "ig_id": "17864743545695047",
-  "publicado": "2026-10-27T21:59:05+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "ita.1:401874786",
-  "creado": "2026-10-27T19:08:42-03:00",
-  "archivos": [
-   "historias/img/2026-10-27/ita1-torino-como.png"
-  ],
-  "titulo": "Torino 1–3 Como",
-  "liga": "ita.1",
-  "enviado": true,
-  "error": "400 {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,129,943,339,759,825 cannot be found.\",\"fbtrace_id\":\"AScP-DZoR9zKZy4UQqevokv\"}}",
-  "intentos": 1,
-  "ig_id": "17924988348443785",
-  "publicado": "2026-10-27T22:19:05+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "ita.1:401874976",
-  "creado": "2026-10-29T16:53:31-03:00",
-  "archivos": [
-   "historias/img/2026-10-29/ita1-frosinone-lecce.png"
-  ],
-  "titulo": "Frosinone 5–1 Lecce",
-  "liga": "ita.1",
-  "enviado": true,
-  "ig_id": "17874286077602167",
-  "publicado": "2026-10-29T19:54:03+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "ita.1:401874969",
-  "creado": "2026-10-29T19:33:49-03:00",
-  "archivos": [
-   "historias/img/2026-10-29/ita1-fiorentina-atalanta.png"
-  ],
-  "titulo": "Fiorentina 2–2 Atalanta",
-  "liga": "ita.1",
-  "enviado": true,
-  "ig_id": "17883994806533704",
-  "publicado": "2026-10-29T22:34:18+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "agenda:2026-10-30",
-  "creado": "2026-10-30T09:20:33-03:00",
-  "archivos": [
-   "historias/img/2026-10-30/agenda-2026-10-30-1.png"
-  ],
-  "titulo": "Hoy se juega (4 partidos)",
-  "liga": "agenda",
-  "enviado": true,
-  "ig_id": "17991550634866872",
-  "publicado": "2026-10-30T12:21:02+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "fra.1:401876421",
   "creado": "2026-10-30T17:45:19-03:00",
   "archivos": [
@@ -5239,5 +5172,60 @@
   "enviado": true,
   "ig_id": "18090045977705587",
   "publicado": "2026-11-21T17:14:31+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "eng.1:401879238",
+  "creado": "2026-11-21T14:24:17-03:00",
+  "archivos": [
+   "historias/img/2026-11-21/eng1-bournemouth-nottingham-f.png"
+  ],
+  "titulo": "Bournemouth 2–0 Nottingham F.",
+  "liga": "eng.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "eng.1:401878756",
+  "creado": "2026-11-21T14:24:17-03:00",
+  "archivos": [
+   "historias/img/2026-11-21/eng1-aston-villa-sunderland.png"
+  ],
+  "titulo": "Aston Villa 0–0 Sunderland",
+  "liga": "eng.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "eng.1:401879236",
+  "creado": "2026-11-21T14:24:17-03:00",
+  "archivos": [
+   "historias/img/2026-11-21/eng1-chelsea-leeds.png"
+  ],
+  "titulo": "Chelsea 1–4 Leeds",
+  "liga": "eng.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "eng.1:401879235",
+  "creado": "2026-11-21T14:24:17-03:00",
+  "archivos": [
+   "historias/img/2026-11-21/eng1-coventry-crystal-palace.png"
+  ],
+  "titulo": "Coventry 3–2 Crystal Palace",
+  "liga": "eng.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "eng.1:401878754",
+  "creado": "2026-11-21T14:24:17-03:00",
+  "archivos": [
+   "historias/img/2026-11-21/eng1-tottenham-ipswich.png"
+  ],
+  "titulo": "Tottenham 2–0 Ipswich",
+  "liga": "eng.1",
+  "enviado": false
  }
 ]
