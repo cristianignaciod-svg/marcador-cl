@@ -101,6 +101,36 @@ button.match:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
 .ball{flex:none;width:9px;height:9px;border-radius:50%;background:var(--fg);box-shadow:inset 0 0 0 2px var(--surface-2),0 0 0 1px var(--fg);align-self:flex-start;margin-top:5px}
 .card{flex:none;width:8px;height:11px;border-radius:2px;background:var(--live);align-self:flex-start;margin-top:4px}
 .dmsg{margin:0;font-size:13px;color:var(--muted)}
+/* formaciones */
+.det.full{padding-left:14px}
+.dtabs{display:flex;gap:4px}
+.dtabs button{border:1px solid var(--line);background:var(--bg);color:var(--muted);font:700 12px var(--body);padding:5px 12px;border-radius:999px;cursor:pointer}
+.dtabs button[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.lu-h{display:flex;justify-content:space-between;gap:10px;font-size:12px;color:var(--muted)}
+.lu-h b{color:var(--fg)}
+.pitch{position:relative;width:100%;max-width:440px;margin:0 auto;aspect-ratio:68/105;border-radius:10px;overflow:hidden;border:2px solid #2b8548;background:repeating-linear-gradient(0deg,#2f8f4e 0 10%,#2b8548 10% 20%)}
+.pitch .ln{position:absolute;border:2px solid rgba(255,255,255,.55)}
+.pitch .mid{left:0;right:0;top:50%;border-width:2px 0 0}
+.pitch .circ{left:50%;top:50%;width:26%;aspect-ratio:1;transform:translate(-50%,-50%);border-radius:50%}
+.pitch .ar{left:26%;right:26%;height:11%}.pitch .ar.t{top:-2px}.pitch .ar.b{bottom:-2px}
+.pl{position:absolute;transform:translate(-50%,-50%);display:flex;flex-direction:column;align-items:center;width:23%;z-index:1}
+.pl .pdot{position:relative;width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font:800 12px var(--body);box-shadow:0 1px 3px rgba(0,0,0,.45);background:#fff;color:#141a16}
+.pl.v .pdot{background:#141a16;color:#fff;box-shadow:0 0 0 2px #fff,0 1px 3px rgba(0,0,0,.45)}
+.pl .pn{margin-top:3px;max-width:100%;font:700 10.5px/1.15 var(--body);color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.7);text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pl .ev{position:absolute;top:-6px;right:-10px;display:flex;gap:1px}
+.pl .ev i{display:block;font-style:normal;font-size:10px;line-height:1}
+.pl .ev .og{filter:grayscale(1) brightness(.6)}
+.pl .ev .yc,.pl .ev .rc2{width:7px;height:10px;border-radius:1px;background:#f5c518;box-shadow:0 0 0 1px rgba(0,0,0,.3)}
+.pl .ev .rc2{background:#d62828}
+.pl .so{position:absolute;top:-7px;left:-14px;font:800 9px var(--body);background:#fff;color:#c0392b;border-radius:6px;padding:0 3px;box-shadow:0 0 0 1px rgba(0,0,0,.15)}
+.subs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px 18px}
+.subs h5{margin:0 0 4px;font:700 11px var(--body);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.subs ul{list-style:none;margin:0;padding:0}
+.subs li{display:flex;align-items:center;gap:7px;font-size:13px;padding:3px 0;border-bottom:1px solid var(--line);min-width:0}
+.subs li .nr{flex:none;width:22px;text-align:right;font:700 12px var(--body);color:var(--muted);font-variant-numeric:tabular-nums}
+.subs li .sn{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.subs li .in{margin-left:auto;flex:none;font:700 11px var(--body);color:#1f9a4a}
+.subs .dt{margin-top:6px;font-size:12px;color:var(--muted)}
 .src{margin:0;font-size:11.5px;color:var(--muted);line-height:1.4}
 .src .ok{color:var(--soon);font-weight:700}
 .src .warn{color:var(--live);font-weight:700}
@@ -317,7 +347,7 @@ const state = {liga:"todos", dia:null, cache:{}, lastOk:null, errors:0, open:new
 try { const s = localStorage.getItem("mcl-liga"); if (s && LIGAS.some(l => l.id === s)) state.liga = s; } catch (e) {}
 state.vista = "partidos"; state.tablas = null; state.tablasAt = 0; state.tablasErr = false;
 try { if (localStorage.getItem("mcl-vista") === "tablas") state.vista = "tablas"; } catch (e) {}
-state.orden = "liga";
+state.orden = "liga"; state.tab = {}; state.lu = {};
 try { if (localStorage.getItem("mcl-orden") === "hora") state.orden = "hora"; } catch (e) {}
 
 const dayKey = d => new Intl.DateTimeFormat("en-CA",{timeZone:TZ,year:"numeric",month:"2-digit",day:"2-digit"}).format(d);
@@ -744,10 +774,16 @@ function matchHTML(p, conTorneo) {
   const body = `<div class="when ${cls}">${top}${sub}</div><div class="teams">${ctag}
     <div class="team ${wl(p.gl,p.gv)}"><span class="nm">${logo(p.logoL)}<span class="tn">${esc(p.local)}</span></span>${sc(p.gl,p.pl)}</div>
     <div class="team ${wl(p.gv,p.gl)}"><span class="nm">${logo(p.logoV)}<span class="tn">${esc(p.visita)}</span></span>${sc(p.gv,p.pv)}</div></div>${tv}`;
-  if (!started(p) || !((p.gl ?? 0) + (p.gv ?? 0))) return `<div class="mwrap"><div class="match">${body}</div></div>`;
-  const open = state.open.has(p.key);
   const n = (p.gl ?? 0) + (p.gv ?? 0);
-  return `<div class="mwrap${open ? " open" : ""}"><button type="button" class="match clk" data-key="${esc(p.key)}" aria-expanded="${open}" aria-label="${esc(p.local)} ${p.gl ?? ""} ${esc(p.visita)} ${p.gv ?? ""}. ${open ? "Ocultar" : "Ver"} ${n ? "goles" : "detalle"}">${body}<span class="chev" aria-hidden="true"></span></button>${open ? `<div class="det">${detHTML(p)}</div>` : ""}</div>`;
+  const conGoles = started(p) && n > 0;
+  // formación: partidos con FotMob desde 2 horas antes del inicio
+  const conForm = !!p.fmId && p.estado !== "postergado" && (started(p) || p._d - Date.now() < 2 * 3600e3);
+  if (!conGoles && !conForm) return `<div class="mwrap"><div class="match">${body}</div></div>`;
+  const open = state.open.has(p.key);
+  const tab = conGoles && conForm ? (state.tab[p.key] || "goles") : conGoles ? "goles" : "form";
+  const tabs = conGoles && conForm ? `<div class="dtabs" role="toolbar" aria-label="Detalle"><button type="button" data-tab="goles" data-tk="${esc(p.key)}" aria-pressed="${tab === "goles"}">Goles</button><button type="button" data-tab="form" data-tk="${esc(p.key)}" aria-pressed="${tab === "form"}">Formación</button></div>` : "";
+  const inner = tab === "form" ? luHTML(p) : detHTML(p);
+  return `<div class="mwrap${open ? " open" : ""}"><button type="button" class="match clk" data-key="${esc(p.key)}" aria-expanded="${open}" aria-label="${esc(p.local)} ${p.gl ?? ""} ${esc(p.visita)} ${p.gv ?? ""}. ${open ? "Ocultar" : "Ver"} ${conGoles ? "goles" : "formación"}">${body}<span class="chev" aria-hidden="true"></span></button>${open ? `<div class="det${tab === "form" ? " full" : ""}">${tabs}${inner}</div>` : ""}</div>`;
 }
 
 // Pide un detalle (y lo vuelve a pedir cada 25 s mientras el partido está en vivo)
@@ -788,6 +824,59 @@ function detData(p) {
     return {status:"ok", goles:best.goles, rojas, incompleto: best.goles.length < total};
   }
   return {status: pending ? "loading" : "wait"};
+}
+
+/* ---------- formaciones (FotMob matchDetails → content.lineup) ---------- */
+async function fetchLineup(id) {
+  let j = null;
+  for (const u of [`${FOTMOB}matchDetails?matchId=${id}`, `https://www.fotmob.com/api/matchDetails?matchId=${id}`]) {
+    try { const r = await fetch(u, {cache:"no-store"}); if (r.ok) { j = await r.json(); break; } } catch (e) {}
+  }
+  if (!j) throw new Error("lineup");
+  const lu = j.content?.lineup;
+  const equipo = t => t && {
+    nombre: t.name, formacion: t.formation || "", dt: t.coach?.name || "",
+    tit: (t.starters || []).filter(x => x.verticalLayout).map(x => {
+      const ev = (x.performance?.events || []).map(e => e.type);
+      const so = (x.performance?.substitutionEvents || []).find(e => e.type === "subOut");
+      return {n: x.lastName || x.name, num: x.shirtNumber || "", x: x.verticalLayout.x, y: x.verticalLayout.y,
+        goles: ev.filter(e => e === "goal").length, ec: ev.filter(e => e === "ownGoal").length,
+        am: ev.includes("yellowCard"), roja: ev.includes("redCard") || ev.includes("yellowRedCard"), sale: so ? so.time : null};
+    }),
+    sup: (t.subs || []).map(x => {
+      const si = (x.performance?.substitutionEvents || []).find(e => e.type === "subIn");
+      return {n: x.name, num: x.shirtNumber || "", entra: si ? si.time : null};
+    })
+  };
+  const h = equipo(lu?.homeTeam), a = equipo(lu?.awayTeam);
+  if (!h || !a || h.tit.length < 11 || a.tit.length < 11) return null;
+  return {h, a};
+}
+function luHTML(p) {
+  const k = p.fmId, cur = state.lu[k];
+  const viejo = cur && Date.now() - cur.at > (isLive(p) ? 60000 : 300000);
+  if (!cur || (viejo && cur.status !== "loading")) {
+    state.lu[k] = {status:"loading", at:Date.now(), prev: cur && cur.status === "ok" ? cur : null};
+    fetchLineup(k).then(r => { state.lu[k] = {status:"ok", at:Date.now(), data:r}; })
+      .catch(() => { state.lu[k] = {status:"err", at:Date.now()}; }).finally(queueRender);
+  }
+  const d = state.lu[k].status === "loading" && state.lu[k].prev ? state.lu[k].prev : state.lu[k];
+  if (d.status === "loading") return `<p class="dmsg">Cargando formaciones…</p>`;
+  if (d.status === "err") return `<p class="dmsg">No se pudo cargar la formación. Intenta de nuevo en un momento.</p>`;
+  if (!d.data) return `<p class="dmsg">Formaciones aún no confirmadas. Suelen publicarse una hora antes del partido.</p>`;
+  // FotMob local/visita pueden venir al revés respecto de este partido
+  const arriba = p.fmSwap ? d.data.a : d.data.h, abajo = p.fmSwap ? d.data.h : d.data.a;
+  const jug = (x, vis) => {
+    // y: 0.1 = arquero … 0.9 = delantero. Local en la mitad de arriba, visita abajo (espejado)
+    const top = vis ? 100 - x.y * 47 : x.y * 47, left = vis ? x.x * 100 : 100 - x.x * 100;
+    const ev = [].concat(Array(x.goles).fill('<i title="Gol">⚽</i>'), Array(x.ec).fill('<i class="og" title="Autogol">⚽</i>'),
+      x.am && !x.roja ? ['<i class="yc" title="Amarilla"></i>'] : [], x.roja ? ['<i class="rc2" title="Roja"></i>'] : []).join("");
+    return `<div class="pl${vis ? " v" : ""}" style="left:${left.toFixed(1)}%;top:${top.toFixed(1)}%"><span class="pdot">${esc(x.num)}${ev ? `<span class="ev">${ev}</span>` : ""}${x.sale != null ? `<span class="so" title="Salió">↓${esc(x.sale)}'</span>` : ""}</span><span class="pn">${esc(x.n)}</span></div>`;
+  };
+  const lista = t => `<div><h5>${esc(t.nombre)} · suplentes</h5><ul>${t.sup.map(x => `<li><span class="nr">${esc(x.num)}</span><span class="sn">${esc(x.n)}</span>${x.entra != null ? `<span class="in">↑ ${esc(x.entra)}'</span>` : ""}</li>`).join("")}</ul>${t.dt ? `<div class="dt">DT: ${esc(t.dt)}</div>` : ""}</div>`;
+  return `<div class="lu-h"><span><b>${esc(p.local)}</b> ${esc(arriba.formacion)}</span><span><b>${esc(p.visita)}</b> ${esc(abajo.formacion)}</span></div>
+    <div class="pitch" role="img" aria-label="Formaciones: ${esc(p.local)} ${esc(arriba.formacion)} contra ${esc(p.visita)} ${esc(abajo.formacion)}"><span class="ln mid"></span><span class="ln circ"></span><span class="ln ar t"></span><span class="ln ar b"></span>${arriba.tit.map(x => jug(x, false)).join("")}${abajo.tit.map(x => jug(x, true)).join("")}</div>
+    <div class="subs">${lista(arriba)}${lista(abajo)}</div>`;
 }
 
 function detHTML(p) {
@@ -837,6 +926,8 @@ document.addEventListener("click", e => {
     if (state.vista === "tablas" && (!state.tablas || Date.now() - state.tablasAt > 60000)) loadTablas();
     render(); window.scrollTo({top:0}); return;
   }
+  const tb = e.target.closest("[data-tab]");
+  if (tb) { state.tab[tb.dataset.tk] = tb.dataset.tab; render(); return; }
   const m = e.target.closest("[data-key]");
   if (m) { const k = m.dataset.key; state.open.has(k) ? state.open.delete(k) : state.open.add(k); render(); return; }
   const t = e.target.closest("[data-liga]");
