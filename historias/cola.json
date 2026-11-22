@@ -1,19 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "eng.1:401879250",
-  "creado": "2026-10-31T19:54:47-03:00",
-  "archivos": [
-   "historias/img/2026-10-31/eng1-aston-villa-fulham.png"
-  ],
-  "titulo": "Aston Villa 1–1 Fulham",
-  "liga": "eng.1",
-  "enviado": true,
-  "ig_id": "18339712702272953",
-  "publicado": "2026-10-31T22:55:21+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "chi.1:401850676",
   "creado": "2026-10-31T20:23:48-03:00",
   "archivos": [
@@ -5266,5 +5253,16 @@
   "enviado": true,
   "ig_id": "17918388492512995",
   "publicado": "2026-11-22T18:57:54+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "ita.1:401874989",
+  "creado": "2026-11-22T16:07:37-03:00",
+  "archivos": [
+   "historias/img/2026-11-22/ita1-milan-frosinone.png"
+  ],
+  "titulo": "Milan 5–1 Frosinone",
+  "liga": "ita.1",
+  "enviado": false
  }
 ]

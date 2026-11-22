@@ -1,38 +1,52 @@
 [
  {
-  "id": "ger1-werder-bremen-hamburg-sv",
-  "liga": "ger.1",
+  "id": "ita1-milan-frosinone",
+  "liga": "ita.1",
   "fase": "",
   "fecha": "2026-11-22",
-  "local": "Werder Bremen",
-  "visita": "Hamburg SV",
-  "gl": 4,
-  "gv": 0,
+  "local": "Milan",
+  "visita": "Frosinone",
+  "gl": 5,
+  "gv": 1,
   "goles": [
    {
-    "min": "55'",
-    "jugador": "Marco Friedl",
+    "min": "4'",
+    "jugador": "Gabriele Calvani",
+    "lado": "local",
+    "penal": false,
+    "autogol": true
+   },
+   {
+    "min": "19'",
+    "jugador": "Gonçalo Ramos",
     "lado": "local",
     "penal": false,
     "autogol": false
    },
    {
-    "min": "66'",
-    "jugador": "Justin Njinmah",
+    "min": "25'",
+    "jugador": "Patrizio Masini",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "48'",
+    "jugador": "Ardon Jashari",
     "lado": "local",
     "penal": false,
     "autogol": false
    },
    {
-    "min": "70'",
-    "jugador": "Justin Njinmah",
+    "min": "60'",
+    "jugador": "Alphadjo Cissè",
     "lado": "local",
     "penal": false,
     "autogol": false
    },
    {
-    "min": "90+2'",
-    "jugador": "Niclas Füllkrug",
+    "min": "68'",
+    "jugador": "Christian Pulisic",
     "lado": "local",
     "penal": false,
     "autogol": false
@@ -40,39 +54,33 @@
   ],
   "tarjetas": [
    {
-    "min": "10'",
-    "jugador": "Amos Pieper",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "23'",
-    "jugador": "Warmed Omari",
+    "min": "34'",
+    "jugador": "Giorgio Cittadini",
     "lado": "visita",
     "tipo": "amarilla"
    },
    {
-    "min": "39'",
-    "jugador": "Chuki",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "50'",
-    "jugador": "Olivier Deman",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "74'",
-    "jugador": "Nicolás Capaldo",
+    "min": "40'",
+    "jugador": "Giacomo Calo",
     "lado": "visita",
     "tipo": "amarilla"
    },
    {
-    "min": "84'",
-    "jugador": "Albert Grønbaek",
+    "min": "57'",
+    "jugador": "Ilario Monterisi",
     "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "66'",
+    "jugador": "Anthony Oyono",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "87'",
+    "jugador": "Alphadjo Cissè",
+    "lado": "local",
     "tipo": "amarilla"
    }
   ],
