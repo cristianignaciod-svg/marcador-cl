@@ -1,38 +1,38 @@
 [
  {
-  "id": "eng1-liverpool-man-united",
-  "liga": "eng.1",
+  "id": "ger1-werder-bremen-hamburg-sv",
+  "liga": "ger.1",
   "fase": "",
   "fecha": "2026-11-22",
-  "local": "Liverpool",
-  "visita": "Man. United",
+  "local": "Werder Bremen",
+  "visita": "Hamburg SV",
   "gl": 4,
   "gv": 0,
   "goles": [
    {
-    "min": "10'",
-    "jugador": "Dominik Szoboszlai",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "13'",
-    "jugador": "Florian Wirtz",
+    "min": "55'",
+    "jugador": "Marco Friedl",
     "lado": "local",
     "penal": false,
     "autogol": false
    },
    {
     "min": "66'",
-    "jugador": "Rio Ngumoha",
+    "jugador": "Justin Njinmah",
     "lado": "local",
     "penal": false,
     "autogol": false
    },
    {
-    "min": "82'",
-    "jugador": "Víctor Muñoz",
+    "min": "70'",
+    "jugador": "Justin Njinmah",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "90+2'",
+    "jugador": "Niclas Füllkrug",
     "lado": "local",
     "penal": false,
     "autogol": false
@@ -40,15 +40,39 @@
   ],
   "tarjetas": [
    {
-    "min": "8'",
-    "jugador": "Leny Yoro",
-    "lado": "visita",
-    "tipo": "roja"
+    "min": "10'",
+    "jugador": "Amos Pieper",
+    "lado": "local",
+    "tipo": "amarilla"
    },
    {
-    "min": "62'",
-    "jugador": "Bradley Barcola",
+    "min": "23'",
+    "jugador": "Warmed Omari",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "39'",
+    "jugador": "Chuki",
     "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "50'",
+    "jugador": "Olivier Deman",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "74'",
+    "jugador": "Nicolás Capaldo",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "84'",
+    "jugador": "Albert Grønbaek",
+    "lado": "visita",
     "tipo": "amarilla"
    }
   ],
