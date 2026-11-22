@@ -875,7 +875,7 @@
     "ESPN",
     "FotMob"
    ],
-   "pendiente": "Barcelona: ESPN 33 pts/12 PJ, FotMob 34 pts/13 PJ"
+   "pendiente": "Barcelona: ESPN 33 pts/12 PJ, FotMob 36 pts/13 PJ"
   },
   "eng.1": {
    "nombre": "Premier League",
@@ -1514,7 +1514,8 @@
    "fuentes": [
     "ESPN",
     "FotMob"
-   ]
+   ],
+   "pendiente": "Mainz: ESPN 10 pts/9 PJ, FotMob 11 pts/10 PJ"
   },
   "fra.1": {
    "nombre": "Ligue 1",

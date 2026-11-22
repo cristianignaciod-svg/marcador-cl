@@ -65,7 +65,7 @@
    "401876403 STATUS_FULL_TIME 2026-11-21T19:45Z",
    "401876402 STATUS_FULL_TIME 2026-11-21T19:45Z",
    "401876396 STATUS_FULL_TIME 2026-11-21T19:45Z",
-   "401876397 STATUS_SCHEDULED 2026-11-22T14:00Z",
+   "401876397 STATUS_FIRST_HALF 2026-11-22T14:00Z",
    "401876401 STATUS_SCHEDULED 2026-11-22T16:15Z",
    "401876400 STATUS_SCHEDULED 2026-11-22T19:45Z"
   ],
@@ -78,8 +78,9 @@
   ]
  },
  "tablas_web": {
-  "esp.1": "Barcelona: ESPN 33 pts/12 PJ, FotMob 34 pts/13 PJ",
+  "esp.1": "Barcelona: ESPN 33 pts/12 PJ, FotMob 36 pts/13 PJ",
   "eng.1": "Brighton: ESPN 22 pts/10 PJ, FotMob 23 pts/11 PJ",
+  "ger.1": "Mainz: ESPN 10 pts/9 PJ, FotMob 11 pts/10 PJ",
   "fra.1": "Paris FC: ESPN 20 pts/10 PJ, FotMob 21 pts/11 PJ"
  }
 }
