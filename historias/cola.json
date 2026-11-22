@@ -1,19 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "esp.1:401882822",
-  "creado": "2026-10-31T19:25:00-03:00",
-  "archivos": [
-   "historias/img/2026-10-31/esp1-barcelona-alaves.png"
-  ],
-  "titulo": "Barcelona 6–1 Alavés",
-  "liga": "esp.1",
-  "enviado": true,
-  "ig_id": "18131605333701378",
-  "publicado": "2026-10-31T22:25:31+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "ita.1:401874795",
   "creado": "2026-10-31T19:25:00-03:00",
   "archivos": [
@@ -5266,5 +5253,16 @@
   "enviado": false,
   "texto": "Arrancó la liguilla por el ascenso en la Primera B y Deportes Recoleta pegó primero: 3-1 a Santiago Wanderers.\nSan Marcos también hizo la pega en casa y le ganó 2-0 a Magallanes.\nCobreloa y San Luis no se sacaron diferencias (0-0), y Copiapó y Antofagasta igualaron 1-1.\n¿Quién se queda con el ascenso? Los leemos.\n\n#MarcadorCL #Futbol #PrimeraB #FutbolChileno #AscensoChile",
   "avisado": true
+ },
+ {
+  "tipo": "historia",
+  "clave": "fra.1:401876401",
+  "creado": "2026-11-22T15:36:49-03:00",
+  "archivos": [
+   "historias/img/2026-11-22/fra1-lorient-stade-rennais.png"
+  ],
+  "titulo": "Lorient 1–1 Stade Rennais",
+  "liga": "fra.1",
+  "enviado": false
  }
 ]

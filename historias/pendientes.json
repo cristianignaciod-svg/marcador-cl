@@ -1,1 +1,61 @@
-[]
+[
+ {
+  "id": "fra1-lorient-stade-rennais",
+  "liga": "fra.1",
+  "fase": "",
+  "fecha": "2026-11-22",
+  "local": "Lorient",
+  "visita": "Stade Rennais",
+  "gl": 1,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "27'",
+    "jugador": "Boulaye Dia",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "45'",
+    "jugador": "Montassar Talbi",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "36'",
+    "jugador": "Sebastian Szymanski",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "50'",
+    "jugador": "Mahamadou Nagida",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "66'",
+    "jugador": "Souleymane Faye",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "70'",
+    "jugador": "Noah Cadiou",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+2'",
+    "jugador": "Adrien Thomasson",
+    "lado": "visita",
+    "tipo": "roja"
+   }
+  ],
+  "anulados": []
+ }
+]
