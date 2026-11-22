@@ -1,1 +1,58 @@
-[]
+[
+ {
+  "id": "fra1-paris-fc-angers",
+  "liga": "fra.1",
+  "fase": "",
+  "fecha": "2026-11-22",
+  "local": "Paris FC",
+  "visita": "Angers",
+  "gl": 4,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "47'",
+    "jugador": "Zabi Gueu",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "55'",
+    "jugador": "Luca Koleosho",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "65'",
+    "jugador": "Maxime López",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "72'",
+    "jugador": "Diego Coppola",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "42'",
+    "jugador": "Luca Koleosho",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "75'",
+    "jugador": "Jim Allevinah",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]
