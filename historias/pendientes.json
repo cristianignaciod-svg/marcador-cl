@@ -1,59 +1,273 @@
 [
  {
-  "id": "chi1-huachipato-deportes-concepcion",
-  "liga": "chi.1",
+  "id": "esp1-racing-real-sociedad",
+  "liga": "esp.1",
   "fase": "",
   "fecha": "2026-11-22",
-  "local": "Huachipato",
-  "visita": "Deportes Concepción",
-  "gl": 0,
-  "gv": 0,
-  "goles": [],
+  "local": "Racing",
+  "visita": "Real Sociedad",
+  "gl": 3,
+  "gv": 2,
+  "goles": [
+   {
+    "min": "6'",
+    "jugador": "Yassir Zabiri",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "8'",
+    "jugador": "Yassir Zabiri",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "45+1'",
+    "jugador": "Mikel Oyarzabal",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "60'",
+    "jugador": "Gonçalo Guedes",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "68'",
+    "jugador": "Sergio Canales",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   }
+  ],
   "tarjetas": [
    {
-    "min": "16'",
-    "jugador": "Lionel Altamirano",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "40'",
-    "jugador": "Rafael Caroca",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "48'",
-    "jugador": "Maicol León",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "50'",
-    "jugador": "Cristian Riquelme",
+    "min": "66'",
+    "jugador": "Álex Remiro",
     "lado": "visita",
     "tipo": "amarilla"
    },
    {
-    "min": "88'",
-    "jugador": "Claudio Torres",
+    "min": "74'",
+    "jugador": "Iker Luque",
     "lado": "local",
     "tipo": "amarilla"
    },
    {
-    "min": "90'",
-    "jugador": "Fausto Grillo",
+    "min": "80'",
+    "jugador": "Mamadou Sarr",
     "lado": "visita",
-    "tipo": "doble"
+    "tipo": "amarilla"
    },
    {
-    "min": "90+6'",
-    "jugador": "Mario Briceño",
+    "min": "90+1'",
+    "jugador": "Iñigo Vicente",
     "lado": "local",
     "tipo": "amarilla"
    }
   ],
   "anulados": [],
   "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "chipb-san-marcos-magallanes",
+  "liga": "chi.pb",
+  "fase": "",
+  "fecha": "2026-11-22",
+  "local": "San Marcos",
+  "visita": "Magallanes",
+  "gl": 2,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "11'",
+    "jugador": "Camilo Melivilú",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "89'",
+    "jugador": "Guillermo Cubillos",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [],
+  "anulados": []
+ },
+ {
+  "tipo": "resumen",
+  "id": "chipb-20261120",
+  "liga": "chi.pb",
+  "fase": "Fecha Promotion Play-offs - 1st Round",
+  "fecha": "2026-11-22",
+  "rango": "20 al 22 de noviembre",
+  "partidos": [
+   {
+    "dia": "Vie 20",
+    "local": "Deportes Recoleta",
+    "visita": "Santiago Wanderers",
+    "gl": 3,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 21",
+    "local": "Cobreloa",
+    "visita": "San Luis",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "dia": "Sáb 21",
+    "local": "Deportes Copiapó",
+    "visita": "Antofagasta",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "dia": "Dom 22",
+    "local": "San Marcos",
+    "visita": "Magallanes",
+    "gl": 2,
+    "gv": 0
+   }
+  ],
+  "tabla": [
+   {
+    "equipo": "Cobreloa",
+    "largo": "Cobreloa",
+    "pj": 30,
+    "dg": 25,
+    "pts": 57,
+    "pos": 1
+   },
+   {
+    "equipo": "San Luis",
+    "largo": "San Luis",
+    "pj": 30,
+    "dg": 15,
+    "pts": 57,
+    "pos": 2
+   },
+   {
+    "equipo": "Antofagasta",
+    "largo": "Antofagasta",
+    "pj": 30,
+    "dg": 26,
+    "pts": 51,
+    "pos": 3
+   },
+   {
+    "equipo": "Santiago Wanderers",
+    "largo": "Santiago Wanderers",
+    "pj": 30,
+    "dg": 16,
+    "pts": 51,
+    "pos": 4
+   },
+   {
+    "equipo": "Magallanes",
+    "largo": "Magallanes",
+    "pj": 30,
+    "dg": 0,
+    "pts": 46,
+    "pos": 5
+   },
+   {
+    "equipo": "San Marcos",
+    "largo": "San Marcos",
+    "pj": 30,
+    "dg": 6,
+    "pts": 43,
+    "pos": 6
+   },
+   {
+    "equipo": "Deportes Recoleta",
+    "largo": "Deportes Recoleta",
+    "pj": 30,
+    "dg": -2,
+    "pts": 43,
+    "pos": 7
+   },
+   {
+    "equipo": "Deportes Copiapó",
+    "largo": "Deportes Copiapó",
+    "pj": 30,
+    "dg": 1,
+    "pts": 42,
+    "pos": 8
+   },
+   {
+    "equipo": "Unión Española",
+    "largo": "Unión Española",
+    "pj": 30,
+    "dg": -2,
+    "pts": 42,
+    "pos": 9
+   },
+   {
+    "equipo": "Deportes Iquique",
+    "largo": "Deportes Iquique",
+    "pj": 30,
+    "dg": 9,
+    "pts": 39,
+    "pos": 10
+   },
+   {
+    "equipo": "Puerto Montt",
+    "largo": "Puerto Montt",
+    "pj": 30,
+    "dg": -10,
+    "pts": 38,
+    "pos": 11
+   },
+   {
+    "equipo": "Deportes Temuco",
+    "largo": "Deportes Temuco",
+    "pj": 30,
+    "dg": 1,
+    "pts": 36,
+    "pos": 12
+   },
+   {
+    "equipo": "Curicó Unido",
+    "largo": "Curicó Unido",
+    "pj": 30,
+    "dg": -17,
+    "pts": 31,
+    "pos": 13
+   },
+   {
+    "equipo": "Deportes Santa Cruz",
+    "largo": "Deportes Santa Cruz",
+    "pj": 30,
+    "dg": -14,
+    "pts": 25,
+    "pos": 14
+   },
+   {
+    "equipo": "Unión San Felipe",
+    "largo": "Unión San Felipe",
+    "pj": 30,
+    "dg": -35,
+    "pts": 23,
+    "pos": 15
+   },
+   {
+    "equipo": "Rangers",
+    "largo": "Rangers",
+    "pj": 30,
+    "dg": -19,
+    "pts": 22,
+    "pos": 16
+   }
+  ]
  }
 ]

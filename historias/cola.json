@@ -1,45 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "esp.1:401882825",
-  "creado": "2026-10-31T16:52:49-03:00",
-  "archivos": [
-   "historias/img/2026-10-31/esp1-betis-malaga.png"
-  ],
-  "titulo": "Betis 2–1 Málaga",
-  "liga": "esp.1",
-  "enviado": true,
-  "ig_id": "18097052489452327",
-  "publicado": "2026-10-31T19:53:00+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "ger.1:401884754",
-  "creado": "2026-10-31T17:02:27-03:00",
-  "archivos": [
-   "historias/img/2026-10-31/ger1-bayern-borussia-dortmund.png"
-  ],
-  "titulo": "Bayern 2–2 Borussia Dortmund",
-  "liga": "ger.1",
-  "enviado": true,
-  "ig_id": "18396340405200873",
-  "publicado": "2026-10-31T20:02:47+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "arg.1:401841656",
-  "creado": "2026-10-31T18:56:12-03:00",
-  "archivos": [
-   "historias/img/2026-10-31/arg1-deportivo-riestra-talleres-cordoba.png"
-  ],
-  "titulo": "Deportivo Riestra 0–3 Talleres (Córdoba)",
-  "liga": "arg.1",
-  "enviado": true,
-  "ig_id": "17916479298530918",
-  "publicado": "2026-10-31T21:56:32+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "esp.1:401882822",
   "creado": "2026-10-31T19:25:00-03:00",
   "archivos": [
@@ -5232,5 +5193,72 @@
   "enviado": true,
   "ig_id": "18040521449853266",
   "publicado": "2026-11-22T17:08:12+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "esp.1:401882800",
+  "creado": "2026-11-22T14:17:56-03:00",
+  "archivos": [
+   "historias/img/2026-11-22/esp1-racing-real-sociedad.png"
+  ],
+  "titulo": "Racing 3–2 Real Sociedad",
+  "liga": "esp.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "chi.pb:fm1000024445",
+  "creado": "2026-11-22T14:17:56-03:00",
+  "archivos": [
+   "historias/img/2026-11-22/chipb-san-marcos-magallanes.png"
+  ],
+  "titulo": "San Marcos 2–0 Magallanes",
+  "liga": "chi.pb",
+  "sin_goleadores": false,
+  "enviado": false
+ },
+ {
+  "tipo": "resumen",
+  "clave": "chi.pb:2026-11-20",
+  "creado": "2026-11-22T14:17:56-03:00",
+  "archivos": [
+   "historias/img/2026-11-22/chipb-20261120-1.png",
+   "historias/img/2026-11-22/chipb-20261120-2.png"
+  ],
+  "titulo": "Primera B Fecha Promotion Play-offs - 1st Round",
+  "liga": "chi.pb",
+  "fase": "Fecha Promotion Play-offs - 1st Round",
+  "rango": "20 al 22 de noviembre",
+  "partidos": [
+   {
+    "dia": "Vie 20",
+    "local": "Deportes Recoleta",
+    "visita": "Santiago Wanderers",
+    "gl": 3,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 21",
+    "local": "Cobreloa",
+    "visita": "San Luis",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "dia": "Sáb 21",
+    "local": "Deportes Copiapó",
+    "visita": "Antofagasta",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "dia": "Dom 22",
+    "local": "San Marcos",
+    "visita": "Magallanes",
+    "gl": 2,
+    "gv": 0
+   }
+  ],
+  "enviado": false
  }
 ]
