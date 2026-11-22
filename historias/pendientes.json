@@ -1,92 +1,60 @@
 [
  {
-  "id": "fra1-marseille-le-mans",
-  "liga": "fra.1",
+  "id": "esp1-getafe-atletico",
+  "liga": "esp.1",
   "fase": "",
   "fecha": "2026-11-22",
-  "local": "Marseille",
-  "visita": "Le Mans",
-  "gl": 2,
+  "local": "Getafe",
+  "visita": "Atlético",
+  "gl": 0,
   "gv": 3,
   "goles": [
    {
-    "min": "33'",
-    "jugador": "Amine Gouiri",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "40'",
-    "jugador": "Igor Paixão",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "70'",
-    "jugador": "Louis Mafouta",
+    "min": "10'",
+    "jugador": "Álex Baena",
     "lado": "visita",
     "penal": false,
     "autogol": false
    },
    {
-    "min": "84'",
-    "jugador": "Erwan Colas",
+    "min": "30'",
+    "jugador": "Johnny Cardoso",
     "lado": "visita",
     "penal": false,
     "autogol": false
    },
    {
-    "min": "90+5'",
-    "jugador": "Jean Vercruysse",
+    "min": "90+2'",
+    "jugador": "Alejandro Grimaldo",
     "lado": "visita",
-    "penal": false,
+    "penal": true,
     "autogol": false
    }
   ],
   "tarjetas": [
    {
-    "min": "53'",
-    "jugador": "Antoine Rabillard",
+    "min": "36'",
+    "jugador": "Johnny Cardoso",
     "lado": "visita",
     "tipo": "amarilla"
    },
    {
-    "min": "67'",
-    "jugador": "Tochukwu Nnadi",
+    "min": "49'",
+    "jugador": "Robin Le Normand",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "84'",
+    "jugador": "Mario Martín",
     "lado": "local",
     "tipo": "amarilla"
    },
    {
-    "min": "69'",
-    "jugador": "Geoffrey Kondogbia",
+    "min": "90'",
+    "jugador": "Djené",
     "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "71'",
-    "jugador": "Harold Voyer",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "80'",
-    "jugador": "Himad Abdelli",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "80'",
-    "jugador": "Rayan Bamba",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "88'",
-    "jugador": "Daouda Traoré",
-    "lado": "visita",
-    "tipo": "amarilla"
+    "tipo": "doble"
    }
   ],
   "anulados": [],
