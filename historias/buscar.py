@@ -941,6 +941,95 @@ def fm_data(d):
     return data
 
 
+# ---------------------------------------------------------------------------
+# Formaciones para la página (historias/formaciones/<idFotMob>.json). El navegador no puede pedir el detalle
+# del partido a FotMob directamente, así que se baja aquí y la página lo lee desde GitHub.
+FM_WEB = {87, 47, 54, 53, 55, 112, 268, 42, 73, 273, 9126, 45, 299, 9806, 114}
+DIR_FORM = os.path.join(BASE, "formaciones")
+
+
+def _lineup(raw):
+    lu = (raw.get("content") or {}).get("lineup") or {}
+
+    def equipo(t):
+        if not t:
+            return None
+        tit = []
+        for x in t.get("starters") or []:
+            vl = x.get("verticalLayout")
+            if not vl:
+                continue
+            perf = x.get("performance") or {}
+            ev = [e.get("type") for e in perf.get("events") or []]
+            so = next((e for e in perf.get("substitutionEvents") or [] if e.get("type") == "subOut"), None)
+            tit.append({"n": x.get("lastName") or x.get("name"), "num": x.get("shirtNumber") or "", "x": vl.get("x"), "y": vl.get("y"),
+                        "goles": ev.count("goal"), "ec": ev.count("ownGoal"), "am": "yellowCard" in ev,
+                        "roja": "redCard" in ev or "yellowRedCard" in ev, "sale": so.get("time") if so else None})
+        sup = []
+        for x in t.get("subs") or []:
+            si = next((e for e in (x.get("performance") or {}).get("substitutionEvents") or [] if e.get("type") == "subIn"), None)
+            sup.append({"n": x.get("name"), "num": x.get("shirtNumber") or "", "entra": si.get("time") if si else None})
+        return {"nombre": t.get("name"), "formacion": t.get("formation") or "", "dt": (t.get("coach") or {}).get("name") or "",
+                "tit": tit, "sup": sup}
+
+    h, a = equipo(lu.get("homeTeam")), equipo(lu.get("awayTeam"))
+    if not h or not a or len(h["tit"]) < 11 or len(a["tit"]) < 11:
+        return None
+    return {"h": h, "a": a}
+
+
+def formaciones_web(ahora):
+    import time
+    os.makedirs(DIR_FORM, exist_ok=True)
+    t0 = time.time()
+    ahora_utc = ahora.astimezone(dt.timezone.utc)
+    for d in (ahora.date() - dt.timedelta(days=1), ahora.date()):
+        try:
+            data = fm_data(d)
+        except Exception:
+            continue
+        for lg in data.get("leagues", []):
+            if lg.get("primaryId") not in FM_WEB and lg.get("id") not in FM_WEB:
+                continue
+            for m in lg.get("matches", []):
+                if time.time() - t0 > 75:
+                    return
+                st = m.get("status") or {}
+                try:
+                    ini = dt.datetime.fromisoformat((st.get("utcTime") or "").replace("Z", "+00:00"))
+                except ValueError:
+                    continue
+                if st.get("cancelled") or not (ini - dt.timedelta(hours=2) <= ahora_utc <= ini + dt.timedelta(hours=4)):
+                    continue
+                f = os.path.join(DIR_FORM, f"{m['id']}.json")
+                if os.path.exists(f):
+                    previo = cargar(f"formaciones/{m['id']}.json", {})
+                    try:
+                        edad = (ahora - dt.datetime.fromisoformat(previo["revisado"])).total_seconds()
+                    except Exception:
+                        edad = 1e9
+                    if previo.get("final") or (not st.get("started") and edad < 1800) or edad < 540:
+                        continue
+                try:
+                    raw = get(f"https://www.fotmob.com/api/data/matchDetails?matchId={m['id']}")
+                except Exception as ex:
+                    DIAG["errores"].append(f"formación {m['id']}: {str(ex)[:80]}")
+                    continue
+                lu = _lineup(raw)
+                if lu:
+                    lu["final"] = bool(st.get("finished"))
+                    lu["revisado"] = ahora.isoformat(timespec="minutes")
+                    open(f, "w").write(json.dumps(lu, ensure_ascii=False))
+    # limpieza: formaciones de hace más de 3 días
+    for n in os.listdir(DIR_FORM):
+        try:
+            rev = dt.datetime.fromisoformat(cargar(f"formaciones/{n}", {}).get("revisado"))
+            if (ahora - rev).days >= 3:
+                os.remove(os.path.join(DIR_FORM, n))
+        except Exception:
+            pass
+
+
 def fotmob_dia(fecha):
     """Todos los partidos de FotMob de un día (hora de Chile)."""
     if fecha not in _FM_CACHE:
@@ -1300,6 +1389,10 @@ def main():
 
     primera_b_resumen(hoy, ahora, resumenes, pendientes, cola, espera)
     agenda_del_dia(ahora, publicados, pendientes, cola)
+    try:
+        formaciones_web(ahora)
+    except Exception as ex:
+        DIAG["errores"].append(f"formaciones: {str(ex)[:150]}")
     try:
         actualizar_tablas_web(ahora)
     except Exception as ex:
