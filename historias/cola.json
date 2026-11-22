@@ -5216,7 +5216,9 @@
   ],
   "titulo": "Bolonia 1–1 Udinese",
   "liga": "ita.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18456067846127211",
+  "publicado": "2026-11-22T16:27:30+00:00"
  },
  {
   "tipo": "historia",
@@ -5227,6 +5229,8 @@
   ],
   "titulo": "Sassuolo 0–2 Génova",
   "liga": "ita.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18000379806102137",
+  "publicado": "2026-11-22T16:27:30+00:00"
  }
 ]
