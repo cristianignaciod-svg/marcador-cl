@@ -17,7 +17,7 @@
    "401882804 STATUS_FULL_TIME 2026-11-22T13:00Z",
    "401882800 STATUS_FULL_TIME 2026-11-22T15:15Z",
    "401882801 STATUS_FULL_TIME 2026-11-22T17:30Z",
-   "401882803 STATUS_SECOND_HALF 2026-11-22T20:00Z",
+   "401882803 STATUS_FULL_TIME 2026-11-22T20:00Z",
    "401882802 STATUS_SCHEDULED 2026-11-23T20:00Z"
   ],
   "eng.1": [
@@ -80,7 +80,6 @@
  "tablas_web": {
   "chi.1": "Colo-Colo: ESPN 61 pts/27 PJ, FotMob 64 pts/28 PJ",
   "esp.1": "Atlético: ESPN 28 pts/12 PJ, FotMob 31 pts/13 PJ",
-  "fra.1": "Marseille: ESPN 18 pts/10 PJ, FotMob 18 pts/11 PJ",
   "bra.1": "Fluminense: ESPN 60 pts/35 PJ, FotMob 61 pts/36 PJ"
  }
 }

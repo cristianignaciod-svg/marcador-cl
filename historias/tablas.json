@@ -1591,13 +1591,13 @@
        "largo": "Marseille",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
        "pos": 5,
-       "pj": 10,
+       "pj": 11,
        "g": 6,
        "e": 0,
-       "p": 4,
-       "gf": 22,
-       "gc": 14,
-       "dg": 8,
+       "p": 5,
+       "gf": 24,
+       "gc": 17,
+       "dg": 7,
        "pts": 18,
        "zona": "Europa League",
        "color": "#B2BFD0"
@@ -1715,10 +1715,26 @@
        "color": null
       },
       {
+       "equipo": "Le Mans",
+       "largo": "Le Mans",
+       "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2697.png",
+       "pos": 13,
+       "pj": 11,
+       "g": 2,
+       "e": 5,
+       "p": 4,
+       "gf": 15,
+       "gc": 21,
+       "dg": -6,
+       "pts": 11,
+       "zona": null,
+       "color": null
+      },
+      {
        "equipo": "Troyes",
        "largo": "Troyes",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
-       "pos": 13,
+       "pos": 14,
        "pj": 11,
        "g": 3,
        "e": 2,
@@ -1734,7 +1750,7 @@
        "equipo": "AJ Auxerre",
        "largo": "AJ Auxerre",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
-       "pos": 14,
+       "pos": 15,
        "pj": 11,
        "g": 3,
        "e": 2,
@@ -1750,7 +1766,7 @@
        "equipo": "Strasbourg",
        "largo": "Strasbourg",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/180.png",
-       "pos": 15,
+       "pos": 16,
        "pj": 11,
        "g": 3,
        "e": 1,
@@ -1759,22 +1775,6 @@
        "gc": 23,
        "dg": -5,
        "pts": 10,
-       "zona": null,
-       "color": null
-      },
-      {
-       "equipo": "Le Mans",
-       "largo": "Le Mans",
-       "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2697.png",
-       "pos": 16,
-       "pj": 10,
-       "g": 1,
-       "e": 5,
-       "p": 4,
-       "gf": 12,
-       "gc": 19,
-       "dg": -7,
-       "pts": 8,
        "zona": "Relegation playoff",
        "color": "#FEB4B5"
       },
@@ -1813,12 +1813,11 @@
      ]
     }
    ],
-   "actualizado": "2026-11-22T16:07-03:00",
+   "actualizado": "2026-11-22T19:44-03:00",
    "fuentes": [
     "ESPN",
     "FotMob"
-   ],
-   "pendiente": "Marseille: ESPN 18 pts/10 PJ, FotMob 18 pts/11 PJ"
+   ]
   },
   "arg.1": {
    "nombre": "Liga Profesional",
