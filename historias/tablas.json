@@ -270,7 +270,7 @@
     "ESPN",
     "FotMob"
    ],
-   "pendiente": "Colo-Colo: ESPN 61 pts/27 PJ, FotMob 64 pts/28 PJ"
+   "pendiente": "Deportes Limache: ESPN 40 pts/27 PJ, FotMob 41 pts/28 PJ"
   },
   "chi.pb": {
    "nombre": "Primera B",
@@ -875,7 +875,8 @@
    "fuentes": [
     "ESPN",
     "FotMob"
-   ]
+   ],
+   "pendiente": "Atlético: ESPN 28 pts/12 PJ, FotMob 31 pts/13 PJ"
   },
   "eng.1": {
    "nombre": "Premier League",
