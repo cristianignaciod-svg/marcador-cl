@@ -1,19 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "ger.1:401884747",
-  "creado": "2026-10-31T13:58:00-03:00",
-  "archivos": [
-   "historias/img/2026-10-31/ger1-schalke-04-rb-leipzig.png"
-  ],
-  "titulo": "Schalke 04 0–2 RB Leipzig",
-  "liga": "ger.1",
-  "enviado": true,
-  "ig_id": "18113537429169183",
-  "publicado": "2026-10-31T16:58:23+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "esp.1:401882818",
   "creado": "2026-10-31T14:27:06-03:00",
   "archivos": [
@@ -5233,5 +5220,17 @@
   "enviado": true,
   "ig_id": "18186739693425664",
   "publicado": "2026-11-22T02:07:49+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "agenda:2026-11-22",
+  "creado": "2026-11-22T09:22:20-03:00",
+  "archivos": [
+   "historias/img/2026-11-22/agenda-2026-11-22-1.png",
+   "historias/img/2026-11-22/agenda-2026-11-22-2.png"
+  ],
+  "titulo": "Hoy se juega (10 partidos)",
+  "liga": "agenda",
+  "enviado": false
  }
 ]

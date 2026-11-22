@@ -1,1 +1,89 @@
-[]
+[
+ {
+  "tipo": "agenda",
+  "id": "agenda-2026-11-22",
+  "fecha": "2026-11-22",
+  "grupos": [
+   {
+    "liga": "chi.1",
+    "partidos": [
+     {
+      "hora": "12:00",
+      "local": "Huachipato",
+      "visita": "Deportes Concepción",
+      "tv": "TNT Sports Premium · HBO Max"
+     },
+     {
+      "hora": "18:00",
+      "local": "Colo-Colo",
+      "visita": "U. Católica",
+      "tv": "TNT Sports Premium · HBO Max"
+     },
+     {
+      "hora": "20:30",
+      "local": "Deportes Limache",
+      "visita": "La Serena",
+      "tv": "TNT Sports Premium · HBO Max"
+     }
+    ]
+   },
+   {
+    "liga": "chi.pb",
+    "partidos": [
+     {
+      "hora": "12:00",
+      "local": "San Marcos",
+      "visita": "Magallanes",
+      "tv": "TNT Sports Premium"
+     }
+    ]
+   },
+   {
+    "liga": "esp.1",
+    "partidos": [
+     {
+      "hora": "10:00",
+      "local": "Barcelona",
+      "visita": "Villarreal",
+      "tv": "DGO"
+     },
+     {
+      "hora": "12:15",
+      "local": "Racing",
+      "visita": "Real Sociedad",
+      "tv": "Disney+"
+     },
+     {
+      "hora": "14:30",
+      "local": "Osasuna",
+      "visita": "Málaga",
+      "tv": "Disney+"
+     },
+     {
+      "hora": "17:00",
+      "local": "Getafe",
+      "visita": "Atlético",
+      "tv": "Disney+"
+     }
+    ]
+   },
+   {
+    "liga": "eng.1",
+    "partidos": [
+     {
+      "hora": "11:00",
+      "local": "Hull City",
+      "visita": "Brighton",
+      "tv": "Disney+"
+     },
+     {
+      "hora": "13:30",
+      "local": "Liverpool",
+      "visita": "Man. United",
+      "tv": "Disney+"
+     }
+    ]
+   }
+  ]
+ }
+]
