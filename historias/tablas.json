@@ -2360,14 +2360,14 @@
        "largo": "Cruzeiro",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
        "pos": 3,
-       "pj": 35,
-       "g": 19,
+       "pj": 36,
+       "g": 20,
        "e": 6,
        "p": 10,
-       "gf": 57,
-       "gc": 49,
-       "dg": 8,
-       "pts": 63,
+       "gf": 59,
+       "gc": 50,
+       "dg": 9,
+       "pts": 66,
        "zona": null,
        "color": "#2AD572"
       },
@@ -2632,13 +2632,13 @@
        "largo": "Chapecoense",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
        "pos": 20,
-       "pj": 35,
+       "pj": 36,
        "g": 4,
        "e": 9,
-       "p": 22,
-       "gf": 33,
-       "gc": 72,
-       "dg": -39,
+       "p": 23,
+       "gf": 34,
+       "gc": 74,
+       "dg": -40,
        "pts": 21,
        "zona": null,
        "color": "#FF4646"
@@ -2646,12 +2646,11 @@
      ]
     }
    ],
-   "actualizado": "2026-11-21T20:10-03:00",
+   "actualizado": "2026-11-21T23:36-03:00",
    "fuentes": [
     "ESPN",
     "FotMob"
-   ],
-   "pendiente": "Cruzeiro: ESPN 63 pts/35 PJ, FotMob 66 pts/36 PJ"
+   ]
   },
   "uefa.champions": {
    "nombre": "Champions League",
