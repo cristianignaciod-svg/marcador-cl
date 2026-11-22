@@ -76,22 +76,5 @@
    "401933761 STATUS_SCHEDULED 2026-11-22T22:00Z",
    "401933762 STATUS_SCHEDULED 2026-11-23T01:00Z"
   ]
- },
- "agenda": {
-  "corregidos": [],
-  "canales_sin_partido": [
-   "Juventus-Venezia",
-   "Bologna-Udinese",
-   "Sassuolo-Genoa",
-   "AC Milan-Frosinone",
-   "Augsburg-Mainz",
-   "Werder Bremen-Hamburgo",
-   "Paris FC-Angers",
-   "Lorient-Rennes",
-   "Marsella-Le Mans",
-   "Rosario Central-Gimnasia Mendoza",
-   "River Plate-Lanús",
-   "Instituto-Huracán"
-  ]
  }
 }
