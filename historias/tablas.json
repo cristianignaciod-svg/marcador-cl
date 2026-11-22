@@ -269,7 +269,8 @@
    "fuentes": [
     "ESPN",
     "FotMob"
-   ]
+   ],
+   "pendiente": "Deportes Concepción: ESPN 38 pts/27 PJ, FotMob 39 pts/28 PJ"
   },
   "chi.pb": {
    "nombre": "Primera B",
@@ -1819,7 +1820,7 @@
     "ESPN",
     "FotMob"
    ],
-   "pendiente": "Paris FC: ESPN 20 pts/10 PJ, FotMob 21 pts/11 PJ"
+   "pendiente": "Paris FC: ESPN 20 pts/10 PJ, FotMob 23 pts/11 PJ"
   },
   "arg.1": {
    "nombre": "Liga Profesional",
