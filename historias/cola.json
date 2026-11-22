@@ -5203,7 +5203,9 @@
   ],
   "titulo": "Racing 3–2 Real Sociedad",
   "liga": "esp.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18143738167714179",
+  "publicado": "2026-11-22T17:18:31+00:00"
  },
  {
   "tipo": "historia",
@@ -5215,7 +5217,9 @@
   "titulo": "San Marcos 2–0 Magallanes",
   "liga": "chi.pb",
   "sin_goleadores": false,
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17986482137898971",
+  "publicado": "2026-11-22T17:18:31+00:00"
  },
  {
   "tipo": "resumen",
