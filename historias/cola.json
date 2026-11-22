@@ -5263,6 +5263,8 @@
   ],
   "titulo": "Osasuna 1–0 Málaga",
   "liga": "esp.1",
-  "enviado": false
+  "enviado": false,
+  "error": "400 {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,136,371,055,759,825 cannot be found.\",\"fbtrace_id\":\"Avb_k_QVmg5d3nqhf0AJbUu\"}}",
+  "intentos": 1
  }
 ]
