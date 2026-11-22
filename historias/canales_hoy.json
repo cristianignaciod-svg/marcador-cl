@@ -1,43 +1,141 @@
 {
- "fecha": "2026-11-20",
+ "fecha": "2026-11-22",
  "fuentes": [
   "https://agenda.redgol.cl/tv/schedule/agenda-principal/",
-  "https://www.alairelibre.cl/futbol/primera-b/partidos-de-hoy-viernes-20-noviembre/",
-  "https://www.alairelibre.cl/futbol/campeonato-nacional/cobresal-vs-audax-italiano-horario-donde-ver-liga-de-primera-2026/",
-  "https://palestino.cl/previa-liga-de-primera-mercado-libre-2026-fecha-28-palestino-vs-union-la-calera/",
-  "https://www.cooperativa.cl/noticias/deportes/futbol/liga-de-ascenso/asi-se-transmitira-la-liguilla-del-ascenso-este-fin-de-semana/2026-11-19/125920.html",
-  "https://primerabchile.cl/la-tv-ya-tiene-programacion-asi-se-transmitiran-los-cuartos-de-final-de-la-liguilla-de-primera-b/",
-  "https://www.livesoccertv.com/match/4554467/athletic-club-vs-espanyol/"
+  "https://libero.pe/futbol-internacional/2026/11/21/partidos-de-hoy-domingo-22-de-noviembre-quienes-juegan-liga-1-laliga-premier-league-1762530",
+  "https://www.alairelibre.cl/futbol/primera-b/san-marcos-de-arica-vs-magallanes-horario-donde-ver-liguilla-de-ascenso-2026/"
  ],
  "partidos": [
   {
-   "local": "Cobresal",
-   "visita": "Audax Italiano",
+   "local": "Huachipato",
+   "visita": "Deportes Concepción",
    "tv": "TNT Sports Premium · HBO Max",
    "verificado": "2_fuentes"
   },
   {
-   "local": "Palestino",
-   "visita": "Unión La Calera",
+   "local": "Colo Colo",
+   "visita": "Universidad Católica",
    "tv": "TNT Sports Premium · HBO Max",
    "verificado": "2_fuentes"
   },
   {
-   "local": "Deportes Recoleta",
-   "visita": "Santiago Wanderers",
-   "tv": "TNT Sports · HBO Max",
+   "local": "Deportes Limache",
+   "visita": "Deportes La Serena",
+   "tv": "TNT Sports Premium · HBO Max",
    "verificado": "2_fuentes"
   },
   {
-   "local": "Athletic Club",
-   "visita": "Espanyol",
-   "tv": "DSports · DGO",
+   "local": "San Marcos de Arica",
+   "visita": "Magallanes",
+   "tv": "TNT Sports Premium",
    "verificado": "2_fuentes"
   },
   {
-   "local": "Troyes",
-   "visita": "Le Havre",
+   "local": "Barcelona",
+   "visita": "Villarreal",
+   "tv": "DGO",
+   "verificado": "una_fuente"
+  },
+  {
+   "local": "Racing Santander",
+   "visita": "Real Sociedad",
    "tv": "Disney+",
+   "verificado": "una_fuente"
+  },
+  {
+   "local": "Osasuna",
+   "visita": "Málaga",
+   "tv": "Disney+",
+   "verificado": "una_fuente"
+  },
+  {
+   "local": "Getafe",
+   "visita": "Atlético Madrid",
+   "tv": "Disney+",
+   "verificado": "una_fuente"
+  },
+  {
+   "local": "Hull City",
+   "visita": "Brighton",
+   "tv": "Disney+",
+   "verificado": "una_fuente"
+  },
+  {
+   "local": "Liverpool",
+   "visita": "Man. United",
+   "tv": "Disney+",
+   "verificado": "una_fuente"
+  },
+  {
+   "local": "Juventus",
+   "visita": "Venezia",
+   "tv": "Disney+",
+   "verificado": "una_fuente"
+  },
+  {
+   "local": "Bologna",
+   "visita": "Udinese",
+   "tv": "Disney+",
+   "verificado": "una_fuente"
+  },
+  {
+   "local": "Sassuolo",
+   "visita": "Genoa",
+   "tv": "Disney+",
+   "verificado": "una_fuente"
+  },
+  {
+   "local": "AC Milan",
+   "visita": "Frosinone",
+   "tv": "Disney+",
+   "verificado": "una_fuente"
+  },
+  {
+   "local": "Augsburg",
+   "visita": "Mainz",
+   "tv": "Disney+",
+   "verificado": "una_fuente"
+  },
+  {
+   "local": "Werder Bremen",
+   "visita": "Hamburgo",
+   "tv": "Disney+",
+   "verificado": "una_fuente"
+  },
+  {
+   "local": "Paris FC",
+   "visita": "Angers",
+   "tv": "Disney+",
+   "verificado": "una_fuente"
+  },
+  {
+   "local": "Lorient",
+   "visita": "Rennes",
+   "tv": "Disney+",
+   "verificado": "una_fuente"
+  },
+  {
+   "local": "Marsella",
+   "visita": "Le Mans",
+   "tv": "Disney+",
+   "verificado": "una_fuente"
+  },
+  {
+   "local": "Rosario Central",
+   "visita": "Gimnasia Mendoza",
+   "tv": "TyC Sports",
+   "verificado": "una_fuente"
+  },
+  {
+   "local": "River Plate",
+   "visita": "Lanús",
+   "tv": "Disney+",
+   "verificado": "una_fuente"
+  },
+  {
+   "local": "Instituto",
+   "visita": "Huracán",
+   "tv": "TyC Sports",
    "verificado": "una_fuente"
   }
  ],
