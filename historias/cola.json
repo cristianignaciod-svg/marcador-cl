@@ -1,19 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "ita.1:401874795",
-  "creado": "2026-10-31T19:25:00-03:00",
-  "archivos": [
-   "historias/img/2026-10-31/ita1-milan-inter.png"
-  ],
-  "titulo": "Milan 3–1 Inter",
-  "liga": "ita.1",
-  "enviado": true,
-  "ig_id": "18004930641040415",
-  "publicado": "2026-10-31T22:25:31+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "fra.1:401876413",
   "creado": "2026-10-31T19:25:00-03:00",
   "archivos": [
@@ -5266,5 +5253,16 @@
   "enviado": true,
   "ig_id": "18140098639642139",
   "publicado": "2026-11-22T18:37:23+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "eng.1:401878755",
+  "creado": "2026-11-22T15:47:05-03:00",
+  "archivos": [
+   "historias/img/2026-11-22/eng1-liverpool-man-united.png"
+  ],
+  "titulo": "Liverpool 4–0 Man. United",
+  "liga": "eng.1",
+  "enviado": false
  }
 ]

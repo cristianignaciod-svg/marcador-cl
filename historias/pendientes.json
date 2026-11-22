@@ -1,24 +1,38 @@
 [
  {
-  "id": "fra1-lorient-stade-rennais",
-  "liga": "fra.1",
+  "id": "eng1-liverpool-man-united",
+  "liga": "eng.1",
   "fase": "",
   "fecha": "2026-11-22",
-  "local": "Lorient",
-  "visita": "Stade Rennais",
-  "gl": 1,
-  "gv": 1,
+  "local": "Liverpool",
+  "visita": "Man. United",
+  "gl": 4,
+  "gv": 0,
   "goles": [
    {
-    "min": "27'",
-    "jugador": "Boulaye Dia",
-    "lado": "visita",
+    "min": "10'",
+    "jugador": "Dominik Szoboszlai",
+    "lado": "local",
     "penal": false,
     "autogol": false
    },
    {
-    "min": "45'",
-    "jugador": "Montassar Talbi",
+    "min": "13'",
+    "jugador": "Florian Wirtz",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "66'",
+    "jugador": "Rio Ngumoha",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "82'",
+    "jugador": "Víctor Muñoz",
     "lado": "local",
     "penal": false,
     "autogol": false
@@ -26,36 +40,19 @@
   ],
   "tarjetas": [
    {
-    "min": "36'",
-    "jugador": "Sebastian Szymanski",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "50'",
-    "jugador": "Mahamadou Nagida",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "66'",
-    "jugador": "Souleymane Faye",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "70'",
-    "jugador": "Noah Cadiou",
-    "lado": "local",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "90+2'",
-    "jugador": "Adrien Thomasson",
+    "min": "8'",
+    "jugador": "Leny Yoro",
     "lado": "visita",
     "tipo": "roja"
+   },
+   {
+    "min": "62'",
+    "jugador": "Bradley Barcola",
+    "lado": "local",
+    "tipo": "amarilla"
    }
   ],
-  "anulados": []
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
  }
 ]
