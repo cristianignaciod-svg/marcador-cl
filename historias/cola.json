@@ -1,19 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "esp.1:401882818",
-  "creado": "2026-10-31T14:27:06-03:00",
-  "archivos": [
-   "historias/img/2026-10-31/esp1-rayo-celta.png"
-  ],
-  "titulo": "Rayo 3–0 Celta",
-  "liga": "esp.1",
-  "enviado": true,
-  "ig_id": "18059807681800007",
-  "publicado": "2026-10-31T17:27:32+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "eng.1:401879249",
   "creado": "2026-10-31T14:27:06-03:00",
   "archivos": [
@@ -5234,5 +5221,16 @@
   "enviado": true,
   "ig_id": "18109677368570126",
   "publicado": "2026-11-22T12:22:51+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "ita.1:401875008",
+  "creado": "2026-11-22T11:09:52-03:00",
+  "archivos": [
+   "historias/img/2026-11-22/ita1-juventus-venezia.png"
+  ],
+  "titulo": "Juventus 4–0 Venezia",
+  "liga": "ita.1",
+  "enviado": false
  }
 ]

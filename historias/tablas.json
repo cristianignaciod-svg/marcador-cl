@@ -1210,7 +1210,8 @@
    "fuentes": [
     "ESPN",
     "FotMob"
-   ]
+   ],
+   "pendiente": "Brighton: ESPN 22 pts/10 PJ, FotMob 23 pts/11 PJ"
   },
   "ger.1": {
    "nombre": "Bundesliga",
@@ -1816,7 +1817,8 @@
    "fuentes": [
     "ESPN",
     "FotMob"
-   ]
+   ],
+   "pendiente": "Paris FC: ESPN 20 pts/10 PJ, FotMob 21 pts/11 PJ"
   },
   "arg.1": {
    "nombre": "Liga Profesional",

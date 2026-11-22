@@ -1,1 +1,45 @@
-[]
+[
+ {
+  "id": "ita1-juventus-venezia",
+  "liga": "ita.1",
+  "fase": "",
+  "fecha": "2026-11-22",
+  "local": "Juventus",
+  "visita": "Venezia",
+  "gl": 4,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "53'",
+    "jugador": "Nick Woltemade",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "59'",
+    "jugador": "Teun Koopmeiners",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "65'",
+    "jugador": "Juan Cabal",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "71'",
+    "jugador": "Randal Kolo Muani",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]
