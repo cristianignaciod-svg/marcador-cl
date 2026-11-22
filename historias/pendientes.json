@@ -1,1 +1,59 @@
-[]
+[
+ {
+  "id": "chi1-huachipato-deportes-concepcion",
+  "liga": "chi.1",
+  "fase": "",
+  "fecha": "2026-11-22",
+  "local": "Huachipato",
+  "visita": "Deportes Concepción",
+  "gl": 0,
+  "gv": 0,
+  "goles": [],
+  "tarjetas": [
+   {
+    "min": "16'",
+    "jugador": "Lionel Altamirano",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "40'",
+    "jugador": "Rafael Caroca",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "48'",
+    "jugador": "Maicol León",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "50'",
+    "jugador": "Cristian Riquelme",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "88'",
+    "jugador": "Claudio Torres",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90'",
+    "jugador": "Fausto Grillo",
+    "lado": "visita",
+    "tipo": "doble"
+   },
+   {
+    "min": "90+6'",
+    "jugador": "Mario Briceño",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]
