@@ -5216,7 +5216,9 @@
   ],
   "titulo": "Hull City 2–0 Brighton",
   "liga": "eng.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18106449869164699",
+  "publicado": "2026-11-22T16:37:57+00:00"
  },
  {
   "tipo": "historia",
@@ -5227,6 +5229,8 @@
   ],
   "titulo": "F. C. Augsburgo 3–1 Mainz",
   "liga": "ger.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18071840948518930",
+  "publicado": "2026-11-22T16:37:57+00:00"
  }
 ]
