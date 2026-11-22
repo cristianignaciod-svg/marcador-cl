@@ -1,19 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "ger.1:401884753",
-  "creado": "2026-10-31T13:58:00-03:00",
-  "archivos": [
-   "historias/img/2026-10-31/ger1-leverkusen-vfb-stuttgart.png"
-  ],
-  "titulo": "Leverkusen 2–4 VfB Stuttgart",
-  "liga": "ger.1",
-  "enviado": true,
-  "ig_id": "18199713358386532",
-  "publicado": "2026-10-31T16:58:23+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "ger.1:401884747",
   "creado": "2026-10-31T13:58:00-03:00",
   "archivos": [
@@ -5232,5 +5219,17 @@
   "enviado": true,
   "ig_id": "18011830220781677",
   "publicado": "2026-11-22T01:48:00+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "chi.pb:fm1000024444",
+  "creado": "2026-11-21T23:07:20-03:00",
+  "archivos": [
+   "historias/img/2026-11-21/chipb-deportes-copiapo-antofagasta.png"
+  ],
+  "titulo": "Deportes Copiapó 1–1 Antofagasta",
+  "liga": "chi.pb",
+  "sin_goleadores": false,
+  "enviado": false
  }
 ]
