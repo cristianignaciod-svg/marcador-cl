@@ -27,14 +27,14 @@
        "largo": "Universidad de Chile",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4139.png",
        "pos": 2,
-       "pj": 27,
-       "g": 15,
+       "pj": 28,
+       "g": 16,
        "e": 6,
        "p": 6,
-       "gf": 47,
+       "gf": 48,
        "gc": 22,
-       "dg": 25,
-       "pts": 51,
+       "dg": 26,
+       "pts": 54,
        "zona": null,
        "color": "#2AD572"
       },
@@ -135,10 +135,26 @@
        "color": null
       },
       {
+       "equipo": "Ñublense",
+       "largo": "Ñublense",
+       "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7427.png",
+       "pos": 9,
+       "pj": 28,
+       "g": 10,
+       "e": 8,
+       "p": 10,
+       "gf": 34,
+       "gc": 43,
+       "dg": -9,
+       "pts": 38,
+       "zona": null,
+       "color": null
+      },
+      {
        "equipo": "La Serena",
        "largo": "La Serena",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4137.png",
-       "pos": 9,
+       "pos": 10,
        "pj": 27,
        "g": 9,
        "e": 10,
@@ -154,7 +170,7 @@
        "equipo": "Huachipato",
        "largo": "Huachipato",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4134.png",
-       "pos": 10,
+       "pos": 11,
        "pj": 27,
        "g": 10,
        "e": 6,
@@ -167,33 +183,17 @@
        "color": null
       },
       {
-       "equipo": "Ñublense",
-       "largo": "Ñublense",
-       "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7427.png",
-       "pos": 11,
-       "pj": 27,
-       "g": 9,
-       "e": 8,
-       "p": 10,
-       "gf": 31,
-       "gc": 41,
-       "dg": -10,
-       "pts": 35,
-       "zona": null,
-       "color": null
-      },
-      {
        "equipo": "O'Higgins",
        "largo": "O'Higgins",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/6072.png",
        "pos": 12,
-       "pj": 27,
+       "pj": 28,
        "g": 9,
        "e": 4,
-       "p": 14,
+       "p": 15,
        "gf": 32,
-       "gc": 42,
-       "dg": -10,
+       "gc": 43,
+       "dg": -11,
        "pts": 31,
        "zona": null,
        "color": null
@@ -251,13 +251,13 @@
        "largo": "Universidad de Concepción",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5362.png",
        "pos": 16,
-       "pj": 27,
+       "pj": 28,
        "g": 7,
        "e": 5,
-       "p": 15,
-       "gf": 22,
-       "gc": 49,
-       "dg": -27,
+       "p": 16,
+       "gf": 24,
+       "gc": 52,
+       "dg": -28,
        "pts": 26,
        "zona": null,
        "color": "#FF4646"
@@ -265,12 +265,11 @@
      ]
     }
    ],
-   "actualizado": "2026-11-21T14:35-03:00",
+   "actualizado": "2026-11-21T22:47-03:00",
    "fuentes": [
     "ESPN",
     "FotMob"
-   ],
-   "pendiente": "Ñublense: ESPN 35 pts/27 PJ, FotMob 38 pts/28 PJ"
+   ]
   },
   "chi.pb": {
    "nombre": "Primera B",
@@ -2652,7 +2651,7 @@
     "ESPN",
     "FotMob"
    ],
-   "pendiente": "Cruzeiro: ESPN 63 pts/35 PJ, FotMob 64 pts/36 PJ"
+   "pendiente": "Cruzeiro: ESPN 63 pts/35 PJ, FotMob 66 pts/36 PJ"
   },
   "uefa.champions": {
    "nombre": "Champions League",

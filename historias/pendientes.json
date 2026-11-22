@@ -1,1 +1,71 @@
-[]
+[
+ {
+  "id": "chi1-universidad-de-concepcion-nublense",
+  "liga": "chi.1",
+  "fase": "",
+  "fecha": "2026-11-21",
+  "local": "Universidad de Concepción",
+  "visita": "Ñublense",
+  "gl": 2,
+  "gv": 3,
+  "goles": [
+   {
+    "min": "7'",
+    "jugador": "Matías Plaza",
+    "lado": "visita",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "13'",
+    "jugador": "Cristopher Mesías",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "15'",
+    "jugador": "Franco Rami",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "69'",
+    "jugador": "Franco Rami",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "90+1'",
+    "jugador": "Antonio Díaz",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "42'",
+    "jugador": "Bastian Ubal",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "45+1'",
+    "jugador": "Giovanni Campusano",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+3'",
+    "jugador": "Matías Plaza",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]

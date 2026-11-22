@@ -1,19 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "ita.1:401874798",
-  "creado": "2026-10-31T13:37:45-03:00",
-  "archivos": [
-   "historias/img/2026-10-31/ita1-bolonia-monza.png"
-  ],
-  "titulo": "Bolonia 2–1 Monza",
-  "liga": "ita.1",
-  "enviado": true,
-  "ig_id": "18153313063515758",
-  "publicado": "2026-10-31T16:38:07+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "ger.1:401884753",
   "creado": "2026-10-31T13:58:00-03:00",
   "archivos": [
@@ -5232,5 +5219,16 @@
   "enviado": true,
   "ig_id": "18118599485279688",
   "publicado": "2026-11-22T00:39:41+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "chi.1:401850694",
+  "creado": "2026-11-21T22:47:27-03:00",
+  "archivos": [
+   "historias/img/2026-11-21/chi1-universidad-de-concepcion-nublense.png"
+  ],
+  "titulo": "Universidad de Concepción 2–3 Ñublense",
+  "liga": "chi.1",
+  "enviado": false
  }
 ]
