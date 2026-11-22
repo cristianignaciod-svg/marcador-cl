@@ -1,54 +1,82 @@
 [
  {
-  "id": "fra1-paris-fc-angers",
-  "liga": "fra.1",
+  "id": "ita1-bolonia-udinese",
+  "liga": "ita.1",
   "fase": "",
   "fecha": "2026-11-22",
-  "local": "Paris FC",
-  "visita": "Angers",
-  "gl": 4,
-  "gv": 0,
+  "local": "Bolonia",
+  "visita": "Udinese",
+  "gl": 1,
+  "gv": 1,
   "goles": [
    {
-    "min": "47'",
-    "jugador": "Zabi Gueu",
+    "min": "43'",
+    "jugador": "Nadir Zortea",
     "lado": "local",
     "penal": false,
     "autogol": false
    },
    {
-    "min": "55'",
-    "jugador": "Luca Koleosho",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "65'",
-    "jugador": "Maxime López",
-    "lado": "local",
-    "penal": false,
-    "autogol": false
-   },
-   {
-    "min": "72'",
-    "jugador": "Diego Coppola",
-    "lado": "local",
+    "min": "67'",
+    "jugador": "Nicolò Zaniolo",
+    "lado": "visita",
     "penal": false,
     "autogol": false
    }
   ],
   "tarjetas": [
    {
-    "min": "42'",
-    "jugador": "Luca Koleosho",
-    "lado": "local",
+    "min": "6'",
+    "jugador": "Matteo Palma",
+    "lado": "visita",
     "tipo": "amarilla"
    },
    {
-    "min": "75'",
-    "jugador": "Jim Allevinah",
+    "min": "51'",
+    "jugador": "Oumar Solet",
     "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "52'",
+    "jugador": "Federico Bernardeschi",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "ita1-sassuolo-genova",
+  "liga": "ita.1",
+  "fase": "",
+  "fecha": "2026-11-22",
+  "local": "Sassuolo",
+  "visita": "Génova",
+  "gl": 0,
+  "gv": 2,
+  "goles": [
+   {
+    "min": "26'",
+    "jugador": "Milutin Osmajic",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "38'",
+    "jugador": "Milutin Osmajic",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "63'",
+    "jugador": "Kristian Thorstvedt",
+    "lado": "local",
     "tipo": "amarilla"
    }
   ],

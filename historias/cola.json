@@ -1,32 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "eng.1:401879251",
-  "creado": "2026-10-31T14:37:34-03:00",
-  "archivos": [
-   "historias/img/2026-10-31/eng1-bournemouth-leeds.png"
-  ],
-  "titulo": "Bournemouth 2–0 Leeds",
-  "liga": "eng.1",
-  "enviado": true,
-  "ig_id": "17897779698612862",
-  "publicado": "2026-10-31T17:38:04+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "eng.1:401879247",
-  "creado": "2026-10-31T14:37:34-03:00",
-  "archivos": [
-   "historias/img/2026-10-31/eng1-coventry-sunderland.png"
-  ],
-  "titulo": "Coventry 3–1 Sunderland",
-  "liga": "eng.1",
-  "enviado": true,
-  "ig_id": "18100020794096086",
-  "publicado": "2026-10-31T17:38:04+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "eng.1:401878763",
   "creado": "2026-10-31T14:37:34-03:00",
   "archivos": [
@@ -5232,5 +5206,27 @@
   "enviado": true,
   "ig_id": "17958577047290770",
   "publicado": "2026-11-22T16:17:09+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "ita.1:401875047",
+  "creado": "2026-11-22T13:26:51-03:00",
+  "archivos": [
+   "historias/img/2026-11-22/ita1-bolonia-udinese.png"
+  ],
+  "titulo": "Bolonia 1–1 Udinese",
+  "liga": "ita.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "ita.1:401874960",
+  "creado": "2026-11-22T13:26:51-03:00",
+  "archivos": [
+   "historias/img/2026-11-22/ita1-sassuolo-genova.png"
+  ],
+  "titulo": "Sassuolo 0–2 Génova",
+  "liga": "ita.1",
+  "enviado": false
  }
 ]
