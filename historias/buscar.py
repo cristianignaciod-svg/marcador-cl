@@ -1111,6 +1111,37 @@ def main():
         os.makedirs(os.path.join(BASE, "debug"), exist_ok=True)
         guardar("debug/tablas.json", out)
         return
+    if os.path.exists(os.path.join(BASE, "probar_formaciones")):
+        # muestra cruda de alineaciones (ESPN summary + FotMob matchDetails) para diseñar la vista de formaciones
+        out = {}
+        try:
+            ayer = dt.datetime.now(CL).date() - dt.timedelta(days=1)
+            evs = [e for d in (ayer, ayer - dt.timedelta(days=1)) for e in scoreboard("esp.1", d).get("events", [])
+                   if e["status"]["type"].get("completed")]
+            ev = evs[0]
+            sm = get(f"https://site.web.api.espn.com/apis/site/v2/sports/soccer/esp.1/summary?event={ev['id']}&lang=es&region=cl")
+            ro = sm.get("rosters") or []
+            for r in ro:
+                r["roster"] = (r.get("roster") or [])[:14]
+            out["espn"] = {"evento": ev.get("name"), "rosters": ro}
+            cs = ev["competitions"][0]["competitors"]
+            loc = next(c for c in cs if c["homeAway"] == "home")["team"]["displayName"]
+            fms = fotmob_dia(dt.date.fromisoformat(ev["date"][:10])) or []
+            fm = next((m for m in fms if _parecido(m.get("home", {}).get("name", ""), loc) >= 0.6), None)
+            if fm:
+                raw = get(f"https://www.fotmob.com/api/data/matchDetails?matchId={fm['id']}")
+                lu = (raw.get("content") or {}).get("lineup") or {}
+                for lado in ("homeTeam", "awayTeam"):
+                    t = lu.get(lado) or {}
+                    for k in ("starters", "subs"):
+                        if isinstance(t.get(k), list):
+                            t[k] = t[k][:12]
+                out["fotmob"] = {"id": fm["id"], "lineup": lu}
+        except Exception as ex:
+            out["error"] = repr(ex)[:300]
+        os.makedirs(os.path.join(BASE, "debug"), exist_ok=True)
+        guardar("debug/formaciones.json", out)
+        os.remove(os.path.join(BASE, "probar_formaciones"))
     if os.environ.get("DEBUG_FM_ID"):
         mid = os.environ["DEBUG_FM_ID"]
         g, t, a, raw = fotmob_detalle(mid)
