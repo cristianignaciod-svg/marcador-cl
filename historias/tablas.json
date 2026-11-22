@@ -874,7 +874,8 @@
    "fuentes": [
     "ESPN",
     "FotMob"
-   ]
+   ],
+   "pendiente": "Atlético: ESPN 28 pts/12 PJ, FotMob 29 pts/13 PJ"
   },
   "eng.1": {
    "nombre": "Premier League",
@@ -1209,7 +1210,8 @@
    "fuentes": [
     "ESPN",
     "FotMob"
-   ]
+   ],
+   "pendiente": "Liverpool: ESPN 18 pts/10 PJ, FotMob 21 pts/11 PJ"
   },
   "ger.1": {
    "nombre": "Bundesliga",
@@ -1512,7 +1514,8 @@
    "fuentes": [
     "ESPN",
     "FotMob"
-   ]
+   ],
+   "pendiente": "Werder Bremen: ESPN 15 pts/9 PJ, FotMob 18 pts/10 PJ"
   },
   "fra.1": {
    "nombre": "Ligue 1",
