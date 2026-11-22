@@ -1,19 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "esp.1:401882821",
-  "creado": "2026-11-01T12:09:26-03:00",
-  "archivos": [
-   "historias/img/2026-11-01/esp1-getafe-sevilla.png"
-  ],
-  "titulo": "Getafe 3–1 Sevilla",
-  "liga": "esp.1",
-  "enviado": true,
-  "ig_id": "17990249340073177",
-  "publicado": "2026-11-01T15:09:42+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "ita.1:401874782",
   "creado": "2026-11-01T13:15:46-03:00",
   "archivos": [
@@ -5267,5 +5254,16 @@
   "enviado": true,
   "ig_id": "18361019383175602",
   "publicado": "2026-11-22T22:25:08+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "chi.1:401850693",
+  "creado": "2026-11-22T20:31:03-03:00",
+  "archivos": [
+   "historias/img/2026-11-22/chi1-colo-colo-u-catolica.png"
+  ],
+  "titulo": "Colo-Colo 3–0 U. Católica",
+  "liga": "chi.1",
+  "enviado": false
  }
 ]
