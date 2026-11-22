@@ -1,32 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "eng.1:401878763",
-  "creado": "2026-10-31T14:37:34-03:00",
-  "archivos": [
-   "historias/img/2026-10-31/eng1-hull-city-ipswich.png"
-  ],
-  "titulo": "Hull City 2–2 Ipswich",
-  "liga": "eng.1",
-  "enviado": true,
-  "ig_id": "18035193230906856",
-  "publicado": "2026-10-31T17:38:04+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "ita.1:401874990",
-  "creado": "2026-10-31T16:32:17-03:00",
-  "archivos": [
-   "historias/img/2026-10-31/ita1-udinese-as-roma.png"
-  ],
-  "titulo": "Udinese 2–5 AS Roma",
-  "liga": "ita.1",
-  "enviado": true,
-  "ig_id": "18026549258945420",
-  "publicado": "2026-10-31T19:32:57+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "eng.1:401878761",
   "creado": "2026-10-31T16:42:44-03:00",
   "archivos": [
@@ -5232,5 +5206,27 @@
   "enviado": true,
   "ig_id": "18000379806102137",
   "publicado": "2026-11-22T16:27:30+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "eng.1:401879234",
+  "creado": "2026-11-22T13:37:35-03:00",
+  "archivos": [
+   "historias/img/2026-11-22/eng1-hull-city-brighton.png"
+  ],
+  "titulo": "Hull City 2–0 Brighton",
+  "liga": "eng.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "ger.1:401884733",
+  "creado": "2026-11-22T13:37:35-03:00",
+  "archivos": [
+   "historias/img/2026-11-22/ger1-f-c-augsburgo-mainz.png"
+  ],
+  "titulo": "F. C. Augsburgo 3–1 Mainz",
+  "liga": "ger.1",
+  "enviado": false
  }
 ]

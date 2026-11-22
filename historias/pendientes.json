@@ -1,72 +1,98 @@
 [
  {
-  "id": "ita1-bolonia-udinese",
-  "liga": "ita.1",
+  "id": "eng1-hull-city-brighton",
+  "liga": "eng.1",
   "fase": "",
   "fecha": "2026-11-22",
-  "local": "Bolonia",
-  "visita": "Udinese",
-  "gl": 1,
-  "gv": 1,
+  "local": "Hull City",
+  "visita": "Brighton",
+  "gl": 2,
+  "gv": 0,
   "goles": [
    {
-    "min": "43'",
-    "jugador": "Nadir Zortea",
+    "min": "90+2'",
+    "jugador": "Oliver McBurnie",
     "lado": "local",
     "penal": false,
     "autogol": false
    },
    {
-    "min": "67'",
-    "jugador": "Nicolò Zaniolo",
-    "lado": "visita",
+    "min": "90+5'",
+    "jugador": "Oliver McBurnie",
+    "lado": "local",
     "penal": false,
     "autogol": false
    }
   ],
   "tarjetas": [
    {
-    "min": "6'",
-    "jugador": "Matteo Palma",
+    "min": "34'",
+    "jugador": "Luka Vuskovic",
     "lado": "visita",
     "tipo": "amarilla"
    },
    {
-    "min": "51'",
-    "jugador": "Oumar Solet",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "52'",
-    "jugador": "Federico Bernardeschi",
+    "min": "37'",
+    "jugador": "Nobel Mendy",
     "lado": "local",
     "tipo": "amarilla"
+   },
+   {
+    "min": "59'",
+    "jugador": "Lucas Gourna-Douath",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "81'",
+    "jugador": "Chema Andrés",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "89'",
+    "jugador": "Costinha",
+    "lado": "visita",
+    "tipo": "doble"
    }
   ],
   "anulados": [],
   "verificado": "ESPN+FotMob"
  },
  {
-  "id": "ita1-sassuolo-genova",
-  "liga": "ita.1",
+  "id": "ger1-f-c-augsburgo-mainz",
+  "liga": "ger.1",
   "fase": "",
   "fecha": "2026-11-22",
-  "local": "Sassuolo",
-  "visita": "Génova",
-  "gl": 0,
-  "gv": 2,
+  "local": "F. C. Augsburgo",
+  "visita": "Mainz",
+  "gl": 3,
+  "gv": 1,
   "goles": [
    {
-    "min": "26'",
-    "jugador": "Milutin Osmajic",
-    "lado": "visita",
+    "min": "19'",
+    "jugador": "Michael Gregoritsch",
+    "lado": "local",
     "penal": false,
     "autogol": false
    },
    {
-    "min": "38'",
-    "jugador": "Milutin Osmajic",
+    "min": "36'",
+    "jugador": "Juma Bah",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "48'",
+    "jugador": "Michael Gregoritsch",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "51'",
+    "jugador": "Ransford-Yeboah Königsdörffer",
     "lado": "visita",
     "penal": false,
     "autogol": false
@@ -74,9 +100,27 @@
   ],
   "tarjetas": [
    {
-    "min": "63'",
-    "jugador": "Kristian Thorstvedt",
+    "min": "43'",
+    "jugador": "Nadiem Amiri",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "44'",
+    "jugador": "Robin Fellhauer",
     "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "75'",
+    "jugador": "Stefan Posch",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "76'",
+    "jugador": "Silvan Widmer",
+    "lado": "visita",
     "tipo": "amarilla"
    }
   ],
