@@ -1,60 +1,89 @@
 [
  {
-  "id": "esp1-getafe-atletico",
-  "liga": "esp.1",
+  "id": "ita1-atalanta-inter",
+  "liga": "ita.1",
   "fase": "",
   "fecha": "2026-11-22",
-  "local": "Getafe",
-  "visita": "Atlético",
-  "gl": 0,
-  "gv": 3,
+  "local": "Atalanta",
+  "visita": "Inter",
+  "gl": 4,
+  "gv": 4,
   "goles": [
    {
-    "min": "10'",
-    "jugador": "Álex Baena",
+    "min": "16'",
+    "jugador": "Pio Esposito",
     "lado": "visita",
     "penal": false,
     "autogol": false
    },
    {
-    "min": "30'",
-    "jugador": "Johnny Cardoso",
+    "min": "32'",
+    "jugador": "Pio Esposito",
     "lado": "visita",
     "penal": false,
     "autogol": false
    },
    {
-    "min": "90+2'",
-    "jugador": "Alejandro Grimaldo",
+    "min": "35'",
+    "jugador": "Eljif Elmas",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "52'",
+    "jugador": "Pio Esposito",
     "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "72'",
+    "jugador": "Charles De Ketelaere",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "76'",
+    "jugador": "Petar Sucic",
+    "lado": "visita",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "80'",
+    "jugador": "Charles De Ketelaere",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "90+1'",
+    "jugador": "Franck Kessié",
+    "lado": "local",
     "penal": true,
     "autogol": false
    }
   ],
   "tarjetas": [
    {
-    "min": "36'",
-    "jugador": "Johnny Cardoso",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "49'",
-    "jugador": "Robin Le Normand",
-    "lado": "visita",
-    "tipo": "amarilla"
-   },
-   {
-    "min": "84'",
-    "jugador": "Mario Martín",
+    "min": "60'",
+    "jugador": "Giorgio Scalvini",
     "lado": "local",
     "tipo": "amarilla"
    },
    {
-    "min": "90'",
-    "jugador": "Djené",
+    "min": "74'",
+    "jugador": "Davide Zappacosta",
     "lado": "local",
-    "tipo": "doble"
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+5'",
+    "jugador": "Carlos Augusto",
+    "lado": "visita",
+    "tipo": "amarilla"
    }
   ],
   "anulados": [],

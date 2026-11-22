@@ -1,19 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "ita.1:401875002",
-  "creado": "2026-11-01T11:12:22-03:00",
-  "archivos": [
-   "historias/img/2026-11-01/ita1-como-venezia.png"
-  ],
-  "titulo": "Como 1–0 Venezia",
-  "liga": "ita.1",
-  "enviado": true,
-  "ig_id": "18639805696055695",
-  "publicado": "2026-11-01T14:12:48+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "esp.1:401882821",
   "creado": "2026-11-01T12:09:26-03:00",
   "archivos": [
@@ -5267,5 +5254,16 @@
   "enviado": true,
   "ig_id": "18107533349004098",
   "publicado": "2026-11-22T22:14:42+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "ita.1:401875001",
+  "creado": "2026-11-22T19:24:19-03:00",
+  "archivos": [
+   "historias/img/2026-11-22/ita1-atalanta-inter.png"
+  ],
+  "titulo": "Atalanta 4–4 Inter",
+  "liga": "ita.1",
+  "enviado": false
  }
 ]
