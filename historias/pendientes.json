@@ -1,1 +1,31 @@
-[]
+[
+ {
+  "tipo": "agenda",
+  "id": "agenda-2026-11-23",
+  "fecha": "2026-11-23",
+  "grupos": [
+   {
+    "liga": "esp.1",
+    "partidos": [
+     {
+      "hora": "17:00",
+      "local": "Levante",
+      "visita": "Elche",
+      "tv": "DSports o ESPN"
+     }
+    ]
+   },
+   {
+    "liga": "eng.1",
+    "partidos": [
+     {
+      "hora": "17:00",
+      "local": "Brentford",
+      "visita": "Everton",
+      "tv": "ESPN · Disney+ Premium"
+     }
+    ]
+   }
+  ]
+ }
+]

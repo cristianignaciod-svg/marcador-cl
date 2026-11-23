@@ -1,19 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "chi.1:401850677",
-  "creado": "2026-11-01T14:23:22-03:00",
-  "archivos": [
-   "historias/img/2026-11-01/chi1-huachipato-la-serena.png"
-  ],
-  "titulo": "Huachipato 0–0 La Serena",
-  "liga": "chi.1",
-  "enviado": true,
-  "ig_id": "17963067236997073",
-  "publicado": "2026-11-01T17:23:51+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "esp.1:401882819",
   "creado": "2026-11-01T14:23:22-03:00",
   "archivos": [
@@ -5331,5 +5318,16 @@
   "intentos": 1,
   "ig_id": "17992481049111344",
   "publicado": "2026-11-23T03:26:20+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "agenda:2026-11-23",
+  "creado": "2026-11-23T09:28:13-03:00",
+  "archivos": [
+   "historias/img/2026-11-23/agenda-2026-11-23-1.png"
+  ],
+  "titulo": "Hoy se juega (2 partidos)",
+  "liga": "agenda",
+  "enviado": false
  }
 ]
