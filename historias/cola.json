@@ -1,19 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "ger.1:401884750",
-  "creado": "2026-11-01T13:45:09-03:00",
-  "archivos": [
-   "historias/img/2026-11-01/ger1-1-fc-union-berlin-fc-cologne.png"
-  ],
-  "titulo": "1. FC Union Berlin 1–1 FC Cologne",
-  "liga": "ger.1",
-  "enviado": true,
-  "ig_id": "18134932748498030",
-  "publicado": "2026-11-01T16:45:31+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "chi.1:401850677",
   "creado": "2026-11-01T14:23:22-03:00",
   "archivos": [
@@ -5329,5 +5316,16 @@
   "enviado": false,
   "texto": "¡Clásico con sello albo! 🔥 Colo-Colo le pasó por encima a la UC con un contundente 3-0.\nLa U también hizo la pega: ganó 1-0 de visita a O'Higgins.\nY partidazo en Concepción: Ñublense le ganó 3-2 a la U. de Concepción como visita.\n¿Qué resultado te sorprendió más este fin de semana? 👇\n\n#MarcadorCL #Futbol #CampeonatoNacional #FutbolChileno #LigaDePrimera",
   "avisado": true
+ },
+ {
+  "tipo": "historia",
+  "clave": "arg.1:401933762",
+  "creado": "2026-11-23T00:16:01-03:00",
+  "archivos": [
+   "historias/img/2026-11-22/arg1-instituto-cordoba-huracan.png"
+  ],
+  "titulo": "Instituto (Córdoba) 2–1 Huracán",
+  "liga": "arg.1",
+  "enviado": false
  }
 ]

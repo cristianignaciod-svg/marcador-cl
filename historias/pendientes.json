@@ -1,1 +1,81 @@
-[]
+[
+ {
+  "id": "arg1-instituto-cordoba-huracan",
+  "liga": "arg.1",
+  "fase": "",
+  "fecha": "2026-11-22",
+  "local": "Instituto (Córdoba)",
+  "visita": "Huracán",
+  "gl": 2,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "1'",
+    "jugador": "Alex Luna",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "20'",
+    "jugador": "Facundo Suárez",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "65'",
+    "jugador": "Jordy Caicedo",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "3'",
+    "jugador": "Alex Luna",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "32'",
+    "jugador": "Federico Vera",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "50'",
+    "jugador": "Jonathan Galván",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "52'",
+    "jugador": "Facundo Suárez",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "62'",
+    "jugador": "Fernando Alarcón",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "78'",
+    "jugador": "Giuliano Cerato",
+    "lado": "local",
+    "tipo": "doble"
+   },
+   {
+    "min": "90+5'",
+    "jugador": "Lucas Blondel",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]
