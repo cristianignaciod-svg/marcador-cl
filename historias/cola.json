@@ -1,19 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "fra.1:401876414",
-  "creado": "2026-11-01T13:25:43-03:00",
-  "archivos": [
-   "historias/img/2026-11-01/fra1-strasbourg-aj-auxerre.png"
-  ],
-  "titulo": "Strasbourg 5–1 AJ Auxerre",
-  "liga": "fra.1",
-  "enviado": true,
-  "ig_id": "18111756188181863",
-  "publicado": "2026-11-01T16:26:04+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "ger.1:401884750",
   "creado": "2026-11-01T13:45:09-03:00",
   "archivos": [
@@ -5267,5 +5254,78 @@
   "enviado": true,
   "ig_id": "17955539805302831",
   "publicado": "2026-11-23T01:58:25+00:00"
+ },
+ {
+  "tipo": "resumen",
+  "clave": "chi.1:2026-11-20",
+  "creado": "2026-11-22T23:08:11-03:00",
+  "archivos": [
+   "historias/img/2026-11-22/chi1-20261120-1.png",
+   "historias/img/2026-11-22/chi1-20261120-2.png"
+  ],
+  "titulo": "chi.1 20 al 22 de noviembre",
+  "liga": "chi.1",
+  "fase": "",
+  "rango": "20 al 22 de noviembre",
+  "partidos": [
+   {
+    "dia": "Vie 20",
+    "local": "Cobresal",
+    "visita": "Audax Italiano",
+    "gl": 3,
+    "gv": 2
+   },
+   {
+    "dia": "Vie 20",
+    "local": "Palestino",
+    "visita": "Unión La Calera",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 21",
+    "local": "Coquimbo Unido",
+    "visita": "Everton",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 21",
+    "local": "O'Higgins",
+    "visita": "U. de Chile",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 21",
+    "local": "Universidad de Concepción",
+    "visita": "Ñublense",
+    "gl": 2,
+    "gv": 3
+   },
+   {
+    "dia": "Dom 22",
+    "local": "Huachipato",
+    "visita": "Deportes Concepción",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "dia": "Dom 22",
+    "local": "Colo-Colo",
+    "visita": "U. Católica",
+    "gl": 3,
+    "gv": 0
+   },
+   {
+    "dia": "Dom 22",
+    "local": "Deportes Limache",
+    "visita": "La Serena",
+    "gl": 1,
+    "gv": 2
+   }
+  ],
+  "sin_tabla": false,
+  "enviado": false
  }
 ]

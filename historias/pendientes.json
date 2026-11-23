@@ -1,57 +1,182 @@
 [
  {
-  "id": "chi1-deportes-limache-la-serena",
+  "tipo": "resumen",
+  "id": "chi1-20261120",
   "liga": "chi.1",
   "fase": "",
   "fecha": "2026-11-22",
-  "local": "Deportes Limache",
-  "visita": "La Serena",
-  "gl": 1,
-  "gv": 2,
-  "goles": [
+  "rango": "20 al 22 de noviembre",
+  "partidos": [
    {
-    "min": "46'",
-    "jugador": "Diego Rubio",
-    "lado": "visita",
-    "penal": false,
-    "autogol": false
+    "dia": "Vie 20",
+    "local": "Cobresal",
+    "visita": "Audax Italiano",
+    "gl": 3,
+    "gv": 2
    },
    {
-    "min": "53'",
-    "jugador": "Daniel Castro",
-    "lado": "local",
-    "penal": true,
-    "autogol": false
+    "dia": "Vie 20",
+    "local": "Palestino",
+    "visita": "Unión La Calera",
+    "gl": 0,
+    "gv": 1
    },
    {
-    "min": "67'",
-    "jugador": "Jeisson Vargas",
-    "lado": "visita",
-    "penal": false,
-    "autogol": false
+    "dia": "Sáb 21",
+    "local": "Coquimbo Unido",
+    "visita": "Everton",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 21",
+    "local": "O'Higgins",
+    "visita": "U. de Chile",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 21",
+    "local": "Universidad de Concepción",
+    "visita": "Ñublense",
+    "gl": 2,
+    "gv": 3
+   },
+   {
+    "dia": "Dom 22",
+    "local": "Huachipato",
+    "visita": "Deportes Concepción",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "dia": "Dom 22",
+    "local": "Colo-Colo",
+    "visita": "U. Católica",
+    "gl": 3,
+    "gv": 0
+   },
+   {
+    "dia": "Dom 22",
+    "local": "Deportes Limache",
+    "visita": "La Serena",
+    "gl": 1,
+    "gv": 2
    }
   ],
-  "tarjetas": [
+  "tabla": [
    {
-    "min": "34'",
-    "jugador": "Tiago Galletto",
-    "lado": "local",
-    "tipo": "amarilla"
+    "equipo": "Colo-Colo",
+    "pj": 28,
+    "dg": 32,
+    "pts": 64,
+    "pos": 1
    },
    {
-    "min": "54'",
-    "jugador": "Misael Llantén",
-    "lado": "local",
-    "tipo": "amarilla"
+    "equipo": "U. de Chile",
+    "pj": 28,
+    "dg": 26,
+    "pts": 54,
+    "pos": 2
    },
    {
-    "min": "61'",
-    "jugador": "Francis Mac Allister",
-    "lado": "visita",
-    "tipo": "amarilla"
+    "equipo": "U. Católica",
+    "pj": 28,
+    "dg": 16,
+    "pts": 49,
+    "pos": 3
+   },
+   {
+    "equipo": "Coquimbo Unido",
+    "pj": 28,
+    "dg": 4,
+    "pts": 41,
+    "pos": 4
+   },
+   {
+    "equipo": "Deportes Limache",
+    "pj": 28,
+    "dg": 7,
+    "pts": 40,
+    "pos": 5
+   },
+   {
+    "equipo": "Everton",
+    "pj": 28,
+    "dg": 7,
+    "pts": 40,
+    "pos": 6
+   },
+   {
+    "equipo": "La Serena",
+    "pj": 28,
+    "dg": -1,
+    "pts": 40,
+    "pos": 7
+   },
+   {
+    "equipo": "Deportes Concepción",
+    "pj": 28,
+    "dg": 0,
+    "pts": 39,
+    "pos": 8
+   },
+   {
+    "equipo": "Palestino",
+    "pj": 28,
+    "dg": 0,
+    "pts": 38,
+    "pos": 9
+   },
+   {
+    "equipo": "Ñublense",
+    "pj": 28,
+    "dg": -9,
+    "pts": 38,
+    "pos": 10
+   },
+   {
+    "equipo": "Huachipato",
+    "pj": 28,
+    "dg": -6,
+    "pts": 37,
+    "pos": 11
+   },
+   {
+    "equipo": "O'Higgins",
+    "pj": 28,
+    "dg": -11,
+    "pts": 31,
+    "pos": 12
+   },
+   {
+    "equipo": "Audax Italiano",
+    "pj": 28,
+    "dg": -9,
+    "pts": 30,
+    "pos": 13
+   },
+   {
+    "equipo": "Cobresal",
+    "pj": 28,
+    "dg": -10,
+    "pts": 30,
+    "pos": 14
+   },
+   {
+    "equipo": "Unión La Calera",
+    "pj": 28,
+    "dg": -18,
+    "pts": 27,
+    "pos": 15
+   },
+   {
+    "equipo": "Universidad de Concepción",
+    "pj": 28,
+    "dg": -28,
+    "pts": 26,
+    "pos": 16
    }
-  ],
-  "anulados": [],
-  "verificado": "ESPN+FotMob"
+  ]
  }
 ]
