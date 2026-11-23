@@ -1,19 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "ita.1:401874782",
-  "creado": "2026-11-01T13:15:46-03:00",
-  "archivos": [
-   "historias/img/2026-11-01/ita1-frosinone-torino.png"
-  ],
-  "titulo": "Frosinone 2–0 Torino",
-  "liga": "ita.1",
-  "enviado": true,
-  "ig_id": "18101952461185828",
-  "publicado": "2026-11-01T16:16:16+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "ita.1:401874983",
   "creado": "2026-11-01T13:25:43-03:00",
   "archivos": [
@@ -5267,5 +5254,16 @@
   "enviado": true,
   "ig_id": "18085095440349308",
   "publicado": "2026-11-22T23:31:37+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "arg.1:401933761",
+  "creado": "2026-11-22T21:00:44-03:00",
+  "archivos": [
+   "historias/img/2026-11-22/arg1-river-plate-lanus.png"
+  ],
+  "titulo": "River Plate 3–1 Lanús",
+  "liga": "arg.1",
+  "enviado": false
  }
 ]
