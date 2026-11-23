@@ -1,222 +1,222 @@
 [
  {
   "tipo": "resumen",
-  "id": "esp1-20261120",
-  "liga": "esp.1",
+  "id": "eng1-20261121",
+  "liga": "eng.1",
   "fase": "",
   "fecha": "2026-11-23",
-  "rango": "20 al 23 de noviembre",
+  "rango": "21 al 23 de noviembre",
   "partidos": [
    {
-    "dia": "Vie 20",
-    "local": "Athletic",
-    "visita": "Espanyol",
-    "gl": 0,
-    "gv": 1
-   },
-   {
     "dia": "Sáb 21",
-    "local": "Alavés",
-    "visita": "Deportivo",
-    "gl": 3,
-    "gv": 1
-   },
-   {
-    "dia": "Sáb 21",
-    "local": "Rayo",
-    "visita": "Valencia",
-    "gl": 0,
-    "gv": 1
-   },
-   {
-    "dia": "Sáb 21",
-    "local": "Sevilla",
-    "visita": "Betis",
+    "local": "Man. City",
+    "visita": "Fulham",
     "gl": 1,
     "gv": 1
    },
    {
     "dia": "Sáb 21",
-    "local": "Real Madrid",
-    "visita": "Celta",
+    "local": "Bournemouth",
+    "visita": "Nottingham F.",
     "gl": 2,
-    "gv": 1
+    "gv": 0
    },
    {
-    "dia": "Dom 22",
-    "local": "Barcelona",
-    "visita": "Villarreal",
-    "gl": 3,
-    "gv": 2
+    "dia": "Sáb 21",
+    "local": "Aston Villa",
+    "visita": "Sunderland",
+    "gl": 0,
+    "gv": 0
    },
    {
-    "dia": "Dom 22",
-    "local": "Racing",
-    "visita": "Real Sociedad",
-    "gl": 3,
-    "gv": 2
-   },
-   {
-    "dia": "Dom 22",
-    "local": "Osasuna",
-    "visita": "Málaga",
+    "dia": "Sáb 21",
+    "local": "Chelsea",
+    "visita": "Leeds",
     "gl": 1,
+    "gv": 4
+   },
+   {
+    "dia": "Sáb 21",
+    "local": "Coventry",
+    "visita": "Crystal Palace",
+    "gl": 3,
+    "gv": 2
+   },
+   {
+    "dia": "Sáb 21",
+    "local": "Tottenham",
+    "visita": "Ipswich",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "dia": "Sáb 21",
+    "local": "Newcastle",
+    "visita": "Arsenal",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "dia": "Dom 22",
+    "local": "Hull City",
+    "visita": "Brighton",
+    "gl": 2,
     "gv": 0
    },
    {
     "dia": "Dom 22",
-    "local": "Getafe",
-    "visita": "Atlético",
-    "gl": 0,
-    "gv": 3
+    "local": "Liverpool",
+    "visita": "Man. United",
+    "gl": 4,
+    "gv": 0
    },
    {
     "dia": "Lun 23",
-    "local": "Levante",
-    "visita": "Elche",
-    "gl": 1,
-    "gv": 1
+    "local": "Brentford",
+    "visita": "Everton",
+    "gl": 4,
+    "gv": 0
    }
   ],
   "tabla": [
    {
-    "equipo": "Barcelona",
-    "pj": 13,
-    "dg": 36,
-    "pts": 36,
+    "equipo": "Arsenal",
+    "pj": 11,
+    "dg": 10,
+    "pts": 28,
     "pos": 1
    },
    {
-    "equipo": "Real Madrid",
-    "pj": 13,
-    "dg": 22,
-    "pts": 33,
+    "equipo": "Brighton",
+    "pj": 11,
+    "dg": 17,
+    "pts": 22,
     "pos": 2
    },
    {
-    "equipo": "Atlético",
-    "pj": 13,
-    "dg": 16,
-    "pts": 31,
+    "equipo": "Man. City",
+    "pj": 11,
+    "dg": 8,
+    "pts": 22,
     "pos": 3
    },
    {
-    "equipo": "Betis",
-    "pj": 13,
-    "dg": 5,
-    "pts": 27,
+    "equipo": "Liverpool",
+    "pj": 11,
+    "dg": 8,
+    "pts": 21,
     "pos": 4
    },
    {
-    "equipo": "Real Sociedad",
-    "pj": 13,
-    "dg": 0,
-    "pts": 22,
+    "equipo": "Bournemouth",
+    "pj": 11,
+    "dg": 4,
+    "pts": 18,
     "pos": 5
    },
    {
-    "equipo": "Sevilla",
-    "pj": 13,
-    "dg": -2,
-    "pts": 19,
+    "equipo": "Brentford",
+    "pj": 11,
+    "dg": 9,
+    "pts": 17,
     "pos": 6
    },
    {
-    "equipo": "Racing",
-    "pj": 13,
-    "dg": -12,
+    "equipo": "Leeds",
+    "pj": 11,
+    "dg": 5,
     "pts": 17,
     "pos": 7
    },
    {
-    "equipo": "Athletic",
-    "pj": 12,
-    "dg": 3,
+    "equipo": "Chelsea",
+    "pj": 11,
+    "dg": 0,
     "pts": 16,
     "pos": 8
    },
    {
-    "equipo": "Alavés",
-    "pj": 13,
-    "dg": 0,
+    "equipo": "Everton",
+    "pj": 11,
+    "dg": -2,
     "pts": 16,
     "pos": 9
    },
    {
-    "equipo": "Villarreal",
-    "pj": 13,
+    "equipo": "Tottenham",
+    "pj": 11,
     "dg": 1,
     "pts": 15,
     "pos": 10
    },
    {
-    "equipo": "Espanyol",
-    "pj": 13,
-    "dg": 0,
-    "pts": 15,
+    "equipo": "Hull City",
+    "pj": 11,
+    "dg": 2,
+    "pts": 14,
     "pos": 11
    },
    {
-    "equipo": "Deportivo",
-    "pj": 13,
-    "dg": -1,
-    "pts": 15,
+    "equipo": "Aston Villa",
+    "pj": 11,
+    "dg": -3,
+    "pts": 14,
     "pos": 12
    },
    {
-    "equipo": "Osasuna",
-    "pj": 13,
-    "dg": -10,
-    "pts": 15,
+    "equipo": "Newcastle",
+    "pj": 11,
+    "dg": -3,
+    "pts": 13,
     "pos": 13
    },
    {
-    "equipo": "Celta",
-    "pj": 13,
-    "dg": -1,
-    "pts": 13,
+    "equipo": "Coventry",
+    "pj": 11,
+    "dg": -8,
+    "pts": 12,
     "pos": 14
    },
    {
-    "equipo": "Levante",
-    "pj": 13,
-    "dg": -5,
-    "pts": 12,
+    "equipo": "Fulham",
+    "pj": 11,
+    "dg": -2,
+    "pts": 11,
     "pos": 15
    },
    {
-    "equipo": "Rayo",
-    "pj": 12,
+    "equipo": "Ipswich",
+    "pj": 11,
     "dg": -7,
-    "pts": 12,
+    "pts": 11,
     "pos": 16
    },
    {
-    "equipo": "Valencia",
-    "pj": 13,
-    "dg": -11,
-    "pts": 12,
+    "equipo": "Nottingham F.",
+    "pj": 11,
+    "dg": -6,
+    "pts": 9,
     "pos": 17
    },
    {
-    "equipo": "Getafe",
-    "pj": 13,
-    "dg": -13,
-    "pts": 12,
+    "equipo": "Sunderland",
+    "pj": 11,
+    "dg": -9,
+    "pts": 9,
     "pos": 18
    },
    {
-    "equipo": "Elche",
-    "pj": 13,
-    "dg": -6,
-    "pts": 11,
+    "equipo": "Man. United",
+    "pj": 11,
+    "dg": -9,
+    "pts": 8,
     "pos": 19
    },
    {
-    "equipo": "Málaga",
-    "pj": 13,
+    "equipo": "Crystal Palace",
+    "pj": 11,
     "dg": -15,
-    "pts": 5,
+    "pts": 7,
     "pos": 20
    }
   ]

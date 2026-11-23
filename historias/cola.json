@@ -1,19 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "eng.1:401879246",
-  "creado": "2026-11-01T16:19:14-03:00",
-  "archivos": [
-   "historias/img/2026-11-01/eng1-liverpool-arsenal.png"
-  ],
-  "titulo": "Liverpool 0–1 Arsenal",
-  "liga": "eng.1",
-  "enviado": true,
-  "ig_id": "18113539694149731",
-  "publicado": "2026-11-01T19:19:43+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "ger.1:401884752",
   "creado": "2026-11-01T16:19:14-03:00",
   "archivos": [
@@ -5406,5 +5393,92 @@
   "enviado": false,
   "texto": "¡Fecha cargada de goles en LaLiga! 🔥\nEl Atlético pasó por encima del Getafe: 0-3 de visita.\nEl Barça sufrió, pero le ganó 3-2 al Villarreal, y el Real Madrid superó 2-1 al Celta.\nEl derbi sevillano quedó en tablas: Sevilla 1-1 Betis.\n¿Quién te dejó mejor sensación este fin de semana?\n\n#MarcadorCL #Futbol #LaLiga #LaLigaEA #FutbolEspañol",
   "avisado": true
+ },
+ {
+  "tipo": "resumen",
+  "clave": "eng.1:2026-11-21",
+  "creado": "2026-11-23T20:11:13-03:00",
+  "archivos": [
+   "historias/img/2026-11-23/eng1-20261121-1.png",
+   "historias/img/2026-11-23/eng1-20261121-2.png"
+  ],
+  "titulo": "eng.1 21 al 23 de noviembre",
+  "liga": "eng.1",
+  "fase": "",
+  "rango": "21 al 23 de noviembre",
+  "partidos": [
+   {
+    "dia": "Sáb 21",
+    "local": "Man. City",
+    "visita": "Fulham",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 21",
+    "local": "Bournemouth",
+    "visita": "Nottingham F.",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "dia": "Sáb 21",
+    "local": "Aston Villa",
+    "visita": "Sunderland",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "dia": "Sáb 21",
+    "local": "Chelsea",
+    "visita": "Leeds",
+    "gl": 1,
+    "gv": 4
+   },
+   {
+    "dia": "Sáb 21",
+    "local": "Coventry",
+    "visita": "Crystal Palace",
+    "gl": 3,
+    "gv": 2
+   },
+   {
+    "dia": "Sáb 21",
+    "local": "Tottenham",
+    "visita": "Ipswich",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "dia": "Sáb 21",
+    "local": "Newcastle",
+    "visita": "Arsenal",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "dia": "Dom 22",
+    "local": "Hull City",
+    "visita": "Brighton",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "dia": "Dom 22",
+    "local": "Liverpool",
+    "visita": "Man. United",
+    "gl": 4,
+    "gv": 0
+   },
+   {
+    "dia": "Lun 23",
+    "local": "Brentford",
+    "visita": "Everton",
+    "gl": 4,
+    "gv": 0
+   }
+  ],
+  "sin_tabla": false,
+  "enviado": false
  }
 ]
