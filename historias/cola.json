@@ -5377,10 +5377,12 @@
    }
   ],
   "sin_tabla": false,
-  "enviado": false,
+  "enviado": true,
   "texto": "¡Fecha cargada de goles en LaLiga! 🔥\nEl Atlético pasó por encima del Getafe: 0-3 de visita.\nEl Barça sufrió, pero le ganó 3-2 al Villarreal, y el Real Madrid superó 2-1 al Celta.\nEl derbi sevillano quedó en tablas: Sevilla 1-1 Betis.\n¿Quién te dejó mejor sensación este fin de semana?\n\n#MarcadorCL #Futbol #LaLiga #LaLigaEA #FutbolEspañol",
   "avisado": true,
-  "aprobado": true
+  "aprobado": true,
+  "ig_id": "18133119724885812",
+  "publicado": "2026-11-23T23:31:38+00:00"
  },
  {
   "tipo": "resumen",
