@@ -651,6 +651,27 @@ def tabla_para_resumen(liga, clave, ahora, espera, max_espera=24 * 60):
     return None, False  # 24 h sin coincidencia: va a aprobación sin tabla (el aviso lo indica)
 
 
+def fase_pb(rnd):
+    """Nombre de la ronda de FotMob en español ("Promotion Play-offs - 1st Round" → "Liguilla · Cuartos de final")."""
+    rnd = str(rnd or "").strip()
+    if not rnd:
+        return ""
+    if rnd.isdigit():
+        return f"Fecha {rnd}"
+    r = rnd.lower()
+    if "play" in r or "promotion" in r or "liguilla" in r:
+        if re.search(r"1st|quarter|cuartos", r):
+            return "Liguilla · Cuartos de final"
+        if re.search(r"2nd|semi", r):
+            return "Liguilla · Semifinal"
+        if re.search(r"3rd|final", r):
+            return "Liguilla · Final"
+        return "Liguilla de Ascenso"
+    if "final" in r:
+        return "Final"
+    return rnd
+
+
 def primera_b_resumen(hoy, ahora, resumenes, pendientes, cola, espera):
     """Resumen de fecha de la Primera B (FotMob): bloque de días seguidos con todos los partidos terminados."""
     partidos = []
@@ -695,7 +716,7 @@ def primera_b_resumen(hoy, ahora, resumenes, pendientes, cola, espera):
         try:
             raw = get(f"https://www.fotmob.com/api/data/matchDetails?matchId={jugados[-1]['id']}")
             rnd = (raw.get("general") or {}).get("matchRound")
-            fase = f"Fecha {rnd}" if rnd else ""
+            fase = fase_pb(rnd)
         except Exception:
             pass
         if fase and f"chi.pb:{fase.lower().replace(' ', '-')}" in resumenes:

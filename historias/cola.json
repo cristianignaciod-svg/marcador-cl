@@ -4994,9 +4994,9 @@
    "historias/img/2026-11-22/chipb-20261120-1.png",
    "historias/img/2026-11-22/chipb-20261120-2.png"
   ],
-  "titulo": "Primera B Fecha Promotion Play-offs - 1st Round",
+  "titulo": "Primera B Liguilla · Cuartos de final (ida)",
   "liga": "chi.pb",
-  "fase": "Fecha Promotion Play-offs - 1st Round",
+  "fase": "Liguilla · Cuartos de final (ida)",
   "rango": "20 al 22 de noviembre",
   "partidos": [
    {
@@ -5005,13 +5005,6 @@
     "visita": "Santiago Wanderers",
     "gl": 3,
     "gv": 1
-   },
-   {
-    "dia": "Sáb 21",
-    "local": "Cobreloa",
-    "visita": "San Luis",
-    "gl": 0,
-    "gv": 0
    },
    {
     "dia": "Sáb 21",
@@ -5029,7 +5022,7 @@
    }
   ],
   "enviado": false,
-  "texto": "Arrancó la liguilla por el ascenso en la Primera B y Deportes Recoleta pegó primero: 3-1 a Santiago Wanderers.\nSan Marcos también hizo la pega en casa y le ganó 2-0 a Magallanes.\nCobreloa y San Luis no se sacaron diferencias (0-0), y Copiapó y Antofagasta igualaron 1-1.\n¿Quién se queda con el ascenso? Los leemos.\n\n#MarcadorCL #Futbol #PrimeraB #FutbolChileno #AscensoChile",
+  "texto": "Arrancó la Liguilla de Ascenso de la Primera B y Deportes Recoleta pegó primero: 3-1 a Santiago Wanderers.\nSan Marcos hizo la pega en Arica y le ganó 2-0 a Magallanes, mientras Copiapó y Antofagasta igualaron 1-1.\nTodo se define en la vuelta. ¿Quién avanza? 👇\n\n#MarcadorCL #Futbol #PrimeraB #FutbolChileno #AscensoChile",
   "avisado": true
  },
  {
