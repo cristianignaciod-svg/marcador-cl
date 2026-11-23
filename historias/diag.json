@@ -54,5 +54,9 @@
    "401933762 STATUS_FULL_TIME 2026-11-23T01:00Z",
    "401933756 STATUS_SCHEDULED 2026-11-23T20:00Z"
   ]
+ },
+ "tablas_web": {
+  "esp.1": "Levante: ESPN 11 pts/12 PJ, FotMob 12 pts/13 PJ",
+  "eng.1": "Everton: ESPN 16 pts/10 PJ, FotMob 17 pts/11 PJ"
  }
 }

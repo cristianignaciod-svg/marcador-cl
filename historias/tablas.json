@@ -874,7 +874,8 @@
    "fuentes": [
     "ESPN",
     "FotMob"
-   ]
+   ],
+   "pendiente": "Levante: ESPN 11 pts/12 PJ, FotMob 12 pts/13 PJ"
   },
   "eng.1": {
    "nombre": "Premier League",
@@ -1209,7 +1210,8 @@
    "fuentes": [
     "ESPN",
     "FotMob"
-   ]
+   ],
+   "pendiente": "Everton: ESPN 16 pts/10 PJ, FotMob 17 pts/11 PJ"
   },
   "ger.1": {
    "nombre": "Bundesliga",
