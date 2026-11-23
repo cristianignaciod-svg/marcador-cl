@@ -1,19 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "fra.1:401876415",
-  "creado": "2026-11-01T15:50:19-03:00",
-  "archivos": [
-   "historias/img/2026-11-01/fra1-paris-fc-as-monaco.png"
-  ],
-  "titulo": "Paris FC 3–1 AS Mónaco",
-  "liga": "fra.1",
-  "enviado": true,
-  "ig_id": "18137042476678620",
-  "publicado": "2026-11-01T18:50:50+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "eng.1:401879246",
   "creado": "2026-11-01T16:19:14-03:00",
   "archivos": [
@@ -5328,5 +5315,92 @@
   "enviado": true,
   "ig_id": "17957760936332753",
   "publicado": "2026-11-23T22:10:34+00:00"
+ },
+ {
+  "tipo": "resumen",
+  "clave": "esp.1:2026-11-20",
+  "creado": "2026-11-23T19:50:48-03:00",
+  "archivos": [
+   "historias/img/2026-11-23/esp1-20261120-1.png",
+   "historias/img/2026-11-23/esp1-20261120-2.png"
+  ],
+  "titulo": "esp.1 20 al 23 de noviembre",
+  "liga": "esp.1",
+  "fase": "",
+  "rango": "20 al 23 de noviembre",
+  "partidos": [
+   {
+    "dia": "Vie 20",
+    "local": "Athletic",
+    "visita": "Espanyol",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 21",
+    "local": "Alavés",
+    "visita": "Deportivo",
+    "gl": 3,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 21",
+    "local": "Rayo",
+    "visita": "Valencia",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 21",
+    "local": "Sevilla",
+    "visita": "Betis",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "dia": "Sáb 21",
+    "local": "Real Madrid",
+    "visita": "Celta",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "dia": "Dom 22",
+    "local": "Barcelona",
+    "visita": "Villarreal",
+    "gl": 3,
+    "gv": 2
+   },
+   {
+    "dia": "Dom 22",
+    "local": "Racing",
+    "visita": "Real Sociedad",
+    "gl": 3,
+    "gv": 2
+   },
+   {
+    "dia": "Dom 22",
+    "local": "Osasuna",
+    "visita": "Málaga",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "dia": "Dom 22",
+    "local": "Getafe",
+    "visita": "Atlético",
+    "gl": 0,
+    "gv": 3
+   },
+   {
+    "dia": "Lun 23",
+    "local": "Levante",
+    "visita": "Elche",
+    "gl": 1,
+    "gv": 1
+   }
+  ],
+  "sin_tabla": false,
+  "enviado": false
  }
 ]
