@@ -1,19 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "ita.1:401874983",
-  "creado": "2026-11-01T13:25:43-03:00",
-  "archivos": [
-   "historias/img/2026-11-01/ita1-lazio-cagliari.png"
-  ],
-  "titulo": "Lazio 2–1 Cagliari",
-  "liga": "ita.1",
-  "enviado": true,
-  "ig_id": "18226953049338945",
-  "publicado": "2026-11-01T16:26:04+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "fra.1:401876414",
   "creado": "2026-11-01T13:25:43-03:00",
   "archivos": [
@@ -5267,5 +5254,16 @@
   "enviado": true,
   "ig_id": "18345668614277650",
   "publicado": "2026-11-23T00:01:12+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "chi.1:401850698",
+  "creado": "2026-11-22T22:57:57-03:00",
+  "archivos": [
+   "historias/img/2026-11-22/chi1-deportes-limache-la-serena.png"
+  ],
+  "titulo": "Deportes Limache 1–2 La Serena",
+  "liga": "chi.1",
+  "enviado": false
  }
 ]

@@ -1,1 +1,57 @@
-[]
+[
+ {
+  "id": "chi1-deportes-limache-la-serena",
+  "liga": "chi.1",
+  "fase": "",
+  "fecha": "2026-11-22",
+  "local": "Deportes Limache",
+  "visita": "La Serena",
+  "gl": 1,
+  "gv": 2,
+  "goles": [
+   {
+    "min": "46'",
+    "jugador": "Diego Rubio",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "53'",
+    "jugador": "Daniel Castro",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "67'",
+    "jugador": "Jeisson Vargas",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "34'",
+    "jugador": "Tiago Galletto",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "54'",
+    "jugador": "Misael Llantén",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "61'",
+    "jugador": "Francis Mac Allister",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]
