@@ -1,45 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "esp.1:401882819",
-  "creado": "2026-11-01T14:23:22-03:00",
-  "archivos": [
-   "historias/img/2026-11-01/esp1-racing-real-madrid.png"
-  ],
-  "titulo": "Racing 0–3 Real Madrid",
-  "liga": "esp.1",
-  "enviado": true,
-  "ig_id": "18075431594740828",
-  "publicado": "2026-11-01T17:23:51+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "chi.1:401850683",
-  "creado": "2026-11-01T14:43:19-03:00",
-  "archivos": [
-   "historias/img/2026-11-01/chi1-u-catolica-u-de-chile.png"
-  ],
-  "titulo": "U. Católica 1–0 U. de Chile",
-  "liga": "chi.1",
-  "enviado": true,
-  "ig_id": "18103204853066066",
-  "publicado": "2026-11-01T17:43:40+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "fra.1:401876418",
-  "creado": "2026-11-01T15:40:24-03:00",
-  "archivos": [
-   "historias/img/2026-11-01/fra1-lyon-angers.png"
-  ],
-  "titulo": "Lyon 2–0 Angers",
-  "liga": "fra.1",
-  "enviado": true,
-  "ig_id": "18202116052381417",
-  "publicado": "2026-11-01T18:40:45+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "fra.1:401876415",
   "creado": "2026-11-01T15:50:19-03:00",
   "archivos": [
@@ -5331,5 +5292,38 @@
   "enviado": true,
   "ig_id": "17914321518483348",
   "publicado": "2026-11-23T12:28:47+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "esp.1:401882802",
+  "creado": "2026-11-23T19:10:11-03:00",
+  "archivos": [
+   "historias/img/2026-11-23/esp1-levante-elche.png"
+  ],
+  "titulo": "Levante 1–1 Elche",
+  "liga": "esp.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "eng.1:401879237",
+  "creado": "2026-11-23T19:10:11-03:00",
+  "archivos": [
+   "historias/img/2026-11-23/eng1-brentford-everton.png"
+  ],
+  "titulo": "Brentford 4–0 Everton",
+  "liga": "eng.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "ita.1:401875009",
+  "creado": "2026-11-23T19:10:11-03:00",
+  "archivos": [
+   "historias/img/2026-11-23/ita1-monza-fiorentina.png"
+  ],
+  "titulo": "Monza 3–0 Fiorentina",
+  "liga": "ita.1",
+  "enviado": false
  }
 ]
