@@ -5302,7 +5302,9 @@
   ],
   "titulo": "Levante 1–1 Elche",
   "liga": "esp.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18035324216909347",
+  "publicado": "2026-11-23T22:10:34+00:00"
  },
  {
   "tipo": "historia",
@@ -5313,7 +5315,9 @@
   ],
   "titulo": "Brentford 4–0 Everton",
   "liga": "eng.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17889300372690595",
+  "publicado": "2026-11-23T22:10:34+00:00"
  },
  {
   "tipo": "historia",
@@ -5324,6 +5328,8 @@
   ],
   "titulo": "Monza 3–0 Fiorentina",
   "liga": "ita.1",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17957760936332753",
+  "publicado": "2026-11-23T22:10:34+00:00"
  }
 ]
