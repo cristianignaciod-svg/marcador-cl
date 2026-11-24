@@ -1,60 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "arg.1:401841645",
-  "creado": "2026-11-01T21:06:55-03:00",
-  "archivos": [
-   "historias/img/2026-11-01/arg1-belgrano-cordoba-barracas-central.png"
-  ],
-  "titulo": "Belgrano (Córdoba) 2–2 Barracas Central",
-  "liga": "arg.1",
-  "enviado": true,
-  "error": "400 {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,131,333,269,759,825 cannot be found.\",\"fbtrace_id\":\"Ac58RvL6VwGH55Vsv7kBzyG\"}}",
-  "intentos": 1,
-  "ig_id": "18132945157774812",
-  "publicado": "2026-11-02T00:17:06+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "arg.1:401841650",
-  "creado": "2026-11-01T21:06:55-03:00",
-  "archivos": [
-   "historias/img/2026-11-01/arg1-newell-s-old-boys-union-santa-fe.png"
-  ],
-  "titulo": "Newell's Old Boys 1–1 Unión (Santa Fe)",
-  "liga": "arg.1",
-  "enviado": true,
-  "ig_id": "17908732515566221",
-  "publicado": "2026-11-02T00:07:17+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "arg.1:401841651",
-  "creado": "2026-11-01T22:51:13-03:00",
-  "archivos": [
-   "historias/img/2026-11-01/arg1-lanus-gimnasia-mendoza.png"
-  ],
-  "titulo": "Lanús 1–1 Gimnasia (Mendoza)",
-  "liga": "arg.1",
-  "enviado": true,
-  "ig_id": "17894508258683449",
-  "publicado": "2026-11-02T01:51:28+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "agenda:2026-11-02",
-  "creado": "2026-11-02T09:27:12-03:00",
-  "archivos": [
-   "historias/img/2026-11-02/agenda-2026-11-02-1.png"
-  ],
-  "titulo": "Hoy se juega (4 partidos)",
-  "liga": "agenda",
-  "enviado": true,
-  "ig_id": "18038186393902486",
-  "publicado": "2026-11-02T12:27:43+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "ita.1:401874963",
   "creado": "2026-11-02T16:46:27-03:00",
   "archivos": [
@@ -5489,5 +5435,119 @@
   "enviado": true,
   "ig_id": "18123499258973979",
   "publicado": "2026-11-24T21:53:17+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915296",
+  "creado": "2026-11-24T19:04:02-03:00",
+  "archivos": [
+   "historias/img/2026-11-24/uefachampions-como-aek-athens.png"
+  ],
+  "titulo": "Como 1–0 AEK Athens",
+  "liga": "uefa.champions",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915294",
+  "creado": "2026-11-24T19:04:02-03:00",
+  "archivos": [
+   "historias/img/2026-11-24/uefachampions-feyenoord-rotterdam-fc-porto.png"
+  ],
+  "titulo": "Feyenoord Rotterdam 0–1 FC Porto",
+  "liga": "uefa.champions",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915298",
+  "creado": "2026-11-24T19:04:02-03:00",
+  "archivos": [
+   "historias/img/2026-11-24/uefachampions-real-madrid-psv-eindhoven.png"
+  ],
+  "titulo": "Real Madrid 5–1 PSV Eindhoven",
+  "liga": "uefa.champions",
+  "enviado": false
+ },
+ {
+  "tipo": "resumen",
+  "clave": "uefa.champions:2026-11-24",
+  "creado": "2026-11-24T19:04:02-03:00",
+  "archivos": [
+   "historias/img/2026-11-24/uefachampions-20261124-1.png",
+   "historias/img/2026-11-24/uefachampions-20261124-2.png",
+   "historias/img/2026-11-24/uefachampions-20261124-3.png"
+  ],
+  "titulo": "uefa.champions 24 de noviembre",
+  "liga": "uefa.champions",
+  "fase": "",
+  "rango": "24 de noviembre",
+  "partidos": [
+   {
+    "dia": "Mar 24",
+    "local": "Bodo/Glimt",
+    "visita": "LASK Linz",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "dia": "Mar 24",
+    "local": "Galatasaray",
+    "visita": "Aston Villa",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "dia": "Mar 24",
+    "local": "Arsenal",
+    "visita": "Borussia Dortmund",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "dia": "Mar 24",
+    "local": "Como",
+    "visita": "AEK Athens",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "dia": "Mar 24",
+    "local": "Feyenoord Rotterdam",
+    "visita": "FC Porto",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "dia": "Mar 24",
+    "local": "Man. City",
+    "visita": "Napoli",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "dia": "Mar 24",
+    "local": "RB Leipzig",
+    "visita": "Lens",
+    "gl": 3,
+    "gv": 1
+   },
+   {
+    "dia": "Mar 24",
+    "local": "Real Madrid",
+    "visita": "PSV Eindhoven",
+    "gl": 5,
+    "gv": 1
+   },
+   {
+    "dia": "Mar 24",
+    "local": "Slovan Bratislava",
+    "visita": "Betis",
+    "gl": 0,
+    "gv": 2
+   }
+  ],
+  "sin_tabla": false,
+  "enviado": false
  }
 ]
