@@ -5473,7 +5473,9 @@
   ],
   "titulo": "Bodo/Glimt 1–0 LASK Linz",
   "liga": "uefa.champions",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17962105983015229",
+  "publicado": "2026-11-24T19:55:15+00:00"
  },
  {
   "tipo": "historia",
@@ -5484,6 +5486,8 @@
   ],
   "titulo": "Galatasaray 1–0 Aston Villa",
   "liga": "uefa.champions",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17954173122351322",
+  "publicado": "2026-11-24T19:55:15+00:00"
  }
 ]
