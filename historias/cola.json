@@ -1,19 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "esp.1:401882823",
-  "creado": "2026-11-01T16:29:40-03:00",
-  "archivos": [
-   "historias/img/2026-11-01/esp1-elche-valencia.png"
-  ],
-  "titulo": "Elche 0–1 Valencia",
-  "liga": "esp.1",
-  "enviado": true,
-  "ig_id": "17995610718056085",
-  "publicado": "2026-11-01T19:30:09+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "ita.1:401874968",
   "creado": "2026-11-01T16:49:09-03:00",
   "archivos": [
@@ -5488,5 +5475,17 @@
   "enviado": true,
   "ig_id": "18141903712632779",
   "publicado": "2026-11-23T23:21:37+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "agenda:2026-11-24",
+  "creado": "2026-11-24T09:26:44-03:00",
+  "archivos": [
+   "historias/img/2026-11-24/agenda-2026-11-24-1.png",
+   "historias/img/2026-11-24/agenda-2026-11-24-2.png"
+  ],
+  "titulo": "Hoy se juega (9 partidos)",
+  "liga": "agenda",
+  "enviado": false
  }
 ]
