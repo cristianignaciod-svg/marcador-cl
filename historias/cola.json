@@ -5458,9 +5458,11 @@
   ],
   "titulo": "Feyenoord Rotterdam 0–1 FC Porto",
   "liga": "uefa.champions",
-  "enviado": false,
+  "enviado": true,
   "error": "400 {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,136,804,780,759,825 cannot be found.\",\"fbtrace_id\":\"ArGqkXNcfx9R0RYkMCfK9i-\"}}",
-  "intentos": 1
+  "intentos": 1,
+  "ig_id": "18073716653784109",
+  "publicado": "2026-11-24T22:15:53+00:00"
  },
  {
   "tipo": "historia",
