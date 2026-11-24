@@ -2344,13 +2344,13 @@
        "largo": "Palmeiras",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
        "pos": 2,
-       "pj": 36,
+       "pj": 37,
        "g": 21,
        "e": 11,
-       "p": 4,
+       "p": 5,
        "gf": 64,
-       "gc": 26,
-       "dg": 38,
+       "gc": 29,
+       "dg": 35,
        "pts": 74,
        "zona": null,
        "color": "#2AD572"
@@ -2632,26 +2632,25 @@
        "largo": "Chapecoense",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
        "pos": 20,
-       "pj": 36,
-       "g": 4,
+       "pj": 37,
+       "g": 5,
        "e": 9,
        "p": 23,
-       "gf": 34,
+       "gf": 37,
        "gc": 74,
-       "dg": -40,
-       "pts": 21,
+       "dg": -37,
+       "pts": 24,
        "zona": null,
        "color": "#FF4646"
       }
      ]
     }
    ],
-   "actualizado": "2026-11-24T00:05-03:00",
+   "actualizado": "2026-11-24T20:53-03:00",
    "fuentes": [
     "ESPN",
     "FotMob"
-   ],
-   "pendiente": "Palmeiras: ESPN 74 pts/36 PJ, FotMob 74 pts/37 PJ"
+   ]
   },
   "uefa.champions": {
    "nombre": "Champions League",
