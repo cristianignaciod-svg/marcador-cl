@@ -5445,7 +5445,9 @@
   ],
   "titulo": "Como 1–0 AEK Athens",
   "liga": "uefa.champions",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18419422282083953",
+  "publicado": "2026-11-24T22:04:37+00:00"
  },
  {
   "tipo": "historia",
@@ -5456,7 +5458,9 @@
   ],
   "titulo": "Feyenoord Rotterdam 0–1 FC Porto",
   "liga": "uefa.champions",
-  "enviado": false
+  "enviado": false,
+  "error": "400 {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,136,804,780,759,825 cannot be found.\",\"fbtrace_id\":\"ArGqkXNcfx9R0RYkMCfK9i-\"}}",
+  "intentos": 1
  },
  {
   "tipo": "historia",
@@ -5467,7 +5471,9 @@
   ],
   "titulo": "Real Madrid 5–1 PSV Eindhoven",
   "liga": "uefa.champions",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18067793297789893",
+  "publicado": "2026-11-24T22:04:37+00:00"
  },
  {
   "tipo": "resumen",
