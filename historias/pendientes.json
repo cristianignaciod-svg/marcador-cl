@@ -1,1 +1,96 @@
-[]
+[
+ {
+  "id": "uefachampions-bodo-glimt-lask-linz",
+  "liga": "uefa.champions",
+  "fase": "",
+  "fecha": "2026-11-24",
+  "local": "Bodo/Glimt",
+  "visita": "LASK Linz",
+  "gl": 1,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "90+2'",
+    "jugador": "Melayro Bogarde",
+    "lado": "local",
+    "penal": false,
+    "autogol": true
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "71'",
+    "jugador": "Krystof Danek",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "89'",
+    "jugador": "Jostein Gundersen",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "uefachampions-galatasaray-aston-villa",
+  "liga": "uefa.champions",
+  "fase": "",
+  "fecha": "2026-11-24",
+  "local": "Galatasaray",
+  "visita": "Aston Villa",
+  "gl": 1,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "77'",
+    "jugador": "Deniz Gül",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "41'",
+    "jugador": "Nicolas Jackson",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "52'",
+    "jugador": "John McGinn",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "53'",
+    "jugador": "Alexey Batrakov",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "58'",
+    "jugador": "João Gomes",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "58'",
+    "jugador": "Yunus Akgün",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90'",
+    "jugador": "Ross Barkley",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]
