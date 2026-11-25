@@ -5321,7 +5321,9 @@
   ],
   "titulo": "Atlético 2–0 Viking FK",
   "liga": "uefa.champions",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18136603684780940",
+  "publicado": "2026-11-25T22:15:53+00:00"
  },
  {
   "tipo": "historia",
@@ -5332,7 +5334,9 @@
   ],
   "titulo": "Club Brujas 0–3 Liverpool",
   "liga": "uefa.champions",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18123488542963043",
+  "publicado": "2026-11-25T22:15:53+00:00"
  },
  {
   "tipo": "historia",
@@ -5343,7 +5347,9 @@
   ],
   "titulo": "Inter 2–0 VfB Stuttgart",
   "liga": "uefa.champions",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18648499486017290",
+  "publicado": "2026-11-25T22:15:53+00:00"
  },
  {
   "tipo": "historia",
@@ -5354,7 +5360,9 @@
   ],
   "titulo": "Lille 2–1 Bayern",
   "liga": "uefa.champions",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18079640300752737",
+  "publicado": "2026-11-25T22:15:53+00:00"
  },
  {
   "tipo": "historia",
@@ -5365,7 +5373,9 @@
   ],
   "titulo": "PSG 2–2 AS Roma",
   "liga": "uefa.champions",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18155862577536643",
+  "publicado": "2026-11-25T22:15:53+00:00"
  },
  {
   "tipo": "historia",
@@ -5376,7 +5386,9 @@
   ],
   "titulo": "Shakhtar Donetsk 0–1 Fenerbahçe",
   "liga": "uefa.champions",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18163157758506688",
+  "publicado": "2026-11-25T22:15:53+00:00"
  },
  {
   "tipo": "historia",
@@ -5387,6 +5399,8 @@
   ],
   "titulo": "Sporting CP 2–2 Man. United",
   "liga": "uefa.champions",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17959108113274701",
+  "publicado": "2026-11-25T22:15:53+00:00"
  }
 ]
