@@ -1,18 +1,5 @@
 [
  {
-  "tipo": "historia",
-  "clave": "chi.1:401850679",
-  "creado": "2026-11-02T22:35:19-03:00",
-  "archivos": [
-   "historias/img/2026-11-02/chi1-deportes-concepcion-palestino.png"
-  ],
-  "titulo": "Deportes Concepción 1–0 Palestino",
-  "liga": "chi.1",
-  "enviado": true,
-  "ig_id": "18156891235473860",
-  "publicado": "2026-11-03T01:35:40+00:00"
- },
- {
   "tipo": "resumen",
   "clave": "chi.1:2026-10-30",
   "creado": "2026-11-02T22:35:19-03:00",
@@ -5402,5 +5389,86 @@
   "enviado": true,
   "ig_id": "17959108113274701",
   "publicado": "2026-11-25T22:15:53+00:00"
+ },
+ {
+  "tipo": "resumen",
+  "clave": "uefa.champions:2026-11-25",
+  "creado": "2026-11-25T19:37:23-03:00",
+  "archivos": [
+   "historias/img/2026-11-25/uefachampions-20261125-1.png",
+   "historias/img/2026-11-25/uefachampions-20261125-2.png",
+   "historias/img/2026-11-25/uefachampions-20261125-3.png"
+  ],
+  "titulo": "uefa.champions 25 de noviembre",
+  "liga": "uefa.champions",
+  "fase": "",
+  "rango": "25 de noviembre",
+  "partidos": [
+   {
+    "dia": "Mié 25",
+    "local": "Sabah FK",
+    "visita": "Barcelona",
+    "gl": 1,
+    "gv": 4
+   },
+   {
+    "dia": "Mié 25",
+    "local": "Slavia Prague",
+    "visita": "Villarreal",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "dia": "Mié 25",
+    "local": "Atlético",
+    "visita": "Viking FK",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "dia": "Mié 25",
+    "local": "Club Brujas",
+    "visita": "Liverpool",
+    "gl": 0,
+    "gv": 3
+   },
+   {
+    "dia": "Mié 25",
+    "local": "Inter",
+    "visita": "VfB Stuttgart",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "dia": "Mié 25",
+    "local": "Lille",
+    "visita": "Bayern",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "dia": "Mié 25",
+    "local": "PSG",
+    "visita": "AS Roma",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "dia": "Mié 25",
+    "local": "Shakhtar Donetsk",
+    "visita": "Fenerbahçe",
+    "gl": 0,
+    "gv": 1
+   },
+   {
+    "dia": "Mié 25",
+    "local": "Sporting CP",
+    "visita": "Man. United",
+    "gl": 2,
+    "gv": 2
+   }
+  ],
+  "sin_tabla": false,
+  "enviado": false
  }
 ]
