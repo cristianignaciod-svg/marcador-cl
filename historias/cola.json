@@ -1,19 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "ita.1:401874963",
-  "creado": "2026-11-02T16:46:27-03:00",
-  "archivos": [
-   "historias/img/2026-11-02/ita1-sassuolo-fiorentina.png"
-  ],
-  "titulo": "Sassuolo 2–4 Fiorentina",
-  "liga": "ita.1",
-  "enviado": true,
-  "ig_id": "18103501247635591",
-  "publicado": "2026-11-02T19:46:51+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "esp.1:401882824",
   "creado": "2026-11-02T19:02:04-03:00",
   "archivos": [
@@ -5562,5 +5549,17 @@
   "aprobado": true,
   "ig_id": "17888914581625780",
   "publicado": "2026-11-25T11:03:59+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "agenda:2026-11-25",
+  "creado": "2026-11-25T09:22:04-03:00",
+  "archivos": [
+   "historias/img/2026-11-25/agenda-2026-11-25-1.png",
+   "historias/img/2026-11-25/agenda-2026-11-25-2.png"
+  ],
+  "titulo": "Hoy se juega (9 partidos)",
+  "liga": "agenda",
+  "enviado": false
  }
 ]

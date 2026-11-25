@@ -1,1 +1,68 @@
-[]
+[
+ {
+  "tipo": "agenda",
+  "id": "agenda-2026-11-25",
+  "fecha": "2026-11-25",
+  "grupos": [
+   {
+    "liga": "uefa.champions",
+    "partidos": [
+     {
+      "hora": "14:45",
+      "local": "Sabah FK",
+      "visita": "Barcelona",
+      "tv": "ESPN Premium · Disney+ Premium"
+     },
+     {
+      "hora": "14:45",
+      "local": "Slavia Prague",
+      "visita": "Villarreal",
+      "tv": "ESPN · Disney+ Premium"
+     },
+     {
+      "hora": "17:00",
+      "local": "Atlético",
+      "visita": "Viking FK",
+      "tv": "Disney+ Premium"
+     },
+     {
+      "hora": "17:00",
+      "local": "Club Brujas",
+      "visita": "Liverpool",
+      "tv": "ESPN 2 · Disney+ Premium"
+     },
+     {
+      "hora": "17:00",
+      "local": "Inter",
+      "visita": "VfB Stuttgart",
+      "tv": "ESPN 4 · Disney+ Premium"
+     },
+     {
+      "hora": "17:00",
+      "local": "Lille",
+      "visita": "Bayern",
+      "tv": "ESPN 5 · ESPN Premium · Disney+ Premium"
+     },
+     {
+      "hora": "17:00",
+      "local": "PSG",
+      "visita": "AS Roma",
+      "tv": "ESPN · Disney+ Premium"
+     },
+     {
+      "hora": "17:00",
+      "local": "Shakhtar Donetsk",
+      "visita": "Fenerbahçe",
+      "tv": "Disney+ Premium"
+     },
+     {
+      "hora": "17:00",
+      "local": "Sporting CP",
+      "visita": "Man. United",
+      "tv": "ESPN 7 · Disney+ Premium"
+     }
+    ]
+   }
+  ]
+ }
+]
