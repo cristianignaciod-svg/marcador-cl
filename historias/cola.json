@@ -1,32 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "esp.1:401882824",
-  "creado": "2026-11-02T19:02:04-03:00",
-  "archivos": [
-   "historias/img/2026-11-02/esp1-deportivo-osasuna.png"
-  ],
-  "titulo": "Deportivo 2–1 Osasuna",
-  "liga": "esp.1",
-  "enviado": true,
-  "ig_id": "18358228150219746",
-  "publicado": "2026-11-02T22:02:27+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "fra.1:401876419",
-  "creado": "2026-11-02T19:21:21-03:00",
-  "archivos": [
-   "historias/img/2026-11-02/fra1-lorient-brest.png"
-  ],
-  "titulo": "Lorient 0–2 Brest",
-  "liga": "fra.1",
-  "enviado": true,
-  "ig_id": "17992176612099335",
-  "publicado": "2026-11-02T22:21:44+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "eng.1:401878762",
   "creado": "2026-11-02T19:40:57-03:00",
   "archivos": [
@@ -5563,5 +5537,27 @@
   "enviado": true,
   "ig_id": "18137732344663129",
   "publicado": "2026-11-25T12:22:36+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915378",
+  "creado": "2026-11-25T16:47:57-03:00",
+  "archivos": [
+   "historias/img/2026-11-25/uefachampions-sabah-fk-barcelona.png"
+  ],
+  "titulo": "Sabah FK 1–4 Barcelona",
+  "liga": "uefa.champions",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915293",
+  "creado": "2026-11-25T16:47:57-03:00",
+  "archivos": [
+   "historias/img/2026-11-25/uefachampions-slavia-prague-villarreal.png"
+  ],
+  "titulo": "Slavia Prague 0–1 Villarreal",
+  "liga": "uefa.champions",
+  "enviado": false
  }
 ]

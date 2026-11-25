@@ -1,1 +1,118 @@
-[]
+[
+ {
+  "id": "uefachampions-sabah-fk-barcelona",
+  "liga": "uefa.champions",
+  "fase": "",
+  "fecha": "2026-11-25",
+  "local": "Sabah FK",
+  "visita": "Barcelona",
+  "gl": 1,
+  "gv": 4,
+  "goles": [
+   {
+    "min": "31'",
+    "jugador": "Anthony Gordon",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "51'",
+    "jugador": "Anthony Gordon",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "55'",
+    "jugador": "Karim Adeyemi",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "60'",
+    "jugador": "Gabriel Jesus",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "63'",
+    "jugador": "Joy-Lance Mickels",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "69'",
+    "jugador": "Ivan Lepinjica",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "uefachampions-slavia-prague-villarreal",
+  "liga": "uefa.champions",
+  "fase": "",
+  "fecha": "2026-11-25",
+  "local": "Slavia Prague",
+  "visita": "Villarreal",
+  "gl": 0,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "62'",
+    "jugador": "Tajon Buchanan",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "4'",
+    "jugador": "Michal Sadílek",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "12'",
+    "jugador": "Sergi Cardona",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "29'",
+    "jugador": "Ange N'Guessan",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "45+2'",
+    "jugador": "Renato Veiga",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+3'",
+    "jugador": "Tajon Buchanan",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+4'",
+    "jugador": "Carlos Romero",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]
