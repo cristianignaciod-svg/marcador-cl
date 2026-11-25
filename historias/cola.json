@@ -5547,7 +5547,9 @@
   ],
   "titulo": "Sabah FK 1–4 Barcelona",
   "liga": "uefa.champions",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17869682811680484",
+  "publicado": "2026-11-25T19:48:29+00:00"
  },
  {
   "tipo": "historia",
@@ -5558,6 +5560,8 @@
   ],
   "titulo": "Slavia Prague 0–1 Villarreal",
   "liga": "uefa.champions",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18101950385431091",
+  "publicado": "2026-11-25T19:48:29+00:00"
  }
 ]
