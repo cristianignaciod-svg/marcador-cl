@@ -50,15 +50,7 @@
    "401933757 STATUS_SCHEDULED 2026-11-26T00:00Z"
   ]
  },
- "cruce": {
-  "uefa.champions:401915374": [
-   "partido no encontrado en FotMob: sin segunda fuente"
-  ]
- },
  "tablas": {
   "uefa.champions:2026-11-25": "PSG: ESPN 12 pts/4 PJ, FotMob 13 pts/5 PJ"
- },
- "tablas_web": {
-  "uefa.champions": "PSG: ESPN 12 pts/4 PJ, FotMob 13 pts/5 PJ"
  }
 }
