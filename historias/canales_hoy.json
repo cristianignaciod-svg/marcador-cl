@@ -1,30 +1,25 @@
 {
- "fecha": "2026-11-24",
+ "fecha": "2026-11-25",
  "fuentes": [
-  "https://www.alairelibre.cl/futbol/partidos-de-hoy-en-tv-martes-24-de-noviembre-2026/",
-  "https://www.alairelibre.cl/futbol/copa-chile/partidos-de-hoy-martes-24-noviembre/",
-  "https://duplos.cl/deportes/champions-league-24-25-noviembre-2026-horarios-chile-barcelona-real-madrid-betis-9300f2fe7e/285748/2026/11/23/",
-  "https://www.pauta.cl/deportes/2026/11/24/slovan-bratislava-vs-real-betis-donde-ver-en-vivo-y-online-la-champions-league.html",
-  "https://www.biobiochile.cl/noticias/servicios/toma-nota/2026/11/23/slovan-bratislava-vs-real-betis-por-champions-a-que-hora-juegan-y-donde-verlo-en-vivo.shtml",
-  "https://espndeportes.espn.com/futbol/champions-league/nota/_/id/17554734/slovan-bratislava-vs-betis-por-la-champions-league-equipo-fecha-hora-y-tv-en-vivo",
-  "https://www.pauta.cl/deportes/2026/11/24/arsenal-vs-borussia-dortmund-donde-ver-en-vivo-y-online-la-champions-league.html",
-  "https://radiolasenal.cl/cuando-y-donde-ver-arsenal-vs-borussia-dortmund-por-la-champions-league/",
-  "https://www.pauta.cl/deportes/2026/11/24/manchester-city-vs-napoli-donde-ver-en-vivo-y-online-la-champions-league.html",
-  "https://www.prensafutbol.cl/manchester-city-vs-napoli-por-champions/",
-  "https://espndeportes.espn.com/futbol/champions-league/nota/_/id/17553269/manchester-city-vs-napoli-fecha-5-champions-equipo-fecha-hora-y-tv-en-vivo",
-  "https://bolavip.com/champions-league/donde-ver-en-vivo-galatasaray-vs-aston-villa-por-la-jornada-5-de-la-champions-league-tv-y-streaming-online",
-  "https://www.alairelibre.cl/futbol/copa-chile/coquimbo-la-calera-copa-chile-vuelta-cuartos-previa/",
-  "https://www.prensafutbol.cl/coquimbo-vs-la-calera-en-copa-chile-2026/"
+  "https://www.alairelibre.cl/futbol/partidos-de-hoy-en-tv-miercoles-25-de-noviembre-2026/",
+  "https://www.futbolenvivochile.com/",
+  "https://www.pauta.cl/deportes/2026/11/25/psg-vs-roma-donde-ver-en-vivo-y-online-la-champions-league.html",
+  "https://www.prensafutbol.cl/psg-roma-hora-donde-ver-champions-league-2026/",
+  "https://bolavip.com/champions-league/donde-ver-en-vivo-sabah-fk-vs-barcelona-por-la-jornada-5-de-la-champions-league-tv-y-streaming-online",
+  "https://bolavip.com/champions-league/donde-ver-en-vivo-slavia-praga-vs-villarreal-por-la-jornada-5-de-la-champions-league-tv-y-streaming-online",
+  "https://duplos.cl/deportes/champions-league-24-25-noviembre-2026-horarios-chile-barcelona-real-madrid-betis-9300f2fe7e/285748/2026/11/23/"
  ],
  "partidos": [
-  {"local": "Real Madrid", "visita": "PSV", "tv": "ESPN 5 · Disney+ Premium", "verificado": "2_fuentes"},
-  {"local": "Slovan Bratislava", "visita": "Betis", "tv": "ESPN 4 · Disney+ Premium", "verificado": "2_fuentes"},
-  {"local": "Arsenal", "visita": "Borussia Dortmund", "tv": "ESPN 3 · Disney+ Premium", "verificado": "2_fuentes"},
-  {"local": "Man. City", "visita": "Napoli", "tv": "Disney+ Premium", "verificado": "2_fuentes"},
-  {"local": "Galatasaray", "visita": "Aston Villa", "tv": "Disney+ Premium", "verificado": "2_fuentes"},
-  {"local": "Coquimbo Unido", "visita": "Unión La Calera", "tv": "TNT Sports Premium · HBO Max", "verificado": "2_fuentes"}
+  {"local": "Sabah", "visita": "Barcelona", "tv": "ESPN Premium · Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "Slavia Praga", "visita": "Villarreal", "tv": "ESPN · Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "PSG", "visita": "Roma", "tv": "ESPN · Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "Atlético Madrid", "visita": "Viking", "tv": "Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "Inter", "visita": "Stuttgart", "tv": "ESPN 4 · Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "Sporting", "visita": "Man. United", "tv": "ESPN 7 · Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "Club Brujas", "visita": "Liverpool", "tv": "ESPN 2 · Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "Lille", "visita": "Bayern", "tv": "ESPN 5 · ESPN Premium · Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "Shakhtar", "visita": "Fenerbahçe", "tv": "Disney+ Premium", "verificado": "2_fuentes"},
+  {"local": "Atlético-MG", "visita": "Corinthians", "tv": "Fanatiz", "verificado": "2_fuentes"}
  ],
- "conflictos": [
-  {"local": "Man. City", "visita": "Napoli", "detalle": "Canal de cable sin acuerdo: Pauta dice ESPN 2, Al Aire Libre dice ESPN Chile, PrensaFútbol solo 'ESPN'. Se publica solo Disney+ Premium (coinciden todas)."}
- ]
+ "conflictos": []
 }
