@@ -1,258 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "eng.1:401878762",
-  "creado": "2026-11-02T19:40:57-03:00",
-  "archivos": [
-   "historias/img/2026-11-02/eng1-newcastle-everton.png"
-  ],
-  "titulo": "Newcastle 0–1 Everton",
-  "liga": "eng.1",
-  "enviado": true,
-  "ig_id": "17955124968335571",
-  "publicado": "2026-11-02T22:41:21+00:00"
- },
- {
-  "tipo": "resumen",
-  "clave": "eng.1:2026-10-31",
-  "creado": "2026-11-02T19:40:57-03:00",
-  "archivos": [
-   "historias/img/2026-11-02/eng1-20261031-1.png",
-   "historias/img/2026-11-02/eng1-20261031-2.png"
-  ],
-  "titulo": "eng.1 31 de octubre al 2 de noviembre",
-  "liga": "eng.1",
-  "fase": "",
-  "rango": "31 de octubre al 2 de noviembre",
-  "partidos": [
-   {
-    "dia": "Sáb 31",
-    "local": "Chelsea",
-    "visita": "Man. United",
-    "gl": 2,
-    "gv": 0
-   },
-   {
-    "dia": "Sáb 31",
-    "local": "Bournemouth",
-    "visita": "Leeds",
-    "gl": 2,
-    "gv": 0
-   },
-   {
-    "dia": "Sáb 31",
-    "local": "Brentford",
-    "visita": "Nottingham F.",
-    "gl": 2,
-    "gv": 0
-   },
-   {
-    "dia": "Sáb 31",
-    "local": "Coventry",
-    "visita": "Sunderland",
-    "gl": 3,
-    "gv": 1
-   },
-   {
-    "dia": "Sáb 31",
-    "local": "Hull City",
-    "visita": "Ipswich",
-    "gl": 2,
-    "gv": 2
-   },
-   {
-    "dia": "Sáb 31",
-    "local": "Man. City",
-    "visita": "Brighton",
-    "gl": 0,
-    "gv": 1
-   },
-   {
-    "dia": "Sáb 31",
-    "local": "Tottenham",
-    "visita": "Crystal Palace",
-    "gl": 2,
-    "gv": 0
-   },
-   {
-    "dia": "Sáb 31",
-    "local": "Aston Villa",
-    "visita": "Fulham",
-    "gl": 1,
-    "gv": 1
-   },
-   {
-    "dia": "Dom 1",
-    "local": "Liverpool",
-    "visita": "Arsenal",
-    "gl": 0,
-    "gv": 1
-   },
-   {
-    "dia": "Lun 2",
-    "local": "Newcastle",
-    "visita": "Everton",
-    "gl": 0,
-    "gv": 1
-   }
-  ],
-  "enviado": true,
-  "texto": "¡Arsenal ganó en Anfield y la Premier arde! 🔥 Liverpool 0-1 Arsenal en el partidazo de la fecha.\nY no fue la única sorpresa: Brighton se llevó los tres puntos del Etihad (Man. City 0-1 Brighton) y Everton pegó en Newcastle (0-1).\nChelsea, en cambio, cumplió y le ganó 2-0 al Man. United en Stamford Bridge.\n¿Cuál fue el resultado que más los sorprendió? 👇\n\n#MarcadorCL #Futbol #PremierLeague #EPL #FutbolInglés",
-  "avisado": true,
-  "aprobado": true,
-  "ig_id": "18098044901467295",
-  "publicado": "2026-11-02T23:10:50+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "ita.1:401874971",
-  "creado": "2026-11-02T19:40:57-03:00",
-  "archivos": [
-   "historias/img/2026-11-02/ita1-atalanta-parma.png"
-  ],
-  "titulo": "Atalanta 0–3 Parma",
-  "liga": "ita.1",
-  "enviado": true,
-  "ig_id": "17876461827650203",
-  "publicado": "2026-11-02T22:41:21+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "chi.1:401850678",
-  "creado": "2026-11-02T20:10:23-03:00",
-  "archivos": [
-   "historias/img/2026-11-02/chi1-deportes-limache-audax-italiano.png"
-  ],
-  "titulo": "Deportes Limache 2–0 Audax Italiano",
-  "liga": "chi.1",
-  "enviado": true,
-  "error": "400 {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,131,555,473,759,825 cannot be found.\",\"fbtrace_id\":\"AMsQ0vmfbF16Fj1h1nndbGd\"}}",
-  "intentos": 1,
-  "ig_id": "18451047769134843",
-  "publicado": "2026-11-02T23:21:09+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "arg.1:401841657",
-  "creado": "2026-11-02T21:08:45-03:00",
-  "archivos": [
-   "historias/img/2026-11-02/arg1-defensa-y-justicia-independiente.png"
-  ],
-  "titulo": "Defensa y Justicia 1–1 Independiente",
-  "liga": "arg.1",
-  "enviado": true,
-  "ig_id": "18639287686047797",
-  "publicado": "2026-11-03T00:09:09+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "arg.1:401841649",
-  "creado": "2026-11-02T21:08:45-03:00",
-  "archivos": [
-   "historias/img/2026-11-02/arg1-platense-central-cordoba-santiago-del-estero.png"
-  ],
-  "titulo": "Platense 2–0 Central Córdoba (Santiago del Estero)",
-  "liga": "arg.1",
-  "enviado": true,
-  "ig_id": "18133273201684022",
-  "publicado": "2026-11-03T00:09:09+00:00"
- },
- {
-  "tipo": "resumen",
-  "clave": "esp.1:2026-10-30",
-  "creado": "2026-11-02T22:06:33-03:00",
-  "archivos": [
-   "historias/img/2026-11-02/esp1-20261030-1.png",
-   "historias/img/2026-11-02/esp1-20261030-2.png"
-  ],
-  "titulo": "esp.1 30 de octubre al 2 de noviembre",
-  "liga": "esp.1",
-  "fase": "",
-  "rango": "30 de octubre al 2 de noviembre",
-  "partidos": [
-   {
-    "dia": "Vie 30",
-    "local": "Villarreal",
-    "visita": "Espanyol",
-    "gl": 0,
-    "gv": 1
-   },
-   {
-    "dia": "Sáb 31",
-    "local": "Levante",
-    "visita": "Atlético",
-    "gl": 0,
-    "gv": 2
-   },
-   {
-    "dia": "Sáb 31",
-    "local": "Rayo",
-    "visita": "Celta",
-    "gl": 3,
-    "gv": 0
-   },
-   {
-    "dia": "Sáb 31",
-    "local": "Betis",
-    "visita": "Málaga",
-    "gl": 2,
-    "gv": 1
-   },
-   {
-    "dia": "Sáb 31",
-    "local": "Barcelona",
-    "visita": "Alavés",
-    "gl": 6,
-    "gv": 1
-   },
-   {
-    "dia": "Dom 1",
-    "local": "Getafe",
-    "visita": "Sevilla",
-    "gl": 3,
-    "gv": 1
-   },
-   {
-    "dia": "Dom 1",
-    "local": "Racing",
-    "visita": "Real Madrid",
-    "gl": 0,
-    "gv": 3
-   },
-   {
-    "dia": "Dom 1",
-    "local": "Elche",
-    "visita": "Valencia",
-    "gl": 0,
-    "gv": 1
-   },
-   {
-    "dia": "Dom 1",
-    "local": "Athletic",
-    "visita": "Real Sociedad",
-    "gl": 2,
-    "gv": 1
-   },
-   {
-    "dia": "Lun 2",
-    "local": "Deportivo",
-    "visita": "Osasuna",
-    "gl": 2,
-    "gv": 1
-   }
-  ],
-  "sin_tabla": false,
-  "enviado": true,
-  "texto": "¡El Barça no tuvo piedad! 🔥 Goleada 6-1 al Alavés y fin de semana redondo en LaLiga.\nEl Real Madrid también cumplió y le ganó 3-0 al Racing de visita, mientras el Atlético sacó un 2-0 en cancha del Levante.\nOjo con la sorpresa del viernes: el Espanyol se llevó los tres puntos de Villarreal (0-1).\n¿Quién te impresionó más esta fecha? 👇\n\n#MarcadorCL #Futbol #LaLiga #LaLigaEA #FutbolEspañol",
-  "avisado": true,
-  "aprobado": true,
-  "error": "400 {\"error\":{\"message\":\"Media ID is not available\",\"type\":\"OAuthException\",\"code\":9007,\"error_subcode\":2207027,\"is_transient\":false,\"error_user_title\":\"Cannot Publish\",\"error_user_msg\":\"The media is not ready for publishing, please wait for a moment\",\"fbtrace_id\":\"AfxdEcDkI4vWL4_EJa1Nb7J\"}}",
-  "intentos": 1,
-  "ig_id": "18234797806325347",
-  "publicado": "2026-11-03T02:14:43+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "chi.1:401850679",
   "creado": "2026-11-02T22:35:19-03:00",
   "archivos": [
@@ -5563,5 +5311,82 @@
   "enviado": true,
   "ig_id": "18101950385431091",
   "publicado": "2026-11-25T19:48:29+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915291",
+  "creado": "2026-11-25T19:15:00-03:00",
+  "archivos": [
+   "historias/img/2026-11-25/uefachampions-atletico-viking-fk.png"
+  ],
+  "titulo": "Atlético 2–0 Viking FK",
+  "liga": "uefa.champions",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915292",
+  "creado": "2026-11-25T19:15:00-03:00",
+  "archivos": [
+   "historias/img/2026-11-25/uefachampions-club-brujas-liverpool.png"
+  ],
+  "titulo": "Club Brujas 0–3 Liverpool",
+  "liga": "uefa.champions",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915376",
+  "creado": "2026-11-25T19:15:00-03:00",
+  "archivos": [
+   "historias/img/2026-11-25/uefachampions-inter-vfb-stuttgart.png"
+  ],
+  "titulo": "Inter 2–0 VfB Stuttgart",
+  "liga": "uefa.champions",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915377",
+  "creado": "2026-11-25T19:15:00-03:00",
+  "archivos": [
+   "historias/img/2026-11-25/uefachampions-lille-bayern.png"
+  ],
+  "titulo": "Lille 2–1 Bayern",
+  "liga": "uefa.champions",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915374",
+  "creado": "2026-11-25T19:15:00-03:00",
+  "archivos": [
+   "historias/img/2026-11-25/uefachampions-psg-as-roma.png"
+  ],
+  "titulo": "PSG 2–2 AS Roma",
+  "liga": "uefa.champions",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915375",
+  "creado": "2026-11-25T19:15:00-03:00",
+  "archivos": [
+   "historias/img/2026-11-25/uefachampions-shakhtar-donetsk-fenerbahce.png"
+  ],
+  "titulo": "Shakhtar Donetsk 0–1 Fenerbahçe",
+  "liga": "uefa.champions",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.champions:401915373",
+  "creado": "2026-11-25T19:15:00-03:00",
+  "archivos": [
+   "historias/img/2026-11-25/uefachampions-sporting-cp-man-united.png"
+  ],
+  "titulo": "Sporting CP 2–2 Man. United",
+  "liga": "uefa.champions",
+  "enviado": false
  }
 ]

@@ -1,1 +1,335 @@
-[]
+[
+ {
+  "id": "uefachampions-atletico-viking-fk",
+  "liga": "uefa.champions",
+  "fase": "",
+  "fecha": "2026-11-25",
+  "local": "Atlético",
+  "visita": "Viking FK",
+  "gl": 2,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "19'",
+    "jugador": "Alexander Sørloth",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "24'",
+    "jugador": "Julián Álvarez",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "46'",
+    "jugador": "Gianni Stensness",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+1'",
+    "jugador": "Henrik Falchener",
+    "lado": "visita",
+    "tipo": "roja"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "uefachampions-club-brujas-liverpool",
+  "liga": "uefa.champions",
+  "fase": "",
+  "fecha": "2026-11-25",
+  "local": "Club Brujas",
+  "visita": "Liverpool",
+  "gl": 0,
+  "gv": 3,
+  "goles": [
+   {
+    "min": "13'",
+    "jugador": "Alexander Isak",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "79'",
+    "jugador": "Florian Wirtz",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "82'",
+    "jugador": "Alexander Isak",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "uefachampions-inter-vfb-stuttgart",
+  "liga": "uefa.champions",
+  "fase": "",
+  "fecha": "2026-11-25",
+  "local": "Inter",
+  "visita": "VfB Stuttgart",
+  "gl": 2,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "57'",
+    "jugador": "Petar Sucic",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "74'",
+    "jugador": "Lautaro Martínez",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "13'",
+    "jugador": "Marcus Thuram",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "48'",
+    "jugador": "Finn Jeltsch",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "78'",
+    "jugador": "Manuel Akanji",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "uefachampions-lille-bayern",
+  "liga": "uefa.champions",
+  "fase": "",
+  "fecha": "2026-11-25",
+  "local": "Lille",
+  "visita": "Bayern",
+  "gl": 2,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "15'",
+    "jugador": "Dayot Upamecano",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "62'",
+    "jugador": "Ayase Ueda",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "65'",
+    "jugador": "Aleksandar Pavlovic",
+    "lado": "local",
+    "penal": false,
+    "autogol": true
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "53'",
+    "jugador": "Konrad Laimer",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "uefachampions-psg-as-roma",
+  "liga": "uefa.champions",
+  "fase": "",
+  "fecha": "2026-11-25",
+  "local": "PSG",
+  "visita": "AS Roma",
+  "gl": 2,
+  "gv": 2,
+  "goles": [
+   {
+    "min": "5'",
+    "jugador": "Mario Hermoso",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "31'",
+    "jugador": "Illia Zabarnyi",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "62'",
+    "jugador": "Ousmane Dembélé",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "78'",
+    "jugador": "Donyell Malen",
+    "lado": "visita",
+    "penal": true,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "41'",
+    "jugador": "Gianluca Mancini",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "60'",
+    "jugador": "Wesley",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ },
+ {
+  "id": "uefachampions-shakhtar-donetsk-fenerbahce",
+  "liga": "uefa.champions",
+  "fase": "",
+  "fecha": "2026-11-25",
+  "local": "Shakhtar Donetsk",
+  "visita": "Fenerbahçe",
+  "gl": 0,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "56'",
+    "jugador": "Vedat Muriqi",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "53'",
+    "jugador": "Ismail Yüksek",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "69'",
+    "jugador": "Valeriy Bondar",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "73'",
+    "jugador": "Pedrinho",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "uefachampions-sporting-cp-man-united",
+  "liga": "uefa.champions",
+  "fase": "",
+  "fecha": "2026-11-25",
+  "local": "Sporting CP",
+  "visita": "Man. United",
+  "gl": 2,
+  "gv": 2,
+  "goles": [
+   {
+    "min": "33'",
+    "jugador": "Luis Suárez",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "48'",
+    "jugador": "Bruno Fernandes",
+    "lado": "visita",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "50'",
+    "jugador": "Bruno Fernandes",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "80'",
+    "jugador": "Luis Suárez",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "31'",
+    "jugador": "Senne Lammens",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "53'",
+    "jugador": "Eduardo Quaresma",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "87'",
+    "jugador": "Nestory Irankunda",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+3'",
+    "jugador": "Youri Tielemans",
+    "lado": "visita",
+    "tipo": "doble"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]
