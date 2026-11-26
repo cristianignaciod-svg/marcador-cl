@@ -1,21 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "uefa.champions:401915307",
-  "creado": "2026-11-03T19:01:40-03:00",
-  "archivos": [
-   "historias/img/2026-11-03/uefachampions-feyenoord-rotterdam-inter.png"
-  ],
-  "titulo": "Feyenoord Rotterdam 0–3 Inter",
-  "liga": "uefa.champions",
-  "enviado": true,
-  "error": "400 {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,131,778,019,759,825 cannot be found.\",\"fbtrace_id\":\"AND8Do50MRaSZNQ2sbplTxK\"}}",
-  "intentos": 1,
-  "ig_id": "18139309801632958",
-  "publicado": "2026-11-03T22:14:01+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "uefa.champions:401915385",
   "creado": "2026-11-03T19:01:40-03:00",
   "archivos": [
@@ -5412,5 +5397,16 @@
   "enviado": true,
   "ig_id": "17969378144980551",
   "publicado": "2026-11-26T19:44:08+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915506",
+  "creado": "2026-11-26T17:44:41-03:00",
+  "archivos": [
+   "historias/img/2026-11-26/uefaeuropa-besiktas-hapoel-be-er.png"
+  ],
+  "titulo": "Besiktas 2–1 Hapoel Be'er",
+  "liga": "uefa.europa",
+  "enviado": false
  }
 ]
