@@ -5212,7 +5212,9 @@
   ],
   "titulo": "Crystal Palace 2–1 Real Sociedad",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18152001109601902",
+  "publicado": "2026-11-26T22:02:47+00:00"
  },
  {
   "tipo": "historia",
@@ -5223,7 +5225,9 @@
   ],
   "titulo": "Ferencvaros 0–0 NK Celje",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18111952025274467",
+  "publicado": "2026-11-26T22:02:47+00:00"
  },
  {
   "tipo": "historia",
@@ -5234,7 +5238,9 @@
   ],
   "titulo": "Juventus 4–1 Omonia Nicosia",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18406194610202592",
+  "publicado": "2026-11-26T22:02:47+00:00"
  },
  {
   "tipo": "historia",
@@ -5245,7 +5251,9 @@
   ],
   "titulo": "Lyon 0–0 Lillestrom",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18504437968096812",
+  "publicado": "2026-11-26T22:02:47+00:00"
  },
  {
   "tipo": "historia",
@@ -5256,7 +5264,9 @@
   ],
   "titulo": "NEC Nijmegen 3–1 Stade Rennais",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18088308068333774",
+  "publicado": "2026-11-26T22:02:47+00:00"
  },
  {
   "tipo": "historia",
@@ -5267,7 +5277,9 @@
   ],
   "titulo": "OFI Crete 1–3 Anderlecht",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18170402872483037",
+  "publicado": "2026-11-26T22:02:47+00:00"
  },
  {
   "tipo": "historia",
@@ -5278,7 +5290,9 @@
   ],
   "titulo": "Sparta Prague 2–4 AZ Alkmaar",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": false,
+  "error": "400 {\"error\":{\"message\":\"The requested resource does not exist\",\"type\":\"OAuthException\",\"code\":24,\"error_subcode\":2207006,\"is_transient\":false,\"error_user_title\":\"Media Not Found\",\"error_user_msg\":\"The media with 18,137,181,403,759,825 cannot be found.\",\"fbtrace_id\":\"ARcD6Gjwr7Da1iE5SIg_xOH\"}}",
+  "intentos": 1
  },
  {
   "tipo": "historia",
@@ -5289,7 +5303,9 @@
   ],
   "titulo": "Sunderland 1–1 Jagiellonia Bialystok",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17970137424226324",
+  "publicado": "2026-11-26T22:02:47+00:00"
  },
  {
   "tipo": "historia",
@@ -5300,7 +5316,9 @@
   ],
   "titulo": "Torreense 1–2 Celtic",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18350542024250611",
+  "publicado": "2026-11-26T22:02:47+00:00"
  },
  {
   "tipo": "historia",
@@ -5311,6 +5329,8 @@
   ],
   "titulo": "TSG Hoffenheim 3–1 SK Sturm Graz",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17986070727134380",
+  "publicado": "2026-11-26T22:02:47+00:00"
  }
 ]
