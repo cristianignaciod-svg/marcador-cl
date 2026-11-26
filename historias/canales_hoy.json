@@ -1,25 +1,147 @@
 {
- "fecha": "2026-11-25",
+ "fecha": "2026-11-26",
  "fuentes": [
-  "https://www.alairelibre.cl/futbol/partidos-de-hoy-en-tv-miercoles-25-de-noviembre-2026/",
-  "https://www.futbolenvivochile.com/",
-  "https://www.pauta.cl/deportes/2026/11/25/psg-vs-roma-donde-ver-en-vivo-y-online-la-champions-league.html",
-  "https://www.prensafutbol.cl/psg-roma-hora-donde-ver-champions-league-2026/",
-  "https://bolavip.com/champions-league/donde-ver-en-vivo-sabah-fk-vs-barcelona-por-la-jornada-5-de-la-champions-league-tv-y-streaming-online",
-  "https://bolavip.com/champions-league/donde-ver-en-vivo-slavia-praga-vs-villarreal-por-la-jornada-5-de-la-champions-league-tv-y-streaming-online",
-  "https://duplos.cl/deportes/champions-league-24-25-noviembre-2026-horarios-chile-barcelona-real-madrid-betis-9300f2fe7e/285748/2026/11/23/"
+  "https://www.alairelibre.cl/futbol/partidos-de-hoy-en-tv-jueves-26-de-noviembre-2026/",
+  "https://www.futbolenvivochile.com/competicion/europa-league",
+  "https://www.fotmob.com/de/tv-guide/cl",
+  "https://www.alairelibre.cl/futbol/crystal-palace-vs-real-sociedad-horario-donde-ver-europa-league-2026/",
+  "https://bolavip.com/europa-league/donde-ver-en-vivo-celta-vs-bournemouth-por-la-jornada-5-de-la-europa-league-tv-y-streaming-online",
+  "https://bolavip.com/europa-league/donde-ver-en-vivo-marseille-vs-levski-sofia-por-la-jornada-5-de-la-europa-league-tv-y-streaming-online",
+  "https://bolavip.com/europa-league/donde-ver-en-vivo-zagreb-vs-leverkusen-por-la-jornada-5-de-la-europa-league-tv-y-streaming-online",
+  "https://bolavip.com/europa-league/donde-ver-en-vivo-besiktas-vs-hapoel-por-la-jornada-5-de-la-europa-league-tv-y-streaming-online"
  ],
  "partidos": [
-  {"local": "Sabah", "visita": "Barcelona", "tv": "ESPN Premium · Disney+ Premium", "verificado": "2_fuentes"},
-  {"local": "Slavia Praga", "visita": "Villarreal", "tv": "ESPN · Disney+ Premium", "verificado": "2_fuentes"},
-  {"local": "PSG", "visita": "Roma", "tv": "ESPN · Disney+ Premium", "verificado": "2_fuentes"},
-  {"local": "Atlético Madrid", "visita": "Viking", "tv": "Disney+ Premium", "verificado": "2_fuentes"},
-  {"local": "Inter", "visita": "Stuttgart", "tv": "ESPN 4 · Disney+ Premium", "verificado": "2_fuentes"},
-  {"local": "Sporting", "visita": "Man. United", "tv": "ESPN 7 · Disney+ Premium", "verificado": "2_fuentes"},
-  {"local": "Club Brujas", "visita": "Liverpool", "tv": "ESPN 2 · Disney+ Premium", "verificado": "2_fuentes"},
-  {"local": "Lille", "visita": "Bayern", "tv": "ESPN 5 · ESPN Premium · Disney+ Premium", "verificado": "2_fuentes"},
-  {"local": "Shakhtar", "visita": "Fenerbahçe", "tv": "Disney+ Premium", "verificado": "2_fuentes"},
-  {"local": "Atlético-MG", "visita": "Corinthians", "tv": "Fanatiz", "verificado": "2_fuentes"}
+  {
+   "local": "Celta",
+   "visita": "Bournemouth",
+   "tv": "ESPN 4 · Disney+ Premium",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Olympiacos",
+   "visita": "Milan",
+   "tv": "ESPN 2 · Disney+ Premium",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Viktoria Plzen",
+   "visita": "Benfica",
+   "tv": "ESPN · Disney+ Premium",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Marsella",
+   "visita": "Levski Sofia",
+   "tv": "ESPN 5 · Disney+ Premium",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Dinamo Zagreb",
+   "visita": "Bayer Leverkusen",
+   "tv": "ESPN 3 · Disney+ Premium",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Salzburg",
+   "visita": "Ararat-Armenia",
+   "tv": "ESPN 7 · Disney+ Premium",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Besiktas",
+   "visita": "Hapoel Beer Sheva",
+   "tv": "Disney+ Premium",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Union St.-Gilloise",
+   "visita": "Lech Poznan",
+   "tv": "Disney+ Premium",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Juventus",
+   "visita": "Omonia",
+   "tv": "ESPN · Disney+ Premium",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Sunderland",
+   "visita": "Jagiellonia",
+   "tv": "ESPN 4 · Disney+ Premium",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Hoffenheim",
+   "visita": "Sturm Graz",
+   "tv": "Disney+ Premium",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "NEC",
+   "visita": "Rennes",
+   "tv": "ESPN 7 · Disney+ Premium",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Lyon",
+   "visita": "Lillestrøm",
+   "tv": "ESPN 3 · Disney+ Premium",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Sparta Praga",
+   "visita": "AZ Alkmaar",
+   "tv": "ESPN 2 · Disney+ Premium",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Crystal Palace",
+   "visita": "Real Sociedad",
+   "tv": "Disney+ Premium",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Ferencváros",
+   "visita": "Celje",
+   "tv": "Disney+ Premium",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "OFI Creta",
+   "visita": "Anderlecht",
+   "tv": "Disney+ Premium",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Torreense",
+   "visita": "Celtic",
+   "tv": "Disney+ Premium",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "Santiago Wanderers",
+   "visita": "Recoleta",
+   "tv": "HBO Max",
+   "verificado": "2_fuentes"
+  },
+  {
+   "local": "São Paulo",
+   "visita": "Remo",
+   "tv": "Fanatiz",
+   "verificado": "2_fuentes"
+  }
  ],
- "conflictos": []
+ "conflictos": [
+  {
+   "local": "Crystal Palace",
+   "visita": "Real Sociedad",
+   "detalle": "Canal ESPN en disputa: la nota de Al Aire Libre dice ESPN 2; la agenda de Al Aire Libre, FutbolEnVivoChile y FotMob dicen ESPN 5. Solo se publica Disney+ Premium (coinciden todas)."
+  },
+  {
+   "local": "Santiago Wanderers",
+   "visita": "Recoleta",
+   "detalle": "Al Aire Libre indica MAX; FotMob indica TNT Sports Premium · HBO Max. Se publica solo HBO Max (coinciden ambas)."
+  }
+ ]
 }
