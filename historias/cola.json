@@ -5331,7 +5331,9 @@
   ],
   "titulo": "Celta 1–2 Bournemouth",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18225627724342996",
+  "publicado": "2026-11-26T19:44:08+00:00"
  },
  {
   "tipo": "historia",
@@ -5342,7 +5344,9 @@
   ],
   "titulo": "Dinamo Zagreb 0–2 Leverkusen",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17911434495669375",
+  "publicado": "2026-11-26T19:44:08+00:00"
  },
  {
   "tipo": "historia",
@@ -5353,7 +5357,9 @@
   ],
   "titulo": "Marseille 1–0 Levski Sofia",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18119452661589749",
+  "publicado": "2026-11-26T19:44:08+00:00"
  },
  {
   "tipo": "historia",
@@ -5364,7 +5370,9 @@
   ],
   "titulo": "Olympiacos 2–4 Milan",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18117278615177204",
+  "publicado": "2026-11-26T19:44:08+00:00"
  },
  {
   "tipo": "historia",
@@ -5375,7 +5383,9 @@
   ],
   "titulo": "RB Salzburg 2–0 Ararat-Armenia",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17889273171504933",
+  "publicado": "2026-11-26T19:44:08+00:00"
  },
  {
   "tipo": "historia",
@@ -5386,7 +5396,9 @@
   ],
   "titulo": "Union St.-Gilloise 2–2 Lech Poznan",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "18122751649987389",
+  "publicado": "2026-11-26T19:44:08+00:00"
  },
  {
   "tipo": "historia",
@@ -5397,6 +5409,8 @@
   ],
   "titulo": "Viktoria Plzen 4–0 Benfica",
   "liga": "uefa.europa",
-  "enviado": false
+  "enviado": true,
+  "ig_id": "17969378144980551",
+  "publicado": "2026-11-26T19:44:08+00:00"
  }
 ]
