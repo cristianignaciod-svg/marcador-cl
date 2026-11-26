@@ -1,214 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "uefa.champions:401915385",
-  "creado": "2026-11-03T19:01:40-03:00",
-  "archivos": [
-   "historias/img/2026-11-03/uefachampions-lask-linz-slovan-bratislava.png"
-  ],
-  "titulo": "LASK Linz 4–0 Slovan Bratislava",
-  "liga": "uefa.champions",
-  "enviado": true,
-  "ig_id": "18059775326562342",
-  "publicado": "2026-11-03T22:02:20+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "uefa.champions:401915308",
-  "creado": "2026-11-03T19:01:40-03:00",
-  "archivos": [
-   "historias/img/2026-11-03/uefachampions-man-united-as-roma.png"
-  ],
-  "titulo": "Man. United 3–2 AS Roma",
-  "liga": "uefa.champions",
-  "enviado": true,
-  "ig_id": "17898363006416462",
-  "publicado": "2026-11-03T22:02:20+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "uefa.champions:401915309",
-  "creado": "2026-11-03T19:01:40-03:00",
-  "archivos": [
-   "historias/img/2026-11-03/uefachampions-villarreal-psg.png"
-  ],
-  "titulo": "Villarreal 0–6 PSG",
-  "liga": "uefa.champions",
-  "enviado": true,
-  "ig_id": "18137458369660234",
-  "publicado": "2026-11-03T22:02:20+00:00"
- },
- {
-  "tipo": "resumen",
-  "clave": "uefa.champions:2026-11-03",
-  "creado": "2026-11-03T19:01:40-03:00",
-  "archivos": [
-   "historias/img/2026-11-03/uefachampions-20261103-1.png",
-   "historias/img/2026-11-03/uefachampions-20261103-2.png",
-   "historias/img/2026-11-03/uefachampions-20261103-3.png"
-  ],
-  "titulo": "uefa.champions 3 de noviembre",
-  "liga": "uefa.champions",
-  "fase": "",
-  "rango": "3 de noviembre",
-  "partidos": [
-   {
-    "dia": "Mar 3",
-    "local": "Galatasaray",
-    "visita": "VfB Stuttgart",
-    "gl": 2,
-    "gv": 0
-   },
-   {
-    "dia": "Mar 3",
-    "local": "Shakhtar Donetsk",
-    "visita": "Sporting CP",
-    "gl": 0,
-    "gv": 1
-   },
-   {
-    "dia": "Mar 3",
-    "local": "Atlético",
-    "visita": "Bayern",
-    "gl": 0,
-    "gv": 2
-   },
-   {
-    "dia": "Mar 3",
-    "local": "Barcelona",
-    "visita": "Aston Villa",
-    "gl": 3,
-    "gv": 0
-   },
-   {
-    "dia": "Mar 3",
-    "local": "Bodo/Glimt",
-    "visita": "Lille",
-    "gl": 0,
-    "gv": 0
-   },
-   {
-    "dia": "Mar 3",
-    "local": "Feyenoord Rotterdam",
-    "visita": "Inter",
-    "gl": 0,
-    "gv": 3
-   },
-   {
-    "dia": "Mar 3",
-    "local": "LASK Linz",
-    "visita": "Slovan Bratislava",
-    "gl": 4,
-    "gv": 0
-   },
-   {
-    "dia": "Mar 3",
-    "local": "Man. United",
-    "visita": "AS Roma",
-    "gl": 3,
-    "gv": 2
-   },
-   {
-    "dia": "Mar 3",
-    "local": "Villarreal",
-    "visita": "PSG",
-    "gl": 0,
-    "gv": 6
-   }
-  ],
-  "sin_tabla": false,
-  "enviado": true,
-  "texto": "¡Noche de Champions con paliza incluida! 🔥 El PSG pasó por encima del Villarreal en España: 0-6.\nEl Bayern se impuso 2-0 al Atlético en Madrid y el Barcelona despachó 3-0 al Aston Villa.\nEn Old Trafford, el Man. United le ganó un partidazo a la Roma por 3-2.\n¿Cuál fue el resultado que más te sorprendió? 👇\n\n#MarcadorCL #Futbol #ChampionsLeague #UCL #FutbolEuropeo",
-  "avisado": true,
-  "aprobado": true,
-  "ig_id": "18396081169205148",
-  "publicado": "2026-11-03T22:23:55+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "agenda:2026-11-04",
-  "creado": "2026-11-04T09:21:23-03:00",
-  "archivos": [
-   "historias/img/2026-11-04/agenda-2026-11-04-1.png",
-   "historias/img/2026-11-04/agenda-2026-11-04-2.png"
-  ],
-  "titulo": "Hoy se juega (10 partidos)",
-  "liga": "agenda",
-  "enviado": true,
-  "ig_id": "18370087678301427",
-  "publicado": "2026-11-04T12:21:53+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "uefa.europa:401915551",
-  "creado": "2026-11-04T14:36:53-03:00",
-  "archivos": [
-   "historias/img/2026-11-04/uefaeuropa-stade-rennais-olympiacos.png"
-  ],
-  "titulo": "Stade Rennais 0–0 Olympiacos",
-  "liga": "uefa.europa",
-  "enviado": true,
-  "ig_id": "18108484175258253",
-  "publicado": "2026-11-04T17:37:15+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "uefa.champions:401915383",
-  "creado": "2026-11-04T16:59:52-03:00",
-  "archivos": [
-   "historias/img/2026-11-04/uefachampions-aek-athens-real-madrid.png"
-  ],
-  "titulo": "AEK Athens 2–3 Real Madrid",
-  "liga": "uefa.champions",
-  "enviado": true,
-  "error": "400 {\"error\":{\"message\":\"Media ID is not available\",\"type\":\"OAuthException\",\"code\":9007,\"error_subcode\":2207027,\"is_transient\":false,\"error_user_title\":\"Cannot Publish\",\"error_user_msg\":\"The media is not ready for publishing, please wait for a moment\",\"fbtrace_id\":\"ABRVr9f94Evib8nFDmO-CoB\"}}",
-  "intentos": 1,
-  "ig_id": "17994178959066287",
-  "publicado": "2026-11-04T20:10:11+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "uefa.champions:401915382",
-  "creado": "2026-11-04T16:59:52-03:00",
-  "archivos": [
-   "historias/img/2026-11-04/uefachampions-fenerbahce-liverpool.png"
-  ],
-  "titulo": "Fenerbahçe 3–2 Liverpool",
-  "liga": "uefa.champions",
-  "enviado": true,
-  "ig_id": "18116356262035354",
-  "publicado": "2026-11-04T20:00:09+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "uefa.champions:401915301",
-  "creado": "2026-11-04T18:55:01-03:00",
-  "archivos": [
-   "historias/img/2026-11-04/uefachampions-fc-porto-napoli.png"
-  ],
-  "titulo": "FC Porto 4–1 Napoli",
-  "liga": "uefa.champions",
-  "enviado": true,
-  "error": "400 {\"error\":{\"message\":\"Only photo or video can be accepted as media type.\",\"type\":\"OAuthException\",\"code\":9004,\"error_subcode\":2207052,\"is_transient\":false,\"error_user_title\":\"Media download has failed. The media URI doesn't meet our requirements.\",\"error_user_msg\":\"The media could not be fetched ",
-  "intentos": 1,
-  "ig_id": "18065704973523294",
-  "publicado": "2026-11-04T22:05:05+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "uefa.champions:401915304",
-  "creado": "2026-11-04T19:14:32-03:00",
-  "archivos": [
-   "historias/img/2026-11-04/uefachampions-borussia-dortmund-betis.png"
-  ],
-  "titulo": "Borussia Dortmund 2–1 Betis",
-  "liga": "uefa.champions",
-  "enviado": true,
-  "ig_id": "18127664044854317",
-  "publicado": "2026-11-04T22:15:07+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "uefa.champions:401915305",
   "creado": "2026-11-04T19:14:32-03:00",
   "archivos": [
@@ -5410,5 +5202,115 @@
   "enviado": true,
   "ig_id": "17951889795361364",
   "publicado": "2026-11-26T20:45:05+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915504",
+  "creado": "2026-11-26T19:02:07-03:00",
+  "archivos": [
+   "historias/img/2026-11-26/uefaeuropa-crystal-palace-real-sociedad.png"
+  ],
+  "titulo": "Crystal Palace 2–1 Real Sociedad",
+  "liga": "uefa.europa",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915516",
+  "creado": "2026-11-26T19:02:07-03:00",
+  "archivos": [
+   "historias/img/2026-11-26/uefaeuropa-ferencvaros-nk-celje.png"
+  ],
+  "titulo": "Ferencvaros 0–0 NK Celje",
+  "liga": "uefa.europa",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915502",
+  "creado": "2026-11-26T19:02:07-03:00",
+  "archivos": [
+   "historias/img/2026-11-26/uefaeuropa-juventus-omonia-nicosia.png"
+  ],
+  "titulo": "Juventus 4–1 Omonia Nicosia",
+  "liga": "uefa.europa",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915501",
+  "creado": "2026-11-26T19:02:07-03:00",
+  "archivos": [
+   "historias/img/2026-11-26/uefaeuropa-lyon-lillestrom.png"
+  ],
+  "titulo": "Lyon 0–0 Lillestrom",
+  "liga": "uefa.europa",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915505",
+  "creado": "2026-11-26T19:02:07-03:00",
+  "archivos": [
+   "historias/img/2026-11-26/uefaeuropa-nec-nijmegen-stade-rennais.png"
+  ],
+  "titulo": "NEC Nijmegen 3–1 Stade Rennais",
+  "liga": "uefa.europa",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915503",
+  "creado": "2026-11-26T19:02:07-03:00",
+  "archivos": [
+   "historias/img/2026-11-26/uefaeuropa-ofi-crete-anderlecht.png"
+  ],
+  "titulo": "OFI Crete 1–3 Anderlecht",
+  "liga": "uefa.europa",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915514",
+  "creado": "2026-11-26T19:02:07-03:00",
+  "archivos": [
+   "historias/img/2026-11-26/uefaeuropa-sparta-prague-az-alkmaar.png"
+  ],
+  "titulo": "Sparta Prague 2–4 AZ Alkmaar",
+  "liga": "uefa.europa",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915513",
+  "creado": "2026-11-26T19:02:07-03:00",
+  "archivos": [
+   "historias/img/2026-11-26/uefaeuropa-sunderland-jagiellonia-bialystok.png"
+  ],
+  "titulo": "Sunderland 1–1 Jagiellonia Bialystok",
+  "liga": "uefa.europa",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915512",
+  "creado": "2026-11-26T19:02:07-03:00",
+  "archivos": [
+   "historias/img/2026-11-26/uefaeuropa-torreense-celtic.png"
+  ],
+  "titulo": "Torreense 1–2 Celtic",
+  "liga": "uefa.europa",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915515",
+  "creado": "2026-11-26T19:02:07-03:00",
+  "archivos": [
+   "historias/img/2026-11-26/uefaeuropa-tsg-hoffenheim-sk-sturm-graz.png"
+  ],
+  "titulo": "TSG Hoffenheim 3–1 SK Sturm Graz",
+  "liga": "uefa.europa",
+  "enviado": false
  }
 ]

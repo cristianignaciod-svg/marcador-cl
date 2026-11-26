@@ -1,1 +1,622 @@
-[]
+[
+ {
+  "id": "uefaeuropa-crystal-palace-real-sociedad",
+  "liga": "uefa.europa",
+  "fase": "",
+  "fecha": "2026-11-26",
+  "local": "Crystal Palace",
+  "visita": "Real Sociedad",
+  "gl": 2,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "66'",
+    "jugador": "Mamadou Sarr",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "73'",
+    "jugador": "Jean-Philippe Mateta",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "81'",
+    "jugador": "Dwight McNeil",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "31'",
+    "jugador": "Axel Disasi",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "71'",
+    "jugador": "Jon Martín",
+    "lado": "visita",
+    "tipo": "doble"
+   },
+   {
+    "min": "72'",
+    "jugador": "Unai Marrero",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "75'",
+    "jugador": "Yéremy Pino",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "75'",
+    "jugador": "Mikel Oyarzabal",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+1'",
+    "jugador": "Carlos Soler",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "uefaeuropa-ferencvaros-nk-celje",
+  "liga": "uefa.europa",
+  "fase": "",
+  "fecha": "2026-11-26",
+  "local": "Ferencvaros",
+  "visita": "NK Celje",
+  "gl": 0,
+  "gv": 0,
+  "goles": [],
+  "tarjetas": [
+   {
+    "min": "42'",
+    "jugador": "Artemijus Tutyskinas",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "uefaeuropa-juventus-omonia-nicosia",
+  "liga": "uefa.europa",
+  "fase": "",
+  "fecha": "2026-11-26",
+  "local": "Juventus",
+  "visita": "Omonia Nicosia",
+  "gl": 4,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "15'",
+    "jugador": "Lubomir Satka",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "37'",
+    "jugador": "Andrea Cambiaso",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "43'",
+    "jugador": "Jeff Ekhator",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "68'",
+    "jugador": "Francisco Conceição",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "73'",
+    "jugador": "Jérémie Boga",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "10'",
+    "jugador": "Florin Tanase",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "34'",
+    "jugador": "Jhon Lucumí",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "81'",
+    "jugador": "Jure Balkovec",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "uefaeuropa-lyon-lillestrom",
+  "liga": "uefa.europa",
+  "fase": "",
+  "fecha": "2026-11-26",
+  "local": "Lyon",
+  "visita": "Lillestrom",
+  "gl": 0,
+  "gv": 0,
+  "goles": [],
+  "tarjetas": [
+   {
+    "min": "43'",
+    "jugador": "Vá",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "49'",
+    "jugador": "Gustav Nyheim",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "53'",
+    "jugador": "Steeve Kango",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "86'",
+    "jugador": "Zachary Athekame",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "uefaeuropa-nec-nijmegen-stade-rennais",
+  "liga": "uefa.europa",
+  "fase": "",
+  "fecha": "2026-11-26",
+  "local": "NEC Nijmegen",
+  "visita": "Stade Rennais",
+  "gl": 3,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "29'",
+    "jugador": "Bryan Linssen",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "36'",
+    "jugador": "Adrien Thomasson",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "81'",
+    "jugador": "Tjaronn Chery",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "89'",
+    "jugador": "Clement Bischoff",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "15'",
+    "jugador": "Deveron Fonville",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "56'",
+    "jugador": "Adrien Thomasson",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "59'",
+    "jugador": "Abdelhamid Aït Boudlal",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "83'",
+    "jugador": "Willum Thór Willumsson",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+1'",
+    "jugador": "Charlie Cresswell",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+2'",
+    "jugador": "Kevin Kers",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": []
+ },
+ {
+  "id": "uefaeuropa-ofi-crete-anderlecht",
+  "liga": "uefa.europa",
+  "fase": "",
+  "fecha": "2026-11-26",
+  "local": "OFI Crete",
+  "visita": "Anderlecht",
+  "gl": 1,
+  "gv": 3,
+  "goles": [
+   {
+    "min": "20'",
+    "jugador": "Tawfik Bentayeb",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "39'",
+    "jugador": "Thelo Aasgaard",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "54'",
+    "jugador": "Taxiarchis Fountas",
+    "lado": "local",
+    "penal": true,
+    "autogol": false
+   },
+   {
+    "min": "90+5'",
+    "jugador": "Adriano Bertaccini",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "11'",
+    "jugador": "Konstantinos Kostoulas",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "65'",
+    "jugador": "Ali Maamar",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "67'",
+    "jugador": "Mihajlo Cvetkovic",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "69'",
+    "jugador": "Nicolaos Athanasiou",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "69'",
+    "jugador": "Giulian Biancone",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "84'",
+    "jugador": "Mario Stroeykens",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+4'",
+    "jugador": "Giannis Theodosoulakis",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "uefaeuropa-sparta-prague-az-alkmaar",
+  "liga": "uefa.europa",
+  "fase": "",
+  "fecha": "2026-11-26",
+  "local": "Sparta Prague",
+  "visita": "AZ Alkmaar",
+  "gl": 2,
+  "gv": 4,
+  "goles": [
+   {
+    "min": "4'",
+    "jugador": "Jonatan Brunes",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "27'",
+    "jugador": "Patrik Vydra",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "52'",
+    "jugador": "Peer Koopmeiners",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "68'",
+    "jugador": "Ro-Zangelo Daal",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "73'",
+    "jugador": "Ayoub Oufkir",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "84'",
+    "jugador": "Ayoub Oufkir",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "44'",
+    "jugador": "Josimar Alcócer",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "58'",
+    "jugador": "Peer Koopmeiners",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "64'",
+    "jugador": "Ayoub Oufkir",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+2'",
+    "jugador": "Wesley Hoedt",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "uefaeuropa-sunderland-jagiellonia-bialystok",
+  "liga": "uefa.europa",
+  "fase": "",
+  "fecha": "2026-11-26",
+  "local": "Sunderland",
+  "visita": "Jagiellonia Bialystok",
+  "gl": 1,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "47'",
+    "jugador": "Tymur Tutierov",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "52'",
+    "jugador": "Kamil Jozwiak",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "37'",
+    "jugador": "Chris Rigg",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "67'",
+    "jugador": "Eryk Kozlowski",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "81'",
+    "jugador": "Jeremy Agbonifo",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "uefaeuropa-torreense-celtic",
+  "liga": "uefa.europa",
+  "fase": "",
+  "fecha": "2026-11-26",
+  "local": "Torreense",
+  "visita": "Celtic",
+  "gl": 1,
+  "gv": 2,
+  "goles": [
+   {
+    "min": "9'",
+    "jugador": "Javier Vazquez",
+    "lado": "visita",
+    "penal": false,
+    "autogol": true
+   },
+   {
+    "min": "19'",
+    "jugador": "Dany Jean",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "84'",
+    "jugador": "Camilo Durán",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "35'",
+    "jugador": "Jota",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "40'",
+    "jugador": "Javier Vazquez",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "61'",
+    "jugador": "Mohamed Diadié",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "71'",
+    "jugador": "Jonathan Mutombo",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "uefaeuropa-tsg-hoffenheim-sk-sturm-graz",
+  "liga": "uefa.europa",
+  "fase": "",
+  "fecha": "2026-11-26",
+  "local": "TSG Hoffenheim",
+  "visita": "SK Sturm Graz",
+  "gl": 3,
+  "gv": 1,
+  "goles": [
+   {
+    "min": "43'",
+    "jugador": "Oumar Diakité",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "72'",
+    "jugador": "Adam Hlozek",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "80'",
+    "jugador": "Bambasé Conté",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "90'",
+    "jugador": "Max Moerstedt",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "5'",
+    "jugador": "Luís Balbo",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "56'",
+    "jugador": "Albert Vallci",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "89'",
+    "jugador": "Jon Gorenc Stankovic",
+    "lado": "visita",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]
