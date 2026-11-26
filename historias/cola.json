@@ -1,97 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "arg.1:401841652",
-  "creado": "2026-11-02T23:24:51-03:00",
-  "archivos": [
-   "historias/img/2026-11-02/arg1-independiente-rivadavia-banfield.png"
-  ],
-  "titulo": "Independiente Rivadavia 3–1 Banfield",
-  "liga": "arg.1",
-  "enviado": true,
-  "ig_id": "18112901714156058",
-  "publicado": "2026-11-03T02:25:28+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "agenda:2026-11-03",
-  "creado": "2026-11-03T09:21:17-03:00",
-  "archivos": [
-   "historias/img/2026-11-03/agenda-2026-11-03-1.png"
-  ],
-  "titulo": "Hoy se juega (9 partidos)",
-  "liga": "agenda",
-  "enviado": true,
-  "ig_id": "18138651550734072",
-  "publicado": "2026-11-03T12:21:43+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "uefa.champions:401915311",
-  "creado": "2026-11-03T16:47:35-03:00",
-  "archivos": [
-   "historias/img/2026-11-03/uefachampions-galatasaray-vfb-stuttgart.png"
-  ],
-  "titulo": "Galatasaray 2–0 VfB Stuttgart",
-  "liga": "uefa.champions",
-  "enviado": true,
-  "ig_id": "18135545083739700",
-  "publicado": "2026-11-03T19:48:09+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "uefa.champions:401915310",
-  "creado": "2026-11-03T16:47:35-03:00",
-  "archivos": [
-   "historias/img/2026-11-03/uefachampions-shakhtar-donetsk-sporting-cp.png"
-  ],
-  "titulo": "Shakhtar Donetsk 0–1 Sporting CP",
-  "liga": "uefa.champions",
-  "enviado": true,
-  "ig_id": "18100969367386706",
-  "publicado": "2026-11-03T19:48:09+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "uefa.champions:401915386",
-  "creado": "2026-11-03T19:01:40-03:00",
-  "archivos": [
-   "historias/img/2026-11-03/uefachampions-atletico-bayern.png"
-  ],
-  "titulo": "Atlético 0–2 Bayern",
-  "liga": "uefa.champions",
-  "enviado": true,
-  "ig_id": "17977416033154712",
-  "publicado": "2026-11-03T22:02:20+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "uefa.champions:401915387",
-  "creado": "2026-11-03T19:01:40-03:00",
-  "archivos": [
-   "historias/img/2026-11-03/uefachampions-barcelona-aston-villa.png"
-  ],
-  "titulo": "Barcelona 3–0 Aston Villa",
-  "liga": "uefa.champions",
-  "enviado": true,
-  "ig_id": "18641245579034194",
-  "publicado": "2026-11-03T22:02:20+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "uefa.champions:401915384",
-  "creado": "2026-11-03T19:01:40-03:00",
-  "archivos": [
-   "historias/img/2026-11-03/uefachampions-bodo-glimt-lille.png"
-  ],
-  "titulo": "Bodo/Glimt 0–0 Lille",
-  "liga": "uefa.champions",
-  "enviado": true,
-  "ig_id": "17868023673679713",
-  "publicado": "2026-11-03T22:02:20+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "uefa.champions:401915307",
   "creado": "2026-11-03T19:01:40-03:00",
   "archivos": [
@@ -5412,5 +5321,82 @@
   "enviado": true,
   "ig_id": "18136239445765442",
   "publicado": "2026-11-26T12:23:38+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915519",
+  "creado": "2026-11-26T16:43:09-03:00",
+  "archivos": [
+   "historias/img/2026-11-26/uefaeuropa-celta-bournemouth.png"
+  ],
+  "titulo": "Celta 1–2 Bournemouth",
+  "liga": "uefa.europa",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915517",
+  "creado": "2026-11-26T16:43:09-03:00",
+  "archivos": [
+   "historias/img/2026-11-26/uefaeuropa-dinamo-zagreb-leverkusen.png"
+  ],
+  "titulo": "Dinamo Zagreb 0–2 Leverkusen",
+  "liga": "uefa.europa",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915507",
+  "creado": "2026-11-26T16:43:09-03:00",
+  "archivos": [
+   "historias/img/2026-11-26/uefaeuropa-marseille-levski-sofia.png"
+  ],
+  "titulo": "Marseille 1–0 Levski Sofia",
+  "liga": "uefa.europa",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915521",
+  "creado": "2026-11-26T16:43:09-03:00",
+  "archivos": [
+   "historias/img/2026-11-26/uefaeuropa-olympiacos-milan.png"
+  ],
+  "titulo": "Olympiacos 2–4 Milan",
+  "liga": "uefa.europa",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915520",
+  "creado": "2026-11-26T16:43:09-03:00",
+  "archivos": [
+   "historias/img/2026-11-26/uefaeuropa-rb-salzburg-ararat-armenia.png"
+  ],
+  "titulo": "RB Salzburg 2–0 Ararat-Armenia",
+  "liga": "uefa.europa",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915508",
+  "creado": "2026-11-26T16:43:09-03:00",
+  "archivos": [
+   "historias/img/2026-11-26/uefaeuropa-union-st-gilloise-lech-poznan.png"
+  ],
+  "titulo": "Union St.-Gilloise 2–2 Lech Poznan",
+  "liga": "uefa.europa",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "uefa.europa:401915518",
+  "creado": "2026-11-26T16:43:09-03:00",
+  "archivos": [
+   "historias/img/2026-11-26/uefaeuropa-viktoria-plzen-benfica.png"
+  ],
+  "titulo": "Viktoria Plzen 4–0 Benfica",
+  "liga": "uefa.europa",
+  "enviado": false
  }
 ]
