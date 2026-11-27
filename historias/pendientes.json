@@ -1,138 +1,90 @@
 [
  {
-  "tipo": "resumen",
-  "id": "uefaeuropa-20261126",
-  "liga": "uefa.europa",
+  "id": "ger1-werder-bremen-borussia-monchengladbach",
+  "liga": "ger.1",
   "fase": "",
-  "fecha": "2026-11-26",
-  "rango": "26 de noviembre",
-  "partidos": [
+  "fecha": "2026-11-27",
+  "local": "Werder Bremen",
+  "visita": "Borussia Monchengladbach",
+  "gl": 3,
+  "gv": 3,
+  "goles": [
    {
-    "dia": "Jue 26",
-    "local": "Besiktas",
-    "visita": "Hapoel Be'er",
-    "gl": 2,
-    "gv": 1
+    "min": "27'",
+    "jugador": "Kevin Diks",
+    "lado": "visita",
+    "penal": true,
+    "autogol": false
    },
    {
-    "dia": "Jue 26",
-    "local": "Celta",
-    "visita": "Bournemouth",
-    "gl": 1,
-    "gv": 2
+    "min": "38'",
+    "jugador": "Eren Dinkci",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
    },
    {
-    "dia": "Jue 26",
-    "local": "Dinamo Zagreb",
-    "visita": "Leverkusen",
-    "gl": 0,
-    "gv": 2
+    "min": "46'",
+    "jugador": "Franck Honorat",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
    },
    {
-    "dia": "Jue 26",
-    "local": "Marseille",
-    "visita": "Levski Sofia",
-    "gl": 1,
-    "gv": 0
+    "min": "78'",
+    "jugador": "Franck Honorat",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
    },
    {
-    "dia": "Jue 26",
-    "local": "Olympiacos",
-    "visita": "Milan",
-    "gl": 2,
-    "gv": 4
+    "min": "85'",
+    "jugador": "Eren Dinkci",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
    },
    {
-    "dia": "Jue 26",
-    "local": "RB Salzburg",
-    "visita": "Ararat-Armenia",
-    "gl": 2,
-    "gv": 0
-   },
-   {
-    "dia": "Jue 26",
-    "local": "Union St.-Gilloise",
-    "visita": "Lech Poznan",
-    "gl": 2,
-    "gv": 2
-   },
-   {
-    "dia": "Jue 26",
-    "local": "Viktoria Plzen",
-    "visita": "Benfica",
-    "gl": 4,
-    "gv": 0
-   },
-   {
-    "dia": "Jue 26",
-    "local": "Crystal Palace",
-    "visita": "Real Sociedad",
-    "gl": 2,
-    "gv": 1
-   },
-   {
-    "dia": "Jue 26",
-    "local": "Ferencvaros",
-    "visita": "NK Celje",
-    "gl": 0,
-    "gv": 0
-   },
-   {
-    "dia": "Jue 26",
-    "local": "Juventus",
-    "visita": "Omonia Nicosia",
-    "gl": 4,
-    "gv": 1
-   },
-   {
-    "dia": "Jue 26",
-    "local": "Lyon",
-    "visita": "Lillestrom",
-    "gl": 0,
-    "gv": 0
-   },
-   {
-    "dia": "Jue 26",
-    "local": "NEC Nijmegen",
-    "visita": "Stade Rennais",
-    "gl": 3,
-    "gv": 1
-   },
-   {
-    "dia": "Jue 26",
-    "local": "OFI Crete",
-    "visita": "Anderlecht",
-    "gl": 1,
-    "gv": 3
-   },
-   {
-    "dia": "Jue 26",
-    "local": "Sparta Prague",
-    "visita": "AZ Alkmaar",
-    "gl": 2,
-    "gv": 4
-   },
-   {
-    "dia": "Jue 26",
-    "local": "Sunderland",
-    "visita": "Jagiellonia Bialystok",
-    "gl": 1,
-    "gv": 1
-   },
-   {
-    "dia": "Jue 26",
-    "local": "Torreense",
-    "visita": "Celtic",
-    "gl": 1,
-    "gv": 2
-   },
-   {
-    "dia": "Jue 26",
-    "local": "TSG Hoffenheim",
-    "visita": "SK Sturm Graz",
-    "gl": 3,
-    "gv": 1
+    "min": "90+2'",
+    "jugador": "Niclas Füllkrug",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
    }
-  ]
+  ],
+  "tarjetas": [
+   {
+    "min": "36'",
+    "jugador": "Jens Castrop",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "44'",
+    "jugador": "Niclas Füllkrug",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "44'",
+    "jugador": "Philipp Sander",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "55'",
+    "jugador": "Shuto Machino",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "57'",
+    "jugador": "Mick Schmetgens",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
  }
 ]

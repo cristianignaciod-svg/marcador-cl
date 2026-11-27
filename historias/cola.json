@@ -1,19 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "uefa.champions:401915306",
-  "creado": "2026-11-04T19:14:32-03:00",
-  "archivos": [
-   "historias/img/2026-11-04/uefachampions-rb-leipzig-man-city.png"
-  ],
-  "titulo": "RB Leipzig 2–3 Man. City",
-  "liga": "uefa.champions",
-  "enviado": true,
-  "ig_id": "18019652807952306",
-  "publicado": "2026-11-04T22:15:07+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "uefa.champions:401915381",
   "creado": "2026-11-04T19:14:32-03:00",
   "archivos": [
@@ -5463,6 +5450,17 @@
    }
   ],
   "sin_tabla": true,
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "ger.1:401884720",
+  "creado": "2026-11-27T19:14:14-03:00",
+  "archivos": [
+   "historias/img/2026-11-27/ger1-werder-bremen-borussia-monchengladbach.png"
+  ],
+  "titulo": "Werder Bremen 3–3 Borussia Monchengladbach",
+  "liga": "ger.1",
   "enviado": false
  }
 ]
