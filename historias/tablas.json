@@ -628,10 +628,26 @@
        "color": "#81D6AC"
       },
       {
+       "equipo": "Racing",
+       "largo": "Racing Santander",
+       "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
+       "pos": 6,
+       "pj": 14,
+       "g": 6,
+       "e": 2,
+       "p": 6,
+       "gf": 23,
+       "gc": 33,
+       "dg": -10,
+       "pts": 20,
+       "zona": "Europa League",
+       "color": "#c6d1e0"
+      },
+      {
        "equipo": "Sevilla",
        "largo": "Sevilla FC",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
-       "pos": 6,
+       "pos": 7,
        "pj": 13,
        "g": 5,
        "e": 4,
@@ -640,22 +656,6 @@
        "gc": 20,
        "dg": -2,
        "pts": 19,
-       "zona": "Europa League",
-       "color": "#c6d1e0"
-      },
-      {
-       "equipo": "Racing",
-       "largo": "Racing Santander",
-       "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
-       "pos": 7,
-       "pj": 13,
-       "g": 5,
-       "e": 2,
-       "p": 6,
-       "gf": 20,
-       "gc": 32,
-       "dg": -12,
-       "pts": 17,
        "zona": "Conference League qualifying",
        "color": "#B2BFD0"
       },
@@ -776,13 +776,13 @@
        "largo": "Levante",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
        "pos": 15,
-       "pj": 13,
+       "pj": 14,
        "g": 2,
        "e": 6,
-       "p": 5,
-       "gf": 17,
-       "gc": 22,
-       "dg": -5,
+       "p": 6,
+       "gf": 18,
+       "gc": 25,
+       "dg": -7,
        "pts": 12,
        "zona": null,
        "color": null
@@ -870,12 +870,11 @@
      ]
     }
    ],
-   "actualizado": "2026-11-23T19:50-03:00",
+   "actualizado": "2026-11-27T19:54-03:00",
    "fuentes": [
     "ESPN",
     "FotMob"
-   ],
-   "pendiente": "Racing: ESPN 17 pts/13 PJ, FotMob 20 pts/14 PJ"
+   ]
   },
   "eng.1": {
    "nombre": "Premier League",
@@ -1000,13 +999,13 @@
        "largo": "Chelsea",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
        "pos": 8,
-       "pj": 11,
+       "pj": 12,
        "g": 5,
        "e": 1,
-       "p": 5,
-       "gf": 20,
-       "gc": 20,
-       "dg": 0,
+       "p": 6,
+       "gf": 22,
+       "gc": 23,
+       "dg": -1,
        "pts": 16,
        "zona": null,
        "color": null
@@ -1092,10 +1091,26 @@
        "color": null
       },
       {
+       "equipo": "Nottingham F.",
+       "largo": "Nottingham Forest",
+       "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
+       "pos": 14,
+       "pj": 12,
+       "g": 3,
+       "e": 3,
+       "p": 6,
+       "gf": 12,
+       "gc": 17,
+       "dg": -5,
+       "pts": 12,
+       "zona": null,
+       "color": null
+      },
+      {
        "equipo": "Coventry",
        "largo": "Coventry City",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
-       "pos": 14,
+       "pos": 15,
        "pj": 11,
        "g": 4,
        "e": 0,
@@ -1111,7 +1126,7 @@
        "equipo": "Fulham",
        "largo": "Fulham",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
-       "pos": 15,
+       "pos": 16,
        "pj": 11,
        "g": 2,
        "e": 5,
@@ -1127,7 +1142,7 @@
        "equipo": "Ipswich",
        "largo": "Ipswich Town",
        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png",
-       "pos": 16,
+       "pos": 17,
        "pj": 11,
        "g": 3,
        "e": 2,
@@ -1136,22 +1151,6 @@
        "gc": 22,
        "dg": -7,
        "pts": 11,
-       "zona": null,
-       "color": null
-      },
-      {
-       "equipo": "Nottingham F.",
-       "largo": "Nottingham Forest",
-       "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
-       "pos": 17,
-       "pj": 11,
-       "g": 2,
-       "e": 3,
-       "p": 6,
-       "gf": 9,
-       "gc": 15,
-       "dg": -6,
-       "pts": 9,
        "zona": null,
        "color": null
       },
@@ -1206,12 +1205,11 @@
      ]
     }
    ],
-   "actualizado": "2026-11-23T19:50-03:00",
+   "actualizado": "2026-11-27T19:54-03:00",
    "fuentes": [
     "ESPN",
     "FotMob"
-   ],
-   "pendiente": "Chelsea: ESPN 16 pts/11 PJ, FotMob 16 pts/12 PJ"
+   ]
   },
   "ger.1": {
    "nombre": "Bundesliga",
