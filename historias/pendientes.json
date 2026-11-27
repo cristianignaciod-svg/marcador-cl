@@ -1,1 +1,138 @@
-[]
+[
+ {
+  "tipo": "resumen",
+  "id": "uefaeuropa-20261126",
+  "liga": "uefa.europa",
+  "fase": "",
+  "fecha": "2026-11-26",
+  "rango": "26 de noviembre",
+  "partidos": [
+   {
+    "dia": "Jue 26",
+    "local": "Besiktas",
+    "visita": "Hapoel Be'er",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "dia": "Jue 26",
+    "local": "Celta",
+    "visita": "Bournemouth",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "dia": "Jue 26",
+    "local": "Dinamo Zagreb",
+    "visita": "Leverkusen",
+    "gl": 0,
+    "gv": 2
+   },
+   {
+    "dia": "Jue 26",
+    "local": "Marseille",
+    "visita": "Levski Sofia",
+    "gl": 1,
+    "gv": 0
+   },
+   {
+    "dia": "Jue 26",
+    "local": "Olympiacos",
+    "visita": "Milan",
+    "gl": 2,
+    "gv": 4
+   },
+   {
+    "dia": "Jue 26",
+    "local": "RB Salzburg",
+    "visita": "Ararat-Armenia",
+    "gl": 2,
+    "gv": 0
+   },
+   {
+    "dia": "Jue 26",
+    "local": "Union St.-Gilloise",
+    "visita": "Lech Poznan",
+    "gl": 2,
+    "gv": 2
+   },
+   {
+    "dia": "Jue 26",
+    "local": "Viktoria Plzen",
+    "visita": "Benfica",
+    "gl": 4,
+    "gv": 0
+   },
+   {
+    "dia": "Jue 26",
+    "local": "Crystal Palace",
+    "visita": "Real Sociedad",
+    "gl": 2,
+    "gv": 1
+   },
+   {
+    "dia": "Jue 26",
+    "local": "Ferencvaros",
+    "visita": "NK Celje",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "dia": "Jue 26",
+    "local": "Juventus",
+    "visita": "Omonia Nicosia",
+    "gl": 4,
+    "gv": 1
+   },
+   {
+    "dia": "Jue 26",
+    "local": "Lyon",
+    "visita": "Lillestrom",
+    "gl": 0,
+    "gv": 0
+   },
+   {
+    "dia": "Jue 26",
+    "local": "NEC Nijmegen",
+    "visita": "Stade Rennais",
+    "gl": 3,
+    "gv": 1
+   },
+   {
+    "dia": "Jue 26",
+    "local": "OFI Crete",
+    "visita": "Anderlecht",
+    "gl": 1,
+    "gv": 3
+   },
+   {
+    "dia": "Jue 26",
+    "local": "Sparta Prague",
+    "visita": "AZ Alkmaar",
+    "gl": 2,
+    "gv": 4
+   },
+   {
+    "dia": "Jue 26",
+    "local": "Sunderland",
+    "visita": "Jagiellonia Bialystok",
+    "gl": 1,
+    "gv": 1
+   },
+   {
+    "dia": "Jue 26",
+    "local": "Torreense",
+    "visita": "Celtic",
+    "gl": 1,
+    "gv": 2
+   },
+   {
+    "dia": "Jue 26",
+    "local": "TSG Hoffenheim",
+    "visita": "SK Sturm Graz",
+    "gl": 3,
+    "gv": 1
+   }
+  ]
+ }
+]
