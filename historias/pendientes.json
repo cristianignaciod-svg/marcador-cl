@@ -1,1 +1,42 @@
-[]
+[
+ {
+  "tipo": "agenda",
+  "id": "agenda-2026-11-27",
+  "fecha": "2026-11-27",
+  "grupos": [
+   {
+    "liga": "chi.pb",
+    "partidos": [
+     {
+      "hora": "20:00",
+      "local": "Antofagasta",
+      "visita": "Deportes Copiapó",
+      "tv": "HBO Max"
+     }
+    ]
+   },
+   {
+    "liga": "esp.1",
+    "partidos": [
+     {
+      "hora": "17:00",
+      "local": "Levante",
+      "visita": "Racing",
+      "tv": "ESPN 4 · Disney+ Premium"
+     }
+    ]
+   },
+   {
+    "liga": "eng.1",
+    "partidos": [
+     {
+      "hora": "17:00",
+      "local": "Nottingham F.",
+      "visita": "Chelsea",
+      "tv": "ESPN · Disney+ Premium"
+     }
+    ]
+   }
+  ]
+ }
+]
