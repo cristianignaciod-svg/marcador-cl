@@ -1,1 +1,174 @@
-[]
+[
+ {
+  "id": "esp1-levante-racing",
+  "liga": "esp.1",
+  "fase": "",
+  "fecha": "2026-11-27",
+  "local": "Levante",
+  "visita": "Racing",
+  "gl": 1,
+  "gv": 3,
+  "goles": [
+   {
+    "min": "42'",
+    "jugador": "Iván Romero",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "66'",
+    "jugador": "Pablo García",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "81'",
+    "jugador": "Yassir Zabiri",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   },
+   {
+    "min": "90+5'",
+    "jugador": "Pablo García",
+    "lado": "visita",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "25'",
+    "jugador": "Pedro Felipe ",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "57'",
+    "jugador": "Dani Requena",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "74'",
+    "jugador": "Iker Luque",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "90+3'",
+    "jugador": "Jon Ander Olasagasti",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "ita1-venezia-bolonia",
+  "liga": "ita.1",
+  "fase": "",
+  "fecha": "2026-11-27",
+  "local": "Venezia",
+  "visita": "Bolonia",
+  "gl": 0,
+  "gv": 0,
+  "goles": [],
+  "tarjetas": [
+   {
+    "min": "15'",
+    "jugador": "Juan Jesus",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "16'",
+    "jugador": "Nadir Zortea",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "22'",
+    "jugador": "Martin Vitík",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "28'",
+    "jugador": "Antoine Hainaut",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "49'",
+    "jugador": "Jens Odgaard",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "78'",
+    "jugador": "Albion Rrahmani",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ },
+ {
+  "id": "fra1-brest-paris-fc",
+  "liga": "fra.1",
+  "fase": "",
+  "fecha": "2026-11-27",
+  "local": "Brest",
+  "visita": "Paris FC",
+  "gl": 1,
+  "gv": 0,
+  "goles": [
+   {
+    "min": "21'",
+    "jugador": "Luc Zogbe",
+    "lado": "local",
+    "penal": false,
+    "autogol": false
+   }
+  ],
+  "tarjetas": [
+   {
+    "min": "2'",
+    "jugador": "Pierre Lees-Melou",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "30'",
+    "jugador": "Lucas Tousart",
+    "lado": "local",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "36'",
+    "jugador": "Luca Koleosho",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "60'",
+    "jugador": "Ilan Kebbal",
+    "lado": "visita",
+    "tipo": "amarilla"
+   },
+   {
+    "min": "78'",
+    "jugador": "Egil Selvik",
+    "lado": "local",
+    "tipo": "amarilla"
+   }
+  ],
+  "anulados": [],
+  "verificado": "ESPN+FotMob"
+ }
+]

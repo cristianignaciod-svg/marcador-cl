@@ -1,118 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "uefa.champions:401915381",
-  "creado": "2026-11-04T19:14:32-03:00",
-  "archivos": [
-   "historias/img/2026-11-04/uefachampions-slavia-prague-arsenal.png"
-  ],
-  "titulo": "Slavia Prague 1–2 Arsenal",
-  "liga": "uefa.champions",
-  "enviado": true,
-  "ig_id": "18099149738393102",
-  "publicado": "2026-11-04T22:15:07+00:00"
- },
- {
-  "tipo": "historia",
-  "clave": "uefa.champions:401915302",
-  "creado": "2026-11-04T19:14:32-03:00",
-  "archivos": [
-   "historias/img/2026-11-04/uefachampions-viking-fk-sabah-fk.png"
-  ],
-  "titulo": "Viking FK 4–1 Sabah FK",
-  "liga": "uefa.champions",
-  "enviado": true,
-  "ig_id": "17980871138922807",
-  "publicado": "2026-11-04T22:15:07+00:00"
- },
- {
-  "tipo": "resumen",
-  "clave": "uefa.champions:2026-11-04",
-  "creado": "2026-11-04T19:14:32-03:00",
-  "archivos": [
-   "historias/img/2026-11-04/uefachampions-20261104-1.png",
-   "historias/img/2026-11-04/uefachampions-20261104-2.png",
-   "historias/img/2026-11-04/uefachampions-20261104-3.png"
-  ],
-  "titulo": "uefa.champions 4 de noviembre",
-  "liga": "uefa.champions",
-  "fase": "",
-  "rango": "4 de noviembre",
-  "partidos": [
-   {
-    "dia": "Mié 4",
-    "local": "AEK Athens",
-    "visita": "Real Madrid",
-    "gl": 2,
-    "gv": 3
-   },
-   {
-    "dia": "Mié 4",
-    "local": "Fenerbahçe",
-    "visita": "Liverpool",
-    "gl": 3,
-    "gv": 2
-   },
-   {
-    "dia": "Mié 4",
-    "local": "Borussia Dortmund",
-    "visita": "Betis",
-    "gl": 2,
-    "gv": 1
-   },
-   {
-    "dia": "Mié 4",
-    "local": "FC Porto",
-    "visita": "Napoli",
-    "gl": 4,
-    "gv": 1
-   },
-   {
-    "dia": "Mié 4",
-    "local": "Lens",
-    "visita": "Como",
-    "gl": 1,
-    "gv": 9
-   },
-   {
-    "dia": "Mié 4",
-    "local": "PSV Eindhoven",
-    "visita": "Club Brujas",
-    "gl": 1,
-    "gv": 2
-   },
-   {
-    "dia": "Mié 4",
-    "local": "RB Leipzig",
-    "visita": "Man. City",
-    "gl": 2,
-    "gv": 3
-   },
-   {
-    "dia": "Mié 4",
-    "local": "Slavia Prague",
-    "visita": "Arsenal",
-    "gl": 1,
-    "gv": 2
-   },
-   {
-    "dia": "Mié 4",
-    "local": "Viking FK",
-    "visita": "Sabah FK",
-    "gl": 4,
-    "gv": 1
-   }
-  ],
-  "sin_tabla": false,
-  "enviado": true,
-  "texto": "¡Noche de locos en la Champions! 🤯 Como le metió 9 a Lens de visita: 1-9 en Francia.\nFenerbahçe sorprendió y le ganó 3-2 a Liverpool, y Porto aplastó 4-1 a Napoli.\nReal Madrid (3-2 ante AEK Athens) y Man. City (3-2 ante RB Leipzig) sufrieron, pero ganaron.\n¿Qué resultado los dejó con la boca abierta? 👇\n\n#MarcadorCL #Futbol #ChampionsLeague #UCL #FutbolEuropeo",
-  "avisado": true,
-  "aprobado": true,
-  "ig_id": "18080393462425385",
-  "publicado": "2026-11-04T23:51:12+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "agenda:2026-11-05",
   "creado": "2026-11-05T09:26:01-03:00",
   "archivos": [
@@ -5464,5 +5352,38 @@
   "enviado": true,
   "ig_id": "18347425102273540",
   "publicado": "2026-11-27T22:14:41+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "esp.1:401882791",
+  "creado": "2026-11-27T19:33:56-03:00",
+  "archivos": [
+   "historias/img/2026-11-27/esp1-levante-racing.png"
+  ],
+  "titulo": "Levante 1–3 Racing",
+  "liga": "esp.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "ita.1:401875004",
+  "creado": "2026-11-27T19:33:56-03:00",
+  "archivos": [
+   "historias/img/2026-11-27/ita1-venezia-bolonia.png"
+  ],
+  "titulo": "Venezia 0–0 Bolonia",
+  "liga": "ita.1",
+  "enviado": false
+ },
+ {
+  "tipo": "historia",
+  "clave": "fra.1:401876392",
+  "creado": "2026-11-27T19:33:56-03:00",
+  "archivos": [
+   "historias/img/2026-11-27/fra1-brest-paris-fc.png"
+  ],
+  "titulo": "Brest 1–0 Paris FC",
+  "liga": "fra.1",
+  "enviado": false
  }
 ]
