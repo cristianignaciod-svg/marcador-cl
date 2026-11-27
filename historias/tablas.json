@@ -874,7 +874,8 @@
    "fuentes": [
     "ESPN",
     "FotMob"
-   ]
+   ],
+   "pendiente": "Racing: ESPN 17 pts/13 PJ, FotMob 18 pts/14 PJ"
   },
   "eng.1": {
    "nombre": "Premier League",
@@ -1209,7 +1210,8 @@
    "fuentes": [
     "ESPN",
     "FotMob"
-   ]
+   ],
+   "pendiente": "Chelsea: ESPN 16 pts/11 PJ, FotMob 16 pts/12 PJ"
   },
   "ger.1": {
    "nombre": "Bundesliga",
@@ -1513,7 +1515,7 @@
     "ESPN",
     "FotMob"
    ],
-   "pendiente": "Werder Bremen: ESPN 18 pts/10 PJ, FotMob 18 pts/11 PJ"
+   "pendiente": "Werder Bremen: ESPN 18 pts/10 PJ, FotMob 19 pts/11 PJ"
   },
   "fra.1": {
    "nombre": "Ligue 1",
@@ -1817,7 +1819,7 @@
     "ESPN",
     "FotMob"
    ],
-   "pendiente": "Paris FC: ESPN 23 pts/11 PJ, FotMob 24 pts/12 PJ"
+   "pendiente": "Paris FC: ESPN 23 pts/11 PJ, FotMob 23 pts/12 PJ"
   },
   "arg.1": {
    "nombre": "Liga Profesional",
