@@ -1,19 +1,6 @@
 [
  {
   "tipo": "historia",
-  "clave": "uefa.europa:401915534",
-  "creado": "2026-11-05T16:50:21-03:00",
-  "archivos": [
-   "historias/img/2026-11-05/uefaeuropa-milan-ferencvaros.png"
-  ],
-  "titulo": "Milan 0–2 Ferencvaros",
-  "liga": "uefa.europa",
-  "enviado": true,
-  "ig_id": "18080399117415719",
-  "publicado": "2026-11-05T19:50:57+00:00"
- },
- {
-  "tipo": "historia",
   "clave": "uefa.europa:401915538",
   "creado": "2026-11-05T16:50:21-03:00",
   "archivos": [
@@ -5392,5 +5379,17 @@
   "enviado": true,
   "ig_id": "18157000183554063",
   "publicado": "2026-11-27T22:44:50+00:00"
+ },
+ {
+  "tipo": "historia",
+  "clave": "chi.pb:fm1000024448",
+  "creado": "2026-11-27T22:08:55-03:00",
+  "archivos": [
+   "historias/img/2026-11-27/chipb-antofagasta-deportes-copiapo.png"
+  ],
+  "titulo": "Antofagasta 2–0 Deportes Copiapó",
+  "liga": "chi.pb",
+  "sin_goleadores": false,
+  "enviado": false
  }
 ]
